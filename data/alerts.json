@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "6.0.0",
+  "generatedAt": "2026-07-09T21:17:49.737Z",
+  "items": [
+    {
+      "id": "dam-release-khadakwasla-dam-water-release-increased-advisory-for-mutha-riverbank-areas-202",
+      "title": "Khadakwasla dam water release increased, advisory for Mutha riverbank areas",
+      "summary": "Authorities advised citizens to avoid riverbanks after increased discharge from Khadakwasla dam.",
+      "category": "dam_release",
+      "severity": "warning",
+      "source": "District Disaster Management",
+      "sourceTrust": "A",
+      "sources": [
+        {
+          "name": "District Disaster Management",
+          "trust": "A",
+          "link": "https://example.com/khadakwasla-release"
+        }
+      ],
+      "link": "https://example.com/khadakwasla-release",
+      "talukas": [],
+      "localities": [
+        "Khadakwasla"
+      ],
+      "operationalZones": [
+        "Mutha River",
+        "Khadakwasla"
+      ],
+      "publishedAt": "2026-07-09T08:00:00+05:30",
+      "lastUpdated": "2026-07-09T08:00:00+05:30",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "River levels may rise downstream.",
+      "recommendedAction": "Avoid riverbanks and follow official advisories.",
+      "relatedEventIds": [
+        "dam-release-water-release-from-khadakwasla-affects-sinhagad-road-and-low-lying-areas-2026-"
+      ]
+    },
+    {
+      "id": "dam-release-water-release-from-khadakwasla-affects-sinhagad-road-and-low-lying-areas-2026-",
+      "title": "Water release from Khadakwasla affects Sinhagad Road and low-lying areas",
+      "summary": "River levels may rise near Sinhagad Road, Dhayari and nearby areas.",
+      "category": "dam_release",
+      "severity": "warning",
+      "source": "Sakal",
+      "sourceTrust": "C",
+      "sources": [
+        {
+          "name": "Sakal",
+          "trust": "C",
+          "link": "https://example.com/sakal-khadakwasla"
+        }
+      ],
+      "link": "https://example.com/sakal-khadakwasla",
+      "talukas": [
+        "haveli"
+      ],
+      "localities": [
+        "Sinhagad Road",
+        "Dhayari",
+        "Khadakwasla"
+      ],
+      "operationalZones": [
+        "Khadakwasla"
+      ],
+      "publishedAt": "2026-07-09T08:10:00+05:30",
+      "lastUpdated": "2026-07-09T08:10:00+05:30",
+      "lifecycle": "active",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "River levels may rise downstream.",
+      "recommendedAction": "Avoid riverbanks and follow official advisories.",
+      "relatedEventIds": [
+        "dam-release-khadakwasla-dam-water-release-increased-advisory-for-mutha-riverbank-areas-202"
+      ]
+    }
+  ]
+}

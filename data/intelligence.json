@@ -1,0 +1,874 @@
+{
+  "schemaVersion": "6.0.0",
+  "generatedAt": "2026-07-09T21:17:49.737Z",
+  "status": "healthy",
+  "situation": {
+    "snapshot": "Heavy rainfall may affect travel in parts of Pune District. Khadakwasla Dam related river conditions may affect downstream areas. Avoid riverbanks. 2 important alerts require attention.",
+    "weather": {
+      "generatedAt": "2026-07-09T21:17:49.817Z",
+      "regions": {
+        "pune_city": {
+          "label": "Pune City",
+          "source": "Sample",
+          "temp": 27,
+          "rain6h": 18,
+          "wind": 32,
+          "visibility": 4,
+          "rainRisk": "Medium",
+          "windRisk": "Low",
+          "visibilityRisk": "Low",
+          "heatRisk": "Normal",
+          "travelImpact": "Medium",
+          "advice": [
+            "Moderate rainfall may slow travel in low-lying areas."
+          ]
+        },
+        "pcmc": {
+          "label": "Pimpri-Chinchwad",
+          "source": "Sample",
+          "temp": 26,
+          "rain6h": 16,
+          "wind": 28,
+          "visibility": 5,
+          "rainRisk": "Medium",
+          "windRisk": "Low",
+          "visibilityRisk": "Low",
+          "heatRisk": "Normal",
+          "travelImpact": "Medium",
+          "advice": [
+            "Moderate rainfall may slow travel in low-lying areas."
+          ]
+        },
+        "mulshi": {
+          "label": "Mulshi",
+          "source": "Sample",
+          "temp": 24,
+          "rain6h": 34,
+          "wind": 42,
+          "visibility": 2,
+          "rainRisk": "High",
+          "windRisk": "Medium",
+          "visibilityRisk": "Medium",
+          "heatRisk": "Normal",
+          "travelImpact": "High",
+          "advice": [
+            "Heavy rainfall may cause waterlogging. Allow extra travel time."
+          ]
+        }
+      }
+    },
+    "changes": [],
+    "environmentalImpact": {
+      "generatedAt": "2026-07-09T21:17:49.819Z",
+      "riskLevel": "Elevated",
+      "impacts": [
+        "3 area(s) have elevated rain-related travel impact.",
+        "1 river or dam related warning(s) may affect downstream areas.",
+        "1 active transport-related event(s) may affect travel."
+      ],
+      "citizenSummary": "3 area(s) have elevated rain-related travel impact. 1 river or dam related warning(s) may affect downstream areas. 1 active transport-related event(s) may affect travel.",
+      "seasonalContext": "monsoon"
+    }
+  },
+  "alerts": [
+    {
+      "id": "dam-release-khadakwasla-dam-water-release-increased-advisory-for-mutha-riverbank-areas-202",
+      "title": "Khadakwasla dam water release increased, advisory for Mutha riverbank areas",
+      "summary": "Authorities advised citizens to avoid riverbanks after increased discharge from Khadakwasla dam.",
+      "category": "dam_release",
+      "severity": "warning",
+      "source": "District Disaster Management",
+      "sourceTrust": "A",
+      "sources": [
+        {
+          "name": "District Disaster Management",
+          "trust": "A",
+          "link": "https://example.com/khadakwasla-release"
+        }
+      ],
+      "link": "https://example.com/khadakwasla-release",
+      "talukas": [],
+      "localities": [
+        "Khadakwasla"
+      ],
+      "operationalZones": [
+        "Mutha River",
+        "Khadakwasla"
+      ],
+      "publishedAt": "2026-07-09T08:00:00+05:30",
+      "lastUpdated": "2026-07-09T08:00:00+05:30",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "River levels may rise downstream.",
+      "recommendedAction": "Avoid riverbanks and follow official advisories.",
+      "relatedEventIds": [
+        "dam-release-water-release-from-khadakwasla-affects-sinhagad-road-and-low-lying-areas-2026-"
+      ]
+    },
+    {
+      "id": "dam-release-water-release-from-khadakwasla-affects-sinhagad-road-and-low-lying-areas-2026-",
+      "title": "Water release from Khadakwasla affects Sinhagad Road and low-lying areas",
+      "summary": "River levels may rise near Sinhagad Road, Dhayari and nearby areas.",
+      "category": "dam_release",
+      "severity": "warning",
+      "source": "Sakal",
+      "sourceTrust": "C",
+      "sources": [
+        {
+          "name": "Sakal",
+          "trust": "C",
+          "link": "https://example.com/sakal-khadakwasla"
+        }
+      ],
+      "link": "https://example.com/sakal-khadakwasla",
+      "talukas": [
+        "haveli"
+      ],
+      "localities": [
+        "Sinhagad Road",
+        "Dhayari",
+        "Khadakwasla"
+      ],
+      "operationalZones": [
+        "Khadakwasla"
+      ],
+      "publishedAt": "2026-07-09T08:10:00+05:30",
+      "lastUpdated": "2026-07-09T08:10:00+05:30",
+      "lifecycle": "active",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "River levels may rise downstream.",
+      "recommendedAction": "Avoid riverbanks and follow official advisories.",
+      "relatedEventIds": [
+        "dam-release-khadakwasla-dam-water-release-increased-advisory-for-mutha-riverbank-areas-202"
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "id": "accident-traffic-slow-near-wakad-after-road-accident-on-highway-stretch-2026-07-09t09-00-0",
+      "title": "Traffic slow near Wakad after road accident on highway stretch",
+      "summary": "A vehicle collision has slowed traffic near Wakad.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Pune Traffic Police",
+      "sourceTrust": "A",
+      "sources": [
+        {
+          "name": "Pune Traffic Police",
+          "trust": "A",
+          "link": "https://example.com/wakad-accident"
+        }
+      ],
+      "link": "https://example.com/wakad-accident",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Wakad"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-07-09T09:00:00+05:30",
+      "lastUpdated": "2026-07-09T09:00:00+05:30",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 73,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "relatedEventIds": []
+    }
+  ],
+  "journeyContext": {
+    "activeRiskEvents": [
+      {
+        "id": "dam-release-khadakwasla-dam-water-release-increased-advisory-for-mutha-riverbank-areas-202",
+        "category": "dam_release",
+        "severity": "warning",
+        "localities": [
+          "Khadakwasla"
+        ],
+        "talukas": [],
+        "operationalZones": [
+          "Mutha River",
+          "Khadakwasla"
+        ],
+        "impact": "River levels may rise downstream."
+      },
+      {
+        "id": "dam-release-water-release-from-khadakwasla-affects-sinhagad-road-and-low-lying-areas-2026-",
+        "category": "dam_release",
+        "severity": "warning",
+        "localities": [
+          "Sinhagad Road",
+          "Dhayari",
+          "Khadakwasla"
+        ],
+        "talukas": [
+          "haveli"
+        ],
+        "operationalZones": [
+          "Khadakwasla"
+        ],
+        "impact": "River levels may rise downstream."
+      },
+      {
+        "id": "accident-traffic-slow-near-wakad-after-road-accident-on-highway-stretch-2026-07-09t09-00-0",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [
+          "Wakad"
+        ],
+        "talukas": [
+          "pcmc"
+        ],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      }
+    ]
+  },
+  "sourceHealth": {},
+  "environmentalContext": {
+    "riverIntelligence": [
+      {
+        "id": "river-khadakwasla-2026-07-09",
+        "dam": "khadakwasla",
+        "damLabel": "Khadakwasla Dam",
+        "river": "Mutha River",
+        "status": "high",
+        "trend": "increasing",
+        "rsi": 75,
+        "severity": "warning",
+        "downstreamLocalities": [
+          "Sinhagad Road",
+          "Dhayari",
+          "Vitthalwadi",
+          "Erandwane",
+          "Deccan",
+          "Sangamwadi"
+        ],
+        "talukas": [
+          "haveli",
+          "pune_city"
+        ],
+        "bridges": [
+          "Rajaram Bridge",
+          "Sangam Bridge"
+        ],
+        "travelSensitivity": "high",
+        "timeline": {
+          "state": "developing",
+          "note": "Khadakwasla Dam release is high.",
+          "updatedAt": "2026-07-09T21:17:49.817Z"
+        },
+        "evidence": [
+          {
+            "source": "Sample Official Advisory",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-09T10:00:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Khadakwasla Dam release may affect downstream areas along Mutha River.",
+        "recommendedAction": "Avoid riverbanks and follow official instructions."
+      },
+      {
+        "id": "river-pawna-2026-07-09",
+        "dam": "pawna",
+        "damLabel": "Pawna Dam",
+        "river": "Pavana River",
+        "status": "elevated",
+        "trend": "stable",
+        "rsi": 35,
+        "severity": "watch",
+        "downstreamLocalities": [
+          "Ravet",
+          "Pimpri",
+          "Chinchwad"
+        ],
+        "talukas": [
+          "maval",
+          "pcmc"
+        ],
+        "bridges": [],
+        "travelSensitivity": "medium",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Pawna Dam release is elevated.",
+          "updatedAt": "2026-07-09T21:17:49.817Z"
+        },
+        "evidence": [
+          {
+            "source": "Sample Official Advisory",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-09T10:15:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Pawna Dam release may affect downstream areas along Pavana River.",
+        "recommendedAction": "Avoid riverbanks and follow official instructions."
+      }
+    ],
+    "seasonalIntelligence": {
+      "generatedAt": "2026-07-09T21:17:49.819Z",
+      "activeSeason": "monsoon",
+      "priorityHazards": [
+        "flood",
+        "dam_release",
+        "waterlogging",
+        "lightning",
+        "landslide",
+        "tree_fall"
+      ],
+      "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
+    },
+    "geographicIntelligence": {
+      "generatedAt": "2026-07-09T21:17:49.818Z",
+      "model": "administrative-ui-operational-backend",
+      "operationalZones": {
+        "river_corridors": [
+          "Mula River",
+          "Mutha River",
+          "Mula-Mutha River",
+          "Indrayani River",
+          "Pavana River",
+          "Bhima River",
+          "Nira River"
+        ],
+        "dam_zones": [
+          "Khadakwasla",
+          "Panshet",
+          "Varasgaon",
+          "Temghar",
+          "Pawna",
+          "Mulshi",
+          "Bhatghar",
+          "Veer"
+        ],
+        "highway_corridors": [
+          "Mumbai-Pune Expressway",
+          "NH48",
+          "Pune-Nashik Highway",
+          "Pune-Solapur Highway",
+          "Pune-Satara Highway",
+          "Pune-Ahmednagar Highway"
+        ],
+        "ghat_zones": [
+          "Tamhini Ghat",
+          "Bhor Ghat",
+          "Varandha Ghat",
+          "Katraj Ghat",
+          "Dive Ghat",
+          "Khambatki Ghat"
+        ],
+        "it_corridors": [
+          "Hinjawadi",
+          "Kharadi",
+          "Magarpatta",
+          "Baner",
+          "Balewadi",
+          "Talawade"
+        ]
+      },
+      "infrastructure": {
+        "highways": [
+          "Mumbai-Pune Expressway",
+          "NH48",
+          "Pune-Nashik Highway",
+          "Pune-Solapur Highway",
+          "Pune-Satara Highway",
+          "Pune-Ahmednagar Highway"
+        ],
+        "ghats": [
+          "Tamhini Ghat",
+          "Bhor Ghat",
+          "Varandha Ghat",
+          "Katraj Ghat",
+          "Dive Ghat",
+          "Khambatki Ghat"
+        ],
+        "emergencyServices": [
+          "Hospitals",
+          "Police Stations",
+          "Fire Stations",
+          "Disaster Management"
+        ],
+        "transport": [
+          "Pune Railway Station",
+          "Shivajinagar Station",
+          "Pune Metro",
+          "Pune Airport",
+          "MSRTC Bus Stations"
+        ]
+      },
+      "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
+    },
+    "criticalInfrastructure": {
+      "generatedAt": "2026-07-09T21:17:49.819Z",
+      "mode": "on-demand",
+      "relevantDomains": [
+        "bridges",
+        "highways"
+      ],
+      "infrastructure": {
+        "highways": [
+          "Mumbai-Pune Expressway",
+          "NH48",
+          "Pune-Nashik Highway",
+          "Pune-Solapur Highway",
+          "Pune-Satara Highway",
+          "Pune-Ahmednagar Highway"
+        ],
+        "ghats": [
+          "Tamhini Ghat",
+          "Bhor Ghat",
+          "Varandha Ghat",
+          "Katraj Ghat",
+          "Dive Ghat",
+          "Khambatki Ghat"
+        ],
+        "emergencyServices": [
+          "Hospitals",
+          "Police Stations",
+          "Fire Stations",
+          "Disaster Management"
+        ],
+        "transport": [
+          "Pune Railway Station",
+          "Shivajinagar Station",
+          "Pune Metro",
+          "Pune Airport",
+          "MSRTC Bus Stations"
+        ]
+      }
+    }
+  },
+  "journeyIntelligence": {
+    "journeys": [
+      {
+        "id": "sample-kharadi-hinjawadi",
+        "start": "Kharadi",
+        "destination": "Hinjawadi",
+        "departure": "now",
+        "generatedAt": "2026-07-09T21:17:49.897Z",
+        "bestRoute": {
+          "id": "kharadi-hinjawadi-pashan",
+          "label": "Kharadi to Hinjawadi via Pashan",
+          "fromAliases": [
+            "Kharadi",
+            "EON"
+          ],
+          "toAliases": [
+            "Hinjawadi",
+            "Hinjewadi"
+          ],
+          "via": [
+            "Kharadi",
+            "Yerwada",
+            "Aundh",
+            "Pashan",
+            "Mahalunge",
+            "Hinjawadi"
+          ],
+          "operationalZones": [
+            "Pashan Road",
+            "IT Corridor"
+          ],
+          "distanceKm": 36,
+          "baseTimeMin": 72,
+          "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 60,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
+            "reasons": [
+              "Moderate rainfall may slow travel.",
+              "Heavy rainfall may reduce travel suitability."
+            ],
+            "penalties": []
+          },
+          "estimatedTimeMin": 87,
+          "estimatedDelayMin": 15,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Moderate rainfall may slow travel."
+        },
+        "routes": [
+          {
+            "id": "kharadi-hinjawadi-pashan",
+            "label": "Kharadi to Hinjawadi via Pashan",
+            "fromAliases": [
+              "Kharadi",
+              "EON"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi"
+            ],
+            "via": [
+              "Kharadi",
+              "Yerwada",
+              "Aundh",
+              "Pashan",
+              "Mahalunge",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pashan Road",
+              "IT Corridor"
+            ],
+            "distanceKm": 36,
+            "baseTimeMin": 72,
+            "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 60,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
+              "reasons": [
+                "Moderate rainfall may slow travel.",
+                "Heavy rainfall may reduce travel suitability."
+              ],
+              "penalties": []
+            },
+            "estimatedTimeMin": 87,
+            "estimatedDelayMin": 15,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Moderate rainfall may slow travel."
+          },
+          {
+            "id": "kharadi-hinjawadi-nh48",
+            "label": "Kharadi to Hinjawadi via NH48",
+            "fromAliases": [
+              "Kharadi",
+              "EON",
+              "World Trade Center"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi",
+              "Rajiv Gandhi Infotech Park"
+            ],
+            "via": [
+              "Kharadi",
+              "Viman Nagar",
+              "Shivajinagar",
+              "Baner",
+              "Wakad",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pune-Ahmednagar Highway",
+              "NH48",
+              "IT Corridor"
+            ],
+            "distanceKm": 33,
+            "baseTimeMin": 65,
+            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 40,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
+              "reasons": [
+                "Traffic slow near Wakad after road accident on highway stretch may cause delays or safety concerns.",
+                "Moderate rainfall may slow travel.",
+                "Heavy rainfall may reduce travel suitability."
+              ],
+              "penalties": [
+                {
+                  "eventId": "accident-traffic-slow-near-wakad-after-road-accident-on-highway-stretch-2026-07-09t09-00-0",
+                  "category": "accident",
+                  "penalty": 20,
+                  "title": "Traffic slow near Wakad after road accident on highway stretch"
+                }
+              ]
+            },
+            "estimatedTimeMin": 90,
+            "estimatedDelayMin": 25,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+            "rank": 2,
+            "recommended": false,
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (40/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Traffic slow near Wakad after road accident on highway stretch may cause delays or safety concerns."
+          }
+        ]
+      },
+      {
+        "id": "sample-pune-lonavala",
+        "start": "Pune",
+        "destination": "Lonavala",
+        "departure": "now",
+        "generatedAt": "2026-07-09T21:17:49.897Z",
+        "bestRoute": {
+          "id": "pune-lonavala-expressway",
+          "label": "Pune to Lonavala via Mumbai-Pune Expressway",
+          "fromAliases": [
+            "Pune",
+            "Shivajinagar",
+            "Pune City"
+          ],
+          "toAliases": [
+            "Lonavala",
+            "Khandala"
+          ],
+          "via": [
+            "Pune",
+            "Wakad",
+            "Somatane",
+            "Talegaon",
+            "Lonavala"
+          ],
+          "operationalZones": [
+            "Mumbai-Pune Expressway",
+            "NH48",
+            "Ghat Zone"
+          ],
+          "distanceKm": 65,
+          "baseTimeMin": 95,
+          "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 40,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
+            "reasons": [
+              "Traffic slow near Wakad after road accident on highway stretch may cause delays or safety concerns.",
+              "Moderate rainfall may slow travel.",
+              "Heavy rainfall may reduce travel suitability."
+            ],
+            "penalties": [
+              {
+                "eventId": "accident-traffic-slow-near-wakad-after-road-accident-on-highway-stretch-2026-07-09t09-00-0",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Traffic slow near Wakad after road accident on highway stretch"
+              }
+            ]
+          },
+          "estimatedTimeMin": 120,
+          "estimatedDelayMin": 25,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (40/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Traffic slow near Wakad after road accident on highway stretch may cause delays or safety concerns."
+        },
+        "routes": [
+          {
+            "id": "pune-lonavala-expressway",
+            "label": "Pune to Lonavala via Mumbai-Pune Expressway",
+            "fromAliases": [
+              "Pune",
+              "Shivajinagar",
+              "Pune City"
+            ],
+            "toAliases": [
+              "Lonavala",
+              "Khandala"
+            ],
+            "via": [
+              "Pune",
+              "Wakad",
+              "Somatane",
+              "Talegaon",
+              "Lonavala"
+            ],
+            "operationalZones": [
+              "Mumbai-Pune Expressway",
+              "NH48",
+              "Ghat Zone"
+            ],
+            "distanceKm": 65,
+            "baseTimeMin": 95,
+            "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 40,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
+              "reasons": [
+                "Traffic slow near Wakad after road accident on highway stretch may cause delays or safety concerns.",
+                "Moderate rainfall may slow travel.",
+                "Heavy rainfall may reduce travel suitability."
+              ],
+              "penalties": [
+                {
+                  "eventId": "accident-traffic-slow-near-wakad-after-road-accident-on-highway-stretch-2026-07-09t09-00-0",
+                  "category": "accident",
+                  "penalty": 20,
+                  "title": "Traffic slow near Wakad after road accident on highway stretch"
+                }
+              ]
+            },
+            "estimatedTimeMin": 120,
+            "estimatedDelayMin": 25,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (40/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Traffic slow near Wakad after road accident on highway stretch may cause delays or safety concerns."
+          }
+        ]
+      },
+      {
+        "id": "sample-swargate-sinhagad",
+        "start": "Swargate",
+        "destination": "Sinhagad Road",
+        "departure": "now",
+        "generatedAt": "2026-07-09T21:17:49.898Z",
+        "bestRoute": {
+          "id": "swargate-sinhagad-road",
+          "label": "Swargate to Sinhagad Road",
+          "fromAliases": [
+            "Swargate",
+            "Pune City"
+          ],
+          "toAliases": [
+            "Sinhagad Road",
+            "Dhayari",
+            "Nanded City"
+          ],
+          "via": [
+            "Swargate",
+            "Sarasbaug",
+            "Dattawadi",
+            "Sinhagad Road",
+            "Dhayari"
+          ],
+          "operationalZones": [
+            "Mutha River",
+            "Khadakwasla Downstream"
+          ],
+          "distanceKm": 13,
+          "baseTimeMin": 35,
+          "mapsQuery": "Swargate to Sinhagad Road Dhayari",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 0,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "reasons": [
+              "Khadakwasla dam water release increased, advisory for Mutha riverbank areas may cause delays or safety concerns.",
+              "Water release from Khadakwasla affects Sinhagad Road and low-lying areas may cause delays or safety concerns.",
+              "Khadakwasla Dam may cause delays or safety concerns.",
+              "Pawna Dam may cause delays or safety concerns.",
+              "Moderate rainfall may slow travel."
+            ],
+            "penalties": [
+              {
+                "eventId": "dam-release-khadakwasla-dam-water-release-increased-advisory-for-mutha-riverbank-areas-202",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Khadakwasla dam water release increased, advisory for Mutha riverbank areas"
+              },
+              {
+                "eventId": "dam-release-water-release-from-khadakwasla-affects-sinhagad-road-and-low-lying-areas-2026-",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Water release from Khadakwasla affects Sinhagad Road and low-lying areas"
+              },
+              {
+                "eventId": "river-khadakwasla-2026-07-09",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Khadakwasla Dam"
+              },
+              {
+                "eventId": "river-pawna-2026-07-09",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Pawna Dam"
+              }
+            ]
+          },
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 45,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Khadakwasla dam water release increased, advisory for Mutha riverbank areas may cause delays or safety concerns."
+        },
+        "routes": [
+          {
+            "id": "swargate-sinhagad-road",
+            "label": "Swargate to Sinhagad Road",
+            "fromAliases": [
+              "Swargate",
+              "Pune City"
+            ],
+            "toAliases": [
+              "Sinhagad Road",
+              "Dhayari",
+              "Nanded City"
+            ],
+            "via": [
+              "Swargate",
+              "Sarasbaug",
+              "Dattawadi",
+              "Sinhagad Road",
+              "Dhayari"
+            ],
+            "operationalZones": [
+              "Mutha River",
+              "Khadakwasla Downstream"
+            ],
+            "distanceKm": 13,
+            "baseTimeMin": 35,
+            "mapsQuery": "Swargate to Sinhagad Road Dhayari",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 0,
+              "label": "Avoid if Possible",
+              "recommendation": "Avoid this route if possible unless travel is essential.",
+              "reasons": [
+                "Khadakwasla dam water release increased, advisory for Mutha riverbank areas may cause delays or safety concerns.",
+                "Water release from Khadakwasla affects Sinhagad Road and low-lying areas may cause delays or safety concerns.",
+                "Khadakwasla Dam may cause delays or safety concerns.",
+                "Pawna Dam may cause delays or safety concerns.",
+                "Moderate rainfall may slow travel."
+              ],
+              "penalties": [
+                {
+                  "eventId": "dam-release-khadakwasla-dam-water-release-increased-advisory-for-mutha-riverbank-areas-202",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "Khadakwasla dam water release increased, advisory for Mutha riverbank areas"
+                },
+                {
+                  "eventId": "dam-release-water-release-from-khadakwasla-affects-sinhagad-road-and-low-lying-areas-2026-",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "Water release from Khadakwasla affects Sinhagad Road and low-lying areas"
+                },
+                {
+                  "eventId": "river-khadakwasla-2026-07-09",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "Khadakwasla Dam"
+                },
+                {
+                  "eventId": "river-pawna-2026-07-09",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "Pawna Dam"
+                }
+              ]
+            },
+            "estimatedTimeMin": 80,
+            "estimatedDelayMin": 45,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Khadakwasla dam water release increased, advisory for Mutha riverbank areas may cause delays or safety concerns."
+          }
+        ]
+      }
+    ]
+  }
+}

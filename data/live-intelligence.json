@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "6.1.0",
+  "generatedAt": "2026-07-09T21:17:49.957Z",
+  "status": "configured",
+  "releaseMode": "production-user-testing",
+  "policy": {
+    "officialFirst": true,
+    "trustedMediaCanCreateDevelopingSituations": true,
+    "trustedMediaCannotCreateConfirmedEmergencyWithoutCorroboration": true,
+    "unverifiedSocialIgnored": true
+  },
+  "sourceHealth": {
+    "official": [
+      {
+        "id": "imd",
+        "name": "India Meteorological Department",
+        "type": "weather",
+        "trust": "A",
+        "url": "https://mausam.imd.gov.in/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "pune_district",
+        "name": "Pune District Administration",
+        "type": "official",
+        "trust": "A+",
+        "url": "https://pune.gov.in/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "pmc",
+        "name": "Pune Municipal Corporation",
+        "type": "civic",
+        "trust": "A",
+        "url": "https://www.pmc.gov.in/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "pcmc",
+        "name": "Pimpri Chinchwad Municipal Corporation",
+        "type": "civic",
+        "trust": "A",
+        "url": "https://www.pcmcindia.gov.in/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "pune_police",
+        "name": "Pune Police",
+        "type": "police",
+        "trust": "A+",
+        "url": "https://punepolice.gov.in/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "nhai",
+        "name": "National Highways Authority of India",
+        "type": "highway",
+        "trust": "A",
+        "url": "https://nhai.gov.in/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "pune_metro",
+        "name": "Pune Metro",
+        "type": "transport",
+        "trust": "A",
+        "url": "https://www.punemetrorail.org/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      }
+    ],
+    "trustedMedia": [
+      {
+        "id": "sakal",
+        "name": "Sakal",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://www.esakal.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "lokmat",
+        "name": "Lokmat",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://www.lokmat.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "loksatta",
+        "name": "Loksatta",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://www.loksatta.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "maharashtra_times",
+        "name": "Maharashtra Times",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://maharashtratimes.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "indian_express_pune",
+        "name": "Indian Express Pune",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://indianexpress.com/section/cities/pune/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "abp_majha",
+        "name": "ABP Majha",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://marathi.abplive.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "tv9_marathi",
+        "name": "TV9 Marathi",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://www.tv9marathi.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "zee_24_taas",
+        "name": "Zee 24 Taas",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://zeenews.india.com/marathi",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      }
+    ]
+  },
+  "liveReadiness": {
+    "officialSourcesConfigured": 7,
+    "trustedMediaSourcesConfigured": 8,
+    "alertsAvailable": 2,
+    "incidentsAvailable": 1,
+    "weatherRegionsAvailable": 3,
+    "journeyAssessmentsAvailable": 3
+  },
+  "developingSituations": [
+    {
+      "id": "dam-release-water-release-from-khadakwasla-affects-sinhagad-road-and-low-lying-areas-2026-",
+      "title": "Water release from Khadakwasla affects Sinhagad Road and low-lying areas",
+      "status": "supporting-signal",
+      "confirmation": "Supporting signal only",
+      "source": "Sakal",
+      "trust": "C",
+      "updatedAt": "2026-07-09T08:10:00+05:30"
+    }
+  ],
+  "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."
+}

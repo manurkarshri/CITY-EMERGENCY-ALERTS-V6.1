@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "6.0.0",
+  "generatedAt": "2026-07-09T21:17:49.737Z",
+  "routes": [],
+  "risks": [
+    {
+      "id": "dam-release-khadakwasla-dam-water-release-increased-advisory-for-mutha-riverbank-areas-202",
+      "category": "dam_release",
+      "severity": "warning",
+      "localities": [
+        "Khadakwasla"
+      ],
+      "talukas": [],
+      "operationalZones": [
+        "Mutha River",
+        "Khadakwasla"
+      ],
+      "impact": "River levels may rise downstream."
+    },
+    {
+      "id": "dam-release-water-release-from-khadakwasla-affects-sinhagad-road-and-low-lying-areas-2026-",
+      "category": "dam_release",
+      "severity": "warning",
+      "localities": [
+        "Sinhagad Road",
+        "Dhayari",
+        "Khadakwasla"
+      ],
+      "talukas": [
+        "haveli"
+      ],
+      "operationalZones": [
+        "Khadakwasla"
+      ],
+      "impact": "River levels may rise downstream."
+    },
+    {
+      "id": "accident-traffic-slow-near-wakad-after-road-accident-on-highway-stretch-2026-07-09t09-00-0",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Wakad"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    }
+  ]
+}

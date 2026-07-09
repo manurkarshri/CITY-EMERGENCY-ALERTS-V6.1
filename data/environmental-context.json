@@ -1,0 +1,286 @@
+{
+  "schemaVersion": "6.0.0",
+  "generatedAt": "2026-07-09T21:17:49.819Z",
+  "weatherIntelligence": {
+    "generatedAt": "2026-07-09T21:17:49.817Z",
+    "regions": {
+      "pune_city": {
+        "label": "Pune City",
+        "source": "Sample",
+        "temp": 27,
+        "rain6h": 18,
+        "wind": 32,
+        "visibility": 4,
+        "rainRisk": "Medium",
+        "windRisk": "Low",
+        "visibilityRisk": "Low",
+        "heatRisk": "Normal",
+        "travelImpact": "Medium",
+        "advice": [
+          "Moderate rainfall may slow travel in low-lying areas."
+        ]
+      },
+      "pcmc": {
+        "label": "Pimpri-Chinchwad",
+        "source": "Sample",
+        "temp": 26,
+        "rain6h": 16,
+        "wind": 28,
+        "visibility": 5,
+        "rainRisk": "Medium",
+        "windRisk": "Low",
+        "visibilityRisk": "Low",
+        "heatRisk": "Normal",
+        "travelImpact": "Medium",
+        "advice": [
+          "Moderate rainfall may slow travel in low-lying areas."
+        ]
+      },
+      "mulshi": {
+        "label": "Mulshi",
+        "source": "Sample",
+        "temp": 24,
+        "rain6h": 34,
+        "wind": 42,
+        "visibility": 2,
+        "rainRisk": "High",
+        "windRisk": "Medium",
+        "visibilityRisk": "Medium",
+        "heatRisk": "Normal",
+        "travelImpact": "High",
+        "advice": [
+          "Heavy rainfall may cause waterlogging. Allow extra travel time."
+        ]
+      }
+    }
+  },
+  "riverIntelligence": [
+    {
+      "id": "river-khadakwasla-2026-07-09",
+      "dam": "khadakwasla",
+      "damLabel": "Khadakwasla Dam",
+      "river": "Mutha River",
+      "status": "high",
+      "trend": "increasing",
+      "rsi": 75,
+      "severity": "warning",
+      "downstreamLocalities": [
+        "Sinhagad Road",
+        "Dhayari",
+        "Vitthalwadi",
+        "Erandwane",
+        "Deccan",
+        "Sangamwadi"
+      ],
+      "talukas": [
+        "haveli",
+        "pune_city"
+      ],
+      "bridges": [
+        "Rajaram Bridge",
+        "Sangam Bridge"
+      ],
+      "travelSensitivity": "high",
+      "timeline": {
+        "state": "developing",
+        "note": "Khadakwasla Dam release is high.",
+        "updatedAt": "2026-07-09T21:17:49.817Z"
+      },
+      "evidence": [
+        {
+          "source": "Sample Official Advisory",
+          "sourceTrust": "A",
+          "type": "official",
+          "observedAt": "2026-07-09T10:00:00+05:30",
+          "link": "",
+          "note": ""
+        }
+      ],
+      "impact": "Khadakwasla Dam release may affect downstream areas along Mutha River.",
+      "recommendedAction": "Avoid riverbanks and follow official instructions."
+    },
+    {
+      "id": "river-pawna-2026-07-09",
+      "dam": "pawna",
+      "damLabel": "Pawna Dam",
+      "river": "Pavana River",
+      "status": "elevated",
+      "trend": "stable",
+      "rsi": 35,
+      "severity": "watch",
+      "downstreamLocalities": [
+        "Ravet",
+        "Pimpri",
+        "Chinchwad"
+      ],
+      "talukas": [
+        "maval",
+        "pcmc"
+      ],
+      "bridges": [],
+      "travelSensitivity": "medium",
+      "timeline": {
+        "state": "monitoring",
+        "note": "Pawna Dam release is elevated.",
+        "updatedAt": "2026-07-09T21:17:49.817Z"
+      },
+      "evidence": [
+        {
+          "source": "Sample Official Advisory",
+          "sourceTrust": "A",
+          "type": "official",
+          "observedAt": "2026-07-09T10:15:00+05:30",
+          "link": "",
+          "note": ""
+        }
+      ],
+      "impact": "Pawna Dam release may affect downstream areas along Pavana River.",
+      "recommendedAction": "Avoid riverbanks and follow official instructions."
+    }
+  ],
+  "seasonalIntelligence": {
+    "generatedAt": "2026-07-09T21:17:49.819Z",
+    "activeSeason": "monsoon",
+    "priorityHazards": [
+      "flood",
+      "dam_release",
+      "waterlogging",
+      "lightning",
+      "landslide",
+      "tree_fall"
+    ],
+    "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
+  },
+  "geographicIntelligence": {
+    "generatedAt": "2026-07-09T21:17:49.818Z",
+    "model": "administrative-ui-operational-backend",
+    "operationalZones": {
+      "river_corridors": [
+        "Mula River",
+        "Mutha River",
+        "Mula-Mutha River",
+        "Indrayani River",
+        "Pavana River",
+        "Bhima River",
+        "Nira River"
+      ],
+      "dam_zones": [
+        "Khadakwasla",
+        "Panshet",
+        "Varasgaon",
+        "Temghar",
+        "Pawna",
+        "Mulshi",
+        "Bhatghar",
+        "Veer"
+      ],
+      "highway_corridors": [
+        "Mumbai-Pune Expressway",
+        "NH48",
+        "Pune-Nashik Highway",
+        "Pune-Solapur Highway",
+        "Pune-Satara Highway",
+        "Pune-Ahmednagar Highway"
+      ],
+      "ghat_zones": [
+        "Tamhini Ghat",
+        "Bhor Ghat",
+        "Varandha Ghat",
+        "Katraj Ghat",
+        "Dive Ghat",
+        "Khambatki Ghat"
+      ],
+      "it_corridors": [
+        "Hinjawadi",
+        "Kharadi",
+        "Magarpatta",
+        "Baner",
+        "Balewadi",
+        "Talawade"
+      ]
+    },
+    "infrastructure": {
+      "highways": [
+        "Mumbai-Pune Expressway",
+        "NH48",
+        "Pune-Nashik Highway",
+        "Pune-Solapur Highway",
+        "Pune-Satara Highway",
+        "Pune-Ahmednagar Highway"
+      ],
+      "ghats": [
+        "Tamhini Ghat",
+        "Bhor Ghat",
+        "Varandha Ghat",
+        "Katraj Ghat",
+        "Dive Ghat",
+        "Khambatki Ghat"
+      ],
+      "emergencyServices": [
+        "Hospitals",
+        "Police Stations",
+        "Fire Stations",
+        "Disaster Management"
+      ],
+      "transport": [
+        "Pune Railway Station",
+        "Shivajinagar Station",
+        "Pune Metro",
+        "Pune Airport",
+        "MSRTC Bus Stations"
+      ]
+    },
+    "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
+  },
+  "criticalInfrastructure": {
+    "generatedAt": "2026-07-09T21:17:49.819Z",
+    "mode": "on-demand",
+    "relevantDomains": [
+      "bridges",
+      "highways"
+    ],
+    "infrastructure": {
+      "highways": [
+        "Mumbai-Pune Expressway",
+        "NH48",
+        "Pune-Nashik Highway",
+        "Pune-Solapur Highway",
+        "Pune-Satara Highway",
+        "Pune-Ahmednagar Highway"
+      ],
+      "ghats": [
+        "Tamhini Ghat",
+        "Bhor Ghat",
+        "Varandha Ghat",
+        "Katraj Ghat",
+        "Dive Ghat",
+        "Khambatki Ghat"
+      ],
+      "emergencyServices": [
+        "Hospitals",
+        "Police Stations",
+        "Fire Stations",
+        "Disaster Management"
+      ],
+      "transport": [
+        "Pune Railway Station",
+        "Shivajinagar Station",
+        "Pune Metro",
+        "Pune Airport",
+        "MSRTC Bus Stations"
+      ]
+    }
+  },
+  "environmentalImpact": {
+    "generatedAt": "2026-07-09T21:17:49.819Z",
+    "riskLevel": "Elevated",
+    "impacts": [
+      "3 area(s) have elevated rain-related travel impact.",
+      "1 river or dam related warning(s) may affect downstream areas.",
+      "1 active transport-related event(s) may affect travel."
+    ],
+    "citizenSummary": "3 area(s) have elevated rain-related travel impact. 1 river or dam related warning(s) may affect downstream areas. 1 active transport-related event(s) may affect travel.",
+    "seasonalContext": "monsoon"
+  },
+  "story": "Heavy rainfall may affect travel in parts of Pune District. Khadakwasla Dam related river conditions may affect downstream areas. Avoid riverbanks. 2 important alerts require attention."
+}
