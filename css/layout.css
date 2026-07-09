@@ -1,0 +1,31 @@
+.app-header {
+  background:linear-gradient(135deg,var(--red),var(--red3));
+  color:#fff;
+  padding:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.brand-text.centered{text-align:center}
+.brand-text h1{margin:0;font-size:20px;letter-spacing:.3px}
+.brand-text p{margin:1px 0;font-size:13px;opacity:.95}
+.brand-text span{font-size:12px;opacity:.85}
+.location-filter{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--border);box-shadow:var(--shadow-soft)}
+.location-summary{width:100%;max-width:960px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:10px;border:0;background:#fff;color:var(--text);padding:10px 14px;text-align:left;font-weight:800}
+.location-summary span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.location-change{background:#eef3fb;color:var(--blue);border-radius:999px;padding:5px 10px;font-size:12px;flex:0 0 auto}
+.location-fields{max-width:960px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:0 10px 10px;background:#fff}
+.location-fields[hidden]{display:none!important}
+.location-fields label{font-size:11px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+.location-fields select{border:1px solid var(--border);border-radius:10px;padding:9px;background:#fff;color:var(--text)}
+.tabs{display:flex;overflow-x:auto;background:#fff;border-bottom:1px solid var(--border);scrollbar-width:none;position:sticky;top:41px;z-index:18}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{flex:1;min-width:92px;border:0;background:#fff;color:var(--muted);padding:13px 8px;font-weight:800;border-bottom:4px solid transparent}
+.tabs button.active{color:var(--red);border-bottom-color:var(--red);background:#fff7f7}
+.container{max-width:960px;margin:0 auto;padding:12px}
+.tab-panel{display:none;animation:fadeIn .18s ease-out}
+.tab-panel.active{display:block}
+.app-footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;color:var(--muted);font-size:12px;max-width:960px;margin:8px auto 20px;padding:0 12px}
+@keyframes fadeIn{from{opacity:.6;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:720px){.location-fields{grid-template-columns:1fr}.brand-text h1{font-size:18px}}

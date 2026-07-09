@@ -1,0 +1,19 @@
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin:12px 0;box-shadow:var(--shadow-soft)}
+.card.feature{background:linear-gradient(135deg,#fff,#fff8f8);border-color:#f3d2d2}
+.card h2,.card h3{margin:0 0 8px}.card p{margin:6px 0}
+.section-kicker{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-size:11px;font-weight:900;margin-bottom:4px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.metric{border:1px solid var(--border);border-radius:14px;padding:12px;background:var(--surface-soft)}
+.metric strong{display:block;font-size:20px}
+.metric span,.small,.event-meta{color:var(--muted);font-size:12px}
+.badge{display:inline-flex;align-items:center;border-radius:999px;padding:5px 10px;font-weight:800;font-size:12px}
+.badge.emergency{background:#ffebee;color:var(--red)}.badge.warning{background:#fff3e0;color:var(--orange)}.badge.watch{background:#fffde7;color:#8d6e00}.badge.advisory{background:#e3f2fd;color:var(--blue)}
+.event-card{border-left:7px solid var(--blue)}.event-card.emergency{border-left-color:var(--red)}.event-card.warning{border-left-color:var(--orange)}.event-card.watch{border-left-color:var(--yellow)}
+.source-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.source-pill{background:#f1f3f4;border-radius:999px;padding:5px 9px;font-size:12px;text-decoration:none}
+.route-card.recommended{border:2px solid var(--green);background:linear-gradient(135deg,#fff,#f7fff8)}
+.empty{color:var(--muted);text-align:center;padding:20px}
+summary{font-weight:900;cursor:pointer}
+.compact-list{margin:8px 0 0;padding-left:20px}
+.health-strip{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.health-chip{background:#f1f3f4;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:800}

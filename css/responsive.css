@@ -1,0 +1,6 @@
+@media(max-width:720px){
+  .app-header{padding:14px}
+  .tabs button{min-width:88px;font-size:13px}
+  .grid,.call-grid{grid-template-columns:1fr}
+  .card{padding:14px;border-radius:16px}
+}
