@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>CITY EMERGENCY ALERTS</title>
+  <meta name="description" content="Pune District Emergency Intelligence" />
+  <meta name="theme-color" content="#b71c1c" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/cards.css" />
+  <link rel="stylesheet" href="css/forms.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand-text centered">
+      <h1>CITY EMERGENCY ALERTS</h1>
+      <p>Pune District Emergency Intelligence</p>
+      <span>Version 6.1</span>
+    </div>
+  </header>
+
+  <section class="location-filter" aria-label="Location filters">
+    <button id="locationToggle" class="location-summary" type="button" aria-expanded="false">
+      <span id="locationSummaryText">📍 Pune District · Pune City · All localities</span>
+      <span class="location-change">Change</span>
+    </button>
+    <div id="locationFields" class="location-fields" hidden>
+      <label>Region<select id="regionSelect"></select></label>
+      <label>Taluka<select id="talukaSelect"></select></label>
+      <label>Locality<select id="localitySelect"></select></label>
+    </div>
+  </section>
+
+  <nav class="tabs" aria-label="Primary Navigation">
+    <button data-tab="situation" class="active">Situation</button>
+    <button data-tab="alerts">Alerts</button>
+    <button data-tab="incidents">Incidents</button>
+    <button data-tab="journey">Journey</button>
+    <button data-tab="official">Official</button>
+    <button data-tab="emergency">Emergency</button>
+  </nav>
+
+  <main id="appMain" class="container">
+    <section id="tab-situation" class="tab-panel active"></section>
+    <section id="tab-alerts" class="tab-panel"></section>
+    <section id="tab-incidents" class="tab-panel"></section>
+    <section id="tab-journey" class="tab-panel"></section>
+    <section id="tab-official" class="tab-panel"></section>
+    <section id="tab-emergency" class="tab-panel"></section>
+  </main>
+
+  <footer class="app-footer">
+    <span id="footerUpdated">Updated information loading...</span>
+    <span>Developed by : Shriganesh Manurkar</span>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

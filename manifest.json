@@ -1,0 +1,18 @@
+{
+  "name": "CITY EMERGENCY ALERTS",
+  "short_name": "City Alerts",
+  "description": "Pune District Emergency Intelligence",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f9fa",
+  "theme_color": "#b71c1c",
+  "icons": [
+    {
+      "src": "assets/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

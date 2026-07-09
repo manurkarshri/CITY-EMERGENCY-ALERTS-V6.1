@@ -1,0 +1,18 @@
+{
+  "name": "city-emergency-alerts-v6-1",
+  "version": "6.1.0-production-user-testing",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validation/validate-build.js",
+    "build:status": "node scripts/builders/build-status.js",
+    "build:intelligence": "node scripts/run-intelligence-core.js",
+    "build:environmental": "node scripts/build-environmental-intelligence.js",
+    "build:journey": "node scripts/build-journey-intelligence.js",
+    "test": "node tests/run-tests.js",
+    "build:live": "node scripts/build-live-intelligence.js",
+    "build:all": "node scripts/run-intelligence-core.js && node scripts/build-environmental-intelligence.js && node scripts/build-journey-intelligence.js && node scripts/build-live-intelligence.js && node scripts/builders/build-status.js",
+    "production-check": "node scripts/run-intelligence-core.js && node scripts/build-environmental-intelligence.js && node scripts/build-journey-intelligence.js && node scripts/build-live-intelligence.js && node scripts/builders/build-status.js && node scripts/validation/validate-build.js && node tests/run-tests.js"
+  },
+  "license": "MIT"
+}
