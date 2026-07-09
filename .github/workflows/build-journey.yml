@@ -1,0 +1,42 @@
+name: V6 Build Journey Intelligence
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-journey:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run Decision Intelligence Core
+        run: node scripts/run-intelligence-core.js
+
+      - name: Run Environmental Intelligence
+        run: node scripts/build-environmental-intelligence.js
+
+      - name: Run Journey Intelligence
+        run: node scripts/build-journey-intelligence.js
+
+      - name: Validate Generated Data
+        run: node scripts/validation/validate-build.js
+
+      - name: Generate Build Status
+        run: node scripts/builders/build-status.js
+
+      - name: Commit Generated Journey Intelligence
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Build V6 journey intelligence"
+          file_pattern: |
+            data/*.json

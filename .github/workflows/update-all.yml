@@ -1,0 +1,38 @@
+name: V6.1 Update All Intelligence
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-all:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run Decision Intelligence Core
+        run: node scripts/run-intelligence-core.js
+      - name: Run Environmental Intelligence
+        run: node scripts/build-environmental-intelligence.js
+      - name: Run Journey Intelligence
+        run: node scripts/build-journey-intelligence.js
+      - name: Build Live Intelligence Readiness
+        run: node scripts/build-live-intelligence.js
+      - name: Generate Build Status
+        run: node scripts/builders/build-status.js
+      - name: Validate Generated Data
+        run: node scripts/validation/validate-build.js
+      - name: Commit Generated Intelligence
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update V6.1 production user testing intelligence"
+          file_pattern: |
+            data/*.json

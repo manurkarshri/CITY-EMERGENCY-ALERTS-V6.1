@@ -1,0 +1,29 @@
+name: V6.1 Build Status
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build Live Intelligence Readiness
+        run: node scripts/build-live-intelligence.js
+      - name: Generate Build Status
+        run: node scripts/builders/build-status.js
+      - name: Commit Generated Build Status
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update V6.1 build status"
+          file_pattern: |
+            data/build-status.json
+            data/live-intelligence.json

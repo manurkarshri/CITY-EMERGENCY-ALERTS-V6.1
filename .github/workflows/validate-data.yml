@@ -1,0 +1,25 @@
+name: V6.1 Validate Data
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate JSON Files
+        run: node scripts/validation/validate-build.js
+      - name: Validation Completed
+        run: echo "V6.1 validation completed successfully."
