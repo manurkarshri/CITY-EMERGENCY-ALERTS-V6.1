@@ -1,0 +1,17 @@
+{
+  "freshnessHours": {
+    "emergency": 72,
+    "warning": 48,
+    "watch": 36,
+    "advisory": 24
+  },
+  "deduplication": {
+    "sameEventThreshold": 0.78
+  },
+  "confidence": {
+    "official": 100,
+    "verified": 80,
+    "media": 55,
+    "supporting": 25
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "natural": [
+    "heavy_rain",
+    "flood",
+    "dam_release",
+    "lightning",
+    "heatwave",
+    "cold_wave",
+    "fog",
+    "landslide",
+    "earthquake",
+    "storm"
+  ],
+  "transport": [
+    "accident",
+    "road_closure",
+    "diversion",
+    "oil_spill",
+    "chemical_spill",
+    "metro_disruption",
+    "rail_disruption",
+    "airport_disruption"
+  ],
+  "public_safety": [
+    "police_advisory",
+    "evacuation",
+    "crowd_advisory",
+    "security_advisory"
+  ],
+  "infrastructure": [
+    "power_outage",
+    "water_supply",
+    "gas_leak",
+    "telecom_outage",
+    "building_collapse"
+  ],
+  "health": [
+    "aqi",
+    "heat_health",
+    "water_contamination",
+    "disease_advisory"
+  ],
+  "industrial": [
+    "factory_fire",
+    "chemical_leak",
+    "industrial_explosion",
+    "hazmat"
+  ]
+}

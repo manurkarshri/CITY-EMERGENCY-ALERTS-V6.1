@@ -1,0 +1,59 @@
+{
+  "model": "administrative-ui-operational-backend",
+  "aliases": {
+    "PCMC": "Pimpri-Chinchwad",
+    "KP": "Koregaon Park",
+    "FC Road": "Fergusson College Road",
+    "JM Road": "Jangli Maharaj Road",
+    "SB Road": "Senapati Bapat Road",
+    "Sinhgad Road": "Sinhagad Road",
+    "Mumbai Pune Expressway": "Mumbai-Pune Expressway",
+    "E-way": "Mumbai-Pune Expressway",
+    "Khadakvasla": "Khadakwasla"
+  },
+  "operationalZones": {
+    "river_corridors": [
+      "Mula River",
+      "Mutha River",
+      "Mula-Mutha River",
+      "Indrayani River",
+      "Pavana River",
+      "Bhima River",
+      "Nira River"
+    ],
+    "dam_zones": [
+      "Khadakwasla",
+      "Panshet",
+      "Varasgaon",
+      "Temghar",
+      "Pawna",
+      "Mulshi",
+      "Bhatghar",
+      "Veer"
+    ],
+    "highway_corridors": [
+      "Mumbai-Pune Expressway",
+      "NH48",
+      "Pune-Nashik Highway",
+      "Pune-Solapur Highway",
+      "Pune-Satara Highway",
+      "Pune-Ahmednagar Highway"
+    ],
+    "ghat_zones": [
+      "Tamhini Ghat",
+      "Bhor Ghat",
+      "Varandha Ghat",
+      "Katraj Ghat",
+      "Dive Ghat",
+      "Khambatki Ghat"
+    ],
+    "it_corridors": [
+      "Hinjawadi",
+      "Kharadi",
+      "Magarpatta",
+      "Baner",
+      "Balewadi",
+      "Talawade"
+    ]
+  }
+}

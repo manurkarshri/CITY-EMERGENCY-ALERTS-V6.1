@@ -1,0 +1,29 @@
+{
+  "rules": [
+    {
+      "category": "dam_release",
+      "impact": "River levels may rise downstream.",
+      "action": "Avoid riverbanks and follow official advisories."
+    },
+    {
+      "category": "waterlogging",
+      "impact": "Local travel delays and flooding are possible.",
+      "action": "Avoid low-lying roads and allow extra travel time."
+    },
+    {
+      "category": "accident",
+      "impact": "Traffic delays are likely near the incident location.",
+      "action": "Avoid the affected stretch if possible."
+    },
+    {
+      "category": "road_closure",
+      "impact": "Route may be blocked or diverted.",
+      "action": "Use an alternate route and check official updates."
+    },
+    {
+      "category": "power_outage",
+      "impact": "Local services and traffic signals may be affected.",
+      "action": "Use caution and plan for delays."
+    }
+  ]
+}

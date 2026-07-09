@@ -1,0 +1,36 @@
+{
+  "weatherRisk": {
+    "rainMm6h": {
+      "low": 5,
+      "medium": 15,
+      "high": 30
+    },
+    "windKmh": {
+      "low": 20,
+      "medium": 40,
+      "high": 60
+    },
+    "visibilityKm": {
+      "low": 5,
+      "medium": 2,
+      "high": 1
+    },
+    "heatC": {
+      "watch": 38,
+      "warning": 41,
+      "emergency": 45
+    }
+  },
+  "riverSeverityIndex": {
+    "elevated": 35,
+    "high": 60,
+    "critical": 80
+  },
+  "timelineStates": [
+    "expected",
+    "developing",
+    "peak",
+    "recovering",
+    "normal"
+  ]
+}

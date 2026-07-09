@@ -1,0 +1,116 @@
+{
+  "corridors": [
+    {
+      "id": "kharadi-hinjawadi-nh48",
+      "label": "Kharadi to Hinjawadi via NH48",
+      "fromAliases": [
+        "Kharadi",
+        "EON",
+        "World Trade Center"
+      ],
+      "toAliases": [
+        "Hinjawadi",
+        "Hinjewadi",
+        "Rajiv Gandhi Infotech Park"
+      ],
+      "via": [
+        "Kharadi",
+        "Viman Nagar",
+        "Shivajinagar",
+        "Baner",
+        "Wakad",
+        "Hinjawadi"
+      ],
+      "operationalZones": [
+        "Pune-Ahmednagar Highway",
+        "NH48",
+        "IT Corridor"
+      ],
+      "distanceKm": 33,
+      "baseTimeMin": 65,
+      "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad"
+    },
+    {
+      "id": "kharadi-hinjawadi-pashan",
+      "label": "Kharadi to Hinjawadi via Pashan",
+      "fromAliases": [
+        "Kharadi",
+        "EON"
+      ],
+      "toAliases": [
+        "Hinjawadi",
+        "Hinjewadi"
+      ],
+      "via": [
+        "Kharadi",
+        "Yerwada",
+        "Aundh",
+        "Pashan",
+        "Mahalunge",
+        "Hinjawadi"
+      ],
+      "operationalZones": [
+        "Pashan Road",
+        "IT Corridor"
+      ],
+      "distanceKm": 36,
+      "baseTimeMin": 72,
+      "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge"
+    },
+    {
+      "id": "pune-lonavala-expressway",
+      "label": "Pune to Lonavala via Mumbai-Pune Expressway",
+      "fromAliases": [
+        "Pune",
+        "Shivajinagar",
+        "Pune City"
+      ],
+      "toAliases": [
+        "Lonavala",
+        "Khandala"
+      ],
+      "via": [
+        "Pune",
+        "Wakad",
+        "Somatane",
+        "Talegaon",
+        "Lonavala"
+      ],
+      "operationalZones": [
+        "Mumbai-Pune Expressway",
+        "NH48",
+        "Ghat Zone"
+      ],
+      "distanceKm": 65,
+      "baseTimeMin": 95,
+      "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway"
+    },
+    {
+      "id": "swargate-sinhagad-road",
+      "label": "Swargate to Sinhagad Road",
+      "fromAliases": [
+        "Swargate",
+        "Pune City"
+      ],
+      "toAliases": [
+        "Sinhagad Road",
+        "Dhayari",
+        "Nanded City"
+      ],
+      "via": [
+        "Swargate",
+        "Sarasbaug",
+        "Dattawadi",
+        "Sinhagad Road",
+        "Dhayari"
+      ],
+      "operationalZones": [
+        "Mutha River",
+        "Khadakwasla Downstream"
+      ],
+      "distanceKm": 13,
+      "baseTimeMin": 35,
+      "mapsQuery": "Swargate to Sinhagad Road Dhayari"
+    }
+  ]
+}

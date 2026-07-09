@@ -1,0 +1,40 @@
+{
+  "name": "Journey Suitability Index",
+  "scoreRange": {
+    "min": 0,
+    "max": 100
+  },
+  "labels": [
+    {
+      "min": 90,
+      "label": "Excellent"
+    },
+    {
+      "min": 75,
+      "label": "Good to Go"
+    },
+    {
+      "min": 60,
+      "label": "Proceed with Caution"
+    },
+    {
+      "min": 40,
+      "label": "Consider Delaying"
+    },
+    {
+      "min": 0,
+      "label": "Avoid if Possible"
+    }
+  ],
+  "penalties": {
+    "road_closure": 35,
+    "flood_or_waterlogging": 25,
+    "severe_weather": 20,
+    "major_accident": 20,
+    "low_visibility": 15,
+    "official_warning": 15,
+    "heavy_traffic": 10,
+    "ghat_or_landslide_risk": 20
+  },
+  "fallbackMode": "area_based_assessment"
+}

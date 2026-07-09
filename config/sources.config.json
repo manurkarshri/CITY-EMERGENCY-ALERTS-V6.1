@@ -1,0 +1,60 @@
+{
+  "trustLevels": {
+    "A": "Official Government Source",
+    "B": "Verified Public Institution",
+    "C": "Established News Organisation",
+    "D": "Community Information / Supporting Only"
+  },
+  "official": [
+    {
+      "name": "IMD",
+      "trust": "A"
+    },
+    {
+      "name": "PMC",
+      "trust": "A"
+    },
+    {
+      "name": "PCMC",
+      "trust": "A"
+    },
+    {
+      "name": "Pune Police",
+      "trust": "A"
+    },
+    {
+      "name": "MSEDCL",
+      "trust": "A"
+    },
+    {
+      "name": "District Disaster Management",
+      "trust": "A"
+    }
+  ],
+  "news": [
+    {
+      "name": "Sakal",
+      "trust": "C"
+    },
+    {
+      "name": "Lokmat",
+      "trust": "C"
+    },
+    {
+      "name": "Loksatta",
+      "trust": "C"
+    },
+    {
+      "name": "Maharashtra Times",
+      "trust": "C"
+    },
+    {
+      "name": "Indian Express",
+      "trust": "C"
+    },
+    {
+      "name": "Times of India",
+      "trust": "C"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "6.1.0",
+  "policy": {
+    "officialFirst": true,
+    "trustedMediaCanCreateDevelopingSituations": true,
+    "trustedMediaCannotCreateConfirmedEmergencyWithoutCorroboration": true,
+    "unverifiedSocialIgnored": true
+  },
+  "trustGrades": {
+    "A+": "Emergency services / official disaster management",
+    "A": "Official government department",
+    "B": "Trusted news / verified media",
+    "C": "Supporting verified public signal",
+    "D": "Unverified / ignored until corroborated"
+  },
+  "officialSources": [
+    {
+      "id": "imd",
+      "name": "India Meteorological Department",
+      "type": "weather",
+      "trust": "A",
+      "url": "https://mausam.imd.gov.in/"
+    },
+    {
+      "id": "pune_district",
+      "name": "Pune District Administration",
+      "type": "official",
+      "trust": "A+",
+      "url": "https://pune.gov.in/"
+    },
+    {
+      "id": "pmc",
+      "name": "Pune Municipal Corporation",
+      "type": "civic",
+      "trust": "A",
+      "url": "https://www.pmc.gov.in/"
+    },
+    {
+      "id": "pcmc",
+      "name": "Pimpri Chinchwad Municipal Corporation",
+      "type": "civic",
+      "trust": "A",
+      "url": "https://www.pcmcindia.gov.in/"
+    },
+    {
+      "id": "pune_police",
+      "name": "Pune Police",
+      "type": "police",
+      "trust": "A+",
+      "url": "https://punepolice.gov.in/"
+    },
+    {
+      "id": "nhai",
+      "name": "National Highways Authority of India",
+      "type": "highway",
+      "trust": "A",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "id": "pune_metro",
+      "name": "Pune Metro",
+      "type": "transport",
+      "trust": "A",
+      "url": "https://www.punemetrorail.org/"
+    }
+  ],
+  "trustedMediaSources": [
+    {
+      "id": "sakal",
+      "name": "Sakal",
+      "type": "trusted_media",
+      "trust": "B",
+      "url": "https://www.esakal.com/"
+    },
+    {
+      "id": "lokmat",
+      "name": "Lokmat",
+      "type": "trusted_media",
+      "trust": "B",
+      "url": "https://www.lokmat.com/"
+    },
+    {
+      "id": "loksatta",
+      "name": "Loksatta",
+      "type": "trusted_media",
+      "trust": "B",
+      "url": "https://www.loksatta.com/"
+    },
+    {
+      "id": "maharashtra_times",
+      "name": "Maharashtra Times",
+      "type": "trusted_media",
+      "trust": "B",
+      "url": "https://maharashtratimes.com/"
+    },
+    {
+      "id": "indian_express_pune",
+      "name": "Indian Express Pune",
+      "type": "trusted_media",
+      "trust": "B",
+      "url": "https://indianexpress.com/section/cities/pune/"
+    },
+    {
+      "id": "abp_majha",
+      "name": "ABP Majha",
+      "type": "trusted_media",
+      "trust": "B",
+      "url": "https://marathi.abplive.com/"
+    },
+    {
+      "id": "tv9_marathi",
+      "name": "TV9 Marathi",
+      "type": "trusted_media",
+      "trust": "B",
+      "url": "https://www.tv9marathi.com/"
+    },
+    {
+      "id": "zee_24_taas",
+      "name": "Zee 24 Taas",
+      "type": "trusted_media",
+      "trust": "B",
+      "url": "https://zeenews.india.com/marathi"
+    }
+  ]
+}

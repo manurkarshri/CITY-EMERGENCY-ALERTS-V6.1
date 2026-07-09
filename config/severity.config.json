@@ -1,0 +1,26 @@
+{
+  "emergency": {
+    "label": "Emergency",
+    "icon": "🔴",
+    "color": "#b71c1c",
+    "rank": 4
+  },
+  "warning": {
+    "label": "Warning",
+    "icon": "🟠",
+    "color": "#ef6c00",
+    "rank": 3
+  },
+  "watch": {
+    "label": "Watch",
+    "icon": "🟡",
+    "color": "#f9a825",
+    "rank": 2
+  },
+  "advisory": {
+    "label": "Advisory",
+    "icon": "🔵",
+    "color": "#1565c0",
+    "rank": 1
+  }
+}

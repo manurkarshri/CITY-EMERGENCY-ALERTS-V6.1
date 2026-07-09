@@ -1,0 +1,23 @@
+{
+  "appName": "CITY EMERGENCY ALERTS",
+  "tagline": "Pune District Emergency Intelligence",
+  "versionLabel": "Version 6.0",
+  "release": "6.0.0-dev",
+  "coverage": "Pune City + PCMC + Pune District + nearby highways/ghats",
+  "tabs": [
+    "Situation",
+    "Alerts",
+    "Incidents",
+    "Journey",
+    "Official",
+    "Emergency"
+  ],
+  "refreshMinutes": 30,
+  "ui": {
+    "advisoryColor": "blue",
+    "stickyLocationSelector": true,
+    "emergencyMode": "backlog-v7",
+    "showTopAlertPreviewOnSituation": false,
+    "showRecentIncidentPreviewOnSituation": false
+  }
+}

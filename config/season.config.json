@@ -1,0 +1,55 @@
+{
+  "monsoon": {
+    "months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "priority": [
+      "flood",
+      "dam_release",
+      "waterlogging",
+      "lightning",
+      "landslide",
+      "tree_fall"
+    ]
+  },
+  "summer": {
+    "months": [
+      3,
+      4,
+      5
+    ],
+    "priority": [
+      "heatwave",
+      "fire",
+      "water_shortage",
+      "power_demand",
+      "aqi"
+    ]
+  },
+  "winter": {
+    "months": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "priority": [
+      "fog",
+      "low_visibility",
+      "cold_wave",
+      "aqi"
+    ]
+  },
+  "festival": {
+    "manual": true,
+    "priority": [
+      "crowd_advisory",
+      "traffic_diversion",
+      "parking_restriction",
+      "public_transport"
+    ]
+  }
+}

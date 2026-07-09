@@ -1,0 +1,124 @@
+{
+  "dams": {
+    "khadakwasla": {
+      "label": "Khadakwasla Dam",
+      "river": "Mutha River",
+      "downstreamLocalities": [
+        "Sinhagad Road",
+        "Dhayari",
+        "Vitthalwadi",
+        "Erandwane",
+        "Deccan",
+        "Sangamwadi"
+      ],
+      "talukas": [
+        "haveli",
+        "pune_city"
+      ],
+      "bridges": [
+        "Rajaram Bridge",
+        "Sangam Bridge"
+      ],
+      "travelSensitivity": "high"
+    },
+    "panshet": {
+      "label": "Panshet Dam",
+      "river": "Mutha River",
+      "downstreamLocalities": [
+        "Khadakwasla",
+        "Sinhagad Road",
+        "Dhayari"
+      ],
+      "talukas": [
+        "velhe",
+        "haveli"
+      ],
+      "bridges": [],
+      "travelSensitivity": "medium"
+    },
+    "varasgaon": {
+      "label": "Varasgaon Dam",
+      "river": "Mutha River",
+      "downstreamLocalities": [
+        "Khadakwasla",
+        "Sinhagad Road"
+      ],
+      "talukas": [
+        "velhe",
+        "haveli"
+      ],
+      "bridges": [],
+      "travelSensitivity": "medium"
+    },
+    "temghar": {
+      "label": "Temghar Dam",
+      "river": "Mutha River",
+      "downstreamLocalities": [
+        "Lavasa",
+        "Mulshi",
+        "Khadakwasla"
+      ],
+      "talukas": [
+        "mulshi",
+        "velhe"
+      ],
+      "bridges": [],
+      "travelSensitivity": "medium"
+    },
+    "pawna": {
+      "label": "Pawna Dam",
+      "river": "Pavana River",
+      "downstreamLocalities": [
+        "Ravet",
+        "Pimpri",
+        "Chinchwad"
+      ],
+      "talukas": [
+        "maval",
+        "pcmc"
+      ],
+      "bridges": [],
+      "travelSensitivity": "medium"
+    },
+    "mulshi": {
+      "label": "Mulshi Dam",
+      "river": "Mula River",
+      "downstreamLocalities": [
+        "Paud",
+        "Pirangut",
+        "Mulshi"
+      ],
+      "talukas": [
+        "mulshi"
+      ],
+      "bridges": [],
+      "travelSensitivity": "medium"
+    },
+    "bhatghar": {
+      "label": "Bhatghar Dam",
+      "river": "Nira River",
+      "downstreamLocalities": [
+        "Bhor"
+      ],
+      "talukas": [
+        "bhor"
+      ],
+      "bridges": [],
+      "travelSensitivity": "low"
+    },
+    "veer": {
+      "label": "Veer Dam",
+      "river": "Nira River",
+      "downstreamLocalities": [
+        "Purandar",
+        "Baramati"
+      ],
+      "talukas": [
+        "purandar",
+        "baramati"
+      ],
+      "bridges": [],
+      "travelSensitivity": "medium"
+    }
+  }
+}
