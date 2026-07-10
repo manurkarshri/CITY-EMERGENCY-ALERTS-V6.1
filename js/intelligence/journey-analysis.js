@@ -31,7 +31,7 @@ export function analyseRoute(route, context = {}) {
     addPenalty(`traffic_incident_${category}`, adjustedValue, wording, penalties, reasons);
   }
 
-  const weather = weatherExposure(route.points || [], context.environmental?.weatherIntelligence?.regions || {});
+  const weather = weatherExposure(route.points || [], context.routeWeatherById?.[route.id] || context.environmental?.weatherIntelligence?.regions || {});
   if (weather.rainRisk === "High") addPenalty("heavy_rain", 20, "Heavy rainfall may affect this route.", penalties, reasons);
   else if (weather.rainRisk === "Medium") addPenalty("rain", 10, "Moderate rainfall may slow this route.", penalties, reasons);
   if (weather.visibilityRisk === "High") addPenalty("low_visibility", 15, "Low visibility may make driving unsafe.", penalties, reasons);

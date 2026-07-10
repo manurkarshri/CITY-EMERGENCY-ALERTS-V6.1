@@ -8,12 +8,16 @@ export function tomTomConfigured() {
 export async function searchPlaces(query, options = {}) {
   const text = String(query || "").trim();
   if (text.length < 2) return [];
-  const params = new URLSearchParams({
-    key: requireKey(), typeahead: "true", limit: String(options.limit || 6), countrySet: "IN",
-    lat: String(PUNE.lat), lon: String(PUNE.lon), radius: String(PUNE.radius), language: "en-GB"
-  });
-  const payload = await request(`${API}/search/2/search/${encodeURIComponent(text)}.json?${params}`);
+  const payload = await request(buildSearchUrl(text, { ...options, key: requireKey() }));
   return normalizeSearchResults(payload);
+}
+
+export function buildSearchUrl(text, options = {}) {
+  const params = new URLSearchParams({
+    key: options.key || "", typeahead: "true", limit: String(options.limit || 6), countrySet: "IN",
+    geobias: `point:${PUNE.lat},${PUNE.lon}`, language: "en-GB"
+  });
+  return `${API}/search/2/search/${encodeURIComponent(text)}.json?${params}`;
 }
 
 export async function reverseGeocode(latitude, longitude) {
@@ -25,8 +29,20 @@ export async function reverseGeocode(latitude, longitude) {
     id: `current-${latitude}-${longitude}`,
     label: item?.address?.freeformAddress || "Current location",
     address: item?.address?.freeformAddress || "Current location",
+    milestone: shortAddress(item?.address),
     position: { lat: Number(latitude), lon: Number(longitude) }
   };
+}
+
+export async function labelRoutesByMilestones(routes = []) {
+  return Promise.all(routes.map(async (route, index) => {
+    const points = route.points || [];
+    if (points.length < 3) return { ...route, label: index === 0 ? "Fastest route" : `Alternative route ${index}` };
+    const candidates = [points[Math.floor(points.length * 0.38)], points[Math.floor(points.length * 0.68)]];
+    const places = await Promise.all(candidates.map(point => reverseGeocode(point.latitude, point.longitude).catch(() => null)));
+    const milestones = [...new Set(places.map(place => place?.milestone).filter(Boolean))].slice(0, 2);
+    return { ...route, label: milestones.length ? `Via ${milestones.join(" – ")}` : index === 0 ? "Fastest route" : `Alternative route ${index}` };
+  }));
 }
 
 export async function calculateRoutes(start, destination, options = {}) {
@@ -111,3 +127,4 @@ function boundingBox(points, padding) {
 function apiKey() { return window.__CEA_CONFIG__?.tomtomApiKey || ""; }
 function requireKey() { const key = apiKey(); if (!key) throw new Error("Journey routing is not configured yet."); return key; }
 function assertCoordinate(lat, lon) { if (!Number.isFinite(Number(lat)) || !Number.isFinite(Number(lon))) throw new Error("A valid location must be selected."); }
+function shortAddress(address = {}) { return address.municipalitySubdivision || address.localName || address.streetName || address.municipality || address.freeformAddress || "Route area"; }

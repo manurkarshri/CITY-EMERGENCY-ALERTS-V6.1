@@ -26,6 +26,6 @@
 .container{max-width:960px;margin:0 auto;padding:12px}
 .tab-panel{display:none;animation:fadeIn .18s ease-out}
 .tab-panel.active{display:block}
-.app-footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;color:var(--muted);font-size:12px;max-width:960px;margin:8px auto 20px;padding:0 12px}
+.app-footer{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:4px;color:var(--muted);font-size:12px;max-width:960px;margin:8px auto 20px;padding:0 12px}
 @keyframes fadeIn{from{opacity:.6;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:720px){.location-fields{grid-template-columns:1fr}.brand-text h1{font-size:18px}}

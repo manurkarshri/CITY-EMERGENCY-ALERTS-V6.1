@@ -1,7 +1,7 @@
 {
   "provider": "open-meteo",
   "timezone": "Asia/Kolkata",
-  "staleAfterMinutes": 90,
+  "staleAfterMinutes": 60,
   "locations": {
     "pune_city": { "label": "Pune City", "lat": 18.5204, "lon": 73.8567 },
     "pcmc": { "label": "Pimpri-Chinchwad", "lat": 18.6298, "lon": 73.7997 },

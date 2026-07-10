@@ -6,6 +6,8 @@
 .call-btn{display:block;text-align:center;text-decoration:none;background:#fff;border:1px solid var(--border);border-radius:16px;padding:15px 10px;font-weight:900;color:var(--text)}
 .call-btn.emergency{background:#ffebee;color:var(--red);border-color:#ffcdd2}
 .autocomplete-field{position:relative;display:grid;gap:6px}
+.autocomplete-field input{padding-right:44px}
+.clear-location{position:absolute;right:8px;top:31px;width:32px;height:32px;border:0;border-radius:50%;background:#f1f3f4;color:var(--muted);font-size:22px;line-height:1}
 .suggestions{position:absolute;z-index:20;top:100%;left:0;right:0;background:#fff;border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow-soft);max-height:260px;overflow:auto}
 .suggestions button{display:block;width:100%;border:0;border-bottom:1px solid var(--border);background:#fff;text-align:left;padding:11px;color:var(--text)}
 .suggestions button:last-child{border-bottom:0}.suggestions button:hover,.suggestions button:focus{background:#f5f7f8}

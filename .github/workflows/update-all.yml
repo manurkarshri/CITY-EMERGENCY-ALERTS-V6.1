@@ -3,7 +3,7 @@ name: V6.1 Update All Intelligence
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write

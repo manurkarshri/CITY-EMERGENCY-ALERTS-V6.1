@@ -1,6 +1,7 @@
 import { state } from "../core/state.js";
 import { escapeHtml, escapeAttr } from "../utils/format.js";
-import { tomTomConfigured, searchPlaces, reverseGeocode, calculateRoutes, trafficIncidentsForRoutes } from "../services/tomtom.js";
+import { tomTomConfigured, searchPlaces, reverseGeocode, calculateRoutes, trafficIncidentsForRoutes, labelRoutesByMilestones } from "../services/tomtom.js";
+import { fetchRouteWeather } from "../services/open-meteo-live.js";
 import { analyseJourneyRoutes } from "../intelligence/journey-analysis.js";
 
 let selectedStart = null;
@@ -44,6 +45,7 @@ function locationField(id, placeholder, selected) {
   return `<div class="autocomplete-field">
     <label for="${id}">${placeholder}</label>
     <input id="${id}" placeholder="${placeholder}" autocomplete="off" aria-autocomplete="list" aria-controls="${id}Suggestions" value="${escapeAttr(selected?.label || "")}" />
+    <button class="clear-location" id="${id}Clear" type="button" aria-label="Clear ${placeholder}">×</button>
     <div id="${id}Suggestions" class="suggestions" role="listbox" hidden></div>
   </div>`;
 }
@@ -51,12 +53,25 @@ function locationField(id, placeholder, selected) {
 function bindJourneyControls() {
   document.getElementById("journeyStart")?.addEventListener("input", event => handleLocationInput(event, "start"));
   document.getElementById("journeyDestination")?.addEventListener("input", event => handleLocationInput(event, "destination"));
+  document.getElementById("journeyStartClear")?.addEventListener("click", () => clearLocation("start"));
+  document.getElementById("journeyDestinationClear")?.addEventListener("click", () => clearLocation("destination"));
   document.getElementById("journeyCurrentLocation")?.addEventListener("click", useCurrentLocation);
   document.getElementById("journeyDeparture")?.addEventListener("change", event => {
     const custom = document.getElementById("journeyCustomTime");
     if (custom) custom.hidden = event.target.value !== "custom";
   });
   document.getElementById("journeyBtn")?.addEventListener("click", analyseJourney);
+}
+
+function clearLocation(type) {
+  const id = type === "start" ? "journeyStart" : "journeyDestination";
+  if (type === "start") selectedStart = null; else selectedDestination = null;
+  const input = document.getElementById(id);
+  if (input) { input.value = ""; input.focus(); }
+  showSuggestions(document.getElementById(`${id}Suggestions`), []);
+  analysedRoutes = [];
+  renderResultsIntoPage();
+  setStatus("");
 }
 
 function handleLocationInput(event, type) {
@@ -109,14 +124,21 @@ async function analyseJourney() {
   renderResultsIntoPage();
   setStatus("Calculating traffic-aware routes…");
   try {
-    const routes = await calculateRoutes(selectedStart.position, selectedDestination.position, { departAt: departureTime(), maxAlternatives: 2 });
+    let routes = await calculateRoutes(selectedStart.position, selectedDestination.position, { departAt: departureTime(), maxAlternatives: 2 });
     if (!routes.length) throw new Error("TomTom did not return a route for these locations.");
+    routes = await labelRoutesByMilestones(routes);
     let trafficIncidents = [];
-    let trafficWarning = "";
+    let routeWeatherById = {};
+    const warnings = [];
     try { trafficIncidents = await trafficIncidentsForRoutes(routes); }
-    catch (error) { trafficWarning = " Traffic incidents could not be loaded, so the assessment excludes incident details."; }
-    analysedRoutes = analyseJourneyRoutes(routes, { trafficIncidents, environmental: state.environmental, alerts: state.alerts, incidents: state.incidents });
-    setStatus(`${analysedRoutes.length} route${analysedRoutes.length === 1 ? "" : "s"} analysed.${trafficWarning}`, trafficWarning ? "warning" : "success");
+    catch (error) { warnings.push("Traffic incidents could not be refreshed."); }
+    try {
+      const weatherResults = await Promise.all(routes.map(route => fetchRouteWeather(route.points || [])));
+      routeWeatherById = Object.fromEntries(routes.map((route, index) => [route.id, weatherResults[index]]));
+    }
+    catch (error) { warnings.push("Route weather could not be refreshed; the latest scheduled weather was used."); }
+    analysedRoutes = analyseJourneyRoutes(routes, { trafficIncidents, routeWeatherById, environmental: state.environmental, alerts: state.alerts, incidents: state.incidents });
+    setStatus(`${analysedRoutes.length} route${analysedRoutes.length === 1 ? "" : "s"} analysed with fresh traffic incidents and route weather.${warnings.length ? ` ${warnings.join(" ")}` : ""}`, warnings.length ? "warning" : "success");
     renderResultsIntoPage();
   } catch (error) {
     setStatus(`Journey analysis unavailable: ${error.message} No suitability score has been fabricated.`, "error");

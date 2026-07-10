@@ -2,6 +2,8 @@ import { state } from "./state.js";
 import { renderAll } from "../ui/render-all.js";
 import { escapeHtml } from "../utils/format.js";
 import { canonicalLocality } from "../utils/locality.js";
+import { searchPlaces, tomTomConfigured } from "../services/tomtom.js";
+import { fetchLocationWeather } from "../services/open-meteo-live.js";
 
 export function setupLocationSelector() {
   const region = document.getElementById("regionSelect");
@@ -64,6 +66,7 @@ export function setupLocationSelector() {
     refreshLocalities();
     updateLocationSummary();
     renderAll();
+    void refreshWeatherForSelection();
   });
 
   taluka.addEventListener("change", () => {
@@ -74,6 +77,7 @@ export function setupLocationSelector() {
     refreshLocalities();
     updateLocationSummary();
     renderAll();
+    void refreshWeatherForSelection();
   });
 
   locality.addEventListener("change", () => {
@@ -81,9 +85,38 @@ export function setupLocationSelector() {
     localStorage.setItem("cea.locality", locality.value);
     updateLocationSummary();
     renderAll();
+    void refreshWeatherForSelection();
   });
 
   updateLocationSummary();
+}
+
+async function refreshWeatherForSelection() {
+  const selectionKey = `${state.selected.region}|${state.selected.taluka}|${state.selected.locality}`;
+  const targetKey = state.selected.taluka || state.selected.region;
+  const label = state.selected.locality || state.talukas?.[state.selected.taluka]?.label || state.regions?.[state.selected.region]?.label || "Pune";
+  try {
+    const existing = state.environmental?.weatherIntelligence?.regions?.[targetKey];
+    let position = Number.isFinite(Number(existing?.latitude)) ? { lat: existing.latitude, lon: existing.longitude } : null;
+    if (state.selected.locality || !position) {
+      if (!tomTomConfigured()) return;
+      const place = (await searchPlaces(`${label}, Pune, Maharashtra`, { limit: 1 }))[0];
+      position = place?.position || null;
+    }
+    if (!position) return;
+    const weather = await fetchLocationWeather(position, label);
+    if (selectionKey !== `${state.selected.region}|${state.selected.taluka}|${state.selected.locality}`) return;
+    state.environmental.weatherIntelligence ||= { regions: {} };
+    state.environmental.weatherIntelligence.regions ||= {};
+    state.environmental.weatherIntelligence.regions[targetKey] = weather;
+    state.environmental.weatherSource = {
+      status: "current", sourceCheckedAt: weather.sourceCheckedAt, lastSuccessfulAt: weather.sourceCheckedAt,
+      staleAfterMinutes: 60, attribution: { name: "Open-Meteo", url: "https://open-meteo.com/" }, error: null
+    };
+    renderAll();
+  } catch (error) {
+    console.warn("Selected-location weather refresh failed", error);
+  }
 }
 
 function updateLocationSummary() {

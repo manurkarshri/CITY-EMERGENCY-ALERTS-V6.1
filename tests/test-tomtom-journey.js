@@ -1,10 +1,17 @@
-import { normalizeSearchResults, normalizeRoutes } from "../js/services/tomtom.js";
+import { normalizeSearchResults, normalizeRoutes, buildSearchUrl } from "../js/services/tomtom.js";
+import { normalizeLiveWeather } from "../js/services/open-meteo-live.js";
 import { analyseJourneyRoutes } from "../js/intelligence/journey-analysis.js";
 
 function assert(condition, message) { if (!condition) throw new Error(message); }
 
 const places = normalizeSearchResults({ results: [{ id: "deccan", type: "Geography", position: { lat: 18.516, lon: 73.841 }, address: { freeformAddress: "Deccan Gymkhana, Pune" } }] });
 assert(places.length === 1 && places[0].position.lat === 18.516, "TomTom search normalization failed");
+const nationwideSearchUrl = buildSearchUrl("Mumbai");
+assert(nationwideSearchUrl.includes("countrySet=IN") && nationwideSearchUrl.includes("geobias=point"), "India-wide search must retain Pune geobias");
+assert(!nationwideSearchUrl.includes("radius="), "India-wide search must not be constrained to Pune radius");
+
+const freshWeather = normalizeLiveWeather({ latitude: 19.1, longitude: 72.9, current: { time: "2026-07-11T01:00", temperature_2m: 26, wind_speed_10m: 15, wind_gusts_10m: 22 }, hourly: { time: ["2026-07-11T01:00", "2026-07-11T02:00"], precipitation: [8, 8], precipitation_probability: [80, 90], visibility: [3000, 2000] } }, "2026-07-10T19:30:00Z");
+assert(freshWeather.rainRisk === "Medium" && freshWeather.sourceCheckedAt, "Fresh route weather normalization failed");
 
 const start = { lat: 18.516, lon: 73.841 };
 const destination = { lat: 18.591, lon: 73.739 };
@@ -18,6 +25,9 @@ const analysed = analyseJourneyRoutes(routes, { trafficIncidents: [], environmen
 assert(analysed.length === 2, "Alternative routes were not analysed separately");
 assert(analysed[0].id === "tomtom-route-2" && analysed[0].recommended, "Lower-risk route was not recommended");
 assert(analysed[0].journeySuitability.score > analysed[1].journeySuitability.score, "Traffic penalty was not route-specific");
+const routeWeatherById = { [routes[0].id]: { point: { latitude: 18.55, longitude: 73.8, rainRisk: "High", visibilityRisk: "Minimal", windRisk: "Minimal" } }, [routes[1].id]: {} };
+const weatherAnalysed = analyseJourneyRoutes(routes, { trafficIncidents: [], routeWeatherById, environmental: { weatherIntelligence: { regions: {} } } });
+assert(weatherAnalysed.find(route => route.id === routes[0].id).journeySuitability.reasons.some(reason => reason.includes("Heavy rainfall")), "Weather was not applied to its route geometry");
 
 const closure = { type: "Feature", geometry: { type: "Point", coordinates: [73.8, 18.55] }, properties: { id: "closed", iconCategory: 8 } };
 const blockedRoute = { ...routes[1], sections: [{ simpleCategory: "ROAD_CLOSURE" }] };
