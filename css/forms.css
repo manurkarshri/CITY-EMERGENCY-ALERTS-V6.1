@@ -5,3 +5,10 @@
 .call-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .call-btn{display:block;text-align:center;text-decoration:none;background:#fff;border:1px solid var(--border);border-radius:16px;padding:15px 10px;font-weight:900;color:var(--text)}
 .call-btn.emergency{background:#ffebee;color:var(--red);border-color:#ffcdd2}
+.autocomplete-field{position:relative;display:grid;gap:6px}
+.suggestions{position:absolute;z-index:20;top:100%;left:0;right:0;background:#fff;border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow-soft);max-height:260px;overflow:auto}
+.suggestions button{display:block;width:100%;border:0;border-bottom:1px solid var(--border);background:#fff;text-align:left;padding:11px;color:var(--text)}
+.suggestions button:last-child{border-bottom:0}.suggestions button:hover,.suggestions button:focus{background:#f5f7f8}
+.suggestions strong,.suggestions span{display:block}.suggestions span{font-size:12px;color:var(--muted);margin-top:2px}
+.journey-status{min-height:18px}.journey-status.error{color:var(--red)}.journey-status.warning{color:#8d5b00}.journey-status.success{color:var(--green)}
+.navigation-link{display:inline-block;text-decoration:none;margin-top:12px}

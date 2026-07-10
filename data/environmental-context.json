@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-10T19:04:24.754Z",
+  "generatedAt": "2026-07-10T19:15:42.049Z",
   "weatherSource": {
     "status": "current",
     "sourceCheckedAt": "2026-07-10T19:04:24.174Z",
@@ -19,10 +19,12 @@
     "error": "No live river or dam collector is connected."
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-07-10T19:04:24.753Z",
+    "generatedAt": "2026-07-10T19:15:42.047Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
+        "latitude": 18.523726,
+        "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
         "sourceCheckedAt": "2026-07-10T19:04:24.174Z",
@@ -46,6 +48,8 @@
       },
       "pcmc": {
         "label": "Pimpri-Chinchwad",
+        "latitude": 18.594023,
+        "longitude": 73.76471,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
         "sourceCheckedAt": "2026-07-10T19:04:24.174Z",
@@ -69,6 +73,8 @@
       },
       "pune_district": {
         "label": "Pune District",
+        "latitude": 18.523726,
+        "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
         "sourceCheckedAt": "2026-07-10T19:04:24.174Z",
@@ -92,6 +98,8 @@
       },
       "mulshi": {
         "label": "Mulshi",
+        "latitude": 18.523726,
+        "longitude": 73.51617,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
         "sourceCheckedAt": "2026-07-10T19:04:24.174Z",
@@ -115,6 +123,8 @@
       },
       "maval": {
         "label": "Maval / Lonavala",
+        "latitude": 18.80492,
+        "longitude": 73.451324,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
         "sourceCheckedAt": "2026-07-10T19:04:24.174Z",
@@ -140,7 +150,7 @@
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-07-10T19:04:24.754Z",
+    "generatedAt": "2026-07-10T19:15:42.049Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -153,7 +163,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-07-10T19:04:24.754Z",
+    "generatedAt": "2026-07-10T19:15:42.048Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -234,7 +244,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-07-10T19:04:24.754Z",
+    "generatedAt": "2026-07-10T19:15:42.049Z",
     "mode": "on-demand",
     "relevantDomains": [],
     "infrastructure": {
@@ -270,7 +280,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-07-10T19:04:24.754Z",
+    "generatedAt": "2026-07-10T19:15:42.049Z",
     "riskLevel": "Normal",
     "impacts": [],
     "citizenSummary": "No major environmental disruption indicated from current data.",

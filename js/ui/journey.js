@@ -1,102 +1,177 @@
 import { state } from "../core/state.js";
 import { escapeHtml, escapeAttr } from "../utils/format.js";
+import { tomTomConfigured, searchPlaces, reverseGeocode, calculateRoutes, trafficIncidentsForRoutes } from "../services/tomtom.js";
+import { analyseJourneyRoutes } from "../intelligence/journey-analysis.js";
 
-let manualJourney = null;
-let lastStart = localStorage.getItem("cea.journey.start") || "Kharadi";
-let lastDestination = localStorage.getItem("cea.journey.destination") || "Hinjawadi";
+let selectedStart = null;
+let selectedDestination = null;
+let analysedRoutes = [];
+let statusMessage = "";
+let statusKind = "info";
+let searchTimer = null;
 
 export function renderJourney() {
   const panel = document.getElementById("tab-journey");
-  const journeys = state.journey?.journeys || [];
-  const best = manualJourney || journeys[0]?.bestRoute;
-
   panel.innerHTML = `
     <section class="card feature">
       <div class="section-kicker">Route Safety</div>
-      <h2>Journey</h2>
-      <p>Check route suitability based on current alerts, incidents, weather and environmental intelligence.</p>
-      <div class="form-row">
-        <input id="journeyStart" placeholder="Start location" value="${escapeHtml(lastStart)}" />
-        <input id="journeyDestination" placeholder="Destination" value="${escapeHtml(lastDestination)}" />
-        <select id="journeyDeparture"><option>Leave Now</option><option>Choose Time</option></select>
-        <button class="primary-btn" id="journeyBtn">Analyse Journey</button>
+      <h2>Journey Assistance</h2>
+      <p>Compare traffic-aware routes using current traffic incidents, weather, alerts and environmental intelligence.</p>
+      ${tomTomConfigured() ? "" : `<p class="journey-status warning"><strong>Journey routing is not configured in this deployment.</strong></p>`}
+      <div class="form-row journey-form">
+        <button class="secondary-btn" id="journeyCurrentLocation" type="button">Use My Current Location</button>
+        ${locationField("journeyStart", "Start location", selectedStart)}
+        ${locationField("journeyDestination", "Destination", selectedDestination)}
+        <label for="journeyDeparture">Departure</label>
+        <select id="journeyDeparture">
+          <option value="now">Leave now</option>
+          <option value="30">In 30 minutes</option>
+          <option value="60">In 1 hour</option>
+          <option value="custom">Choose date and time</option>
+        </select>
+        <input id="journeyCustomTime" type="datetime-local" hidden />
+        <button class="primary-btn" id="journeyBtn" type="button" ${tomTomConfigured() ? "" : "disabled"}>Analyse Journey</button>
       </div>
-      <p class="small">Version 6.1 provides app-side journey scoring and Google Maps handoff. Live traffic API routing can be added once a supported API key/source is available.</p>
+      <p id="journeyStatus" class="journey-status ${escapeAttr(statusKind)}" role="status">${escapeHtml(statusMessage)}</p>
+      <p class="small">Locations and routes are requested directly from TomTom. Precise location history is not stored.</p>
     </section>
-    ${best ? renderBestRoute(best) : `<section class="card empty">Journey intelligence has not generated route assessments yet.</section>`}
-    ${journeys.length ? renderKnownJourneys(journeys) : ""}
+    <div id="journeyResults">${renderResults()}</div>
   `;
-  document.getElementById("journeyBtn")?.addEventListener("click", analyseTypedJourney);
+  bindJourneyControls();
 }
 
-function analyseTypedJourney() {
-  const start = document.getElementById("journeyStart")?.value?.trim() || "Start";
-  const destination = document.getElementById("journeyDestination")?.value?.trim() || "Destination";
-  lastStart = start;
-  lastDestination = destination;
-  localStorage.setItem("cea.journey.start", start);
-  localStorage.setItem("cea.journey.destination", destination);
-
-  const known = findKnownJourney(start, destination);
-  manualJourney = known?.bestRoute ? { ...known.bestRoute, label: `${start} to ${destination}`, start, destination } : createManualRoute(start, destination);
-  renderJourney();
+function locationField(id, placeholder, selected) {
+  return `<div class="autocomplete-field">
+    <label for="${id}">${placeholder}</label>
+    <input id="${id}" placeholder="${placeholder}" autocomplete="off" aria-autocomplete="list" aria-controls="${id}Suggestions" value="${escapeAttr(selected?.label || "")}" />
+    <div id="${id}Suggestions" class="suggestions" role="listbox" hidden></div>
+  </div>`;
 }
 
-function findKnownJourney(start, destination) {
-  const s = start.toLowerCase();
-  const d = destination.toLowerCase();
-  return (state.journey?.journeys || []).find(j => {
-    const js = (j.start || "").toLowerCase();
-    const jd = (j.destination || "").toLowerCase();
-    return js.includes(s) || s.includes(js) || jd.includes(d) || d.includes(jd);
+function bindJourneyControls() {
+  document.getElementById("journeyStart")?.addEventListener("input", event => handleLocationInput(event, "start"));
+  document.getElementById("journeyDestination")?.addEventListener("input", event => handleLocationInput(event, "destination"));
+  document.getElementById("journeyCurrentLocation")?.addEventListener("click", useCurrentLocation);
+  document.getElementById("journeyDeparture")?.addEventListener("change", event => {
+    const custom = document.getElementById("journeyCustomTime");
+    if (custom) custom.hidden = event.target.value !== "custom";
   });
+  document.getElementById("journeyBtn")?.addEventListener("click", analyseJourney);
 }
 
-function createManualRoute(start, destination) {
-  const alerts = (state.alerts || []).length;
-  const incidents = (state.incidents || []).length;
-  const river = (state.environmental?.riverIntelligence || []).length;
-  const weatherRegions = Object.values(state.environmental?.weatherIntelligence?.regions || {});
-  const highWeather = weatherRegions.filter(w => ["High", "Medium"].includes(w.rainRisk)).length;
-  const penalty = Math.min(45, alerts * 8 + incidents * 6 + river * 5 + highWeather * 5);
-  const score = Math.max(40, 100 - penalty);
-  const label = score >= 85 ? "Good to Go" : score >= 65 ? "Proceed with Caution" : "Replan if Possible";
-  const delay = score >= 85 ? 5 : score >= 65 ? 15 : 30;
-
-  return {
-    label: `${start} to ${destination}`,
-    start,
-    destination,
-    journeySuitability: { score, label, recommendation: `${label}. Assessment is based on current alerts, incidents, weather and environmental intelligence.` },
-    estimatedTimeMin: null,
-    estimatedDelayMin: delay,
-    googleMapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(start + " to " + destination)}`,
-    explanation: `${start} to ${destination}: Journey suitability is ${label} (${score}/100). Estimated delay may be around ${delay} minutes. Open in Maps to review live route and traffic options.`
-  };
+function handleLocationInput(event, type) {
+  const input = event.target;
+  if (type === "start") selectedStart = null; else selectedDestination = null;
+  clearTimeout(searchTimer);
+  const container = document.getElementById(`${input.id}Suggestions`);
+  if (input.value.trim().length < 2) { showSuggestions(container, []); return; }
+  searchTimer = setTimeout(async () => {
+    try {
+      const results = await searchPlaces(input.value);
+      showSuggestions(container, results, place => {
+        if (type === "start") selectedStart = place; else selectedDestination = place;
+        input.value = place.label;
+        showSuggestions(container, []);
+        setStatus("");
+      });
+    } catch (error) {
+      showSuggestions(container, []);
+      setStatus(`Location search unavailable: ${error.message}`, "error");
+    }
+  }, 300);
 }
 
-function renderBestRoute(route) {
-  return `
-    <section class="card route-card recommended">
-      <div class="section-kicker">Recommended</div>
-      <h2>Best Route</h2>
-      <h3>${escapeHtml(route.label)}</h3>
-      <div class="grid">
-        <div class="metric"><strong>${route.journeySuitability?.score ?? "--"}/100</strong><span>Journey Suitability</span></div>
-        <div class="metric"><strong>${escapeHtml(route.journeySuitability?.label || "Unknown")}</strong><span>Recommendation</span></div>
-        <div class="metric"><strong>${route.estimatedTimeMin ?? "Maps"} ${route.estimatedTimeMin ? "min" : ""}</strong><span>Estimated Time</span></div>
-        <div class="metric"><strong>${route.estimatedDelayMin ?? "--"} min</strong><span>Estimated Delay</span></div>
-      </div>
-      <p>${escapeHtml(route.explanation || route.journeySuitability?.recommendation || "")}</p>
-      <a class="primary-btn" href="${escapeAttr(route.googleMapsUrl || "#")}" target="_blank" rel="noopener" style="display:inline-block;text-decoration:none">Open in Google Maps</a>
-    </section>
-  `;
+function showSuggestions(container, places, onSelect) {
+  if (!container) return;
+  container.innerHTML = places.map((place, index) => `<button type="button" role="option" data-index="${index}"><strong>${escapeHtml(place.label)}</strong><span>${escapeHtml(place.address || "")}</span></button>`).join("");
+  container.hidden = !places.length;
+  container.querySelectorAll("button").forEach(button => button.addEventListener("click", () => onSelect(places[Number(button.dataset.index)])));
 }
 
-function renderKnownJourneys(journeys) {
-  return `<section class="card"><h2>Configured Journey Examples</h2><p class="small">Generated route assessments from the current intelligence pipeline.</p>${journeys.map(renderJourneyComparison).join("")}</section>`;
+async function useCurrentLocation() {
+  if (!navigator.geolocation) { setStatus("Current location is not supported by this browser. Enter a start location instead.", "error"); return; }
+  setStatus("Requesting your current location…");
+  navigator.geolocation.getCurrentPosition(async position => {
+    try {
+      selectedStart = await reverseGeocode(position.coords.latitude, position.coords.longitude);
+      const input = document.getElementById("journeyStart");
+      if (input) input.value = selectedStart.label;
+      setStatus("Current location selected.", "success");
+    } catch (error) { setStatus(`Location found, but its address could not be loaded: ${error.message}`, "error"); }
+  }, () => setStatus("Location permission was denied or unavailable. Enter your start location manually.", "error"), { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 });
 }
 
-function renderJourneyComparison(journey) {
-  return `<details><summary>${escapeHtml(journey.start)} → ${escapeHtml(journey.destination)}</summary>${(journey.routes || []).map(route => `<div class="metric" style="margin-top:8px"><strong>${escapeHtml(route.label)}</strong><span>${route.journeySuitability?.score ?? "--"}/100 · ${escapeHtml(route.journeySuitability?.label || "")} · ${route.estimatedTimeMin ?? "--"} min</span></div>`).join("")}</details>`;
+async function analyseJourney() {
+  if (!selectedStart || !selectedDestination) { setStatus("Select both locations from the suggestions before analysing the journey.", "error"); return; }
+  const button = document.getElementById("journeyBtn");
+  if (button) { button.disabled = true; button.textContent = "Analysing…"; }
+  analysedRoutes = [];
+  renderResultsIntoPage();
+  setStatus("Calculating traffic-aware routes…");
+  try {
+    const routes = await calculateRoutes(selectedStart.position, selectedDestination.position, { departAt: departureTime(), maxAlternatives: 2 });
+    if (!routes.length) throw new Error("TomTom did not return a route for these locations.");
+    let trafficIncidents = [];
+    let trafficWarning = "";
+    try { trafficIncidents = await trafficIncidentsForRoutes(routes); }
+    catch (error) { trafficWarning = " Traffic incidents could not be loaded, so the assessment excludes incident details."; }
+    analysedRoutes = analyseJourneyRoutes(routes, { trafficIncidents, environmental: state.environmental, alerts: state.alerts, incidents: state.incidents });
+    setStatus(`${analysedRoutes.length} route${analysedRoutes.length === 1 ? "" : "s"} analysed.${trafficWarning}`, trafficWarning ? "warning" : "success");
+    renderResultsIntoPage();
+  } catch (error) {
+    setStatus(`Journey analysis unavailable: ${error.message} No suitability score has been fabricated.`, "error");
+  } finally {
+    if (button) { button.disabled = false; button.textContent = "Analyse Journey"; }
+  }
+}
+
+function departureTime() {
+  const value = document.getElementById("journeyDeparture")?.value || "now";
+  if (value === "now") return "now";
+  if (value === "custom") {
+    const custom = document.getElementById("journeyCustomTime")?.value;
+    if (!custom || new Date(custom).getTime() <= Date.now()) throw new Error("Choose a future departure time.");
+    return new Date(custom).toISOString();
+  }
+  return new Date(Date.now() + Number(value) * 60000).toISOString();
+}
+
+function renderResults() {
+  if (!analysedRoutes.length) return "";
+  return `<section class="card"><div class="section-kicker">Route Comparison</div><h2>${analysedRoutes.length} route${analysedRoutes.length === 1 ? "" : "s"} compared</h2><p class="small">Every route has a separate Journey Suitability Index.</p></section>${analysedRoutes.map(renderRoute).join("")}`;
+}
+
+function renderRoute(route) {
+  const score = route.journeySuitability;
+  const duration = Math.round(route.travelTimeSeconds / 60);
+  const delay = Math.round(route.trafficDelaySeconds / 60);
+  const distance = (route.distanceMeters / 1000).toFixed(1);
+  const navigationUrl = buildNavigationUrl(route);
+  return `<article class="card route-card ${route.recommended ? "recommended" : ""}">
+    <div class="section-kicker">${route.recommended ? "Recommended" : `Route ${route.rank}`}</div>
+    <h2>${escapeHtml(route.label)}</h2>
+    <div class="grid">
+      <div class="metric"><strong>${score.score}/100</strong><span>Journey Suitability</span></div>
+      <div class="metric"><strong>${escapeHtml(score.label)}</strong><span>Recommendation</span></div>
+      <div class="metric"><strong>${duration} min</strong><span>Traffic-aware time</span></div>
+      <div class="metric"><strong>${delay} min</strong><span>Traffic delay</span></div>
+      <div class="metric"><strong>${distance} km</strong><span>Distance</span></div>
+      <div class="metric"><strong>${route.routeTrafficIncidents.length}</strong><span>Route incidents</span></div>
+    </div>
+    <p><strong>${escapeHtml(score.recommendation)}</strong></p>
+    <ul class="compact-list">${score.reasons.map(reason => `<li>${escapeHtml(reason)}</li>`).join("")}</ul>
+    <a class="primary-btn navigation-link" href="${escapeAttr(navigationUrl)}" target="_blank" rel="noopener">Navigate this route</a>
+  </article>`;
+}
+
+function renderResultsIntoPage() { const results = document.getElementById("journeyResults"); if (results) results.innerHTML = renderResults(); }
+function setStatus(message, kind = "info") { statusMessage = message; statusKind = kind; const element = document.getElementById("journeyStatus"); if (element) { element.textContent = message; element.className = `journey-status ${kind}`; } }
+function buildNavigationUrl(route) {
+  const params = new URLSearchParams({ api: "1", origin: `${route.start.lat},${route.start.lon}`, destination: `${route.destination.lat},${route.destination.lon}`, travelmode: "driving" });
+  const points = route.points || [];
+  if (points.length >= 4) {
+    const waypoints = [0.25, 0.5, 0.75].map(fraction => points[Math.min(points.length - 2, Math.max(1, Math.floor(points.length * fraction)))]).map(point => `${point.latitude},${point.longitude}`);
+    params.set("waypoints", waypoints.join("|"));
+  }
+  return `https://www.google.com/maps/dir/?${params}`;
 }

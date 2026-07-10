@@ -5,6 +5,7 @@ import "./test-environmental-intelligence.js";
 import "./test-journey-intelligence.js";
 import "./test-freshness.js";
 import "./test-locality.js";
+import "./test-tomtom-journey.js";
 
 function assert(condition, message) { if (!condition) throw new Error(message); }
 

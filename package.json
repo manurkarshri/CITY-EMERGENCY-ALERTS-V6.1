@@ -6,6 +6,7 @@
   "scripts": {
     "validate": "node scripts/validation/validate-build.js",
     "build:status": "node scripts/builders/build-status.js",
+    "build:pages": "node scripts/build-pages.js",
     "collect:weather": "node scripts/collect-weather.js",
     "build:intelligence": "node scripts/run-intelligence-core.js",
     "build:environmental": "node scripts/build-environmental-intelligence.js",
