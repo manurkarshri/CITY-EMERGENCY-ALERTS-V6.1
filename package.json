@@ -6,13 +6,14 @@
   "scripts": {
     "validate": "node scripts/validation/validate-build.js",
     "build:status": "node scripts/builders/build-status.js",
+    "collect:weather": "node scripts/collect-weather.js",
     "build:intelligence": "node scripts/run-intelligence-core.js",
     "build:environmental": "node scripts/build-environmental-intelligence.js",
     "build:journey": "node scripts/build-journey-intelligence.js",
     "test": "node tests/run-tests.js",
     "build:live": "node scripts/build-live-intelligence.js",
-    "build:all": "node scripts/run-intelligence-core.js && node scripts/build-environmental-intelligence.js && node scripts/build-journey-intelligence.js && node scripts/build-live-intelligence.js && node scripts/builders/build-status.js",
-    "production-check": "node scripts/run-intelligence-core.js && node scripts/build-environmental-intelligence.js && node scripts/build-journey-intelligence.js && node scripts/build-live-intelligence.js && node scripts/builders/build-status.js && node scripts/validation/validate-build.js && node tests/run-tests.js"
+    "build:all": "node scripts/collect-weather.js && node scripts/run-intelligence-core.js && node scripts/build-environmental-intelligence.js && node scripts/build-journey-intelligence.js && node scripts/build-live-intelligence.js && node scripts/builders/build-status.js",
+    "production-check": "node scripts/collect-weather.js && node scripts/run-intelligence-core.js && node scripts/build-environmental-intelligence.js && node scripts/build-journey-intelligence.js && node scripts/build-live-intelligence.js && node scripts/builders/build-status.js && node scripts/validation/validate-build.js && node tests/run-tests.js"
   },
   "license": "MIT"
 }

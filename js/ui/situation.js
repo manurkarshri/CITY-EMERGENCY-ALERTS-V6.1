@@ -1,17 +1,20 @@
 import { state, filteredEvents } from "../core/state.js";
-import { escapeHtml, relativeTime } from "../utils/format.js";
+import { escapeHtml, escapeAttr, relativeTime } from "../utils/format.js";
 
 export function renderSituation() {
   const panel = document.getElementById("tab-situation");
   const weatherRegions = state.environmental?.weatherIntelligence?.regions || state.intelligence?.situation?.weather?.regions || {};
   const weather = weatherRegions[state.selected.taluka] || weatherRegions[state.selected.region] || weatherRegions.pune_city || Object.values(weatherRegions)[0];
+  const weatherSource = state.environmental?.weatherSource || {};
+  const weatherStatus = effectiveWeatherStatus(weatherSource);
   const snapshot = state.intelligence?.situation?.snapshot || state.environmental?.story || "Situation information is being prepared.";
 
   panel.innerHTML = `
     <section class="card feature">
       <div class="section-kicker">Current Weather</div>
       <h2>Weather Intelligence</h2>
-      ${weather ? `
+      ${renderWeatherFreshness(weatherSource, weatherStatus)}
+      ${weather && weatherStatus !== "unavailable" ? `
         <div class="grid">
           <div class="metric"><strong>${weather.temp ?? "--"}°C</strong><span>Temperature</span></div>
           <div class="metric"><strong>${weather.rainRisk || "Normal"}</strong><span>Rain Risk</span></div>
@@ -19,6 +22,7 @@ export function renderSituation() {
           <div class="metric"><strong>${weather.visibility ?? "--"} km</strong><span>Visibility</span></div>
         </div>
         <p>${escapeHtml((weather.advice || [])[0] || "No major weather issue indicated.")}</p>
+        ${weatherSource.attribution?.url ? `<p class="small">Weather data: <a href="${escapeAttr(weatherSource.attribution.url)}" target="_blank" rel="noopener">${escapeHtml(weatherSource.attribution.name || "Open-Meteo")}</a></p>` : ""}
       ` : `<p class="empty">Weather intelligence is not available yet.</p>`}
     </section>
 
@@ -45,6 +49,19 @@ export function renderSituation() {
       <p>${relativeTime(state.build?.build?.buildTime || state.intelligence?.generatedAt || state.environmental?.generatedAt)}</p>
     </section>
   `;
+}
+
+function effectiveWeatherStatus(source) {
+  if (!source.lastSuccessfulAt) return "unavailable";
+  const age = Date.now() - new Date(source.lastSuccessfulAt).getTime();
+  const staleAfter = Number(source.staleAfterMinutes || 90) * 60 * 1000;
+  return source.status === "current" && age <= staleAfter ? "current" : "stale";
+}
+
+function renderWeatherFreshness(source, status) {
+  if (status === "current") return `<p class="small">Current data · checked ${relativeTime(source.sourceCheckedAt)}</p>`;
+  if (status === "stale") return `<p class="small"><strong>Weather data is stale.</strong> Last successful update ${relativeTime(source.lastSuccessfulAt)}. Latest check ${relativeTime(source.sourceCheckedAt)}.</p>`;
+  return `<p class="small"><strong>Live weather is temporarily unavailable.</strong>${source.sourceCheckedAt ? ` Latest check ${relativeTime(source.sourceCheckedAt)}.` : ""}</p>`;
 }
 
 function sinceLastVisit() {

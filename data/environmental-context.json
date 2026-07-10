@@ -1,55 +1,133 @@
 {
-  "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-10T17:20:01.560Z",
+  "schemaVersion": "6.1.0",
+  "generatedAt": "2026-07-10T17:28:09.311Z",
+  "weatherSource": {
+    "status": "current",
+    "sourceCheckedAt": "2026-07-10T17:27:56.306Z",
+    "lastSuccessfulAt": "2026-07-10T17:27:56.306Z",
+    "staleAfterMinutes": 90,
+    "attribution": {
+      "name": "Open-Meteo",
+      "url": "https://open-meteo.com/"
+    },
+    "error": null
+  },
   "weatherIntelligence": {
-    "generatedAt": "2026-07-10T17:20:01.558Z",
+    "generatedAt": "2026-07-10T17:28:09.309Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
-        "source": "Sample",
-        "temp": 27,
-        "rain6h": 18,
-        "wind": 32,
-        "visibility": 4,
-        "rainRisk": "Medium",
+        "source": "Open-Meteo",
+        "sourceUrl": "https://open-meteo.com/",
+        "sourceCheckedAt": "2026-07-10T17:27:56.306Z",
+        "observedAt": "2026-07-10T22:45:00+05:30",
+        "temp": 23.2,
+        "rain6h": 0.1,
+        "precipitationProbability": 5,
+        "wind": 26.6,
+        "gust": 26.6,
+        "humidity": 89,
+        "visibility": 6.8,
+        "weatherCode": 3,
+        "rainRisk": "Minimal",
         "windRisk": "Low",
-        "visibilityRisk": "Low",
+        "visibilityRisk": "Minimal",
         "heatRisk": "Normal",
-        "travelImpact": "Medium",
+        "travelImpact": "Low",
         "advice": [
-          "Moderate rainfall may slow travel in low-lying areas."
+          "No major weather-related disruption indicated."
         ]
       },
       "pcmc": {
         "label": "Pimpri-Chinchwad",
-        "source": "Sample",
-        "temp": 26,
-        "rain6h": 16,
-        "wind": 28,
-        "visibility": 5,
-        "rainRisk": "Medium",
+        "source": "Open-Meteo",
+        "sourceUrl": "https://open-meteo.com/",
+        "sourceCheckedAt": "2026-07-10T17:27:56.306Z",
+        "observedAt": "2026-07-10T22:45:00+05:30",
+        "temp": 23.3,
+        "rain6h": 0.1,
+        "precipitationProbability": 3,
+        "wind": 25.2,
+        "gust": 25.2,
+        "humidity": 89,
+        "visibility": 6.6,
+        "weatherCode": 3,
+        "rainRisk": "Minimal",
         "windRisk": "Low",
-        "visibilityRisk": "Low",
+        "visibilityRisk": "Minimal",
         "heatRisk": "Normal",
-        "travelImpact": "Medium",
+        "travelImpact": "Low",
         "advice": [
-          "Moderate rainfall may slow travel in low-lying areas."
+          "No major weather-related disruption indicated."
+        ]
+      },
+      "pune_district": {
+        "label": "Pune District",
+        "source": "Open-Meteo",
+        "sourceUrl": "https://open-meteo.com/",
+        "sourceCheckedAt": "2026-07-10T17:27:56.306Z",
+        "observedAt": "2026-07-10T22:45:00+05:30",
+        "temp": 23.2,
+        "rain6h": 0.1,
+        "precipitationProbability": 5,
+        "wind": 26.6,
+        "gust": 26.6,
+        "humidity": 89,
+        "visibility": 6.8,
+        "weatherCode": 3,
+        "rainRisk": "Minimal",
+        "windRisk": "Low",
+        "visibilityRisk": "Minimal",
+        "heatRisk": "Normal",
+        "travelImpact": "Low",
+        "advice": [
+          "No major weather-related disruption indicated."
         ]
       },
       "mulshi": {
         "label": "Mulshi",
-        "source": "Sample",
-        "temp": 24,
-        "rain6h": 34,
-        "wind": 42,
-        "visibility": 2,
-        "rainRisk": "High",
-        "windRisk": "Medium",
-        "visibilityRisk": "Medium",
+        "source": "Open-Meteo",
+        "sourceUrl": "https://open-meteo.com/",
+        "sourceCheckedAt": "2026-07-10T17:27:56.306Z",
+        "observedAt": "2026-07-10T22:45:00+05:30",
+        "temp": 22.6,
+        "rain6h": 2.1,
+        "precipitationProbability": 100,
+        "wind": 32,
+        "gust": 32,
+        "humidity": 100,
+        "visibility": 0.1,
+        "weatherCode": 51,
+        "rainRisk": "Minimal",
+        "windRisk": "Low",
+        "visibilityRisk": "High",
         "heatRisk": "Normal",
         "travelImpact": "High",
         "advice": [
-          "Heavy rainfall may cause waterlogging. Allow extra travel time."
+          "Low visibility may make driving unsafe."
+        ]
+      },
+      "maval": {
+        "label": "Maval / Lonavala",
+        "source": "Open-Meteo",
+        "sourceUrl": "https://open-meteo.com/",
+        "sourceCheckedAt": "2026-07-10T17:27:56.306Z",
+        "observedAt": "2026-07-10T22:45:00+05:30",
+        "temp": 22.4,
+        "rain6h": 2.5,
+        "precipitationProbability": 99,
+        "wind": 28.8,
+        "gust": 28.8,
+        "humidity": 100,
+        "visibility": 0.1,
+        "weatherCode": 51,
+        "rainRisk": "Minimal",
+        "windRisk": "Low",
+        "visibilityRisk": "High",
+        "heatRisk": "Normal",
+        "travelImpact": "High",
+        "advice": [
+          "Low visibility may make driving unsafe."
         ]
       }
     }
@@ -84,7 +162,7 @@
       "timeline": {
         "state": "developing",
         "note": "Khadakwasla Dam release is high.",
-        "updatedAt": "2026-07-10T17:20:01.558Z"
+        "updatedAt": "2026-07-10T17:28:09.310Z"
       },
       "evidence": [
         {
@@ -122,7 +200,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Pawna Dam release is elevated.",
-        "updatedAt": "2026-07-10T17:20:01.559Z"
+        "updatedAt": "2026-07-10T17:28:09.310Z"
       },
       "evidence": [
         {
@@ -139,7 +217,7 @@
     }
   ],
   "seasonalIntelligence": {
-    "generatedAt": "2026-07-10T17:20:01.559Z",
+    "generatedAt": "2026-07-10T17:28:09.311Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -152,7 +230,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-07-10T17:20:01.559Z",
+    "generatedAt": "2026-07-10T17:28:09.310Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -233,7 +311,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-07-10T17:20:01.559Z",
+    "generatedAt": "2026-07-10T17:28:09.311Z",
     "mode": "on-demand",
     "relevantDomains": [
       "bridges",
@@ -272,15 +350,14 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-07-10T17:20:01.560Z",
+    "generatedAt": "2026-07-10T17:28:09.311Z",
     "riskLevel": "Elevated",
     "impacts": [
-      "3 area(s) have elevated rain-related travel impact.",
       "1 river or dam related warning(s) may affect downstream areas.",
       "1 active transport-related event(s) may affect travel."
     ],
-    "citizenSummary": "3 area(s) have elevated rain-related travel impact. 1 river or dam related warning(s) may affect downstream areas. 1 active transport-related event(s) may affect travel.",
+    "citizenSummary": "1 river or dam related warning(s) may affect downstream areas. 1 active transport-related event(s) may affect travel.",
     "seasonalContext": "monsoon"
   },
-  "story": "Heavy rainfall may affect travel in parts of Pune District. Khadakwasla Dam related river conditions may affect downstream areas. Avoid riverbanks. 2 important alerts require attention."
+  "story": "Khadakwasla Dam related river conditions may affect downstream areas. Avoid riverbanks. 2 important alerts require attention."
 }

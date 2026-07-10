@@ -1,0 +1,12 @@
+{
+  "provider": "open-meteo",
+  "timezone": "Asia/Kolkata",
+  "staleAfterMinutes": 90,
+  "locations": {
+    "pune_city": { "label": "Pune City", "lat": 18.5204, "lon": 73.8567 },
+    "pcmc": { "label": "Pimpri-Chinchwad", "lat": 18.6298, "lon": 73.7997 },
+    "pune_district": { "label": "Pune District", "lat": 18.5167, "lon": 73.8563 },
+    "mulshi": { "label": "Mulshi", "lat": 18.5018, "lon": 73.5137 },
+    "maval": { "label": "Maval / Lonavala", "lat": 18.7546, "lon": 73.4062 }
+  }
+}
