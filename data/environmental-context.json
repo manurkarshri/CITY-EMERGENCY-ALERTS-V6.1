@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-10T17:43:32.497Z",
+  "generatedAt": "2026-07-10T17:56:22.049Z",
   "weatherSource": {
     "status": "current",
     "sourceCheckedAt": "2026-07-10T17:27:56.306Z",
@@ -19,7 +19,7 @@
     "error": "No live river or dam collector is connected."
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-07-10T17:43:32.495Z",
+    "generatedAt": "2026-07-10T17:56:22.047Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -140,7 +140,7 @@
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-07-10T17:43:32.496Z",
+    "generatedAt": "2026-07-10T17:56:22.049Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -153,7 +153,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-07-10T17:43:32.496Z",
+    "generatedAt": "2026-07-10T17:56:22.048Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -234,7 +234,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-07-10T17:43:32.496Z",
+    "generatedAt": "2026-07-10T17:56:22.049Z",
     "mode": "on-demand",
     "relevantDomains": [],
     "infrastructure": {
@@ -270,7 +270,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-07-10T17:43:32.497Z",
+    "generatedAt": "2026-07-10T17:56:22.049Z",
     "riskLevel": "Normal",
     "impacts": [],
     "citizenSummary": "No major environmental disruption indicated from current data.",

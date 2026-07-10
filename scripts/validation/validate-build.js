@@ -4,6 +4,7 @@ import { validateEnvironmentalContext } from "./validate-environment.js";
 import { validateJourneyIntelligence } from "./validate-journey.js";
 import { readJson } from "../lib/io.js";
 import { log } from "../lib/logger.js";
+import { validateLocalityHierarchy } from "./validate-localities.js";
 
 const files = [
   "data/intelligence.json",
@@ -43,5 +44,8 @@ for (const source of sourceHealth.sources || []) {
   if (!source.id || !source.name || !source.status) throw new Error("Source health entry is missing id, name or status");
   if (!["healthy", "current", "stale", "unavailable", "unverified", "configured"].includes(source.status)) throw new Error(`Invalid source health status: ${source.status}`);
 }
+
+const localityErrors = await validateLocalityHierarchy();
+if (localityErrors.length) throw new Error(`Locality hierarchy validation failed: ${localityErrors.join(", ")}`);
 
 log("Milestone C validation complete.");

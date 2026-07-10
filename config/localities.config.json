@@ -1,15 +1,33 @@
 {
   "model": "administrative-ui-operational-backend",
+  "talukaAliases": {
+    "Pune": "pune_city",
+    "Pune City": "pune_city",
+    "PCMC": "pcmc",
+    "Pimpri Chinchwad": "pcmc",
+    "Pimpri-Chinchwad": "pcmc",
+    "Velhe": "velhe",
+    "Velha": "velhe",
+    "Loni Kalbhor": "loni_kalbhor"
+  },
   "aliases": {
-    "PCMC": "Pimpri-Chinchwad",
     "KP": "Koregaon Park",
     "FC Road": "Fergusson College Road",
     "JM Road": "Jangli Maharaj Road",
     "SB Road": "Senapati Bapat Road",
+    "Deccan": "Deccan Gymkhana",
+    "Deccan Gymkhana": "Deccan Gymkhana",
+    "Hinjewadi": "Hinjawadi",
+    "Hinjawadi": "Hinjawadi",
     "Sinhgad Road": "Sinhagad Road",
+    "Sinhagad Rd": "Sinhagad Road",
+    "Vishrant Wadi": "Vishrantwadi",
+    "Yerwada": "Yerawada",
+    "Vimannagar": "Viman Nagar",
     "Mumbai Pune Expressway": "Mumbai-Pune Expressway",
     "E-way": "Mumbai-Pune Expressway",
-    "Khadakvasla": "Khadakwasla"
+    "Khadakvasla": "Khadakwasla",
+    "Khadakwasla": "Khadakwasla"
   },
   "operationalZones": {
     "river_corridors": [

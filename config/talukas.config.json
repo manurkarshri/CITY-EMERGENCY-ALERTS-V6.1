@@ -2,153 +2,77 @@
   "pune_city": {
     "label": "Pune City",
     "localities": [
-      "Shivajinagar",
-      "Kothrud",
-      "Aundh",
-      "Baner",
-      "Pashan",
-      "Katraj",
-      "Swargate",
-      "Camp",
-      "Koregaon Park",
-      "Viman Nagar",
-      "Kharadi",
-      "Hadapsar"
+      "Shivajinagar", "Deccan Gymkhana", "Fergusson College Road", "Jangli Maharaj Road", "Senapati Bapat Road",
+      "Sadashiv Peth", "Narayan Peth", "Shaniwar Peth", "Kasba Peth",
+      "Camp", "Swargate", "Parvati", "Sahakar Nagar", "Bibwewadi", "Dhankawadi", "Katraj", "Kondhwa",
+      "Wanowrie", "Koregaon Park", "Yerawada", "Kalyani Nagar", "Viman Nagar", "Lohegaon", "Dhanori",
+      "Kalas", "Vishrantwadi", "Aundh", "Baner", "Balewadi", "Pashan", "Bavdhan", "Kothrud",
+      "Karve Nagar", "Erandwane", "Warje", "Sinhagad Road", "Dhayari", "Narhe", "Hadapsar",
+      "Magarpatta", "Mundhwa", "Kharadi"
     ]
   },
   "pcmc": {
-    "label": "Pcmc",
+    "label": "Pimpri-Chinchwad",
     "localities": [
-      "Pimpri",
-      "Chinchwad",
-      "Nigdi",
-      "Akurdi",
-      "Bhosari",
-      "Wakad",
-      "Hinjawadi",
-      "Ravet",
-      "Moshi",
-      "Pimple Saudagar"
+      "Pimpri", "Chinchwad", "Nigdi", "Akurdi", "Bhosari", "Wakad", "Ravet", "Moshi", "Pimple Saudagar",
+      "Pimple Gurav", "Pimple Nilakh", "Sangvi", "Thergaon", "Tathawade", "Punawale", "Chikhali",
+      "Charholi", "Dighi", "Talawade"
     ]
   },
   "haveli": {
     "label": "Haveli",
-    "localities": [
-      "Kharadi",
-      "Wagholi",
-      "Hadapsar",
-      "Manjari",
-      "Mundhwa",
-      "Lohegaon",
-      "Dhanori",
-      "Sinhagad Road",
-      "Dhayari",
-      "Narhe"
-    ]
-  },
-  "mulshi": {
-    "label": "Mulshi",
-    "localities": [
-      "Hinjawadi",
-      "Pirangut",
-      "Paud",
-      "Lavale",
-      "Sus",
-      "Mahalunge",
-      "Mulshi",
-      "Tamhini"
-    ]
+    "localities": ["Wagholi", "Manjari", "Fursungi", "Uruli Devachi", "Theur", "Khadakwasla"]
   },
   "maval": {
     "label": "Maval",
-    "localities": [
-      "Talegaon",
-      "Lonavala",
-      "Kamshet",
-      "Vadgaon Maval",
-      "Urse",
-      "Somatane"
-    ]
+    "localities": ["Talegaon", "Lonavala", "Khandala", "Kamshet", "Vadgaon Maval", "Urse", "Somatane", "Karla"]
   },
-  "khed": {
-    "label": "Khed",
-    "localities": [
-      "Chakan",
-      "Alandi",
-      "Rajgurunagar",
-      "Moshi",
-      "Charholi"
-    ]
+  "mulshi": {
+    "label": "Mulshi",
+    "localities": ["Hinjawadi", "Pirangut", "Paud", "Lavale", "Sus", "Mahalunge", "Bhugaon", "Bhukum", "Mulshi", "Tamhini"]
   },
   "shirur": {
     "label": "Shirur",
-    "localities": [
-      "Ranjangaon",
-      "Shikrapur",
-      "Shirur",
-      "Koregaon Bhima"
-    ]
-  },
-  "purandar": {
-    "label": "Purandar",
-    "localities": [
-      "Saswad",
-      "Jejuri",
-      "Dive Ghat"
-    ]
-  },
-  "bhor": {
-    "label": "Bhor",
-    "localities": [
-      "Bhor",
-      "Varandha Ghat",
-      "Bhatghar"
-    ]
-  },
-  "velhe": {
-    "label": "Velhe",
-    "localities": [
-      "Velhe",
-      "Torna",
-      "Panshet"
-    ]
+    "localities": ["Ranjangaon", "Shikrapur", "Shirur", "Koregaon Bhima", "Sanaswadi"]
   },
   "baramati": {
     "label": "Baramati",
-    "localities": [
-      "Baramati",
-      "Malegaon Budruk"
-    ]
+    "localities": ["Baramati", "Malegaon Budruk", "Morgaon"]
   },
   "daund": {
     "label": "Daund",
-    "localities": [
-      "Daund",
-      "Yavat",
-      "Kedgaon"
-    ]
+    "localities": ["Daund", "Yavat", "Kedgaon", "Kurkumbh"]
   },
   "indapur": {
     "label": "Indapur",
-    "localities": [
-      "Indapur",
-      "Bhigwan"
-    ]
+    "localities": ["Indapur", "Bhigwan", "Walchandnagar"]
+  },
+  "bhor": {
+    "label": "Bhor",
+    "localities": ["Bhor", "Varandha Ghat", "Bhatghar", "Nasrapur"]
+  },
+  "velhe": {
+    "label": "Velha",
+    "localities": ["Velha", "Torna", "Panshet", "Rajgad"]
+  },
+  "purandar": {
+    "label": "Purandar",
+    "localities": ["Saswad", "Jejuri", "Dive Ghat", "Narayanpur"]
+  },
+  "khed": {
+    "label": "Khed",
+    "localities": ["Chakan", "Alandi", "Rajgurunagar", "Dehu", "Bhama Askhed", "Bhimashankar"]
   },
   "junnar": {
     "label": "Junnar",
-    "localities": [
-      "Junnar",
-      "Narayangaon",
-      "Otur"
-    ]
+    "localities": ["Junnar", "Narayangaon", "Otur", "Alephata", "Shivneri"]
   },
   "ambegaon": {
     "label": "Ambegaon",
-    "localities": [
-      "Manchar",
-      "Ghodegaon",
-      "Bhimashankar"
-    ]
+    "localities": ["Manchar", "Ghodegaon"]
+  },
+  "loni_kalbhor": {
+    "label": "Loni Kalbhor",
+    "localities": ["Loni Kalbhor", "Kadamwak Wasti", "Kunjirwadi", "Uruli Kanchan", "Sortapwadi"]
   }
 }

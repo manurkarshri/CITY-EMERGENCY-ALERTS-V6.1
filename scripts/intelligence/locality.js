@@ -8,10 +8,14 @@ export async function detectLocality(text = "") {
   const foundTalukas = new Set();
   const foundLocalities = new Set();
   const foundZones = new Set();
+  const owners = new Map();
 
   for (const [talukaKey, taluka] of Object.entries(talukas)) {
     for (const locality of taluka.localities || []) {
-      if (normalized.includes(normalizeText(locality))) {
+      const canonicalKey = normalizeText(locality);
+      if (!owners.has(canonicalKey)) owners.set(canonicalKey, new Set());
+      owners.get(canonicalKey).add(talukaKey);
+      if (containsPhrase(normalized, canonicalKey)) {
         foundTalukas.add(talukaKey);
         foundLocalities.add(locality);
       }
@@ -19,12 +23,20 @@ export async function detectLocality(text = "") {
   }
 
   for (const [alias, canonical] of Object.entries(localitiesCfg.aliases || {})) {
-    if (normalized.includes(normalizeText(alias)) || normalized.includes(normalizeText(canonical))) foundLocalities.add(canonical);
+    if (containsPhrase(normalized, normalizeText(alias)) || containsPhrase(normalized, normalizeText(canonical))) {
+      foundLocalities.add(canonical);
+      for (const owner of owners.get(normalizeText(canonical)) || []) foundTalukas.add(owner);
+    }
   }
 
   for (const zones of Object.values(localitiesCfg.operationalZones || {})) {
-    for (const zone of zones) if (normalized.includes(normalizeText(zone))) foundZones.add(zone);
+    for (const zone of zones) if (containsPhrase(normalized, normalizeText(zone))) foundZones.add(zone);
   }
 
   return { talukas: [...foundTalukas], localities: [...foundLocalities], operationalZones: [...foundZones] };
+}
+
+function containsPhrase(text, phrase) {
+  if (!text || !phrase) return false;
+  return ` ${text} `.includes(` ${phrase} `);
 }
