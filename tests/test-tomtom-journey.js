@@ -22,5 +22,8 @@ assert(analysed[0].journeySuitability.score > analysed[1].journeySuitability.sco
 const closure = { type: "Feature", geometry: { type: "Point", coordinates: [73.8, 18.55] }, properties: { id: "closed", iconCategory: 8 } };
 const blocked = analyseJourneyRoutes([routes[1]], { trafficIncidents: [closure], environmental: { weatherIntelligence: { regions: {} } } });
 assert(blocked[0].journeySuitability.score === 0, "Blocked route must have JSI 0");
+const nearbySideRoadClosure = { ...closure, geometry: { type: "Point", coordinates: [73.8, 18.556] } };
+const notBlocked = analyseJourneyRoutes([routes[1]], { trafficIncidents: [nearbySideRoadClosure], environmental: { weatherIntelligence: { regions: {} } } });
+assert(notBlocked[0].journeySuitability.score > 0, "Nearby side-road closure must not automatically block the route");
 
 console.log("TomTom Journey integration tests passed.");

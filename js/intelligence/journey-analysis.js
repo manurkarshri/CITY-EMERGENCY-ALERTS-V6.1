@@ -68,7 +68,9 @@ function incidentNearRoute(incident, points) {
   const coordinates = incident.geometry?.coordinates;
   if (!coordinates) return false;
   const flat = incident.geometry.type === "Point" ? [coordinates] : coordinates;
-  return minDistance(points, flat.map(item => ({ longitude: item[0], latitude: item[1] }))) <= 1.5;
+  const category = Number(incident.properties?.iconCategory);
+  const thresholdKm = category === 8 ? 0.2 : category === 7 ? 0.3 : 0.75;
+  return minDistance(points, flat.map(item => ({ longitude: item[0], latitude: item[1] }))) <= thresholdKm;
 }
 function minDistance(routePoints, targets) {
   if (!routePoints.length || !targets.length) return Infinity;
