@@ -9,7 +9,8 @@ export function renderEventList(items, emptyText) {
       <p>${escapeHtml(item.summary || item.impact || "")}</p>
       ${item.impact ? `<p><strong>Impact:</strong> ${escapeHtml(item.impact)}</p>` : ""}
       ${item.recommendedAction ? `<p><strong>Action:</strong> ${escapeHtml(item.recommendedAction)}</p>` : ""}
-      <p class="event-meta">Confidence: ${escapeHtml(item.confidence || "Unknown")} · Trust: ${escapeHtml(item.sourceTrust || "N/A")} · Status: ${escapeHtml(item.lifecycle || "active")} · Updated: ${relativeTime(item.lastUpdated)}</p>
+      <p class="event-meta">Confidence: ${escapeHtml(item.confidence || "Unknown")} · Trust: ${escapeHtml(item.sourceTrust || "N/A")} · Status: ${escapeHtml(item.lifecycle || "active")}</p>
+      <p class="event-meta">Published: ${relativeTime(item.publishedAt)} · Verified: ${relativeTime(item.lastVerifiedAt)} · Source checked: ${relativeTime(item.sourceCheckedAt)}</p>
       <p class="event-meta">Affected: ${escapeHtml([...(item.localities || []), ...(item.operationalZones || [])].slice(0,5).join(" • ") || "Area not specified")}</p>
       <div class="source-list">
         ${(item.sources || [{ name: item.source, link: item.link }]).slice(0,5).map(source =>

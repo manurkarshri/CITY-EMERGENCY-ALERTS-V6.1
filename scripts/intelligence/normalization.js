@@ -19,8 +19,11 @@ export async function normalizeRawEvent(raw = {}) {
     sources: [{ name: raw.source || "Unknown", trust: raw.sourceTrust || "D", link: raw.link || "" }],
     link: raw.link || "",
     publishedAt: raw.publishedAt || new Date().toISOString(),
-    lastUpdated: raw.publishedAt || new Date().toISOString(),
-    lifecycle: raw.sourceTrust === "A" ? "verified" : "detected",
+    lastUpdated: raw.lastUpdated || raw.publishedAt || new Date().toISOString(),
+    sourceCheckedAt: raw.sourceCheckedAt || null,
+    lastVerifiedAt: raw.lastVerifiedAt || null,
+    expiresAt: raw.expiresAt || null,
+    lifecycle: ["A+", "A"].includes(raw.sourceTrust) ? "verified" : "detected",
     ...location
   });
 }

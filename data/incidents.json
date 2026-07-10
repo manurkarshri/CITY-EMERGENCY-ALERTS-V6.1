@@ -1,38 +1,6 @@
 {
-  "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-10T17:20:01.499Z",
-  "items": [
-    {
-      "id": "accident-traffic-slow-near-wakad-after-road-accident-on-highway-stretch-2026-07-09t09-00-0",
-      "title": "Traffic slow near Wakad after road accident on highway stretch",
-      "summary": "A vehicle collision has slowed traffic near Wakad.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Pune Traffic Police",
-      "sourceTrust": "A",
-      "sources": [
-        {
-          "name": "Pune Traffic Police",
-          "trust": "A",
-          "link": "https://example.com/wakad-accident"
-        }
-      ],
-      "link": "https://example.com/wakad-accident",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Wakad"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-07-09T09:00:00+05:30",
-      "lastUpdated": "2026-07-09T09:00:00+05:30",
-      "lifecycle": "active",
-      "confidence": "Medium",
-      "confidenceScore": 65,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "relatedEventIds": []
-    }
-  ]
+  "schemaVersion": "6.1.0",
+  "generatedAt": "2026-07-10T17:43:30.568Z",
+  "sourceStatus": "unavailable",
+  "items": []
 }

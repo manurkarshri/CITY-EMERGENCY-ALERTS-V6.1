@@ -1,4 +1,5 @@
 import { loadJson } from "../services/api.js";
+import { isCurrentEvent } from "../utils/freshness.js";
 
 export const state = {
   selected: {
@@ -13,6 +14,7 @@ export const state = {
   journey: { journeys: [] },
   live: {},
   build: {},
+  sourceHealth: { sources: [] },
   regions: {},
   talukas: {}
 };
@@ -25,12 +27,13 @@ const FILES = {
   journey: "data/journey-intelligence.json",
   live: "data/live-intelligence.json",
   build: "data/build-status.json",
+  sourceHealth: "data/source-health.json",
   regions: "config/regions.config.json",
   talukas: "config/talukas.config.json"
 };
 
 export async function loadAllData() {
-  const [intelligence, alertsData, incidentsData, environmental, journey, live, build, regions, talukas] = await Promise.all([
+  const [intelligence, alertsData, incidentsData, environmental, journey, live, build, sourceHealth, regions, talukas] = await Promise.all([
     loadJson(FILES.intelligence, {}),
     loadJson(FILES.alerts, { items: [] }),
     loadJson(FILES.incidents, { items: [] }),
@@ -38,6 +41,7 @@ export async function loadAllData() {
     loadJson(FILES.journey, { journeys: [] }),
     loadJson(FILES.live, {}),
     loadJson(FILES.build, {}),
+    loadJson(FILES.sourceHealth, { sources: [] }),
     loadJson(FILES.regions, {}),
     loadJson(FILES.talukas, {})
   ]);
@@ -48,13 +52,14 @@ export async function loadAllData() {
   state.journey = journey;
   state.live = live;
   state.build = build;
+  state.sourceHealth = sourceHealth;
   state.regions = regions;
   state.talukas = talukas;
 }
 
 export function filteredEvents(items) {
   const { taluka, locality } = state.selected;
-  return sortEvents((items || []).filter(item => {
+  return sortEvents((items || []).filter(isCurrentEvent).filter(item => {
     const talukas = item.talukas || [];
     const localities = item.localities || [];
     const talukaMatch = !taluka || talukas.includes(taluka) || talukas.length === 0;
@@ -65,7 +70,7 @@ export function filteredEvents(items) {
 
 export function relevantEvents(items) {
   const filtered = filteredEvents(items);
-  return filtered.length ? filtered : sortEvents(items || []);
+  return filtered.length ? filtered : sortEvents((items || []).filter(isCurrentEvent));
 }
 
 export function sortEvents(items) {

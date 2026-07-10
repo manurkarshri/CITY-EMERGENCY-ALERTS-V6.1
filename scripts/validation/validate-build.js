@@ -38,4 +38,10 @@ const journey = await readJson("data/journey-intelligence.json", {});
 const journeyErrors = validateJourneyIntelligence(journey);
 if (journeyErrors.length) throw new Error(`Journey validation failed: ${journeyErrors.join(", ")}`);
 
+const sourceHealth = await readJson("data/source-health.json", { sources: [] });
+for (const source of sourceHealth.sources || []) {
+  if (!source.id || !source.name || !source.status) throw new Error("Source health entry is missing id, name or status");
+  if (!["healthy", "current", "stale", "unavailable", "unverified", "configured"].includes(source.status)) throw new Error(`Invalid source health status: ${source.status}`);
+}
+
 log("Milestone C validation complete.");

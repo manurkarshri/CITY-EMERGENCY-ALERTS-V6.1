@@ -5,6 +5,7 @@ const sources = await readJson("config/live-sources.config.json", { officialSour
 const intelligence = await readJson("data/intelligence.json", { alerts: [], incidents: [] });
 const environmental = await readJson("data/environmental-context.json", {});
 const journey = await readJson("data/journey-intelligence.json", { journeys: [] });
+const collectedHealth = await readJson("data/source-health.json", { sources: [] });
 
 function sourceSummary(list) {
   return (list || []).map(source => ({
@@ -37,10 +38,11 @@ const developing = events.filter(event => ["B", "C"].includes(event.sourceTrust)
 await writeJson("data/live-intelligence.json", {
   schemaVersion: "6.1.0",
   generatedAt: nowIso(),
-  status: "configured",
+  status: (collectedHealth.sources || []).some(source => source.status === "unavailable") ? "partial" : "current",
   releaseMode: "production-user-testing",
   policy: sources.policy,
   sourceHealth: {
+    collected: collectedHealth.sources || [],
     official: sourceSummary(sources.officialSources),
     trustedMedia: sourceSummary(sources.trustedMediaSources)
   },

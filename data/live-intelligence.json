@@ -1,7 +1,7 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-10T17:20:01.662Z",
-  "status": "configured",
+  "generatedAt": "2026-07-10T17:43:33.864Z",
+  "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
     "officialFirst": true,
@@ -10,6 +10,35 @@
     "unverifiedSocialIgnored": true
   },
   "sourceHealth": {
+    "collected": [
+      {
+        "id": "open_meteo",
+        "name": "Open-Meteo",
+        "type": "weather",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-10T17:27:56.306Z",
+        "lastSuccessfulAt": "2026-07-10T17:27:56.306Z",
+        "error": null
+      },
+      {
+        "id": "event_feeds",
+        "name": "Alert and incident sources",
+        "type": "events",
+        "status": "unavailable",
+        "sourceCheckedAt": null,
+        "lastSuccessfulAt": null,
+        "error": "No live alert or incident collector is connected."
+      },
+      {
+        "id": "river_dam_feeds",
+        "name": "River and dam sources",
+        "type": "river",
+        "status": "unavailable",
+        "sourceCheckedAt": null,
+        "lastSuccessfulAt": null,
+        "error": "No live river or dam collector is connected."
+      }
+    ],
     "official": [
       {
         "id": "imd",
@@ -168,21 +197,11 @@
   "liveReadiness": {
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 8,
-    "alertsAvailable": 2,
-    "incidentsAvailable": 1,
-    "weatherRegionsAvailable": 3,
+    "alertsAvailable": 0,
+    "incidentsAvailable": 0,
+    "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
-  "developingSituations": [
-    {
-      "id": "dam-release-water-release-from-khadakwasla-affects-sinhagad-road-and-low-lying-areas-2026-",
-      "title": "Water release from Khadakwasla affects Sinhagad Road and low-lying areas",
-      "status": "supporting-signal",
-      "confirmation": "Supporting signal only",
-      "source": "Sakal",
-      "trust": "C",
-      "updatedAt": "2026-07-09T08:10:00+05:30"
-    }
-  ],
+  "developingSituations": [],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."
 }

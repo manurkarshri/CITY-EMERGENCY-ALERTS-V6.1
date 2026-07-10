@@ -4,6 +4,7 @@ export function validateEnvironmentalContext(data = {}) {
   if (!data.generatedAt) errors.push("Missing generatedAt");
   if (!data.weatherIntelligence) errors.push("Missing weatherIntelligence");
   if (!data.weatherSource) errors.push("Missing weatherSource");
+  if (!data.riverSource) errors.push("Missing riverSource");
   if (data.weatherSource && !["current", "stale", "unavailable"].includes(data.weatherSource.status)) errors.push("Invalid weather source status");
   if (!Array.isArray(data.riverIntelligence)) errors.push("riverIntelligence must be an array");
   if (!data.environmentalImpact) errors.push("Missing environmentalImpact");

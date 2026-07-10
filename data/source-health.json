@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-10T17:27:56.306Z",
+  "generatedAt": "2026-07-10T17:43:32.497Z",
   "sources": [
     {
       "id": "open_meteo",
@@ -10,6 +10,24 @@
       "sourceCheckedAt": "2026-07-10T17:27:56.306Z",
       "lastSuccessfulAt": "2026-07-10T17:27:56.306Z",
       "error": null
+    },
+    {
+      "id": "event_feeds",
+      "name": "Alert and incident sources",
+      "type": "events",
+      "status": "unavailable",
+      "sourceCheckedAt": null,
+      "lastSuccessfulAt": null,
+      "error": "No live alert or incident collector is connected."
+    },
+    {
+      "id": "river_dam_feeds",
+      "name": "River and dam sources",
+      "type": "river",
+      "status": "unavailable",
+      "sourceCheckedAt": null,
+      "lastSuccessfulAt": null,
+      "error": "No live river or dam collector is connected."
     }
   ]
 }

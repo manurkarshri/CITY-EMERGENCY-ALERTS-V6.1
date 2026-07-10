@@ -3,6 +3,7 @@ import { haversineKm } from "../scripts/lib/geo.js";
 import "./test-intelligence-core.js";
 import "./test-environmental-intelligence.js";
 import "./test-journey-intelligence.js";
+import "./test-freshness.js";
 
 function assert(condition, message) { if (!condition) throw new Error(message); }
 

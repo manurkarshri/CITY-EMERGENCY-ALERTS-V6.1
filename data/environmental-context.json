@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-10T17:28:09.311Z",
+  "generatedAt": "2026-07-10T17:43:32.497Z",
   "weatherSource": {
     "status": "current",
     "sourceCheckedAt": "2026-07-10T17:27:56.306Z",
@@ -12,8 +12,14 @@
     },
     "error": null
   },
+  "riverSource": {
+    "status": "unavailable",
+    "sourceCheckedAt": null,
+    "lastSuccessfulAt": null,
+    "error": "No live river or dam collector is connected."
+  },
   "weatherIntelligence": {
-    "generatedAt": "2026-07-10T17:28:09.309Z",
+    "generatedAt": "2026-07-10T17:43:32.495Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -132,92 +138,9 @@
       }
     }
   },
-  "riverIntelligence": [
-    {
-      "id": "river-khadakwasla-2026-07-09",
-      "dam": "khadakwasla",
-      "damLabel": "Khadakwasla Dam",
-      "river": "Mutha River",
-      "status": "high",
-      "trend": "increasing",
-      "rsi": 75,
-      "severity": "warning",
-      "downstreamLocalities": [
-        "Sinhagad Road",
-        "Dhayari",
-        "Vitthalwadi",
-        "Erandwane",
-        "Deccan",
-        "Sangamwadi"
-      ],
-      "talukas": [
-        "haveli",
-        "pune_city"
-      ],
-      "bridges": [
-        "Rajaram Bridge",
-        "Sangam Bridge"
-      ],
-      "travelSensitivity": "high",
-      "timeline": {
-        "state": "developing",
-        "note": "Khadakwasla Dam release is high.",
-        "updatedAt": "2026-07-10T17:28:09.310Z"
-      },
-      "evidence": [
-        {
-          "source": "Sample Official Advisory",
-          "sourceTrust": "A",
-          "type": "official",
-          "observedAt": "2026-07-09T10:00:00+05:30",
-          "link": "",
-          "note": ""
-        }
-      ],
-      "impact": "Khadakwasla Dam release may affect downstream areas along Mutha River.",
-      "recommendedAction": "Avoid riverbanks and follow official instructions."
-    },
-    {
-      "id": "river-pawna-2026-07-09",
-      "dam": "pawna",
-      "damLabel": "Pawna Dam",
-      "river": "Pavana River",
-      "status": "elevated",
-      "trend": "stable",
-      "rsi": 35,
-      "severity": "watch",
-      "downstreamLocalities": [
-        "Ravet",
-        "Pimpri",
-        "Chinchwad"
-      ],
-      "talukas": [
-        "maval",
-        "pcmc"
-      ],
-      "bridges": [],
-      "travelSensitivity": "medium",
-      "timeline": {
-        "state": "monitoring",
-        "note": "Pawna Dam release is elevated.",
-        "updatedAt": "2026-07-10T17:28:09.310Z"
-      },
-      "evidence": [
-        {
-          "source": "Sample Official Advisory",
-          "sourceTrust": "A",
-          "type": "official",
-          "observedAt": "2026-07-09T10:15:00+05:30",
-          "link": "",
-          "note": ""
-        }
-      ],
-      "impact": "Pawna Dam release may affect downstream areas along Pavana River.",
-      "recommendedAction": "Avoid riverbanks and follow official instructions."
-    }
-  ],
+  "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-07-10T17:28:09.311Z",
+    "generatedAt": "2026-07-10T17:43:32.496Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -230,7 +153,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-07-10T17:28:09.310Z",
+    "generatedAt": "2026-07-10T17:43:32.496Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -311,12 +234,9 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-07-10T17:28:09.311Z",
+    "generatedAt": "2026-07-10T17:43:32.496Z",
     "mode": "on-demand",
-    "relevantDomains": [
-      "bridges",
-      "highways"
-    ],
+    "relevantDomains": [],
     "infrastructure": {
       "highways": [
         "Mumbai-Pune Expressway",
@@ -350,14 +270,11 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-07-10T17:28:09.311Z",
-    "riskLevel": "Elevated",
-    "impacts": [
-      "1 river or dam related warning(s) may affect downstream areas.",
-      "1 active transport-related event(s) may affect travel."
-    ],
-    "citizenSummary": "1 river or dam related warning(s) may affect downstream areas. 1 active transport-related event(s) may affect travel.",
+    "generatedAt": "2026-07-10T17:43:32.497Z",
+    "riskLevel": "Normal",
+    "impacts": [],
+    "citizenSummary": "No major environmental disruption indicated from current data.",
     "seasonalContext": "monsoon"
   },
-  "story": "Khadakwasla Dam related river conditions may affect downstream areas. Avoid riverbanks. 2 important alerts require attention."
+  "story": "No major environmental disruption indicated from current data."
 }

@@ -15,5 +15,5 @@ export function renderAll() {
   renderOfficial();
   renderEmergency();
   const footer = document.getElementById("footerUpdated");
-  if (footer) footer.textContent = `Updated: ${relativeTime(state.build?.build?.buildTime || state.intelligence?.generatedAt)}`;
+  if (footer) footer.textContent = `Intelligence generated: ${relativeTime(state.intelligence?.generatedAt || state.build?.build?.buildTime)}`;
 }

@@ -3,15 +3,22 @@
   "build": {
     "version": "6.1.0-production-user-testing",
     "milestone": "Production User Testing Release",
-    "status": "healthy",
-    "buildTime": "2026-07-10T17:20:01.706Z",
-    "note": "Production user testing release with stable frontend, intelligence pipeline and live-source registry",
-    "alerts": 2,
-    "incidents": 1,
-    "weatherRegions": 3,
-    "riverEvents": 2,
+    "status": "partial",
+    "buildTime": "2026-07-10T17:43:34.499Z",
+    "note": "The application built successfully, but one or more live data sources are stale, unavailable, or not connected.",
+    "alerts": 0,
+    "incidents": 0,
+    "weatherRegions": 5,
+    "riverEvents": 0,
     "journeys": 3,
     "officialSourcesConfigured": 7,
-    "trustedMediaSourcesConfigured": 8
+    "trustedMediaSourcesConfigured": 8,
+    "sourceSummary": {
+      "total": 3,
+      "healthy": 1,
+      "stale": 0,
+      "unavailable": 2,
+      "unverified": 0
+    }
   }
 }

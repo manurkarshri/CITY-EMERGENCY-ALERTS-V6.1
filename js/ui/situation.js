@@ -46,9 +46,20 @@ export function renderSituation() {
 
     <section class="card">
       <h2>Updated</h2>
-      <p>${relativeTime(state.build?.build?.buildTime || state.intelligence?.generatedAt || state.environmental?.generatedAt)}</p>
+      <p><strong>Intelligence generated:</strong> ${relativeTime(state.intelligence?.generatedAt || state.environmental?.generatedAt)}</p>
+      ${renderSourceHealth()}
     </section>
   `;
+}
+
+function renderSourceHealth() {
+  const sources = state.sourceHealth?.sources || [];
+  if (!sources.length) return `<p class="small"><strong>Source status unavailable.</strong> No source checks have been recorded.</p>`;
+  return `<div class="health-strip">${sources.map(source => {
+    const label = source.status === "healthy" ? "current" : source.status;
+    const timing = source.sourceCheckedAt ? ` · checked ${relativeTime(source.sourceCheckedAt)}` : " · not checked";
+    return `<span class="health-chip">${escapeHtml(source.name)}: ${escapeHtml(label)}${escapeHtml(timing)}</span>`;
+  }).join("")}</div>`;
 }
 
 function effectiveWeatherStatus(source) {
@@ -68,12 +79,10 @@ function sinceLastVisit() {
   const alerts = filteredEvents(state.alerts).length;
   const incidents = filteredEvents(state.incidents).length;
   const rivers = state.environmental?.riverIntelligence?.length || 0;
-  const journeys = state.journey?.journeys?.length || 0;
   const out = [];
   if (alerts) out.push(`${alerts} important alert${alerts === 1 ? "" : "s"} active.`);
   if (incidents) out.push(`${incidents} incident${incidents === 1 ? "" : "s"} available.`);
   if (rivers) out.push(`${rivers} river or dam intelligence item${rivers === 1 ? "" : "s"} processed.`);
-  if (journeys) out.push(`${journeys} journey assessment${journeys === 1 ? "" : "s"} available.`);
   return out.length ? out : ["No major change detected in the current intelligence feed."];
 }
 
