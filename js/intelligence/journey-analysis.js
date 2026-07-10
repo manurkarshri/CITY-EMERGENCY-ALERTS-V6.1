@@ -8,8 +8,8 @@ export function analyseJourneyRoutes(routes = [], context = {}) {
 
 export function analyseRoute(route, context = {}) {
   const nearbyIncidents = (context.trafficIncidents || []).filter(incident => incidentNearRoute(incident, route.points || []));
-  const closure = nearbyIncidents.some(item => Number(item.properties?.iconCategory) === 8) || (route.sections || []).some(section => String(section.simpleCategory || "").toUpperCase().includes("CLOSURE"));
-  if (closure) return result(route, 0, ["A current road closure affects this route."], nearbyIncidents, [penalty("road_closure", 100)]);
+  const routeClosure = (route.sections || []).some(section => String(section.simpleCategory || "").toUpperCase().includes("CLOSURE"));
+  if (routeClosure) return result(route, 0, ["TomTom routing reports a current closure on this route."], nearbyIncidents, [penalty("road_closure", 100)]);
 
   let score = 100;
   const reasons = [];
@@ -19,10 +19,16 @@ export function analyseRoute(route, context = {}) {
   else if (delayMinutes >= 15) addPenalty("traffic", 15, `Live traffic adds about ${delayMinutes} minutes.`, penalties, reasons);
   else if (delayMinutes >= 5) addPenalty("traffic", 8, `Live traffic adds about ${delayMinutes} minutes.`, penalties, reasons);
 
-  for (const incident of nearbyIncidents.slice(0, 5)) {
+  const incidentCategories = new Map();
+  for (const incident of nearbyIncidents) {
     const category = Number(incident.properties?.iconCategory);
+    if (!incidentCategories.has(category)) incidentCategories.set(category, incident);
+  }
+  for (const [category] of [...incidentCategories].slice(0, 5)) {
     const value = ({ 1: 20, 3: 15, 7: 15, 9: 8, 11: 25, 14: 10 })[category] || 5;
-    addPenalty(`traffic_incident_${category}`, value, `${INCIDENT_LABELS[category] || "Traffic incident"} reported along this route.`, penalties, reasons);
+    const adjustedValue = category === 8 ? 35 : value;
+    const wording = category === 8 ? "A road closure is reported very near this route; verify the affected road before travel." : `${INCIDENT_LABELS[category] || "Traffic incident"} reported along this route.`;
+    addPenalty(`traffic_incident_${category}`, adjustedValue, wording, penalties, reasons);
   }
 
   const weather = weatherExposure(route.points || [], context.environmental?.weatherIntelligence?.regions || {});

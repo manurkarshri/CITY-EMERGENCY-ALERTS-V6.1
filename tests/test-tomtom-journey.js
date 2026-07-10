@@ -20,8 +20,11 @@ assert(analysed[0].id === "tomtom-route-2" && analysed[0].recommended, "Lower-ri
 assert(analysed[0].journeySuitability.score > analysed[1].journeySuitability.score, "Traffic penalty was not route-specific");
 
 const closure = { type: "Feature", geometry: { type: "Point", coordinates: [73.8, 18.55] }, properties: { id: "closed", iconCategory: 8 } };
-const blocked = analyseJourneyRoutes([routes[1]], { trafficIncidents: [closure], environmental: { weatherIntelligence: { regions: {} } } });
+const blockedRoute = { ...routes[1], sections: [{ simpleCategory: "ROAD_CLOSURE" }] };
+const blocked = analyseJourneyRoutes([blockedRoute], { trafficIncidents: [], environmental: { weatherIntelligence: { regions: {} } } });
 assert(blocked[0].journeySuitability.score === 0, "Blocked route must have JSI 0");
+const nearbyClosure = analyseJourneyRoutes([routes[1]], { trafficIncidents: [closure], environmental: { weatherIntelligence: { regions: {} } } });
+assert(nearbyClosure[0].journeySuitability.score > 0, "Nearby closure must be a caution penalty, not proof the route is blocked");
 const nearbySideRoadClosure = { ...closure, geometry: { type: "Point", coordinates: [73.8, 18.556] } };
 const notBlocked = analyseJourneyRoutes([routes[1]], { trafficIncidents: [nearbySideRoadClosure], environmental: { weatherIntelligence: { regions: {} } } });
 assert(notBlocked[0].journeySuitability.score > 0, "Nearby side-road closure must not automatically block the route");
