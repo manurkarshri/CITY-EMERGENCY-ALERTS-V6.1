@@ -38,8 +38,8 @@ export function renderJourney() {
       <p id="journeyStatus" class="journey-status ${escapeAttr(statusKind)}" role="status">${escapeHtml(statusMessage)}</p>
       <p class="small">Locations and routes are requested directly from TomTom. Precise location history is not stored.</p>
     </section>
-    ${renderRoadClosurePanel()}
     <div id="journeyResults">${renderResults()}</div>
+    <div id="journeyRoadClosures">${renderRoadClosurePanel()}</div>
   `;
   bindJourneyControls();
 }
@@ -184,7 +184,7 @@ function renderRoute(route) {
   return `<article class="card route-card ${route.recommended ? "recommended" : ""}">
     <div class="section-kicker">${route.recommended ? "Recommended" : `Route ${route.rank}`}</div>
     <h2>${escapeHtml(route.label)}</h2>
-    <div class="grid">
+    <div class="grid journey-metrics">
       <div class="metric"><strong>${score.score}/100</strong><span>Journey Suitability</span></div>
       <div class="metric"><strong>${escapeHtml(score.label)}</strong><span>Recommendation</span></div>
       <div class="metric"><strong>${duration} min</strong><span>Estimated travel time (with current traffic)</span></div>
