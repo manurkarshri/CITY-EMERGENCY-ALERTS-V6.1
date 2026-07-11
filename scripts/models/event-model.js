@@ -31,6 +31,7 @@ export function createEvent(input = {}) {
     capReferences: input.capReferences || "",
     coordinates: input.coordinates || [],
     roadNumbers: input.roadNumbers || [],
+    geographicScope: input.geographicScope || "",
     relatedEventIds: input.relatedEventIds || []
   };
 }

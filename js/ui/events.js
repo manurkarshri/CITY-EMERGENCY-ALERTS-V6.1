@@ -12,7 +12,7 @@ export function renderEventList(items, emptyText) {
       <p class="event-meta">Confidence: ${escapeHtml(item.confidence || "Unknown")} · Trust: ${escapeHtml(item.sourceTrust || "N/A")} · Status: ${escapeHtml(item.lifecycle || "active")}</p>
       ${item.sourceTrust === "B" ? `<p class="event-meta"><strong>Corroboration:</strong> ${item.corroboratedByIndependentSources ? `${new Set((item.sources || []).map(source => source.name)).size} independent trusted sources` : "Not yet independently confirmed; treat as developing"}</p>` : ""}
       <p class="event-meta">Published: ${relativeTime(item.publishedAt)} · Verified: ${relativeTime(item.lastVerifiedAt)} · Source checked: ${relativeTime(item.sourceCheckedAt)}</p>
-      <p class="event-meta">Affected: ${escapeHtml([...(item.localities || []), ...(item.operationalZones || [])].slice(0,5).join(" • ") || "Area not specified")}</p>
+      <p class="event-meta">Affected: ${escapeHtml([...(item.localities || []), ...(item.operationalZones || [])].slice(0,5).join(" • ") || item.affectedArea || "Broader Pune District area")}</p>
       <div class="source-list">
         ${(item.sources || [{ name: item.source, link: item.link }]).slice(0,5).map(source =>
           source.link ? `<a class="source-pill" href="${escapeAttr(source.link)}" target="_blank" rel="noopener">${escapeHtml(source.name || "Source")}</a>` : `<span class="source-pill">${escapeHtml(source.name || "Source")}</span>`

@@ -11,6 +11,7 @@ import "./test-media-incidents.js";
 import "./test-corroboration.js";
 import "./test-ndma-cap.js";
 import "./test-transport-incidents.js";
+import "./test-incident-relevance.js";
 import "./test-rtdas-river.js";
 import "./test-visit-history.js";
 

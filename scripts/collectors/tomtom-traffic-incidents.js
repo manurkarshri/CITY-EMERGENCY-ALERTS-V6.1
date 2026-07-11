@@ -35,7 +35,7 @@ function normalizeIncident(item, checkedAt) {
   return { eventKind: "incident", sourceId: "tomtom_traffic", upstreamId: properties.id || "", title: `Traffic: ${description}${location ? ` - ${location}` : ""}`,
     summary: `${description}${delay >= 60 ? ` Estimated delay ${Math.round(delay / 60)} minutes.` : ""}`, category: classification.category,
     severity: classification.severity, source: "TomTom Traffic Incidents", sourceTrust: "C", link: "https://www.tomtom.com/traffic-index/",
-    publishedAt, lastUpdated: publishedAt, sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt, expiresAt,
+    publishedAt, lastUpdated: publishedAt, sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt, expiresAt, affectedArea: location, trafficFrom: properties.from || "", trafficTo: properties.to || "",
     coordinates: item.geometry?.coordinates || [], roadNumbers: properties.roadNumbers || [], delaySeconds: delay, magnitudeOfDelay: Number(properties.magnitudeOfDelay || 0) };
 }
 

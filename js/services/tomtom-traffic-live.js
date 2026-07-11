@@ -14,7 +14,7 @@ export async function fetchLivePuneTrafficIncidents() {
   const checkedAt = new Date().toISOString();
   const incidents = payloads.flatMap(payload => payload.incidents || []);
   const unique = incidents.filter((item, index, all) => all.findIndex(other => other.properties?.id === item.properties?.id) === index);
-  const items = unique.map(item => normalize(item, checkedAt)).filter(Boolean).sort((a, b) => trafficPriority(b) - trafficPriority(a)).slice(0, 40);
+  const items = unique.map(item => normalize(item, checkedAt)).filter(Boolean).sort((a, b) => trafficPriority(b) - trafficPriority(a));
   return { checkedAt, items };
 }
 
@@ -31,7 +31,7 @@ function normalize(item, checkedAt) {
   return { id: `tomtom-traffic-${p.id || `${icon}-${publishedAt}`}`, eventKind: "incident", title: `Traffic: ${description}${location ? ` - ${location}` : ""}`,
     summary: `${description}${delay >= 60 ? ` Estimated delay ${Math.round(delay / 60)} minutes.` : ""}`, category: type.category, severity: type.severity,
     source: "TomTom Traffic Incidents", sourceTrust: "C", sources: [{ name: "TomTom Traffic", trust: "C", link: "https://www.tomtom.com/traffic-index/" }],
-    link: "https://www.tomtom.com/traffic-index/", talukas: [], localities: [], operationalZones: [], publishedAt, lastUpdated: publishedAt,
+    link: "https://www.tomtom.com/traffic-index/", talukas: [], localities: [], operationalZones: [], affectedArea: location, trafficFrom: p.from || "", trafficTo: p.to || "", geometry: item.geometry || null, coordinates: item.geometry?.coordinates || [], publishedAt, lastUpdated: publishedAt,
     sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt, intelligenceGeneratedAt: checkedAt,
     expiresAt: end && new Date(end) > new Date() ? end : new Date(Date.now() + 3 * 36e5).toISOString(), lifecycle: "active",
     confidence: "Supporting", confidenceScore: 35, delaySeconds: delay, magnitudeOfDelay: Number(p.magnitudeOfDelay || 0), impact: impact(type.category), recommendedAction: action(type.category), relatedEventIds: [] };

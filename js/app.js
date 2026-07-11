@@ -6,6 +6,7 @@ import { state } from "./core/state.js";
 import { fetchLivePuneTrafficIncidents } from "./services/tomtom-traffic-live.js";
 import { isCurrentEvent } from "./utils/freshness.js";
 import { createVisitSnapshot, compareVisitSnapshots, loadVisitSnapshot, saveVisitSnapshot } from "./core/visit-history.js";
+import { deduplicateTrafficIncidents, enrichIncidentGeography } from "./intelligence/incident-relevance.js";
 
 async function init() {
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(console.warn);
@@ -28,7 +29,8 @@ async function refreshLiveTraffic() {
   const sourceId = "tomtom_traffic";
   try {
     const result = await fetchLivePuneTrafficIncidents();
-    state.incidents = mergeTraffic(state.incidents, result.items);
+    const geographicTraffic = enrichIncidentGeography(result.items, state.talukas, state.localitiesConfig);
+    state.incidents = mergeTraffic(state.incidents, deduplicateTrafficIncidents(geographicTraffic).slice(0, 40));
     updateTrafficHealth({ id: sourceId, name: "TomTom Traffic Incidents", type: "incidents", status: "healthy", sourceCheckedAt: result.checkedAt, lastSuccessfulAt: result.checkedAt, error: null });
   } catch (error) {
     updateTrafficHealth({ id: sourceId, name: "TomTom Traffic Incidents", type: "incidents", status: "unavailable", sourceCheckedAt: new Date().toISOString(), lastSuccessfulAt: null, error: error.message });

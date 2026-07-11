@@ -68,8 +68,9 @@ export function filteredEvents(items) {
   return sortEvents((items || []).filter(isCurrentEvent).filter(item => {
     const talukas = item.talukas || [];
     const localities = item.localities || [];
-    const talukaMatch = !taluka || talukas.includes(taluka) || talukas.length === 0;
-    const localityMatch = !locality || localities.some(item => localityMatches(item, locality, state.localitiesConfig)) || localities.length === 0;
+    const unmapped = item.geographicScope === "district_unmapped";
+    const talukaMatch = !taluka || talukas.includes(taluka) || (talukas.length === 0 && !unmapped);
+    const localityMatch = !locality || localities.some(item => localityMatches(item, locality, state.localitiesConfig)) || (localities.length === 0 && !unmapped);
     return talukaMatch && localityMatch;
   }));
 }

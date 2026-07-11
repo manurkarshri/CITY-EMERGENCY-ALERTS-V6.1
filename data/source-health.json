@@ -1,16 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T15:16:44.669Z",
   "sources": [
-    {
-      "id": "open_meteo",
-      "name": "Open-Meteo",
-      "type": "weather",
-      "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T15:16:40.224Z",
-      "lastSuccessfulAt": "2026-07-11T15:16:40.224Z",
-      "error": null
-    },
     {
       "id": "event_feeds",
       "name": "Alert and incident sources",
@@ -69,5 +59,6 @@
       "lastSuccessfulAt": "2026-07-11T15:16:43.584Z",
       "error": null
     }
-  ]
+  ],
+  "generatedAt": "2026-07-11T15:21:34.371Z"
 }

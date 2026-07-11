@@ -33,6 +33,7 @@ export async function normalizeRawEvent(raw = {}) {
     capReferences: raw.capReferences || "",
     coordinates: raw.coordinates || [],
     roadNumbers: raw.roadNumbers || [],
+    geographicScope: raw.geographicScope || ([...(raw.talukas || location.talukas || []), ...(raw.localities || location.localities || [])].length ? "local" : "district_unmapped"),
     lifecycle: ["A+", "A"].includes(raw.sourceTrust) ? "verified" : "detected",
     ...location,
     talukas: raw.talukas || location.talukas,

@@ -61,12 +61,17 @@ function renderRiverIntelligence() {
   const gauges = items.filter(item => item.kind === "river_gauge");
   const reservoirs = items.filter(item => item.kind === "reservoir");
   if (!items.length) return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2><p class="empty">Current official river and dam readings are unavailable.</p></section>`;
+  const attention = items.filter(item => ["watch", "warning", "emergency", "elevated", "high", "critical"].includes(item.severity) || ["elevated", "high", "critical"].includes(item.status)).length;
+  const summary = attention ? `${attention} of ${items.length} official readings need attention` : `No risk found in ${items.length} official readings`;
   return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2>
-    <p class="small">Official Maharashtra WRD readings. Reservoir storage is informational and does not by itself indicate a flood warning.</p>
-    <ul class="compact-list">
-      ${gauges.map(item => `<li><strong>${escapeHtml(item.station)}</strong> · ${escapeHtml(item.river)} · ${escapeHtml(item.status === "normal" ? "below alert level" : item.status)}${Number.isFinite(item.level) ? ` · ${escapeHtml(item.level)} m` : ""}</li>`).join("")}
-      ${reservoirs.map(item => `<li><strong>${escapeHtml(item.damLabel)}</strong>${Number.isFinite(item.storagePercent) ? ` · ${escapeHtml(item.storagePercent)}% storage` : ""}${Number.isFinite(item.dischargeCumecs) ? ` · ${escapeHtml(item.dischargeCumecs)} cumecs reported discharge` : ""}</li>`).join("")}
-    </ul>
+    <p><strong>${attention ? "River and dam conditions need attention" : "Rivers and dams normal"}:</strong> ${escapeHtml(summary)}</p>
+    <details><summary>View ${items.length} official readings</summary>
+      <p class="small">Official Maharashtra WRD readings. Reservoir storage is informational and does not by itself indicate a flood warning.</p>
+      <ul class="compact-list">
+        ${gauges.map(item => `<li><strong>${escapeHtml(item.station)}</strong> · ${escapeHtml(item.river)} · ${escapeHtml(item.status === "normal" ? "below alert level" : item.status)}${Number.isFinite(item.level) ? ` · ${escapeHtml(item.level)} m` : ""}</li>`).join("")}
+        ${reservoirs.map(item => `<li><strong>${escapeHtml(item.damLabel)}</strong>${Number.isFinite(item.storagePercent) ? ` · ${escapeHtml(item.storagePercent)}% storage` : ""}${Number.isFinite(item.dischargeCumecs) ? ` · ${escapeHtml(item.dischargeCumecs)} cumecs reported discharge` : ""}</li>`).join("")}
+      </ul>
+    </details>
   </section>`;
 }
 
