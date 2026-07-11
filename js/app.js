@@ -7,6 +7,7 @@ import { fetchLivePuneTrafficIncidents } from "./services/tomtom-traffic-live.js
 import { isCurrentEvent } from "./utils/freshness.js";
 import { createVisitSnapshot, compareVisitSnapshots, loadVisitSnapshot, saveVisitSnapshot } from "./core/visit-history.js";
 import { deduplicateTrafficIncidents, enrichIncidentGeography } from "./intelligence/incident-relevance.js";
+import { setupConnectivity } from "./core/connectivity.js";
 
 async function init() {
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(console.warn);
@@ -15,6 +16,7 @@ async function init() {
   setupLocationSelector();
   setupNavigation();
   renderAll();
+  setupConnectivity({ reloadData: loadAllData, refreshView: renderAll });
   void refreshLiveTraffic();
 }
 

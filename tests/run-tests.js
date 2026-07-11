@@ -22,6 +22,7 @@ import "./test-rtdas-river.js";
 import "./test-visit-history.js";
 import "./test-safety-checklists.js";
 import "./test-official-sources.js";
+import "./test-pwa-offline.js";
 
 function assert(condition, message) { if (!condition) throw new Error(message); }
 

@@ -18,3 +18,4 @@ body {
 button,select,input{font:inherit}
 button{cursor:pointer}
 a{color:var(--blue)}
+.offline-notice{background:#fff3cd;color:#6b4f00;padding:9px 14px;text-align:center;font-size:13px;font-weight:800;border-bottom:1px solid #f1d98a}.is-offline .app-header{background:linear-gradient(135deg,#7b5a00,#9a7400)}
