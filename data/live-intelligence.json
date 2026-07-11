@@ -1,7 +1,7 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T18:37:02.764Z",
-  "status": "current",
+  "generatedAt": "2026-07-11T19:30:35.792Z",
+  "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
     "officialFirst": true,
@@ -16,25 +16,25 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T18:36:58.261Z",
-        "lastSuccessfulAt": "2026-07-11T18:36:58.261Z",
+        "sourceCheckedAt": "2026-07-11T19:30:30.844Z",
+        "lastSuccessfulAt": "2026-07-11T19:30:30.844Z",
         "error": null
       },
       {
         "id": "event_feeds",
         "name": "Alert and incident sources",
         "type": "events",
-        "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T18:36:59.080Z",
-        "lastSuccessfulAt": "2026-07-11T18:36:59.080Z",
-        "error": null
+        "status": "stale",
+        "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+        "lastSuccessfulAt": "2026-07-11T19:30:31.664Z",
+        "error": "free_news_api: FreeNewsAPI request failed with HTTP 400"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T18:36:59.080Z",
-        "lastSuccessfulAt": "2026-07-11T18:36:59.080Z",
+        "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+        "lastSuccessfulAt": "2026-07-11T19:30:31.664Z",
         "error": null,
         "etag": null,
         "type": "alerts"
@@ -43,8 +43,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T18:36:59.080Z",
-        "lastSuccessfulAt": "2026-07-11T18:36:59.080Z",
+        "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+        "lastSuccessfulAt": "2026-07-11T19:30:31.664Z",
         "error": null,
         "etag": "W/\"8674-1783606872394\"",
         "type": "alerts"
@@ -53,8 +53,8 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T18:36:59.080Z",
-        "lastSuccessfulAt": "2026-07-11T18:36:59.080Z",
+        "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+        "lastSuccessfulAt": "2026-07-11T19:30:31.664Z",
         "error": null,
         "etag": null,
         "type": "incidents"
@@ -63,8 +63,8 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T18:36:59.080Z",
-        "lastSuccessfulAt": "2026-07-11T18:36:59.080Z",
+        "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+        "lastSuccessfulAt": "2026-07-11T19:30:31.664Z",
         "error": null,
         "etag": null,
         "type": "incidents"
@@ -73,8 +73,27 @@
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T18:36:59.080Z",
-        "lastSuccessfulAt": "2026-07-11T18:36:59.080Z",
+        "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+        "lastSuccessfulAt": "2026-07-11T19:30:31.664Z",
+        "error": null,
+        "etag": null,
+        "type": "incidents"
+      },
+      {
+        "id": "free_news_api",
+        "name": "FreeNewsAPI trusted-media discovery",
+        "status": "unavailable",
+        "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+        "lastSuccessfulAt": null,
+        "error": "FreeNewsAPI request failed with HTTP 400",
+        "type": "incidents"
+      },
+      {
+        "id": "newsdata_io",
+        "name": "NewsData.io trusted-media backup",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+        "lastSuccessfulAt": "2026-07-11T19:30:31.664Z",
         "error": null,
         "etag": null,
         "type": "incidents"
@@ -84,8 +103,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-07-11T18:37:01.387Z",
-        "lastSuccessfulAt": "2026-07-11T18:37:01.387Z",
+        "sourceCheckedAt": "2026-07-11T19:30:34.657Z",
+        "lastSuccessfulAt": "2026-07-11T19:30:34.657Z",
         "error": null
       }
     ],
@@ -254,13 +273,13 @@
   },
   "developingSituations": [
     {
-      "id": "transport-disruption-developing-maharashtra-adds-200-daily-mumbai-pune-bus-trips-amid-trai",
-      "title": "Developing: Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations",
+      "id": "flood-developing-panchgani-case-दारूच्या-नशेत-घरात-डोकावला-अन्-इंदापूरच्या-पर्यटकाचा-पाचगण",
+      "title": "Developing: Panchgani Case : दारूच्या नशेत घरात डोकावला अन्...; इंदापूरच्या पर्यटकाचा पाचगणीत लाकडी दांडक्याने बेदम मारहाण करत खून; 4 जणांना 14 जुलैपर्यंत पोलिस कोठडी",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Indian Express Pune",
+      "source": "eSakal Pune",
       "trust": "B",
-      "updatedAt": "2026-07-11T07:01:49.000Z"
+      "updatedAt": "2026-07-11T06:46:16.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."

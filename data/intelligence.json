@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T18:37:02.611Z",
-  "status": "current",
+  "generatedAt": "2026-07-11T19:30:35.638Z",
+  "status": "stale",
   "situation": {
     "snapshot": "No major environmental disruption indicated from current data.",
     "weather": {
-      "generatedAt": "2026-07-11T18:37:02.663Z",
+      "generatedAt": "2026-07-11T19:30:35.692Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,16 +13,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-11T18:36:58.261Z",
-          "observedAt": "2026-07-12T00:00:00+05:30",
-          "temp": 23.5,
+          "sourceCheckedAt": "2026-07-11T19:30:30.844Z",
+          "observedAt": "2026-07-12T01:00:00+05:30",
+          "temp": 23.2,
           "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 0,
-          "wind": 36.4,
-          "gust": 36.4,
+          "wind": 34.6,
+          "gust": 34.6,
           "humidity": 89,
-          "visibility": 16.7,
+          "visibility": 15.4,
           "weatherCode": 3,
           "rainRisk": "Minimal",
           "windRisk": "Low",
@@ -39,20 +39,20 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-11T18:36:58.261Z",
-          "observedAt": "2026-07-12T00:00:00+05:30",
-          "temp": 23.6,
+          "sourceCheckedAt": "2026-07-11T19:30:30.844Z",
+          "observedAt": "2026-07-12T01:00:00+05:30",
+          "temp": 23.3,
           "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 0,
-          "wind": 30.6,
-          "gust": 30.6,
+          "wind": 31,
+          "gust": 31,
           "humidity": 90,
-          "visibility": 13.5,
+          "visibility": 3.4,
           "weatherCode": 3,
           "rainRisk": "Minimal",
           "windRisk": "Low",
-          "visibilityRisk": "Minimal",
+          "visibilityRisk": "Low",
           "heatRisk": "Normal",
           "travelImpact": "Low",
           "advice": [
@@ -65,16 +65,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-11T18:36:58.261Z",
-          "observedAt": "2026-07-12T00:00:00+05:30",
-          "temp": 23.5,
+          "sourceCheckedAt": "2026-07-11T19:30:30.844Z",
+          "observedAt": "2026-07-12T01:00:00+05:30",
+          "temp": 23.2,
           "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 0,
-          "wind": 36.4,
-          "gust": 36.4,
+          "wind": 34.6,
+          "gust": 34.6,
           "humidity": 89,
-          "visibility": 16.7,
+          "visibility": 15.4,
           "weatherCode": 3,
           "rainRisk": "Minimal",
           "windRisk": "Low",
@@ -91,14 +91,14 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-11T18:36:58.261Z",
-          "observedAt": "2026-07-12T00:00:00+05:30",
-          "temp": 22.5,
+          "sourceCheckedAt": "2026-07-11T19:30:30.844Z",
+          "observedAt": "2026-07-12T01:00:00+05:30",
+          "temp": 22.4,
           "currentRain": 0.1,
-          "rain6h": 1.5,
+          "rain6h": 1.6,
           "precipitationProbability": 100,
-          "wind": 42.5,
-          "gust": 42.5,
+          "wind": 41.4,
+          "gust": 41.4,
           "humidity": 100,
           "visibility": 0.1,
           "weatherCode": 51,
@@ -117,12 +117,12 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-11T18:36:58.261Z",
-          "observedAt": "2026-07-12T00:00:00+05:30",
-          "temp": 22.5,
+          "sourceCheckedAt": "2026-07-11T19:30:30.844Z",
+          "observedAt": "2026-07-12T01:00:00+05:30",
+          "temp": 22.2,
           "currentRain": 0,
           "rain6h": 2.1,
-          "precipitationProbability": 98,
+          "precipitationProbability": 99,
           "wind": 37.4,
           "gust": 37.4,
           "humidity": 100,
@@ -141,7 +141,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-11T18:37:02.665Z",
+      "generatedAt": "2026-07-11T19:30:35.694Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
@@ -150,6 +150,63 @@
   },
   "alerts": [],
   "incidents": [
+    {
+      "id": "flood-developing-panchgani-case-दारूच्या-नशेत-घरात-डोकावला-अन्-इंदापूरच्या-पर्यटकाचा-पाचगण",
+      "eventKind": "incident",
+      "sourceId": "esakal",
+      "title": "Developing: Panchgani Case : दारूच्या नशेत घरात डोकावला अन्...; इंदापूरच्या पर्यटकाचा पाचगणीत लाकडी दांडक्याने बेदम मारहाण करत खून; 4 जणांना 14 जुलैपर्यंत पोलिस कोठडी",
+      "summary": "इंदापूर (जि. पुणे) तालुक्यातील भिगवण येथील अक्षय रमेश जाधव (वय २७) हा तरुण आपल्या मित्रांसह ८ जुलैला भोसे येथील हॉटेल अतिथीमध्ये मुक्कामासाठी आला होता. youth was allegedly beaten to death in Bhose Khind, Panchgani. Four accused were arrested within seven hours by Panchgani Police in the Maharashtra murder case.",
+      "category": "flood",
+      "severity": "watch",
+      "source": "eSakal Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "eSakal Pune",
+          "trust": "B",
+          "link": "https://www.esakal.com/paschim-maharashtra/kolhapur/panchgani-bhose-khind-case-four-accused-arrested-akshay-jadhav-beaten-to-death-bam92"
+        }
+      ],
+      "link": "https://www.esakal.com/paschim-maharashtra/kolhapur/panchgani-bhose-khind-case-four-accused-arrested-akshay-jadhav-beaten-to-death-bam92",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-11T06:46:16.000Z",
+      "lastUpdated": "2026-07-11T06:46:16.000Z",
+      "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+      "lastVerifiedAt": "2026-07-11T19:30:31.664Z",
+      "intelligenceGeneratedAt": "2026-07-11T19:30:35.638Z",
+      "expiresAt": "2026-07-12T06:46:16.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "",
+      "upstreamId": "ea0a2a9d693eb3f14c71c3293ab0cad9",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "corroboratedByIndependentSources": false
+    }
+  ],
+  "journeyContext": {
+    "activeRiskEvents": [
+      {
+        "id": "flood-developing-panchgani-case-दारूच्या-नशेत-घरात-डोकावला-अन्-इंदापूरच्या-पर्यटकाचा-पाचगण",
+        "category": "flood",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "This event may affect local awareness or movement."
+      }
+    ]
+  },
+  "expiredEvents": [
     {
       "id": "transport-disruption-developing-maharashtra-adds-200-daily-mumbai-pune-bus-trips-amid-trai",
       "eventKind": "incident",
@@ -173,11 +230,11 @@
       "operationalZones": [],
       "publishedAt": "2026-07-11T07:01:49.000Z",
       "lastUpdated": "2026-07-11T07:01:49.000Z",
-      "sourceCheckedAt": "2026-07-11T18:36:59.080Z",
-      "lastVerifiedAt": "2026-07-11T18:36:59.080Z",
-      "intelligenceGeneratedAt": "2026-07-11T18:37:02.611Z",
+      "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+      "lastVerifiedAt": "2026-07-11T19:30:31.664Z",
+      "intelligenceGeneratedAt": "2026-07-11T19:30:35.638Z",
       "expiresAt": "2026-07-11T19:01:49.000Z",
-      "lifecycle": "developing",
+      "lifecycle": "expired",
       "confidence": "Low",
       "confidenceScore": 43,
       "impact": "Public transport journeys may be cancelled or delayed.",
@@ -191,22 +248,7 @@
       "geographicScope": "broader_area",
       "relatedEventIds": [],
       "corroboratedByIndependentSources": false
-    }
-  ],
-  "journeyContext": {
-    "activeRiskEvents": [
-      {
-        "id": "transport-disruption-developing-maharashtra-adds-200-daily-mumbai-pune-bus-trips-amid-trai",
-        "category": "transport_disruption",
-        "severity": "advisory",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Public transport journeys may be cancelled or delayed."
-      }
-    ]
-  },
-  "expiredEvents": [
+    },
     {
       "id": "transport-disruption-developing-train-cancellations-boost-msrtc-bus-services-between-pune-",
       "eventKind": "incident",
@@ -230,9 +272,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-11T02:51:32.000Z",
       "lastUpdated": "2026-07-11T02:51:32.000Z",
-      "sourceCheckedAt": "2026-07-11T18:36:59.080Z",
-      "lastVerifiedAt": "2026-07-11T18:36:59.080Z",
-      "intelligenceGeneratedAt": "2026-07-11T18:37:02.611Z",
+      "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+      "lastVerifiedAt": "2026-07-11T19:30:31.664Z",
+      "intelligenceGeneratedAt": "2026-07-11T19:30:35.638Z",
       "expiresAt": "2026-07-11T14:51:32.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -248,6 +290,52 @@
       "geographicScope": "broader_area",
       "relatedEventIds": [],
       "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "transport-disruption-developing-maharashtra-adds-200-daily-mumbai-pune-bus-trips-amid-trai",
+      "eventKind": "incident",
+      "sourceId": "indian_express",
+      "title": "Developing: Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations",
+      "summary": "Central Railway on Thursday cancelled 30 train services connecting Pune and Mumbai till July 17 following heavy rainfall-triggered landslides at multiple locations on the Lonavala-Karjat section.",
+      "category": "transport_disruption",
+      "severity": "advisory",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://indianexpress.com/article/cities/pune/msrtc-200-extra-mumbai-pune-bus-trips-train-cancellations-10781670/"
+        }
+      ],
+      "link": "https://indianexpress.com/article/cities/pune/msrtc-200-extra-mumbai-pune-bus-trips-train-cancellations-10781670/",
+      "talukas": [
+        "maval"
+      ],
+      "localities": [
+        "Lonavala"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-07-11T07:01:49.000Z",
+      "lastUpdated": "2026-07-11T07:01:49.000Z",
+      "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+      "lastVerifiedAt": "2026-07-11T19:30:31.664Z",
+      "intelligenceGeneratedAt": "2026-07-11T19:30:35.638Z",
+      "expiresAt": "2026-07-11T19:01:49.000Z",
+      "lifecycle": "expired",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "Public transport journeys may be cancelled or delayed.",
+      "recommendedAction": "Confirm service status and keep an alternative journey available.",
+      "affectedArea": "",
+      "upstreamId": "bae453cf0612827b823438e2b9d3fc30",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "corroboratedByIndependentSources": false
     }
   ],
   "sourceHealth": {
@@ -255,10 +343,10 @@
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
-      "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T18:36:59.080Z",
-      "lastSuccessfulAt": "2026-07-11T18:36:59.080Z",
-      "error": null
+      "status": "stale",
+      "sourceCheckedAt": "2026-07-11T19:30:31.664Z",
+      "lastSuccessfulAt": "2026-07-11T19:30:31.664Z",
+      "error": "free_news_api: FreeNewsAPI request failed with HTTP 400"
     }
   },
   "environmentalContext": {
@@ -292,14 +380,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Koregaon Bhima river level is normal.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "updatedAt": "2026-07-11T19:30:35.692Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T00:00:00+05:30",
+            "observedAt": "2026-07-12T00:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -337,14 +425,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Paragaon river level is normal.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "updatedAt": "2026-07-11T19:30:35.692Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-11T23:45:00+05:30",
+            "observedAt": "2026-07-12T00:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -381,14 +469,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Daund river level is normal.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "updatedAt": "2026-07-11T19:30:35.692Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-11T23:45:00+05:30",
+            "observedAt": "2026-07-12T00:30:00+05:30",
             "link": "",
             "note": ""
           }
@@ -408,10 +496,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 580.98,
+        "level": 580.97,
         "alertLevel": 585.5,
         "dangerLevel": 585.89,
-        "dischargeCumecs": 2.58,
+        "dischargeCumecs": 2.5,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -425,14 +513,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Umbre Kasurdi river level is normal.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "updatedAt": "2026-07-11T19:30:35.692Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-11T23:45:00+05:30",
+            "observedAt": "2026-07-12T00:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -452,10 +540,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 542.58,
+        "level": 542.59,
         "alertLevel": 545,
         "dangerLevel": 546.3,
-        "dischargeCumecs": 11.95,
+        "dischargeCumecs": 12.61,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -472,14 +560,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Dattawadi river level is normal.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "updatedAt": "2026-07-11T19:30:35.692Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T00:00:00+05:30",
+            "observedAt": "2026-07-12T00:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -499,10 +587,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 534.15,
+        "level": 534.12,
         "alertLevel": 541.5,
         "dangerLevel": 542.5,
-        "dischargeCumecs": 36.72,
+        "dischargeCumecs": 35.01,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -519,14 +607,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Kalyani nagar Bridge river level is normal.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "updatedAt": "2026-07-11T19:30:35.692Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-11T23:45:00+05:30",
+            "observedAt": "2026-07-12T00:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -566,14 +654,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Pimple Gurav river level is normal.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "updatedAt": "2026-07-11T19:30:35.692Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T00:00:00+05:30",
+            "observedAt": "2026-07-12T00:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -607,7 +695,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Veer Dam: 100% storage.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "updatedAt": "2026-07-11T19:30:35.692Z"
         },
         "evidence": [
           {
@@ -646,14 +734,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Bhatghar Dam: 51.64% storage.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "updatedAt": "2026-07-11T19:30:35.692Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T00:00:00+05:30",
+            "observedAt": "2026-07-12T00:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -694,7 +782,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Khadakwasla Dam: 100% storage.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "updatedAt": "2026-07-11T19:30:35.693Z"
         },
         "evidence": [
           {
@@ -717,8 +805,8 @@
         "river": "Mutha River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 38.69,
-        "reservoirLevel": 689.27,
+        "storagePercent": 38.74,
+        "reservoirLevel": 689.29,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -735,20 +823,20 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Temghar Dam: 38.69% storage.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "note": "Temghar Dam: 38.74% storage.",
+          "updatedAt": "2026-07-11T19:30:35.693Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T00:00:00+05:30",
+            "observedAt": "2026-07-12T00:45:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Temghar Dam has 38.69% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Temghar Dam has 38.74% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -777,14 +865,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Mulshi Dam: 70.72% storage.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "updatedAt": "2026-07-11T19:30:35.693Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T00:00:00+05:30",
+            "observedAt": "2026-07-12T00:30:00+05:30",
             "link": "",
             "note": ""
           }
@@ -800,8 +888,8 @@
         "river": "Pavana River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 75.69,
-        "reservoirLevel": 610.51,
+        "storagePercent": 75.5,
+        "reservoirLevel": 610.49,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -818,25 +906,25 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Pawna Dam: 75.69% storage.",
-          "updatedAt": "2026-07-11T18:37:02.664Z"
+          "note": "Pawna Dam: 75.5% storage.",
+          "updatedAt": "2026-07-11T19:30:35.693Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-11T23:45:00+05:30",
+            "observedAt": "2026-07-12T00:45:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Pawna Dam has 75.69% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Pawna Dam has 75.5% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       }
     ],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-11T18:37:02.665Z",
+      "generatedAt": "2026-07-11T19:30:35.694Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -849,7 +937,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-11T18:37:02.664Z",
+      "generatedAt": "2026-07-11T19:30:35.693Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -930,9 +1018,11 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-11T18:37:02.665Z",
+      "generatedAt": "2026-07-11T19:30:35.694Z",
       "mode": "on-demand",
-      "relevantDomains": [],
+      "relevantDomains": [
+        "bridges"
+      ],
       "infrastructure": {
         "highways": [
           "Mumbai-Pune Expressway",
@@ -973,7 +1063,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-11T18:37:02.717Z",
+        "generatedAt": "2026-07-11T19:30:35.748Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -1122,7 +1212,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-11T18:37:02.718Z",
+        "generatedAt": "2026-07-11T19:30:35.748Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1152,28 +1242,20 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 65,
+            "score": 70,
             "label": "Proceed with Caution",
             "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Developing: Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations may have minor impact on travel.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": [
-              {
-                "eventId": "transport-disruption-developing-maharashtra-adds-200-daily-mumbai-pune-bus-trips-amid-trai",
-                "category": "transport_disruption",
-                "penalty": 5,
-                "title": "Developing: Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations"
-              }
-            ]
+            "penalties": []
           },
           "estimatedTimeMin": 110,
           "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Developing: Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations may have minor impact on travel."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -1205,28 +1287,20 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 65,
+              "score": 70,
               "label": "Proceed with Caution",
               "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Developing: Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations may have minor impact on travel.",
                 "Low visibility may make driving unsafe."
               ],
-              "penalties": [
-                {
-                  "eventId": "transport-disruption-developing-maharashtra-adds-200-daily-mumbai-pune-bus-trips-amid-trai",
-                  "category": "transport_disruption",
-                  "penalty": 5,
-                  "title": "Developing: Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations"
-                }
-              ]
+              "penalties": []
             },
             "estimatedTimeMin": 110,
             "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Developing: Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations may have minor impact on travel."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -1235,7 +1309,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-11T18:37:02.718Z",
+        "generatedAt": "2026-07-11T19:30:35.748Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
