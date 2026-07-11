@@ -1,12 +1,7 @@
 import { classifyIncidentText } from "./indian-express-pune-rss.js";
 
 const API_URL = "https://api.freenewsapi.io/v1/news";
-const SEARCHES = [
-  { language: "en", q: "Pune accident fire flood landslide" },
-  { language: "en", q: "PCMC emergency closure disruption accident" },
-  { language: "mr", q: "पुणे अपघात आग पूर दरड" },
-  { language: "mr", q: "पिंपरी चिंचवड रस्ता बंद आपत्ती" }
-];
+const SEARCHES = [{ q: "Pune PCMC Pimpri accident fire" }];
 const ALLOWED_PUBLISHERS = /Indian Express|Hindustan Times|e?Sakal|Lokmat|Loksatta|Maharashtra Times|ABP Majha|ABP Live Marathi|TV9 Marathi/i;
 
 export async function fetchFreeNewsIncidents(options = {}) {
@@ -14,14 +9,11 @@ export async function fetchFreeNewsIncidents(options = {}) {
   if (!apiKey) throw new Error("FREE_NEWS_API_KEY is not configured");
   const fetchImpl = options.fetchImpl || globalThis.fetch;
   const checkedAt = options.checkedAt || new Date().toISOString();
-  const publishedAfter = new Date(new Date(checkedAt).getTime() - 36 * 36e5).toISOString();
   const responses = [];
   for (const search of SEARCHES) {
     const url = new URL(API_URL);
-    url.searchParams.set("country", "IN");
-    url.searchParams.set("language", search.language);
+    url.searchParams.set("country", "in");
     url.searchParams.set("q", search.q);
-    url.searchParams.set("published_after", publishedAfter);
     url.searchParams.set("order_by", "recent");
     const response = await fetchWithTimeout(fetchImpl, url, apiKey, options.timeoutMs || 20000);
     if (!response.ok) throw new Error(`FreeNewsAPI request failed with HTTP ${response.status}`);
@@ -44,7 +36,7 @@ function normalizeArticle(article, checkedAt) {
   const publishedAt = isoDate(article.published_at || article.publishedAt);
   const originalUrl = safePublisherUrl(article.original_url || article.url);
   if (!title || !publisher || !ALLOWED_PUBLISHERS.test(publisher) || !classification || !publishedAt || !originalUrl) return null;
-  if (!/pune|pimpri|chinchwad|pcmc|पुण|पिंपरी|चिंचवड/i.test(text)) return null;
+  if (!isPuneHeadline(title)) return null;
   return {
     sourceId: publisherId(publisher), collectionSourceId: "free_news_api", upstreamId: String(article.uuid || ""), title: `Developing: ${title}`,
     summary: summary || title, category: classification.category, severity: classification.severity,
@@ -57,12 +49,12 @@ function normalizeArticle(article, checkedAt) {
 
 function classifyFreeNewsText(text) {
   return classifyIncidentText(text) || [
-    { category: "accident", severity: "watch", pattern: /अपघात|धडक|वाहन.*उलट/i },
-    { category: "fire", severity: "watch", pattern: /आग|अग्नितांडव|आगीची घटना/i },
-    { category: "flood", severity: "watch", pattern: /पूर|पाणी साच|जलमय|धरण.*विसर्ग|नदी.*पातळी/i },
-    { category: "landslide", severity: "watch", pattern: /दरड|भूस्खलन/i },
-    { category: "road_closure", severity: "watch", pattern: /रस्ता बंद|वाहतूक बंद|मार्ग बंद|वाहतूक वळव/i },
-    { category: "transport_disruption", severity: "advisory", pattern: /रेल्वे.*रद्द|मेट्रो.*बंद|उड्डाण.*रद्द|वाहतूक.*विस्कळीत/i }
+    { category: "accident", severity: "watch", pattern: /\u0905\u092a\u0918\u093e\u0924|\u0927\u0921\u0915|\u0935\u093e\u0939\u0928.*\u0909\u0932\u091f/i },
+    { category: "fire", severity: "watch", pattern: /\u0906\u0917|\u0905\u0917\u094d\u0928\u093f\u0924\u093e\u0902\u0921\u0935|\u0906\u0917\u0940\u091a\u0940 \u0918\u091f\u0928\u093e/i },
+    { category: "flood", severity: "watch", pattern: /\u092a\u0942\u0930|\u092a\u093e\u0923\u0940 \u0938\u093e\u091a|\u091c\u0932\u092e\u092f|\u0927\u0930\u0923.*\u0935\u093f\u0938\u0930\u094d\u0917|\u0928\u0926\u0940.*\u092a\u093e\u0924\u0933\u0940/i },
+    { category: "landslide", severity: "watch", pattern: /\u0926\u0930\u0921|\u092d\u0942\u0938\u094d\u0916\u0932\u0928/i },
+    { category: "road_closure", severity: "watch", pattern: /\u0930\u0938\u094d\u0924\u093e \u092c\u0902\u0926|\u0935\u093e\u0939\u0924\u0942\u0915 \u092c\u0902\u0926|\u092e\u093e\u0930\u094d\u0917 \u092c\u0902\u0926|\u0935\u093e\u0939\u0924\u0942\u0915 \u0935\u0933\u0935/i },
+    { category: "transport_disruption", severity: "advisory", pattern: /\u0930\u0947\u0932\u094d\u0935\u0947.*\u0930\u0926\u094d\u0926|\u092e\u0947\u091f\u094d\u0930\u094b.*\u092c\u0902\u0926|\u0909\u0921\u094d\u0921\u093e\u0923.*\u0930\u0926\u094d\u0926|\u0935\u093e\u0939\u0924\u0942\u0915.*\u0935\u093f\u0938\u094d\u0915\u0933\u0940\u0924/i }
   ].find(rule => rule.pattern.test(text)) || null;
 }
 
@@ -86,6 +78,7 @@ function canonicalPublisher(value) {
   return value;
 }
 function publisherId(value) { return canonicalPublisher(value).toLowerCase().replace(/\s+pune$/, "").replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, ""); }
+function isPuneHeadline(title) { return /\bpune\b|\bpimpri\b|\bchinchwad\b|\bpcmc\b|\u092a\u0941\u0923|\u092a\u093f\u0902\u092a\u0930\u0940|\u091a\u093f\u0902\u091a\u0935\u0921/i.test(title); }
 function safePublisherUrl(value) { try { const url = new URL(value); return /^https?:$/.test(url.protocol) ? url.href : ""; } catch { return ""; } }
 function clean(value) { return String(value || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(); }
 function isoDate(value) { const time = Date.parse(value); return Number.isFinite(time) ? new Date(time).toISOString() : null; }
