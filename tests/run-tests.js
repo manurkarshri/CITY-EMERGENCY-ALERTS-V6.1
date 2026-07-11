@@ -10,6 +10,7 @@ import "./test-imd-alerts.js";
 import "./test-media-incidents.js";
 import "./test-google-news-discovery.js";
 import "./test-free-news-api.js";
+import "./test-newsdata-io.js";
 import "./test-corroboration.js";
 import "./test-ndma-cap.js";
 import "./test-transport-incidents.js";

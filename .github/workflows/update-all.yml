@@ -28,6 +28,7 @@ jobs:
       - name: Collect Official IMD Pune Alerts
         env:
           FREE_NEWS_API_KEY: ${{ secrets.FREE_NEWS_API_KEY }}
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
         run: node scripts/collect-alerts.js
       - name: Collect Maharashtra WRD River and Dam Data
         run: node scripts/collect-river-status.js

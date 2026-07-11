@@ -5,6 +5,7 @@ import { fetchNdmaSachetAlerts } from "./collectors/ndma-sachet-cap.js";
 import { fetchPuneMetroIncidents } from "./collectors/pune-metro-press-releases.js";
 import { fetchGoogleNewsDiscoveries, corroborateGoogleDiscoveries } from "./collectors/google-news-discovery-rss.js";
 import { fetchFreeNewsIncidents } from "./collectors/free-news-api.js";
+import { fetchNewsDataIncidents } from "./collectors/newsdata-io.js";
 import { readJson, writeJson } from "./lib/io.js";
 import { log } from "./lib/logger.js";
 
@@ -18,25 +19,31 @@ const collectors = [
   ["pune_metro", "Pune Metro Official Updates", fetchPuneMetroIncidents]
 ];
 if (process.env.FREE_NEWS_API_KEY) collectors.push(["free_news_api", "FreeNewsAPI trusted-media discovery", fetchFreeNewsIncidents]);
-const results = await Promise.allSettled(collectors.map(([id, , collect]) => collect({ checkedAt, etag: (previous.sources || []).find(source => source.id === id)?.etag })));
+if (process.env.NEWSDATA_API_KEY) collectors.push(["newsdata_io", "NewsData.io trusted-media backup", fetchNewsDataIncidents]);
+const results = await Promise.allSettled(collectors.map(([id, , collect]) => {
+  const prior = (previous.sources || []).find(source => source.id === id);
+  return collect({ checkedAt, etag: prior?.etag, lastSuccessfulAt: prior?.lastSuccessfulAt });
+}));
 const items = [];
 const errors = [];
 const sourceStates = [];
 results.forEach((result, index) => {
   const [sourceId, name] = collectors[index];
   if (result.status === "fulfilled") {
-    const priorItems = (previous.items || []).filter(item => item.sourceId === sourceId && item.expiresAt && new Date(item.expiresAt) > new Date());
+    const prior = (previous.sources || []).find(source => source.id === sourceId);
+    const priorItems = preservedItems(previous.items, sourceId);
     items.push(...(result.value.notModified ? priorItems : result.value));
-    sourceStates.push({ id: sourceId, name, status: "healthy", sourceCheckedAt: checkedAt, lastSuccessfulAt: checkedAt, error: null, etag: result.value.etag || null });
+    sourceStates.push({ id: sourceId, name, status: "healthy", sourceCheckedAt: checkedAt, lastSuccessfulAt: result.value.skipped ? prior?.lastSuccessfulAt || checkedAt : checkedAt, error: null, etag: result.value.etag || null });
   }
   else {
     errors.push(`${sourceId}: ${result.reason?.message || "collection failed"}`);
-    const preserved = (previous.items || []).filter(item => item.sourceId === sourceId && item.expiresAt && new Date(item.expiresAt) > new Date());
+    const preserved = preservedItems(previous.items, sourceId);
     items.push(...preserved);
     const prior = (previous.sources || []).find(source => source.id === sourceId);
     sourceStates.push({ id: sourceId, name, status: preserved.length ? "stale" : "unavailable", sourceCheckedAt: checkedAt, lastSuccessfulAt: prior?.lastSuccessfulAt || null, error: result.reason?.message || "Collection failed" });
   }
 });
+function preservedItems(items, sourceId) { return (items || []).filter(item => (item.collectionSourceId || item.sourceId) === sourceId && item.expiresAt && new Date(item.expiresAt) > new Date()); }
 const successful = results.filter(result => result.status === "fulfilled").length;
 let discoveryData = { schemaVersion: "6.1.0", provider: "Google News RSS", sourceCheckedAt: checkedAt, status: "unavailable", error: null, items: [] };
 try {

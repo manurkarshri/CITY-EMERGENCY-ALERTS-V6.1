@@ -1,61 +1,56 @@
 import { classifyIncidentText } from "./indian-express-pune-rss.js";
 
-const API_URL = "https://api.freenewsapi.io/v1/news";
-const SEARCHES = [
-  { language: "en", q: "Pune accident fire flood landslide" },
-  { language: "en", q: "PCMC emergency closure disruption accident" },
-  { language: "mr", q: "पुणे अपघात आग पूर दरड" },
-  { language: "mr", q: "पिंपरी चिंचवड रस्ता बंद आपत्ती" }
-];
+const API_URL = "https://newsdata.io/api/1/latest";
+const MINIMUM_REFRESH_MS = 30 * 60 * 1000;
 const ALLOWED_PUBLISHERS = /Indian Express|Hindustan Times|e?Sakal|Lokmat|Loksatta|Maharashtra Times|ABP Majha|ABP Live Marathi|TV9 Marathi/i;
 
-export async function fetchFreeNewsIncidents(options = {}) {
-  const apiKey = options.apiKey || process.env.FREE_NEWS_API_KEY;
-  if (!apiKey) throw new Error("FREE_NEWS_API_KEY is not configured");
-  const fetchImpl = options.fetchImpl || globalThis.fetch;
+export async function fetchNewsDataIncidents(options = {}) {
+  const apiKey = options.apiKey || process.env.NEWSDATA_API_KEY;
+  if (!apiKey) throw new Error("NEWSDATA_API_KEY is not configured");
   const checkedAt = options.checkedAt || new Date().toISOString();
-  const publishedAfter = new Date(new Date(checkedAt).getTime() - 36 * 36e5).toISOString();
-  const responses = [];
-  for (const search of SEARCHES) {
-    const url = new URL(API_URL);
-    url.searchParams.set("country", "IN");
-    url.searchParams.set("language", search.language);
-    url.searchParams.set("q", search.q);
-    url.searchParams.set("published_after", publishedAfter);
-    url.searchParams.set("order_by", "recent");
-    const response = await fetchWithTimeout(fetchImpl, url, apiKey, options.timeoutMs || 20000);
-    if (!response.ok) throw new Error(`FreeNewsAPI request failed with HTTP ${response.status}`);
-    responses.push(await response.json());
-  }
-  const normalized = responses.flatMap(payload => normalizeFreeNewsResponse(payload, checkedAt));
-  return uniqueArticles(normalized);
+  if (!isDue(options.lastSuccessfulAt, checkedAt)) return { notModified: true, skipped: true };
+  const fetchImpl = options.fetchImpl || globalThis.fetch;
+  const url = new URL(API_URL);
+  url.searchParams.set("apikey", apiKey);
+  url.searchParams.set("country", "in");
+  url.searchParams.set("q", "Pune OR PCMC OR Pimpri");
+  url.searchParams.set("category", "crime,environment");
+  const response = await fetchWithTimeout(fetchImpl, url, options.timeoutMs || 20000);
+  if (!response.ok) throw new Error(`NewsData.io request failed with HTTP ${response.status}`);
+  return normalizeNewsDataResponse(await response.json(), checkedAt);
 }
 
-export function normalizeFreeNewsResponse(payload, checkedAt) {
-  return (payload?.data || []).map(article => normalizeArticle(article, checkedAt)).filter(Boolean);
+export function isDue(lastSuccessfulAt, checkedAt) {
+  const last = Date.parse(lastSuccessfulAt || "");
+  const current = Date.parse(checkedAt);
+  return !Number.isFinite(last) || !Number.isFinite(current) || current - last >= MINIMUM_REFRESH_MS;
+}
+
+export function normalizeNewsDataResponse(payload, checkedAt) {
+  return uniqueArticles((payload?.results || []).map(article => normalizeArticle(article, checkedAt)).filter(Boolean));
 }
 
 function normalizeArticle(article, checkedAt) {
   const title = clean(article.title);
-  const summary = clean(article.subtitle || article.description || "");
-  const publisher = publisherName(article.publisher);
+  const summary = clean(article.description);
+  const publisher = String(article.source_name || article.source_id || "");
   const text = `${title} ${summary}`;
-  const classification = classifyFreeNewsText(text);
-  const publishedAt = isoDate(article.published_at || article.publishedAt);
-  const originalUrl = safePublisherUrl(article.original_url || article.url);
-  if (!title || !publisher || !ALLOWED_PUBLISHERS.test(publisher) || !classification || !publishedAt || !originalUrl) return null;
+  const classification = classifyNewsDataText(text);
+  const publishedAt = isoDate(article.pubDate || article.pubDateTZ || article.published_at);
+  const link = safePublisherUrl(article.link);
+  if (!title || !publisher || !ALLOWED_PUBLISHERS.test(publisher) || !classification || !publishedAt || !link) return null;
   if (!/pune|pimpri|chinchwad|pcmc|पुण|पिंपरी|चिंचवड/i.test(text)) return null;
   return {
-    sourceId: publisherId(publisher), collectionSourceId: "free_news_api", upstreamId: String(article.uuid || ""), title: `Developing: ${title}`,
-    summary: summary || title, category: classification.category, severity: classification.severity,
-    source: canonicalPublisher(publisher), sourceTrust: "B", link: originalUrl, publishedAt, lastUpdated: publishedAt,
+    sourceId: publisherId(publisher), collectionSourceId: "newsdata_io", upstreamId: String(article.article_id || ""),
+    title: `Developing: ${title}`, summary: summary || title, category: classification.category, severity: classification.severity,
+    source: canonicalPublisher(publisher), sourceTrust: "B", link, publishedAt, lastUpdated: publishedAt,
     sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt,
     expiresAt: new Date(new Date(publishedAt).getTime() + (classification.severity === "watch" ? 24 : 12) * 36e5).toISOString(),
-    collectionProvider: "FreeNewsAPI"
+    collectionProvider: "NewsData.io"
   };
 }
 
-function classifyFreeNewsText(text) {
+function classifyNewsDataText(text) {
   return classifyIncidentText(text) || [
     { category: "accident", severity: "watch", pattern: /अपघात|धडक|वाहन.*उलट/i },
     { category: "fire", severity: "watch", pattern: /आग|अग्नितांडव|आगीची घटना/i },
@@ -66,14 +61,13 @@ function classifyFreeNewsText(text) {
   ].find(rule => rule.pattern.test(text)) || null;
 }
 
-async function fetchWithTimeout(fetchImpl, url, apiKey, timeoutMs) {
+async function fetchWithTimeout(fetchImpl, url, timeoutMs) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
-  try { return await fetchImpl(url, { headers: { "x-api-key": apiKey, "User-Agent": "CITY-EMERGENCY-ALERTS/6.1" }, signal: controller.signal }); }
+  try { return await fetchImpl(url, { headers: { "User-Agent": "CITY-EMERGENCY-ALERTS/6.1" }, signal: controller.signal }); }
   finally { clearTimeout(timeout); }
 }
 function uniqueArticles(items) { const seen = new Set(); return items.filter(item => { const key = item.upstreamId || item.link; if (seen.has(key)) return false; seen.add(key); return true; }); }
-function publisherName(value) { return typeof value === "string" ? value : String(value?.name || ""); }
 function canonicalPublisher(value) {
   if (/Indian Express/i.test(value)) return "Indian Express Pune";
   if (/Hindustan Times/i.test(value)) return "Hindustan Times Pune";
