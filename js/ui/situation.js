@@ -62,7 +62,7 @@ function renderRiverIntelligence() {
   const reservoirs = items.filter(item => item.kind === "reservoir");
   if (!items.length) return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2><p class="empty">Current official river and dam readings are unavailable.</p></section>`;
   const attention = items.filter(item => ["watch", "warning", "emergency", "elevated", "high", "critical"].includes(item.severity) || ["elevated", "high", "critical"].includes(item.status)).length;
-  const summary = attention ? `${attention} of ${items.length} official readings need attention` : `No risk found in ${items.length} official readings`;
+  const summary = attention ? `${attention} of ${items.length} official readings need attention` : `No Risk on ${items.length} official readings`;
   return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2>
     <p><strong>${attention ? "River and dam conditions need attention" : "Rivers and dams normal"}:</strong> ${escapeHtml(summary)}</p>
     <details><summary>View ${items.length} official readings</summary>

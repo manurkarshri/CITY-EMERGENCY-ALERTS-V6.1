@@ -14,7 +14,7 @@ export function renderAlerts() {
     <section class="card feature">
       <div class="section-kicker">Warnings</div>
       <h2>Alerts</h2>
-      <p>Current warnings and advisories relevant to your area, including official alerts and high-priority developing alerts awaiting confirmation.</p>
+      <p>Official emergency warnings and advisories relevant to your area.</p>
       ${note}
       ${sourceNote}
     </section>
@@ -28,7 +28,7 @@ function renderNoActiveAlerts() {
     <div class="section-kicker">Current Status</div>
     <h2>No active emergency alerts</h2>
     <p><strong>No active emergency alert was found for ${escapeHtml(monitoring.area)}.</strong></p>
-    <p class="small">This means the connected sources have not reported a current warning for this area. Continue to follow official instructions if local conditions change.</p>
+    <p class="small">Connected official sources have not reported a current warning for this area.</p>
     <div class="health-strip">
       <span class="health-chip">${escapeHtml(monitoring.weather)}</span>
       <span class="health-chip">${escapeHtml(monitoring.water)}</span>

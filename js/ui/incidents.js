@@ -13,7 +13,7 @@ export function renderIncidents() {
     <section class="card feature">
       <div class="section-kicker">Disruptions</div>
       <h2>Incidents</h2>
-      <p>Events happening across Pune District, prioritised for your selected region, Taluka and locality. Reports may come from official authorities or trusted news sources.</p>
+      <p>Current safety and travel incidents, prioritised for your selected area.</p>
       ${note}
       ${sourceNote}
     </section>
@@ -23,8 +23,8 @@ export function renderIncidents() {
 function renderIncidentGroups(groups, incidentCount) {
   if (!incidentCount) return `<section class="card empty"><h2>No medium or major incident detected</h2><p>No qualifying public-safety or major travel incident was found in the connected official and trusted sources.</p>${groups.roadClosures.length ? `<p class="small">${groups.roadClosures.length} current road closure${groups.roadClosures.length === 1 ? " is" : "s are"} available under Journey.</p>` : ""}</section>`;
   return [
-    section("Public safety and emergency incidents", "Accidents, fires, flooding, collapse, rescue and other safety events.", groups.publicSafety),
-    section("Major travel incidents", "Medium-to-major transport disruption, dangerous conditions and serious delays. Road closures are shown under Journey.", groups.travel),
+    section("Public safety incidents", "Accidents, fires, flooding, collapse and rescue.", groups.publicSafety),
+    section("Major travel incidents", "Serious disruption and dangerous travel conditions. Road closures are in Journey.", groups.travel),
     section("Other important incidents", "Other current incidents with potential citizen impact.", groups.other)
   ].join("");
 }
