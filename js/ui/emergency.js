@@ -1,3 +1,5 @@
+import { SAFETY_CHECKLISTS, checklistProgress, normalizeChecklistState, safetyChecklistKey } from "../utils/safety-checklists.js";
+
 export function renderEmergency() {
   document.getElementById("tab-emergency").innerHTML = `
     <section class="card feature">
@@ -25,16 +27,69 @@ export function renderEmergency() {
       <p class="small">Your location is used only on your device for sharing. It is not stored on any server.</p>
     </section>
     <section class="card">
-      <details><summary>Safety Resources</summary>
-        <h3>Flood / Heavy Rain</h3><p>Avoid riverbanks, flooded underpasses and roads where the surface is not visible.</p>
-        <h3>Heatwave</h3><p>Stay hydrated and avoid prolonged outdoor activity during peak afternoon heat.</p>
-        <h3>Lightning</h3><p>Move indoors. Avoid open fields, isolated trees and metal structures.</p>
-        <h3>Fire</h3><p>Leave the area calmly. Do not use lifts during building fires.</p>
-        <h3>Emergency Kit</h3><p>Keep water, torch, power bank, medicines, ID copies and basic first aid ready.</p>
+      <details class="safety-resources">
+        <summary>Safety Resources</summary>
+        <p class="small">Choose the situation and tick actions as you complete them. Progress stays only on this device.</p>
+        <div class="safety-scenarios" role="group" aria-label="Choose an emergency safety checklist">
+          ${SAFETY_CHECKLISTS.map((checklist, index) => `<button class="secondary-btn safety-scenario${index === 0 ? " active" : ""}" type="button" data-safety-scenario="${checklist.id}" aria-pressed="${index === 0}">${checklist.label}</button>`).join("")}
+        </div>
+        <div id="safetyChecklist" aria-live="polite"></div>
       </details>
     </section>
   `;
   document.getElementById("shareLocationBtn")?.addEventListener("click", shareLocation);
+  bindSafetyChecklists();
+}
+
+function bindSafetyChecklists() {
+  const container = document.getElementById("safetyChecklist");
+  const buttons = [...document.querySelectorAll("[data-safety-scenario]")];
+  if (!container || !buttons.length) return;
+
+  const showChecklist = id => {
+    const checklist = SAFETY_CHECKLISTS.find(item => item.id === id) || SAFETY_CHECKLISTS[0];
+    const selected = readChecklistState(checklist);
+    buttons.forEach(button => {
+      const active = button.dataset.safetyScenario === checklist.id;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    container.innerHTML = `
+      <div class="safety-checklist-heading"><h3>${checklist.label}</h3><span class="small" id="safetyProgress">${checklistProgress(selected, checklist.items.length)} completed</span></div>
+      <ul class="safety-checklist">
+        ${checklist.items.map((item, index) => `<li><label><input type="checkbox" data-safety-item="${index}" ${selected.includes(index) ? "checked" : ""}><span>${item}</span></label></li>`).join("")}
+      </ul>
+      <button class="secondary-btn safety-reset" type="button" ${selected.length ? "" : "disabled"}>Clear this checklist</button>
+    `;
+    container.querySelectorAll("[data-safety-item]").forEach(input => input.addEventListener("change", () => {
+      const checked = [...container.querySelectorAll("[data-safety-item]:checked")].map(item => Number(item.dataset.safetyItem));
+      saveChecklistState(checklist, checked);
+      showChecklist(checklist.id);
+    }));
+    container.querySelector(".safety-reset")?.addEventListener("click", () => {
+      saveChecklistState(checklist, []);
+      showChecklist(checklist.id);
+    });
+  };
+
+  buttons.forEach(button => button.addEventListener("click", () => showChecklist(button.dataset.safetyScenario)));
+  showChecklist(SAFETY_CHECKLISTS[0].id);
+}
+
+function readChecklistState(checklist) {
+  try {
+    return normalizeChecklistState(JSON.parse(localStorage.getItem(safetyChecklistKey(checklist.id)) || "[]"), checklist.items.length);
+  } catch {
+    return [];
+  }
+}
+
+function saveChecklistState(checklist, selected) {
+  try {
+    localStorage.setItem(safetyChecklistKey(checklist.id), JSON.stringify(normalizeChecklistState(selected, checklist.items.length)));
+  } catch {
+    // The checklist remains usable for this visit if browser storage is unavailable.
+  }
 }
 
 function shareLocation() {

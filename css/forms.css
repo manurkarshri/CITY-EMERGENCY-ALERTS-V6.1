@@ -14,3 +14,7 @@
 .suggestions strong,.suggestions span{display:block}.suggestions span{font-size:12px;color:var(--muted);margin-top:2px}
 .journey-status{min-height:18px}.journey-status.error{color:var(--red)}.journey-status.warning{color:#8d5b00}.journey-status.success{color:var(--green)}
 .navigation-link{display:inline-block;text-decoration:none;margin-top:12px}
+.safety-resources summary{cursor:pointer;font-weight:900}.safety-resources[open] summary{margin-bottom:10px}
+.safety-scenarios{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.safety-scenario{min-height:38px;padding:8px 10px;font-size:12px}.safety-scenario.active{background:var(--text);color:#fff}
+.safety-checklist-heading{display:flex;align-items:baseline;justify-content:space-between;gap:10px}.safety-checklist-heading h3{margin:8px 0}.safety-checklist{list-style:none;margin:0;padding:0;border-top:1px solid var(--border)}
+.safety-checklist li{border-bottom:1px solid var(--border)}.safety-checklist label{display:flex;align-items:flex-start;gap:10px;padding:11px 2px;cursor:pointer}.safety-checklist input{width:18px;height:18px;flex:0 0 auto;margin-top:2px;accent-color:var(--green)}.safety-checklist input:checked+span{text-decoration:line-through;color:var(--muted)}.safety-reset{margin-top:12px;min-height:40px;padding:8px 12px;font-size:13px}.safety-reset:disabled{opacity:.55}
