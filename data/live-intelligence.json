@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T08:29:58.904Z",
+  "generatedAt": "2026-07-11T10:03:55.691Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T08:29:55.112Z",
-        "lastSuccessfulAt": "2026-07-11T08:29:55.112Z",
+        "sourceCheckedAt": "2026-07-11T10:03:51.735Z",
+        "lastSuccessfulAt": "2026-07-11T10:03:51.735Z",
         "error": null
       },
       {
@@ -25,16 +25,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
-        "lastSuccessfulAt": "2026-07-11T08:29:55.985Z",
+        "sourceCheckedAt": "2026-07-11T10:03:52.498Z",
+        "lastSuccessfulAt": "2026-07-11T10:03:52.498Z",
         "error": null
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
-        "lastSuccessfulAt": "2026-07-11T08:29:55.985Z",
+        "sourceCheckedAt": "2026-07-11T10:03:52.498Z",
+        "lastSuccessfulAt": "2026-07-11T10:03:52.498Z",
         "error": null,
         "etag": null,
         "type": "alerts"
@@ -43,8 +43,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
-        "lastSuccessfulAt": "2026-07-11T08:29:55.985Z",
+        "sourceCheckedAt": "2026-07-11T10:03:52.498Z",
+        "lastSuccessfulAt": "2026-07-11T10:03:52.498Z",
         "error": null,
         "etag": "W/\"8674-1783606872394\"",
         "type": "alerts"
@@ -53,8 +53,8 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
-        "lastSuccessfulAt": "2026-07-11T08:29:55.985Z",
+        "sourceCheckedAt": "2026-07-11T10:03:52.498Z",
+        "lastSuccessfulAt": "2026-07-11T10:03:52.498Z",
         "error": null,
         "etag": null,
         "type": "incidents"
@@ -63,8 +63,8 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
-        "lastSuccessfulAt": "2026-07-11T08:29:55.985Z",
+        "sourceCheckedAt": "2026-07-11T10:03:52.498Z",
+        "lastSuccessfulAt": "2026-07-11T10:03:52.498Z",
         "error": null,
         "etag": null,
         "type": "incidents"
