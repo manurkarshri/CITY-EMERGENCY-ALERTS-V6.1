@@ -1,7 +1,7 @@
 import { classifyIncidentText } from "./indian-express-pune-rss.js";
 
 const API_URL = "https://api.freenewsapi.io/v1/news";
-const SEARCHES = [{ q: "Pune emergency accident fire" }];
+const SEARCHES = [{ inTitle: "Pune" }];
 const ALLOWED_PUBLISHERS = /Indian Express|Hindustan Times|Live Hindustan|e?Sakal|Lokmat|Loksatta|Maharashtra Times|ABP Majha|ABP Live Marathi|ABP News|TV9 Marathi|News18 Hindi|Dainik Bhaskar|Amar Ujala/i;
 
 export async function fetchFreeNewsIncidents(options = {}) {
@@ -11,10 +11,7 @@ export async function fetchFreeNewsIncidents(options = {}) {
   const checkedAt = options.checkedAt || new Date().toISOString();
   const responses = [];
   for (const search of SEARCHES) {
-    const url = new URL(API_URL);
-    url.searchParams.set("country", "in");
-    url.searchParams.set("q", search.q);
-    url.searchParams.set("order_by", "recent");
+    const url = buildFreeNewsUrl(search);
     const response = await fetchWithTimeout(fetchImpl, url, apiKey, options.timeoutMs || 20000);
     if (!response.ok) throw new Error(await providerError(response));
     responses.push(await response.json());
@@ -69,6 +66,14 @@ async function fetchWithTimeout(fetchImpl, url, apiKey, timeoutMs) {
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
   try { return await fetchImpl(url, { headers: { "x-api-key": apiKey, "User-Agent": "CITY-EMERGENCY-ALERTS/6.1" }, signal: controller.signal }); }
   finally { clearTimeout(timeout); }
+}
+
+export function buildFreeNewsUrl(search = {}) {
+  const url = new URL(API_URL);
+  url.searchParams.set("country", "in");
+  url.searchParams.set("in_title", search.inTitle || "Pune");
+  url.searchParams.set("order_by", "recent");
+  return url;
 }
 async function providerError(response) {
   let detail = "";

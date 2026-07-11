@@ -1,4 +1,4 @@
-import { normalizeFreeNewsResponse } from "../scripts/collectors/free-news-api.js";
+import { buildFreeNewsUrl, normalizeFreeNewsResponse } from "../scripts/collectors/free-news-api.js";
 
 const checkedAt = "2026-07-12T06:00:00.000Z";
 const items = normalizeFreeNewsResponse({ data: [
@@ -11,6 +11,8 @@ const items = normalizeFreeNewsResponse({ data: [
 assert(items.length === 3, "English, Marathi and Hindi Pune emergency articles must be normalized");
 assert(items.every(item => item.sourceTrust === "B"), "Allowlisted media must remain Tier 2");
 assert(items.every(item => item.link.startsWith("https://")), "Original publisher links must be retained");
+const requestUrl = buildFreeNewsUrl();
+assert(requestUrl.searchParams.get("in_title") === "Pune" && !requestUrl.searchParams.has("q"), "FreeNewsAPI must use the supported title-search parameter");
 console.log("FreeNewsAPI collector tests passed.");
 function assert(condition, message) { if (!condition) throw new Error(message); }
 
