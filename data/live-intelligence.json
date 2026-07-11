@@ -1,7 +1,7 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T12:29:50.165Z",
-  "status": "partial",
+  "generatedAt": "2026-07-11T14:02:08.945Z",
+  "status": "current",
   "releaseMode": "production-user-testing",
   "policy": {
     "officialFirst": true,
@@ -70,13 +70,13 @@
         "type": "incidents"
       },
       {
-        "id": "river_dam_feeds",
-        "name": "River and dam sources",
+        "id": "maharashtra_rtdas",
+        "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
-        "status": "unavailable",
-        "sourceCheckedAt": null,
-        "lastSuccessfulAt": null,
-        "error": "No live river or dam collector is connected."
+        "status": "current",
+        "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+        "lastSuccessfulAt": "2026-07-11T14:02:08.453Z",
+        "error": null
       }
     ],
     "official": [

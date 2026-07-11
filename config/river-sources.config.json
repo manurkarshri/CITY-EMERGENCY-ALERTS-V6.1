@@ -1,0 +1,26 @@
+{
+  "staleAfterMinutes": 180,
+  "sources": {
+    "rtdas_bhima_rivers": "http://103.215.166.155/RTDAS/BhimaRiver.aspx",
+    "rtdas_bhima_reservoirs": "http://103.215.166.155/RTDAS/BhimaReservoir.aspx"
+  },
+  "riverStations": {
+    "Dattawadi": { "river": "Mutha River", "position": { "lat": 18.5044, "lon": 73.8364 }, "talukas": ["pune_city", "haveli"], "localities": ["Dattawadi", "Sinhagad Road", "Deccan"] },
+    "Kalyani nagar Bridge": { "river": "Mula-Mutha River", "position": { "lat": 18.5408, "lon": 73.9044 }, "talukas": ["pune_city", "haveli"], "localities": ["Kalyani Nagar", "Yerawada", "Sangamwadi"] },
+    "Pimple Gurav": { "river": "Pavana River", "position": { "lat": 18.6047, "lon": 73.8133 }, "talukas": ["pcmc", "haveli"], "localities": ["Pimple Gurav", "Pimpri", "Sangvi"] },
+    "Koregaon Bhima": { "river": "Bhima River", "position": { "lat": 18.6439, "lon": 74.0542 }, "talukas": ["shirur"], "localities": ["Koregaon Bhima"] },
+    "Paragaon": { "river": "Bhima River", "position": { "lat": 18.5694, "lon": 74.3789 }, "talukas": ["daund"], "localities": ["Pargaon", "Daund"] },
+    "Daund": { "river": "Bhima River", "position": { "lat": 18.4794, "lon": 74.5753 }, "talukas": ["daund"], "localities": ["Daund"] },
+    "Umbre Kasurdi": { "river": "Nira River", "position": { "lat": 18.2175, "lon": 73.9008 }, "talukas": ["bhor"], "localities": ["Bhor"] }
+  },
+  "reservoirs": {
+    "Khadakwasala": "khadakwasla",
+    "Panshet": "panshet",
+    "Warasgaon": "varasgaon",
+    "Temghar": "temghar",
+    "Pawana": "pawna",
+    "Mulshi": "mulshi",
+    "Bhatghar": "bhatghar",
+    "Vir": "veer"
+  }
+}

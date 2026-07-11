@@ -1,0 +1,364 @@
+{
+  "schemaVersion": "6.1.0",
+  "generatedAt": "2026-07-11T14:02:08.453Z",
+  "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+  "lastSuccessfulAt": "2026-07-11T14:02:08.453Z",
+  "status": "current",
+  "staleAfterMinutes": 180,
+  "attribution": {
+    "name": "Maharashtra WRD RTDAS",
+    "url": "https://wrd.maharashtra.gov.in/"
+  },
+  "items": [
+    {
+      "id": "rtdas-river-koregaon-bhima",
+      "kind": "river_gauge",
+      "station": "Koregaon Bhima",
+      "river": "Bhima River",
+      "position": {
+        "lat": 18.6439,
+        "lon": 74.0542
+      },
+      "talukas": [
+        "shirur"
+      ],
+      "localities": [
+        "Koregaon Bhima"
+      ],
+      "level": 537.93,
+      "alertLevel": 547,
+      "dangerLevel": 548,
+      "dischargeCumecs": 9.43,
+      "status": "normal",
+      "trend": "steady",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T19:15:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-river-paragaon",
+      "kind": "river_gauge",
+      "station": "Paragaon",
+      "river": "Bhima River",
+      "position": {
+        "lat": 18.5694,
+        "lon": 74.3789
+      },
+      "talukas": [
+        "daund"
+      ],
+      "localities": [
+        "Pargaon",
+        "Daund"
+      ],
+      "level": 509.16,
+      "alertLevel": 515,
+      "dangerLevel": 517,
+      "dischargeCumecs": 278.5,
+      "status": "normal",
+      "trend": "steady",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T19:00:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-river-daund",
+      "kind": "river_gauge",
+      "station": "Daund",
+      "river": "Bhima River",
+      "position": {
+        "lat": 18.4794,
+        "lon": 74.5753
+      },
+      "talukas": [
+        "daund"
+      ],
+      "localities": [
+        "Daund"
+      ],
+      "level": 498.73,
+      "alertLevel": 504,
+      "dangerLevel": 505,
+      "dischargeCumecs": 257.58,
+      "status": "normal",
+      "trend": "steady",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T18:30:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-river-umbre-kasurdi",
+      "kind": "river_gauge",
+      "station": "Umbre Kasurdi",
+      "river": "Nira River",
+      "position": {
+        "lat": 18.2175,
+        "lon": 73.9008
+      },
+      "talukas": [
+        "bhor"
+      ],
+      "localities": [
+        "Bhor"
+      ],
+      "level": 581.04,
+      "alertLevel": 585.5,
+      "dangerLevel": 585.89,
+      "dischargeCumecs": 3.13,
+      "status": "normal",
+      "trend": "steady",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T19:15:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-river-dattawadi",
+      "kind": "river_gauge",
+      "station": "Dattawadi",
+      "river": "Mutha River",
+      "position": {
+        "lat": 18.5044,
+        "lon": 73.8364
+      },
+      "talukas": [
+        "pune_city",
+        "haveli"
+      ],
+      "localities": [
+        "Dattawadi",
+        "Sinhagad Road",
+        "Deccan"
+      ],
+      "level": 542.61,
+      "alertLevel": 545,
+      "dangerLevel": 546.3,
+      "dischargeCumecs": 13.98,
+      "status": "normal",
+      "trend": "steady",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T19:30:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-river-kalyani-nagar-bridge",
+      "kind": "river_gauge",
+      "station": "Kalyani nagar Bridge",
+      "river": "Mula-Mutha River",
+      "position": {
+        "lat": 18.5408,
+        "lon": 73.9044
+      },
+      "talukas": [
+        "pune_city",
+        "haveli"
+      ],
+      "localities": [
+        "Kalyani Nagar",
+        "Yerawada",
+        "Sangamwadi"
+      ],
+      "level": 534.22,
+      "alertLevel": 541.5,
+      "dangerLevel": 542.5,
+      "dischargeCumecs": 40.43,
+      "status": "normal",
+      "trend": "steady",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T19:15:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-river-pimple-gurav",
+      "kind": "river_gauge",
+      "station": "Pimple Gurav",
+      "river": "Pavana River",
+      "position": {
+        "lat": 18.6047,
+        "lon": 73.8133
+      },
+      "talukas": [
+        "pcmc",
+        "haveli"
+      ],
+      "localities": [
+        "Pimple Gurav",
+        "Pimpri",
+        "Sangvi"
+      ],
+      "level": 550.06,
+      "alertLevel": 556,
+      "dangerLevel": 557,
+      "dischargeCumecs": 60.71,
+      "status": "normal",
+      "trend": "steady",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T19:30:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-reservoir-veer",
+      "kind": "reservoir",
+      "dam": "veer",
+      "station": "Vir",
+      "reservoirLevel": 579.85,
+      "storagePercent": 100,
+      "liveContentsMcum": 266.44,
+      "dischargeCumecs": 0,
+      "status": "normal",
+      "trend": "unknown",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T19:00:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-reservoir-bhatghar",
+      "kind": "reservoir",
+      "dam": "bhatghar",
+      "station": "Bhatghar",
+      "reservoirLevel": 612.28,
+      "storagePercent": 51.48,
+      "liveContentsMcum": 346.25,
+      "dischargeCumecs": null,
+      "status": "normal",
+      "trend": "unknown",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T19:00:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-reservoir-varasgaon",
+      "kind": "reservoir",
+      "dam": "varasgaon",
+      "station": "Warasgaon",
+      "reservoirLevel": null,
+      "storagePercent": 16.37,
+      "liveContentsMcum": 59.44,
+      "dischargeCumecs": 0,
+      "status": "normal",
+      "trend": "unknown",
+      "freshness": "stale",
+      "lastUpdated": "2026-07-04T18:00:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-reservoir-panshet",
+      "kind": "reservoir",
+      "dam": "panshet",
+      "station": "Panshet",
+      "reservoirLevel": null,
+      "storagePercent": 35.04,
+      "liveContentsMcum": 105.67,
+      "dischargeCumecs": 0,
+      "status": "normal",
+      "trend": "unknown",
+      "freshness": "stale",
+      "lastUpdated": "2026-05-15T14:15:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-reservoir-khadakwasla",
+      "kind": "reservoir",
+      "dam": "khadakwasla",
+      "station": "Khadakwasala",
+      "reservoirLevel": 582.56,
+      "storagePercent": 100,
+      "liveContentsMcum": 55.91,
+      "dischargeCumecs": 0,
+      "status": "normal",
+      "trend": "unknown",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T19:00:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-reservoir-temghar",
+      "kind": "reservoir",
+      "dam": "temghar",
+      "station": "Temghar",
+      "reservoirLevel": 689.22,
+      "storagePercent": 38.57,
+      "liveContentsMcum": 40.55,
+      "dischargeCumecs": 0,
+      "status": "normal",
+      "trend": "unknown",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T19:15:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-reservoir-mulshi",
+      "kind": "reservoir",
+      "dam": "mulshi",
+      "station": "Mulshi",
+      "reservoirLevel": 602.88,
+      "storagePercent": 70.65,
+      "liveContentsMcum": 398.2,
+      "dischargeCumecs": 0,
+      "status": "normal",
+      "trend": "unknown",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T19:15:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    },
+    {
+      "id": "rtdas-reservoir-pawna",
+      "kind": "reservoir",
+      "dam": "pawna",
+      "station": "Pawana",
+      "reservoirLevel": 610.48,
+      "storagePercent": 75.41,
+      "liveContentsMcum": 181.72,
+      "dischargeCumecs": 0,
+      "status": "normal",
+      "trend": "unknown",
+      "freshness": "current",
+      "lastUpdated": "2026-07-11T19:15:00+05:30",
+      "sourceCheckedAt": "2026-07-11T14:02:08.453Z",
+      "source": "Maharashtra WRD RTDAS",
+      "sourceTrust": "A",
+      "sourceUrl": "https://wrd.maharashtra.gov.in/"
+    }
+  ]
+}

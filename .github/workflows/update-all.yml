@@ -27,6 +27,8 @@ jobs:
         run: node scripts/collect-weather.js
       - name: Collect Official IMD Pune Alerts
         run: node scripts/collect-alerts.js
+      - name: Collect Maharashtra WRD River and Dam Data
+        run: node scripts/collect-river-status.js
       - name: Run Decision Intelligence Core
         run: node scripts/run-intelligence-core.js
       - name: Run Environmental Intelligence

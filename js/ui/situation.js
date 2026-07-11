@@ -38,6 +38,8 @@ export function renderSituation() {
       </div>
     </section>
 
+    ${renderRiverIntelligence()}
+
     <section class="card">
       <div class="section-kicker">Updates</div>
       <h2>Since Your Last Visit</h2>
@@ -51,6 +53,20 @@ export function renderSituation() {
       ${renderSourceHealth()}
     </section>
   `;
+}
+
+function renderRiverIntelligence() {
+  const items = state.environmental?.riverIntelligence || [];
+  const gauges = items.filter(item => item.kind === "river_gauge");
+  const reservoirs = items.filter(item => item.kind === "reservoir");
+  if (!items.length) return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2><p class="empty">Current official river and dam readings are unavailable.</p></section>`;
+  return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2>
+    <p class="small">Official Maharashtra WRD readings. Reservoir storage is informational and does not by itself indicate a flood warning.</p>
+    <ul class="compact-list">
+      ${gauges.map(item => `<li><strong>${escapeHtml(item.station)}</strong> · ${escapeHtml(item.river)} · ${escapeHtml(item.status === "normal" ? "below alert level" : item.status)}${Number.isFinite(item.level) ? ` · ${escapeHtml(item.level)} m` : ""}</li>`).join("")}
+      ${reservoirs.map(item => `<li><strong>${escapeHtml(item.damLabel)}</strong>${Number.isFinite(item.storagePercent) ? ` · ${escapeHtml(item.storagePercent)}% storage` : ""}${Number.isFinite(item.dischargeCumecs) ? ` · ${escapeHtml(item.dischargeCumecs)} cumecs reported discharge` : ""}</li>`).join("")}
+    </ul>
+  </section>`;
 }
 
 function weatherMetric(value, label, guidance) {

@@ -9,13 +9,14 @@
     "build:pages": "node scripts/build-pages.js",
     "collect:weather": "node scripts/collect-weather.js",
     "collect:alerts": "node scripts/collect-alerts.js",
+    "collect:river": "node scripts/collect-river-status.js",
     "build:intelligence": "node scripts/run-intelligence-core.js",
     "build:environmental": "node scripts/build-environmental-intelligence.js",
     "build:journey": "node scripts/build-journey-intelligence.js",
     "test": "node tests/run-tests.js",
     "build:live": "node scripts/build-live-intelligence.js",
-    "build:all": "node scripts/collect-weather.js && node scripts/collect-alerts.js && node scripts/run-intelligence-core.js && node scripts/build-environmental-intelligence.js && node scripts/build-journey-intelligence.js && node scripts/build-live-intelligence.js && node scripts/builders/build-status.js",
-    "production-check": "node scripts/collect-weather.js && node scripts/collect-alerts.js && node scripts/run-intelligence-core.js && node scripts/build-environmental-intelligence.js && node scripts/build-journey-intelligence.js && node scripts/build-live-intelligence.js && node scripts/builders/build-status.js && node scripts/validation/validate-build.js && node tests/run-tests.js"
+    "build:all": "node scripts/collect-weather.js && node scripts/collect-alerts.js && node scripts/collect-river-status.js && node scripts/run-intelligence-core.js && node scripts/build-environmental-intelligence.js && node scripts/build-journey-intelligence.js && node scripts/build-live-intelligence.js && node scripts/builders/build-status.js",
+    "production-check": "node scripts/collect-weather.js && node scripts/collect-alerts.js && node scripts/collect-river-status.js && node scripts/run-intelligence-core.js && node scripts/build-environmental-intelligence.js && node scripts/build-journey-intelligence.js && node scripts/build-live-intelligence.js && node scripts/builders/build-status.js && node scripts/validation/validate-build.js && node tests/run-tests.js"
   },
   "license": "MIT"
 }

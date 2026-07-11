@@ -44,6 +44,12 @@ export function analyseRoute(route, context = {}) {
     addPenalty(event.category || "active_event", value, `${event.title} may affect this route.`, penalties, reasons);
   }
 
+  for (const river of context.environmental?.riverIntelligence || []) {
+    if (!river.position || !["watch", "warning", "emergency"].includes(river.severity) || !eventNearRoute(river, route.points || [])) continue;
+    const value = river.severity === "emergency" ? 35 : river.severity === "warning" ? 25 : 12;
+    addPenalty("river_level", value, `${river.station || river.damLabel} river conditions may affect this route.`, penalties, reasons);
+  }
+
   score = Math.max(0, score - penalties.reduce((sum, item) => sum + item.value, 0));
   if (!reasons.length) reasons.push("No significant route-specific disruption was found in the connected data.");
   return result(route, score, reasons, nearbyIncidents, penalties, weather);

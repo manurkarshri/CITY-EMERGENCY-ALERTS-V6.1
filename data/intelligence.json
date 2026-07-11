@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T12:29:50.017Z",
+  "generatedAt": "2026-07-11T14:02:08.697Z",
   "status": "current",
   "situation": {
     "snapshot": "No major environmental disruption indicated from current data.",
     "weather": {
-      "generatedAt": "2026-07-11T12:29:50.072Z",
+      "generatedAt": "2026-07-11T14:02:08.787Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -141,7 +141,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-11T12:29:50.073Z",
+      "generatedAt": "2026-07-11T14:02:08.790Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
@@ -173,11 +173,11 @@
       "lastUpdated": "2026-07-11T07:01:49.000Z",
       "sourceCheckedAt": "2026-07-11T12:29:47.856Z",
       "lastVerifiedAt": "2026-07-11T12:29:47.856Z",
-      "intelligenceGeneratedAt": "2026-07-11T12:29:50.017Z",
+      "intelligenceGeneratedAt": "2026-07-11T14:02:08.697Z",
       "expiresAt": "2026-07-11T19:01:49.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "Public transport journeys may be cancelled or delayed.",
       "recommendedAction": "Confirm service status and keep an alternative journey available.",
       "affectedArea": "",
@@ -212,7 +212,7 @@
       "lastUpdated": "2026-07-11T02:51:32.000Z",
       "sourceCheckedAt": "2026-07-11T12:29:47.856Z",
       "lastVerifiedAt": "2026-07-11T12:29:47.856Z",
-      "intelligenceGeneratedAt": "2026-07-11T12:29:50.017Z",
+      "intelligenceGeneratedAt": "2026-07-11T14:02:08.697Z",
       "expiresAt": "2026-07-11T14:51:32.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -264,9 +264,581 @@
     }
   },
   "environmentalContext": {
-    "riverIntelligence": [],
+    "riverIntelligence": [
+      {
+        "id": "rtdas-river-koregaon-bhima",
+        "kind": "river_gauge",
+        "station": "Koregaon Bhima",
+        "river": "Bhima River",
+        "position": {
+          "lat": 18.6439,
+          "lon": 74.0542
+        },
+        "influenceRadiusKm": 3,
+        "status": "normal",
+        "trend": "steady",
+        "level": 537.93,
+        "alertLevel": 547,
+        "dangerLevel": 548,
+        "dischargeCumecs": 9.43,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Koregaon Bhima"
+        ],
+        "talukas": [
+          "shirur"
+        ],
+        "bridges": [],
+        "travelSensitivity": "medium",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Koregaon Bhima river level is normal.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T19:15:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Koregaon Bhima on the Bhima River is below its alert level.",
+        "recommendedAction": "Continue monitoring official river information."
+      },
+      {
+        "id": "rtdas-river-paragaon",
+        "kind": "river_gauge",
+        "station": "Paragaon",
+        "river": "Bhima River",
+        "position": {
+          "lat": 18.5694,
+          "lon": 74.3789
+        },
+        "influenceRadiusKm": 3,
+        "status": "normal",
+        "trend": "steady",
+        "level": 509.16,
+        "alertLevel": 515,
+        "dangerLevel": 517,
+        "dischargeCumecs": 278.5,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Pargaon",
+          "Daund"
+        ],
+        "talukas": [
+          "daund"
+        ],
+        "bridges": [],
+        "travelSensitivity": "medium",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Paragaon river level is normal.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T19:00:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Paragaon on the Bhima River is below its alert level.",
+        "recommendedAction": "Continue monitoring official river information."
+      },
+      {
+        "id": "rtdas-river-daund",
+        "kind": "river_gauge",
+        "station": "Daund",
+        "river": "Bhima River",
+        "position": {
+          "lat": 18.4794,
+          "lon": 74.5753
+        },
+        "influenceRadiusKm": 3,
+        "status": "normal",
+        "trend": "steady",
+        "level": 498.73,
+        "alertLevel": 504,
+        "dangerLevel": 505,
+        "dischargeCumecs": 257.58,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Daund"
+        ],
+        "talukas": [
+          "daund"
+        ],
+        "bridges": [],
+        "travelSensitivity": "medium",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Daund river level is normal.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T18:30:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Daund on the Bhima River is below its alert level.",
+        "recommendedAction": "Continue monitoring official river information."
+      },
+      {
+        "id": "rtdas-river-umbre-kasurdi",
+        "kind": "river_gauge",
+        "station": "Umbre Kasurdi",
+        "river": "Nira River",
+        "position": {
+          "lat": 18.2175,
+          "lon": 73.9008
+        },
+        "influenceRadiusKm": 3,
+        "status": "normal",
+        "trend": "steady",
+        "level": 581.04,
+        "alertLevel": 585.5,
+        "dangerLevel": 585.89,
+        "dischargeCumecs": 3.13,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Bhor"
+        ],
+        "talukas": [
+          "bhor"
+        ],
+        "bridges": [],
+        "travelSensitivity": "medium",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Umbre Kasurdi river level is normal.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T19:15:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Umbre Kasurdi on the Nira River is below its alert level.",
+        "recommendedAction": "Continue monitoring official river information."
+      },
+      {
+        "id": "rtdas-river-dattawadi",
+        "kind": "river_gauge",
+        "station": "Dattawadi",
+        "river": "Mutha River",
+        "position": {
+          "lat": 18.5044,
+          "lon": 73.8364
+        },
+        "influenceRadiusKm": 3,
+        "status": "normal",
+        "trend": "steady",
+        "level": 542.61,
+        "alertLevel": 545,
+        "dangerLevel": 546.3,
+        "dischargeCumecs": 13.98,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Dattawadi",
+          "Sinhagad Road",
+          "Deccan"
+        ],
+        "talukas": [
+          "pune_city",
+          "haveli"
+        ],
+        "bridges": [],
+        "travelSensitivity": "medium",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Dattawadi river level is normal.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T19:30:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Dattawadi on the Mutha River is below its alert level.",
+        "recommendedAction": "Continue monitoring official river information."
+      },
+      {
+        "id": "rtdas-river-kalyani-nagar-bridge",
+        "kind": "river_gauge",
+        "station": "Kalyani nagar Bridge",
+        "river": "Mula-Mutha River",
+        "position": {
+          "lat": 18.5408,
+          "lon": 73.9044
+        },
+        "influenceRadiusKm": 3,
+        "status": "normal",
+        "trend": "steady",
+        "level": 534.22,
+        "alertLevel": 541.5,
+        "dangerLevel": 542.5,
+        "dischargeCumecs": 40.43,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Kalyani Nagar",
+          "Yerawada",
+          "Sangamwadi"
+        ],
+        "talukas": [
+          "pune_city",
+          "haveli"
+        ],
+        "bridges": [],
+        "travelSensitivity": "medium",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Kalyani nagar Bridge river level is normal.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T19:15:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Kalyani nagar Bridge on the Mula-Mutha River is below its alert level.",
+        "recommendedAction": "Continue monitoring official river information."
+      },
+      {
+        "id": "rtdas-river-pimple-gurav",
+        "kind": "river_gauge",
+        "station": "Pimple Gurav",
+        "river": "Pavana River",
+        "position": {
+          "lat": 18.6047,
+          "lon": 73.8133
+        },
+        "influenceRadiusKm": 3,
+        "status": "normal",
+        "trend": "steady",
+        "level": 550.06,
+        "alertLevel": 556,
+        "dangerLevel": 557,
+        "dischargeCumecs": 60.71,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Pimple Gurav",
+          "Pimpri",
+          "Sangvi"
+        ],
+        "talukas": [
+          "pcmc",
+          "haveli"
+        ],
+        "bridges": [],
+        "travelSensitivity": "medium",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Pimple Gurav river level is normal.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T19:30:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Pimple Gurav on the Pavana River is below its alert level.",
+        "recommendedAction": "Continue monitoring official river information."
+      },
+      {
+        "id": "rtdas-reservoir-veer",
+        "kind": "reservoir",
+        "dam": "veer",
+        "damLabel": "Veer Dam",
+        "river": "Nira River",
+        "status": "normal",
+        "trend": "unknown",
+        "storagePercent": 100,
+        "reservoirLevel": 579.85,
+        "dischargeCumecs": 0,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Purandar",
+          "Baramati"
+        ],
+        "talukas": [
+          "purandar",
+          "baramati"
+        ],
+        "bridges": [],
+        "travelSensitivity": "medium",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Veer Dam: 100% storage.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T19:00:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Veer Dam has 100% storage. Storage alone is not treated as a flood warning.",
+        "recommendedAction": "Monitor official discharge and downstream warnings."
+      },
+      {
+        "id": "rtdas-reservoir-bhatghar",
+        "kind": "reservoir",
+        "dam": "bhatghar",
+        "damLabel": "Bhatghar Dam",
+        "river": "Nira River",
+        "status": "normal",
+        "trend": "unknown",
+        "storagePercent": 51.48,
+        "reservoirLevel": 612.28,
+        "dischargeCumecs": null,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Bhor"
+        ],
+        "talukas": [
+          "bhor"
+        ],
+        "bridges": [],
+        "travelSensitivity": "low",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Bhatghar Dam: 51.48% storage.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T19:00:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Bhatghar Dam has 51.48% storage. Storage alone is not treated as a flood warning.",
+        "recommendedAction": "Monitor official discharge and downstream warnings."
+      },
+      {
+        "id": "rtdas-reservoir-khadakwasla",
+        "kind": "reservoir",
+        "dam": "khadakwasla",
+        "damLabel": "Khadakwasla Dam",
+        "river": "Mutha River",
+        "status": "normal",
+        "trend": "unknown",
+        "storagePercent": 100,
+        "reservoirLevel": 582.56,
+        "dischargeCumecs": 0,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Sinhagad Road",
+          "Dhayari",
+          "Vitthalwadi",
+          "Erandwane",
+          "Deccan",
+          "Sangamwadi"
+        ],
+        "talukas": [
+          "haveli",
+          "pune_city"
+        ],
+        "bridges": [
+          "Rajaram Bridge",
+          "Sangam Bridge"
+        ],
+        "travelSensitivity": "high",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Khadakwasla Dam: 100% storage.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T19:00:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Khadakwasla Dam has 100% storage. Storage alone is not treated as a flood warning.",
+        "recommendedAction": "Monitor official discharge and downstream warnings."
+      },
+      {
+        "id": "rtdas-reservoir-temghar",
+        "kind": "reservoir",
+        "dam": "temghar",
+        "damLabel": "Temghar Dam",
+        "river": "Mutha River",
+        "status": "normal",
+        "trend": "unknown",
+        "storagePercent": 38.57,
+        "reservoirLevel": 689.22,
+        "dischargeCumecs": 0,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Lavasa",
+          "Mulshi",
+          "Khadakwasla"
+        ],
+        "talukas": [
+          "mulshi",
+          "velhe"
+        ],
+        "bridges": [],
+        "travelSensitivity": "medium",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Temghar Dam: 38.57% storage.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T19:15:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Temghar Dam has 38.57% storage. Storage alone is not treated as a flood warning.",
+        "recommendedAction": "Monitor official discharge and downstream warnings."
+      },
+      {
+        "id": "rtdas-reservoir-mulshi",
+        "kind": "reservoir",
+        "dam": "mulshi",
+        "damLabel": "Mulshi Dam",
+        "river": "Mula River",
+        "status": "normal",
+        "trend": "unknown",
+        "storagePercent": 70.65,
+        "reservoirLevel": 602.88,
+        "dischargeCumecs": 0,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Paud",
+          "Pirangut",
+          "Mulshi"
+        ],
+        "talukas": [
+          "mulshi"
+        ],
+        "bridges": [],
+        "travelSensitivity": "medium",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Mulshi Dam: 70.65% storage.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T19:15:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Mulshi Dam has 70.65% storage. Storage alone is not treated as a flood warning.",
+        "recommendedAction": "Monitor official discharge and downstream warnings."
+      },
+      {
+        "id": "rtdas-reservoir-pawna",
+        "kind": "reservoir",
+        "dam": "pawna",
+        "damLabel": "Pawna Dam",
+        "river": "Pavana River",
+        "status": "normal",
+        "trend": "unknown",
+        "storagePercent": 75.41,
+        "reservoirLevel": 610.48,
+        "dischargeCumecs": 0,
+        "rsi": 10,
+        "severity": "advisory",
+        "downstreamLocalities": [
+          "Ravet",
+          "Pimpri",
+          "Chinchwad"
+        ],
+        "talukas": [
+          "maval",
+          "pcmc"
+        ],
+        "bridges": [],
+        "travelSensitivity": "medium",
+        "timeline": {
+          "state": "monitoring",
+          "note": "Pawna Dam: 75.41% storage.",
+          "updatedAt": "2026-07-11T14:02:08.788Z"
+        },
+        "evidence": [
+          {
+            "source": "Maharashtra WRD RTDAS",
+            "sourceTrust": "A",
+            "type": "official",
+            "observedAt": "2026-07-11T19:15:00+05:30",
+            "link": "",
+            "note": ""
+          }
+        ],
+        "impact": "Pawna Dam has 75.41% storage. Storage alone is not treated as a flood warning.",
+        "recommendedAction": "Monitor official discharge and downstream warnings."
+      }
+    ],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-11T12:29:50.073Z",
+      "generatedAt": "2026-07-11T14:02:08.790Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -279,7 +851,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-11T12:29:50.073Z",
+      "generatedAt": "2026-07-11T14:02:08.789Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -360,7 +932,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-11T12:29:50.073Z",
+      "generatedAt": "2026-07-11T14:02:08.790Z",
       "mode": "on-demand",
       "relevantDomains": [],
       "infrastructure": {
@@ -403,36 +975,33 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-11T12:29:50.124Z",
+        "generatedAt": "2026-07-11T14:02:08.874Z",
         "bestRoute": {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
+          "id": "kharadi-hinjawadi-pashan",
+          "label": "Kharadi to Hinjawadi via Pashan",
           "fromAliases": [
             "Kharadi",
-            "EON",
-            "World Trade Center"
+            "EON"
           ],
           "toAliases": [
             "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
+            "Hinjewadi"
           ],
           "via": [
             "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
+            "Yerwada",
+            "Aundh",
+            "Pashan",
+            "Mahalunge",
             "Hinjawadi"
           ],
           "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
+            "Pashan Road",
             "IT Corridor"
           ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "distanceKm": 36,
+          "baseTimeMin": 72,
+          "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
             "score": 70,
@@ -443,60 +1012,14 @@
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 80,
+          "estimatedTimeMin": 87,
           "estimatedDelayMin": 15,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
-          {
-            "id": "kharadi-hinjawadi-nh48",
-            "label": "Kharadi to Hinjawadi via NH48",
-            "fromAliases": [
-              "Kharadi",
-              "EON",
-              "World Trade Center"
-            ],
-            "toAliases": [
-              "Hinjawadi",
-              "Hinjewadi",
-              "Rajiv Gandhi Infotech Park"
-            ],
-            "via": [
-              "Kharadi",
-              "Viman Nagar",
-              "Shivajinagar",
-              "Baner",
-              "Wakad",
-              "Hinjawadi"
-            ],
-            "operationalZones": [
-              "Pune-Ahmednagar Highway",
-              "NH48",
-              "IT Corridor"
-            ],
-            "distanceKm": 33,
-            "baseTimeMin": 65,
-            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
-              "reasons": [
-                "Low visibility may make driving unsafe."
-              ],
-              "penalties": []
-            },
-            "estimatedTimeMin": 80,
-            "estimatedDelayMin": 15,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-            "rank": 1,
-            "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
-          },
           {
             "id": "kharadi-hinjawadi-pashan",
             "label": "Kharadi to Hinjawadi via Pashan",
@@ -536,9 +1059,63 @@
             "estimatedTimeMin": 87,
             "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          },
+          {
+            "id": "kharadi-hinjawadi-nh48",
+            "label": "Kharadi to Hinjawadi via NH48",
+            "fromAliases": [
+              "Kharadi",
+              "EON",
+              "World Trade Center"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi",
+              "Rajiv Gandhi Infotech Park"
+            ],
+            "via": [
+              "Kharadi",
+              "Viman Nagar",
+              "Shivajinagar",
+              "Baner",
+              "Wakad",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pune-Ahmednagar Highway",
+              "NH48",
+              "IT Corridor"
+            ],
+            "distanceKm": 33,
+            "baseTimeMin": 65,
+            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 45,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
+              "reasons": [
+                "dam_release may cause delays or safety concerns.",
+                "Low visibility may make driving unsafe."
+              ],
+              "penalties": [
+                {
+                  "eventId": "rtdas-river-kalyani-nagar-bridge",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "dam_release"
+                }
+              ]
+            },
+            "estimatedTimeMin": 90,
+            "estimatedDelayMin": 25,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (45/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: dam_release may cause delays or safety concerns."
           }
         ]
       },
@@ -547,7 +1124,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-11T12:29:50.124Z",
+        "generatedAt": "2026-07-11T14:02:08.874Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -674,7 +1251,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-11T12:29:50.124Z",
+        "generatedAt": "2026-07-11T14:02:08.874Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -703,20 +1280,103 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 0,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
-              "Low visibility may make driving unsafe."
+              "dam_release may cause delays or safety concerns.",
+              "Veer Dam may cause delays or safety concerns.",
+              "Bhatghar Dam may cause delays or safety concerns.",
+              "Khadakwasla Dam may cause delays or safety concerns.",
+              "Temghar Dam may cause delays or safety concerns."
             ],
-            "penalties": []
+            "penalties": [
+              {
+                "eventId": "rtdas-river-koregaon-bhima",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-river-paragaon",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-river-daund",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-river-umbre-kasurdi",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-river-dattawadi",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-river-kalyani-nagar-bridge",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-river-pimple-gurav",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-reservoir-veer",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Veer Dam"
+              },
+              {
+                "eventId": "rtdas-reservoir-bhatghar",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Bhatghar Dam"
+              },
+              {
+                "eventId": "rtdas-reservoir-khadakwasla",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Khadakwasla Dam"
+              },
+              {
+                "eventId": "rtdas-reservoir-temghar",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Temghar Dam"
+              },
+              {
+                "eventId": "rtdas-reservoir-mulshi",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Mulshi Dam"
+              },
+              {
+                "eventId": "rtdas-reservoir-pawna",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Pawna Dam"
+              }
+            ]
           },
-          "estimatedTimeMin": 50,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: dam_release may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -747,20 +1407,103 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 0,
+              "label": "Avoid if Possible",
+              "recommendation": "Avoid this route if possible unless travel is essential.",
               "reasons": [
-                "Low visibility may make driving unsafe."
+                "dam_release may cause delays or safety concerns.",
+                "Veer Dam may cause delays or safety concerns.",
+                "Bhatghar Dam may cause delays or safety concerns.",
+                "Khadakwasla Dam may cause delays or safety concerns.",
+                "Temghar Dam may cause delays or safety concerns."
               ],
-              "penalties": []
+              "penalties": [
+                {
+                  "eventId": "rtdas-river-koregaon-bhima",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "dam_release"
+                },
+                {
+                  "eventId": "rtdas-river-paragaon",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "dam_release"
+                },
+                {
+                  "eventId": "rtdas-river-daund",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "dam_release"
+                },
+                {
+                  "eventId": "rtdas-river-umbre-kasurdi",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "dam_release"
+                },
+                {
+                  "eventId": "rtdas-river-dattawadi",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "dam_release"
+                },
+                {
+                  "eventId": "rtdas-river-kalyani-nagar-bridge",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "dam_release"
+                },
+                {
+                  "eventId": "rtdas-river-pimple-gurav",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "dam_release"
+                },
+                {
+                  "eventId": "rtdas-reservoir-veer",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "Veer Dam"
+                },
+                {
+                  "eventId": "rtdas-reservoir-bhatghar",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "Bhatghar Dam"
+                },
+                {
+                  "eventId": "rtdas-reservoir-khadakwasla",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "Khadakwasla Dam"
+                },
+                {
+                  "eventId": "rtdas-reservoir-temghar",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "Temghar Dam"
+                },
+                {
+                  "eventId": "rtdas-reservoir-mulshi",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "Mulshi Dam"
+                },
+                {
+                  "eventId": "rtdas-reservoir-pawna",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "Pawna Dam"
+                }
+              ]
             },
-            "estimatedTimeMin": 50,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 80,
+            "estimatedDelayMin": 45,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: dam_release may cause delays or safety concerns."
           }
         ]
       }

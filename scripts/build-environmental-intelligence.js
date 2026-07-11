@@ -35,9 +35,9 @@ intelligence.situation = { ...(intelligence.situation || {}), snapshot: story, w
 intelligence.environmentalContext = { riverIntelligence, seasonalIntelligence, geographicIntelligence, criticalInfrastructure };
 await writeJson("data/intelligence.json", intelligence);
 const health = await readJson("data/source-health.json", { schemaVersion: "6.1.0", sources: [] });
-const riverHealth = { id: "river_dam_feeds", name: "River and dam sources", type: "river", ...riverSource };
+const riverHealth = { id: "maharashtra_rtdas", name: "Maharashtra WRD River & Dam RTDAS", type: "river", ...riverSource };
 health.schemaVersion = "6.1.0";
 health.generatedAt = generatedAt;
-health.sources = [...(health.sources || []).filter(item => item.id !== riverHealth.id), riverHealth];
+health.sources = [...(health.sources || []).filter(item => ![riverHealth.id, "river_dam_feeds"].includes(item.id)), riverHealth];
 await writeJson("data/source-health.json", health);
 log("Environmental Intelligence build completed.", { weatherRegions: Object.keys(weatherIntelligence.regions || {}).length, riverEvents: riverIntelligence.length });
