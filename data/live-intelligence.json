@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T10:03:55.691Z",
+  "generatedAt": "2026-07-11T11:19:44.623Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T10:03:51.735Z",
-        "lastSuccessfulAt": "2026-07-11T10:03:51.735Z",
+        "sourceCheckedAt": "2026-07-11T11:19:41.721Z",
+        "lastSuccessfulAt": "2026-07-11T11:19:41.721Z",
         "error": null
       },
       {
@@ -25,16 +25,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T10:03:52.498Z",
-        "lastSuccessfulAt": "2026-07-11T10:03:52.498Z",
+        "sourceCheckedAt": "2026-07-11T11:19:42.483Z",
+        "lastSuccessfulAt": "2026-07-11T11:19:42.483Z",
         "error": null
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T10:03:52.498Z",
-        "lastSuccessfulAt": "2026-07-11T10:03:52.498Z",
+        "sourceCheckedAt": "2026-07-11T11:19:42.483Z",
+        "lastSuccessfulAt": "2026-07-11T11:19:42.483Z",
         "error": null,
         "etag": null,
         "type": "alerts"
@@ -43,8 +43,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T10:03:52.498Z",
-        "lastSuccessfulAt": "2026-07-11T10:03:52.498Z",
+        "sourceCheckedAt": "2026-07-11T11:19:42.483Z",
+        "lastSuccessfulAt": "2026-07-11T11:19:42.483Z",
         "error": null,
         "etag": "W/\"8674-1783606872394\"",
         "type": "alerts"
@@ -53,8 +53,8 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T10:03:52.498Z",
-        "lastSuccessfulAt": "2026-07-11T10:03:52.498Z",
+        "sourceCheckedAt": "2026-07-11T11:19:42.483Z",
+        "lastSuccessfulAt": "2026-07-11T11:19:42.483Z",
         "error": null,
         "etag": null,
         "type": "incidents"
@@ -63,8 +63,8 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T10:03:52.498Z",
-        "lastSuccessfulAt": "2026-07-11T10:03:52.498Z",
+        "sourceCheckedAt": "2026-07-11T11:19:42.483Z",
+        "lastSuccessfulAt": "2026-07-11T11:19:42.483Z",
         "error": null,
         "etag": null,
         "type": "incidents"
@@ -238,7 +238,7 @@
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 8,
     "alertsAvailable": 0,
-    "incidentsAvailable": 3,
+    "incidentsAvailable": 2,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
@@ -251,15 +251,6 @@
       "source": "Indian Express Pune",
       "trust": "B",
       "updatedAt": "2026-07-11T07:01:49.000Z"
-    },
-    {
-      "id": "landslide-developing-lonavala-landslides-central-railway-cancels-30-trains-till-july-17-de",
-      "title": "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit",
-      "status": "developing",
-      "confirmation": "Awaiting official confirmation",
-      "source": "Indian Express Pune",
-      "trust": "B",
-      "updatedAt": "2026-07-10T10:51:39.000Z"
     },
     {
       "id": "transport-disruption-developing-train-cancellations-boost-msrtc-bus-services-between-pune-",
