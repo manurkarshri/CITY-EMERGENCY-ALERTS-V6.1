@@ -1,10 +1,10 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T21:53:46.478Z",
+  "generatedAt": "2026-07-11T22:53:21.009Z",
   "weatherSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-11T21:53:42.005Z",
-    "lastSuccessfulAt": "2026-07-11T21:53:42.005Z",
+    "sourceCheckedAt": "2026-07-11T22:53:16.227Z",
+    "lastSuccessfulAt": "2026-07-11T22:53:16.227Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
@@ -14,12 +14,12 @@
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-11T21:53:45.494Z",
-    "lastSuccessfulAt": "2026-07-11T21:53:45.494Z",
+    "sourceCheckedAt": "2026-07-11T22:53:19.959Z",
+    "lastSuccessfulAt": "2026-07-11T22:53:19.959Z",
     "error": null
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-07-11T21:53:46.475Z",
+    "generatedAt": "2026-07-11T22:53:21.007Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -27,15 +27,15 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-11T21:53:42.005Z",
-        "observedAt": "2026-07-12T03:15:00+05:30",
-        "temp": 22.9,
+        "sourceCheckedAt": "2026-07-11T22:53:16.227Z",
+        "observedAt": "2026-07-12T04:15:00+05:30",
+        "temp": 22.7,
         "currentRain": 0,
         "rain6h": 0,
         "precipitationProbability": 0,
-        "wind": 39.6,
-        "gust": 39.6,
-        "humidity": 87,
+        "wind": 35.6,
+        "gust": 35.6,
+        "humidity": 89,
         "visibility": 15.4,
         "weatherCode": 2,
         "rainRisk": "Minimal",
@@ -53,17 +53,17 @@
         "longitude": 73.76471,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-11T21:53:42.005Z",
-        "observedAt": "2026-07-12T03:15:00+05:30",
-        "temp": 23,
+        "sourceCheckedAt": "2026-07-11T22:53:16.227Z",
+        "observedAt": "2026-07-12T04:15:00+05:30",
+        "temp": 22.9,
         "currentRain": 0,
         "rain6h": 0,
-        "precipitationProbability": 1,
-        "wind": 36,
-        "gust": 36,
-        "humidity": 89,
+        "precipitationProbability": 0,
+        "wind": 32,
+        "gust": 32,
+        "humidity": 90,
         "visibility": 3.4,
-        "weatherCode": 2,
+        "weatherCode": 3,
         "rainRisk": "Minimal",
         "windRisk": "Low",
         "visibilityRisk": "Low",
@@ -79,15 +79,15 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-11T21:53:42.005Z",
-        "observedAt": "2026-07-12T03:15:00+05:30",
-        "temp": 22.9,
+        "sourceCheckedAt": "2026-07-11T22:53:16.227Z",
+        "observedAt": "2026-07-12T04:15:00+05:30",
+        "temp": 22.7,
         "currentRain": 0,
         "rain6h": 0,
         "precipitationProbability": 0,
-        "wind": 39.6,
-        "gust": 39.6,
-        "humidity": 87,
+        "wind": 35.6,
+        "gust": 35.6,
+        "humidity": 89,
         "visibility": 15.4,
         "weatherCode": 2,
         "rainRisk": "Minimal",
@@ -105,14 +105,14 @@
         "longitude": 73.51617,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-11T21:53:42.005Z",
-        "observedAt": "2026-07-12T03:15:00+05:30",
+        "sourceCheckedAt": "2026-07-11T22:53:16.227Z",
+        "observedAt": "2026-07-12T04:15:00+05:30",
         "temp": 22.2,
         "currentRain": 0.1,
         "rain6h": 2,
         "precipitationProbability": 100,
-        "wind": 42.1,
-        "gust": 42.1,
+        "wind": 40,
+        "gust": 40,
         "humidity": 100,
         "visibility": 0.1,
         "weatherCode": 51,
@@ -131,14 +131,14 @@
         "longitude": 73.451324,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-11T21:53:42.005Z",
-        "observedAt": "2026-07-12T03:15:00+05:30",
+        "sourceCheckedAt": "2026-07-11T22:53:16.227Z",
+        "observedAt": "2026-07-12T04:15:00+05:30",
         "temp": 22.1,
         "currentRain": 0,
-        "rain6h": 2.2,
+        "rain6h": 2.5,
         "precipitationProbability": 100,
-        "wind": 38.5,
-        "gust": 38.5,
+        "wind": 36.7,
+        "gust": 36.7,
         "humidity": 100,
         "visibility": 0.1,
         "weatherCode": 51,
@@ -183,14 +183,14 @@
       "timeline": {
         "state": "monitoring",
         "note": "Koregaon Bhima river level is normal.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
+        "updatedAt": "2026-07-11T22:53:21.007Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T03:15:00+05:30",
+          "observedAt": "2026-07-12T04:00:00+05:30",
           "link": "",
           "note": ""
         }
@@ -210,10 +210,10 @@
       "influenceRadiusKm": 3,
       "status": "normal",
       "trend": "steady",
-      "level": 509.05,
+      "level": 509.04,
       "alertLevel": 515,
       "dangerLevel": 517,
-      "dischargeCumecs": 246.78,
+      "dischargeCumecs": 243.98,
       "rsi": 10,
       "severity": "advisory",
       "downstreamLocalities": [
@@ -228,14 +228,14 @@
       "timeline": {
         "state": "monitoring",
         "note": "Paragaon river level is normal.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
+        "updatedAt": "2026-07-11T22:53:21.007Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T03:00:00+05:30",
+          "observedAt": "2026-07-12T04:00:00+05:30",
           "link": "",
           "note": ""
         }
@@ -272,14 +272,14 @@
       "timeline": {
         "state": "monitoring",
         "note": "Daund river level is normal.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
+        "updatedAt": "2026-07-11T22:53:21.007Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T03:15:00+05:30",
+          "observedAt": "2026-07-12T04:15:00+05:30",
           "link": "",
           "note": ""
         }
@@ -316,14 +316,14 @@
       "timeline": {
         "state": "monitoring",
         "note": "Umbre Kasurdi river level is normal.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
+        "updatedAt": "2026-07-11T22:53:21.007Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T03:15:00+05:30",
+          "observedAt": "2026-07-12T04:15:00+05:30",
           "link": "",
           "note": ""
         }
@@ -343,10 +343,10 @@
       "influenceRadiusKm": 3,
       "status": "normal",
       "trend": "steady",
-      "level": 542.58,
+      "level": 542.56,
       "alertLevel": 545,
       "dangerLevel": 546.3,
-      "dischargeCumecs": 11.95,
+      "dischargeCumecs": 10.67,
       "rsi": 10,
       "severity": "advisory",
       "downstreamLocalities": [
@@ -363,14 +363,14 @@
       "timeline": {
         "state": "monitoring",
         "note": "Dattawadi river level is normal.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
+        "updatedAt": "2026-07-11T22:53:21.007Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T03:15:00+05:30",
+          "observedAt": "2026-07-12T04:15:00+05:30",
           "link": "",
           "note": ""
         }
@@ -390,10 +390,10 @@
       "influenceRadiusKm": 3,
       "status": "normal",
       "trend": "steady",
-      "level": 534.07,
+      "level": 534.03,
       "alertLevel": 541.5,
       "dangerLevel": 542.5,
-      "dischargeCumecs": 32.15,
+      "dischargeCumecs": 29.86,
       "rsi": 10,
       "severity": "advisory",
       "downstreamLocalities": [
@@ -410,14 +410,14 @@
       "timeline": {
         "state": "monitoring",
         "note": "Kalyani nagar Bridge river level is normal.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
+        "updatedAt": "2026-07-11T22:53:21.007Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T03:15:00+05:30",
+          "observedAt": "2026-07-12T04:15:00+05:30",
           "link": "",
           "note": ""
         }
@@ -457,14 +457,14 @@
       "timeline": {
         "state": "monitoring",
         "note": "Pimple Gurav river level is normal.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
+        "updatedAt": "2026-07-11T22:53:21.007Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T03:15:00+05:30",
+          "observedAt": "2026-07-12T04:15:00+05:30",
           "link": "",
           "note": ""
         }
@@ -481,7 +481,7 @@
       "status": "normal",
       "trend": "unknown",
       "storagePercent": 100,
-      "reservoirLevel": 579.87,
+      "reservoirLevel": 579.85,
       "dischargeCumecs": 0,
       "rsi": 10,
       "severity": "advisory",
@@ -498,14 +498,14 @@
       "timeline": {
         "state": "monitoring",
         "note": "Veer Dam: 100% storage.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
+        "updatedAt": "2026-07-11T22:53:21.007Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T03:00:00+05:30",
+          "observedAt": "2026-07-12T04:00:00+05:30",
           "link": "",
           "note": ""
         }
@@ -521,8 +521,8 @@
       "river": "Nira River",
       "status": "normal",
       "trend": "unknown",
-      "storagePercent": 51.64,
-      "reservoirLevel": 612.32,
+      "storagePercent": 51.59,
+      "reservoirLevel": 612.31,
       "dischargeCumecs": null,
       "rsi": 10,
       "severity": "advisory",
@@ -536,20 +536,20 @@
       "travelSensitivity": "low",
       "timeline": {
         "state": "monitoring",
-        "note": "Bhatghar Dam: 51.64% storage.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
+        "note": "Bhatghar Dam: 51.59% storage.",
+        "updatedAt": "2026-07-11T22:53:21.007Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T03:00:00+05:30",
+          "observedAt": "2026-07-12T04:00:00+05:30",
           "link": "",
           "note": ""
         }
       ],
-      "impact": "Bhatghar Dam has 51.64% storage. Storage alone is not treated as a flood warning.",
+      "impact": "Bhatghar Dam has 51.59% storage. Storage alone is not treated as a flood warning.",
       "recommendedAction": "Monitor official discharge and downstream warnings."
     },
     {
@@ -561,7 +561,7 @@
       "status": "normal",
       "trend": "unknown",
       "storagePercent": 100,
-      "reservoirLevel": 582.52,
+      "reservoirLevel": 582.55,
       "dischargeCumecs": 0,
       "rsi": 10,
       "severity": "advisory",
@@ -585,61 +585,19 @@
       "timeline": {
         "state": "monitoring",
         "note": "Khadakwasla Dam: 100% storage.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
+        "updatedAt": "2026-07-11T22:53:21.007Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T03:00:00+05:30",
+          "observedAt": "2026-07-12T04:00:00+05:30",
           "link": "",
           "note": ""
         }
       ],
       "impact": "Khadakwasla Dam has 100% storage. Storage alone is not treated as a flood warning.",
-      "recommendedAction": "Monitor official discharge and downstream warnings."
-    },
-    {
-      "id": "rtdas-reservoir-temghar",
-      "kind": "reservoir",
-      "dam": "temghar",
-      "damLabel": "Temghar Dam",
-      "river": "Mutha River",
-      "status": "normal",
-      "trend": "unknown",
-      "storagePercent": 38.74,
-      "reservoirLevel": 689.29,
-      "dischargeCumecs": 0,
-      "rsi": 10,
-      "severity": "advisory",
-      "downstreamLocalities": [
-        "Lavasa",
-        "Mulshi",
-        "Khadakwasla"
-      ],
-      "talukas": [
-        "mulshi",
-        "velhe"
-      ],
-      "bridges": [],
-      "travelSensitivity": "medium",
-      "timeline": {
-        "state": "monitoring",
-        "note": "Temghar Dam: 38.74% storage.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
-      },
-      "evidence": [
-        {
-          "source": "Maharashtra WRD RTDAS",
-          "sourceTrust": "A",
-          "type": "official",
-          "observedAt": "2026-07-12T00:45:00+05:30",
-          "link": "",
-          "note": ""
-        }
-      ],
-      "impact": "Temghar Dam has 38.74% storage. Storage alone is not treated as a flood warning.",
       "recommendedAction": "Monitor official discharge and downstream warnings."
     },
     {
@@ -650,8 +608,8 @@
       "river": "Mula River",
       "status": "normal",
       "trend": "unknown",
-      "storagePercent": 70.78,
-      "reservoirLevel": 602.9,
+      "storagePercent": 70.72,
+      "reservoirLevel": 602.89,
       "dischargeCumecs": 0,
       "rsi": 10,
       "severity": "advisory",
@@ -667,20 +625,20 @@
       "travelSensitivity": "medium",
       "timeline": {
         "state": "monitoring",
-        "note": "Mulshi Dam: 70.78% storage.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
+        "note": "Mulshi Dam: 70.72% storage.",
+        "updatedAt": "2026-07-11T22:53:21.007Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T03:15:00+05:30",
+          "observedAt": "2026-07-12T04:15:00+05:30",
           "link": "",
           "note": ""
         }
       ],
-      "impact": "Mulshi Dam has 70.78% storage. Storage alone is not treated as a flood warning.",
+      "impact": "Mulshi Dam has 70.72% storage. Storage alone is not treated as a flood warning.",
       "recommendedAction": "Monitor official discharge and downstream warnings."
     },
     {
@@ -710,14 +668,14 @@
       "timeline": {
         "state": "monitoring",
         "note": "Pawna Dam: 75.5% storage.",
-        "updatedAt": "2026-07-11T21:53:46.476Z"
+        "updatedAt": "2026-07-11T22:53:21.007Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T03:15:00+05:30",
+          "observedAt": "2026-07-12T04:15:00+05:30",
           "link": "",
           "note": ""
         }
@@ -727,7 +685,7 @@
     }
   ],
   "seasonalIntelligence": {
-    "generatedAt": "2026-07-11T21:53:46.477Z",
+    "generatedAt": "2026-07-11T22:53:21.008Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -740,7 +698,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-07-11T21:53:46.477Z",
+    "generatedAt": "2026-07-11T22:53:21.008Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -821,11 +779,9 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-07-11T21:53:46.477Z",
+    "generatedAt": "2026-07-11T22:53:21.008Z",
     "mode": "on-demand",
-    "relevantDomains": [
-      "bridges"
-    ],
+    "relevantDomains": [],
     "infrastructure": {
       "highways": [
         "Mumbai-Pune Expressway",
@@ -859,7 +815,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-07-11T21:53:46.477Z",
+    "generatedAt": "2026-07-11T22:53:21.009Z",
     "riskLevel": "Normal",
     "impacts": [],
     "citizenSummary": "No major environmental disruption indicated from current data.",
