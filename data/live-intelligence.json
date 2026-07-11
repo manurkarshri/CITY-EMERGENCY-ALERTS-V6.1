@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T14:43:57.486Z",
+  "generatedAt": "2026-07-11T15:16:44.772Z",
   "status": "current",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T14:04:58.208Z",
-        "lastSuccessfulAt": "2026-07-11T14:04:58.208Z",
+        "sourceCheckedAt": "2026-07-11T15:16:40.224Z",
+        "lastSuccessfulAt": "2026-07-11T15:16:40.224Z",
         "error": null
       },
       {
@@ -25,16 +25,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T14:43:55.587Z",
-        "lastSuccessfulAt": "2026-07-11T14:43:55.587Z",
+        "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
+        "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
         "error": null
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T14:43:55.587Z",
-        "lastSuccessfulAt": "2026-07-11T14:43:55.587Z",
+        "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
+        "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
         "error": null,
         "etag": null,
         "type": "alerts"
@@ -43,8 +43,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T14:43:55.587Z",
-        "lastSuccessfulAt": "2026-07-11T14:43:55.587Z",
+        "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
+        "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
         "error": null,
         "etag": "W/\"8674-1783606872394\"",
         "type": "alerts"
@@ -53,8 +53,8 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T14:43:55.587Z",
-        "lastSuccessfulAt": "2026-07-11T14:43:55.587Z",
+        "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
+        "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
         "error": null,
         "etag": null,
         "type": "incidents"
@@ -63,8 +63,8 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T14:43:55.587Z",
-        "lastSuccessfulAt": "2026-07-11T14:43:55.587Z",
+        "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
+        "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
         "error": null,
         "etag": null,
         "type": "incidents"
@@ -74,8 +74,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-07-11T14:05:01.331Z",
-        "lastSuccessfulAt": "2026-07-11T14:05:01.331Z",
+        "sourceCheckedAt": "2026-07-11T15:16:43.584Z",
+        "lastSuccessfulAt": "2026-07-11T15:16:43.584Z",
         "error": null
       }
     ],
@@ -238,7 +238,7 @@
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 8,
     "alertsAvailable": 0,
-    "incidentsAvailable": 2,
+    "incidentsAvailable": 1,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
@@ -251,15 +251,6 @@
       "source": "Indian Express Pune",
       "trust": "B",
       "updatedAt": "2026-07-11T07:01:49.000Z"
-    },
-    {
-      "id": "transport-disruption-developing-train-cancellations-boost-msrtc-bus-services-between-pune-",
-      "title": "Developing: Train cancellations boost MSRTC bus services between Pune and Mumbai",
-      "status": "developing",
-      "confirmation": "Awaiting official confirmation",
-      "source": "Hindustan Times Pune",
-      "trust": "B",
-      "updatedAt": "2026-07-11T02:51:32.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."

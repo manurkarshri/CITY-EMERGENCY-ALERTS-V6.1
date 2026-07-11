@@ -1,14 +1,14 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T14:43:56.738Z",
+  "generatedAt": "2026-07-11T15:16:44.669Z",
   "sources": [
     {
       "id": "open_meteo",
       "name": "Open-Meteo",
       "type": "weather",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T14:04:58.208Z",
-      "lastSuccessfulAt": "2026-07-11T14:04:58.208Z",
+      "sourceCheckedAt": "2026-07-11T15:16:40.224Z",
+      "lastSuccessfulAt": "2026-07-11T15:16:40.224Z",
       "error": null
     },
     {
@@ -16,16 +16,16 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T14:43:55.587Z",
-      "lastSuccessfulAt": "2026-07-11T14:43:55.587Z",
+      "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
+      "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
       "error": null
     },
     {
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T14:43:55.587Z",
-      "lastSuccessfulAt": "2026-07-11T14:43:55.587Z",
+      "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
+      "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
       "error": null,
       "etag": null,
       "type": "alerts"
@@ -34,8 +34,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T14:43:55.587Z",
-      "lastSuccessfulAt": "2026-07-11T14:43:55.587Z",
+      "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
+      "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
       "error": null,
       "etag": "W/\"8674-1783606872394\"",
       "type": "alerts"
@@ -44,8 +44,8 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T14:43:55.587Z",
-      "lastSuccessfulAt": "2026-07-11T14:43:55.587Z",
+      "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
+      "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
       "error": null,
       "etag": null,
       "type": "incidents"
@@ -54,8 +54,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T14:43:55.587Z",
-      "lastSuccessfulAt": "2026-07-11T14:43:55.587Z",
+      "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
+      "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
       "error": null,
       "etag": null,
       "type": "incidents"
@@ -65,8 +65,8 @@
       "name": "Maharashtra WRD River & Dam RTDAS",
       "type": "river",
       "status": "current",
-      "sourceCheckedAt": "2026-07-11T14:05:01.331Z",
-      "lastSuccessfulAt": "2026-07-11T14:05:01.331Z",
+      "sourceCheckedAt": "2026-07-11T15:16:43.584Z",
+      "lastSuccessfulAt": "2026-07-11T15:16:43.584Z",
       "error": null
     }
   ]
