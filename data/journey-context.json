@@ -1,16 +1,35 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-11T19:52:57.431Z",
+  "generatedAt": "2026-07-11T20:11:50.264Z",
   "routes": [],
   "risks": [
     {
-      "id": "flood-developing-panchgani-case-दारूच्या-नशेत-घरात-डोकावला-अन्-इंदापूरच्या-पर्यटकाचा-पाचगण",
-      "category": "flood",
+      "id": "road-closure-developing-pandharpur-wari-2026-पालखी-प्रस्थान-सोहळ्यानिमित्त-वाहतुकीत-बदल-पु",
+      "category": "road_closure",
       "severity": "watch",
-      "localities": [],
-      "talukas": [],
+      "localities": [
+        "Hadapsar",
+        "Saswad"
+      ],
+      "talukas": [
+        "pune_city",
+        "purandar"
+      ],
       "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
+      "impact": "Route may be blocked or diverted."
+    },
+    {
+      "id": "accident-developing-pune-moshi-building-collapse-पायावर-मोठा-स्लॅब-पत्नीला-मेसेज-शेवटचा-से",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Moshi"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T19:52:57.595Z",
+  "generatedAt": "2026-07-11T20:11:50.446Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,25 +16,25 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T19:52:52.919Z",
-        "lastSuccessfulAt": "2026-07-11T19:52:52.919Z",
+        "sourceCheckedAt": "2026-07-11T20:11:46.091Z",
+        "lastSuccessfulAt": "2026-07-11T20:11:46.091Z",
         "error": null
       },
       {
         "id": "event_feeds",
         "name": "Alert and incident sources",
         "type": "events",
-        "status": "stale",
-        "sourceCheckedAt": "2026-07-11T19:52:53.454Z",
-        "lastSuccessfulAt": "2026-07-11T19:52:53.454Z",
-        "error": "free_news_api: FreeNewsAPI request failed with HTTP 400"
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
+        "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
+        "error": null
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T19:52:53.454Z",
-        "lastSuccessfulAt": "2026-07-11T19:52:53.454Z",
+        "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
+        "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
         "error": null,
         "etag": null,
         "type": "alerts"
@@ -43,8 +43,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T19:52:53.454Z",
-        "lastSuccessfulAt": "2026-07-11T19:52:53.454Z",
+        "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
+        "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
         "error": null,
         "etag": "W/\"8674-1783606872394\"",
         "type": "alerts"
@@ -53,8 +53,8 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T19:52:53.454Z",
-        "lastSuccessfulAt": "2026-07-11T19:52:53.454Z",
+        "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
+        "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
         "error": null,
         "etag": null,
         "type": "incidents"
@@ -63,8 +63,8 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T19:52:53.454Z",
-        "lastSuccessfulAt": "2026-07-11T19:52:53.454Z",
+        "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
+        "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
         "error": null,
         "etag": null,
         "type": "incidents"
@@ -73,8 +73,8 @@
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T19:52:53.454Z",
-        "lastSuccessfulAt": "2026-07-11T19:52:53.454Z",
+        "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
+        "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
         "error": null,
         "etag": null,
         "type": "incidents"
@@ -83,17 +83,17 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-07-11T19:52:53.454Z",
+        "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
         "lastSuccessfulAt": null,
-        "error": "FreeNewsAPI request failed with HTTP 400",
+        "error": "FreeNewsAPI request failed with HTTP 400: {\"error\":\"Search using the 'q' field has been removed.\"}",
         "type": "incidents"
       },
       {
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T19:52:53.454Z",
-        "lastSuccessfulAt": "2026-07-11T19:30:31.664Z",
+        "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
+        "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
         "error": null,
         "etag": null,
         "type": "incidents"
@@ -103,8 +103,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-07-11T19:52:56.325Z",
-        "lastSuccessfulAt": "2026-07-11T19:52:56.325Z",
+        "sourceCheckedAt": "2026-07-11T20:11:49.309Z",
+        "lastSuccessfulAt": "2026-07-11T20:11:49.309Z",
         "error": null
       }
     ],
@@ -267,19 +267,28 @@
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 8,
     "alertsAvailable": 0,
-    "incidentsAvailable": 1,
+    "incidentsAvailable": 2,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
   "developingSituations": [
     {
-      "id": "flood-developing-panchgani-case-दारूच्या-नशेत-घरात-डोकावला-अन्-इंदापूरच्या-पर्यटकाचा-पाचगण",
-      "title": "Developing: Panchgani Case : दारूच्या नशेत घरात डोकावला अन्...; इंदापूरच्या पर्यटकाचा पाचगणीत लाकडी दांडक्याने बेदम मारहाण करत खून; 4 जणांना 14 जुलैपर्यंत पोलिस कोठडी",
+      "id": "road-closure-developing-pandharpur-wari-2026-पालखी-प्रस्थान-सोहळ्यानिमित्त-वाहतुकीत-बदल-पु",
+      "title": "Developing: Pandharpur Wari 2026: पालखी प्रस्थान सोहळ्यानिमित्त वाहतुकीत बदल; पुणे-सोलापूर रस्ता, हडपसर -सासवड रस्ता वा...",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "eSakal Pune",
+      "source": "Lokmat Pune",
       "trust": "B",
-      "updatedAt": "2026-07-11T06:46:16.000Z"
+      "updatedAt": "2026-07-11T07:58:39.000Z"
+    },
+    {
+      "id": "accident-developing-pune-moshi-building-collapse-पायावर-मोठा-स्लॅब-पत्नीला-मेसेज-शेवटचा-से",
+      "title": "Developing: Pune Moshi Building Collapse: पायावर मोठा स्लॅब, पत्नीला मेसेज, शेवटचा सेल्फी अन् मित्रांना वाचवण्याची धडपड, मोशी दुर्घटनेतील थक्क करणारा थरार!",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "ABP News Pune",
+      "trust": "B",
+      "updatedAt": "2026-07-11T07:44:47.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."
