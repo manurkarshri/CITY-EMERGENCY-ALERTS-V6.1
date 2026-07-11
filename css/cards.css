@@ -15,5 +15,8 @@
 .empty{color:var(--muted);text-align:center;padding:20px}
 summary{font-weight:900;cursor:pointer}
 .compact-list{margin:8px 0 0;padding-left:20px}
+.visit-change{border:0;background:transparent;color:var(--text);padding:4px 0;text-align:left;text-decoration:underline;text-decoration-color:var(--border);text-underline-offset:3px}
+.visit-change:hover,.visit-change:focus{color:var(--blue);text-decoration-color:currentColor}
+.event-card:focus{outline:3px solid color-mix(in srgb,var(--blue) 35%,transparent);outline-offset:3px}
 .health-strip{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 .health-chip{background:#f1f3f4;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:800}

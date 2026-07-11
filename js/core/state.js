@@ -18,7 +18,8 @@ export const state = {
   sourceHealth: { sources: [] },
   regions: {},
   talukas: {},
-  localitiesConfig: {}
+  localitiesConfig: {},
+  visitChanges: { firstVisit: true, baselineAt: null, items: [] }
 };
 
 const FILES = {

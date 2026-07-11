@@ -3,7 +3,7 @@ import { escapeHtml, escapeAttr, relativeTime, severityLabel } from "../utils/fo
 export function renderEventList(items, emptyText) {
   if (!items.length) return `<section class="card empty">${escapeHtml(emptyText)}</section>`;
   return items.map(item => `
-    <article class="card event-card ${item.severity || "advisory"}">
+    <article id="event-${escapeAttr(item.id)}" tabindex="-1" class="card event-card ${item.severity || "advisory"}">
       <span class="badge ${item.severity || "advisory"}">${severityLabel(item.severity)}</span>
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.summary || item.impact || "")}</p>

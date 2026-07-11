@@ -1,5 +1,6 @@
 import { state, filteredEvents } from "../core/state.js";
 import { escapeHtml, escapeAttr, relativeTime } from "../utils/format.js";
+import { openTab } from "../core/navigation.js";
 
 export function renderSituation() {
   const panel = document.getElementById("tab-situation");
@@ -43,7 +44,7 @@ export function renderSituation() {
     <section class="card">
       <div class="section-kicker">Updates</div>
       <h2>Since Your Last Visit</h2>
-      <ul class="compact-list">${sinceLastVisit().map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+      ${renderVisitChanges()}
     </section>
 
     <section class="card">
@@ -53,6 +54,7 @@ export function renderSituation() {
       ${renderSourceHealth()}
     </section>
   `;
+  bindVisitChanges(panel);
 }
 
 function renderRiverIntelligence() {
@@ -134,15 +136,20 @@ function renderWeatherFreshness(source, status) {
   return `<p class="small"><strong>Live weather is temporarily unavailable.</strong>${source.sourceCheckedAt ? ` Latest check ${relativeTime(source.sourceCheckedAt)}.` : ""}</p>`;
 }
 
-function sinceLastVisit() {
-  const alerts = filteredEvents(state.alerts).length;
-  const incidents = filteredEvents(state.incidents).length;
-  const rivers = state.environmental?.riverIntelligence?.length || 0;
-  const out = [];
-  if (alerts) out.push(`${alerts} important alert${alerts === 1 ? "" : "s"} active.`);
-  if (incidents) out.push(`${incidents} incident${incidents === 1 ? "" : "s"} available.`);
-  if (rivers) out.push(`${rivers} river or dam intelligence item${rivers === 1 ? "" : "s"} processed.`);
-  return out.length ? out : ["No major change detected in the current intelligence feed."];
+function renderVisitChanges() {
+  const changes = state.visitChanges || { firstVisit: true, items: [] };
+  if (changes.firstVisit) return `<p class="small">This visit establishes your baseline. New, updated or resolved alerts and incidents will appear here next time.</p>`;
+  if (!changes.items.length) return `<p>No major alert or incident changes since your previous visit.</p>`;
+  return `<ul class="compact-list">${changes.items.map(item => {
+    const label = item.change === "new" ? "New" : item.change === "updated" ? "Updated" : "No longer active";
+    if (item.change === "resolved" && item.link) return `<li><strong>${label}:</strong> <a href="${escapeAttr(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></li>`;
+    if (item.change === "resolved") return `<li><strong>${label}:</strong> ${escapeHtml(item.title)}</li>`;
+    return `<li><button type="button" class="visit-change" data-tab="${escapeAttr(item.tab)}" data-event-id="${escapeAttr(item.id)}"><strong>${label}:</strong> ${escapeHtml(item.title)}</button></li>`;
+  }).join("")}</ul>`;
+}
+
+function bindVisitChanges(panel) {
+  panel.querySelectorAll(".visit-change").forEach(button => button.addEventListener("click", () => openTab(button.dataset.tab, button.dataset.eventId)));
 }
 
 function explainSituation() {

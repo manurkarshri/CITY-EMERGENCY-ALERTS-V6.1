@@ -12,6 +12,7 @@ import "./test-corroboration.js";
 import "./test-ndma-cap.js";
 import "./test-transport-incidents.js";
 import "./test-rtdas-river.js";
+import "./test-visit-history.js";
 
 function assert(condition, message) { if (!condition) throw new Error(message); }
 

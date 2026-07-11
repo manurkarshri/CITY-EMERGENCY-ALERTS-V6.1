@@ -4,14 +4,23 @@ import { setupLocationSelector } from "./core/location.js";
 import { renderAll } from "./ui/render-all.js";
 import { state } from "./core/state.js";
 import { fetchLivePuneTrafficIncidents } from "./services/tomtom-traffic-live.js";
+import { isCurrentEvent } from "./utils/freshness.js";
+import { createVisitSnapshot, compareVisitSnapshots, loadVisitSnapshot, saveVisitSnapshot } from "./core/visit-history.js";
 
 async function init() {
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(console.warn);
   await loadAllData();
+  captureVisitChanges();
   setupLocationSelector();
   setupNavigation();
   renderAll();
   void refreshLiveTraffic();
+}
+
+function captureVisitChanges() {
+  const current = createVisitSnapshot(state.alerts.filter(isCurrentEvent), state.incidents.filter(isCurrentEvent));
+  state.visitChanges = compareVisitSnapshots(loadVisitSnapshot(), current);
+  saveVisitSnapshot(current);
 }
 init();
 
