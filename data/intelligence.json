@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T20:11:50.264Z",
+  "generatedAt": "2026-07-11T20:14:55.711Z",
   "status": "current",
   "situation": {
     "snapshot": "2 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-07-11T20:11:50.331Z",
+      "generatedAt": "2026-07-11T20:14:55.764Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,7 +13,7 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-11T20:11:46.091Z",
+          "sourceCheckedAt": "2026-07-11T20:14:51.676Z",
           "observedAt": "2026-07-12T01:30:00+05:30",
           "temp": 23.1,
           "currentRain": 0,
@@ -39,7 +39,7 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-11T20:11:46.091Z",
+          "sourceCheckedAt": "2026-07-11T20:14:51.676Z",
           "observedAt": "2026-07-12T01:30:00+05:30",
           "temp": 23.1,
           "currentRain": 0,
@@ -65,7 +65,7 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-11T20:11:46.091Z",
+          "sourceCheckedAt": "2026-07-11T20:14:51.676Z",
           "observedAt": "2026-07-12T01:30:00+05:30",
           "temp": 23.1,
           "currentRain": 0,
@@ -91,7 +91,7 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-11T20:11:46.091Z",
+          "sourceCheckedAt": "2026-07-11T20:14:51.676Z",
           "observedAt": "2026-07-12T01:30:00+05:30",
           "temp": 22.3,
           "currentRain": 0.1,
@@ -117,7 +117,7 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-11T20:11:46.091Z",
+          "sourceCheckedAt": "2026-07-11T20:14:51.676Z",
           "observedAt": "2026-07-12T01:30:00+05:30",
           "temp": 22.2,
           "currentRain": 0,
@@ -141,7 +141,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-11T20:11:50.333Z",
+      "generatedAt": "2026-07-11T20:14:55.766Z",
       "riskLevel": "Normal",
       "impacts": [
         "2 active transport-related event(s) may affect travel."
@@ -183,7 +183,7 @@
       "lastUpdated": "2026-07-11T07:58:39.000Z",
       "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
       "lastVerifiedAt": "2026-07-11T20:11:46.646Z",
-      "intelligenceGeneratedAt": "2026-07-11T20:11:50.264Z",
+      "intelligenceGeneratedAt": "2026-07-11T20:14:55.711Z",
       "expiresAt": "2026-07-12T07:58:39.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -229,7 +229,7 @@
       "lastUpdated": "2026-07-11T07:44:47.000Z",
       "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
       "lastVerifiedAt": "2026-07-11T20:11:46.646Z",
-      "intelligenceGeneratedAt": "2026-07-11T20:11:50.264Z",
+      "intelligenceGeneratedAt": "2026-07-11T20:14:55.711Z",
       "expiresAt": "2026-07-12T07:44:47.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -303,9 +303,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-11T07:01:49.000Z",
       "lastUpdated": "2026-07-11T07:01:49.000Z",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastVerifiedAt": "2026-07-11T20:11:46.646Z",
-      "intelligenceGeneratedAt": "2026-07-11T20:11:50.264Z",
+      "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
+      "lastVerifiedAt": "2026-07-11T20:14:52.261Z",
+      "intelligenceGeneratedAt": "2026-07-11T20:14:55.711Z",
       "expiresAt": "2026-07-11T19:01:49.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -345,9 +345,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-11T02:51:32.000Z",
       "lastUpdated": "2026-07-11T02:51:32.000Z",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastVerifiedAt": "2026-07-11T20:11:46.646Z",
-      "intelligenceGeneratedAt": "2026-07-11T20:11:50.264Z",
+      "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
+      "lastVerifiedAt": "2026-07-11T20:14:52.261Z",
+      "intelligenceGeneratedAt": "2026-07-11T20:14:55.711Z",
       "expiresAt": "2026-07-11T14:51:32.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -363,52 +363,6 @@
       "geographicScope": "broader_area",
       "relatedEventIds": [],
       "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "transport-disruption-developing-maharashtra-adds-200-daily-mumbai-pune-bus-trips-amid-trai",
-      "eventKind": "incident",
-      "sourceId": "indian_express",
-      "title": "Developing: Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations",
-      "summary": "Central Railway on Thursday cancelled 30 train services connecting Pune and Mumbai till July 17 following heavy rainfall-triggered landslides at multiple locations on the Lonavala-Karjat section.",
-      "category": "transport_disruption",
-      "severity": "advisory",
-      "source": "Indian Express Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://indianexpress.com/article/cities/pune/msrtc-200-extra-mumbai-pune-bus-trips-train-cancellations-10781670/"
-        }
-      ],
-      "link": "https://indianexpress.com/article/cities/pune/msrtc-200-extra-mumbai-pune-bus-trips-train-cancellations-10781670/",
-      "talukas": [
-        "maval"
-      ],
-      "localities": [
-        "Lonavala"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-07-11T07:01:49.000Z",
-      "lastUpdated": "2026-07-11T07:01:49.000Z",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastVerifiedAt": "2026-07-11T20:11:46.646Z",
-      "intelligenceGeneratedAt": "2026-07-11T20:11:50.264Z",
-      "expiresAt": "2026-07-11T19:01:49.000Z",
-      "lifecycle": "expired",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "Public transport journeys may be cancelled or delayed.",
-      "recommendedAction": "Confirm service status and keep an alternative journey available.",
-      "affectedArea": "",
-      "upstreamId": "bae453cf0612827b823438e2b9d3fc30",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "corroboratedByIndependentSources": false
     }
   ],
   "sourceHealth": {
@@ -417,8 +371,8 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
+      "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
+      "lastSuccessfulAt": "2026-07-11T20:14:52.261Z",
       "error": null
     }
   },
@@ -453,7 +407,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Koregaon Bhima river level is normal.",
-          "updatedAt": "2026-07-11T20:11:50.331Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -498,7 +452,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Paragaon river level is normal.",
-          "updatedAt": "2026-07-11T20:11:50.331Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -542,7 +496,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Daund river level is normal.",
-          "updatedAt": "2026-07-11T20:11:50.331Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -586,7 +540,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Umbre Kasurdi river level is normal.",
-          "updatedAt": "2026-07-11T20:11:50.332Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -633,7 +587,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Dattawadi river level is normal.",
-          "updatedAt": "2026-07-11T20:11:50.332Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -680,7 +634,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Kalyani nagar Bridge river level is normal.",
-          "updatedAt": "2026-07-11T20:11:50.332Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -727,7 +681,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Pimple Gurav river level is normal.",
-          "updatedAt": "2026-07-11T20:11:50.332Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -768,7 +722,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Veer Dam: 100% storage.",
-          "updatedAt": "2026-07-11T20:11:50.332Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -807,7 +761,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Bhatghar Dam: 51.59% storage.",
-          "updatedAt": "2026-07-11T20:11:50.332Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -855,7 +809,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Khadakwasla Dam: 100% storage.",
-          "updatedAt": "2026-07-11T20:11:50.332Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -897,7 +851,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Temghar Dam: 38.74% storage.",
-          "updatedAt": "2026-07-11T20:11:50.332Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -938,7 +892,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Mulshi Dam: 70.78% storage.",
-          "updatedAt": "2026-07-11T20:11:50.332Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -980,7 +934,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Pawna Dam: 75.59% storage.",
-          "updatedAt": "2026-07-11T20:11:50.332Z"
+          "updatedAt": "2026-07-11T20:14:55.765Z"
         },
         "evidence": [
           {
@@ -997,7 +951,7 @@
       }
     ],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-11T20:11:50.333Z",
+      "generatedAt": "2026-07-11T20:14:55.766Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -1010,7 +964,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-11T20:11:50.332Z",
+      "generatedAt": "2026-07-11T20:14:55.766Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -1091,7 +1045,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-11T20:11:50.333Z",
+      "generatedAt": "2026-07-11T20:14:55.766Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -1136,7 +1090,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-11T20:11:50.394Z",
+        "generatedAt": "2026-07-11T20:14:55.818Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -1285,7 +1239,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-11T20:11:50.394Z",
+        "generatedAt": "2026-07-11T20:14:55.818Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1382,7 +1336,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-11T20:11:50.394Z",
+        "generatedAt": "2026-07-11T20:14:55.818Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",

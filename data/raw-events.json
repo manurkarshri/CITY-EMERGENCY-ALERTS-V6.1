@@ -2,19 +2,17 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-  "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
+  "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
+  "lastSuccessfulAt": "2026-07-11T20:14:52.261Z",
   "error": null,
-  "optionalErrors": [
-    "free_news_api: FreeNewsAPI request failed with HTTP 400: {\"error\":\"Search using the 'q' field has been removed.\"}"
-  ],
+  "optionalErrors": [],
   "sources": [
     {
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
+      "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
+      "lastSuccessfulAt": "2026-07-11T20:14:52.261Z",
       "error": null,
       "etag": null
     },
@@ -22,8 +20,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
+      "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
+      "lastSuccessfulAt": "2026-07-11T20:14:52.261Z",
       "error": null,
       "etag": "W/\"8674-1783606872394\""
     },
@@ -31,8 +29,8 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
+      "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
+      "lastSuccessfulAt": "2026-07-11T20:14:52.261Z",
       "error": null,
       "etag": null
     },
@@ -40,8 +38,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
+      "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
+      "lastSuccessfulAt": "2026-07-11T20:14:52.261Z",
       "error": null,
       "etag": null
     },
@@ -49,24 +47,25 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
+      "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
+      "lastSuccessfulAt": "2026-07-11T20:14:52.261Z",
       "error": null,
       "etag": null
     },
     {
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
-      "status": "unavailable",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastSuccessfulAt": null,
-      "error": "FreeNewsAPI request failed with HTTP 400: {\"error\":\"Search using the 'q' field has been removed.\"}"
+      "status": "healthy",
+      "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
+      "lastSuccessfulAt": "2026-07-11T20:14:52.261Z",
+      "error": null,
+      "etag": null
     },
     {
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
+      "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
       "lastSuccessfulAt": "2026-07-11T20:11:46.646Z",
       "error": null,
       "etag": null
@@ -84,8 +83,8 @@
       "link": "https://indianexpress.com/article/cities/pune/msrtc-200-extra-mumbai-pune-bus-trips-train-cancellations-10781670/",
       "publishedAt": "2026-07-11T07:01:49.000Z",
       "lastUpdated": "2026-07-11T07:01:49.000Z",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastVerifiedAt": "2026-07-11T20:11:46.646Z",
+      "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
+      "lastVerifiedAt": "2026-07-11T20:14:52.261Z",
       "expiresAt": "2026-07-11T19:01:49.000Z"
     },
     {
@@ -99,8 +98,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/train-cancellations-boost-msrtc-bus-services-between-pune-and-mumbai-101783706811040.html",
       "publishedAt": "2026-07-11T02:51:32.000Z",
       "lastUpdated": "2026-07-11T02:51:32.000Z",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastVerifiedAt": "2026-07-11T20:11:46.646Z",
+      "sourceCheckedAt": "2026-07-11T20:14:52.261Z",
+      "lastVerifiedAt": "2026-07-11T20:14:52.261Z",
       "expiresAt": "2026-07-11T14:51:32.000Z"
     },
     {
@@ -137,24 +136,6 @@
       "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
       "lastVerifiedAt": "2026-07-11T20:11:46.646Z",
       "expiresAt": "2026-07-12T07:44:47.000Z",
-      "collectionProvider": "NewsData.io"
-    },
-    {
-      "sourceId": "indian_express",
-      "collectionSourceId": "newsdata_io",
-      "upstreamId": "bae453cf0612827b823438e2b9d3fc30",
-      "title": "Developing: Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations",
-      "summary": "Central Railway on Thursday cancelled 30 train services connecting Pune and Mumbai till July 17 following heavy rainfall-triggered landslides at multiple locations on the Lonavala-Karjat section.",
-      "category": "transport_disruption",
-      "severity": "advisory",
-      "source": "Indian Express Pune",
-      "sourceTrust": "B",
-      "link": "https://indianexpress.com/article/cities/pune/msrtc-200-extra-mumbai-pune-bus-trips-train-cancellations-10781670/",
-      "publishedAt": "2026-07-11T07:01:49.000Z",
-      "lastUpdated": "2026-07-11T07:01:49.000Z",
-      "sourceCheckedAt": "2026-07-11T20:11:46.646Z",
-      "lastVerifiedAt": "2026-07-11T20:11:46.646Z",
-      "expiresAt": "2026-07-11T19:01:49.000Z",
       "collectionProvider": "NewsData.io"
     }
   ]
