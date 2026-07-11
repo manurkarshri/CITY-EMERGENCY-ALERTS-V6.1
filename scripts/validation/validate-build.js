@@ -13,6 +13,7 @@ const files = [
   "data/weather.json",
   "data/journey-context.json",
   "data/source-health.json",
+  "data/google-news-discovery.json",
   "data/build-status.json",
   "data/environmental-context.json",
   "data/journey-intelligence.json"

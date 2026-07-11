@@ -8,6 +8,8 @@ import "./test-locality.js";
 import "./test-tomtom-journey.js";
 import "./test-imd-alerts.js";
 import "./test-media-incidents.js";
+import "./test-google-news-discovery.js";
+import "./test-free-news-api.js";
 import "./test-corroboration.js";
 import "./test-ndma-cap.js";
 import "./test-transport-incidents.js";

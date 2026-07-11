@@ -1,0 +1,15 @@
+import { normalizeFreeNewsResponse } from "../scripts/collectors/free-news-api.js";
+
+const checkedAt = "2026-07-12T06:00:00.000Z";
+const items = normalizeFreeNewsResponse({ data: [
+  { uuid: "one", title: "Major fire reported in Pune industrial area", subtitle: "Fire crews are responding", publisher: "TV9 Marathi", published_at: "2026-07-12T05:30:00Z", original_url: "https://www.tv9marathi.com/pune/example" },
+  { uuid: "two", title: "Political meeting held in Mumbai", publisher: "TV9 Marathi", published_at: "2026-07-12T05:00:00Z", original_url: "https://www.tv9marathi.com/mumbai/example" },
+  { uuid: "three", title: "पुण्यात भीषण अपघात", publisher: { name: "Loksatta" }, published_at: "2026-07-12T05:10:00Z", original_url: "https://www.loksatta.com/pune/example" },
+  { uuid: "four", title: "Major fire in Pune", publisher: "Unknown Blog", published_at: "2026-07-12T05:20:00Z", original_url: "https://example.com/fire" }
+] }, checkedAt);
+assert(items.length === 2, "Only allowlisted, Pune-relevant emergency articles must be normalized");
+assert(items.every(item => item.sourceTrust === "B"), "Allowlisted media must remain Tier 2");
+assert(items.every(item => item.link.startsWith("https://")), "Original publisher links must be retained");
+console.log("FreeNewsAPI collector tests passed.");
+function assert(condition, message) { if (!condition) throw new Error(message); }
+

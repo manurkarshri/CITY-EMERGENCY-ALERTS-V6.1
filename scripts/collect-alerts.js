@@ -3,6 +3,8 @@ import { fetchIndianExpressIncidents } from "./collectors/indian-express-pune-rs
 import { fetchHindustanTimesIncidents } from "./collectors/hindustan-times-pune-rss.js";
 import { fetchNdmaSachetAlerts } from "./collectors/ndma-sachet-cap.js";
 import { fetchPuneMetroIncidents } from "./collectors/pune-metro-press-releases.js";
+import { fetchGoogleNewsDiscoveries, corroborateGoogleDiscoveries } from "./collectors/google-news-discovery-rss.js";
+import { fetchFreeNewsIncidents } from "./collectors/free-news-api.js";
 import { readJson, writeJson } from "./lib/io.js";
 import { log } from "./lib/logger.js";
 
@@ -15,6 +17,7 @@ const collectors = [
   ["hindustan_times_pune", "Hindustan Times Pune", fetchHindustanTimesIncidents],
   ["pune_metro", "Pune Metro Official Updates", fetchPuneMetroIncidents]
 ];
+if (process.env.FREE_NEWS_API_KEY) collectors.push(["free_news_api", "FreeNewsAPI trusted-media discovery", fetchFreeNewsIncidents]);
 const results = await Promise.allSettled(collectors.map(([id, , collect]) => collect({ checkedAt, etag: (previous.sources || []).find(source => source.id === id)?.etag })));
 const items = [];
 const errors = [];
@@ -35,6 +38,14 @@ results.forEach((result, index) => {
   }
 });
 const successful = results.filter(result => result.status === "fulfilled").length;
+let discoveryData = { schemaVersion: "6.1.0", provider: "Google News RSS", sourceCheckedAt: checkedAt, status: "unavailable", error: null, items: [] };
+try {
+  const discoveries = await fetchGoogleNewsDiscoveries({ checkedAt });
+  discoveryData = { ...discoveryData, status: "healthy", items: corroborateGoogleDiscoveries(discoveries, items) };
+} catch (error) {
+  discoveryData.error = error?.message || "Google News discovery failed";
+}
+await writeJson("data/google-news-discovery.json", discoveryData);
 await writeJson("data/raw-events.json", { schemaVersion: "6.1.0", mode: "live", status: successful === collectors.length ? "healthy" : successful ? "stale" : "unavailable",
   sourceCheckedAt: checkedAt, lastSuccessfulAt: successful ? checkedAt : previous.lastSuccessfulAt || null, error: errors.join("; ") || null, sources: sourceStates, items });
 log("Live alert and incident collection completed.", { activeItems: items.length, successfulSources: successful, errors: errors.length });
