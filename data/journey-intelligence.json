@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-11T04:29:28.331Z",
+  "generatedAt": "2026-07-11T05:27:29.713Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-11T04:29:28.330Z",
+      "generatedAt": "2026-07-11T05:27:29.712Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -146,7 +146,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-11T04:29:28.330Z",
+      "generatedAt": "2026-07-11T05:27:29.713Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -176,18 +176,27 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 100,
+          "score": 90,
           "label": "Excellent",
           "recommendation": "Travel conditions look suitable.",
-          "reasons": [],
-          "penalties": []
+          "reasons": [
+            "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
+          ],
+          "penalties": [
+            {
+              "eventId": "landslide-developing-lonavala-landslides-central-railway-cancels-30-trains-till-july-17-de",
+              "category": "landslide",
+              "penalty": 10,
+              "title": "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit"
+            }
+          ]
         },
         "estimatedTimeMin": 95,
         "estimatedDelayMin": 0,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (90/100). Estimated travel time is about 95 minutes. Main reason: Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
       },
       "routes": [
         {
@@ -219,18 +228,27 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
+            "score": 90,
             "label": "Excellent",
             "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "reasons": [
+              "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
+            ],
+            "penalties": [
+              {
+                "eventId": "landslide-developing-lonavala-landslides-central-railway-cancels-30-trains-till-july-17-de",
+                "category": "landslide",
+                "penalty": 10,
+                "title": "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit"
+              }
+            ]
           },
           "estimatedTimeMin": 95,
           "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (90/100). Estimated travel time is about 95 minutes. Main reason: Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
         }
       ]
     },
@@ -239,7 +257,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-11T04:29:28.331Z",
+      "generatedAt": "2026-07-11T05:27:29.713Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",

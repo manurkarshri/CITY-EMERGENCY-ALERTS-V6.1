@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T05:15:01.936Z",
+  "generatedAt": "2026-07-11T05:27:29.500Z",
   "status": "current",
   "situation": {
     "snapshot": "No major environmental disruption indicated from current data.",
     "weather": {
-      "generatedAt": "2026-07-11T05:15:02.019Z",
+      "generatedAt": "2026-07-11T05:27:29.584Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -141,7 +141,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-11T05:15:02.021Z",
+      "generatedAt": "2026-07-11T05:27:29.590Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
@@ -149,9 +149,60 @@
     }
   },
   "alerts": [],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "landslide-developing-lonavala-landslides-central-railway-cancels-30-trains-till-july-17-de",
+      "title": "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit",
+      "summary": "Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit",
+      "category": "landslide",
+      "severity": "watch",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://indianexpress.com/article/cities/pune/central-railway-30-trains-cancelled-july-17-lonavala-karjat-landslides-10780543/"
+        }
+      ],
+      "link": "https://indianexpress.com/article/cities/pune/central-railway-30-trains-cancelled-july-17-lonavala-karjat-landslides-10780543/",
+      "talukas": [
+        "maval"
+      ],
+      "localities": [
+        "Lonavala"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-07-10T10:51:39.000Z",
+      "lastUpdated": "2026-07-10T10:51:39.000Z",
+      "sourceCheckedAt": "2026-07-11T05:27:28.634Z",
+      "lastVerifiedAt": "2026-07-11T05:27:28.634Z",
+      "intelligenceGeneratedAt": "2026-07-11T05:27:29.500Z",
+      "expiresAt": "2026-07-11T10:51:39.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "Road or rail movement may be blocked, cancelled or delayed.",
+      "recommendedAction": "Avoid the affected corridor and confirm travel status before departure.",
+      "relatedEventIds": []
+    }
+  ],
   "journeyContext": {
-    "activeRiskEvents": []
+    "activeRiskEvents": [
+      {
+        "id": "landslide-developing-lonavala-landslides-central-railway-cancels-30-trains-till-july-17-de",
+        "category": "landslide",
+        "severity": "watch",
+        "localities": [
+          "Lonavala"
+        ],
+        "talukas": [
+          "maval"
+        ],
+        "operationalZones": [],
+        "impact": "Road or rail movement may be blocked, cancelled or delayed."
+      }
+    ]
   },
   "expiredEvents": [],
   "sourceHealth": {
@@ -160,15 +211,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T05:15:01.073Z",
-      "lastSuccessfulAt": "2026-07-11T05:15:01.073Z",
+      "sourceCheckedAt": "2026-07-11T05:27:28.634Z",
+      "lastSuccessfulAt": "2026-07-11T05:27:28.634Z",
       "error": null
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-11T05:15:02.021Z",
+      "generatedAt": "2026-07-11T05:27:29.589Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -181,7 +232,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-11T05:15:02.020Z",
+      "generatedAt": "2026-07-11T05:27:29.587Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -262,7 +313,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-11T05:15:02.021Z",
+      "generatedAt": "2026-07-11T05:27:29.589Z",
       "mode": "on-demand",
       "relevantDomains": [],
       "infrastructure": {
@@ -297,5 +348,349 @@
         ]
       }
     }
+  },
+  "journeyIntelligence": {
+    "journeys": [
+      {
+        "id": "sample-kharadi-hinjawadi",
+        "start": "Kharadi",
+        "destination": "Hinjawadi",
+        "departure": "now",
+        "generatedAt": "2026-07-11T05:27:29.712Z",
+        "bestRoute": {
+          "id": "kharadi-hinjawadi-nh48",
+          "label": "Kharadi to Hinjawadi via NH48",
+          "fromAliases": [
+            "Kharadi",
+            "EON",
+            "World Trade Center"
+          ],
+          "toAliases": [
+            "Hinjawadi",
+            "Hinjewadi",
+            "Rajiv Gandhi Infotech Park"
+          ],
+          "via": [
+            "Kharadi",
+            "Viman Nagar",
+            "Shivajinagar",
+            "Baner",
+            "Wakad",
+            "Hinjawadi"
+          ],
+          "operationalZones": [
+            "Pune-Ahmednagar Highway",
+            "NH48",
+            "IT Corridor"
+          ],
+          "distanceKm": 33,
+          "baseTimeMin": 65,
+          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
+            "penalties": []
+          },
+          "estimatedTimeMin": 65,
+          "estimatedDelayMin": 0,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+        },
+        "routes": [
+          {
+            "id": "kharadi-hinjawadi-nh48",
+            "label": "Kharadi to Hinjawadi via NH48",
+            "fromAliases": [
+              "Kharadi",
+              "EON",
+              "World Trade Center"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi",
+              "Rajiv Gandhi Infotech Park"
+            ],
+            "via": [
+              "Kharadi",
+              "Viman Nagar",
+              "Shivajinagar",
+              "Baner",
+              "Wakad",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pune-Ahmednagar Highway",
+              "NH48",
+              "IT Corridor"
+            ],
+            "distanceKm": 33,
+            "baseTimeMin": 65,
+            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
+              "penalties": []
+            },
+            "estimatedTimeMin": 65,
+            "estimatedDelayMin": 0,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+          },
+          {
+            "id": "kharadi-hinjawadi-pashan",
+            "label": "Kharadi to Hinjawadi via Pashan",
+            "fromAliases": [
+              "Kharadi",
+              "EON"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi"
+            ],
+            "via": [
+              "Kharadi",
+              "Yerwada",
+              "Aundh",
+              "Pashan",
+              "Mahalunge",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pashan Road",
+              "IT Corridor"
+            ],
+            "distanceKm": 36,
+            "baseTimeMin": 72,
+            "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
+              "penalties": []
+            },
+            "estimatedTimeMin": 72,
+            "estimatedDelayMin": 0,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+            "rank": 2,
+            "recommended": false,
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+          }
+        ]
+      },
+      {
+        "id": "sample-pune-lonavala",
+        "start": "Pune",
+        "destination": "Lonavala",
+        "departure": "now",
+        "generatedAt": "2026-07-11T05:27:29.713Z",
+        "bestRoute": {
+          "id": "pune-lonavala-expressway",
+          "label": "Pune to Lonavala via Mumbai-Pune Expressway",
+          "fromAliases": [
+            "Pune",
+            "Shivajinagar",
+            "Pune City"
+          ],
+          "toAliases": [
+            "Lonavala",
+            "Khandala"
+          ],
+          "via": [
+            "Pune",
+            "Wakad",
+            "Somatane",
+            "Talegaon",
+            "Lonavala"
+          ],
+          "operationalZones": [
+            "Mumbai-Pune Expressway",
+            "NH48",
+            "Ghat Zone"
+          ],
+          "distanceKm": 65,
+          "baseTimeMin": 95,
+          "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 90,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [
+              "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
+            ],
+            "penalties": [
+              {
+                "eventId": "landslide-developing-lonavala-landslides-central-railway-cancels-30-trains-till-july-17-de",
+                "category": "landslide",
+                "penalty": 10,
+                "title": "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit"
+              }
+            ]
+          },
+          "estimatedTimeMin": 95,
+          "estimatedDelayMin": 0,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (90/100). Estimated travel time is about 95 minutes. Main reason: Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
+        },
+        "routes": [
+          {
+            "id": "pune-lonavala-expressway",
+            "label": "Pune to Lonavala via Mumbai-Pune Expressway",
+            "fromAliases": [
+              "Pune",
+              "Shivajinagar",
+              "Pune City"
+            ],
+            "toAliases": [
+              "Lonavala",
+              "Khandala"
+            ],
+            "via": [
+              "Pune",
+              "Wakad",
+              "Somatane",
+              "Talegaon",
+              "Lonavala"
+            ],
+            "operationalZones": [
+              "Mumbai-Pune Expressway",
+              "NH48",
+              "Ghat Zone"
+            ],
+            "distanceKm": 65,
+            "baseTimeMin": 95,
+            "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 90,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [
+                "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
+              ],
+              "penalties": [
+                {
+                  "eventId": "landslide-developing-lonavala-landslides-central-railway-cancels-30-trains-till-july-17-de",
+                  "category": "landslide",
+                  "penalty": 10,
+                  "title": "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit"
+                }
+              ]
+            },
+            "estimatedTimeMin": 95,
+            "estimatedDelayMin": 0,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (90/100). Estimated travel time is about 95 minutes. Main reason: Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
+          }
+        ]
+      },
+      {
+        "id": "sample-swargate-sinhagad",
+        "start": "Swargate",
+        "destination": "Sinhagad Road",
+        "departure": "now",
+        "generatedAt": "2026-07-11T05:27:29.713Z",
+        "bestRoute": {
+          "id": "swargate-sinhagad-road",
+          "label": "Swargate to Sinhagad Road",
+          "fromAliases": [
+            "Swargate",
+            "Pune City"
+          ],
+          "toAliases": [
+            "Sinhagad Road",
+            "Dhayari",
+            "Nanded City"
+          ],
+          "via": [
+            "Swargate",
+            "Sarasbaug",
+            "Dattawadi",
+            "Sinhagad Road",
+            "Dhayari"
+          ],
+          "operationalZones": [
+            "Mutha River",
+            "Khadakwasla Downstream"
+          ],
+          "distanceKm": 13,
+          "baseTimeMin": 35,
+          "mapsQuery": "Swargate to Sinhagad Road Dhayari",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
+            "penalties": []
+          },
+          "estimatedTimeMin": 35,
+          "estimatedDelayMin": 0,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+        },
+        "routes": [
+          {
+            "id": "swargate-sinhagad-road",
+            "label": "Swargate to Sinhagad Road",
+            "fromAliases": [
+              "Swargate",
+              "Pune City"
+            ],
+            "toAliases": [
+              "Sinhagad Road",
+              "Dhayari",
+              "Nanded City"
+            ],
+            "via": [
+              "Swargate",
+              "Sarasbaug",
+              "Dattawadi",
+              "Sinhagad Road",
+              "Dhayari"
+            ],
+            "operationalZones": [
+              "Mutha River",
+              "Khadakwasla Downstream"
+            ],
+            "distanceKm": 13,
+            "baseTimeMin": 35,
+            "mapsQuery": "Swargate to Sinhagad Road Dhayari",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
+              "penalties": []
+            },
+            "estimatedTimeMin": 35,
+            "estimatedDelayMin": 0,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+          }
+        ]
+      }
+    ]
   }
 }

@@ -7,7 +7,7 @@ export async function normalizeRawEvent(raw = {}) {
   const text = `${raw.title || ""} ${raw.summary || ""}`;
   const inferred = classifyEventText(text);
   const classification = { category: raw.category || inferred.category, severity: raw.severity || inferred.severity };
-  const location = await detectLocality(text);
+  const location = await detectLocality(text.replace(/\bDeccan Queen\b/gi, "train"));
 
   return createEvent({
     id: createStableId(`${classification.category} ${raw.title} ${raw.publishedAt || ""}`),

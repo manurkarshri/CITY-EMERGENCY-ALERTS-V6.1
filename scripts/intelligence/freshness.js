@@ -13,7 +13,7 @@ export function applyEventFreshness(event, options = {}) {
   const expiresAt = validDate(event.expiresAt) || (reference ? new Date(reference.getTime() + configuredHours * 36e5) : null);
   let lifecycle = event.lifecycle || (["A+", "A"].includes(event.sourceTrust) ? "verified" : "detected");
   if (["resolved", "archived", "expired"].includes(lifecycle)) return { ...event, expiresAt: expiresAt?.toISOString() || null, lifecycle };
-  lifecycle = !expiresAt || now.getTime() >= expiresAt.getTime() ? "expired" : "active";
+  lifecycle = !expiresAt || now.getTime() >= expiresAt.getTime() ? "expired" : event.sourceTrust === "B" ? "developing" : "active";
   return { ...event, expiresAt: expiresAt?.toISOString() || null, lifecycle };
 }
 
