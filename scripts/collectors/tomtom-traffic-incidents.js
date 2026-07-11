@@ -18,14 +18,14 @@ export async function fetchTomTomTrafficIncidents(options = {}) {
 }
 
 export function normalizeTomTomTraffic(payload, checkedAt) {
-  return (payload?.incidents || []).map(item => normalizeIncident(item, checkedAt)).filter(Boolean);
+  return (payload?.incidents || []).map(item => normalizeIncident(item, checkedAt)).filter(Boolean).sort((a, b) => trafficPriority(b) - trafficPriority(a)).slice(0, 40);
 }
 
 function normalizeIncident(item, checkedAt) {
   const properties = item?.properties || {};
   const icon = Number(properties.iconCategory);
   const delay = Number(properties.delay || 0);
-  if (![1, 3, 7, 8, 9, 11, 14].includes(icon) && !(icon === 6 && delay >= 900)) return null;
+  if (!citizenSignificant(icon, delay, Number(properties.magnitudeOfDelay || 0))) return null;
   const classification = classify(icon, delay);
   const description = clean((properties.events || []).map(event => event.description).filter(Boolean).join("; ")) || label(icon);
   const location = [properties.from, properties.to].filter(Boolean).join(" to ");
@@ -36,8 +36,11 @@ function normalizeIncident(item, checkedAt) {
     summary: `${description}${delay >= 60 ? ` Estimated delay ${Math.round(delay / 60)} minutes.` : ""}`, category: classification.category,
     severity: classification.severity, source: "TomTom Traffic Incidents", sourceTrust: "C", link: "https://www.tomtom.com/traffic-index/",
     publishedAt, lastUpdated: publishedAt, sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt, expiresAt,
-    coordinates: item.geometry?.coordinates || [], roadNumbers: properties.roadNumbers || [] };
+    coordinates: item.geometry?.coordinates || [], roadNumbers: properties.roadNumbers || [], delaySeconds: delay, magnitudeOfDelay: Number(properties.magnitudeOfDelay || 0) };
 }
+
+function citizenSignificant(icon, delay, magnitude) { return icon === 8 || icon === 11 || (icon === 1 && (delay >= 300 || magnitude >= 2)) || (icon === 3 && (delay >= 600 || magnitude >= 3)) || (icon === 7 && delay >= 600) || (icon === 9 && delay >= 900) || (icon === 14 && delay >= 900) || (icon === 6 && delay >= 1800); }
+function trafficPriority(item) { return ({ warning: 300, watch: 200, advisory: 100 })[item.severity] + Math.min(99, Math.round((item.delaySeconds || 0) / 60)); }
 
 function classify(icon, delay) {
   if (icon === 8) return { category: "road_closure", severity: "warning" };

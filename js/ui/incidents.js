@@ -10,7 +10,7 @@ export function renderIncidents() {
     <section class="card feature">
       <div class="section-kicker">Disruptions</div>
       <h2>Incidents</h2>
-      <p>Ongoing disruptions that may affect citizens, services or travel.</p>
+      <p>Significant ongoing disruptions that may affect citizens, services or travel. Routine congestion, minor roadworks and low-impact traffic records are excluded.</p>
       ${note}
       ${sourceNote}
     </section>

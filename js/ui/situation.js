@@ -1,6 +1,7 @@
 import { state, filteredEvents } from "../core/state.js";
 import { escapeHtml, escapeAttr, relativeTime } from "../utils/format.js";
 import { openTab } from "../core/navigation.js";
+import { sourceStatus } from "../utils/freshness.js";
 
 export function renderSituation() {
   const panel = document.getElementById("tab-situation");
@@ -49,9 +50,7 @@ export function renderSituation() {
 
     <section class="card">
       <h2>Updated</h2>
-      <p><strong>Latest live data checked:</strong> ${relativeTime(latestLiveTimestamp())}</p>
-      <p class="small">Core intelligence generated ${relativeTime(state.intelligence?.generatedAt || state.environmental?.generatedAt)}.</p>
-      ${renderSourceHealth()}
+      ${renderUpdateSummary()}
     </section>
   `;
   bindVisitChanges(panel);
@@ -72,7 +71,7 @@ function renderRiverIntelligence() {
 }
 
 function weatherMetric(value, label, guidance) {
-  return `<div class="metric"><strong>${escapeHtml(value)}</strong><span>${escapeHtml(label)}</span><small>${escapeHtml(guidance)}</small></div>`;
+  return `<div class="metric"><div class="metric-heading"><strong>${escapeHtml(value)}</strong><span>${escapeHtml(label)}</span></div><small>${escapeHtml(guidance)}</small></div>`;
 }
 
 export function temperatureGuidance(value) {
@@ -121,6 +120,13 @@ function renderSourceHealth() {
     const timing = source.sourceCheckedAt ? ` · checked ${relativeTime(source.sourceCheckedAt)}` : " · not checked";
     return `<span class="health-chip">${escapeHtml(source.name)}: ${escapeHtml(label)}${escapeHtml(timing)}</span>`;
   }).join("")}</div>`;
+}
+
+function renderUpdateSummary() {
+  const sources = state.sourceHealth?.sources || [];
+  const unavailable = sources.filter(source => ["unavailable", "stale"].includes(sourceStatus(source))).length;
+  const summary = unavailable ? `Data services checked ${relativeTime(latestLiveTimestamp())}; ${unavailable} source${unavailable === 1 ? "" : "s"} currently limited.` : `Data services operating normally · latest check ${relativeTime(latestLiveTimestamp())}.`;
+  return `<p><strong>${escapeHtml(summary)}</strong></p><details><summary>View source and timing details</summary><p class="small">Sources update independently, so their individual check times can differ.</p><p class="small">Core intelligence generated ${relativeTime(state.intelligence?.generatedAt || state.environmental?.generatedAt)}.</p>${renderSourceHealth()}</details>`;
 }
 
 function effectiveWeatherStatus(source) {

@@ -14,14 +14,15 @@ export async function fetchLivePuneTrafficIncidents() {
   const checkedAt = new Date().toISOString();
   const incidents = payloads.flatMap(payload => payload.incidents || []);
   const unique = incidents.filter((item, index, all) => all.findIndex(other => other.properties?.id === item.properties?.id) === index);
-  return { checkedAt, items: unique.map(item => normalize(item, checkedAt)).filter(Boolean) };
+  const items = unique.map(item => normalize(item, checkedAt)).filter(Boolean).sort((a, b) => trafficPriority(b) - trafficPriority(a)).slice(0, 40);
+  return { checkedAt, items };
 }
 
 function normalize(item, checkedAt) {
   const p = item.properties || {};
   const icon = Number(p.iconCategory);
   const delay = Number(p.delay || 0);
-  if (![1, 3, 7, 8, 9, 11, 14].includes(icon) && !(icon === 6 && delay >= 900)) return null;
+  if (!citizenSignificant(icon, delay, Number(p.magnitudeOfDelay || 0))) return null;
   const type = classify(icon, delay);
   const description = (p.events || []).map(event => event.description).filter(Boolean).join("; ") || label(icon);
   const location = [p.from, p.to].filter(Boolean).join(" to ");
@@ -33,8 +34,10 @@ function normalize(item, checkedAt) {
     link: "https://www.tomtom.com/traffic-index/", talukas: [], localities: [], operationalZones: [], publishedAt, lastUpdated: publishedAt,
     sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt, intelligenceGeneratedAt: checkedAt,
     expiresAt: end && new Date(end) > new Date() ? end : new Date(Date.now() + 3 * 36e5).toISOString(), lifecycle: "active",
-    confidence: "Supporting", confidenceScore: 35, impact: impact(type.category), recommendedAction: action(type.category), relatedEventIds: [] };
+    confidence: "Supporting", confidenceScore: 35, delaySeconds: delay, magnitudeOfDelay: Number(p.magnitudeOfDelay || 0), impact: impact(type.category), recommendedAction: action(type.category), relatedEventIds: [] };
 }
+function citizenSignificant(icon, delay, magnitude) { return icon === 8 || icon === 11 || (icon === 1 && (delay >= 300 || magnitude >= 2)) || (icon === 3 && (delay >= 600 || magnitude >= 3)) || (icon === 7 && delay >= 600) || (icon === 9 && delay >= 900) || (icon === 14 && delay >= 900) || (icon === 6 && delay >= 1800); }
+function trafficPriority(item) { return ({ warning: 300, watch: 200, advisory: 100 })[item.severity] + Math.min(99, Math.round((item.delaySeconds || 0) / 60)); }
 function classify(icon, delay) { if (icon === 8) return { category: "road_closure", severity: "warning" }; if (icon === 1) return { category: "accident", severity: delay >= 1800 ? "warning" : "watch" }; if (icon === 7) return { category: "lane_closure", severity: "watch" }; if (icon === 9) return { category: "roadworks", severity: "advisory" }; if (icon === 11) return { category: "flood", severity: "watch" }; if (icon === 14) return { category: "vehicle_breakdown", severity: "advisory" }; if (icon === 6) return { category: "severe_congestion", severity: delay >= 1800 ? "watch" : "advisory" }; return { category: "dangerous_road_condition", severity: "watch" }; }
 function label(icon) { return ({ 1: "Road accident", 3: "Dangerous road conditions", 6: "Severe congestion", 7: "Lane closed", 8: "Road closed", 9: "Roadworks", 11: "Flooding", 14: "Broken-down vehicle" })[icon] || "Traffic disruption"; }
 function impact(category) { return category === "road_closure" ? "The road may be blocked or diverted." : category === "accident" ? "Traffic delays are likely near the incident." : "This condition may delay or disrupt road travel."; }
