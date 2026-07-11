@@ -25,7 +25,7 @@ function parseItem(xml, checkedAt) {
   const expiresAt = isoDate(field(xml, "Expires"));
   if (!summary || !publishedAt || !expiresAt || new Date(expiresAt) <= new Date(checkedAt)) return null;
   const classification = classifyNowcast(summary);
-  return { id: `imd-nowcast-${safe(field(xml, "guid") || `${publishedAt}-${summary}`)}`, sourceId: "imd_nowcast", title: `IMD Pune nowcast: ${headline(summary)}`, summary,
+  return { id: `imd-nowcast-${safe(field(xml, "guid") || `${publishedAt}-${summary}`)}`, eventKind: "alert", sourceId: "imd_nowcast", title: `IMD Pune nowcast: ${headline(summary)}`, summary,
     category: classification.category, severity: classification.severity, source: "India Meteorological Department", sourceTrust: "A",
     link: field(xml, "link") || "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php", publishedAt, lastUpdated: publishedAt,
     sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt, expiresAt, talukas: [], localities: [] };

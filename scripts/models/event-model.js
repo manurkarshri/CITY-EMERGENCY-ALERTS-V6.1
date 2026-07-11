@@ -1,6 +1,8 @@
 export function createEvent(input = {}) {
   return {
     id: input.id || "",
+    eventKind: input.eventKind || "incident",
+    sourceId: input.sourceId || "",
     title: input.title || "",
     summary: input.summary || "",
     category: input.category || "public_safety",

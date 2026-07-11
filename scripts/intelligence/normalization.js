@@ -11,6 +11,8 @@ export async function normalizeRawEvent(raw = {}) {
 
   return createEvent({
     id: createStableId(`${classification.category} ${raw.title} ${raw.publishedAt || ""}`),
+    eventKind: raw.eventKind || inferEventKind(raw, classification),
+    sourceId: raw.sourceId || "",
     title: raw.title || "Untitled event",
     summary: raw.summary || raw.title || "",
     category: classification.category,
@@ -36,4 +38,12 @@ export async function normalizeRawEvent(raw = {}) {
     talukas: raw.talukas || location.talukas,
     localities: raw.localities || location.localities
   });
+}
+
+export function inferEventKind(raw, classification) {
+  if (["imd_nowcast", "ndma_sachet"].includes(raw.sourceId)) return "alert";
+  const text = `${raw.title || ""} ${raw.summary || ""} ${raw.recommendedAction || ""}`;
+  if (/\b(?:alert|warning|advisory|nowcast|forecast|watch|evacuat|avoid travel|take shelter)\b/i.test(text)) return "alert";
+  if (["A+", "A"].includes(raw.sourceTrust) && ["emergency", "warning"].includes(classification.severity) && !["accident", "fire", "road_closure", "waterlogging", "transport_disruption"].includes(classification.category)) return "alert";
+  return "incident";
 }

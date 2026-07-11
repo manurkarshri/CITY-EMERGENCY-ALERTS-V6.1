@@ -32,7 +32,7 @@ function normalizeIncident(item, checkedAt) {
   const publishedAt = isoDate(properties.lastReportTime || properties.startTime) || checkedAt;
   const end = isoDate(properties.endTime);
   const expiresAt = end && new Date(end) > new Date(checkedAt) ? end : new Date(new Date(checkedAt).getTime() + 3 * 36e5).toISOString();
-  return { sourceId: "tomtom_traffic", upstreamId: properties.id || "", title: `Traffic: ${description}${location ? ` - ${location}` : ""}`,
+  return { eventKind: "incident", sourceId: "tomtom_traffic", upstreamId: properties.id || "", title: `Traffic: ${description}${location ? ` - ${location}` : ""}`,
     summary: `${description}${delay >= 60 ? ` Estimated delay ${Math.round(delay / 60)} minutes.` : ""}`, category: classification.category,
     severity: classification.severity, source: "TomTom Traffic Incidents", sourceTrust: "C", link: "https://www.tomtom.com/traffic-index/",
     publishedAt, lastUpdated: publishedAt, sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt, expiresAt,

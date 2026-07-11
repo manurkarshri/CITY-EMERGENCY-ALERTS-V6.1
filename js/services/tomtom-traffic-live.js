@@ -28,7 +28,7 @@ function normalize(item, checkedAt) {
   const location = [p.from, p.to].filter(Boolean).join(" to ");
   const publishedAt = validIso(p.lastReportTime || p.startTime) || checkedAt;
   const end = validIso(p.endTime);
-  return { id: `tomtom-traffic-${p.id || `${icon}-${publishedAt}`}`, title: `Traffic: ${description}${location ? ` - ${location}` : ""}`,
+  return { id: `tomtom-traffic-${p.id || `${icon}-${publishedAt}`}`, eventKind: "incident", title: `Traffic: ${description}${location ? ` - ${location}` : ""}`,
     summary: `${description}${delay >= 60 ? ` Estimated delay ${Math.round(delay / 60)} minutes.` : ""}`, category: type.category, severity: type.severity,
     source: "TomTom Traffic Incidents", sourceTrust: "C", sources: [{ name: "TomTom Traffic", trust: "C", link: "https://www.tomtom.com/traffic-index/" }],
     link: "https://www.tomtom.com/traffic-index/", talukas: [], localities: [], operationalZones: [], publishedAt, lastUpdated: publishedAt,

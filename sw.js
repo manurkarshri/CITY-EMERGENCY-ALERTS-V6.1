@@ -1,4 +1,4 @@
-const CACHE = "city-emergency-alerts-v6-1";
+const CACHE = "city-emergency-alerts-v6-1-20260711-2";
 const FILES = [
   "./",
   "./index.html",

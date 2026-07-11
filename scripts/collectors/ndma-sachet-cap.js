@@ -33,7 +33,7 @@ export function parseNdmaCap(xml, link, checkedAt) {
   const description = clean(field(info, "description"));
   const instruction = clean(field(info, "instruction"));
   const classification = classifyCapEvent(event, field(info, "severity"));
-  return { sourceId: "ndma_sachet", upstreamId: field(xml, "identifier"), title: `Official: ${headline}`, summary: description || headline,
+  return { eventKind: "alert", sourceId: "ndma_sachet", upstreamId: field(xml, "identifier"), title: `Official: ${headline}`, summary: description || headline,
     category: classification.category, severity: classification.severity, source: `NDMA SACHET (${clean(field(xml, "sender")) || "Official authority"})`,
     sourceTrust: "A+", link, publishedAt: isoDate(field(xml, "sent")), lastUpdated: isoDate(field(xml, "sent")), sourceCheckedAt: checkedAt,
     lastVerifiedAt: checkedAt, expiresAt, recommendedAction: instruction || "Follow instructions issued by the responsible government authority.",

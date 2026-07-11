@@ -10,9 +10,9 @@ export function renderAlerts() {
     <section class="card feature">
       <div class="section-kicker">Warnings</div>
       <h2>Alerts</h2>
-      <p>Official emergency warnings requiring immediate awareness or action. Traffic disruptions and developing media reports remain under Incidents unless officially confirmed.</p>
+      <p>Current warnings and advisories relevant to your area, including official alerts and high-priority developing alerts awaiting confirmation.</p>
       ${note}
       ${sourceNote}
     </section>
-  ` + renderEventList(items, "No current official emergency alert was found in the connected sources.");
+  ` + renderEventList(items, "No current relevant alert was found in the connected sources.");
 }
