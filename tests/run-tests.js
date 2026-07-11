@@ -10,6 +10,7 @@ import "./test-imd-alerts.js";
 import "./test-media-incidents.js";
 import "./test-corroboration.js";
 import "./test-ndma-cap.js";
+import "./test-transport-incidents.js";
 
 function assert(condition, message) { if (!condition) throw new Error(message); }
 

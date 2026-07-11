@@ -29,6 +29,8 @@ export async function normalizeRawEvent(raw = {}) {
     upstreamId: raw.upstreamId || "",
     capMessageType: raw.capMessageType || "",
     capReferences: raw.capReferences || "",
+    coordinates: raw.coordinates || [],
+    roadNumbers: raw.roadNumbers || [],
     lifecycle: ["A+", "A"].includes(raw.sourceTrust) ? "verified" : "detected",
     ...location,
     talukas: raw.talukas || location.talukas,

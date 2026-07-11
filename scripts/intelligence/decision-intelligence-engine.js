@@ -29,8 +29,8 @@ export async function runDecisionIntelligencePipeline() {
   const withGenerationTime = enriched.map(event => ({ ...event, intelligenceGeneratedAt: generatedAt }));
   const active = withGenerationTime.filter(event => isActiveEvent(event));
   const expired = withGenerationTime.filter(event => !isActiveEvent(event));
-  const alerts = active.filter(e => ["emergency", "warning"].includes(e.severity));
-  const incidents = active.filter(e => !["emergency", "warning"].includes(e.severity));
+  const alerts = active.filter(e => ["emergency", "warning"].includes(e.severity) && ["A+", "A"].includes(e.sourceTrust));
+  const incidents = active.filter(e => !alerts.includes(e));
   const sourceStatus = raw.mode === "sample" ? "unavailable" : raw.status || (productionItems.some(item => item.sourceCheckedAt) ? "healthy" : "unverified");
   const sourceHealth = {
     id: "event_feeds",

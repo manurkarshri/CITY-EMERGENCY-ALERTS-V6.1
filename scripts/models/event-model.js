@@ -27,6 +27,8 @@ export function createEvent(input = {}) {
     upstreamId: input.upstreamId || "",
     capMessageType: input.capMessageType || "",
     capReferences: input.capReferences || "",
+    coordinates: input.coordinates || [],
+    roadNumbers: input.roadNumbers || [],
     relatedEventIds: input.relatedEventIds || []
   };
 }

@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T06:02:49.788Z",
+  "generatedAt": "2026-07-11T06:13:07.495Z",
   "status": "current",
   "situation": {
     "snapshot": "No major environmental disruption indicated from current data.",
     "weather": {
-      "generatedAt": "2026-07-11T06:02:49.872Z",
+      "generatedAt": "2026-07-11T06:13:07.593Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -141,7 +141,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-11T06:02:49.875Z",
+      "generatedAt": "2026-07-11T06:13:07.595Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
@@ -175,9 +175,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-10T10:51:39.000Z",
       "lastUpdated": "2026-07-10T10:51:39.000Z",
-      "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
-      "lastVerifiedAt": "2026-07-11T06:01:03.993Z",
-      "intelligenceGeneratedAt": "2026-07-11T06:02:49.788Z",
+      "sourceCheckedAt": "2026-07-11T06:13:06.625Z",
+      "lastVerifiedAt": "2026-07-11T06:13:06.625Z",
+      "intelligenceGeneratedAt": "2026-07-11T06:13:07.495Z",
       "expiresAt": "2026-07-11T10:51:39.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -188,6 +188,8 @@
       "upstreamId": "",
       "capMessageType": "",
       "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
       "relatedEventIds": [],
       "corroboratedByIndependentSources": false
     },
@@ -212,9 +214,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-11T02:51:32.000Z",
       "lastUpdated": "2026-07-11T02:51:32.000Z",
-      "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
-      "lastVerifiedAt": "2026-07-11T06:01:03.993Z",
-      "intelligenceGeneratedAt": "2026-07-11T06:02:49.788Z",
+      "sourceCheckedAt": "2026-07-11T06:13:06.625Z",
+      "lastVerifiedAt": "2026-07-11T06:13:06.625Z",
+      "intelligenceGeneratedAt": "2026-07-11T06:13:07.495Z",
       "expiresAt": "2026-07-11T14:51:32.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -225,6 +227,8 @@
       "upstreamId": "",
       "capMessageType": "",
       "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
       "relatedEventIds": [],
       "corroboratedByIndependentSources": false
     }
@@ -262,15 +266,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
-      "lastSuccessfulAt": "2026-07-11T06:01:03.993Z",
+      "sourceCheckedAt": "2026-07-11T06:13:06.625Z",
+      "lastSuccessfulAt": "2026-07-11T06:13:06.625Z",
       "error": null
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-11T06:02:49.875Z",
+      "generatedAt": "2026-07-11T06:13:07.595Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -283,7 +287,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-11T06:02:49.874Z",
+      "generatedAt": "2026-07-11T06:13:07.594Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -364,7 +368,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-11T06:02:49.875Z",
+      "generatedAt": "2026-07-11T06:13:07.595Z",
       "mode": "on-demand",
       "relevantDomains": [],
       "infrastructure": {
@@ -407,7 +411,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-11T06:02:49.966Z",
+        "generatedAt": "2026-07-11T06:13:07.678Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -545,7 +549,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-11T06:02:49.967Z",
+        "generatedAt": "2026-07-11T06:13:07.678Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -670,7 +674,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-11T06:02:49.967Z",
+        "generatedAt": "2026-07-11T06:13:07.679Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",

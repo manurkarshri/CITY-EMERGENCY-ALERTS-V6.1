@@ -39,6 +39,31 @@
       "category": "water_supply",
       "impact": "Local water supply may be reduced or unavailable.",
       "action": "Store essential water responsibly and follow civic updates."
+    },
+    {
+      "category": "lane_closure",
+      "impact": "Reduced road capacity may cause queues and delays.",
+      "action": "Allow extra time and use an alternative road where practical."
+    },
+    {
+      "category": "roadworks",
+      "impact": "Roadworks may slow traffic or alter lane access.",
+      "action": "Follow signs and allow additional journey time."
+    },
+    {
+      "category": "severe_congestion",
+      "impact": "Severe congestion is causing substantial travel delay.",
+      "action": "Delay travel or use a less affected route where possible."
+    },
+    {
+      "category": "vehicle_breakdown",
+      "impact": "A stopped vehicle may obstruct traffic near this location.",
+      "action": "Approach cautiously and change lanes when safe."
+    },
+    {
+      "category": "dangerous_road_condition",
+      "impact": "Road conditions may increase collision or loss-of-control risk.",
+      "action": "Reduce speed and avoid the affected stretch where possible."
     }
   ]
 }
