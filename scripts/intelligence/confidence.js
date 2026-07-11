@@ -1,5 +1,5 @@
 export function assessConfidence(event) {
-  const trust = { A: 45, B: 35, C: 22, D: 10 }[event.sourceTrust] || 10;
+  const trust = { "A+": 50, A: 45, B: 35, C: 22, D: 10 }[event.sourceTrust] || 10;
   const sourceCount = new Set((event.sources || []).map(s => s.name)).size;
   let score = trust + Math.min(20, Math.max(0, sourceCount - 1) * 8);
   if (event.corroboratedByIndependentSources) score += 12;

@@ -2,33 +2,45 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
-  "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
+  "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
+  "lastSuccessfulAt": "2026-07-11T06:01:03.993Z",
   "error": null,
   "sources": [
     {
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
-      "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
-      "error": null
+      "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
+      "lastSuccessfulAt": "2026-07-11T06:01:03.993Z",
+      "error": null,
+      "etag": null
+    },
+    {
+      "id": "ndma_sachet",
+      "name": "NDMA SACHET Maharashtra CAP",
+      "status": "healthy",
+      "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
+      "lastSuccessfulAt": "2026-07-11T06:01:03.993Z",
+      "error": null,
+      "etag": "W/\"8674-1783606872394\""
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
-      "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
-      "error": null
+      "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
+      "lastSuccessfulAt": "2026-07-11T06:01:03.993Z",
+      "error": null,
+      "etag": null
     },
     {
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
-      "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
-      "error": null
+      "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
+      "lastSuccessfulAt": "2026-07-11T06:01:03.993Z",
+      "error": null,
+      "etag": null
     }
   ],
   "items": [
@@ -43,8 +55,8 @@
       "link": "https://indianexpress.com/article/cities/pune/central-railway-30-trains-cancelled-july-17-lonavala-karjat-landslides-10780543/",
       "publishedAt": "2026-07-10T10:51:39.000Z",
       "lastUpdated": "2026-07-10T10:51:39.000Z",
-      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
-      "lastVerifiedAt": "2026-07-11T05:39:37.537Z",
+      "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
+      "lastVerifiedAt": "2026-07-11T06:01:03.993Z",
       "expiresAt": "2026-07-11T10:51:39.000Z"
     },
     {
@@ -58,8 +70,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/train-cancellations-boost-msrtc-bus-services-between-pune-and-mumbai-101783706811040.html",
       "publishedAt": "2026-07-11T02:51:32.000Z",
       "lastUpdated": "2026-07-11T02:51:32.000Z",
-      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
-      "lastVerifiedAt": "2026-07-11T05:39:37.537Z",
+      "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
+      "lastVerifiedAt": "2026-07-11T06:01:03.993Z",
       "expiresAt": "2026-07-11T14:51:32.000Z"
     }
   ]

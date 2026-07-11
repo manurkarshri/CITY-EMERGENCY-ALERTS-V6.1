@@ -23,6 +23,10 @@ export function createEvent(input = {}) {
     confidenceScore: input.confidenceScore || 0,
     impact: input.impact || "",
     recommendedAction: input.recommendedAction || "",
+    affectedArea: input.affectedArea || "",
+    upstreamId: input.upstreamId || "",
+    capMessageType: input.capMessageType || "",
+    capReferences: input.capReferences || "",
     relatedEventIds: input.relatedEventIds || []
   };
 }

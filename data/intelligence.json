@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T05:39:38.590Z",
+  "generatedAt": "2026-07-11T06:02:49.788Z",
   "status": "current",
   "situation": {
     "snapshot": "No major environmental disruption indicated from current data.",
     "weather": {
-      "generatedAt": "2026-07-11T05:39:38.665Z",
+      "generatedAt": "2026-07-11T06:02:49.872Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -141,7 +141,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-11T05:39:38.667Z",
+      "generatedAt": "2026-07-11T06:02:49.875Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
@@ -175,15 +175,19 @@
       "operationalZones": [],
       "publishedAt": "2026-07-10T10:51:39.000Z",
       "lastUpdated": "2026-07-10T10:51:39.000Z",
-      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
-      "lastVerifiedAt": "2026-07-11T05:39:37.537Z",
-      "intelligenceGeneratedAt": "2026-07-11T05:39:38.590Z",
+      "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
+      "lastVerifiedAt": "2026-07-11T06:01:03.993Z",
+      "intelligenceGeneratedAt": "2026-07-11T06:02:49.788Z",
       "expiresAt": "2026-07-11T10:51:39.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
       "confidenceScore": 63,
       "impact": "Road or rail movement may be blocked, cancelled or delayed.",
       "recommendedAction": "Avoid the affected corridor and confirm travel status before departure.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "capMessageType": "",
+      "capReferences": "",
       "relatedEventIds": [],
       "corroboratedByIndependentSources": false
     },
@@ -208,15 +212,19 @@
       "operationalZones": [],
       "publishedAt": "2026-07-11T02:51:32.000Z",
       "lastUpdated": "2026-07-11T02:51:32.000Z",
-      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
-      "lastVerifiedAt": "2026-07-11T05:39:37.537Z",
-      "intelligenceGeneratedAt": "2026-07-11T05:39:38.590Z",
+      "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
+      "lastVerifiedAt": "2026-07-11T06:01:03.993Z",
+      "intelligenceGeneratedAt": "2026-07-11T06:02:49.788Z",
       "expiresAt": "2026-07-11T14:51:32.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
       "confidenceScore": 50,
       "impact": "Public transport journeys may be cancelled or delayed.",
       "recommendedAction": "Confirm service status and keep an alternative journey available.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "capMessageType": "",
+      "capReferences": "",
       "relatedEventIds": [],
       "corroboratedByIndependentSources": false
     }
@@ -254,15 +262,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
-      "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
+      "sourceCheckedAt": "2026-07-11T06:01:03.993Z",
+      "lastSuccessfulAt": "2026-07-11T06:01:03.993Z",
       "error": null
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-11T05:39:38.667Z",
+      "generatedAt": "2026-07-11T06:02:49.875Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -275,7 +283,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-11T05:39:38.667Z",
+      "generatedAt": "2026-07-11T06:02:49.874Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -356,7 +364,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-11T05:39:38.667Z",
+      "generatedAt": "2026-07-11T06:02:49.875Z",
       "mode": "on-demand",
       "relevantDomains": [],
       "infrastructure": {
@@ -399,7 +407,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-11T05:39:38.750Z",
+        "generatedAt": "2026-07-11T06:02:49.966Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -537,7 +545,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-11T05:39:38.750Z",
+        "generatedAt": "2026-07-11T06:02:49.967Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -662,7 +670,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-11T05:39:38.750Z",
+        "generatedAt": "2026-07-11T06:02:49.967Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",

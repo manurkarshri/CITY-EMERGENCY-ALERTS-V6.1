@@ -60,7 +60,7 @@ export async function runDecisionIntelligencePipeline() {
   health.schemaVersion = "6.1.0";
   health.generatedAt = generatedAt;
   const eventSourceIds = new Set([sourceHealth.id, ...(raw.sources || []).map(source => source.id)]);
-  const individualSources = (raw.sources || []).map(source => ({ ...source, type: source.id === "imd_nowcast" ? "alerts" : "incidents" }));
+  const individualSources = (raw.sources || []).map(source => ({ ...source, type: ["imd_nowcast", "ndma_sachet"].includes(source.id) ? "alerts" : "incidents" }));
   health.sources = [...(health.sources || []).filter(item => !eventSourceIds.has(item.id)), sourceHealth, ...individualSources];
   await writeJson("data/source-health.json", health);
 
