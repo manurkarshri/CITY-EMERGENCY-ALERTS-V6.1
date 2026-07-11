@@ -31,21 +31,21 @@ export async function runDecisionIntelligencePipeline() {
   const expired = withGenerationTime.filter(event => !isActiveEvent(event));
   const alerts = active.filter(e => ["emergency", "warning"].includes(e.severity));
   const incidents = active.filter(e => !["emergency", "warning"].includes(e.severity));
-  const sourceStatus = raw.mode === "sample" || !productionItems.length ? "unavailable" : productionItems.some(item => item.sourceCheckedAt) ? "healthy" : "unverified";
+  const sourceStatus = raw.mode === "sample" ? "unavailable" : raw.status || (productionItems.some(item => item.sourceCheckedAt) ? "healthy" : "unverified");
   const sourceHealth = {
     id: "event_feeds",
     name: "Alert and incident sources",
     type: "events",
     status: sourceStatus,
-    sourceCheckedAt: latestTimestamp(productionItems.map(item => item.sourceCheckedAt)),
-    lastSuccessfulAt: latestTimestamp(productionItems.map(item => item.lastVerifiedAt || item.sourceCheckedAt)),
-    error: sourceStatus === "unavailable" ? "No live alert or incident collector is connected." : null
+    sourceCheckedAt: raw.sourceCheckedAt || latestTimestamp(productionItems.map(item => item.sourceCheckedAt)),
+    lastSuccessfulAt: raw.lastSuccessfulAt || latestTimestamp(productionItems.map(item => item.lastVerifiedAt || item.sourceCheckedAt)),
+    error: raw.error || (sourceStatus === "unavailable" ? "Live alert source is temporarily unavailable." : null)
   };
 
   await writeJson("data/intelligence.json", {
     schemaVersion: "6.1.0",
     generatedAt,
-    status: sourceStatus === "healthy" ? "current" : "unavailable",
+    status: sourceStatus === "healthy" ? "current" : sourceStatus,
     situation: { snapshot: buildSnapshot(active), weather: null, changes: [] },
     alerts,
     incidents,

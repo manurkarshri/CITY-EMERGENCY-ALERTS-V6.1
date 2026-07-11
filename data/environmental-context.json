@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T04:29:28.280Z",
+  "generatedAt": "2026-07-11T05:15:02.021Z",
   "weatherSource": {
     "status": "current",
     "sourceCheckedAt": "2026-07-11T04:29:27.567Z",
@@ -19,7 +19,7 @@
     "error": "No live river or dam collector is connected."
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-07-11T04:29:28.278Z",
+    "generatedAt": "2026-07-11T05:15:02.019Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -30,6 +30,7 @@
         "sourceCheckedAt": "2026-07-11T04:29:27.567Z",
         "observedAt": "2026-07-11T09:45:00+05:30",
         "temp": 26.3,
+        "currentRain": 0,
         "rain6h": 0,
         "precipitationProbability": 2,
         "wind": 49.7,
@@ -55,6 +56,7 @@
         "sourceCheckedAt": "2026-07-11T04:29:27.567Z",
         "observedAt": "2026-07-11T09:45:00+05:30",
         "temp": 26.2,
+        "currentRain": 0,
         "rain6h": 0,
         "precipitationProbability": 4,
         "wind": 45.7,
@@ -80,6 +82,7 @@
         "sourceCheckedAt": "2026-07-11T04:29:27.567Z",
         "observedAt": "2026-07-11T09:45:00+05:30",
         "temp": 26.3,
+        "currentRain": 0,
         "rain6h": 0,
         "precipitationProbability": 2,
         "wind": 49.7,
@@ -105,6 +108,7 @@
         "sourceCheckedAt": "2026-07-11T04:29:27.567Z",
         "observedAt": "2026-07-11T09:45:00+05:30",
         "temp": 23.2,
+        "currentRain": 0.1,
         "rain6h": 1.7,
         "precipitationProbability": 100,
         "wind": 43.6,
@@ -130,6 +134,7 @@
         "sourceCheckedAt": "2026-07-11T04:29:27.567Z",
         "observedAt": "2026-07-11T09:45:00+05:30",
         "temp": 23.9,
+        "currentRain": 0,
         "rain6h": 2.4,
         "precipitationProbability": 100,
         "wind": 41.8,
@@ -150,7 +155,7 @@
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-07-11T04:29:28.279Z",
+    "generatedAt": "2026-07-11T05:15:02.021Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -163,7 +168,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-07-11T04:29:28.279Z",
+    "generatedAt": "2026-07-11T05:15:02.020Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -244,7 +249,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-07-11T04:29:28.280Z",
+    "generatedAt": "2026-07-11T05:15:02.021Z",
     "mode": "on-demand",
     "relevantDomains": [],
     "infrastructure": {
@@ -280,7 +285,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-07-11T04:29:28.280Z",
+    "generatedAt": "2026-07-11T05:15:02.021Z",
     "riskLevel": "Normal",
     "impacts": [],
     "citizenSummary": "No major environmental disruption indicated from current data.",

@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T04:29:28.225Z",
-  "status": "unavailable",
+  "generatedAt": "2026-07-11T05:15:01.936Z",
+  "status": "current",
   "situation": {
     "snapshot": "No major environmental disruption indicated from current data.",
     "weather": {
-      "generatedAt": "2026-07-11T04:29:28.278Z",
+      "generatedAt": "2026-07-11T05:15:02.019Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -16,6 +16,7 @@
           "sourceCheckedAt": "2026-07-11T04:29:27.567Z",
           "observedAt": "2026-07-11T09:45:00+05:30",
           "temp": 26.3,
+          "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 2,
           "wind": 49.7,
@@ -41,6 +42,7 @@
           "sourceCheckedAt": "2026-07-11T04:29:27.567Z",
           "observedAt": "2026-07-11T09:45:00+05:30",
           "temp": 26.2,
+          "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 4,
           "wind": 45.7,
@@ -66,6 +68,7 @@
           "sourceCheckedAt": "2026-07-11T04:29:27.567Z",
           "observedAt": "2026-07-11T09:45:00+05:30",
           "temp": 26.3,
+          "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 2,
           "wind": 49.7,
@@ -91,6 +94,7 @@
           "sourceCheckedAt": "2026-07-11T04:29:27.567Z",
           "observedAt": "2026-07-11T09:45:00+05:30",
           "temp": 23.2,
+          "currentRain": 0.1,
           "rain6h": 1.7,
           "precipitationProbability": 100,
           "wind": 43.6,
@@ -116,6 +120,7 @@
           "sourceCheckedAt": "2026-07-11T04:29:27.567Z",
           "observedAt": "2026-07-11T09:45:00+05:30",
           "temp": 23.9,
+          "currentRain": 0,
           "rain6h": 2.4,
           "precipitationProbability": 100,
           "wind": 41.8,
@@ -136,7 +141,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-11T04:29:28.280Z",
+      "generatedAt": "2026-07-11T05:15:02.021Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
@@ -154,16 +159,16 @@
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
-      "status": "unavailable",
-      "sourceCheckedAt": null,
-      "lastSuccessfulAt": null,
-      "error": "No live alert or incident collector is connected."
+      "status": "healthy",
+      "sourceCheckedAt": "2026-07-11T05:15:01.073Z",
+      "lastSuccessfulAt": "2026-07-11T05:15:01.073Z",
+      "error": null
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-11T04:29:28.279Z",
+      "generatedAt": "2026-07-11T05:15:02.021Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -176,7 +181,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-11T04:29:28.279Z",
+      "generatedAt": "2026-07-11T05:15:02.020Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -257,7 +262,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-11T04:29:28.280Z",
+      "generatedAt": "2026-07-11T05:15:02.021Z",
       "mode": "on-demand",
       "relevantDomains": [],
       "infrastructure": {
@@ -292,331 +297,5 @@
         ]
       }
     }
-  },
-  "journeyIntelligence": {
-    "journeys": [
-      {
-        "id": "sample-kharadi-hinjawadi",
-        "start": "Kharadi",
-        "destination": "Hinjawadi",
-        "departure": "now",
-        "generatedAt": "2026-07-11T04:29:28.330Z",
-        "bestRoute": {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
-          "fromAliases": [
-            "Kharadi",
-            "EON",
-            "World Trade Center"
-          ],
-          "toAliases": [
-            "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
-          ],
-          "via": [
-            "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
-            "Hinjawadi"
-          ],
-          "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
-            "IT Corridor"
-          ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-          "routeType": "known-corridor",
-          "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
-          },
-          "estimatedTimeMin": 65,
-          "estimatedDelayMin": 0,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-          "rank": 1,
-          "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
-        },
-        "routes": [
-          {
-            "id": "kharadi-hinjawadi-nh48",
-            "label": "Kharadi to Hinjawadi via NH48",
-            "fromAliases": [
-              "Kharadi",
-              "EON",
-              "World Trade Center"
-            ],
-            "toAliases": [
-              "Hinjawadi",
-              "Hinjewadi",
-              "Rajiv Gandhi Infotech Park"
-            ],
-            "via": [
-              "Kharadi",
-              "Viman Nagar",
-              "Shivajinagar",
-              "Baner",
-              "Wakad",
-              "Hinjawadi"
-            ],
-            "operationalZones": [
-              "Pune-Ahmednagar Highway",
-              "NH48",
-              "IT Corridor"
-            ],
-            "distanceKm": 33,
-            "baseTimeMin": 65,
-            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
-              "penalties": []
-            },
-            "estimatedTimeMin": 65,
-            "estimatedDelayMin": 0,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-            "rank": 1,
-            "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
-          },
-          {
-            "id": "kharadi-hinjawadi-pashan",
-            "label": "Kharadi to Hinjawadi via Pashan",
-            "fromAliases": [
-              "Kharadi",
-              "EON"
-            ],
-            "toAliases": [
-              "Hinjawadi",
-              "Hinjewadi"
-            ],
-            "via": [
-              "Kharadi",
-              "Yerwada",
-              "Aundh",
-              "Pashan",
-              "Mahalunge",
-              "Hinjawadi"
-            ],
-            "operationalZones": [
-              "Pashan Road",
-              "IT Corridor"
-            ],
-            "distanceKm": 36,
-            "baseTimeMin": 72,
-            "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
-              "penalties": []
-            },
-            "estimatedTimeMin": 72,
-            "estimatedDelayMin": 0,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
-            "rank": 2,
-            "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
-          }
-        ]
-      },
-      {
-        "id": "sample-pune-lonavala",
-        "start": "Pune",
-        "destination": "Lonavala",
-        "departure": "now",
-        "generatedAt": "2026-07-11T04:29:28.330Z",
-        "bestRoute": {
-          "id": "pune-lonavala-expressway",
-          "label": "Pune to Lonavala via Mumbai-Pune Expressway",
-          "fromAliases": [
-            "Pune",
-            "Shivajinagar",
-            "Pune City"
-          ],
-          "toAliases": [
-            "Lonavala",
-            "Khandala"
-          ],
-          "via": [
-            "Pune",
-            "Wakad",
-            "Somatane",
-            "Talegaon",
-            "Lonavala"
-          ],
-          "operationalZones": [
-            "Mumbai-Pune Expressway",
-            "NH48",
-            "Ghat Zone"
-          ],
-          "distanceKm": 65,
-          "baseTimeMin": 95,
-          "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
-          "routeType": "known-corridor",
-          "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
-          },
-          "estimatedTimeMin": 95,
-          "estimatedDelayMin": 0,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
-          "rank": 1,
-          "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
-        },
-        "routes": [
-          {
-            "id": "pune-lonavala-expressway",
-            "label": "Pune to Lonavala via Mumbai-Pune Expressway",
-            "fromAliases": [
-              "Pune",
-              "Shivajinagar",
-              "Pune City"
-            ],
-            "toAliases": [
-              "Lonavala",
-              "Khandala"
-            ],
-            "via": [
-              "Pune",
-              "Wakad",
-              "Somatane",
-              "Talegaon",
-              "Lonavala"
-            ],
-            "operationalZones": [
-              "Mumbai-Pune Expressway",
-              "NH48",
-              "Ghat Zone"
-            ],
-            "distanceKm": 65,
-            "baseTimeMin": 95,
-            "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
-              "penalties": []
-            },
-            "estimatedTimeMin": 95,
-            "estimatedDelayMin": 0,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
-            "rank": 1,
-            "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
-          }
-        ]
-      },
-      {
-        "id": "sample-swargate-sinhagad",
-        "start": "Swargate",
-        "destination": "Sinhagad Road",
-        "departure": "now",
-        "generatedAt": "2026-07-11T04:29:28.331Z",
-        "bestRoute": {
-          "id": "swargate-sinhagad-road",
-          "label": "Swargate to Sinhagad Road",
-          "fromAliases": [
-            "Swargate",
-            "Pune City"
-          ],
-          "toAliases": [
-            "Sinhagad Road",
-            "Dhayari",
-            "Nanded City"
-          ],
-          "via": [
-            "Swargate",
-            "Sarasbaug",
-            "Dattawadi",
-            "Sinhagad Road",
-            "Dhayari"
-          ],
-          "operationalZones": [
-            "Mutha River",
-            "Khadakwasla Downstream"
-          ],
-          "distanceKm": 13,
-          "baseTimeMin": 35,
-          "mapsQuery": "Swargate to Sinhagad Road Dhayari",
-          "routeType": "known-corridor",
-          "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
-          },
-          "estimatedTimeMin": 35,
-          "estimatedDelayMin": 0,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
-          "rank": 1,
-          "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
-        },
-        "routes": [
-          {
-            "id": "swargate-sinhagad-road",
-            "label": "Swargate to Sinhagad Road",
-            "fromAliases": [
-              "Swargate",
-              "Pune City"
-            ],
-            "toAliases": [
-              "Sinhagad Road",
-              "Dhayari",
-              "Nanded City"
-            ],
-            "via": [
-              "Swargate",
-              "Sarasbaug",
-              "Dattawadi",
-              "Sinhagad Road",
-              "Dhayari"
-            ],
-            "operationalZones": [
-              "Mutha River",
-              "Khadakwasla Downstream"
-            ],
-            "distanceKm": 13,
-            "baseTimeMin": 35,
-            "mapsQuery": "Swargate to Sinhagad Road Dhayari",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
-              "penalties": []
-            },
-            "estimatedTimeMin": 35,
-            "estimatedDelayMin": 0,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
-            "rank": 1,
-            "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
-          }
-        ]
-      }
-    ]
   }
 }

@@ -25,6 +25,8 @@ jobs:
           node-version: 22
       - name: Collect Live Open-Meteo Weather
         run: node scripts/collect-weather.js
+      - name: Collect Official IMD Pune Alerts
+        run: node scripts/collect-alerts.js
       - name: Run Decision Intelligence Core
         run: node scripts/run-intelligence-core.js
       - name: Run Environmental Intelligence

@@ -5,7 +5,8 @@ import { detectLocality } from "./locality.js";
 
 export async function normalizeRawEvent(raw = {}) {
   const text = `${raw.title || ""} ${raw.summary || ""}`;
-  const classification = classifyEventText(text);
+  const inferred = classifyEventText(text);
+  const classification = { category: raw.category || inferred.category, severity: raw.severity || inferred.severity };
   const location = await detectLocality(text);
 
   return createEvent({
@@ -24,6 +25,8 @@ export async function normalizeRawEvent(raw = {}) {
     lastVerifiedAt: raw.lastVerifiedAt || null,
     expiresAt: raw.expiresAt || null,
     lifecycle: ["A+", "A"].includes(raw.sourceTrust) ? "verified" : "detected",
-    ...location
+    ...location,
+    talukas: raw.talukas || location.talukas,
+    localities: raw.localities || location.localities
   });
 }
