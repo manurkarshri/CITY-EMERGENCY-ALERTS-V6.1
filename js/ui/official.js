@@ -1,16 +1,52 @@
-export function renderOfficial() {
-  const groups = [
-    ["Tier 1: Official Sources", [["IMD", "https://mausam.imd.gov.in/"], ["Pune District Administration", "https://pune.gov.in/"], ["PMC", "https://www.pmc.gov.in/"], ["PCMC", "https://www.pcmcindia.gov.in/"], ["Pune Police", "https://punepolice.gov.in/"], ["NHAI", "https://nhai.gov.in/"], ["Pune Metro", "https://www.punemetrorail.org/"]]],
-    ["Tier 2: Trusted Media", [["Sakal", "https://www.esakal.com/"], ["Lokmat", "https://www.lokmat.com/"], ["Loksatta", "https://www.loksatta.com/"], ["Maharashtra Times", "https://maharashtratimes.com/"], ["Indian Express Pune", "https://indianexpress.com/section/cities/pune/"], ["ABP Majha", "https://marathi.abplive.com/"], ["TV9 Marathi", "https://www.tv9marathi.com/"], ["Zee 24 Taas", "https://zeenews.india.com/marathi"]]]
-  ];
+import { state } from "../core/state.js";
+import { escapeHtml, escapeAttr, relativeTime } from "../utils/format.js";
 
+const groups = [
+  ["Weather and disaster", [
+    ["IMD", "https://mausam.imd.gov.in/", "imd_nowcast"],
+    ["NDMA SACHET", "https://sachet.ndma.gov.in/", "ndma_sachet"],
+    ["Pune District Administration", "https://pune.gov.in/", null]
+  ]],
+  ["Rivers and dams", [
+    ["Maharashtra Water Resources Department", "https://wrd.maharashtra.gov.in/", "maharashtra_rtdas"],
+    ["Central Water Commission", "https://cwc.gov.in/", null],
+    ["CWC Flood Forecast", "https://ffs.india-water.gov.in/", null],
+    ["FloodWatch India", "https://cwc.gov.in/floodwatch-india", null]
+  ]],
+  ["Civic and public safety", [
+    ["Pune Municipal Corporation", "https://www.pmc.gov.in/", null],
+    ["Pimpri Chinchwad Municipal Corporation", "https://www.pcmcindia.gov.in/", null],
+    ["Pune Police", "https://punepolice.gov.in/", null]
+  ]],
+  ["Transport and highways", [
+    ["Pune Metro", "https://www.punemetrorail.org/press-release", "pune_metro"],
+    ["National Highways Authority of India", "https://nhai.gov.in/", null]
+  ]]
+];
+const media = [
+  ["Indian Express Pune", "https://indianexpress.com/section/cities/pune/", "indian_express_pune"],
+  ["Hindustan Times Pune", "https://www.hindustantimes.com/cities/pune-news", "hindustan_times_pune"],
+  ["Sakal", "https://www.esakal.com/", null], ["Lokmat", "https://www.lokmat.com/", null], ["Loksatta", "https://www.loksatta.com/", null]
+];
+
+export function renderOfficial() {
   document.getElementById("tab-official").innerHTML = `
-    <section class="card feature">
-      <div class="section-kicker">Verification</div>
-      <h2>Official</h2>
-      <p>Use official sources for confirmation. Trusted media is used for early awareness and developing situations.</p>
+    <section class="card feature"><div class="section-kicker">Verification</div><h2>Official</h2>
+      <p>Official sources confirm emergency information. “Connected” means this app actively checks the source; “Verification link” opens the authority’s own information.</p>
     </section>
-  ` + groups.map(([title, links]) => `
-    <section class="card"><details open><summary>${title}</summary>${links.map(([name, url]) => `<p><a href="${url}" target="_blank" rel="noopener">${name}</a></p>`).join("")}</details></section>
-  `).join("");
+    ${groups.map(([title, sources]) => renderGroup(title, sources)).join("")}
+    ${renderGroup("Tier 2: Trusted media", media, true)}
+  `;
+}
+
+function renderGroup(title, sources, mediaGroup = false) {
+  return `<section class="card"><details open><summary>${escapeHtml(title)}</summary>
+    ${mediaGroup ? `<p class="small">Trusted media supports early awareness. It cannot override official emergency information.</p>` : ""}
+    <div class="source-directory">${sources.map(renderSource).join("")}</div>
+  </details></section>`;
+}
+function renderSource([name, url, sourceId]) {
+  const health = sourceId ? (state.sourceHealth?.sources || []).find(source => source.id === sourceId) : null;
+  const status = health ? `Connected · ${health.status === "healthy" || health.status === "current" ? "current" : health.status}${health.sourceCheckedAt ? ` · checked ${relativeTime(health.sourceCheckedAt)}` : ""}` : "Verification link";
+  return `<p><a href="${escapeAttr(url)}" target="_blank" rel="noopener">${escapeHtml(name)}</a><br><span class="small">${escapeHtml(status)}</span></p>`;
 }

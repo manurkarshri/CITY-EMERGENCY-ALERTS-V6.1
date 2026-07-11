@@ -6,16 +6,16 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
-      "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
+      "sourceCheckedAt": "2026-07-11T15:37:32.444Z",
+      "lastSuccessfulAt": "2026-07-11T15:37:32.444Z",
       "error": null
     },
     {
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
-      "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
+      "sourceCheckedAt": "2026-07-11T15:37:32.444Z",
+      "lastSuccessfulAt": "2026-07-11T15:37:32.444Z",
       "error": null,
       "etag": null,
       "type": "alerts"
@@ -24,8 +24,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
-      "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
+      "sourceCheckedAt": "2026-07-11T15:37:32.444Z",
+      "lastSuccessfulAt": "2026-07-11T15:37:32.444Z",
       "error": null,
       "etag": "W/\"8674-1783606872394\"",
       "type": "alerts"
@@ -34,8 +34,8 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
-      "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
+      "sourceCheckedAt": "2026-07-11T15:37:32.444Z",
+      "lastSuccessfulAt": "2026-07-11T15:37:32.444Z",
       "error": null,
       "etag": null,
       "type": "incidents"
@@ -44,8 +44,18 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T15:16:41.023Z",
-      "lastSuccessfulAt": "2026-07-11T15:16:41.023Z",
+      "sourceCheckedAt": "2026-07-11T15:37:32.444Z",
+      "lastSuccessfulAt": "2026-07-11T15:37:32.444Z",
+      "error": null,
+      "etag": null,
+      "type": "incidents"
+    },
+    {
+      "id": "pune_metro",
+      "name": "Pune Metro Official Updates",
+      "status": "healthy",
+      "sourceCheckedAt": "2026-07-11T15:37:32.444Z",
+      "lastSuccessfulAt": "2026-07-11T15:37:32.444Z",
       "error": null,
       "etag": null,
       "type": "incidents"
@@ -60,5 +70,5 @@
       "error": null
     }
   ],
-  "generatedAt": "2026-07-11T15:21:34.371Z"
+  "generatedAt": "2026-07-11T15:37:33.586Z"
 }

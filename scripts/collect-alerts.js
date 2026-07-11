@@ -2,6 +2,7 @@ import { fetchImdNowcasts } from "./collectors/imd-nowcast-rss.js";
 import { fetchIndianExpressIncidents } from "./collectors/indian-express-pune-rss.js";
 import { fetchHindustanTimesIncidents } from "./collectors/hindustan-times-pune-rss.js";
 import { fetchNdmaSachetAlerts } from "./collectors/ndma-sachet-cap.js";
+import { fetchPuneMetroIncidents } from "./collectors/pune-metro-press-releases.js";
 import { readJson, writeJson } from "./lib/io.js";
 import { log } from "./lib/logger.js";
 
@@ -11,7 +12,8 @@ const collectors = [
   ["imd_nowcast", "IMD Pune Nowcast", fetchImdNowcasts],
   ["ndma_sachet", "NDMA SACHET Maharashtra CAP", fetchNdmaSachetAlerts],
   ["indian_express_pune", "Indian Express Pune", fetchIndianExpressIncidents],
-  ["hindustan_times_pune", "Hindustan Times Pune", fetchHindustanTimesIncidents]
+  ["hindustan_times_pune", "Hindustan Times Pune", fetchHindustanTimesIncidents],
+  ["pune_metro", "Pune Metro Official Updates", fetchPuneMetroIncidents]
 ];
 const results = await Promise.allSettled(collectors.map(([id, , collect]) => collect({ checkedAt, etag: (previous.sources || []).find(source => source.id === id)?.etag })));
 const items = [];
