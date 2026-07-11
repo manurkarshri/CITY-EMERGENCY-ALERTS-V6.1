@@ -3,6 +3,8 @@ import { escapeHtml, escapeAttr } from "../utils/format.js";
 import { tomTomConfigured, searchPlaces, reverseGeocode, calculateRoutes, trafficIncidentsForRoutes, labelRoutesByMilestones } from "../services/tomtom.js";
 import { fetchRouteWeather } from "../services/open-meteo-live.js";
 import { analyseJourneyRoutes } from "../intelligence/journey-analysis.js";
+import { isTomTomRoadClosure } from "../intelligence/incident-presentation.js";
+import { relativeTime } from "../utils/format.js";
 
 let selectedStart = null;
 let selectedDestination = null;
@@ -36,9 +38,19 @@ export function renderJourney() {
       <p id="journeyStatus" class="journey-status ${escapeAttr(statusKind)}" role="status">${escapeHtml(statusMessage)}</p>
       <p class="small">Locations and routes are requested directly from TomTom. Precise location history is not stored.</p>
     </section>
+    ${renderRoadClosurePanel()}
     <div id="journeyResults">${renderResults()}</div>
   `;
   bindJourneyControls();
+}
+
+function renderRoadClosurePanel() {
+  const closures = (state.incidents || []).filter(isTomTomRoadClosure);
+  if (!closures.length) return `<section class="card"><div class="section-kicker">Road Conditions</div><h2>Current Road Closures</h2><p class="small">No current road closure was reported by TomTom for the monitored Pune District area.</p></section>`;
+  return `<section class="card"><div class="section-kicker">Road Conditions</div><h2>Current Road Closures</h2>
+    <p><strong>${closures.length} closure${closures.length === 1 ? "" : "s"} currently reported.</strong> Analyse a journey to check which ones may affect your route.</p>
+    <details><summary>View reported closures</summary><ul class="compact-list">${closures.slice(0, 15).map(closure => `<li><strong>${escapeHtml(closure.affectedArea || closure.title.replace(/^Traffic:\s*/i, ""))}</strong>${closure.lastVerifiedAt ? ` · verified ${relativeTime(closure.lastVerifiedAt)}` : ""}</li>`).join("")}</ul>${closures.length > 15 ? `<p class="small">Showing 15 highest-priority closures. Journey analysis checks the current route-specific feed.</p>` : ""}</details>
+  </section>`;
 }
 
 function locationField(id, placeholder, selected) {
