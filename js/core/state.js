@@ -68,7 +68,7 @@ export function filteredEvents(items) {
   return sortEvents((items || []).filter(isCurrentEvent).filter(item => {
     const talukas = item.talukas || [];
     const localities = item.localities || [];
-    const unmapped = item.geographicScope === "district_unmapped";
+    const unmapped = ["district_unmapped", "pune_district", "broader_area"].includes(item.geographicScope);
     const talukaMatch = !taluka || talukas.includes(taluka) || (talukas.length === 0 && !unmapped);
     const localityMatch = !locality || localities.some(item => localityMatches(item, locality, state.localitiesConfig)) || (localities.length === 0 && !unmapped);
     return talukaMatch && localityMatch;

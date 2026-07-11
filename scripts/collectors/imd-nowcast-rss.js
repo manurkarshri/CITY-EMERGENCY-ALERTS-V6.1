@@ -28,7 +28,7 @@ function parseItem(xml, checkedAt) {
   return { id: `imd-nowcast-${safe(field(xml, "guid") || `${publishedAt}-${summary}`)}`, eventKind: "alert", sourceId: "imd_nowcast", title: `IMD Pune nowcast: ${headline(summary)}`, summary,
     category: classification.category, severity: classification.severity, source: "India Meteorological Department", sourceTrust: "A",
     link: field(xml, "link") || "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php", publishedAt, lastUpdated: publishedAt,
-    sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt, expiresAt, talukas: [], localities: [] };
+    sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt, expiresAt, affectedArea: "Pune District", talukas: [], localities: [] };
 }
 
 export function classifyNowcast(text) {

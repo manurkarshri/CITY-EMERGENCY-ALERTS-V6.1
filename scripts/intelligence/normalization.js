@@ -8,6 +8,7 @@ export async function normalizeRawEvent(raw = {}) {
   const inferred = classifyEventText(text);
   const classification = { category: raw.category || inferred.category, severity: raw.severity || inferred.severity };
   const location = await detectLocality(text.replace(/\bDeccan Queen\b/gi, "train"));
+  const geographicScope = inferGeographicScope(raw, location);
 
   return createEvent({
     id: createStableId(`${classification.category} ${raw.title} ${raw.publishedAt || ""}`),
@@ -33,12 +34,20 @@ export async function normalizeRawEvent(raw = {}) {
     capReferences: raw.capReferences || "",
     coordinates: raw.coordinates || [],
     roadNumbers: raw.roadNumbers || [],
-    geographicScope: raw.geographicScope || ([...(raw.talukas || location.talukas || []), ...(raw.localities || location.localities || [])].length ? "local" : "district_unmapped"),
+    geographicScope,
     lifecycle: ["A+", "A"].includes(raw.sourceTrust) ? "verified" : "detected",
     ...location,
     talukas: raw.talukas || location.talukas,
     localities: raw.localities || location.localities
   });
+}
+
+export function inferGeographicScope(raw = {}, location = {}) {
+  if (raw.geographicScope) return raw.geographicScope;
+  if ([...(raw.talukas || location.talukas || []), ...(raw.localities || location.localities || [])].length) return "local";
+  const area = `${raw.affectedArea || ""} ${raw.title || ""}`;
+  if (/\bpune\s+district\b/i.test(area) || (["imd_nowcast", "ndma_sachet"].includes(raw.sourceId) && /\bpune\b/i.test(area))) return "pune_district";
+  return "broader_area";
 }
 
 export function inferEventKind(raw, classification) {

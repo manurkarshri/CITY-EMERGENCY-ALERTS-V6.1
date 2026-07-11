@@ -26,7 +26,9 @@ const groups = [
 const media = [
   ["Indian Express Pune", "https://indianexpress.com/section/cities/pune/", "indian_express_pune"],
   ["Hindustan Times Pune", "https://www.hindustantimes.com/cities/pune-news", "hindustan_times_pune"],
-  ["Sakal", "https://www.esakal.com/", null], ["Lokmat", "https://www.lokmat.com/", null], ["Loksatta", "https://www.loksatta.com/", null]
+  ["eSakal Pune", "https://www.esakal.com/pune", null], ["Lokmat Pune", "https://www.lokmat.com/pune/", null], ["Loksatta Pune", "https://www.loksatta.com/pune/", null],
+  ["Maharashtra Times Pune", "https://maharashtratimes.com/maharashtra/pune-news/articlelist/65119369.cms", null],
+  ["ABP Majha Pune", "https://marathi.abplive.com/tv-show/pune", null], ["TV9 Marathi", "https://www.tv9marathi.com/", null]
 ];
 
 export function renderOfficial() {
