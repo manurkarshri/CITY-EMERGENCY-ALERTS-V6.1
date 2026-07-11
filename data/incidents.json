@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T05:27:29.500Z",
+  "generatedAt": "2026-07-11T05:39:38.590Z",
   "sourceStatus": "healthy",
   "items": [
     {
@@ -28,16 +28,50 @@
       "operationalZones": [],
       "publishedAt": "2026-07-10T10:51:39.000Z",
       "lastUpdated": "2026-07-10T10:51:39.000Z",
-      "sourceCheckedAt": "2026-07-11T05:27:28.634Z",
-      "lastVerifiedAt": "2026-07-11T05:27:28.634Z",
-      "intelligenceGeneratedAt": "2026-07-11T05:27:29.500Z",
+      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
+      "lastVerifiedAt": "2026-07-11T05:39:37.537Z",
+      "intelligenceGeneratedAt": "2026-07-11T05:39:38.590Z",
       "expiresAt": "2026-07-11T10:51:39.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
       "confidenceScore": 63,
       "impact": "Road or rail movement may be blocked, cancelled or delayed.",
       "recommendedAction": "Avoid the affected corridor and confirm travel status before departure.",
-      "relatedEventIds": []
+      "relatedEventIds": [],
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "transport-disruption-developing-train-cancellations-boost-msrtc-bus-services-between-pune-",
+      "title": "Developing: Train cancellations boost MSRTC bus services between Pune and Mumbai",
+      "summary": "The number of daily electric Shivai (e-Shivai) buses has been increased from the usual 80 to 90 services to nearly 130, while conventional state transport (ST) buses too are being deployed whenever required to manage the unprecedented rush.",
+      "category": "transport_disruption",
+      "severity": "advisory",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/train-cancellations-boost-msrtc-bus-services-between-pune-and-mumbai-101783706811040.html"
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/train-cancellations-boost-msrtc-bus-services-between-pune-and-mumbai-101783706811040.html",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-11T02:51:32.000Z",
+      "lastUpdated": "2026-07-11T02:51:32.000Z",
+      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
+      "lastVerifiedAt": "2026-07-11T05:39:37.537Z",
+      "intelligenceGeneratedAt": "2026-07-11T05:39:38.590Z",
+      "expiresAt": "2026-07-11T14:51:32.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "Public transport journeys may be cancelled or delayed.",
+      "recommendedAction": "Confirm service status and keep an alternative journey available.",
+      "relatedEventIds": [],
+      "corroboratedByIndependentSources": false
     }
   ]
 }

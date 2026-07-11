@@ -30,7 +30,7 @@ export function normalizeIndianExpressRss(xml, checkedAt) {
 function parseItem(xml, checkedAt) {
   const title = clean(field(xml, "title"));
   const description = clean(field(xml, "description"));
-  const classification = RULES.find(rule => rule.pattern.test(`${title} ${description}`));
+  const classification = classifyIncidentText(`${title} ${description}`);
   const publishedAt = isoDate(field(xml, "pubDate"));
   if (!classification || !publishedAt || new Date(checkedAt) - new Date(publishedAt) > 24 * 36e5) return null;
   return { sourceId: "indian_express_pune", title: `Developing: ${title}`, summary: description || title, category: classification.category,
@@ -38,6 +38,8 @@ function parseItem(xml, checkedAt) {
     lastUpdated: publishedAt, sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt,
     expiresAt: new Date(new Date(publishedAt).getTime() + (classification.severity === "watch" ? 24 : 12) * 36e5).toISOString() };
 }
+
+export function classifyIncidentText(text) { return RULES.find(rule => rule.pattern.test(text)) || null; }
 
 function field(xml, name) { const match = String(xml).match(new RegExp(`<${name}\\b[^>]*>([\\s\\S]*?)<\\/${name}>`, "i")); return decodeXml((match?.[1] || "").replace(/^\s*<!\[CDATA\[|\]\]>\s*$/g, "").trim()); }
 function clean(value) { return value.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(); }

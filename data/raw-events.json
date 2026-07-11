@@ -2,9 +2,35 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-11T05:27:28.634Z",
-  "lastSuccessfulAt": "2026-07-11T05:27:28.634Z",
+  "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
+  "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
   "error": null,
+  "sources": [
+    {
+      "id": "imd_nowcast",
+      "name": "IMD Pune Nowcast",
+      "status": "healthy",
+      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
+      "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
+      "error": null
+    },
+    {
+      "id": "indian_express_pune",
+      "name": "Indian Express Pune",
+      "status": "healthy",
+      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
+      "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
+      "error": null
+    },
+    {
+      "id": "hindustan_times_pune",
+      "name": "Hindustan Times Pune",
+      "status": "healthy",
+      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
+      "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
+      "error": null
+    }
+  ],
   "items": [
     {
       "sourceId": "indian_express_pune",
@@ -17,9 +43,24 @@
       "link": "https://indianexpress.com/article/cities/pune/central-railway-30-trains-cancelled-july-17-lonavala-karjat-landslides-10780543/",
       "publishedAt": "2026-07-10T10:51:39.000Z",
       "lastUpdated": "2026-07-10T10:51:39.000Z",
-      "sourceCheckedAt": "2026-07-11T05:27:28.634Z",
-      "lastVerifiedAt": "2026-07-11T05:27:28.634Z",
+      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
+      "lastVerifiedAt": "2026-07-11T05:39:37.537Z",
       "expiresAt": "2026-07-11T10:51:39.000Z"
+    },
+    {
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Train cancellations boost MSRTC bus services between Pune and Mumbai",
+      "summary": "The number of daily electric Shivai (e-Shivai) buses has been increased from the usual 80 to 90 services to nearly 130, while conventional state transport (ST) buses too are being deployed whenever required to manage the unprecedented rush.",
+      "category": "transport_disruption",
+      "severity": "advisory",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "link": "https://www.hindustantimes.com/cities/pune-news/train-cancellations-boost-msrtc-bus-services-between-pune-and-mumbai-101783706811040.html",
+      "publishedAt": "2026-07-11T02:51:32.000Z",
+      "lastUpdated": "2026-07-11T02:51:32.000Z",
+      "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
+      "lastVerifiedAt": "2026-07-11T05:39:37.537Z",
+      "expiresAt": "2026-07-11T14:51:32.000Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-11T05:27:29.713Z",
+  "generatedAt": "2026-07-11T05:39:38.750Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-11T05:27:29.712Z",
+      "generatedAt": "2026-07-11T05:39:38.750Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -146,7 +146,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-11T05:27:29.713Z",
+      "generatedAt": "2026-07-11T05:39:38.750Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -176,11 +176,12 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 90,
-          "label": "Excellent",
-          "recommendation": "Travel conditions look suitable.",
+          "score": 85,
+          "label": "Good to Go",
+          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
           "reasons": [
-            "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
+            "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel.",
+            "Developing: Train cancellations boost MSRTC bus services between Pune and Mumbai may have minor impact on travel."
           ],
           "penalties": [
             {
@@ -188,15 +189,21 @@
               "category": "landslide",
               "penalty": 10,
               "title": "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit"
+            },
+            {
+              "eventId": "transport-disruption-developing-train-cancellations-boost-msrtc-bus-services-between-pune-",
+              "category": "transport_disruption",
+              "penalty": 5,
+              "title": "Developing: Train cancellations boost MSRTC bus services between Pune and Mumbai"
             }
           ]
         },
-        "estimatedTimeMin": 95,
-        "estimatedDelayMin": 0,
+        "estimatedTimeMin": 103,
+        "estimatedDelayMin": 8,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (90/100). Estimated travel time is about 95 minutes. Main reason: Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
       },
       "routes": [
         {
@@ -228,11 +235,12 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 90,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
+              "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel.",
+              "Developing: Train cancellations boost MSRTC bus services between Pune and Mumbai may have minor impact on travel."
             ],
             "penalties": [
               {
@@ -240,15 +248,21 @@
                 "category": "landslide",
                 "penalty": 10,
                 "title": "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit"
+              },
+              {
+                "eventId": "transport-disruption-developing-train-cancellations-boost-msrtc-bus-services-between-pune-",
+                "category": "transport_disruption",
+                "penalty": 5,
+                "title": "Developing: Train cancellations boost MSRTC bus services between Pune and Mumbai"
               }
             ]
           },
-          "estimatedTimeMin": 95,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 103,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (90/100). Estimated travel time is about 95 minutes. Main reason: Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit may have minor impact on travel."
         }
       ]
     },
@@ -257,7 +271,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-11T05:27:29.713Z",
+      "generatedAt": "2026-07-11T05:39:38.750Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",

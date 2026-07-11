@@ -59,7 +59,9 @@ export async function runDecisionIntelligencePipeline() {
   const health = await readJson("data/source-health.json", { schemaVersion: "6.1.0", sources: [] });
   health.schemaVersion = "6.1.0";
   health.generatedAt = generatedAt;
-  health.sources = [...(health.sources || []).filter(item => item.id !== sourceHealth.id), sourceHealth];
+  const eventSourceIds = new Set([sourceHealth.id, ...(raw.sources || []).map(source => source.id)]);
+  const individualSources = (raw.sources || []).map(source => ({ ...source, type: source.id === "imd_nowcast" ? "alerts" : "incidents" }));
+  health.sources = [...(health.sources || []).filter(item => !eventSourceIds.has(item.id)), sourceHealth, ...individualSources];
   await writeJson("data/source-health.json", health);
 
   log("Decision Intelligence Engine completed.", { raw: raw.items?.length || 0, active: active.length, alerts: alerts.length, incidents: incidents.length });

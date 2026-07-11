@@ -8,6 +8,7 @@ import "./test-locality.js";
 import "./test-tomtom-journey.js";
 import "./test-imd-alerts.js";
 import "./test-media-incidents.js";
+import "./test-corroboration.js";
 
 function assert(condition, message) { if (!condition) throw new Error(message); }
 

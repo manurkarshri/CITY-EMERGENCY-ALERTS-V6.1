@@ -10,6 +10,7 @@ export function renderEventList(items, emptyText) {
       ${item.impact ? `<p><strong>Impact:</strong> ${escapeHtml(item.impact)}</p>` : ""}
       ${item.recommendedAction ? `<p><strong>Action:</strong> ${escapeHtml(item.recommendedAction)}</p>` : ""}
       <p class="event-meta">Confidence: ${escapeHtml(item.confidence || "Unknown")} · Trust: ${escapeHtml(item.sourceTrust || "N/A")} · Status: ${escapeHtml(item.lifecycle || "active")}</p>
+      ${item.sourceTrust === "B" ? `<p class="event-meta"><strong>Corroboration:</strong> ${item.corroboratedByIndependentSources ? `${new Set((item.sources || []).map(source => source.name)).size} independent trusted sources` : "Not yet independently confirmed; treat as developing"}</p>` : ""}
       <p class="event-meta">Published: ${relativeTime(item.publishedAt)} · Verified: ${relativeTime(item.lastVerifiedAt)} · Source checked: ${relativeTime(item.sourceCheckedAt)}</p>
       <p class="event-meta">Affected: ${escapeHtml([...(item.localities || []), ...(item.operationalZones || [])].slice(0,5).join(" • ") || "Area not specified")}</p>
       <div class="source-list">

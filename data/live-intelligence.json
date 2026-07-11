@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-11T05:27:29.783Z",
+  "generatedAt": "2026-07-11T05:39:38.824Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -25,9 +25,36 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-11T05:27:28.634Z",
-        "lastSuccessfulAt": "2026-07-11T05:27:28.634Z",
+        "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
+        "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
         "error": null
+      },
+      {
+        "id": "imd_nowcast",
+        "name": "IMD Pune Nowcast",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
+        "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
+        "error": null,
+        "type": "alerts"
+      },
+      {
+        "id": "indian_express_pune",
+        "name": "Indian Express Pune",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
+        "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
+        "error": null,
+        "type": "incidents"
+      },
+      {
+        "id": "hindustan_times_pune",
+        "name": "Hindustan Times Pune",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-11T05:39:37.537Z",
+        "lastSuccessfulAt": "2026-07-11T05:39:37.537Z",
+        "error": null,
+        "type": "incidents"
       },
       {
         "id": "river_dam_feeds",
@@ -198,7 +225,7 @@
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 8,
     "alertsAvailable": 0,
-    "incidentsAvailable": 1,
+    "incidentsAvailable": 2,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
@@ -211,6 +238,15 @@
       "source": "Indian Express Pune",
       "trust": "B",
       "updatedAt": "2026-07-10T10:51:39.000Z"
+    },
+    {
+      "id": "transport-disruption-developing-train-cancellations-boost-msrtc-bus-services-between-pune-",
+      "title": "Developing: Train cancellations boost MSRTC bus services between Pune and Mumbai",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Hindustan Times Pune",
+      "trust": "B",
+      "updatedAt": "2026-07-11T02:51:32.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."
