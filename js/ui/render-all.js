@@ -6,6 +6,7 @@ import { renderIncidents } from "./incidents.js";
 import { renderJourney } from "./journey.js";
 import { renderOfficial } from "./official.js";
 import { renderEmergency } from "./emergency.js";
+import { latestLiveTimestamp } from "./situation.js";
 
 export function renderAll() {
   renderSituation();
@@ -15,5 +16,5 @@ export function renderAll() {
   renderOfficial();
   renderEmergency();
   const footer = document.getElementById("footerUpdated");
-  if (footer) footer.textContent = `Intelligence generated: ${relativeTime(state.intelligence?.generatedAt || state.build?.build?.buildTime)}`;
+  if (footer) footer.textContent = `Latest live data checked: ${relativeTime(latestLiveTimestamp())}`;
 }

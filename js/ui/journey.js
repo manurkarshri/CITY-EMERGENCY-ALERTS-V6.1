@@ -175,7 +175,7 @@ function renderRoute(route) {
     <div class="grid">
       <div class="metric"><strong>${score.score}/100</strong><span>Journey Suitability</span></div>
       <div class="metric"><strong>${escapeHtml(score.label)}</strong><span>Recommendation</span></div>
-      <div class="metric"><strong>${duration} min</strong><span>Traffic-aware time</span></div>
+      <div class="metric"><strong>${duration} min</strong><span>Estimated travel time (with current traffic)</span></div>
       <div class="metric"><strong>${delay} min</strong><span>Traffic delay</span></div>
       <div class="metric"><strong>${distance} km</strong><span>Distance</span></div>
       <div class="metric"><strong>${route.routeTrafficIncidents.length}</strong><span>Route incidents</span></div>

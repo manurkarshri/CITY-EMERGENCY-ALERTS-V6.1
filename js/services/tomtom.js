@@ -35,7 +35,7 @@ export async function reverseGeocode(latitude, longitude) {
 }
 
 export async function labelRoutesByMilestones(routes = []) {
-  return Promise.all(routes.map(async (route, index) => {
+  const labelled = await Promise.all(routes.map(async (route, index) => {
     const points = route.points || [];
     if (points.length < 3) return { ...route, label: index === 0 ? "Fastest route" : `Alternative route ${index}` };
     const candidates = [points[Math.floor(points.length * 0.38)], points[Math.floor(points.length * 0.68)]];
@@ -43,6 +43,10 @@ export async function labelRoutesByMilestones(routes = []) {
     const milestones = [...new Set(places.map(place => place?.milestone).filter(Boolean))].slice(0, 2);
     return { ...route, label: milestones.length ? `Via ${milestones.join(" – ")}` : index === 0 ? "Fastest route" : `Alternative route ${index}` };
   }));
+  const counts = labelled.reduce((out, route) => out.set(route.label, (out.get(route.label) || 0) + 1), new Map());
+  return labelled.map(route => counts.get(route.label) > 1
+    ? { ...route, label: `${route.label} · ${(route.distanceMeters / 1000).toFixed(1)} km / ${Math.round(route.travelTimeSeconds / 60)} min` }
+    : route);
 }
 
 export async function calculateRoutes(start, destination, options = {}) {

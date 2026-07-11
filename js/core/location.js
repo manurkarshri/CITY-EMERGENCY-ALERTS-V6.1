@@ -89,6 +89,7 @@ export function setupLocationSelector() {
   });
 
   updateLocationSummary();
+  void refreshWeatherForSelection();
 }
 
 async function refreshWeatherForSelection() {

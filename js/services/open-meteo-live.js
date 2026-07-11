@@ -44,7 +44,7 @@ export function normalizeLiveWeather(item, checkedAt) {
   return {
     label: "Route weather point",
     latitude: Number(item.latitude), longitude: Number(item.longitude), temp: temperature,
-    rain6h: round(rain6h), precipitationProbability: probability,
+    currentRain: number(item.current?.rain), rain6h: round(rain6h), precipitationProbability: probability,
     wind: number(item.current?.wind_speed_10m), gust, humidity: number(item.current?.relative_humidity_2m),
     visibility: round(visibility), weatherCode: item.current?.weather_code ?? null,
     rainRisk, windRisk, visibilityRisk, heatRisk: temperature >= 45 ? "Emergency" : temperature >= 41 ? "Warning" : temperature >= 38 ? "Watch" : "Normal",

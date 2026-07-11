@@ -16,10 +16,10 @@ export function renderSituation() {
       ${renderWeatherFreshness(weatherSource, weatherStatus)}
       ${weather && weatherStatus !== "unavailable" ? `
         <div class="grid">
-          <div class="metric"><strong>${weather.temp ?? "--"}°C</strong><span>Temperature</span></div>
-          <div class="metric"><strong>${weather.rainRisk || "Normal"}</strong><span>Rain Risk</span></div>
-          <div class="metric"><strong>${weather.wind ?? "--"} km/h</strong><span>Wind</span></div>
-          <div class="metric"><strong>${weather.visibility ?? "--"} km</strong><span>Visibility</span></div>
+          ${weatherMetric(`${weather.temp ?? "--"}°C`, "Temperature", temperatureGuidance(weather.temp))}
+          ${weatherMetric(weather.rainRisk || "Minimal", "Rain Risk", rainGuidance(weather))}
+          ${weatherMetric(`${weather.wind ?? "--"} km/h`, "Wind", windGuidance(weather.wind, weather.gust))}
+          ${weatherMetric(`${weather.visibility ?? "--"} km`, "Visibility", visibilityGuidance(weather.visibility))}
         </div>
         <p>${escapeHtml((weather.advice || [])[0] || "No major weather issue indicated.")}</p>
         ${weatherSource.attribution?.url ? `<p class="small">Weather data: <a href="${escapeAttr(weatherSource.attribution.url)}" target="_blank" rel="noopener">${escapeHtml(weatherSource.attribution.name || "Open-Meteo")}</a></p>` : ""}
@@ -46,10 +46,53 @@ export function renderSituation() {
 
     <section class="card">
       <h2>Updated</h2>
-      <p><strong>Intelligence generated:</strong> ${relativeTime(state.intelligence?.generatedAt || state.environmental?.generatedAt)}</p>
+      <p><strong>Latest live data checked:</strong> ${relativeTime(latestLiveTimestamp())}</p>
+      <p class="small">Core intelligence generated ${relativeTime(state.intelligence?.generatedAt || state.environmental?.generatedAt)}.</p>
       ${renderSourceHealth()}
     </section>
   `;
+}
+
+function weatherMetric(value, label, guidance) {
+  return `<div class="metric"><strong>${escapeHtml(value)}</strong><span>${escapeHtml(label)}</span><small>${escapeHtml(guidance)}</small></div>`;
+}
+
+export function temperatureGuidance(value) {
+  const temp = Number(value);
+  if (!Number.isFinite(temp)) return "Interpretation unavailable";
+  if (temp >= 41) return "Dangerously hot - limit exposure";
+  if (temp >= 38) return "Very hot - heat caution";
+  if (temp >= 33) return "Hotter than comfortable";
+  if (temp < 15) return "Cool for Pune conditions";
+  return "Generally comfortable range";
+}
+
+export function rainGuidance(weather = {}) {
+  const now = Number(weather.currentRain || 0) > 0 ? "Raining now" : "No measurable rain now";
+  return `${now}; ${weather.rainRisk || "Minimal"} risk in next 6 hours`;
+}
+
+export function windGuidance(value, gustValue) {
+  const wind = Number(value);
+  if (!Number.isFinite(wind)) return "Interpretation unavailable";
+  const level = wind >= 60 ? "Hazardous wind" : wind >= 40 ? "Strong - travel caution" : wind >= 20 ? "Breezy - two-wheelers take care" : "Light to moderate";
+  const gust = Number(gustValue);
+  return Number.isFinite(gust) && gust > wind + 5 ? `${level}; gusts ${gust} km/h` : level;
+}
+
+export function visibilityGuidance(value) {
+  const km = Number(value);
+  if (!Number.isFinite(km)) return "Interpretation unavailable";
+  if (km <= 1) return "Very poor - unsafe driving risk";
+  if (km <= 2) return "Poor - drive cautiously";
+  if (km <= 5) return "Reduced visibility";
+  if (km < 10) return "Fair visibility";
+  return "Good visibility";
+}
+
+export function latestLiveTimestamp() {
+  const values = [state.environmental?.weatherSource?.sourceCheckedAt, ...(state.sourceHealth?.sources || []).map(source => source.sourceCheckedAt), state.intelligence?.generatedAt].filter(Boolean);
+  return values.sort((a, b) => new Date(b) - new Date(a))[0] || null;
 }
 
 function renderSourceHealth() {
