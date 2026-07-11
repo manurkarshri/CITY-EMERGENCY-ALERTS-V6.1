@@ -1,7 +1,7 @@
 import { classifyIncidentText } from "./indian-express-pune-rss.js";
 
 const API_URL = "https://api.freenewsapi.io/v1/news";
-const SEARCHES = [{ q: "Pune PCMC Pimpri accident fire" }];
+const SEARCHES = [{ q: "Pune emergency accident fire" }];
 const ALLOWED_PUBLISHERS = /Indian Express|Hindustan Times|Live Hindustan|e?Sakal|Lokmat|Loksatta|Maharashtra Times|ABP Majha|ABP Live Marathi|ABP News|TV9 Marathi|News18 Hindi|Dainik Bhaskar|Amar Ujala/i;
 
 export async function fetchFreeNewsIncidents(options = {}) {
@@ -16,7 +16,7 @@ export async function fetchFreeNewsIncidents(options = {}) {
     url.searchParams.set("q", search.q);
     url.searchParams.set("order_by", "recent");
     const response = await fetchWithTimeout(fetchImpl, url, apiKey, options.timeoutMs || 20000);
-    if (!response.ok) throw new Error(`FreeNewsAPI request failed with HTTP ${response.status}`);
+    if (!response.ok) throw new Error(await providerError(response));
     responses.push(await response.json());
   }
   const normalized = responses.flatMap(payload => normalizeFreeNewsResponse(payload, checkedAt));
@@ -69,6 +69,11 @@ async function fetchWithTimeout(fetchImpl, url, apiKey, timeoutMs) {
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
   try { return await fetchImpl(url, { headers: { "x-api-key": apiKey, "User-Agent": "CITY-EMERGENCY-ALERTS/6.1" }, signal: controller.signal }); }
   finally { clearTimeout(timeout); }
+}
+async function providerError(response) {
+  let detail = "";
+  try { detail = String(await response.text()).replace(/\s+/g, " ").slice(0, 220); } catch { /* A status code remains useful. */ }
+  return `FreeNewsAPI request failed with HTTP ${response.status}${detail ? `: ${detail}` : ""}`;
 }
 function uniqueArticles(items) { const seen = new Set(); return items.filter(item => { const key = item.upstreamId || item.link; if (seen.has(key)) return false; seen.add(key); return true; }); }
 function publisherName(value) { return typeof value === "string" ? value : String(value?.name || ""); }

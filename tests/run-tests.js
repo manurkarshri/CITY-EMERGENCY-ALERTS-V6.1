@@ -23,6 +23,7 @@ import "./test-visit-history.js";
 import "./test-safety-checklists.js";
 import "./test-official-sources.js";
 import "./test-pwa-offline.js";
+import "./test-collection-health.js";
 
 function assert(condition, message) { if (!condition) throw new Error(message); }
 

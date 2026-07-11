@@ -8,6 +8,7 @@ import { fetchFreeNewsIncidents } from "./collectors/free-news-api.js";
 import { fetchNewsDataIncidents } from "./collectors/newsdata-io.js";
 import { readJson, writeJson } from "./lib/io.js";
 import { log } from "./lib/logger.js";
+import { summarizeCollection } from "./collectors/collection-health.js";
 
 const previous = await readJson("data/raw-events.json", { items: [] });
 const checkedAt = new Date().toISOString();
@@ -43,8 +44,17 @@ results.forEach((result, index) => {
     sourceStates.push({ id: sourceId, name, status: preserved.length ? "stale" : "unavailable", sourceCheckedAt: checkedAt, lastSuccessfulAt: prior?.lastSuccessfulAt || null, error: result.reason?.message || "Collection failed" });
   }
 });
-function preservedItems(items, sourceId) { return (items || []).filter(item => (item.collectionSourceId || item.sourceId) === sourceId && item.expiresAt && new Date(item.expiresAt) > new Date()); }
+function preservedItems(items, sourceId) {
+  return (items || []).filter(item => {
+    if ((item.collectionSourceId || item.sourceId) !== sourceId || !item.expiresAt || new Date(item.expiresAt) <= new Date()) return false;
+    return !["free_news_api", "newsdata_io"].includes(sourceId) || isStrictPuneHeadline(item.title);
+  });
+}
+function isStrictPuneHeadline(title) {
+  return /\bpune\b|\bpimpri\b|\bchinchwad\b|\bpcmc\b|\u092a\u0941\u0923(?:\u0947|\u094d\u092f)|\u092a\u093f\u0902\u092a\u0930\u0940|\u091a\u093f\u0902\u091a\u0935\u0921|\u092a\u0940\u0938\u0940\u090f\u092e\u0938\u0940/i.test(String(title || ""));
+}
 const successful = results.filter(result => result.status === "fulfilled").length;
+const collectionHealth = summarizeCollection(sourceStates, errors);
 let discoveryData = { schemaVersion: "6.1.0", provider: "Google News RSS", sourceCheckedAt: checkedAt, status: "unavailable", error: null, items: [] };
 try {
   const discoveries = await fetchGoogleNewsDiscoveries({ checkedAt });
@@ -53,6 +63,6 @@ try {
   discoveryData.error = error?.message || "Google News discovery failed";
 }
 await writeJson("data/google-news-discovery.json", discoveryData);
-await writeJson("data/raw-events.json", { schemaVersion: "6.1.0", mode: "live", status: successful === collectors.length ? "healthy" : successful ? "stale" : "unavailable",
-  sourceCheckedAt: checkedAt, lastSuccessfulAt: successful ? checkedAt : previous.lastSuccessfulAt || null, error: errors.join("; ") || null, sources: sourceStates, items });
+await writeJson("data/raw-events.json", { schemaVersion: "6.1.0", mode: "live", status: collectionHealth.status,
+  sourceCheckedAt: checkedAt, lastSuccessfulAt: successful ? checkedAt : previous.lastSuccessfulAt || null, error: collectionHealth.error, optionalErrors: collectionHealth.optionalErrors, sources: sourceStates, items });
 log("Live alert and incident collection completed.", { activeItems: items.length, successfulSources: successful, errors: errors.length });
