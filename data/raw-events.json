@@ -2,16 +2,16 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-11T06:39:13.997Z",
-  "lastSuccessfulAt": "2026-07-11T06:39:13.997Z",
+  "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
+  "lastSuccessfulAt": "2026-07-11T08:29:55.985Z",
   "error": null,
   "sources": [
     {
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T06:39:13.997Z",
-      "lastSuccessfulAt": "2026-07-11T06:39:13.997Z",
+      "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
+      "lastSuccessfulAt": "2026-07-11T08:29:55.985Z",
       "error": null,
       "etag": null
     },
@@ -19,8 +19,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T06:39:13.997Z",
-      "lastSuccessfulAt": "2026-07-11T06:39:13.997Z",
+      "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
+      "lastSuccessfulAt": "2026-07-11T08:29:55.985Z",
       "error": null,
       "etag": "W/\"8674-1783606872394\""
     },
@@ -28,8 +28,8 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T06:39:13.997Z",
-      "lastSuccessfulAt": "2026-07-11T06:39:13.997Z",
+      "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
+      "lastSuccessfulAt": "2026-07-11T08:29:55.985Z",
       "error": null,
       "etag": null
     },
@@ -37,13 +37,28 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-11T06:39:13.997Z",
-      "lastSuccessfulAt": "2026-07-11T06:39:13.997Z",
+      "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
+      "lastSuccessfulAt": "2026-07-11T08:29:55.985Z",
       "error": null,
       "etag": null
     }
   ],
   "items": [
+    {
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations",
+      "summary": "Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations",
+      "category": "transport_disruption",
+      "severity": "advisory",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "link": "https://indianexpress.com/article/cities/pune/msrtc-200-extra-mumbai-pune-bus-trips-train-cancellations-10781670/",
+      "publishedAt": "2026-07-11T07:01:49.000Z",
+      "lastUpdated": "2026-07-11T07:01:49.000Z",
+      "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
+      "lastVerifiedAt": "2026-07-11T08:29:55.985Z",
+      "expiresAt": "2026-07-11T19:01:49.000Z"
+    },
     {
       "sourceId": "indian_express_pune",
       "title": "Developing: Lonavala landslides: Central Railway cancels 30 trains till July 17, Deccan Queen hit",
@@ -55,8 +70,8 @@
       "link": "https://indianexpress.com/article/cities/pune/central-railway-30-trains-cancelled-july-17-lonavala-karjat-landslides-10780543/",
       "publishedAt": "2026-07-10T10:51:39.000Z",
       "lastUpdated": "2026-07-10T10:51:39.000Z",
-      "sourceCheckedAt": "2026-07-11T06:39:13.997Z",
-      "lastVerifiedAt": "2026-07-11T06:39:13.997Z",
+      "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
+      "lastVerifiedAt": "2026-07-11T08:29:55.985Z",
       "expiresAt": "2026-07-11T10:51:39.000Z"
     },
     {
@@ -70,8 +85,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/train-cancellations-boost-msrtc-bus-services-between-pune-and-mumbai-101783706811040.html",
       "publishedAt": "2026-07-11T02:51:32.000Z",
       "lastUpdated": "2026-07-11T02:51:32.000Z",
-      "sourceCheckedAt": "2026-07-11T06:39:13.997Z",
-      "lastVerifiedAt": "2026-07-11T06:39:13.997Z",
+      "sourceCheckedAt": "2026-07-11T08:29:55.985Z",
+      "lastVerifiedAt": "2026-07-11T08:29:55.985Z",
       "expiresAt": "2026-07-11T14:51:32.000Z"
     }
   ]
