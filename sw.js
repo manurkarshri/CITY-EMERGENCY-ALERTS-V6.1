@@ -1,7 +1,8 @@
-const CACHE = "city-emergency-alerts-v6-1-20260711-8";
+const CACHE = "city-emergency-alerts-v6-1-20260712-9";
 const APP_SHELL = [
   "./", "./index.html", "./manifest.json", "./config/runtime-config.js",
-  "./assets/icons/icon.svg",
+  "./assets/icons/icon-192.png", "./assets/icons/icon-512.png", "./assets/icons/icon-maskable-512.png",
+  "./assets/icons/apple-touch-icon.png", "./assets/icons/favicon-32.png",
   "./css/base.css", "./css/layout.css", "./css/cards.css", "./css/forms.css", "./css/responsive.css",
   "./js/app.js", "./js/core/location.js", "./js/core/navigation.js", "./js/core/state.js", "./js/core/visit-history.js", "./js/core/connectivity.js",
   "./js/intelligence/alert-monitoring.js", "./js/intelligence/incident-presentation.js", "./js/intelligence/incident-relevance.js", "./js/intelligence/journey-analysis.js",
