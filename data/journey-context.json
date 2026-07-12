@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-12T16:02:22.979Z",
+  "generatedAt": "2026-07-12T16:07:18.185Z",
   "routes": [],
   "risks": [
     {
@@ -13,13 +13,18 @@
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
     },
     {
-      "id": "structural-collapse-developing-pune-building-collapse-death-toll-rises-to-nine-as-last-mis",
-      "category": "structural_collapse",
+      "id": "rescue-operation-developing-pune-moshi-garbage-depot-toll-rises-to-9-as-83-hour-rescue-ope",
+      "category": "rescue_operation",
       "severity": "warning",
-      "localities": [],
-      "talukas": [],
+      "localities": [
+        "Pimpri",
+        "Moshi"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
       "operationalZones": [],
-      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+      "impact": "Emergency access and local movement may be restricted while rescue work continues."
     }
   ]
 }
