@@ -1,13 +1,15 @@
-import { state, filteredEvents, relevantEvents } from "../core/state.js";
+import { state } from "../core/state.js";
+import { hierarchicalIncidentEvents } from "../intelligence/incident-relevance.js";
 import { renderEventList } from "./events.js";
 import { groupIncidentsForCitizens } from "../intelligence/incident-presentation.js";
+import { escapeHtml } from "../utils/format.js";
 
 export function renderIncidents() {
-  const filtered = filteredEvents(state.incidents);
-  const items = relevantEvents(state.incidents);
+  const selection = hierarchicalIncidentEvents(state.incidents, state.selected, state.localitiesConfig);
+  const items = selection.items;
   const groups = groupIncidentsForCitizens(items);
   const incidentCount = groups.publicSafety.length + groups.travel.length + groups.other.length;
-  const note = filtered.length || !items.length ? "" : `<p class="small">Showing broader district incidents because no locality-specific incident matched your current filter.</p>`;
+  const note = fallbackNote(selection.level);
   const sourceNote = state.intelligence?.sourceHealth?.events?.status === "unavailable" ? `<p class="small"><strong>Live incident sources are not connected yet.</strong> No generated or sample incident is being presented as current.</p>` : "";
   document.getElementById("tab-incidents").innerHTML = `
     <section class="card feature">
@@ -18,6 +20,17 @@ export function renderIncidents() {
       ${sourceNote}
     </section>
   ` + renderIncidentGroups(groups, incidentCount);
+}
+
+function fallbackNote(level) {
+  const locality = state.selected.locality;
+  const taluka = state.talukas?.[state.selected.taluka]?.label || "selected Taluka";
+  if (level === "taluka" && locality) return `<p class="small"><strong>No current incident matched ${escapeHtml(locality)}.</strong> Showing current incidents from ${escapeHtml(taluka)} Taluka.</p>`;
+  if (level === "district") {
+    const checked = locality ? `${escapeHtml(locality)} or ${escapeHtml(taluka)} Taluka` : `${escapeHtml(taluka)} Taluka`;
+    return `<p class="small"><strong>No current incident matched ${checked}.</strong> Showing current incidents from Pune District.</p>`;
+  }
+  return "";
 }
 
 function renderIncidentGroups(groups, incidentCount) {

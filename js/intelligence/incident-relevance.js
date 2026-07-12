@@ -1,4 +1,5 @@
-import { canonicalLocality } from "../utils/locality.js";
+import { canonicalLocality, localityMatches } from "../utils/locality.js";
+import { isCurrentEvent } from "../utils/freshness.js";
 
 export function enrichIncidentGeography(items = [], talukas = {}, localityConfig = {}) {
   const localityIndex = Object.entries(talukas).flatMap(([taluka, value]) =>
@@ -20,6 +21,21 @@ export function deduplicateTrafficIncidents(items = []) {
     match ? match.push(item) : groups.push([item]);
   }
   return groups.map(mergeTrafficGroup);
+}
+
+export function hierarchicalIncidentEvents(items = [], selected = {}, localityConfig = {}) {
+  const current = [...items].filter(isCurrentEvent).sort(eventPriority);
+  const taluka = selected.taluka || "";
+  const locality = selected.locality || "";
+  if (locality) {
+    const localityItems = current.filter(item => (item.localities || []).some(value => localityMatches(value, locality, localityConfig)));
+    if (localityItems.length) return { items: localityItems, level: "locality" };
+  }
+  if (taluka) {
+    const talukaItems = current.filter(item => (item.talukas || []).includes(taluka));
+    if (talukaItems.length) return { items: talukaItems, level: "taluka" };
+  }
+  return { items: current, level: current.length ? "district" : "none" };
 }
 
 export function sameTrafficIncident(left, right) {
@@ -48,3 +64,4 @@ function normalize(value) { return String(value || "").toLowerCase().replace(/[^
 function unique(items, key) { const seen = new Set(); return items.filter(item => { const value = key(item); if (seen.has(value)) return false; seen.add(value); return true; }); }
 function latest(values) { return values.filter(Boolean).sort((a, b) => new Date(b) - new Date(a))[0] || null; }
 function haversineKm(a, b) { const rad = value => value * Math.PI / 180; const dLat = rad(b.lat - a.lat); const dLon = rad(b.lon - a.lon); const value = Math.sin(dLat / 2) ** 2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(dLon / 2) ** 2; return 6371 * 2 * Math.atan2(Math.sqrt(value), Math.sqrt(1 - value)); }
+function eventPriority(a, b) { const rank = { emergency: 4, warning: 3, watch: 2, advisory: 1 }; return (rank[b.severity] || 0) - (rank[a.severity] || 0) || (b.confidenceScore || 0) - (a.confidenceScore || 0) || new Date(b.lastUpdated || b.publishedAt || 0) - new Date(a.lastUpdated || a.publishedAt || 0); }

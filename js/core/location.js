@@ -18,13 +18,16 @@ export function setupLocationSelector() {
   const change = document.querySelector(".location-change");
   if (change) change.textContent = "Change";
 
+  if (!state.regions?.[state.selected.region]) {
+    state.selected.region = "pune_district";
+    localStorage.setItem("cea.region", state.selected.region);
+  }
   region.innerHTML = Object.entries(state.regions || {}).map(([key, value]) => `<option value="${key}">${escapeHtml(value.label || key)}</option>`).join("");
   region.value = state.selected.region;
+  region.disabled = Object.keys(state.regions || {}).length === 1;
 
   function refreshTalukas() {
-    const entries = region.value === "pune_city" ? [["pune_city", state.talukas.pune_city]]
-      : region.value === "pcmc" ? [["pcmc", state.talukas.pcmc]]
-      : Object.entries(state.talukas || {});
+    const entries = Object.entries(state.talukas || {});
     taluka.innerHTML = entries.filter(([, value]) => value).map(([key, value]) => `<option value="${key}">${escapeHtml(value.label || key)}</option>`).join("");
     if (!entries.some(([key]) => key === state.selected.taluka)) state.selected.taluka = entries[0]?.[0] || "";
     taluka.value = state.selected.taluka;

@@ -6,7 +6,9 @@ function assert(condition, message) { if (!condition) throw new Error(message); 
 
 const talukas = await loadConfig("talukas.config.json");
 const config = await loadConfig("localities.config.json");
+const regions = await loadConfig("regions.config.json");
 assert(Object.keys(talukas).length === 16, "Pune District should expose all 16 configured talukas");
+assert(Object.keys(regions).length === 1 && regions.pune_district, "Pune District must be the only Region; Pune City and PCMC remain Talukas");
 for (const locality of ["Kalas", "Vishrantwadi", "Sadashiv Peth", "Deccan Gymkhana"]) {
   assert(talukas.pune_city.localities.includes(locality), `${locality} must be under Pune City`);
 }
