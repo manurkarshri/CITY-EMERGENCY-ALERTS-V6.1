@@ -1,8 +1,41 @@
 {
   "schemaVersion": "6.1.0",
   "provider": "Google News RSS",
-  "sourceCheckedAt": "2026-07-12T19:53:14.946Z",
-  "status": "unavailable",
-  "error": "Google News RSS request failed with HTTP 503",
-  "items": []
+  "sourceCheckedAt": "2026-07-12T20:54:20.529Z",
+  "status": "healthy",
+  "error": null,
+  "items": [
+    {
+      "id": "google-news-eecd3215",
+      "publisherId": "indian_express_pune",
+      "publisher": "Indian Express Pune",
+      "title": "Pune building collapse: Death toll rises to nine as last missing person's body recovered",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "publishedAt": "2026-07-12T04:17:15.000Z",
+      "discoveredAt": "2026-07-12T20:54:20.529Z",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWHljbUllTnpfWF9ic3F6S3BZNWdTMTNHcFFkVVJWcG9PRHdGbWk1cmRQbnNwdC1Lbl9SNlBkUmVvSW93Ql83S3ZIeExFS2lqMk1LWTZ1eURYc1Q2ZHlPNWRfSUE5YmpIdTI2eUFrTVM1ckpvUEFOd2l4OEdWVTh4WFQ1RGVwQXNybm8xdGJlUmZtb3ZxcnBNMHZiVlhYZHZkb1dKWWVQVWZDQ2pQZnVIM3VvcFIwSVQ1NGZTS2toa2dud0lPZjdaRVZPeUx2ZXdwZm1HaXlveVdEdWYtOUd5RVQtVGLSAfIBQVVfeXFMTUZCUV9XQ2VEZXhNenJLSWdXbzRLQUtqNzRSblBiN0pBUVVwYmVaYTNsZUM5UV9CN0ZpMHFSUE90WFl3WG1vNl9INF9vQUZqWUx0YTlNdlo5cS1wWkhtOW9KNHRzZHJjeHh4ZmY2RFpvQVAyV05YbGkxQ3ZPaFpZNkZKOUZaSTZ5cVlzZ21BZWZJYkhZeVRQZDZ6N3d2WWhhUjh5dlNqaW1qeFNiS1dkZl8tWFFrdnljR2dBY0plUy1QQ2g2bVFBMkl6MEhXN0I3aXRwT0VQQmdfTDlOWjczaHpNQjEwT1dGQ0VDMlpXYXZXdHc?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "awaiting_direct_article",
+      "verifiedEventIds": []
+    },
+    {
+      "id": "google-news-f90d4c92",
+      "publisherId": "indian_express_pune",
+      "publisher": "Indian Express Pune",
+      "title": "Pune building collapse: Death toll hits 9 with recovery of final body from rubble",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "publishedAt": "2026-07-12T06:15:29.000Z",
+      "discoveredAt": "2026-07-12T20:54:20.529Z",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLXNyQ1FGZUhrZlhibExENFNtSnBobEJsMTRxQ3VsZ1R3UW9DOTM1YXRIYkdIbmlLZTBXdmh0SzdRcU5POHJ6UkZBRzYwV3lOSy1XaDdWVURZRk9mMGowZHVfajk2WDdUeTJpTUlhMFVOZ2VtbDBBQTZmbGJwZ3V2UVlFdlR0bk1SMXlBM1N3MXpUeUN6UnpuSTQ1VXdKa1RMNGxSbkJndFh0bHcyQlBMZDMwVVBhd2R5VzI0ZjhobTdIN3FEQVZZetIBzwFBVV95cUxQdmpsam9TNkM2Q29PdElLWmg4V1o4di1lNXFrTnpJTzZ0bGNDVTd5YThYTjdCQTN0aEZUY0cyaGo0aVNIbkw3R0Y0ckVMNmJaYjhRRzFNamtvSklUaGhfckxNNVExdkFoSnRjTGlmdzdxdWxGaGpTLUczZHZUYlZIejhwd080eUt5aEhzMV9tWjc4SDdaeUZwVzVveE5iaTF1UTZmZFJkeFRrRVMyZVU3Z3VrSHQ0ZHZWcjhveHRVOEFCYWdRa21DWGU1Z1VEaXM?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "verified_direct_article",
+      "verifiedEventIds": [
+        "indian_express_pune:2026-07-12T06:15:29.000Z"
+      ]
+    }
+  ],
+  "collectedItems": 2,
+  "qualifiedItems": 2
 }
