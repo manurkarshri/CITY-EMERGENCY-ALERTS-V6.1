@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-12T07:28:04.000Z",
+  "generatedAt": "2026-07-12T08:54:35.984Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-12T07:28:04.000Z",
+      "generatedAt": "2026-07-12T08:54:35.983Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -37,18 +37,20 @@
         "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 100,
-          "label": "Excellent",
-          "recommendation": "Travel conditions look suitable.",
-          "reasons": [],
+          "score": 70,
+          "label": "Proceed with Caution",
+          "recommendation": "Proceed with caution and allow extra travel time.",
+          "reasons": [
+            "Low visibility may make driving unsafe."
+          ],
           "penalties": []
         },
-        "estimatedTimeMin": 72,
-        "estimatedDelayMin": 0,
+        "estimatedTimeMin": 87,
+        "estimatedDelayMin": 15,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
       },
       "routes": [
         {
@@ -79,18 +81,20 @@
           "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
+            "score": 70,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
+            "reasons": [
+              "Low visibility may make driving unsafe."
+            ],
             "penalties": []
           },
-          "estimatedTimeMin": 72,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 87,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         {
           "id": "kharadi-hinjawadi-nh48",
@@ -123,11 +127,12 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 75,
-            "label": "Good to Go",
-            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "score": 45,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
-              "dam_release may cause delays or safety concerns."
+              "dam_release may cause delays or safety concerns.",
+              "Low visibility may make driving unsafe."
             ],
             "penalties": [
               {
@@ -138,12 +143,12 @@
               }
             ]
           },
-          "estimatedTimeMin": 73,
-          "estimatedDelayMin": 8,
+          "estimatedTimeMin": 90,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Good to Go (75/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: dam_release may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (45/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: dam_release may cause delays or safety concerns."
         }
       ]
     },
@@ -152,7 +157,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-12T07:28:04.000Z",
+      "generatedAt": "2026-07-12T08:54:35.983Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -182,18 +187,20 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 100,
-          "label": "Excellent",
-          "recommendation": "Travel conditions look suitable.",
-          "reasons": [],
+          "score": 70,
+          "label": "Proceed with Caution",
+          "recommendation": "Proceed with caution and allow extra travel time.",
+          "reasons": [
+            "Low visibility may make driving unsafe."
+          ],
           "penalties": []
         },
-        "estimatedTimeMin": 95,
-        "estimatedDelayMin": 0,
+        "estimatedTimeMin": 110,
+        "estimatedDelayMin": 15,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
       },
       "routes": [
         {
@@ -225,18 +232,20 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
+            "score": 70,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
+            "reasons": [
+              "Low visibility may make driving unsafe."
+            ],
             "penalties": []
           },
-          "estimatedTimeMin": 95,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         }
       ]
     },
@@ -245,7 +254,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-12T07:28:04.000Z",
+      "generatedAt": "2026-07-12T08:54:35.984Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
