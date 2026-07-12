@@ -25,6 +25,7 @@ import "./test-official-sources.js";
 import "./test-pwa-offline.js";
 import "./test-collection-health.js";
 import "./test-journey-layout.js";
+import "./test-disclaimer.js";
 
 function assert(condition, message) { if (!condition) throw new Error(message); }
 

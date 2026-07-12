@@ -52,8 +52,10 @@ export function renderSituation() {
       <h2>Updated</h2>
       ${renderUpdateSummary()}
     </section>
+
+    ${renderDisclaimer()}
   `;
-  bindVisitChanges(panel);
+  bindSituationActions(panel);
 }
 
 function renderRiverIntelligence() {
@@ -159,8 +161,44 @@ function renderVisitChanges() {
   }).join("")}</ul>`;
 }
 
-function bindVisitChanges(panel) {
+function bindSituationActions(panel) {
   panel.querySelectorAll(".visit-change").forEach(button => button.addEventListener("click", () => openTab(button.dataset.tab, button.dataset.eventId)));
+  const openDisclaimer = panel.querySelector("#openDisclaimer");
+  const disclaimer = panel.querySelector("#appDisclaimer");
+  openDisclaimer?.addEventListener("click", () => {
+    if (typeof disclaimer?.showModal === "function") disclaimer.showModal();
+    else disclaimer?.setAttribute("open", "");
+  });
+}
+
+function renderDisclaimer() {
+  return `<section class="card disclaimer-banner">
+    <div>
+      <div class="section-kicker">About this intelligence</div>
+      <h2>Data, trust and privacy</h2>
+      <p class="small">How CITY EMERGENCY ALERTS handles source information and your device data.</p>
+    </div>
+    <button id="openDisclaimer" class="secondary-btn" type="button" aria-haspopup="dialog">Read disclaimer</button>
+    <dialog id="appDisclaimer" class="disclaimer-dialog" aria-labelledby="disclaimerTitle">
+      <form method="dialog" class="dialog-close"><button class="secondary-btn" type="submit" aria-label="Close disclaimer">Close</button></form>
+      <div class="section-kicker">CITY EMERGENCY ALERTS</div>
+      <h2 id="disclaimerTitle">About this intelligence</h2>
+      <p>CITY EMERGENCY ALERTS is an independent public-safety information tool for Pune District. It is not an official government emergency-notification service and must not replace instructions issued by emergency authorities.</p>
+      <h3>How information is handled</h3>
+      <p>The app automatically processes currently available information from configured official sources, trusted news providers, weather and transport services, and other permitted data feeds. Information is displayed with its source, time, locality relevance and confidence where available.</p>
+      <p>We do not create, report or independently verify emergency events ourselves. What the app shows depends on source availability, timeliness, accuracy and automated system processing.</p>
+      <h3>How trust is assessed</h3>
+      <p>Official emergency and government sources receive the highest priority. Reports from trusted media, including PTI and ANI, may appear as a <strong>Developing Incident</strong> when relevant to Pune District.</p>
+      <p>A media report is not an official emergency instruction. Confidence increases only when the event is independently corroborated or confirmed by an official source. Republishes of the same PTI or ANI report are treated as one originating report, not multiple confirmations.</p>
+      <p>Stale, unverified, duplicated, geographically unclear or Pune-irrelevant information may be excluded.</p>
+      <h3>Your safety</h3>
+      <p>Conditions can change quickly. Always follow official instructions from emergency services, police, district administration and disaster-management agencies. For immediate danger or a life-threatening emergency, call <strong>112</strong>.</p>
+      <h3>Privacy and device data</h3>
+      <p>This app has no backend server that collects or stores your personal information. Your selected region, locality, checklist progress and visit history are stored only in your browser on your device.</p>
+      <p>If you choose current location or Journey Assistance, your browser requests permission. Route, search, traffic and weather requests are sent directly to the relevant service providers, such as TomTom and Open-Meteo. Precise location history is not stored by this app.</p>
+      <p class="small"><strong>Last reviewed:</strong> July 2026 · Version 6.1</p>
+    </dialog>
+  </section>`;
 }
 
 function explainSituation() {

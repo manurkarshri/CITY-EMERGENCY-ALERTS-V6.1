@@ -4,4 +4,5 @@
   .tabs button{min-width:0;flex:1 1 0;padding:12px 3px;font-size:11px;white-space:nowrap}
   .grid,.call-grid{grid-template-columns:1fr}
   .card{padding:14px;border-radius:16px}
+  .disclaimer-banner{align-items:flex-start;flex-direction:column}.disclaimer-banner .secondary-btn{width:100%}.disclaimer-dialog{padding:18px}
 }
