@@ -10,7 +10,14 @@ import { deduplicateTrafficIncidents, enrichIncidentGeography } from "./intellig
 import { setupConnectivity } from "./core/connectivity.js";
 
 async function init() {
-  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(console.warn);
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if (sessionStorage.getItem("cea.sw-reloaded") === "1") return;
+      sessionStorage.setItem("cea.sw-reloaded", "1");
+      window.location.reload();
+    });
+    navigator.serviceWorker.register("sw.js").catch(console.warn);
+  }
   await loadAllData();
   captureVisitChanges();
   setupLocationSelector();

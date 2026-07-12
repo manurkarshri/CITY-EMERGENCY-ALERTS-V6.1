@@ -1,4 +1,4 @@
-const CACHE = "city-emergency-alerts-v6-1-20260712-11";
+const CACHE = "city-emergency-alerts-v6-1-20260712-12";
 const APP_SHELL = [
   "./", "./index.html", "./manifest.json", "./config/runtime-config.js",
   "./assets/icons/icon-192.png", "./assets/icons/icon-512.png", "./assets/icons/icon-maskable-512.png",
@@ -32,7 +32,7 @@ async function networkFirst(request) {
   const cache = await caches.open(CACHE);
   const cacheRequest = normalizedRequest(request);
   try {
-    const response = await fetch(request);
+    const response = await fetch(request, { cache: "no-store" });
     if (response.ok) await cache.put(cacheRequest, response.clone());
     return response;
   } catch {
