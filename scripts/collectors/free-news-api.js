@@ -1,6 +1,7 @@
 import { classifyIncidentText } from "./indian-express-pune-rss.js";
 import { sourceOrigin } from "../intelligence/source-independence.js";
 import { incidentFreshnessHours } from "../intelligence/life-safety-classification.js";
+import { classifyQualifyingMediaArticle } from "../intelligence/media-article-qualification.js";
 
 const API_URL = "https://api.freenewsapi.io/v1/news";
 const SEARCHES = [{ inTitle: "Pune" }];
@@ -30,8 +31,7 @@ function normalizeArticle(article, checkedAt) {
   const title = clean(article.title);
   const summary = clean(article.subtitle || article.description || "");
   const publisher = publisherName(article.publisher);
-  const text = `${title} ${summary}`;
-  const classification = classifyFreeNewsText(text);
+  const classification = classifyQualifyingMediaArticle(title, summary);
   const publishedAt = isoDate(article.published_at || article.publishedAt);
   const originalUrl = safePublisherUrl(article.original_url || article.url);
   if (!title || !publisher || !ALLOWED_PUBLISHERS.test(publisher) || !classification || !publishedAt || !originalUrl) return null;

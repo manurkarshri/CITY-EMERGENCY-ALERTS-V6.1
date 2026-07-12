@@ -21,4 +21,7 @@ const ptiMarathi = { ...ptiHindi, id: "pti-marathi", source: "Lokmat Pune", titl
 const wireMerged = deduplicateEvents([ptiHindi, ptiMarathi])[0];
 assert(wireMerged.sources.length === 2, "Multilingual copies of a wire report should be grouped");
 assert(!wireMerged.corroboratedByIndependentSources && wireMerged.independentSourceCount === 1, "PTI republication must count as one originating report");
+const initialUpdate = { id: "collapse-1", sourceId: "indian_express_pune", source: "Indian Express Pune", sourceTrust: "B", category: "structural_collapse", title: "Developing: Pune building collapse death toll rises to nine", summary: "Bodies recovered from rubble", publishedAt: "2026-07-11T10:00:00.000Z", sources: [{ name: "Indian Express Pune", link: "https://indianexpress.com/one" }] };
+const followUp = { ...initialUpdate, id: "collapse-2", title: "Developing: Pune building collapse death toll hits 9 after final body recovered", publishedAt: "2026-07-11T11:00:00.000Z", sources: [{ name: "Indian Express Pune", link: "https://indianexpress.com/two" }] };
+assert(deduplicateEvents([initialUpdate, followUp]).length === 1, "Successive same-publisher collapse updates must be merged into one incident");
 console.log("Incident corroboration tests passed.");

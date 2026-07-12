@@ -1,6 +1,7 @@
 import { classifyIncidentText } from "./indian-express-pune-rss.js";
 import { sourceOrigin } from "../intelligence/source-independence.js";
 import { incidentFreshnessHours } from "../intelligence/life-safety-classification.js";
+import { classifyQualifyingMediaArticle } from "../intelligence/media-article-qualification.js";
 
 const API_URL = "https://newsdata.io/api/1/latest";
 const MINIMUM_REFRESH_MS = 30 * 60 * 1000;
@@ -35,8 +36,7 @@ function normalizeArticle(article, checkedAt) {
   const title = clean(article.title);
   const summary = clean(article.description);
   const publisher = String(article.source_name || article.source_id || "");
-  const text = `${title} ${summary}`;
-  const classification = classifyNewsDataText(text);
+  const classification = classifyQualifyingMediaArticle(title, summary);
   const publishedAt = isoDate(article.pubDate || article.pubDateTZ || article.published_at);
   const link = safePublisherUrl(article.link);
   if (!title || !publisher || !ALLOWED_PUBLISHERS.test(publisher) || !classification || !publishedAt || !link) return null;
