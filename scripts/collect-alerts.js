@@ -9,6 +9,7 @@ import { fetchNewsDataIncidents } from "./collectors/newsdata-io.js";
 import { readJson, writeJson } from "./lib/io.js";
 import { log } from "./lib/logger.js";
 import { summarizeCollection } from "./collectors/collection-health.js";
+import { classifyQualifyingMediaArticle } from "./intelligence/media-article-qualification.js";
 
 const previous = await readJson("data/raw-events.json", { items: [] });
 const checkedAt = new Date().toISOString();
@@ -47,7 +48,12 @@ results.forEach((result, index) => {
 function preservedItems(items, sourceId) {
   return (items || []).filter(item => {
     if ((item.collectionSourceId || item.sourceId) !== sourceId || !item.expiresAt || new Date(item.expiresAt) <= new Date()) return false;
-    return !["free_news_api", "newsdata_io"].includes(sourceId) || isStrictPuneHeadline(item.title);
+    if (!["free_news_api", "newsdata_io"].includes(sourceId)) return true;
+    // Re-apply the current qualification rule to cached provider results. This means
+    // a rule improvement takes effect immediately, even when NewsData is waiting
+    // for its deliberately limited refresh interval.
+    return isStrictPuneHeadline(item.title)
+      && Boolean(classifyQualifyingMediaArticle(item.title, item.summary));
   });
 }
 function isStrictPuneHeadline(title) {
