@@ -3,7 +3,7 @@ import { fetchIndianExpressIncidents } from "./collectors/indian-express-pune-rs
 import { fetchHindustanTimesIncidents } from "./collectors/hindustan-times-pune-rss.js";
 import { fetchNdmaSachetAlerts } from "./collectors/ndma-sachet-cap.js";
 import { fetchPuneMetroIncidents } from "./collectors/pune-metro-press-releases.js";
-import { fetchGoogleNewsDiscoveries, corroborateGoogleDiscoveries } from "./collectors/google-news-discovery-rss.js";
+import { fetchGoogleNewsDiscoveries, corroborateGoogleDiscoveries, materializeGoogleDiscoveries } from "./collectors/google-news-discovery-rss.js";
 import { fetchFreeNewsIncidents } from "./collectors/free-news-api.js";
 import { fetchNewsDataIncidents } from "./collectors/newsdata-io.js";
 import { readJson, writeJson } from "./lib/io.js";
@@ -34,7 +34,7 @@ results.forEach((result, index) => {
     const prior = (previous.sources || []).find(source => source.id === sourceId);
     const priorItems = preservedItems(previous.items, sourceId);
     items.push(...(result.value.notModified ? priorItems : result.value));
-    sourceStates.push({ id: sourceId, name, status: "healthy", sourceCheckedAt: checkedAt, lastSuccessfulAt: result.value.skipped ? prior?.lastSuccessfulAt || checkedAt : checkedAt, error: null, etag: result.value.etag || null });
+    sourceStates.push({ id: sourceId, name, status: "healthy", sourceCheckedAt: checkedAt, lastSuccessfulAt: result.value.skipped ? prior?.lastSuccessfulAt || checkedAt : checkedAt, error: null, etag: result.value.etag || null, itemsCollected: (result.value.notModified ? priorItems : result.value).length || 0 });
   }
   else {
     errors.push(`${sourceId}: ${result.reason?.message || "collection failed"}`);
@@ -58,9 +58,14 @@ const collectionHealth = summarizeCollection(sourceStates, errors);
 let discoveryData = { schemaVersion: "6.1.0", provider: "Google News RSS", sourceCheckedAt: checkedAt, status: "unavailable", error: null, items: [] };
 try {
   const discoveries = await fetchGoogleNewsDiscoveries({ checkedAt });
-  discoveryData = { ...discoveryData, status: "healthy", items: corroborateGoogleDiscoveries(discoveries, items) };
+  const verifiedDiscoveries = corroborateGoogleDiscoveries(discoveries, items);
+  const developingIncidents = await materializeGoogleDiscoveries(verifiedDiscoveries, checkedAt);
+  items.push(...developingIncidents);
+  discoveryData = { ...discoveryData, status: "healthy", items: verifiedDiscoveries, collectedItems: discoveries.length, qualifiedItems: developingIncidents.length };
+  sourceStates.push({ id: "google_news_discovery", name: "Google News trusted-media discovery", status: "healthy", sourceCheckedAt: checkedAt, lastSuccessfulAt: checkedAt, error: null, itemsCollected: discoveries.length, itemsQualified: developingIncidents.length });
 } catch (error) {
   discoveryData.error = error?.message || "Google News discovery failed";
+  sourceStates.push({ id: "google_news_discovery", name: "Google News trusted-media discovery", status: "unavailable", sourceCheckedAt: checkedAt, lastSuccessfulAt: null, error: discoveryData.error, itemsCollected: 0, itemsQualified: 0 });
 }
 await writeJson("data/google-news-discovery.json", discoveryData);
 await writeJson("data/raw-events.json", { schemaVersion: "6.1.0", mode: "live", status: collectionHealth.status,
