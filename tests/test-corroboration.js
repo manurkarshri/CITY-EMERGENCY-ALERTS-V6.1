@@ -24,4 +24,7 @@ assert(!wireMerged.corroboratedByIndependentSources && wireMerged.independentSou
 const initialUpdate = { id: "collapse-1", sourceId: "indian_express_pune", source: "Indian Express Pune", sourceTrust: "B", category: "structural_collapse", title: "Developing: Pune building collapse death toll rises to nine", summary: "Bodies recovered from rubble", publishedAt: "2026-07-11T10:00:00.000Z", sources: [{ name: "Indian Express Pune", link: "https://indianexpress.com/one" }] };
 const followUp = { ...initialUpdate, id: "collapse-2", title: "Developing: Pune building collapse death toll hits 9 after final body recovered", publishedAt: "2026-07-11T11:00:00.000Z", sources: [{ name: "Indian Express Pune", link: "https://indianexpress.com/two" }] };
 assert(deduplicateEvents([initialUpdate, followUp]).length === 1, "Successive same-publisher collapse updates must be merged into one incident");
+const liveHeadline = { ...initialUpdate, id: "collapse-live-1", title: "Developing: Pune building collapse: Death toll hits 9 with recovery of final body from rubble" };
+const discoveredHeadline = { ...initialUpdate, id: "collapse-live-2", title: "Developing: Pune building collapse: Death toll rises to nine as last missing person's body recovered", publishedAt: "2026-07-11T11:30:00.000Z" };
+assert(deduplicateEvents([liveHeadline, discoveredHeadline]).length === 1, "Direct and discovery updates for the same publisher collapse must produce one card");
 console.log("Incident corroboration tests passed.");

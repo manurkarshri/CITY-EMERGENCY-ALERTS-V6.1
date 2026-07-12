@@ -39,7 +39,12 @@ function sameSourceUpdateMatch(a, b) {
   const timeA = new Date(a.publishedAt).getTime();
   const timeB = new Date(b.publishedAt).getTime();
   if (!Number.isFinite(timeA) || !Number.isFinite(timeB) || Math.abs(timeA - timeB) > 36 * 36e5) return false;
-  return jaccardSimilarity(a.title, b.title) >= 0.42;
+  const similarity = jaccardSimilarity(a.title, b.title);
+  // Progressive casualty/recovery headlines often replace several words while
+  // describing the same collapse. Keep the relaxed threshold limited to the
+  // same publisher, category and 36-hour window.
+  if (a.category === "structural_collapse") return similarity >= 0.28;
+  return similarity >= 0.42;
 }
 
 function lifeSafetyMatch(a, b) {
