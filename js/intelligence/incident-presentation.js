@@ -12,6 +12,10 @@ export function groupIncidentsForCitizens(items = []) {
   return groups;
 }
 
+export function displayableIncidentItems(items = []) {
+  return items.filter(item => !isTomTomRoadClosure(item));
+}
+
 export function isTomTomRoadClosure(item = {}) {
   const tomtom = item.sourceId === "tomtom_traffic" || String(item.id || "").startsWith("tomtom-traffic-") || /TomTom Traffic/i.test(item.source || "");
   return tomtom && item.category === "road_closure";

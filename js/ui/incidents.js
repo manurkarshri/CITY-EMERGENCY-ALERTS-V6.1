@@ -1,11 +1,13 @@
 import { state } from "../core/state.js";
 import { hierarchicalIncidentEvents } from "../intelligence/incident-relevance.js";
 import { renderEventList } from "./events.js";
-import { groupIncidentsForCitizens } from "../intelligence/incident-presentation.js";
+import { displayableIncidentItems, groupIncidentsForCitizens } from "../intelligence/incident-presentation.js";
 import { escapeHtml } from "../utils/format.js";
+import { isCurrentEvent } from "../utils/freshness.js";
 
 export function renderIncidents() {
-  const selection = hierarchicalIncidentEvents(state.incidents, state.selected, state.localitiesConfig);
+  const allGroups = groupIncidentsForCitizens(state.incidents.filter(isCurrentEvent));
+  const selection = hierarchicalIncidentEvents(displayableIncidentItems(state.incidents), state.selected, state.localitiesConfig);
   const items = selection.items;
   const groups = groupIncidentsForCitizens(items);
   const incidentCount = groups.publicSafety.length + groups.travel.length + groups.other.length;
@@ -19,7 +21,7 @@ export function renderIncidents() {
       ${note}
       ${sourceNote}
     </section>
-  ` + renderIncidentGroups(groups, incidentCount);
+  ` + renderIncidentGroups(groups, incidentCount, allGroups.roadClosures.length);
 }
 
 function fallbackNote(level) {
@@ -33,8 +35,8 @@ function fallbackNote(level) {
   return "";
 }
 
-function renderIncidentGroups(groups, incidentCount) {
-  if (!incidentCount) return `<section class="card empty"><h2>No medium or major incident detected</h2><p>No qualifying public-safety or major travel incident was found in the connected official and trusted sources.</p>${groups.roadClosures.length ? `<p class="small">${groups.roadClosures.length} current road closure${groups.roadClosures.length === 1 ? " is" : "s are"} available under Journey.</p>` : ""}</section>`;
+function renderIncidentGroups(groups, incidentCount, roadClosureCount = 0) {
+  if (!incidentCount) return `<section class="card empty"><h2>No medium or major incident detected</h2><p>No qualifying public-safety or major travel incident was found in the connected official and trusted sources.</p>${roadClosureCount ? `<p class="small">${roadClosureCount} current road closure${roadClosureCount === 1 ? " is" : "s are"} available under Journey.</p>` : ""}</section>`;
   return [
     section("Public safety incidents", "Accidents, fires, flooding, collapse and rescue.", groups.publicSafety),
     section("Major travel incidents", "Serious disruption and dangerous travel conditions. Road closures are in Journey.", groups.travel),
