@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-12T16:07:18.185Z",
+  "generatedAt": "2026-07-12T16:36:30.041Z",
   "sourceStatus": "healthy",
   "items": [
     {
@@ -21,6 +21,18 @@
           "origin": ""
         },
         {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/india-news/pune-moshi-garbage-depot-toll-rises-to-9-as-83-hour-rescue-operation-ends-101783828951314.html",
+          "origin": ""
+        },
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWHljbUllTnpfWF9ic3F6S3BZNWdTMTNHcFFkVVJWcG9PRHdGbWk1cmRQbnNwdC1Lbl9SNlBkUmVvSW93Ql83S3ZIeExFS2lqMk1LWTZ1eURYc1Q2ZHlPNWRfSUE5YmpIdTI2eUFrTVM1ckpvUEFOd2l4OEdWVTh4WFQ1RGVwQXNybm8xdGJlUmZtb3ZxcnBNMHZiVlhYZHZkb1dKWWVQVWZDQ2pQZnVIM3VvcFIwSVQ1NGZTS2toa2dud0lPZjdaRVZPeUx2ZXdwZm1HaXlveVdEdWYtOUd5RVQtVGLSAfIBQVVfeXFMTUZCUV9XQ2VEZXhNenJLSWdXbzRLQUtqNzRSblBiN0pBUVVwYmVaYTNsZUM5UV9CN0ZpMHFSUE90WFl3WG1vNl9INF9vQUZqWUx0YTlNdlo5cS1wWkhtOW9KNHRzZHJjeHh4ZmY2RFpvQVAyV05YbGkxQ3ZPaFpZNkZKOUZaSTZ5cVlzZ21BZWZJYkhZeVRQZDZ6N3d2WWhhUjh5dlNqaW1qeFNiS1dkZl8tWFFrdnljR2dBY0plUy1QQ2g2bVFBMkl6MEhXN0I3aXRwT0VQQmdfTDlOWjczaHpNQjEwT1dGQ0VDMlpXYXZXdHc?oc=5",
+          "origin": ""
+        },
+        {
           "name": "Indian Express Pune",
           "trust": "B",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLXNyQ1FGZUhrZlhibExENFNtSnBobEJsMTRxQ3VsZ1R3UW9DOTM1YXRIYkdIbmlLZTBXdmh0SzdRcU5POHJ6UkZBRzYwV3lOSy1XaDdWVURZRk9mMGowZHVfajk2WDdUeTJpTUlhMFVOZ2VtbDBBQTZmbGJwZ3V2UVlFdlR0bk1SMXlBM1N3MXpUeUN6UnpuSTQ1VXdKa1RMNGxSbkJndFh0bHcyQlBMZDMwVVBhd2R5VzI0ZjhobTdIN3FEQVZZetIBzwFBVV95cUxQdmpsam9TNkM2Q29PdElLWmg4V1o4di1lNXFrTnpJTzZ0bGNDVTd5YThYTjdCQTN0aEZUY0cyaGo0aVNIbkw3R0Y0ckVMNmJaYjhRRzFNamtvSklUaGhfckxNNVExdkFoSnRjTGlmdzdxdWxGaGpTLUczZHZUYlZIejhwd080eUt5aEhzMV9tWjc4SDdaeUZwVzVveE5iaTF1UTZmZFJkeFRrRVMyZVU3Z3VrSHQ0ZHZWcjhveHRVOEFCYWdRa21DWGU1Z1VEaXM?oc=5",
@@ -33,13 +45,13 @@
       "operationalZones": [],
       "publishedAt": "2026-07-12T06:15:29.000Z",
       "lastUpdated": "2026-07-12T06:15:29.000Z",
-      "sourceCheckedAt": "2026-07-12T16:07:14.260Z",
-      "lastVerifiedAt": "2026-07-12T16:07:14.260Z",
-      "intelligenceGeneratedAt": "2026-07-12T16:07:18.185Z",
+      "sourceCheckedAt": "2026-07-12T16:36:25.935Z",
+      "lastVerifiedAt": "2026-07-12T16:36:25.935Z",
+      "intelligenceGeneratedAt": "2026-07-12T16:36:30.041Z",
       "expiresAt": "2026-07-12T18:15:29.000Z",
       "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
+      "confidence": "Medium",
+      "confidenceScore": 63,
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
       "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
       "affectedArea": "",
@@ -49,60 +61,12 @@
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "broader_area",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "rescue-operation-developing-pune-moshi-garbage-depot-toll-rises-to-9-as-83-hour-rescue-ope",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times",
-      "title": "Developing: Pune: Moshi garbage depot toll rises to 9 as 83-hour rescue operation ends",
-      "summary": "The deceased employee was identified as Waman Kasbe. His body was recovered around 1 am on Sunday and taken to Yashwantrao Chavan Memorial Hospital (YCMH) in Pimpri.",
-      "category": "rescue_operation",
-      "severity": "warning",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://www.hindustantimes.com/india-news/pune-moshi-garbage-depot-toll-rises-to-9-as-83-hour-rescue-operation-ends-101783828951314.html",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.hindustantimes.com/india-news/pune-moshi-garbage-depot-toll-rises-to-9-as-83-hour-rescue-operation-ends-101783828951314.html",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Pimpri",
-        "Moshi"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-07-12T04:02:30.000Z",
-      "lastUpdated": "2026-07-12T04:02:30.000Z",
-      "sourceCheckedAt": "2026-07-12T16:07:14.260Z",
-      "lastVerifiedAt": "2026-07-12T16:07:14.260Z",
-      "intelligenceGeneratedAt": "2026-07-12T16:07:18.185Z",
-      "expiresAt": "2026-07-13T16:02:30.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "Emergency access and local movement may be restricted while rescue work continues.",
-      "recommendedAction": "Keep clear of the site and do not obstruct emergency vehicles.",
-      "affectedArea": "",
-      "upstreamId": "f3b39184e550f0f1e8f7e4c5e9228f51",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
       "relatedEventIds": [
-        "structural-collapse-developing-moshi-accident-waiting-for-a-miracle-finding-heartbreak-as-"
+        "rescue-operation-developing-pune-moshi-garbage-depot-toll-rises-to-9-as-83-hour-rescue-ope",
+        "structural-collapse-developing-pune-building-collapse-death-toll-rises-to-nine-as-last-mis"
       ],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
+      "independentSourceCount": 2,
+      "corroboratedByIndependentSources": true
     }
   ]
 }
