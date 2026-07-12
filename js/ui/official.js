@@ -35,9 +35,10 @@ export const OFFICIAL_SOURCE_GROUPS = [
 export const TRUSTED_MEDIA_SOURCES = [
   ["Indian Express Pune", "https://indianexpress.com/section/cities/pune/", "indian_express_pune"],
   ["Hindustan Times Pune", "https://www.hindustantimes.com/cities/pune-news", "hindustan_times_pune"],
-  ["eSakal Pune", "https://www.esakal.com/pune", null], ["Lokmat Pune", "https://www.lokmat.com/pune/", null], ["Loksatta Pune", "https://www.loksatta.com/pune/", null],
-  ["Maharashtra Times Pune", "https://maharashtratimes.com/maharashtra/pune-news/articlelist/65119369.cms", null],
-  ["ABP Majha Pune", "https://marathi.abplive.com/tv-show/pune", null], ["TV9 Marathi", "https://www.tv9marathi.com/", null]
+  ["PTI", "https://www.ptinews.com/", null], ["ANI", "https://www.aninews.in/", null], ["IANS", "https://ians.in/", null],
+  ["The Hindu", "https://www.thehindu.com/", null], ["Deccan Herald", "https://www.deccanherald.com/", null], ["Times of India", "https://timesofindia.indiatimes.com/", null], ["The Telegraph", "https://www.telegraphindia.com/", null], ["NDTV", "https://www.ndtv.com/", null], ["India Today", "https://www.indiatoday.in/", null],
+  ["eSakal Pune", "https://www.esakal.com/pune", null], ["Lokmat Pune", "https://www.lokmat.com/pune/", null], ["Loksatta Pune", "https://www.loksatta.com/pune/", null], ["Maharashtra Times Pune", "https://maharashtratimes.com/maharashtra/pune-news/articlelist/65119369.cms", null], ["Pudhari", "https://pudhari.news/", null], ["Divya Marathi", "https://divyamarathi.bhaskar.com/", null], ["Gomantak", "https://www.gomantaktimes.com/", null], ["Agrowon", "https://agrowon.esakal.com/", null], ["Punekar News", "https://www.punekarnews.in/", null], ["Pune Pulse", "https://www.thepunepulse.com/", null],
+  ["ABP Majha Pune", "https://marathi.abplive.com/", null], ["News18 Lokmat", "https://lokmat.news18.com/", null], ["TV9 Marathi", "https://www.tv9marathi.com/", null], ["Saam TV", "https://saamtv.com/", null]
 ];
 
 export function renderOfficial() {

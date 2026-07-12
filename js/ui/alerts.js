@@ -14,7 +14,7 @@ export function renderAlerts() {
     <section class="card feature">
       <div class="section-kicker">Warnings</div>
       <h2>Alerts</h2>
-      <p>Official emergency warnings and advisories relevant to your area.</p>
+      <p>Official emergency warnings, plus clearly labelled media-correlated alerts awaiting official confirmation.</p>
       ${note}
       ${sourceNote}
     </section>

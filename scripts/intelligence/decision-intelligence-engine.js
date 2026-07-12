@@ -7,6 +7,7 @@ import { assessConfidence } from "./confidence.js";
 import { applyLifecycle } from "./lifecycle.js";
 import { assessImpact } from "./impact.js";
 import { isActiveEvent } from "./freshness.js";
+import { promoteCorroboratedMediaAlert } from "./media-alert-promotion.js";
 import { loadConfig } from "../lib/config.js";
 
 export async function runDecisionIntelligencePipeline() {
@@ -22,7 +23,8 @@ export async function runDecisionIntelligencePipeline() {
   const enriched = [];
   for (const event of correlated) {
     const confidence = assessConfidence(event);
-    enriched.push(await assessImpact(applyLifecycle({ ...event, ...confidence }, { freshnessHours: config.freshnessHours })));
+    const classified = promoteCorroboratedMediaAlert({ ...event, ...confidence });
+    enriched.push(await assessImpact(applyLifecycle(classified, { freshnessHours: config.freshnessHours })));
   }
 
   const generatedAt = new Date().toISOString();

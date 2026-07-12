@@ -1,14 +1,5 @@
+import { classifyLifeSafetyText } from "../intelligence/life-safety-classification.js";
 const FEED_URL = "https://indianexpress.com/section/cities/pune/feed/";
-const RULES = [
-  { category: "road_closure", severity: "watch", pattern: /road\s+(?:closed|closure)|traffic\s+diversion|route\s+diversion|ghat\s+closed/i },
-  { category: "flood", severity: "watch", pattern: /flood|waterlog|inundat|river\s+(?:overflow|level)|dam\s+(?:release|discharge)/i },
-  { category: "landslide", severity: "watch", pattern: /(?:landslide|rockfall)(?=[\s\S]*(?:block|clos|cancel|disrupt|traffic|train|road|rail|rescue|evacuat))/i },
-  { category: "fire", severity: "watch", pattern: /major\s+fire|fire\s+breaks?\s+out|blaze/i },
-  { category: "transport_disruption", severity: "advisory", pattern: /train\s+(?:cancel|disrupt)|metro\s+(?:disrupt|suspend)|flight\s+(?:cancel|divert)|expressway\s+(?:blocked|closed)/i },
-  { category: "power_outage", severity: "advisory", pattern: /power\s+(?:cut|outage)|electricity\s+(?:supply|outage).*(?:disrupt|suspend)/i },
-  { category: "water_supply", severity: "advisory", pattern: /water\s+supply.*(?:disrupt|suspend|cut|affected)/i },
-  { category: "accident", severity: "watch", pattern: /(?:major|fatal|multiple-vehicle|multi-vehicle)\s+(?:road\s+)?(?:accident|crash|collision)|vehicle\s+overturn/i }
-];
 
 export async function fetchIndianExpressIncidents(options = {}) {
   const fetchImpl = options.fetchImpl || globalThis.fetch;
@@ -39,7 +30,7 @@ function parseItem(xml, checkedAt) {
     expiresAt: new Date(new Date(publishedAt).getTime() + (classification.severity === "watch" ? 24 : 12) * 36e5).toISOString() };
 }
 
-export function classifyIncidentText(text) { return RULES.find(rule => rule.pattern.test(text)) || null; }
+export function classifyIncidentText(text) { return classifyLifeSafetyText(text); }
 
 function field(xml, name) { const match = String(xml).match(new RegExp(`<${name}\\b[^>]*>([\\s\\S]*?)<\\/${name}>`, "i")); return decodeXml((match?.[1] || "").replace(/^\s*<!\[CDATA\[|\]\]>\s*$/g, "").trim()); }
 function clean(value) { return value.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(); }

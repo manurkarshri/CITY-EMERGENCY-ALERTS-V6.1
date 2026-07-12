@@ -1,14 +1,34 @@
 import { classifyIncidentText } from "./indian-express-pune-rss.js";
 import { jaccardSimilarity } from "../lib/similarity.js";
 import { detectLocality } from "../intelligence/locality.js";
+import { incidentFreshnessHours } from "../intelligence/life-safety-classification.js";
 
 const FEED_URLS = [
-  "https://news.google.com/rss/search?q=Pune%20(PMC%20OR%20PCMC%20OR%20Pimpri%20OR%20Chinchwad)%20(accident%20OR%20fire%20OR%20flood%20OR%20landslide%20OR%20road%20closure%20OR%20emergency)&hl=en-IN&gl=IN&ceid=IN:en",
-  "https://news.google.com/rss/search?q=%E0%A4%AA%E0%A5%81%E0%A4%A3%E0%A5%87%20(%E0%A4%85%E0%A4%AA%E0%A4%98%E0%A4%BE%E0%A4%A4%20OR%20%E0%A4%86%E0%A4%97%20OR%20%E0%A4%AA%E0%A5%82%E0%A4%B0%20OR%20%E0%A4%A6%E0%A4%B0%E0%A4%A1%20OR%20%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%20%E0%A4%AC%E0%A4%82%E0%A4%A6%20OR%20%E0%A4%86%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80)&hl=mr&gl=IN&ceid=IN:mr",
-  "https://news.google.com/rss/search?q=%E0%A4%AA%E0%A5%81%E0%A4%A3%E0%A5%87%20(%E0%A4%B9%E0%A4%BE%E0%A4%A6%E0%A4%B8%E0%A4%BE%20OR%20%E0%A4%86%E0%A4%97%20OR%20%E0%A4%AC%E0%A4%BE%E0%A4%A2%E0%A4%BC%20OR%20%E0%A4%AD%E0%A5%82%E0%A4%B8%E0%A5%8D%E0%A4%96%E0%A4%B2%E0%A4%A8%20OR%20%E0%A4%B8%E0%A4%A1%E0%A4%BC%E0%A4%95%20%E0%A4%AC%E0%A4%82%E0%A4%A6%20OR%20%E0%A4%86%E0%A4%AA%E0%A4%A6%E0%A4%BE)&hl=hi&gl=IN&ceid=IN:hi"
+  googleSearch("Pune (PMC OR PCMC OR Pimpri OR Chinchwad) (accident OR fire OR flood OR landslide OR road closure OR building collapse OR wall collapse OR rescue OR trapped OR explosion OR gas leak OR emergency)", "en"),
+  googleSearch("\u092a\u0941\u0923\u0947 (\u0905\u092a\u0918\u093e\u0924 OR \u0906\u0917 OR \u092a\u0942\u0930 OR \u0926\u0930\u0921 OR \u0930\u0938\u094d\u0924\u093e \u092c\u0902\u0926 OR \u0907\u092e\u093e\u0930\u0924 \u0915\u094b\u0938\u0933\u0932\u0940 OR \u092c\u091a\u093e\u0935 OR \u0938\u094d\u092b\u094b\u091f OR \u0906\u092a\u0924\u094d\u0924\u0940)", "mr"),
+  googleSearch("\u092a\u0941\u0923\u0947 (\u0939\u093e\u0926\u0938\u093e OR \u0906\u0917 OR \u092c\u093e\u0922\u093c OR \u092d\u0942\u0938\u094d\u0916\u0932\u0928 OR \u0938\u0921\u093c\u0915 \u092c\u0902\u0926 OR \u0907\u092e\u093e\u0930\u0924 \u0917\u093f\u0930\u0928\u093e OR \u092c\u091a\u093e\u0935 OR \u0938\u094d\u092b\u094b\u091f OR \u0906\u092a\u0926\u093e)", "hi")
 ];
 
+function googleSearch(query, language) {
+  return `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=${language}-IN&gl=IN&ceid=IN:${language}`;
+}
+
 const PUBLISHERS = [
+  { id: "ians", name: "IANS", aliases: ["IANS", "Indo-Asian News Service"] },
+  { id: "the_hindu", name: "The Hindu", aliases: ["The Hindu"] },
+  { id: "deccan_herald", name: "Deccan Herald", aliases: ["Deccan Herald"] },
+  { id: "times_of_india", name: "Times of India", aliases: ["Times of India", "The Times of India"] },
+  { id: "the_telegraph", name: "The Telegraph", aliases: ["The Telegraph"] },
+  { id: "ndtv", name: "NDTV", aliases: ["NDTV"] },
+  { id: "india_today", name: "India Today", aliases: ["India Today"] },
+  { id: "pudhari", name: "Pudhari", aliases: ["Pudhari"] },
+  { id: "divya_marathi", name: "Divya Marathi", aliases: ["Divya Marathi"] },
+  { id: "gomantak", name: "Gomantak", aliases: ["Gomantak"] },
+  { id: "agrowon", name: "Agrowon", aliases: ["Agrowon"] },
+  { id: "punekar_news", name: "Punekar News", aliases: ["Punekar News"] },
+  { id: "pune_pulse", name: "Pune Pulse", aliases: ["Pune Pulse"] },
+  { id: "news18_lokmat", name: "News18 Lokmat", aliases: ["News18 Lokmat", "News18 Marathi"] },
+  { id: "saam_tv", name: "Saam TV", aliases: ["Saam TV"] },
   { id: "pti", name: "PTI", aliases: ["PTI", "Press Trust of India"] },
   { id: "ani", name: "ANI", aliases: ["ANI", "Asian News International"] },
   { id: "indian_express_pune", name: "Indian Express Pune", aliases: ["The Indian Express", "Indian Express"] },
@@ -56,7 +76,7 @@ export async function materializeGoogleDiscoveries(discoveries = [], checkedAt =
       category: discovery.category, severity: discovery.severity, source: discovery.publisher, sourceTrust: "B", link: discovery.discoveryLink,
       sourceOrigin: ["pti", "ani"].includes(discovery.publisherId) ? discovery.publisherId : "",
       publishedAt: discovery.publishedAt, lastUpdated: discovery.publishedAt, sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt,
-      expiresAt: new Date(publishedAt.getTime() + (discovery.severity === "watch" ? 18 : 12) * 36e5).toISOString(),
+      expiresAt: new Date(publishedAt.getTime() + incidentFreshnessHours(discovery) * 36e5).toISOString(),
       collectionProvider: "Google News RSS", discoveryOnly: true,
       geographicScope: location.localities.length || location.talukas.length ? "local" : "pune_district",
       affectedArea: location.localities.join(", ") || "Pune District", talukas: location.talukas, localities: location.localities

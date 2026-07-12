@@ -1,9 +1,10 @@
 import { classifyIncidentText } from "./indian-express-pune-rss.js";
 import { sourceOrigin } from "../intelligence/source-independence.js";
+import { incidentFreshnessHours } from "../intelligence/life-safety-classification.js";
 
 const API_URL = "https://newsdata.io/api/1/latest";
 const MINIMUM_REFRESH_MS = 30 * 60 * 1000;
-const ALLOWED_PUBLISHERS = /Indian Express|Hindustan Times|Live Hindustan|e?Sakal|Lokmat|Loksatta|Maharashtra Times|ABP Majha|ABP Live Marathi|ABP News|TV9 Marathi|News18 Hindi|Dainik Bhaskar|Amar Ujala|Press Trust of India|\bPTI\b|Asian News International|\bANI\b/i;
+const ALLOWED_PUBLISHERS = /Indian Express|Hindustan Times|Live Hindustan|e?Sakal|Lokmat|Loksatta|Maharashtra Times|ABP Majha|ABP Live Marathi|ABP News|TV9 Marathi|News18(?: Hindi| Lokmat| Marathi)?|Dainik Bhaskar|Amar Ujala|Press Trust of India|\bPTI\b|Asian News International|\bANI\b|\bIANS\b|The Hindu|Deccan Herald|Times of India|The Telegraph|\bNDTV\b|India Today|Pudhari|Divya Marathi|Gomantak|Agrowon|Punekar News|Pune Pulse|Saam TV/i;
 
 export async function fetchNewsDataIncidents(options = {}) {
   const apiKey = options.apiKey || process.env.NEWSDATA_API_KEY;
@@ -14,8 +15,7 @@ export async function fetchNewsDataIncidents(options = {}) {
   const url = new URL(API_URL);
   url.searchParams.set("apikey", apiKey);
   url.searchParams.set("country", "in");
-  url.searchParams.set("q", "Pune OR PCMC OR Pimpri");
-  url.searchParams.set("category", "crime,environment");
+  url.searchParams.set("q", "Pune OR PCMC OR Pimpri OR Chinchwad OR Hadapsar OR Hinjawadi");
   const response = await fetchWithTimeout(fetchImpl, url, options.timeoutMs || 20000);
   if (!response.ok) throw new Error(`NewsData.io request failed with HTTP ${response.status}`);
   return normalizeNewsDataResponse(await response.json(), checkedAt);
@@ -46,7 +46,7 @@ function normalizeArticle(article, checkedAt) {
     title: `Developing: ${title}`, summary: summary || title, category: classification.category, severity: classification.severity,
     source: canonicalPublisher(publisher), sourceTrust: "B", link, publishedAt, lastUpdated: publishedAt,
     sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt,
-    expiresAt: new Date(new Date(publishedAt).getTime() + (classification.severity === "watch" ? 24 : 12) * 36e5).toISOString(),
+    expiresAt: new Date(new Date(publishedAt).getTime() + incidentFreshnessHours(classification) * 36e5).toISOString(),
     collectionProvider: "NewsData.io", sourceOrigin: sourceOrigin(`${publisher} ${title} ${summary}`)
   };
 }
@@ -85,10 +85,25 @@ function canonicalPublisher(value) {
   if (/Maharashtra Times/i.test(value)) return "Maharashtra Times Pune";
   if (/ABP Majha|ABP Live Marathi/i.test(value)) return "ABP Majha Pune";
   if (/ABP News/i.test(value)) return "ABP News Pune";
+  if (/News18 Lokmat|News18 Marathi/i.test(value)) return "News18 Lokmat";
   if (/News18 Hindi/i.test(value)) return "News18 Hindi Pune";
   if (/Dainik Bhaskar/i.test(value)) return "Dainik Bhaskar Pune";
   if (/Amar Ujala/i.test(value)) return "Amar Ujala Pune";
   if (/TV9/i.test(value)) return "TV9 Marathi Pune";
+  if (/\bIANS\b/i.test(value)) return "IANS";
+  if (/The Hindu/i.test(value)) return "The Hindu";
+  if (/Deccan Herald/i.test(value)) return "Deccan Herald";
+  if (/Times of India/i.test(value)) return "Times of India";
+  if (/The Telegraph/i.test(value)) return "The Telegraph";
+  if (/\bNDTV\b/i.test(value)) return "NDTV";
+  if (/India Today/i.test(value)) return "India Today";
+  if (/Pudhari/i.test(value)) return "Pudhari";
+  if (/Divya Marathi/i.test(value)) return "Divya Marathi";
+  if (/Gomantak/i.test(value)) return "Gomantak";
+  if (/Agrowon/i.test(value)) return "Agrowon";
+  if (/Punekar News/i.test(value)) return "Punekar News";
+  if (/Pune Pulse/i.test(value)) return "Pune Pulse";
+  if (/Saam TV/i.test(value)) return "Saam TV";
   if (/Press Trust of India|\bPTI\b/i.test(value)) return "PTI";
   if (/Asian News International|\bANI\b/i.test(value)) return "ANI";
   return value;

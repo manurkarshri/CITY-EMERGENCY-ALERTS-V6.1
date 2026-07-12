@@ -16,6 +16,41 @@
       "action": "Avoid the affected stretch if possible."
     },
     {
+      "category": "structural_collapse",
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "action": "Avoid the immediate area and follow police, fire-service or civic instructions."
+    },
+    {
+      "category": "rescue_operation",
+      "impact": "Emergency access and local movement may be restricted while rescue work continues.",
+      "action": "Keep clear of the site and do not obstruct emergency vehicles."
+    },
+    {
+      "category": "explosion",
+      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required.",
+      "action": "Move away from the area and follow emergency-service instructions immediately."
+    },
+    {
+      "category": "chemical_hazard",
+      "impact": "Hazardous fumes or a chemical release may affect nearby people and travel routes.",
+      "action": "Avoid the area, do not approach the source, and follow official safety instructions."
+    },
+    {
+      "category": "electrical_hazard",
+      "impact": "Live electrical equipment or fallen wires may create a serious shock risk.",
+      "action": "Keep away from wires and report the hazard to emergency or electricity authorities."
+    },
+    {
+      "category": "water_rescue",
+      "impact": "Water conditions may be dangerous near the affected location.",
+      "action": "Avoid the water and riverbanks and leave rescue access clear."
+    },
+    {
+      "category": "public_safety",
+      "impact": "The incident may create an immediate safety risk in the affected area.",
+      "action": "Avoid the area and follow police or emergency-service instructions."
+    },
+    {
       "category": "road_closure",
       "impact": "Route may be blocked or diverted.",
       "action": "Use an alternate route and check official updates."

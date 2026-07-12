@@ -16,5 +16,8 @@ assert(hindi.length === 1 && hindi[0].publisherId === "ani" && hindi[0].category
 const wariXml = `<?xml version="1.0"?><rss><channel><item><title>\u092a\u0941\u0923\u0947-\u0938\u094b\u0932\u093e\u092a\u0942\u0930 \u0930\u0938\u094d\u0924\u094d\u092f\u093e\u0935\u0930\u0940\u0932 \u0935\u093e\u0939\u0924\u0941\u0915\u0940\u0924 \u092c\u0926\u0932 - Lokmat</title><link>https://news.google.com/mr/wari</link><pubDate>Sat, 11 Jul 2026 10:20:00 GMT</pubDate><source>Lokmat</source></item></channel></rss>`;
 const wari = normalizeGoogleNewsRss(wariXml, checkedAt);
 assert(wari.length === 1 && wari[0].category === "road_closure", "Solapur road wording must not be misclassified as a flood");
+const collapseXml = `<?xml version="1.0"?><rss><channel><item><title>Pune building collapse leaves workers trapped - NDTV</title><link>https://news.google.com/collapse</link><pubDate>Sat, 11 Jul 2026 10:30:00 GMT</pubDate><source>NDTV</source></item></channel></rss>`;
+const collapse = normalizeGoogleNewsRss(collapseXml, checkedAt);
+assert(collapse.length === 1 && collapse[0].publisherId === "ndtv" && collapse[0].category === "structural_collapse", "Trusted Pune structural-collapse reporting must be retained");
 console.log("Google News discovery tests passed.");
 function assert(condition, message) { if (!condition) throw new Error(message); }
