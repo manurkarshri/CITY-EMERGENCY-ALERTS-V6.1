@@ -1,4 +1,5 @@
 import { escapeHtml, escapeAttr, relativeTime, severityLabel } from "../utils/format.js";
+import { independentSourceCount } from "../../scripts/intelligence/source-independence.js";
 
 export function renderEventList(items, emptyText) {
   if (!items.length) return `<section class="card empty">${escapeHtml(emptyText)}</section>`;
@@ -13,7 +14,7 @@ export function renderEventList(items, emptyText) {
       <p class="event-meta">Updated ${relativeTime(item.lastVerifiedAt || item.sourceCheckedAt)} · ${escapeHtml(item.lifecycle || "active")}</p>
       <details class="event-details"><summary>Source and confidence</summary>
         <p class="event-meta">Confidence: ${escapeHtml(item.confidence || "Unknown")} · Trust: ${escapeHtml(item.sourceTrust || "N/A")}</p>
-        ${item.sourceTrust === "B" ? `<p class="event-meta"><strong>Corroboration:</strong> ${item.corroboratedByIndependentSources ? `${new Set((item.sources || []).map(source => source.name)).size} independent trusted sources` : "Not yet independently confirmed; treat as developing"}</p>` : ""}
+        ${item.sourceTrust === "B" ? `<p class="event-meta"><strong>Corroboration:</strong> ${item.corroboratedByIndependentSources ? `${item.independentSourceCount || independentSourceCount(item.sources || [])} independent trusted sources` : "Not yet independently confirmed; treat as developing"}</p>` : ""}
         <p class="event-meta">Published ${relativeTime(item.publishedAt)} · Source checked ${relativeTime(item.sourceCheckedAt)}</p>
       </details>
       <div class="source-list">

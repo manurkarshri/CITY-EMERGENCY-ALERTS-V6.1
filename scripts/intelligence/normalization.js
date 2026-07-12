@@ -20,7 +20,7 @@ export async function normalizeRawEvent(raw = {}) {
     severity: classification.severity,
     source: raw.source || "Unknown",
     sourceTrust: raw.sourceTrust || "D",
-    sources: [{ name: raw.source || "Unknown", trust: raw.sourceTrust || "D", link: raw.link || "" }],
+    sources: [{ name: raw.source || "Unknown", trust: raw.sourceTrust || "D", link: raw.link || "", origin: raw.sourceOrigin || "" }],
     link: raw.link || "",
     publishedAt: raw.publishedAt || new Date().toISOString(),
     lastUpdated: raw.lastUpdated || raw.publishedAt || new Date().toISOString(),

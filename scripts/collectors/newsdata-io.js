@@ -1,8 +1,9 @@
 import { classifyIncidentText } from "./indian-express-pune-rss.js";
+import { sourceOrigin } from "../intelligence/source-independence.js";
 
 const API_URL = "https://newsdata.io/api/1/latest";
 const MINIMUM_REFRESH_MS = 30 * 60 * 1000;
-const ALLOWED_PUBLISHERS = /Indian Express|Hindustan Times|Live Hindustan|e?Sakal|Lokmat|Loksatta|Maharashtra Times|ABP Majha|ABP Live Marathi|ABP News|TV9 Marathi|News18 Hindi|Dainik Bhaskar|Amar Ujala/i;
+const ALLOWED_PUBLISHERS = /Indian Express|Hindustan Times|Live Hindustan|e?Sakal|Lokmat|Loksatta|Maharashtra Times|ABP Majha|ABP Live Marathi|ABP News|TV9 Marathi|News18 Hindi|Dainik Bhaskar|Amar Ujala|Press Trust of India|\bPTI\b|Asian News International|\bANI\b/i;
 
 export async function fetchNewsDataIncidents(options = {}) {
   const apiKey = options.apiKey || process.env.NEWSDATA_API_KEY;
@@ -46,7 +47,7 @@ function normalizeArticle(article, checkedAt) {
     source: canonicalPublisher(publisher), sourceTrust: "B", link, publishedAt, lastUpdated: publishedAt,
     sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt,
     expiresAt: new Date(new Date(publishedAt).getTime() + (classification.severity === "watch" ? 24 : 12) * 36e5).toISOString(),
-    collectionProvider: "NewsData.io"
+    collectionProvider: "NewsData.io", sourceOrigin: sourceOrigin(`${publisher} ${title} ${summary}`)
   };
 }
 
@@ -88,6 +89,8 @@ function canonicalPublisher(value) {
   if (/Dainik Bhaskar/i.test(value)) return "Dainik Bhaskar Pune";
   if (/Amar Ujala/i.test(value)) return "Amar Ujala Pune";
   if (/TV9/i.test(value)) return "TV9 Marathi Pune";
+  if (/Press Trust of India|\bPTI\b/i.test(value)) return "PTI";
+  if (/Asian News International|\bANI\b/i.test(value)) return "ANI";
   return value;
 }
 function publisherId(value) { return canonicalPublisher(value).toLowerCase().replace(/\s+pune$/, "").replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, ""); }
