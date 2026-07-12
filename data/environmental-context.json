@@ -1,10 +1,10 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-12T15:34:32.718Z",
+  "generatedAt": "2026-07-12T15:35:42.583Z",
   "weatherSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
-    "lastSuccessfulAt": "2026-07-12T15:34:26.867Z",
+    "sourceCheckedAt": "2026-07-12T15:35:34.765Z",
+    "lastSuccessfulAt": "2026-07-12T15:35:34.765Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
@@ -14,12 +14,12 @@
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-12T15:34:31.576Z",
-    "lastSuccessfulAt": "2026-07-12T15:34:31.576Z",
+    "sourceCheckedAt": "2026-07-12T15:35:41.395Z",
+    "lastSuccessfulAt": "2026-07-12T15:35:41.395Z",
     "error": null
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-07-12T15:34:32.716Z",
+    "generatedAt": "2026-07-12T15:35:42.581Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -27,7 +27,7 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+        "sourceCheckedAt": "2026-07-12T15:35:34.765Z",
         "observedAt": "2026-07-12T21:00:00+05:30",
         "temp": 23.7,
         "currentRain": 0,
@@ -53,7 +53,7 @@
         "longitude": 73.76471,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+        "sourceCheckedAt": "2026-07-12T15:35:34.765Z",
         "observedAt": "2026-07-12T21:00:00+05:30",
         "temp": 23.8,
         "currentRain": 0,
@@ -79,7 +79,7 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+        "sourceCheckedAt": "2026-07-12T15:35:34.765Z",
         "observedAt": "2026-07-12T21:00:00+05:30",
         "temp": 23.7,
         "currentRain": 0,
@@ -105,7 +105,7 @@
         "longitude": 73.51617,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+        "sourceCheckedAt": "2026-07-12T15:35:34.765Z",
         "observedAt": "2026-07-12T21:00:00+05:30",
         "temp": 22.7,
         "currentRain": 0.1,
@@ -131,7 +131,7 @@
         "longitude": 73.451324,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+        "sourceCheckedAt": "2026-07-12T15:35:34.765Z",
         "observedAt": "2026-07-12T21:00:00+05:30",
         "temp": 22.6,
         "currentRain": 0,
@@ -166,10 +166,10 @@
       "influenceRadiusKm": 3,
       "status": "normal",
       "trend": "steady",
-      "level": 537.82,
+      "level": 537.8,
       "alertLevel": 547,
       "dangerLevel": 548,
-      "dischargeCumecs": 8.91,
+      "dischargeCumecs": 8.81,
       "rsi": 10,
       "severity": "advisory",
       "downstreamLocalities": [
@@ -183,14 +183,14 @@
       "timeline": {
         "state": "monitoring",
         "note": "Koregaon Bhima river level is normal.",
-        "updatedAt": "2026-07-12T15:34:32.716Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
           "source": "Maharashtra WRD RTDAS",
           "sourceTrust": "A",
           "type": "official",
-          "observedAt": "2026-07-12T20:45:00+05:30",
+          "observedAt": "2026-07-12T21:00:00+05:30",
           "link": "",
           "note": ""
         }
@@ -228,7 +228,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Paragaon river level is normal.",
-        "updatedAt": "2026-07-12T15:34:32.717Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
@@ -272,7 +272,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Daund river level is normal.",
-        "updatedAt": "2026-07-12T15:34:32.717Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
@@ -316,7 +316,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Umbre Kasurdi river level is normal.",
-        "updatedAt": "2026-07-12T15:34:32.717Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
@@ -363,7 +363,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Dattawadi river level is normal.",
-        "updatedAt": "2026-07-12T15:34:32.717Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
@@ -410,7 +410,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Kalyani nagar Bridge river level is normal.",
-        "updatedAt": "2026-07-12T15:34:32.717Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
@@ -457,7 +457,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Pimple Gurav river level is normal.",
-        "updatedAt": "2026-07-12T15:34:32.717Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
@@ -498,7 +498,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Veer Dam: 100% storage.",
-        "updatedAt": "2026-07-12T15:34:32.717Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
@@ -537,7 +537,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Bhatghar Dam: 51.94% storage.",
-        "updatedAt": "2026-07-12T15:34:32.717Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
@@ -585,7 +585,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Khadakwasla Dam: 100% storage.",
-        "updatedAt": "2026-07-12T15:34:32.717Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
@@ -627,7 +627,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Temghar Dam: 39.04% storage.",
-        "updatedAt": "2026-07-12T15:34:32.717Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
@@ -668,7 +668,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Mulshi Dam: 70.84% storage.",
-        "updatedAt": "2026-07-12T15:34:32.717Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
@@ -710,7 +710,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Pawna Dam: 75.78% storage.",
-        "updatedAt": "2026-07-12T15:34:32.717Z"
+        "updatedAt": "2026-07-12T15:35:42.582Z"
       },
       "evidence": [
         {
@@ -727,7 +727,7 @@
     }
   ],
   "seasonalIntelligence": {
-    "generatedAt": "2026-07-12T15:34:32.718Z",
+    "generatedAt": "2026-07-12T15:35:42.583Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -740,7 +740,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-07-12T15:34:32.717Z",
+    "generatedAt": "2026-07-12T15:35:42.583Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -821,7 +821,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-07-12T15:34:32.718Z",
+    "generatedAt": "2026-07-12T15:35:42.583Z",
     "mode": "on-demand",
     "relevantDomains": [
       "highways"
@@ -859,7 +859,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-07-12T15:34:32.718Z",
+    "generatedAt": "2026-07-12T15:35:42.583Z",
     "riskLevel": "Normal",
     "impacts": [
       "2 active transport-related event(s) may affect travel."
@@ -867,5 +867,5 @@
     "citizenSummary": "2 active transport-related event(s) may affect travel.",
     "seasonalContext": "monsoon"
   },
-  "story": "3 important alerts require attention."
+  "story": "4 important alerts require attention."
 }

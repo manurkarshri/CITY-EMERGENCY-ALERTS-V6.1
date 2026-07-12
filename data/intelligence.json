@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-12T15:34:32.657Z",
+  "generatedAt": "2026-07-12T15:35:42.528Z",
   "status": "current",
   "situation": {
-    "snapshot": "3 important alerts require attention.",
+    "snapshot": "4 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-07-12T15:34:32.716Z",
+      "generatedAt": "2026-07-12T15:35:42.581Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,7 +13,7 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+          "sourceCheckedAt": "2026-07-12T15:35:34.765Z",
           "observedAt": "2026-07-12T21:00:00+05:30",
           "temp": 23.7,
           "currentRain": 0,
@@ -39,7 +39,7 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+          "sourceCheckedAt": "2026-07-12T15:35:34.765Z",
           "observedAt": "2026-07-12T21:00:00+05:30",
           "temp": 23.8,
           "currentRain": 0,
@@ -65,7 +65,7 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+          "sourceCheckedAt": "2026-07-12T15:35:34.765Z",
           "observedAt": "2026-07-12T21:00:00+05:30",
           "temp": 23.7,
           "currentRain": 0,
@@ -91,7 +91,7 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+          "sourceCheckedAt": "2026-07-12T15:35:34.765Z",
           "observedAt": "2026-07-12T21:00:00+05:30",
           "temp": 22.7,
           "currentRain": 0.1,
@@ -117,7 +117,7 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+          "sourceCheckedAt": "2026-07-12T15:35:34.765Z",
           "observedAt": "2026-07-12T21:00:00+05:30",
           "temp": 22.6,
           "currentRain": 0,
@@ -141,7 +141,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-12T15:34:32.718Z",
+      "generatedAt": "2026-07-12T15:35:42.583Z",
       "riskLevel": "Normal",
       "impacts": [
         "2 active transport-related event(s) may affect travel."
@@ -176,9 +176,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-12T06:15:29.000Z",
       "lastUpdated": "2026-07-12T06:15:29.000Z",
-      "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
-      "lastVerifiedAt": "2026-07-12T15:34:28.021Z",
-      "intelligenceGeneratedAt": "2026-07-12T15:34:32.657Z",
+      "sourceCheckedAt": "2026-07-12T15:35:35.581Z",
+      "lastVerifiedAt": "2026-07-12T15:35:35.581Z",
+      "intelligenceGeneratedAt": "2026-07-12T15:35:42.528Z",
       "expiresAt": "2026-07-12T18:15:29.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -227,7 +227,7 @@
       "lastUpdated": "2026-07-12T03:29:28.000Z",
       "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
       "lastVerifiedAt": "2026-07-12T15:34:28.021Z",
-      "intelligenceGeneratedAt": "2026-07-12T15:34:32.657Z",
+      "intelligenceGeneratedAt": "2026-07-12T15:35:42.528Z",
       "expiresAt": "2026-07-12T21:29:28.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -273,7 +273,7 @@
       "lastUpdated": "2026-07-12T03:12:39.000Z",
       "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
       "lastVerifiedAt": "2026-07-12T15:34:28.021Z",
-      "intelligenceGeneratedAt": "2026-07-12T15:34:32.657Z",
+      "intelligenceGeneratedAt": "2026-07-12T15:35:42.528Z",
       "expiresAt": "2026-07-13T03:12:39.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -287,6 +287,50 @@
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "structural-collapse-developing-pune-building-collapse-death-toll-rises-to-nine-as-last-mis",
+      "eventKind": "incident",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Pune building collapse: Death toll rises to nine as last missing person's body recovered",
+      "summary": "Reported by Indian Express Pune. Official confirmation is awaited.",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWHljbUllTnpfWF9ic3F6S3BZNWdTMTNHcFFkVVJWcG9PRHdGbWk1cmRQbnNwdC1Lbl9SNlBkUmVvSW93Ql83S3ZIeExFS2lqMk1LWTZ1eURYc1Q2ZHlPNWRfSUE5YmpIdTI2eUFrTVM1ckpvUEFOd2l4OEdWVTh4WFQ1RGVwQXNybm8xdGJlUmZtb3ZxcnBNMHZiVlhYZHZkb1dKWWVQVWZDQ2pQZnVIM3VvcFIwSVQ1NGZTS2toa2dud0lPZjdaRVZPeUx2ZXdwZm1HaXlveVdEdWYtOUd5RVQtVGLSAfIBQVVfeXFMTUZCUV9XQ2VEZXhNenJLSWdXbzRLQUtqNzRSblBiN0pBUVVwYmVaYTNsZUM5UV9CN0ZpMHFSUE90WFl3WG1vNl9INF9vQUZqWUx0YTlNdlo5cS1wWkhtOW9KNHRzZHJjeHh4ZmY2RFpvQVAyV05YbGkxQ3ZPaFpZNkZKOUZaSTZ5cVlzZ21BZWZJYkhZeVRQZDZ6N3d2WWhhUjh5dlNqaW1qeFNiS1dkZl8tWFFrdnljR2dBY0plUy1QQ2g2bVFBMkl6MEhXN0I3aXRwT0VQQmdfTDlOWjczaHpNQjEwT1dGQ0VDMlpXYXZXdHc?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWHljbUllTnpfWF9ic3F6S3BZNWdTMTNHcFFkVVJWcG9PRHdGbWk1cmRQbnNwdC1Lbl9SNlBkUmVvSW93Ql83S3ZIeExFS2lqMk1LWTZ1eURYc1Q2ZHlPNWRfSUE5YmpIdTI2eUFrTVM1ckpvUEFOd2l4OEdWVTh4WFQ1RGVwQXNybm8xdGJlUmZtb3ZxcnBNMHZiVlhYZHZkb1dKWWVQVWZDQ2pQZnVIM3VvcFIwSVQ1NGZTS2toa2dud0lPZjdaRVZPeUx2ZXdwZm1HaXlveVdEdWYtOUd5RVQtVGLSAfIBQVVfeXFMTUZCUV9XQ2VEZXhNenJLSWdXbzRLQUtqNzRSblBiN0pBUVVwYmVaYTNsZUM5UV9CN0ZpMHFSUE90WFl3WG1vNl9INF9vQUZqWUx0YTlNdlo5cS1wWkhtOW9KNHRzZHJjeHh4ZmY2RFpvQVAyV05YbGkxQ3ZPaFpZNkZKOUZaSTZ5cVlzZ21BZWZJYkhZeVRQZDZ6N3d2WWhhUjh5dlNqaW1qeFNiS1dkZl8tWFFrdnljR2dBY0plUy1QQ2g2bVFBMkl6MEhXN0I3aXRwT0VQQmdfTDlOWjczaHpNQjEwT1dGQ0VDMlpXYXZXdHc?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-12T04:17:15.000Z",
+      "lastUpdated": "2026-07-12T04:17:15.000Z",
+      "sourceCheckedAt": "2026-07-12T15:35:35.581Z",
+      "lastVerifiedAt": "2026-07-12T15:35:35.581Z",
+      "intelligenceGeneratedAt": "2026-07-12T15:35:42.528Z",
+      "expiresAt": "2026-07-13T16:17:15.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-eecd3215",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
@@ -315,9 +359,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-12T06:15:29.000Z",
       "lastUpdated": "2026-07-12T06:15:29.000Z",
-      "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
-      "lastVerifiedAt": "2026-07-12T15:34:28.021Z",
-      "intelligenceGeneratedAt": "2026-07-12T15:34:32.657Z",
+      "sourceCheckedAt": "2026-07-12T15:35:35.581Z",
+      "lastVerifiedAt": "2026-07-12T15:35:35.581Z",
+      "intelligenceGeneratedAt": "2026-07-12T15:35:42.528Z",
       "expiresAt": "2026-07-13T18:15:29.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -371,6 +415,15 @@
         "impact": "Route may be blocked or diverted."
       },
       {
+        "id": "structural-collapse-developing-pune-building-collapse-death-toll-rises-to-nine-as-last-mis",
+        "category": "structural_collapse",
+        "severity": "warning",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+      },
+      {
         "id": "structural-collapse-developing-pune-building-collapse-death-toll-hits-9-with-recovery-of-f",
         "category": "structural_collapse",
         "severity": "warning",
@@ -410,9 +463,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-12T03:10:05.000Z",
       "lastUpdated": "2026-07-12T03:10:05.000Z",
-      "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
-      "lastVerifiedAt": "2026-07-12T15:34:28.021Z",
-      "intelligenceGeneratedAt": "2026-07-12T15:34:32.657Z",
+      "sourceCheckedAt": "2026-07-12T15:35:35.581Z",
+      "lastVerifiedAt": "2026-07-12T15:35:35.581Z",
+      "intelligenceGeneratedAt": "2026-07-12T15:35:42.528Z",
       "expiresAt": "2026-07-12T15:10:05.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -439,8 +492,8 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
-      "lastSuccessfulAt": "2026-07-12T15:34:28.021Z",
+      "sourceCheckedAt": "2026-07-12T15:35:35.581Z",
+      "lastSuccessfulAt": "2026-07-12T15:35:35.581Z",
       "error": null
     }
   },
@@ -458,10 +511,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 537.82,
+        "level": 537.8,
         "alertLevel": 547,
         "dangerLevel": 548,
-        "dischargeCumecs": 8.91,
+        "dischargeCumecs": 8.81,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -475,14 +528,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Koregaon Bhima river level is normal.",
-          "updatedAt": "2026-07-12T15:34:32.716Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T20:45:00+05:30",
+            "observedAt": "2026-07-12T21:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -520,7 +573,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Paragaon river level is normal.",
-          "updatedAt": "2026-07-12T15:34:32.717Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
@@ -564,7 +617,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Daund river level is normal.",
-          "updatedAt": "2026-07-12T15:34:32.717Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
@@ -608,7 +661,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Umbre Kasurdi river level is normal.",
-          "updatedAt": "2026-07-12T15:34:32.717Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
@@ -655,7 +708,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Dattawadi river level is normal.",
-          "updatedAt": "2026-07-12T15:34:32.717Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
@@ -702,7 +755,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Kalyani nagar Bridge river level is normal.",
-          "updatedAt": "2026-07-12T15:34:32.717Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
@@ -749,7 +802,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Pimple Gurav river level is normal.",
-          "updatedAt": "2026-07-12T15:34:32.717Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
@@ -790,7 +843,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Veer Dam: 100% storage.",
-          "updatedAt": "2026-07-12T15:34:32.717Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
@@ -829,7 +882,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Bhatghar Dam: 51.94% storage.",
-          "updatedAt": "2026-07-12T15:34:32.717Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
@@ -877,7 +930,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Khadakwasla Dam: 100% storage.",
-          "updatedAt": "2026-07-12T15:34:32.717Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
@@ -919,7 +972,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Temghar Dam: 39.04% storage.",
-          "updatedAt": "2026-07-12T15:34:32.717Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
@@ -960,7 +1013,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Mulshi Dam: 70.84% storage.",
-          "updatedAt": "2026-07-12T15:34:32.717Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
@@ -1002,7 +1055,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Pawna Dam: 75.78% storage.",
-          "updatedAt": "2026-07-12T15:34:32.717Z"
+          "updatedAt": "2026-07-12T15:35:42.582Z"
         },
         "evidence": [
           {
@@ -1019,7 +1072,7 @@
       }
     ],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-12T15:34:32.718Z",
+      "generatedAt": "2026-07-12T15:35:42.583Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -1032,7 +1085,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-12T15:34:32.717Z",
+      "generatedAt": "2026-07-12T15:35:42.583Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -1113,7 +1166,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-12T15:34:32.718Z",
+      "generatedAt": "2026-07-12T15:35:42.583Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -1158,7 +1211,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-12T15:34:32.769Z",
+        "generatedAt": "2026-07-12T15:35:42.635Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -1307,7 +1360,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-12T15:34:32.770Z",
+        "generatedAt": "2026-07-12T15:35:42.636Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1404,7 +1457,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-12T15:34:32.770Z",
+        "generatedAt": "2026-07-12T15:35:42.636Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
