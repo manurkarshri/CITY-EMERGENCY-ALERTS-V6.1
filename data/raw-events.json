@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-12T06:36:19.982Z",
-  "lastSuccessfulAt": "2026-07-12T06:36:19.982Z",
+  "sourceCheckedAt": "2026-07-12T07:28:00.231Z",
+  "lastSuccessfulAt": "2026-07-12T07:28:00.231Z",
   "error": null,
   "optionalErrors": [],
   "sources": [
@@ -11,81 +11,112 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-12T06:36:19.982Z",
-      "lastSuccessfulAt": "2026-07-12T06:36:19.982Z",
+      "sourceCheckedAt": "2026-07-12T07:28:00.231Z",
+      "lastSuccessfulAt": "2026-07-12T07:28:00.231Z",
       "error": null,
-      "etag": null
+      "etag": null,
+      "itemsCollected": 0
     },
     {
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-12T06:36:19.982Z",
-      "lastSuccessfulAt": "2026-07-12T06:36:19.982Z",
+      "sourceCheckedAt": "2026-07-12T07:28:00.231Z",
+      "lastSuccessfulAt": "2026-07-12T07:28:00.231Z",
       "error": null,
-      "etag": "W/\"8674-1783606872394\""
+      "etag": "W/\"8674-1783606872394\"",
+      "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-12T06:36:19.982Z",
-      "lastSuccessfulAt": "2026-07-12T06:36:19.982Z",
+      "sourceCheckedAt": "2026-07-12T07:28:00.231Z",
+      "lastSuccessfulAt": "2026-07-12T07:28:00.231Z",
       "error": null,
-      "etag": null
+      "etag": null,
+      "itemsCollected": 0
     },
     {
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-12T06:36:19.982Z",
-      "lastSuccessfulAt": "2026-07-12T06:36:19.982Z",
+      "sourceCheckedAt": "2026-07-12T07:28:00.231Z",
+      "lastSuccessfulAt": "2026-07-12T07:28:00.231Z",
       "error": null,
-      "etag": null
+      "etag": null,
+      "itemsCollected": 0
     },
     {
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-12T06:36:19.982Z",
-      "lastSuccessfulAt": "2026-07-12T06:36:19.982Z",
+      "sourceCheckedAt": "2026-07-12T07:28:00.231Z",
+      "lastSuccessfulAt": "2026-07-12T07:28:00.231Z",
       "error": null,
-      "etag": null
+      "etag": null,
+      "itemsCollected": 0
     },
     {
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-12T06:36:19.982Z",
-      "lastSuccessfulAt": "2026-07-12T06:36:19.982Z",
+      "sourceCheckedAt": "2026-07-12T07:28:00.231Z",
+      "lastSuccessfulAt": "2026-07-12T07:28:00.231Z",
       "error": null,
-      "etag": null
+      "etag": null,
+      "itemsCollected": 0
     },
     {
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-12T06:36:19.982Z",
-      "lastSuccessfulAt": "2026-07-12T06:36:19.982Z",
+      "sourceCheckedAt": "2026-07-12T07:28:00.231Z",
+      "lastSuccessfulAt": "2026-07-12T07:28:00.231Z",
       "error": null,
-      "etag": null
+      "etag": null,
+      "itemsCollected": 0
+    },
+    {
+      "id": "google_news_discovery",
+      "name": "Google News trusted-media discovery",
+      "status": "healthy",
+      "sourceCheckedAt": "2026-07-12T07:28:00.231Z",
+      "lastSuccessfulAt": "2026-07-12T07:28:00.231Z",
+      "error": null,
+      "itemsCollected": 1,
+      "itemsQualified": 1
     }
   ],
   "items": [
     {
-      "sourceId": "indian_express_pune",
-      "title": "Developing: Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations",
-      "summary": "Maharashtra adds 200 daily Mumbai-Pune bus trips amid train cancellations",
-      "category": "transport_disruption",
-      "severity": "advisory",
-      "source": "Indian Express Pune",
+      "eventKind": "incident",
+      "sourceId": "lokmat",
+      "collectionSourceId": "google_news_discovery",
+      "upstreamId": "google-news-642348b9",
+      "title": "Developing: Pandharpur Wari 2026: पालखी प्रस्थान सोहळ्यानिमित्त वाहतुकीत बदल; पुणे-सोलापूर रस्ता, हडपसर -सासवड रस्ता वा...",
+      "summary": "Reported by Lokmat Pune. Official confirmation is awaited.",
+      "category": "road_closure",
+      "severity": "watch",
+      "source": "Lokmat Pune",
       "sourceTrust": "B",
-      "link": "https://indianexpress.com/article/cities/pune/msrtc-200-extra-mumbai-pune-bus-trips-train-cancellations-10781670/",
-      "publishedAt": "2026-07-11T07:01:49.000Z",
-      "lastUpdated": "2026-07-11T07:01:49.000Z",
-      "sourceCheckedAt": "2026-07-12T06:36:19.982Z",
-      "lastVerifiedAt": "2026-07-12T06:36:19.982Z",
-      "expiresAt": "2026-07-11T19:01:49.000Z"
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNb1kwTHpJWEdLakxaZDRUdVMtT0Z3cW16Uno0SHJEQ1VOYldlbFA4Wm5qTzU4Y2JILW9JQWt1QzhFc0hIUUQ3MFE2dkpXVC1PZkdmd3Q4UXRwNjM4Tzk0UUdZUUloVUlnTjc4UW1MM0dSTHhvVHNkby1Jc0RFSTREZUU3ajRJRnRwZkxBU3ZhQk1QTG9KalBlWjRBbDRJbURfQk9fTXM4MXEwRmJjaHJOMXp0TEdwZTZMSHQ2bVljanJaWXF6Q1pSZDVndVZIQTlMMWxJOTZfbWI2OEpYS2prVk9TckN0TV9RVUZXbE05UUo3VjTSAfgBQVVfeXFMTUpWQVVIOEk5bmRieWFoNUNyenU0SU90cUdveU9HODBRX290c1BZSWxOTWhEcmVBaWlaaDZlRkotMTh4UUVyREl2WnotcXBub2taYlVRd3JrX0pGTVQwQ3pNMjc4NDJRODllUFJzMzhlQ3lCSHZKODZuMDFQM0hlSW1VVllfbGRMQ0lXYzk5Xy04akliNDVJN2hnQTNodWc4RUlaVER4V0xrOUJnazZFdEZka2lTNE5aUEYtRjZhZ05kYnByNV9VZnl3VDM5MFdKVm04NUY1MEFMbVd3enNySzU1ZVhtNEZmZUVMRUpPS0xNLWN0VWxVWmo?oc=5",
+      "sourceOrigin": "",
+      "publishedAt": "2026-07-11T07:58:00.000Z",
+      "lastUpdated": "2026-07-11T07:58:00.000Z",
+      "sourceCheckedAt": "2026-07-12T07:28:00.231Z",
+      "lastVerifiedAt": "2026-07-12T07:28:00.231Z",
+      "expiresAt": "2026-07-12T01:58:00.000Z",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "geographicScope": "local",
+      "affectedArea": "Hadapsar",
+      "talukas": [
+        "pune_city"
+      ],
+      "localities": [
+        "Hadapsar"
+      ]
     }
   ]
 }
