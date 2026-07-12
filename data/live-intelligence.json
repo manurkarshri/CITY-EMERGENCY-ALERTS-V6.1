@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-12T14:16:59.225Z",
+  "generatedAt": "2026-07-12T15:34:32.811Z",
   "status": "current",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-12T14:16:54.615Z",
-        "lastSuccessfulAt": "2026-07-12T14:16:54.615Z",
+        "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+        "lastSuccessfulAt": "2026-07-12T15:34:26.867Z",
         "error": null
       },
       {
@@ -25,16 +25,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-12T14:16:55.139Z",
-        "lastSuccessfulAt": "2026-07-12T14:16:55.139Z",
+        "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+        "lastSuccessfulAt": "2026-07-12T15:34:28.021Z",
         "error": null
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-12T14:16:55.139Z",
-        "lastSuccessfulAt": "2026-07-12T14:16:55.139Z",
+        "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+        "lastSuccessfulAt": "2026-07-12T15:34:28.021Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -44,8 +44,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-12T14:16:55.139Z",
-        "lastSuccessfulAt": "2026-07-12T14:16:55.139Z",
+        "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+        "lastSuccessfulAt": "2026-07-12T15:34:28.021Z",
         "error": null,
         "etag": "W/\"8674-1783606872394\"",
         "itemsCollected": 0,
@@ -55,30 +55,30 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-12T14:16:55.139Z",
-        "lastSuccessfulAt": "2026-07-12T14:16:55.139Z",
+        "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+        "lastSuccessfulAt": "2026-07-12T15:34:28.021Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 0,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-12T14:16:55.139Z",
-        "lastSuccessfulAt": "2026-07-12T14:16:55.139Z",
+        "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+        "lastSuccessfulAt": "2026-07-12T15:34:28.021Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 0,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-12T14:16:55.139Z",
-        "lastSuccessfulAt": "2026-07-12T14:16:55.139Z",
+        "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+        "lastSuccessfulAt": "2026-07-12T15:34:28.021Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -88,8 +88,8 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-12T14:16:55.139Z",
-        "lastSuccessfulAt": "2026-07-12T14:16:55.139Z",
+        "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+        "lastSuccessfulAt": "2026-07-12T15:34:28.021Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -99,22 +99,22 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-12T14:16:55.139Z",
-        "lastSuccessfulAt": "2026-07-12T14:16:55.139Z",
+        "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+        "lastSuccessfulAt": "2026-07-12T15:34:28.021Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 1,
+        "itemsCollected": 2,
         "type": "incidents"
       },
       {
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-12T14:16:55.139Z",
-        "lastSuccessfulAt": "2026-07-12T14:16:55.139Z",
+        "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+        "lastSuccessfulAt": "2026-07-12T15:34:28.021Z",
         "error": null,
         "itemsCollected": 1,
-        "itemsQualified": 0,
+        "itemsQualified": 1,
         "type": "incidents"
       },
       {
@@ -122,8 +122,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-07-12T14:16:58.013Z",
-        "lastSuccessfulAt": "2026-07-12T14:16:58.013Z",
+        "sourceCheckedAt": "2026-07-12T15:34:31.576Z",
+        "lastSuccessfulAt": "2026-07-12T15:34:31.576Z",
         "error": null
       }
     ],
@@ -299,26 +299,203 @@
         "status": "configured",
         "lastChecked": null,
         "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "ians",
+        "name": "IANS",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://ians.in/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "the_hindu",
+        "name": "The Hindu",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://www.thehindu.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "deccan_herald",
+        "name": "Deccan Herald",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://www.deccanherald.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "times_of_india",
+        "name": "Times of India",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://timesofindia.indiatimes.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "the_telegraph",
+        "name": "The Telegraph",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://www.telegraphindia.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "ndtv",
+        "name": "NDTV",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://www.ndtv.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "india_today",
+        "name": "India Today",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://www.indiatoday.in/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "pudhari",
+        "name": "Pudhari",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://pudhari.news/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "divya_marathi",
+        "name": "Divya Marathi",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://divyamarathi.bhaskar.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "gomantak",
+        "name": "Gomantak",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://www.gomantaktimes.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "agrowon",
+        "name": "Agrowon",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://agrowon.esakal.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "punekar_news",
+        "name": "Punekar News",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://www.punekarnews.in/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "pune_pulse",
+        "name": "Pune Pulse",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://www.thepunepulse.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "news18_lokmat",
+        "name": "News18 Lokmat",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://lokmat.news18.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
+      },
+      {
+        "id": "saam_tv",
+        "name": "Saam TV",
+        "type": "trusted_media",
+        "trust": "B",
+        "url": "https://saamtv.com/",
+        "status": "configured",
+        "lastChecked": null,
+        "note": "Configured for production user testing. Full live fetching depends on source APIs/RSS/CORS/server-side support."
       }
     ]
   },
   "liveReadiness": {
     "officialSourcesConfigured": 7,
-    "trustedMediaSourcesConfigured": 10,
+    "trustedMediaSourcesConfigured": 25,
     "alertsAvailable": 0,
-    "incidentsAvailable": 1,
+    "incidentsAvailable": 4,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
   "developingSituations": [
     {
-      "id": "flood-developing-pune-moshi-building-collapse-तब्बल-81-तासांनंतर-रेस्क्यू-ऑपरेशन-अखेर-पूर्",
-      "title": "Developing: Pune Moshi Building Collapse: तब्बल 81 तासांनंतर रेस्क्यू ऑपरेशन अखेर पूर्ण, मृतांची संख्या 9 वर, सुदैवाने 14 कामगार बचावले; मोशी दुर्घटनेत आतापर्यंत काय काय घडलं?",
+      "id": "structural-collapse-developing-pune-building-collapse-death-toll-hits-9-with-recovery-of-f",
+      "title": "Developing: Pune building collapse: Death toll hits 9 with recovery of final body from rubble",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Indian Express Pune",
+      "trust": "B",
+      "updatedAt": "2026-07-12T06:15:29.000Z"
+    },
+    {
+      "id": "accident-developing-pimpri-विनापरवाना-उभारली-तीनमजली-इमारत-मोशीतील-बांधकामाबाबत-अनेक-प्रश्",
+      "title": "Developing: Pimpri: विनापरवाना उभारली तीनमजली इमारत; मोशीतील बांधकामाबाबत अनेक प्रश्न, जबाबदारी कोणावर?",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "eSakal Pune",
+      "trust": "B",
+      "updatedAt": "2026-07-12T03:29:28.000Z"
+    },
+    {
+      "id": "road-closure-developing-pune-police-news-psiचा-कॅफेमधील-व्हिडीओ-व्हायरल-झाल्यानंतर-निलंबन-",
+      "title": "Developing: Pune Police News: PSIचा कॅफेमधील व्हिडीओ व्हायरल झाल्यानंतर निलंबन; आता पुन्हा यु-टर्न घेत दिलासा, पुण्यातील डेक्कन परिसरातील मध्यरात्रीच्या घटनेनंतर नेमकं काय घडलं?",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
       "source": "ABP News Pune",
       "trust": "B",
-      "updatedAt": "2026-07-12T01:26:35.000Z"
+      "updatedAt": "2026-07-12T03:12:39.000Z"
+    },
+    {
+      "id": "structural-collapse-developing-pune-building-collapse-death-toll-hits-9-with-recovery-of-f",
+      "title": "Developing: Pune building collapse: Death toll hits 9 with recovery of final body from rubble",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Indian Express Pune",
+      "trust": "B",
+      "updatedAt": "2026-07-12T06:15:29.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."

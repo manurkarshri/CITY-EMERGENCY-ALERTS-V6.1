@@ -1,25 +1,27 @@
 {
   "schemaVersion": "6.1.0",
   "provider": "Google News RSS",
-  "sourceCheckedAt": "2026-07-12T14:16:55.139Z",
+  "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
   "status": "healthy",
   "error": null,
   "items": [
     {
-      "id": "google-news-642348b9",
-      "publisherId": "lokmat",
-      "publisher": "Lokmat Pune",
-      "title": "Pandharpur Wari 2026: पालखी प्रस्थान सोहळ्यानिमित्त वाहतुकीत बदल; पुणे-सोलापूर रस्ता, हडपसर -सासवड रस्ता वा...",
-      "category": "road_closure",
-      "severity": "watch",
-      "publishedAt": "2026-07-11T07:58:00.000Z",
-      "discoveredAt": "2026-07-12T14:16:55.139Z",
-      "discoveryLink": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNb1kwTHpJWEdLakxaZDRUdVMtT0Z3cW16Uno0SHJEQ1VOYldlbFA4Wm5qTzU4Y2JILW9JQWt1QzhFc0hIUUQ3MFE2dkpXVC1PZkdmd3Q4UXRwNjM4Tzk0UUdZUUloVUlnTjc4UW1MM0dSTHhvVHNkby1Jc0RFSTREZUU3ajRJRnRwZkxBU3ZhQk1QTG9KalBlWjRBbDRJbURfQk9fTXM4MXEwRmJjaHJOMXp0TEdwZTZMSHQ2bVljanJaWXF6Q1pSZDVndVZIQTlMMWxJOTZfbWI2OEpYS2prVk9TckN0TV9RVUZXbE05UUo3VjTSAfgBQVVfeXFMTUpWQVVIOEk5bmRieWFoNUNyenU0SU90cUdveU9HODBRX290c1BZSWxOTWhEcmVBaWlaaDZlRkotMTh4UUVyREl2WnotcXBub2taYlVRd3JrX0pGTVQwQ3pNMjc4NDJRODllUFJzMzhlQ3lCSHZKODZuMDFQM0hlSW1VVllfbGRMQ0lXYzk5Xy04akliNDVJN2hnQTNodWc4RUlaVER4V0xrOUJnazZFdEZka2lTNE5aUEYtRjZhZ05kYnByNV9VZnl3VDM5MFdKVm04NUY1MEFMbVd3enNySzU1ZVhtNEZmZUVMRUpPS0xNLWN0VWxVWmo?oc=5",
+      "id": "google-news-f90d4c92",
+      "publisherId": "indian_express_pune",
+      "publisher": "Indian Express Pune",
+      "title": "Pune building collapse: Death toll hits 9 with recovery of final body from rubble",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "publishedAt": "2026-07-12T06:15:29.000Z",
+      "discoveredAt": "2026-07-12T15:34:28.021Z",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLXNyQ1FGZUhrZlhibExENFNtSnBobEJsMTRxQ3VsZ1R3UW9DOTM1YXRIYkdIbmlLZTBXdmh0SzdRcU5POHJ6UkZBRzYwV3lOSy1XaDdWVURZRk9mMGowZHVfajk2WDdUeTJpTUlhMFVOZ2VtbDBBQTZmbGJwZ3V2UVlFdlR0bk1SMXlBM1N3MXpUeUN6UnpuSTQ1VXdKa1RMNGxSbkJndFh0bHcyQlBMZDMwVVBhd2R5VzI0ZjhobTdIN3FEQVZZetIBzwFBVV95cUxQdmpsam9TNkM2Q29PdElLWmg4V1o4di1lNXFrTnpJTzZ0bGNDVTd5YThYTjdCQTN0aEZUY0cyaGo0aVNIbkw3R0Y0ckVMNmJaYjhRRzFNamtvSklUaGhfckxNNVExdkFoSnRjTGlmdzdxdWxGaGpTLUczZHZUYlZIejhwd080eUt5aEhzMV9tWjc4SDdaeUZwVzVveE5iaTF1UTZmZFJkeFRrRVMyZVU3Z3VrSHQ0ZHZWcjhveHRVOEFCYWdRa21DWGU1Z1VEaXM?oc=5",
       "discoveryProvider": "Google News RSS",
-      "verificationStatus": "awaiting_direct_article",
-      "verifiedEventIds": []
+      "verificationStatus": "verified_direct_article",
+      "verifiedEventIds": [
+        "indian_express_pune:2026-07-12T06:15:29.000Z"
+      ]
     }
   ],
   "collectedItems": 1,
-  "qualifiedItems": 0
+  "qualifiedItems": 1
 }

@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-12T14:16:59.064Z",
+  "generatedAt": "2026-07-12T15:34:32.657Z",
   "status": "current",
   "situation": {
-    "snapshot": "No major environmental disruption indicated from current data.",
+    "snapshot": "3 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-07-12T14:16:59.119Z",
+      "generatedAt": "2026-07-12T15:34:32.716Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,15 +13,15 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-12T14:16:54.615Z",
-          "observedAt": "2026-07-12T19:45:00+05:30",
-          "temp": 24.4,
+          "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+          "observedAt": "2026-07-12T21:00:00+05:30",
+          "temp": 23.7,
           "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 0,
-          "wind": 37.4,
-          "gust": 37.4,
-          "humidity": 83,
+          "wind": 34.6,
+          "gust": 34.6,
+          "humidity": 87,
           "visibility": 21.2,
           "weatherCode": 1,
           "rainRisk": "Minimal",
@@ -39,17 +39,17 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-12T14:16:54.615Z",
-          "observedAt": "2026-07-12T19:45:00+05:30",
-          "temp": 24.4,
+          "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+          "observedAt": "2026-07-12T21:00:00+05:30",
+          "temp": 23.8,
           "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 0,
-          "wind": 34.2,
-          "gust": 34.2,
-          "humidity": 84,
+          "wind": 32,
+          "gust": 32,
+          "humidity": 88,
           "visibility": 4.2,
-          "weatherCode": 1,
+          "weatherCode": 2,
           "rainRisk": "Minimal",
           "windRisk": "Low",
           "visibilityRisk": "Low",
@@ -65,15 +65,15 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-12T14:16:54.615Z",
-          "observedAt": "2026-07-12T19:45:00+05:30",
-          "temp": 24.4,
+          "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+          "observedAt": "2026-07-12T21:00:00+05:30",
+          "temp": 23.7,
           "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 0,
-          "wind": 37.4,
-          "gust": 37.4,
-          "humidity": 83,
+          "wind": 34.6,
+          "gust": 34.6,
+          "humidity": 87,
           "visibility": 21.2,
           "weatherCode": 1,
           "rainRisk": "Minimal",
@@ -91,19 +91,19 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-12T14:16:54.615Z",
-          "observedAt": "2026-07-12T19:45:00+05:30",
+          "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+          "observedAt": "2026-07-12T21:00:00+05:30",
           "temp": 22.7,
           "currentRain": 0.1,
           "rain6h": 1.3,
           "precipitationProbability": 100,
-          "wind": 41,
-          "gust": 41,
+          "wind": 37.4,
+          "gust": 37.4,
           "humidity": 100,
           "visibility": 0.1,
           "weatherCode": 51,
           "rainRisk": "Minimal",
-          "windRisk": "Medium",
+          "windRisk": "Low",
           "visibilityRisk": "High",
           "heatRisk": "Normal",
           "travelImpact": "High",
@@ -117,19 +117,19 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-12T14:16:54.615Z",
-          "observedAt": "2026-07-12T19:45:00+05:30",
-          "temp": 22.7,
+          "sourceCheckedAt": "2026-07-12T15:34:26.867Z",
+          "observedAt": "2026-07-12T21:00:00+05:30",
+          "temp": 22.6,
           "currentRain": 0,
           "rain6h": 1.7,
-          "precipitationProbability": 98,
-          "wind": 41.4,
-          "gust": 41.4,
-          "humidity": 100,
+          "precipitationProbability": 100,
+          "wind": 37.1,
+          "gust": 37.1,
+          "humidity": 98,
           "visibility": 0.1,
           "weatherCode": 51,
           "rainRisk": "Minimal",
-          "windRisk": "Medium",
+          "windRisk": "Low",
           "visibilityRisk": "High",
           "heatRisk": "Normal",
           "travelImpact": "High",
@@ -141,59 +141,196 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-12T14:16:59.121Z",
+      "generatedAt": "2026-07-12T15:34:32.718Z",
       "riskLevel": "Normal",
-      "impacts": [],
-      "citizenSummary": "No major environmental disruption indicated from current data.",
+      "impacts": [
+        "2 active transport-related event(s) may affect travel."
+      ],
+      "citizenSummary": "2 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
   "alerts": [],
   "incidents": [
     {
-      "id": "flood-developing-pune-moshi-building-collapse-तब्बल-81-तासांनंतर-रेस्क्यू-ऑपरेशन-अखेर-पूर्",
+      "id": "structural-collapse-developing-pune-building-collapse-death-toll-hits-9-with-recovery-of-f",
+      "eventKind": "incident",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Pune building collapse: Death toll hits 9 with recovery of final body from rubble",
+      "summary": "Pune building collapse: Death toll hits 9 with recovery of final body from rubble",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://indianexpress.com/article/cities/pune/pune-building-moshi-garbage-dump-collapse-death-toll-final-body-recovered-10782814/",
+          "origin": ""
+        }
+      ],
+      "link": "https://indianexpress.com/article/cities/pune/pune-building-moshi-garbage-dump-collapse-death-toll-final-body-recovered-10782814/",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-12T06:15:29.000Z",
+      "lastUpdated": "2026-07-12T06:15:29.000Z",
+      "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+      "lastVerifiedAt": "2026-07-12T15:34:28.021Z",
+      "intelligenceGeneratedAt": "2026-07-12T15:34:32.657Z",
+      "expiresAt": "2026-07-12T18:15:29.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-pimpri-विनापरवाना-उभारली-तीनमजली-इमारत-मोशीतील-बांधकामाबाबत-अनेक-प्रश्",
+      "eventKind": "incident",
+      "sourceId": "esakal",
+      "title": "Developing: Pimpri: विनापरवाना उभारली तीनमजली इमारत; मोशीतील बांधकामाबाबत अनेक प्रश्न, जबाबदारी कोणावर?",
+      "summary": "Questions Raised Over Moshi Building Approval: मोशी कचरा डेपोतील दुर्घटनाग्रस्त इमारतीला केवळ तळमजल्याची परवानगी असताना प्रत्यक्षात तीन मजली बांधकाम करण्यात आल्याचे समोर आले आहे.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "eSakal Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "eSakal Pune",
+          "trust": "B",
+          "link": "https://www.esakal.com/pune/moshi-building-collapse-ground-floor-permission-three-storey-construction-pcmc-waste-to-energy-project-asi01",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.esakal.com/pune/moshi-building-collapse-ground-floor-permission-three-storey-construction-pcmc-waste-to-energy-project-asi01",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Pimpri",
+        "Moshi"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-07-12T03:29:28.000Z",
+      "lastUpdated": "2026-07-12T03:29:28.000Z",
+      "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+      "lastVerifiedAt": "2026-07-12T15:34:28.021Z",
+      "intelligenceGeneratedAt": "2026-07-12T15:34:32.657Z",
+      "expiresAt": "2026-07-12T21:29:28.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "",
+      "upstreamId": "c1817246d88446088eb6ea1f9ec776b0",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [
+        "structural-collapse-developing-moshi-accident-waiting-for-a-miracle-finding-heartbreak-as-"
+      ],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "road-closure-developing-pune-police-news-psiचा-कॅफेमधील-व्हिडीओ-व्हायरल-झाल्यानंतर-निलंबन-",
       "eventKind": "incident",
       "sourceId": "abp_news",
-      "title": "Developing: Pune Moshi Building Collapse: तब्बल 81 तासांनंतर रेस्क्यू ऑपरेशन अखेर पूर्ण, मृतांची संख्या 9 वर, सुदैवाने 14 कामगार बचावले; मोशी दुर्घटनेत आतापर्यंत काय काय घडलं?",
-      "summary": "Pune Moshi Building Collapse: मोशी इमारत दुर्घटनेच्या शोधकार्य (Rescue Operation) अखेर पूर्ण झालं आहे . तब्बल 81 तास लागले. बुधवारी दुपारी 2 वाजता सुरु झालेलं शोधकार्य मध्यरात्री 1 वाजता संपलं. या दुर्घटनेत 9 कामगारांचा मृत्यू झाला आहे . तर सुदैवाने 14 कामगार बचावले आहे . पिंपरी चिंचवड महापालिकेच्या (PCMC) मोशी येथील कचरा डेपोतील 'वेस्ट टू एनर्जी' (Waste-to-Energy) प्रकल्पाच्या प्रशासकीय इमारतीवर कचऱ्याचा डोंगर कोसळल्याची दुर्घटना घडल्यानंतर आता अनेक प्रश्न उपस्थित केले जात आहे . (Pune Moshi Building Collapse) दरम्यान , इमारतीच्या केवळ तळमजल्यालाचं पूर्णत्वाचा दाखला असताना, पहिला आणि दुसरा मजला कसा काय उभारला? तो कोणाच्या परवानगीने वापरात आला? पर्यावरण विभागाचे ते अधिकारी की संबंधित कंत्राटदार, दोष नेमका कोणाचा? कचऱ्याचे ढीग एकावर एक रचत त्याचा डोंगर झाला, त्याकडे पालिकेच्या कोणकोणत्या अधिकाऱ्यांनी दुर्लक्ष केलं? अशा सर्वांवर कारवाई अपेक्षित आहे. पण चौकशी समितीत कोणाला दोषी धरलं जाणार का? की केवळ चौकशीचा फार्स केला जाणार? याकडे सर्वांचं लक्ष लागून आहे. नेमकं काय घडलं? (Pune Moshi Building Collapse) पुण्यातील मोशी परिसरातील पिंपरी-चिंचवड महापालिकेच्या (PCMC) वेस्ट-टू-एनर्जी प्रकल्पात मुसळधार पावसामुळे कचऱ्याचा प्रचंड ढिगारा घसरून प्रशासकीय इमारतीवर कोसळल्याने भीषण दुर्घटना घडली. मोशीतील ही दुर्घटना बुधवार, 8 जुलै 2026 रोजी दुपारी सुमारे 1.30 वाजता घडली. मुसळधार पावसामुळे पिंपरी-चिंचवड महापालिकेच्या (PCMC) मोशी येथील कचरा डेपोमधील 'लेगसी वेस्ट'चा प्रचंड ढिगारा घसरून वेस्ट-टू-एनर्जी प्रकल्पाच्या तीन मजली प्रशासकीय इमारतीवर कोसळला. या दुर्घटनेत अनेक कर्मचारी ढिगाऱ्याखाली अडकले आणि त्यानंतर NDRF, अग्निशमन दल व इतर यंत्रणांकडून मोठ्या प्रमाणावर बचावकार्य सुरू करण्यात आले. या दुर्घटनेत इमारतीचा मोठा भाग कोसळून अनेक कर्मचारी ढिगाऱ्याखाली अडकले. सुरुवातीला अनेक जणांना सुरक्षित बाहेर काढण्यात यश आले, मात्र काही कर्मचारी अद्यापही ढिगाऱ्याखाली अडकल्याची माहिती प्रशासनाने दिली आहे. बचावकार्यासाठी NDRF, अग्निशमन दल, लष्कर आणि इतर आपत्कालीन यंत्रणा युद्धपातळीवर कार्यरत असून विषारी वायू, अस्थिर इमारत आणि सततचा पाऊस यामुळे मदतकार्यात अडथळे येत आहेत. या घटनेनंतर कचरा व्यवस्थापन, सुरक्षा उपाययोजना आणि प्रशासकीय निष्काळजीपणाबाबत गंभीर प्रश्न उपस्थित करण्यात आले असून या प्रकरणाची सखोल चौकशी करण्याची मागणी होत आहे. इतर महत्वाच्या बातम्या Vinayak Raut : गोमूत्र प्यायला दिले, डोक्यावरचे केस कापले; विनायक राऊतांच्या सूनेचे गंभीर आरोप, जादूटोणा विरोधी कायद्यान्वये गुन्हा दाखल",
-      "category": "flood",
-      "severity": "watch",
+      "title": "Developing: Pune Police News: PSIचा कॅफेमधील व्हिडीओ व्हायरल झाल्यानंतर निलंबन; आता पुन्हा यु-टर्न घेत दिलासा, पुण्यातील डेक्कन परिसरातील मध्यरात्रीच्या घटनेनंतर नेमकं काय घडलं?",
+      "summary": "पुणे : हॉटेलवर कारवाई करणाऱ्या उपनिरीक्षकाचे निलंबन मागे घेण्यात आल्याची माहिती समोर आली आहे. डेक्कन जिमखाना परिसरात मध्यरात्री उशिरापर्यंत सुरू असलेल्या हाॅटेलवर कारवाई केल्याप्रकरणी निलंबित करण्यात आलेल्या पोलिस उपनिरीक्षकाचे निलंबन अखेर मागे घेतले आहे. त्‍यांना पुन्हा सेवेत हजर करून घेण्याचे आदेश पोलिस आयुक्तांनी (Pune Police News) दिले. डेक्कन पोलीस ठाण्यातील उपनिरीक्षक (Pune Police Sub Inspector) संदीप कदम यांनी काठीने कॅफेधील कॉफीचे काही ग्लास पाडल्याचा व्हिडीओ सोशल मिडीयावरती व्हायरल झाला होता. संबंधित व्हिडीओ सोशल मिडीयावरती व्हायरल झाल्यानंतर त्यांना सेवेतून २९ जून रोजी निलंबित केले होते.(Pune Police News) दरम्यान मध्यरात्रीपर्यंत सुरू असलेल्या कॅफेवर कारवाई करणाऱ्या उपनिरीक्षकावरच निलंबनाची कारवाई केल्याने पोलिस दलात त्याचे नकारात्‍मक पडसाद उमटले. या आधी पोलिसांनी त्‍या कॅफेविरुद्ध सहा खटले दाखल केले होते, मात्र तरीही ते सुरू राहत होते हे समोर आले. समाज माध्यमात या कारवाईबाबत उलट सुलट प्रतिक्रिया व्यक्त करण्यात आल्या होत्या. उपनिरीक्षकाने त्‍याचे कर्तव्‍य पार पाडल्‍याचे स्पष्ट झाले. त्यानंतर ८ जुलै रोजी झालेल्या आढावा समितीच्या बैठकीत कदम यांच्यावरची कारवाई मागे घेण्यात आली. पोलिस आयुक्त अमितेश कुमार यांनी शहरात उशिरापर्यंत सुरू असलेले हाॅटेल तसेच खाद्यपदार्थांच्या गाड्या, पानटपऱ्या रात्री दहापूर्वी बंद करण्याचे आदेश दिले होते. त्‍यानुसार डेक्कन जिमखाना पोलिस ठाण्यातील उपनिरीक्षक संदीप कदम यांनी मध्यरात्री दोन पर्यंत सुरू असलेल्या गोखले रस्त्यावरील (फर्ग्युसन रस्ता) संबंधित हाॅटेलविरुद्ध कारवाई केली होती.(Pune Police News) Pune Police News: नेमकं काय आहे प्रकरण? सहा जूनला संदीप कदम हे रात्रपाळीवर कार्यरत होते. दरम्यान रात्रीच्या सुमारे पावणेदोनच्या सुमारास शिरोळे रोडवरील 'फ्लाइंग जिप्सी' कॅफेमध्ये ते गेले. त्या वेळी कॅफे बंद करण्याची तयारी सुरू होती. यावेळी कदम यांनी कॅफेत प्रवेश केला आणि हातातील काठीने कॅफेच्या काउंटरवरील कॉफीचे ग्लास आणि इतर खाद्य पदार्थ खाली पाडले. तसेच तेथे बसलेल्या ग्राहकांना तत्काळ उठून बाहेर जाण्यास सांगितले आणि कर्मचाऱ्यांशी अरेरावीची भाषा वापरली. दरम्यान, हा संपूर्ण प्रकार कॅफेमधील सीसीटीव्ही कॅमेऱ्यात रेकॉर्ड झाला. त्यानंतर हा संपूर्ण प्रकरणाचा व्हिडिओ समाजमाध्यमांवर मोठ्या प्रमाणात व्हायरल झाला. या घटनेनंतर त्यांच्यावर निलंबनाची कारवाई करण्यात आली. त्यानंतर आता सोशल मिडीयावरती या कारवाईबाबत उलट सुलट प्रतिक्रिया व्यक्त करण्यात आल्या होत्या. उपनिरीक्षकाने त्‍याचे कर्तव्‍य पार पाडल्‍याचे स्पष्ट झाले. त्यानंतर ८ जुलै रोजी झालेल्या आढावा समितीच्या बैठकीत कदम यांच्यावरची कारवाई मागे घेण्यात आली.",
+      "category": "road_closure",
+      "severity": "warning",
       "source": "ABP News Pune",
       "sourceTrust": "B",
       "sources": [
         {
           "name": "ABP News Pune",
           "trust": "B",
-          "link": "https://marathi.abplive.com/news/maharashtra/pune-moshi-building-collapse-rescue-operation-finally-concludes-after-81-hours-9-persons-death-14-workers-were-rescued-marathi-news-1431394",
+          "link": "https://marathi.abplive.com/news/pune/psi-sabdeep-kadam-suspended-after-caf-video-goes-viral-then-granted-relief-in-a-u-turn-what-exactly-happened-following-the-midnight-incident-in-punes-deccan-area-1431406",
           "origin": ""
         }
       ],
-      "link": "https://marathi.abplive.com/news/maharashtra/pune-moshi-building-collapse-rescue-operation-finally-concludes-after-81-hours-9-persons-death-14-workers-were-rescued-marathi-news-1431394",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Moshi"
-      ],
+      "link": "https://marathi.abplive.com/news/pune/psi-sabdeep-kadam-suspended-after-caf-video-goes-viral-then-granted-relief-in-a-u-turn-what-exactly-happened-following-the-midnight-incident-in-punes-deccan-area-1431406",
+      "talukas": [],
+      "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-07-12T01:26:35.000Z",
-      "lastUpdated": "2026-07-12T01:26:35.000Z",
-      "sourceCheckedAt": "2026-07-12T14:16:55.139Z",
-      "lastVerifiedAt": "2026-07-12T14:16:55.139Z",
-      "intelligenceGeneratedAt": "2026-07-12T14:16:59.064Z",
-      "expiresAt": "2026-07-13T01:26:35.000Z",
+      "publishedAt": "2026-07-12T03:12:39.000Z",
+      "lastUpdated": "2026-07-12T03:12:39.000Z",
+      "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+      "lastVerifiedAt": "2026-07-12T15:34:28.021Z",
+      "intelligenceGeneratedAt": "2026-07-12T15:34:32.657Z",
+      "expiresAt": "2026-07-13T03:12:39.000Z",
       "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "Route may be blocked or diverted.",
+      "recommendedAction": "Use an alternate route and check official updates.",
       "affectedArea": "",
-      "upstreamId": "55aff295734ff0c9012216e9d45bf53d",
+      "upstreamId": "8d2e6f5b5963edfde1597f4c8225a6bb",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "local",
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "structural-collapse-developing-pune-building-collapse-death-toll-hits-9-with-recovery-of-f",
+      "eventKind": "incident",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Pune building collapse: Death toll hits 9 with recovery of final body from rubble",
+      "summary": "Reported by Indian Express Pune. Official confirmation is awaited.",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLXNyQ1FGZUhrZlhibExENFNtSnBobEJsMTRxQ3VsZ1R3UW9DOTM1YXRIYkdIbmlLZTBXdmh0SzdRcU5POHJ6UkZBRzYwV3lOSy1XaDdWVURZRk9mMGowZHVfajk2WDdUeTJpTUlhMFVOZ2VtbDBBQTZmbGJwZ3V2UVlFdlR0bk1SMXlBM1N3MXpUeUN6UnpuSTQ1VXdKa1RMNGxSbkJndFh0bHcyQlBMZDMwVVBhd2R5VzI0ZjhobTdIN3FEQVZZetIBzwFBVV95cUxQdmpsam9TNkM2Q29PdElLWmg4V1o4di1lNXFrTnpJTzZ0bGNDVTd5YThYTjdCQTN0aEZUY0cyaGo0aVNIbkw3R0Y0ckVMNmJaYjhRRzFNamtvSklUaGhfckxNNVExdkFoSnRjTGlmdzdxdWxGaGpTLUczZHZUYlZIejhwd080eUt5aEhzMV9tWjc4SDdaeUZwVzVveE5iaTF1UTZmZFJkeFRrRVMyZVU3Z3VrSHQ0ZHZWcjhveHRVOEFCYWdRa21DWGU1Z1VEaXM?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLXNyQ1FGZUhrZlhibExENFNtSnBobEJsMTRxQ3VsZ1R3UW9DOTM1YXRIYkdIbmlLZTBXdmh0SzdRcU5POHJ6UkZBRzYwV3lOSy1XaDdWVURZRk9mMGowZHVfajk2WDdUeTJpTUlhMFVOZ2VtbDBBQTZmbGJwZ3V2UVlFdlR0bk1SMXlBM1N3MXpUeUN6UnpuSTQ1VXdKa1RMNGxSbkJndFh0bHcyQlBMZDMwVVBhd2R5VzI0ZjhobTdIN3FEQVZZetIBzwFBVV95cUxQdmpsam9TNkM2Q29PdElLWmg4V1o4di1lNXFrTnpJTzZ0bGNDVTd5YThYTjdCQTN0aEZUY0cyaGo0aVNIbkw3R0Y0ckVMNmJaYjhRRzFNamtvSklUaGhfckxNNVExdkFoSnRjTGlmdzdxdWxGaGpTLUczZHZUYlZIejhwd080eUt5aEhzMV9tWjc4SDdaeUZwVzVveE5iaTF1UTZmZFJkeFRrRVMyZVU3Z3VrSHQ0ZHZWcjhveHRVOEFCYWdRa21DWGU1Z1VEaXM?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-12T06:15:29.000Z",
+      "lastUpdated": "2026-07-12T06:15:29.000Z",
+      "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+      "lastVerifiedAt": "2026-07-12T15:34:28.021Z",
+      "intelligenceGeneratedAt": "2026-07-12T15:34:32.657Z",
+      "expiresAt": "2026-07-13T18:15:29.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-f90d4c92",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
@@ -202,29 +339,108 @@
   "journeyContext": {
     "activeRiskEvents": [
       {
-        "id": "flood-developing-pune-moshi-building-collapse-तब्बल-81-तासांनंतर-रेस्क्यू-ऑपरेशन-अखेर-पूर्",
-        "category": "flood",
+        "id": "structural-collapse-developing-pune-building-collapse-death-toll-hits-9-with-recovery-of-f",
+        "category": "structural_collapse",
+        "severity": "warning",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+      },
+      {
+        "id": "accident-developing-pimpri-विनापरवाना-उभारली-तीनमजली-इमारत-मोशीतील-बांधकामाबाबत-अनेक-प्रश्",
+        "category": "accident",
         "severity": "watch",
         "localities": [
+          "Pimpri",
           "Moshi"
         ],
         "talukas": [
           "pcmc"
         ],
         "operationalZones": [],
-        "impact": "This event may affect local awareness or movement."
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
+        "id": "road-closure-developing-pune-police-news-psiचा-कॅफेमधील-व्हिडीओ-व्हायरल-झाल्यानंतर-निलंबन-",
+        "category": "road_closure",
+        "severity": "warning",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Route may be blocked or diverted."
+      },
+      {
+        "id": "structural-collapse-developing-pune-building-collapse-death-toll-hits-9-with-recovery-of-f",
+        "category": "structural_collapse",
+        "severity": "warning",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
       }
     ]
   },
-  "expiredEvents": [],
+  "expiredEvents": [
+    {
+      "id": "structural-collapse-developing-moshi-accident-waiting-for-a-miracle-finding-heartbreak-as-",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Moshi accident: Waiting for a miracle, finding heartbreak as rescuers recover seven more bodies",
+      "summary": "For nearly 81 hours, families of staff trapped in the Moshi garbage depot building collapse remained outside the accident site, refusing to leave despite heavy rain, foul odour and uncertainty",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/moshi-accident-waiting-for-a-miracle-finding-heartbreak-as-rescuers-recover-seven-more-bodies-101783798101226.html",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/moshi-accident-waiting-for-a-miracle-finding-heartbreak-as-rescuers-recover-seven-more-bodies-101783798101226.html",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Moshi"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-07-12T03:10:05.000Z",
+      "lastUpdated": "2026-07-12T03:10:05.000Z",
+      "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+      "lastVerifiedAt": "2026-07-12T15:34:28.021Z",
+      "intelligenceGeneratedAt": "2026-07-12T15:34:32.657Z",
+      "expiresAt": "2026-07-12T15:10:05.000Z",
+      "lifecycle": "expired",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [
+        "accident-developing-pimpri-विनापरवाना-उभारली-तीनमजली-इमारत-मोशीतील-बांधकामाबाबत-अनेक-प्रश्"
+      ],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-12T14:16:55.139Z",
-      "lastSuccessfulAt": "2026-07-12T14:16:55.139Z",
+      "sourceCheckedAt": "2026-07-12T15:34:28.021Z",
+      "lastSuccessfulAt": "2026-07-12T15:34:28.021Z",
       "error": null
     }
   },
@@ -242,10 +458,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 537.79,
+        "level": 537.82,
         "alertLevel": 547,
         "dangerLevel": 548,
-        "dischargeCumecs": 8.76,
+        "dischargeCumecs": 8.91,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -259,14 +475,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Koregaon Bhima river level is normal.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "updatedAt": "2026-07-12T15:34:32.716Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:30:00+05:30",
+            "observedAt": "2026-07-12T20:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -286,10 +502,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 508.82,
+        "level": 508.81,
         "alertLevel": 515,
         "dangerLevel": 517,
-        "dischargeCumecs": 186.06,
+        "dischargeCumecs": 183.59,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -304,14 +520,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Paragaon river level is normal.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "updatedAt": "2026-07-12T15:34:32.717Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:15:00+05:30",
+            "observedAt": "2026-07-12T20:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -331,10 +547,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 498.54,
+        "level": 498.53,
         "alertLevel": 504,
         "dangerLevel": 505,
-        "dischargeCumecs": 197.87,
+        "dischargeCumecs": 194.92,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -348,14 +564,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Daund river level is normal.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "updatedAt": "2026-07-12T15:34:32.717Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:30:00+05:30",
+            "observedAt": "2026-07-12T20:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -375,10 +591,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 581.16,
+        "level": 581.15,
         "alertLevel": 585.5,
         "dangerLevel": 585.89,
-        "dischargeCumecs": 4.47,
+        "dischargeCumecs": 4.34,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -392,14 +608,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Umbre Kasurdi river level is normal.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "updatedAt": "2026-07-12T15:34:32.717Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:30:00+05:30",
+            "observedAt": "2026-07-12T20:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -419,10 +635,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 542.58,
+        "level": 542.57,
         "alertLevel": 545,
         "dangerLevel": 546.3,
-        "dischargeCumecs": 11.95,
+        "dischargeCumecs": 11.3,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -439,14 +655,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Dattawadi river level is normal.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "updatedAt": "2026-07-12T15:34:32.717Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:45:00+05:30",
+            "observedAt": "2026-07-12T21:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -466,10 +682,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 534,
+        "level": 533.99,
         "alertLevel": 541.5,
         "dangerLevel": 542.5,
-        "dischargeCumecs": 28.15,
+        "dischargeCumecs": 27.58,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -486,14 +702,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Kalyani nagar Bridge river level is normal.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "updatedAt": "2026-07-12T15:34:32.717Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:30:00+05:30",
+            "observedAt": "2026-07-12T20:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -533,14 +749,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Pimple Gurav river level is normal.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "updatedAt": "2026-07-12T15:34:32.717Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:45:00+05:30",
+            "observedAt": "2026-07-12T21:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -556,8 +772,8 @@
         "river": "Nira River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 99.84,
-        "reservoirLevel": 579.84,
+        "storagePercent": 100,
+        "reservoirLevel": 579.85,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -573,20 +789,20 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Veer Dam: 99.84% storage.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "note": "Veer Dam: 100% storage.",
+          "updatedAt": "2026-07-12T15:34:32.717Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:00:00+05:30",
+            "observedAt": "2026-07-12T20:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Veer Dam has 99.84% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Veer Dam has 100% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -597,8 +813,8 @@
         "river": "Nira River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 52.02,
-        "reservoirLevel": 612.41,
+        "storagePercent": 51.94,
+        "reservoirLevel": 612.39,
         "dischargeCumecs": null,
         "rsi": 10,
         "severity": "advisory",
@@ -612,20 +828,20 @@
         "travelSensitivity": "low",
         "timeline": {
           "state": "monitoring",
-          "note": "Bhatghar Dam: 52.02% storage.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "note": "Bhatghar Dam: 51.94% storage.",
+          "updatedAt": "2026-07-12T15:34:32.717Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:00:00+05:30",
+            "observedAt": "2026-07-12T20:45:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Bhatghar Dam has 52.02% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Bhatghar Dam has 51.94% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -661,14 +877,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Khadakwasla Dam: 100% storage.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "updatedAt": "2026-07-12T15:34:32.717Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:00:00+05:30",
+            "observedAt": "2026-07-12T20:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -703,14 +919,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Temghar Dam: 39.04% storage.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "updatedAt": "2026-07-12T15:34:32.717Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:30:00+05:30",
+            "observedAt": "2026-07-12T20:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -726,8 +942,8 @@
         "river": "Mula River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 70.91,
-        "reservoirLevel": 602.92,
+        "storagePercent": 70.84,
+        "reservoirLevel": 602.91,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -743,20 +959,20 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Mulshi Dam: 70.91% storage.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "note": "Mulshi Dam: 70.84% storage.",
+          "updatedAt": "2026-07-12T15:34:32.717Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:30:00+05:30",
+            "observedAt": "2026-07-12T20:45:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Mulshi Dam has 70.91% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Mulshi Dam has 70.84% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -786,14 +1002,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Pawna Dam: 75.78% storage.",
-          "updatedAt": "2026-07-12T14:16:59.120Z"
+          "updatedAt": "2026-07-12T15:34:32.717Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-12T19:30:00+05:30",
+            "observedAt": "2026-07-12T20:30:00+05:30",
             "link": "",
             "note": ""
           }
@@ -803,7 +1019,7 @@
       }
     ],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-12T14:16:59.121Z",
+      "generatedAt": "2026-07-12T15:34:32.718Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -816,7 +1032,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-12T14:16:59.121Z",
+      "generatedAt": "2026-07-12T15:34:32.717Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -897,10 +1113,10 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-12T14:16:59.121Z",
+      "generatedAt": "2026-07-12T15:34:32.718Z",
       "mode": "on-demand",
       "relevantDomains": [
-        "bridges"
+        "highways"
       ],
       "infrastructure": {
         "highways": [
@@ -942,7 +1158,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-12T14:16:59.175Z",
+        "generatedAt": "2026-07-12T15:34:32.769Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -1091,7 +1307,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-12T14:16:59.175Z",
+        "generatedAt": "2026-07-12T15:34:32.770Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1188,7 +1404,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-12T14:16:59.175Z",
+        "generatedAt": "2026-07-12T15:34:32.770Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
