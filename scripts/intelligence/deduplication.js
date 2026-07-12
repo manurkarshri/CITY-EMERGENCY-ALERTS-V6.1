@@ -10,7 +10,7 @@ export function deduplicateEvents(events = []) {
       let score = jaccardSimilarity(`${event.title} ${event.summary}`, `${primary.title} ${primary.summary}`);
       if (event.category === primary.category) score += 0.12;
       if ((event.localities || []).some(x => (primary.localities || []).includes(x))) score += 0.15;
-      if (score >= 0.78 || sameSourceUpdateMatch(event, primary) || lifeSafetyMatch(event, primary) || corroboratedMatch(event, primary) || wireDuplicateMatch(event, primary) || officialUpdateMatch(event, primary)) matched = group;
+      if (score >= 0.78 || sameSourceUpdateMatch(event, primary) || sameCollapseRescueEvent(event, primary) || lifeSafetyMatch(event, primary) || corroboratedMatch(event, primary) || wireDuplicateMatch(event, primary) || officialUpdateMatch(event, primary)) matched = group;
     }
     matched ? matched.push(event) : groups.push([event]);
   }
@@ -54,6 +54,20 @@ function lifeSafetyMatch(a, b) {
   if (!Number.isFinite(timeA) || !Number.isFinite(timeB) || Math.abs(timeA - timeB) > 36 * 36e5) return false;
   const similarity = jaccardSimilarity(`${a.title} ${a.summary}`, `${b.title} ${b.summary}`);
   return similarity >= 0.24;
+}
+
+function sameCollapseRescueEvent(a, b) {
+  const relatedCategories = new Set(["structural_collapse", "rescue_operation"]);
+  if (!relatedCategories.has(a.category) || !relatedCategories.has(b.category) || a.category === b.category) return false;
+  const timeA = new Date(a.publishedAt).getTime();
+  const timeB = new Date(b.publishedAt).getTime();
+  if (!Number.isFinite(timeA) || !Number.isFinite(timeB) || Math.abs(timeA - timeB) > 36 * 36e5) return false;
+  const titleA = String(a.title || "");
+  const titleB = String(b.title || "");
+  if (!/\bpune\b|\bpcmc\b|\bpimpri\b|\bmoshi\b/i.test(titleA) || !/\bpune\b|\bpcmc\b|\bpimpri\b|\bmoshi\b/i.test(titleB)) return false;
+  const countsA = new Set(titleA.match(/\b\d{1,3}\b/g) || []);
+  const countsB = new Set(titleB.match(/\b\d{1,3}\b/g) || []);
+  return [...countsA].some(value => Number(value) > 0 && countsB.has(value));
 }
 
 function wireDuplicateMatch(a, b) {

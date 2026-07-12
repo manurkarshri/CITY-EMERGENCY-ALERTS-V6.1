@@ -27,4 +27,8 @@ assert(deduplicateEvents([initialUpdate, followUp]).length === 1, "Successive sa
 const liveHeadline = { ...initialUpdate, id: "collapse-live-1", title: "Developing: Pune building collapse: Death toll hits 9 with recovery of final body from rubble" };
 const discoveredHeadline = { ...initialUpdate, id: "collapse-live-2", title: "Developing: Pune building collapse: Death toll rises to nine as last missing person's body recovered", publishedAt: "2026-07-11T11:30:00.000Z" };
 assert(deduplicateEvents([liveHeadline, discoveredHeadline]).length === 1, "Direct and discovery updates for the same publisher collapse must produce one card");
+const rescueConclusion = { ...initialUpdate, id: "collapse-rescue", sourceId: "hindustan_times", source: "Hindustan Times Pune", category: "rescue_operation", title: "Developing: Pune: Moshi garbage depot toll rises to 9 as 83-hour rescue operation ends", publishedAt: "2026-07-11T12:00:00.000Z", sources: [{ name: "Hindustan Times Pune", link: "https://hindustantimes.com/rescue" }] };
+const collapseReport = { ...liveHeadline, publishedAt: "2026-07-11T11:00:00.000Z" };
+assert(deduplicateEvents([collapseReport, rescueConclusion]).length === 1, "Collapse and rescue-conclusion reports with the same Pune toll must produce one incident card");
+assert(deduplicateEvents([collapseReport, { ...rescueConclusion, title: rescueConclusion.title.replace("9", "8") }]).length === 2, "Different casualty counts must not be merged only because both reports concern Pune");
 console.log("Incident corroboration tests passed.");
