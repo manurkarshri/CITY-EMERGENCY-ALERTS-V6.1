@@ -11,6 +11,8 @@
 .event-card{border-left:7px solid var(--blue)}.event-card.emergency{border-left-color:var(--red)}.event-card.warning{border-left-color:var(--orange)}.event-card.watch{border-left-color:var(--yellow)}
 .source-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .source-pill{background:#f1f3f4;border-radius:999px;padding:5px 9px;font-size:12px;text-decoration:none}
+.primary-source-link{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:14px;padding:11px 14px;border-radius:12px;background:var(--blue);color:#fff;font-weight:900;text-align:center;text-decoration:none}.primary-source-link:hover,.primary-source-link:focus-visible{filter:brightness(.92)}
+.corroborating-sources{margin-top:10px}.corroborating-sources summary{cursor:pointer;font-size:13px;font-weight:900;color:var(--blue)}.source-choice-list{display:grid;gap:7px;margin-top:9px}.source-choice-list a,.unlinked-source{display:flex;justify-content:space-between;gap:12px;padding:9px 10px;border:1px solid var(--border);border-radius:10px;background:#fff;font-size:13px;text-decoration:none}.source-choice-list a span:first-child{font-weight:900}.source-choice-list a span:last-child{white-space:nowrap}
 .route-card.recommended{border:2px solid var(--green);background:linear-gradient(135deg,#fff,#f7fff8)}
 .journey-metrics .metric strong,.journey-metrics .metric span{display:block}.journey-metrics .metric span{margin-top:5px}.journey-metrics .metric strong{line-height:1.2}
 .empty{color:var(--muted);text-align:center;padding:20px}

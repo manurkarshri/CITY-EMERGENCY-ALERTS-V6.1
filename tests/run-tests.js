@@ -22,6 +22,7 @@ import "./test-rtdas-river.js";
 import "./test-visit-history.js";
 import "./test-safety-checklists.js";
 import "./test-official-sources.js";
+import "./test-event-source-links.js";
 import "./test-pwa-offline.js";
 import "./test-collection-health.js";
 import "./test-journey-layout.js";
