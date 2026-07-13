@@ -23,6 +23,8 @@ assert(!html.includes("Official confirmation is awaited"), "Tier 2 cards must no
 assert(html.includes("Independently reported by"), "Corroborated Tier 2 cards must explain their evidence status");
 const officialHtml = renderEventList([{ ...item, sources: [...item.sources, { name: "Pune Police", trust: "A", link: "https://punepolice.gov.in/notice" }] }], "");
 assert(officialHtml.includes("Officially confirmed by") && officialHtml.includes("punepolice.gov.in"), "Official confirmation must be shown only with a linked official source");
+const discoveryHtml = renderEventList([{ ...item, discoveryOnly: true, corroboratedByIndependentSources: false, independentSourceCount: 1 }], "");
+assert(discoveryHtml.includes("Found in news feed") && discoveryHtml.includes("publisher date not verified") && !discoveryHtml.includes("Updated "), "Google discovery time must not be presented as publisher update time");
 console.log("Event source-link presentation tests passed.");
 
 function assert(condition, message) { if (!condition) throw new Error(message); }

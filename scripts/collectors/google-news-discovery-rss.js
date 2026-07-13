@@ -74,15 +74,15 @@ export async function materializeGoogleDiscoveries(discoveries = [], checkedAt =
   const items = [];
   for (const discovery of discoveries) {
     const publishedAt = new Date(discovery.publishedAt);
-    if (!Number.isFinite(publishedAt.getTime()) || new Date(checkedAt) - publishedAt > 24 * 36e5) continue;
+    if (!Number.isFinite(publishedAt.getTime()) || new Date(checkedAt) - publishedAt > 12 * 36e5) continue;
     const location = await detectLocality(localitySearchText(discovery.title));
     items.push({
       eventKind: "incident", sourceId: discovery.publisherId, collectionSourceId: "google_news_discovery", upstreamId: discovery.id,
       title: `Developing: ${discovery.title}`, summary: "A current trusted-media report relevant to Pune District.",
       category: discovery.category, severity: discovery.severity, source: discovery.publisher, sourceTrust: "B", link: discovery.discoveryLink,
       sourceOrigin: ["pti", "ani"].includes(discovery.publisherId) ? discovery.publisherId : "",
-      publishedAt: discovery.publishedAt, lastUpdated: discovery.publishedAt, sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt,
-      expiresAt: new Date(publishedAt.getTime() + incidentFreshnessHours(discovery) * 36e5).toISOString(),
+      publishedAt: discovery.publishedAt, discoveredAt: discovery.discoveredAt, lastUpdated: discovery.publishedAt, sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt,
+      expiresAt: new Date(publishedAt.getTime() + Math.min(12, incidentFreshnessHours(discovery)) * 36e5).toISOString(),
       collectionProvider: "Google News RSS", discoveryOnly: true,
       geographicScope: location.localities.length || location.talukas.length ? "local" : "pune_district",
       affectedArea: location.localities.join(", ") || "Pune District", talukas: location.talukas, localities: location.localities
@@ -99,7 +99,7 @@ function parseItem(xml, checkedAt) {
   const classification = classifyDiscoveryText(title);
   const publishedAt = isoDate(field(xml, "pubDate"));
   if (!publisher || !classification || !publishedAt || !isPuneDistrictHeadline(title)) return null;
-  if (new Date(checkedAt) - new Date(publishedAt) > 36 * 36e5) return null;
+  if (new Date(checkedAt) - new Date(publishedAt) > 12 * 36e5) return null;
   return { id: stableKey(`${publisher.id}|${title}|${publishedAt}`), publisherId: publisher.id, publisher: publisher.name, title,
     category: classification.category, severity: classification.severity, publishedAt, discoveredAt: checkedAt,
     discoveryLink: field(xml, "link"), discoveryProvider: "Google News RSS", verificationStatus: "awaiting_direct_article", verifiedEventIds: [] };

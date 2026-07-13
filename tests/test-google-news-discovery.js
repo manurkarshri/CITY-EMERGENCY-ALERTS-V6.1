@@ -10,6 +10,8 @@ assert(verified[0].verificationStatus === "verified_direct_article", "Matching d
 const materialized = await materializeGoogleDiscoveries(discoveries, checkedAt);
 assert(materialized.length === 2, "Trusted Google discoveries must create developing incidents");
 assert(materialized.every(item => item.eventKind === "incident" && item.sourceTrust === "B" && item.collectionProvider === "Google News RSS"), "Google discoveries must remain trusted-media incidents, not official alerts");
+const staleDiscovery = { ...discoveries[0], publishedAt: "2026-07-10T22:00:00.000Z" };
+assert((await materializeGoogleDiscoveries([staleDiscovery], checkedAt)).length === 0, "Google-only discoveries older than 12 hours must not become current incidents");
 const hindiXml = `<?xml version="1.0"?><rss><channel><item><title>\u092a\u0941\u0923\u0947 \u092e\u0947\u0902 \u0938\u0921\u093c\u0915 \u092c\u0902\u0926 - ANI</title><link>https://news.google.com/hi</link><pubDate>Sat, 11 Jul 2026 10:20:00 GMT</pubDate><source>ANI</source></item></channel></rss>`;
 const hindi = normalizeGoogleNewsRss(hindiXml, checkedAt);
 assert(hindi.length === 1 && hindi[0].publisherId === "ani" && hindi[0].category === "road_closure", "Hindi ANI discovery must be retained and classified");

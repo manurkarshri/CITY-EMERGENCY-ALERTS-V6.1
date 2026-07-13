@@ -11,12 +11,23 @@ import { setupConnectivity } from "./core/connectivity.js";
 
 async function init() {
   if ("serviceWorker" in navigator) {
+    let reloadingForUpdate = false;
     navigator.serviceWorker.addEventListener("controllerchange", () => {
-      if (sessionStorage.getItem("cea.sw-reloaded") === "1") return;
-      sessionStorage.setItem("cea.sw-reloaded", "1");
+      if (reloadingForUpdate) return;
+      reloadingForUpdate = true;
       window.location.reload();
     });
-    navigator.serviceWorker.register("sw.js").catch(console.warn);
+    navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).then(registration => {
+      let lastUpdateCheck = 0;
+      const checkForUpdate = () => {
+        if (!navigator.onLine || Date.now() - lastUpdateCheck < 5 * 60 * 1000) return;
+        lastUpdateCheck = Date.now();
+        registration.update().catch(console.warn);
+      };
+      checkForUpdate();
+      window.addEventListener("focus", checkForUpdate);
+      document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkForUpdate(); });
+    }).catch(console.warn);
   }
   await loadAllData();
   captureVisitChanges();

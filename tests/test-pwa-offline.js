@@ -10,6 +10,8 @@ assert(worker.includes("./data/source-health.json"), "Offline app shell must inc
 assert(worker.includes("cache.put(cacheRequest, response.clone())"), "Service worker must retain successful same-origin responses");
 assert(worker.includes('cache: "no-store"'), "Service worker must bypass stale browser HTTP cache when refreshing app files");
 assert(worker.includes("request.mode === \"navigate\""), "Offline navigation must fall back to the cached app shell");
-assert(app.includes("controllerchange") && app.includes("cea.sw-reloaded"), "App must reload once when an updated service worker takes control");
+assert(app.includes("controllerchange") && app.includes("reloadingForUpdate"), "App must reload once when an updated service worker takes control");
+assert(app.includes('updateViaCache: "none"') && app.includes("registration.update()"), "App must explicitly check for an uncached service-worker update at startup");
+assert(app.includes('window.addEventListener("focus", checkForUpdate)') && app.includes('visibilitychange'), "Installed PWA must check for updates when users return to it");
 assert(connectivity.includes("You are offline. Showing the last safely cached intelligence."), "Offline status must explain cached intelligence");
 assert(connectivity.includes("window.addEventListener(\"online\""), "Connectivity module must refresh when online");

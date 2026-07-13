@@ -18,11 +18,11 @@ export function renderEventList(items, emptyText) {
       ${item.impact ? `<p><strong>Impact:</strong> ${escapeHtml(item.impact)}</p>` : ""}
       ${item.recommendedAction ? `<p><strong>Action:</strong> ${escapeHtml(item.recommendedAction)}</p>` : ""}
       <p class="event-meta"><strong>Affected:</strong> ${escapeHtml([...(item.localities || []), ...(item.operationalZones || [])].slice(0, 5).join(" • ") || item.affectedArea || scopeLabel(item.geographicScope))}</p>
-      <p class="event-meta">Updated ${relativeTime(item.lastVerifiedAt || item.sourceCheckedAt)} · ${escapeHtml(item.lifecycle || "active")}</p>
+      <p class="event-meta">${eventTiming(item)} · ${escapeHtml(item.lifecycle || "active")}</p>
       <details class="event-details"><summary>Source and confidence</summary>
         <p class="event-meta">Confidence: ${escapeHtml(item.confidence || "Unknown")} · Trust: ${escapeHtml(item.sourceTrust || "N/A")}</p>
         ${item.sourceTrust === "B" ? `<p class="event-meta"><strong>Corroboration:</strong> ${item.corroboratedByIndependentSources ? `${item.independentSourceCount || independentSourceCount(item.sources || [])} independent trusted sources` : "Not yet independently confirmed; treat as developing"}</p>` : ""}
-        <p class="event-meta">Published ${relativeTime(item.publishedAt)} · Source checked ${relativeTime(item.sourceCheckedAt)}</p>
+        <p class="event-meta">${eventDetailTiming(item)}</p>
       </details>
       ${primarySource?.link ? `<a class="primary-source-link" href="${escapeAttr(primarySource.link)}" target="_blank" rel="noopener">Read full report at ${escapeHtml(primarySource.name)} <span aria-hidden="true">→</span></a>` : ""}
       ${otherSources.length ? `<details class="corroborating-sources"><summary>Also reported by ${otherSources.length} trusted source${otherSources.length === 1 ? "" : "s"}</summary>
@@ -61,6 +61,20 @@ function displaySummary(item) {
   const summary = String(item.summary || item.impact || "").trim();
   if (/^Reported by .+\. Official confirmation is awaited\.?$/i.test(summary)) return "";
   return summary;
+}
+
+function eventTiming(item) {
+  if (isDiscoveryOnly(item)) return `Found in news feed ${relativeTime(item.publishedAt)}; publisher date not verified`;
+  return `Reported ${relativeTime(item.publishedAt)}`;
+}
+
+function eventDetailTiming(item) {
+  if (isDiscoveryOnly(item)) return `News-feed timestamp ${relativeTime(item.publishedAt)} · Source checked ${relativeTime(item.sourceCheckedAt)}`;
+  return `Publisher timestamp ${relativeTime(item.publishedAt)} · Source checked ${relativeTime(item.sourceCheckedAt)}`;
+}
+
+function isDiscoveryOnly(item) {
+  return Boolean(item.discoveryOnly || item.collectionProvider === "Google News RSS" || /news\.google\.com/i.test(item.link || "") || /^A current trusted-media report relevant to Pune District\.?$/i.test(item.summary || ""));
 }
 
 function sourceQuality(source, item) {
