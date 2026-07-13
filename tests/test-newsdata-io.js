@@ -11,12 +11,14 @@ const items = normalizeNewsDataResponse({ results: [
   ,{ article_id: "six", title: "PTI: Major fire at Pune warehouse brings traffic disruption", description: "Emergency crews reached the Pune site", source_name: "Press Trust of India", pubDate: "2026-07-12 05:40:00", link: "https://www.ptinews.com/pune/example" }
   ,{ article_id: "seven", title: "Pune building collapse leaves workers trapped", description: "Rescue operation continues", source_name: "NDTV", pubDate: "2026-07-12 05:45:00", link: "https://www.ndtv.com/pune/example" }
   ,{ article_id: "eight", title: "Pune police officer reinstated after review", description: "A road closure was mentioned in the background of the report", source_name: "ABP News", pubDate: "2026-07-12 05:45:00", link: "https://www.abplive.com/pune/example" }
+  ,{ article_id: "nine", title: "3 women killed after truck ploughs into pilgrims near Pune", description: "Emergency response is under way", source_name: "Moneycontrol.com", pubDate: "2026-07-12 05:46:00", link: "https://www.moneycontrol.com/news/example" }
 ] }, checkedAt);
 const indirectMention = normalizeNewsDataResponse({ results: [{ article_id: "five", title: "Panchgani murder case", description: "Victim from Indapur, Pune district", source_name: "Lokmat", pubDate: "2026-07-12 05:30:00", link: "https://www.lokmat.com/other/example" }] }, checkedAt);
 assert(indirectMention.length === 0, "A Pune mention only in background context must not create a Pune incident");
-assert(items.length === 4, "Trusted national structural-collapse reporting must be retained");
+assert(items.length === 5, "Trusted national life-safety reporting must be retained");
 assert(items.find(item => item.source === "PTI")?.sourceOrigin === "pti", "PTI provenance must be retained for deduplication");
 assert(items.find(item => item.source === "NDTV")?.category === "structural_collapse", "NDTV structural-collapse coverage must receive the correct safety category");
+assert(items.find(item => item.source === "Moneycontrol")?.category === "accident", "Moneycontrol accident coverage must be accepted as Tier 2");
 assert(!items.some(item => item.title.includes("police officer reinstated")), "Background safety terms in a routine story must not create an incident");
 assert(items[0].collectionSourceId === "newsdata_io", "NewsData.io provenance must be retained");
 console.log("NewsData.io collector tests passed.");

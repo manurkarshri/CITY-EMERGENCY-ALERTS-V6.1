@@ -8,3 +8,4 @@ assert(officialNames.includes("Pune Division Disaster Management"), "Official di
 assert(officialNames.includes("Maharashtra Highway Traffic Police"), "Official directory must include highway traffic police");
 assert(officialNames.includes("Maharashtra WRD RTDAS"), "Official directory must identify the live river source");
 assert(TRUSTED_MEDIA_SOURCES.every(([, , sourceId]) => !sourceId || !["imd_nowcast", "ndma_sachet", "maharashtra_rtdas", "pune_metro"].includes(sourceId)), "Trusted media must remain separate from official sources");
+assert(["ThePrint", "Moneycontrol", "Mid-day"].every(name => TRUSTED_MEDIA_SOURCES.some(([source]) => source === name)), "Approved Tier 2 publishers must appear in the trusted-media directory");

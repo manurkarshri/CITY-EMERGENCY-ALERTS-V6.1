@@ -5,7 +5,7 @@ import { classifyQualifyingMediaArticle } from "../intelligence/media-article-qu
 
 const API_URL = "https://api.freenewsapi.io/v1/news";
 const SEARCHES = [{ inTitle: "Pune" }];
-const ALLOWED_PUBLISHERS = /Indian Express|Hindustan Times|Live Hindustan|e?Sakal|Lokmat|Loksatta|Maharashtra Times|ABP Majha|ABP Live Marathi|ABP News|TV9 Marathi|News18(?: Hindi| Lokmat| Marathi)?|Dainik Bhaskar|Amar Ujala|Press Trust of India|\bPTI\b|Asian News International|\bANI\b|\bIANS\b|The Hindu|Deccan Herald|Times of India|The Telegraph|\bNDTV\b|India Today|Pudhari|Divya Marathi|Gomantak|Agrowon|Punekar News|Pune Pulse|Saam TV/i;
+const ALLOWED_PUBLISHERS = /Indian Express|Hindustan Times|Live Hindustan|e?Sakal|Lokmat|Loksatta|Maharashtra Times|ABP Majha|ABP Live Marathi|ABP News|TV9 Marathi|News18(?: Hindi| Lokmat| Marathi)?|Dainik Bhaskar|Amar Ujala|Press Trust of India|\bPTI\b|Asian News International|\bANI\b|\bIANS\b|The Hindu|Deccan Herald|Times of India|The Telegraph|\bNDTV\b|India Today|ThePrint|The Print|Moneycontrol|Mid-day|Mid Day|Pudhari|Divya Marathi|Gomantak|Agrowon|Punekar News|Pune Pulse|Saam TV/i;
 
 export async function fetchFreeNewsIncidents(options = {}) {
   const apiKey = options.apiKey || process.env.FREE_NEWS_API_KEY;
@@ -106,6 +106,9 @@ function canonicalPublisher(value) {
   if (/The Telegraph/i.test(value)) return "The Telegraph";
   if (/\bNDTV\b/i.test(value)) return "NDTV";
   if (/India Today/i.test(value)) return "India Today";
+  if (/ThePrint|The Print/i.test(value)) return "ThePrint";
+  if (/Moneycontrol/i.test(value)) return "Moneycontrol";
+  if (/Mid-day|Mid Day/i.test(value)) return "Mid-day";
   if (/Pudhari/i.test(value)) return "Pudhari";
   if (/Divya Marathi/i.test(value)) return "Divya Marathi";
   if (/Gomantak/i.test(value)) return "Gomantak";

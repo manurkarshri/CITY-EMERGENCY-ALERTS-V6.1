@@ -1,4 +1,4 @@
-const PUBLIC_SAFETY = new Set(["accident", "fire", "explosion", "flood", "waterlogging", "landslide", "building_collapse", "industrial_accident", "hazardous_material", "rescue", "evacuation", "public_safety"]);
+const PUBLIC_SAFETY = new Set(["accident", "fire", "explosion", "flood", "waterlogging", "landslide", "building_collapse", "structural_collapse", "industrial_accident", "hazardous_material", "chemical_hazard", "electrical_hazard", "rescue", "rescue_operation", "water_rescue", "evacuation", "public_safety", "infrastructure_failure", "health_emergency"]);
 const TRAVEL = new Set(["transport_disruption", "lane_closure", "severe_congestion", "vehicle_breakdown", "dangerous_road_condition", "roadworks"]);
 
 export function groupIncidentsForCitizens(items = []) {

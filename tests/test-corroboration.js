@@ -31,4 +31,8 @@ const rescueConclusion = { ...initialUpdate, id: "collapse-rescue", sourceId: "h
 const collapseReport = { ...liveHeadline, publishedAt: "2026-07-11T11:00:00.000Z" };
 assert(deduplicateEvents([collapseReport, rescueConclusion]).length === 1, "Collapse and rescue-conclusion reports with the same Pune toll must produce one incident card");
 assert(deduplicateEvents([collapseReport, { ...rescueConclusion, title: rescueConclusion.title.replace("9", "8") }]).length === 2, "Different casualty counts must not be merged only because both reports concern Pune");
+const wariPrint = { ...initialUpdate, id: "wari-print", sourceId: "the_print", source: "ThePrint", category: "accident", title: "Developing: Three women killed as truck crashes into procession of warkaris in Pune", publishedAt: "2026-07-11T13:00:00.000Z", sources: [{ name: "ThePrint", link: "https://theprint.in/wari" }] };
+const wariMoneycontrol = { ...wariPrint, id: "wari-moneycontrol", sourceId: "moneycontrol", source: "Moneycontrol", title: "Developing: 3 women killed, 4 critical after truck ploughs into Ashadhi Ekadashi pilgrims near Pune", publishedAt: "2026-07-11T14:00:00.000Z", sources: [{ name: "Moneycontrol", link: "https://moneycontrol.com/wari" }] };
+const wariMerged = deduplicateEvents([wariPrint, wariMoneycontrol]);
+assert(wariMerged.length === 1 && wariMerged[0].independentSourceCount === 2, "Independent reports of the same procession accident must form one corroborated incident card");
 console.log("Incident corroboration tests passed.");

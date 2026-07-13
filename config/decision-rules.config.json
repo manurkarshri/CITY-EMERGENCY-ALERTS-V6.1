@@ -51,6 +51,16 @@
       "action": "Avoid the area and follow police or emergency-service instructions."
     },
     {
+      "category": "infrastructure_failure",
+      "impact": "Damaged infrastructure may create an immediate safety hazard and disrupt movement or essential services.",
+      "action": "Avoid the affected structure or road and follow civic, police or emergency-service instructions."
+    },
+    {
+      "category": "health_emergency",
+      "impact": "A reported outbreak or contamination incident may affect public health in the area.",
+      "action": "Follow official health guidance, avoid the suspected source and seek medical help if symptoms develop."
+    },
+    {
       "category": "road_closure",
       "impact": "Route may be blocked or diverted.",
       "action": "Use an alternate route and check official updates."

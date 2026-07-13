@@ -10,7 +10,7 @@ export function deduplicateEvents(events = []) {
       let score = jaccardSimilarity(`${event.title} ${event.summary}`, `${primary.title} ${primary.summary}`);
       if (event.category === primary.category) score += 0.12;
       if ((event.localities || []).some(x => (primary.localities || []).includes(x))) score += 0.15;
-      if (score >= 0.78 || sameSourceUpdateMatch(event, primary) || sameCollapseRescueEvent(event, primary) || lifeSafetyMatch(event, primary) || corroboratedMatch(event, primary) || wireDuplicateMatch(event, primary) || officialUpdateMatch(event, primary)) matched = group;
+      if (score >= 0.78 || sameSourceUpdateMatch(event, primary) || sameCollapseRescueEvent(event, primary) || sameCasualtyAccident(event, primary) || lifeSafetyMatch(event, primary) || corroboratedMatch(event, primary) || wireDuplicateMatch(event, primary) || officialUpdateMatch(event, primary)) matched = group;
     }
     matched ? matched.push(event) : groups.push([event]);
   }
@@ -68,6 +68,29 @@ function sameCollapseRescueEvent(a, b) {
   const countsA = new Set(titleA.match(/\b\d{1,3}\b/g) || []);
   const countsB = new Set(titleB.match(/\b\d{1,3}\b/g) || []);
   return [...countsA].some(value => Number(value) > 0 && countsB.has(value));
+}
+
+function sameCasualtyAccident(a, b) {
+  if (a.category !== "accident" || b.category !== "accident") return false;
+  const timeA = new Date(a.publishedAt).getTime();
+  const timeB = new Date(b.publishedAt).getTime();
+  if (!Number.isFinite(timeA) || !Number.isFinite(timeB) || Math.abs(timeA - timeB) > 24 * 36e5) return false;
+  const textA = `${a.title || ""} ${a.summary || ""}`;
+  const textB = `${b.title || ""} ${b.summary || ""}`;
+  const numbersA = casualtyNumbers(textA);
+  const numbersB = casualtyNumbers(textB);
+  const sharedCasualty = [...numbersA].some(value => value > 0 && numbersB.has(value));
+  const vehicle = type => new RegExp(`\\b${type}\\b`, "i").test(textA) && new RegExp(`\\b${type}\\b`, "i").test(textB);
+  const sameVehicle = ["truck", "bus", "car", "tanker", "tempo", "motorcycle", "bike"].some(vehicle);
+  const procession = /warkari|wari|palkhi|pilgrim|procession|ashadhi/i;
+  return sharedCasualty && sameVehicle && procession.test(textA) && procession.test(textB);
+}
+
+function casualtyNumbers(text) {
+  const values = new Set((String(text).match(/\b\d{1,2}\b/g) || []).map(Number));
+  const words = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10 };
+  for (const [word, value] of Object.entries(words)) if (new RegExp(`\\b${word}\\b`, "i").test(text)) values.add(value);
+  return values;
 }
 
 function wireDuplicateMatch(a, b) {
