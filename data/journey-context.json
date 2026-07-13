@@ -1,10 +1,46 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-13T13:06:10.569Z",
+  "generatedAt": "2026-07-13T14:21:33.994Z",
   "routes": [],
   "risks": [
     {
+      "id": "accident-developing-3-women-pilgrims-killed-4-injured-as-truck-runs-over-warkaris-in-pune-",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
       "id": "rescue-operation-developing-pcmc-to-issue-notice-to-contractor-environment-dept-over-moshi",
+      "category": "rescue_operation",
+      "severity": "warning",
+      "localities": [
+        "Moshi"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "Emergency access and local movement may be restricted while rescue work continues."
+    },
+    {
+      "id": "structural-collapse-developing-pimpri-chinchwad-building-collapse-municipal-commissioner-d",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "localities": [
+        "Pimpri",
+        "Chinchwad"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+    },
+    {
+      "id": "rescue-operation-developing-moshi-garbage-depot-collapse-death-toll-rises-to-nine-rescue-o",
       "category": "rescue_operation",
       "severity": "warning",
       "localities": [
