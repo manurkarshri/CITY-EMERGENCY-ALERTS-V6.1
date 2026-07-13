@@ -1,6 +1,20 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-12T23:58:27.070Z",
+  "generatedAt": "2026-07-13T03:48:21.402Z",
   "routes": [],
-  "risks": []
+  "risks": [
+    {
+      "id": "rescue-operation-developing-pcmc-to-issue-notice-to-contractor-environment-dept-over-moshi",
+      "category": "rescue_operation",
+      "severity": "warning",
+      "localities": [
+        "Moshi"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "Emergency access and local movement may be restricted while rescue work continues."
+    }
+  ]
 }
