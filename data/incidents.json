@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-13T14:21:33.994Z",
+  "generatedAt": "2026-07-13T15:58:14.250Z",
   "sourceStatus": "healthy",
   "items": [
     {
@@ -57,9 +57,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-13T04:34:08.000Z",
       "lastUpdated": "2026-07-13T04:34:08.000Z",
-      "sourceCheckedAt": "2026-07-13T14:21:29.797Z",
-      "lastVerifiedAt": "2026-07-13T14:21:29.797Z",
-      "intelligenceGeneratedAt": "2026-07-13T14:21:33.994Z",
+      "sourceCheckedAt": "2026-07-13T15:58:06.929Z",
+      "lastVerifiedAt": "2026-07-13T15:58:06.929Z",
+      "intelligenceGeneratedAt": "2026-07-13T15:58:14.250Z",
       "expiresAt": "2026-07-14T04:34:08.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -83,126 +83,12 @@
       "corroboratedByIndependentSources": true
     },
     {
-      "id": "rescue-operation-developing-pcmc-to-issue-notice-to-contractor-environment-dept-over-moshi",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: PCMC to issue notice to contractor, environment dept over Moshi tragedy",
-      "summary": "The directions were issued by PCMC commissioner Dr Vijay Suryawanshi during a review meeting on Sunday after the 84-hour rescue operation concluded with the recovery of the ninth victim",
-      "category": "rescue_operation",
-      "severity": "warning",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/pcmc-to-issue-notice-to-contractor-environment-dept-over-moshi-tragedy-101783883380552.html",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.hindustantimes.com/cities/pune-news/pcmc-to-issue-notice-to-contractor-environment-dept-over-moshi-tragedy-101783883380552.html",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Moshi"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-07-13T03:14:36.000Z",
-      "lastUpdated": "2026-07-13T03:14:36.000Z",
-      "sourceCheckedAt": "2026-07-13T14:21:29.797Z",
-      "lastVerifiedAt": "2026-07-13T14:21:29.797Z",
-      "intelligenceGeneratedAt": "2026-07-13T14:21:33.994Z",
-      "expiresAt": "2026-07-13T15:14:36.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "Emergency access and local movement may be restricted while rescue work continues.",
-      "recommendedAction": "Keep clear of the site and do not obstruct emergency vehicles.",
-      "affectedArea": "",
-      "upstreamId": "",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [
-        "rescue-operation-developing-moshi-garbage-depot-collapse-death-toll-rises-to-nine-rescue-o"
-      ],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "structural-collapse-developing-pimpri-chinchwad-building-collapse-municipal-commissioner-d",
-      "eventKind": "incident",
-      "sourceId": "ani",
-      "title": "Developing: Pimpri Chinchwad building collapse: Municipal Commissioner directs officials to register police case against contractor",
-      "summary": "Reported by ANI. Official confirmation is awaited.",
-      "category": "structural_collapse",
-      "severity": "warning",
-      "source": "ANI",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "ANI",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPeDN6NTBQRG1HaTVvVlNfcE9xdEFiWEk3Y2NuT3V3NlNkY3I4RVc4MzhTRHgySWhvbUpfRGhYaG5VZnV0YjNQS3JqSXViWFpQckNIODR5LVBrNnBJUlVHYjJuTkdrUW9NSWRaSGk0emRYdng3RDVlTXVNUVBGLUdaMXkyUmd4ZmViOWpyN0ZjQ1laY0szWDhJa2dIWjVfYmxZOVZ6M1Z1bHhKdnpiUmN0UjRkUW5xSUs4ajZfczg0R0IxTHFPN0lhT3BiOHlSeFlicld0SHI1NlNNMnNqWVRISmJ3R3BheUpmdjJjUXpmeWoya2U4RjhjdGctdUdtTkVNU3ZDcTI0N0doSndLdUF3?oc=5",
-          "origin": "ani"
-        },
-        {
-          "name": "Mid-day",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTHd2cWxhYk50dlVaU0ZOQnM1anB6NUNNaHpUV3l0UlpqMWZHWVNQc2lIaDFxS0ROZFhMeUROSGNnU1NNc3A3QzYxNnBjdV8yRW5kNTg1NzAwS2JHZUZ1eXlxOVMwYXpmeGdiX1BzdnBWaUNQeVFEbDY2N24xRG83U1h0UXFpanIteDZxVTRCY2hrSlJBT0N6NDJoRmo5c2YzTG1rTHpwYTNyemJja3pvU2Rza2VlY1ltQlpMTXhHbkZsR2l4TWxFTFR3R0lqQQ?oc=5",
-          "origin": ""
-        },
-        {
-          "name": "Mid-day",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcHN2QV9ST3h0M2tjVnJQRFJrSnhob0RCLWRRdmNXMkFvTzljaEZVT1NQalZIR2NEZEY0M2tPSHMtTW5BSmdfaUN1aVFsRXFjYTRHczV3S202ZlhDcHlpTnZ1N2h0V2Q3VF9pWUM1cFhHb0l0LWFOMjJqMDN0cFVXNGNiX1VBN0FZcHNweVBGUHB5SWtLMGdVXzNKSlhwbkFXaU1lQUppSDBrbHVqWUNiV0c2SkluRnZMUFRvYnRn?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPeDN6NTBQRG1HaTVvVlNfcE9xdEFiWEk3Y2NuT3V3NlNkY3I4RVc4MzhTRHgySWhvbUpfRGhYaG5VZnV0YjNQS3JqSXViWFpQckNIODR5LVBrNnBJUlVHYjJuTkdrUW9NSWRaSGk0emRYdng3RDVlTXVNUVBGLUdaMXkyUmd4ZmViOWpyN0ZjQ1laY0szWDhJa2dIWjVfYmxZOVZ6M1Z1bHhKdnpiUmN0UjRkUW5xSUs4ajZfczg0R0IxTHFPN0lhT3BiOHlSeFlicld0SHI1NlNNMnNqWVRISmJ3R3BheUpmdjJjUXpmeWoya2U4RjhjdGctdUdtTkVNU3ZDcTI0N0doSndLdUF3?oc=5",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Pimpri",
-        "Chinchwad"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-07-12T14:30:00.000Z",
-      "lastUpdated": "2026-07-12T14:30:00.000Z",
-      "sourceCheckedAt": "2026-07-13T14:21:29.797Z",
-      "lastVerifiedAt": "2026-07-13T14:21:29.797Z",
-      "intelligenceGeneratedAt": "2026-07-13T14:21:33.994Z",
-      "expiresAt": "2026-07-14T02:30:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "High",
-      "confidenceScore": 83,
-      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
-      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
-      "affectedArea": "Pimpri, Chinchwad",
-      "upstreamId": "google-news-637be608",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [
-        "structural-collapse-developing-eight-feared-trapped-as-ndrf-army-intensify-moshi-building-",
-        "structural-collapse-developing-pune-building-collapse-nine-rescued-as-search-operation-con"
-      ],
-      "independentSourceCount": 2,
-      "corroboratedByIndependentSources": true
-    },
-    {
-      "id": "rescue-operation-developing-moshi-garbage-depot-collapse-death-toll-rises-to-nine-rescue-o",
+      "id": "structural-collapse-developing-eight-feared-trapped-as-ndrf-army-intensify-moshi-building-",
       "eventKind": "incident",
       "sourceId": "mid_day",
-      "title": "Developing: Moshi garbage depot collapse: Death toll rises to nine; rescue operation ends",
-      "summary": "Reported by Mid-day. Official confirmation is awaited.",
-      "category": "rescue_operation",
+      "title": "Developing: Eight feared trapped as NDRF, Army intensify Moshi building collapse rescue",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "structural_collapse",
       "severity": "warning",
       "source": "Mid-day",
       "sourceTrust": "B",
@@ -210,11 +96,11 @@
         {
           "name": "Mid-day",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNREk1UlhrVjFvS1JTbW9jdHE0VlQ1VkJveTNVYmFka1BRTG92SjhmSUY4Um96M1BmTk04QjVhUjFuWXRfUU4zS2tZekZPRHJyV2ZzT2E2V25jVDU1bEhKTGxMdnE0MWVnbVhkOHBSSG9oRTl0QktfZ2d1cVBCbHpvRkxoa2tWT2Jwd0NoOHg2cHdpbmN3ZnUzcUhLMnduVWNkNVZKSm5FVEl5bzJoaGo5MHRhRXAycFoxSFFHSUxRYV9RY0ExNUswRDV0NmM0Ykgt0gHWAUFVX3lxTE1UR2d1aWhBcElmSzRndE8zSnN3dHVtZkdoWkxxaXgzQlVhSFE5Q1luWWhCdjNxeEZzWjloXzZYRzgwNDZpTTR4Z1lpYVV3VUlGMG9uS0tGUkJ1T1puRnREcTF0QkRiN3RyY1NDWUpJRXAtZjBESlNvOVBQMTVRLWZuR05vVjJHd1c5WjNlazNhb1FTTHRQUGNxQlFhX3FwVzU2Q2RSZG93LVhuMC1OQWFfWlNGczkzOHJVcmZIMlFDYTBtWmNUWnlGUjJGbWtORHVuTGJIdnc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTHd2cWxhYk50dlVaU0ZOQnM1anB6NUNNaHpUV3l0UlpqMWZHWVNQc2lIaDFxS0ROZFhMeUROSGNnU1NNc3A3QzYxNnBjdV8yRW5kNTg1NzAwS2JHZUZ1eXlxOVMwYXpmeGdiX1BzdnBWaUNQeVFEbDY2N24xRG83U1h0UXFpanIteDZxVTRCY2hrSlJBT0N6NDJoRmo5c2YzTG1rTHpwYTNyemJja3pvU2Rza2VlY1ltQlpMTXhHbkZsR2l4TWxFTFR3R0lqQQ?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNREk1UlhrVjFvS1JTbW9jdHE0VlQ1VkJveTNVYmFka1BRTG92SjhmSUY4Um96M1BmTk04QjVhUjFuWXRfUU4zS2tZekZPRHJyV2ZzT2E2V25jVDU1bEhKTGxMdnE0MWVnbVhkOHBSSG9oRTl0QktfZ2d1cVBCbHpvRkxoa2tWT2Jwd0NoOHg2cHdpbmN3ZnUzcUhLMnduVWNkNVZKSm5FVEl5bzJoaGo5MHRhRXAycFoxSFFHSUxRYV9RY0ExNUswRDV0NmM0Ykgt0gHWAUFVX3lxTE1UR2d1aWhBcElmSzRndE8zSnN3dHVtZkdoWkxxaXgzQlVhSFE5Q1luWWhCdjNxeEZzWjloXzZYRzgwNDZpTTR4Z1lpYVV3VUlGMG9uS0tGUkJ1T1puRnREcTF0QkRiN3RyY1NDWUpJRXAtZjBESlNvOVBQMTVRLWZuR05vVjJHd1c5WjNlazNhb1FTTHRQUGNxQlFhX3FwVzU2Q2RSZG93LVhuMC1OQWFfWlNGczkzOHJVcmZIMlFDYTBtWmNUWnlGUjJGbWtORHVuTGJIdnc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTHd2cWxhYk50dlVaU0ZOQnM1anB6NUNNaHpUV3l0UlpqMWZHWVNQc2lIaDFxS0ROZFhMeUROSGNnU1NNc3A3QzYxNnBjdV8yRW5kNTg1NzAwS2JHZUZ1eXlxOVMwYXpmeGdiX1BzdnBWaUNQeVFEbDY2N24xRG83U1h0UXFpanIteDZxVTRCY2hrSlJBT0N6NDJoRmo5c2YzTG1rTHpwYTNyemJja3pvU2Rza2VlY1ltQlpMTXhHbkZsR2l4TWxFTFR3R0lqQQ?oc=5",
       "talukas": [
         "pcmc"
       ],
@@ -222,19 +108,19 @@
         "Moshi"
       ],
       "operationalZones": [],
-      "publishedAt": "2026-07-12T15:17:00.000Z",
-      "lastUpdated": "2026-07-12T15:17:00.000Z",
-      "sourceCheckedAt": "2026-07-13T14:21:29.797Z",
-      "lastVerifiedAt": "2026-07-13T14:21:29.797Z",
-      "intelligenceGeneratedAt": "2026-07-13T14:21:33.994Z",
-      "expiresAt": "2026-07-14T03:17:00.000Z",
+      "publishedAt": "2026-07-13T06:56:31.000Z",
+      "lastUpdated": "2026-07-13T06:56:31.000Z",
+      "sourceCheckedAt": "2026-07-13T15:58:06.929Z",
+      "lastVerifiedAt": "2026-07-13T15:58:06.929Z",
+      "intelligenceGeneratedAt": "2026-07-13T15:58:14.250Z",
+      "expiresAt": "2026-07-14T18:56:31.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
       "confidenceScore": 63,
-      "impact": "Emergency access and local movement may be restricted while rescue work continues.",
-      "recommendedAction": "Keep clear of the site and do not obstruct emergency vehicles.",
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
       "affectedArea": "Moshi",
-      "upstreamId": "google-news-4e14c735",
+      "upstreamId": "google-news-462a3226",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
