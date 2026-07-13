@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-13T18:02:29.207Z",
+  "generatedAt": "2026-07-13T19:50:18.452Z",
   "sourceStatus": "healthy",
   "items": [
     {
@@ -33,9 +33,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-13T16:52:45.000Z",
       "lastUpdated": "2026-07-13T16:52:45.000Z",
-      "sourceCheckedAt": "2026-07-13T18:02:25.293Z",
-      "lastVerifiedAt": "2026-07-13T18:02:25.293Z",
-      "intelligenceGeneratedAt": "2026-07-13T18:02:29.207Z",
+      "sourceCheckedAt": "2026-07-13T19:50:14.759Z",
+      "lastVerifiedAt": "2026-07-13T19:50:14.759Z",
+      "intelligenceGeneratedAt": "2026-07-13T19:50:18.452Z",
       "expiresAt": "2026-07-14T04:52:45.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -72,12 +72,6 @@
           "trust": "B",
           "link": "https://indianexpress.com/article/cities/pune/pune-ashadhi-wari-truck-accident-three-women-killed-jejuri-10783817/",
           "origin": ""
-        },
-        {
-          "name": "Mid-day",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdEUtX1FZQVpyNkZfcXFtcXg3QzgxSDlab0x6empSa2p5Ykg4TWdmMm8xUXZJanI1a04xWmNubThmTFp6S2hGcS1PdjhhY283Z1VmTlg2cWlnSHBuTEZvN3MwY0lWem5vZUhhLUFwMXFZU29BWjZvWTVxN0pHVXdHREtkMUlvY0piYzlyVS1DaWFHaWNEWlRJM1Zvck52S1N1aGpQX3NiclJaSUh3dUdsazdib0pGVG1BaWxTREowM3Y2SnN4TVFlNDh4Y1ZIcDBzZmoyVUVB?oc=5",
-          "origin": ""
         }
       ],
       "link": "https://indianexpress.com/article/cities/pune/pune-ashadhi-wari-truck-accident-three-women-killed-jejuri-10783817/",
@@ -86,13 +80,13 @@
       "operationalZones": [],
       "publishedAt": "2026-07-13T04:34:08.000Z",
       "lastUpdated": "2026-07-13T04:34:08.000Z",
-      "sourceCheckedAt": "2026-07-13T18:02:25.293Z",
-      "lastVerifiedAt": "2026-07-13T18:02:25.293Z",
-      "intelligenceGeneratedAt": "2026-07-13T18:02:29.207Z",
+      "sourceCheckedAt": "2026-07-13T19:50:14.759Z",
+      "lastVerifiedAt": "2026-07-13T19:50:14.759Z",
+      "intelligenceGeneratedAt": "2026-07-13T19:50:18.452Z",
       "expiresAt": "2026-07-14T04:34:08.000Z",
       "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
+      "confidence": "Low",
+      "confidenceScore": 43,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "",
@@ -105,62 +99,54 @@
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
-      "relatedEventIds": [
-        "accident-developing-maharashtra-waari-accident-three-warkaris-killed-after-truck-hits-pilg"
-      ],
-      "independentSourceCount": 2,
-      "corroboratedByIndependentSources": true
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
     },
     {
-      "id": "structural-collapse-developing-eight-feared-trapped-as-ndrf-army-intensify-moshi-building-",
+      "id": "accident-developing-pune-bangalore-highway-accident-कागल-सीमा-नाक्याजवळ-अपघातात-कणेरीचा-तर",
       "eventKind": "incident",
-      "sourceId": "mid_day",
-      "title": "Developing: Eight feared trapped as NDRF, Army intensify Moshi building collapse rescue",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "structural_collapse",
-      "severity": "warning",
-      "source": "Mid-day",
+      "sourceId": "esakal",
+      "title": "Developing: Pune-Bangalore Highway Accident : कागल सीमा नाक्याजवळ अपघातात कणेरीचा तरुण ठार; ट्रकची दुचाकीला धडक, धोकादायक वळणांमुळे नागरिकांत संताप",
+      "summary": "विनायक हे दुचाकीवरून निपाणीच्या दिशेने निघाले होते. यावेळी कागल सीमा तपासणी नाक्याच्या धोकादायक वळणावर मालवाहू ट्रकने त्यांच्या दुचाकीला जोरात ठोकरले. Kagal road accident on the Pune-Bangalore Highway claimed the life of a biker after a truck collision. Police have launched an investigation.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "eSakal Pune",
       "sourceTrust": "B",
       "sources": [
         {
-          "name": "Mid-day",
+          "name": "eSakal Pune",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTHd2cWxhYk50dlVaU0ZOQnM1anB6NUNNaHpUV3l0UlpqMWZHWVNQc2lIaDFxS0ROZFhMeUROSGNnU1NNc3A3QzYxNnBjdV8yRW5kNTg1NzAwS2JHZUZ1eXlxOVMwYXpmeGdiX1BzdnBWaUNQeVFEbDY2N24xRG83U1h0UXFpanIteDZxVTRCY2hrSlJBT0N6NDJoRmo5c2YzTG1rTHpwYTNyemJja3pvU2Rza2VlY1ltQlpMTXhHbkZsR2l4TWxFTFR3R0lqQQ?oc=5",
+          "link": "https://www.esakal.com/paschim-maharashtra/kolhapur/kagal-road-accident-pune-bangalore-national-highway-truck-hits-bike-rider-vinayak-patil-dies-dangerous-curve-kolhapur-bam92",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTHd2cWxhYk50dlVaU0ZOQnM1anB6NUNNaHpUV3l0UlpqMWZHWVNQc2lIaDFxS0ROZFhMeUROSGNnU1NNc3A3QzYxNnBjdV8yRW5kNTg1NzAwS2JHZUZ1eXlxOVMwYXpmeGdiX1BzdnBWaUNQeVFEbDY2N24xRG83U1h0UXFpanIteDZxVTRCY2hrSlJBT0N6NDJoRmo5c2YzTG1rTHpwYTNyemJja3pvU2Rza2VlY1ltQlpMTXhHbkZsR2l4TWxFTFR3R0lqQQ?oc=5",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Moshi"
-      ],
+      "link": "https://www.esakal.com/paschim-maharashtra/kolhapur/kagal-road-accident-pune-bangalore-national-highway-truck-hits-bike-rider-vinayak-patil-dies-dangerous-curve-kolhapur-bam92",
+      "talukas": [],
+      "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-07-13T06:56:31.000Z",
-      "lastUpdated": "2026-07-13T06:56:31.000Z",
-      "sourceCheckedAt": "2026-07-13T18:02:25.293Z",
-      "lastVerifiedAt": "2026-07-13T18:02:25.293Z",
-      "intelligenceGeneratedAt": "2026-07-13T18:02:29.207Z",
-      "expiresAt": "2026-07-13T18:56:31.000Z",
+      "publishedAt": "2026-07-13T07:41:20.000Z",
+      "lastUpdated": "2026-07-13T07:41:20.000Z",
+      "sourceCheckedAt": "2026-07-13T19:50:14.759Z",
+      "lastVerifiedAt": "2026-07-13T19:50:14.759Z",
+      "intelligenceGeneratedAt": "2026-07-13T19:50:18.452Z",
+      "expiresAt": "2026-07-14T01:41:20.000Z",
       "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
-      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
-      "affectedArea": "Moshi",
-      "upstreamId": "google-news-462a3226",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "discoveredAt": "2026-07-13T18:02:25.293Z",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "",
+      "upstreamId": "20f45995f7c693b6356917ff10f11e17",
+      "collectionProvider": "NewsData.io",
+      "discoveryOnly": false,
+      "discoveredAt": null,
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [
-        "rescue-operation-developing-pcmc-to-issue-notice-to-contractor-environment-dept-over-moshi"
-      ],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
     }
