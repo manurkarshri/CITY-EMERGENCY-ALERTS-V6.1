@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-13T15:58:14.250Z",
+  "generatedAt": "2026-07-13T17:38:20.782Z",
   "sourceStatus": "healthy",
   "items": [
     {
@@ -18,18 +18,6 @@
           "name": "Indian Express Pune",
           "trust": "B",
           "link": "https://indianexpress.com/article/cities/pune/pune-ashadhi-wari-truck-accident-three-women-killed-jejuri-10783817/",
-          "origin": ""
-        },
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYzNuQ3J6eGcxYUFJeWxFNXNpQ3RGZGF4Z3pOVUNsaVhlNkJqeGo2WDh3VHIwdVdBOFpfQUxKUEdWeERtMUJKYVp0QUZidlNNa1UxcDlHWk5qWmZ1dXZHSnJ0aDBYa0x1YTd3eklFR0Z4OWJxbjhHTHdDZVBlUC1QNjA5cG85RkpJUWNIS0RYRlNCd3JteUVpMW1FWXRBTXY1WEttMEhwRFN3NGlrNGw4TmR6bWdhaXpocExtS3VKOGrSAccBQVVfeXFMTXh6dnN2Ny0zb3hzdURQRlFpcWlpZk4zZWhrR0hPTy1VUFEwdi1WZ1hVVFJnTjlGbEI5d20yamlBVjNHRXRWWHRReVJZbXFRR0RrSlljbnExcWR0OWI1OGVMNVZHWi1Pb19nekx1ZFludVJqUVZGQllSZ0pwaXRTcVpwOGdETUNpVENwaUx1UWozVTZvaXNRclRBN1dCUlp0NldCNXdqZ2RqY1daQ1Z2MXpPampqUmJJVDVDMU9YWDZrWGZKUFB4WQ?oc=5",
-          "origin": ""
-        },
-        {
-          "name": "ThePrint",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR2tLRGs2SGpPaWx1ai02cDBVUXlDdDdPdzdOSDN5eUdvaHdJbDdDdTZDX2JpMHhaQmdRSU9Kd0dqSzc3U0JJZTlXa1MxZWZnRTNwOGZJcUMzRVdNUEo2U1NrUkwyQUJqbFQ3UUMtaE5WaXdUekRCdG1mdU5KZ0VJcWJna1V3VWNjRl9kUllqWVRlUjBXajhmV01kLXQ1R2Izbmh0R3hCV2RMUdIBrwFBVV95cUxPMWVGa3FpRHoxRDU1YXQySjYyMlhmS2dmV3Jwa0ZteFZsQ1dCT3FVZTQwNzhueldKR1lvbmtwTkt1U2IzLVhrQkhvNDdoOGFQQVF0cVRwVDFzS2lwc1NXcFJPR1U2Z0FKanJhN1F4QVRuV3NFOHUyQVVCQm9rYmpLVTVVNUM2S2kzZWhsekhSOG1qWGxWdjVfa21LUDhzZEl2Sng5M0tXMEViNGFUcWJB?oc=5",
           "origin": ""
         },
         {
@@ -57,42 +45,50 @@
       "operationalZones": [],
       "publishedAt": "2026-07-13T04:34:08.000Z",
       "lastUpdated": "2026-07-13T04:34:08.000Z",
-      "sourceCheckedAt": "2026-07-13T15:58:06.929Z",
-      "lastVerifiedAt": "2026-07-13T15:58:06.929Z",
-      "intelligenceGeneratedAt": "2026-07-13T15:58:14.250Z",
+      "sourceCheckedAt": "2026-07-13T17:38:16.200Z",
+      "lastVerifiedAt": "2026-07-13T17:38:16.200Z",
+      "intelligenceGeneratedAt": "2026-07-13T17:38:20.782Z",
       "expiresAt": "2026-07-14T04:34:08.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 75,
+      "confidenceScore": 71,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "",
       "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "discoveredAt": null,
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
       "relatedEventIds": [
-        "accident-developing-three-women-killed-as-truck-crashes-into-procession-of-warkaris-in-pun",
         "accident-developing-pune-waari-accident-three-women-killed-seven-injured-after-truck-hits-",
         "accident-developing-3-women-killed-4-critical-after-truck-ploughs-into-ashadhi-ekadashi-pi",
         "accident-developing-maharashtra-waari-accident-three-warkaris-killed-after-truck-hits-pilg"
       ],
-      "independentSourceCount": 4,
+      "independentSourceCount": 3,
       "corroboratedByIndependentSources": true
     },
     {
-      "id": "structural-collapse-developing-eight-feared-trapped-as-ndrf-army-intensify-moshi-building-",
+      "id": "structural-collapse-developing-maharashtra-government-orders-high-level-probe-into-pune-bu",
       "eventKind": "incident",
-      "sourceId": "mid_day",
-      "title": "Developing: Eight feared trapped as NDRF, Army intensify Moshi building collapse rescue",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Maharashtra Government orders high-level probe into Pune building collapse",
       "summary": "A current trusted-media report relevant to Pune District.",
       "category": "structural_collapse",
       "severity": "warning",
-      "source": "Mid-day",
+      "source": "Indian Express Pune",
       "sourceTrust": "B",
       "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHp0cVQ5emVpbTd1MHRXWmVMTDZEMGlNMlB2Q3VRcElDS1hZaURaOUdobDAybHBDQjRPVlliNVVUeFRUbXZsLXdkMmdzSnJUTnQ0NlZncnpHVDY0Zlk5UmltLWJTQWxSalZUSXJId0Q3eDR1V283OXlvVkZZNEFGTjItaVBEaDVQNlVyYlZDV3NBOE9QNEJ0aUJvdWg1TV9HN1dkOXp6RTJqYTgtcnJMY0VWTG00R19vYm5LQ3BDenItMTjSAcoBQVVfeXFMTUJMNEV5RTN3Z1NGVGV0WHRXMURCVW13T2J3VTFyczY5c0ozd2txRDZsZU1raGhJaTJOZTVheW9qU2xXNVczREdncEZxOEozSFQ0SXAzc3k0Z2dSTFZPT1hpdk9iTFFkTHlUWU9NQVNla043RzlYMThMM2U1eDRWbXlHOFZ2bUR6YUVXMG5tR0ZMLXhMTERmZWlFN3pHekdmNlJEeWZUUG4waEhZdmNOS0dxcVNiSFR4MEVERF80TE5MZldkeFN5WFZFZw?oc=5",
+          "origin": ""
+        },
         {
           "name": "Mid-day",
           "trust": "B",
@@ -100,37 +96,36 @@
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTHd2cWxhYk50dlVaU0ZOQnM1anB6NUNNaHpUV3l0UlpqMWZHWVNQc2lIaDFxS0ROZFhMeUROSGNnU1NNc3A3QzYxNnBjdV8yRW5kNTg1NzAwS2JHZUZ1eXlxOVMwYXpmeGdiX1BzdnBWaUNQeVFEbDY2N24xRG83U1h0UXFpanIteDZxVTRCY2hrSlJBT0N6NDJoRmo5c2YzTG1rTHpwYTNyemJja3pvU2Rza2VlY1ltQlpMTXhHbkZsR2l4TWxFTFR3R0lqQQ?oc=5",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Moshi"
-      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHp0cVQ5emVpbTd1MHRXWmVMTDZEMGlNMlB2Q3VRcElDS1hZaURaOUdobDAybHBDQjRPVlliNVVUeFRUbXZsLXdkMmdzSnJUTnQ0NlZncnpHVDY0Zlk5UmltLWJTQWxSalZUSXJId0Q3eDR1V283OXlvVkZZNEFGTjItaVBEaDVQNlVyYlZDV3NBOE9QNEJ0aUJvdWg1TV9HN1dkOXp6RTJqYTgtcnJMY0VWTG00R19vYm5LQ3BDenItMTjSAcoBQVVfeXFMTUJMNEV5RTN3Z1NGVGV0WHRXMURCVW13T2J3VTFyczY5c0ozd2txRDZsZU1raGhJaTJOZTVheW9qU2xXNVczREdncEZxOEozSFQ0SXAzc3k0Z2dSTFZPT1hpdk9iTFFkTHlUWU9NQVNla043RzlYMThMM2U1eDRWbXlHOFZ2bUR6YUVXMG5tR0ZMLXhMTERmZWlFN3pHekdmNlJEeWZUUG4waEhZdmNOS0dxcVNiSFR4MEVERF80TE5MZldkeFN5WFZFZw?oc=5",
+      "talukas": [],
+      "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-07-13T06:56:31.000Z",
-      "lastUpdated": "2026-07-13T06:56:31.000Z",
-      "sourceCheckedAt": "2026-07-13T15:58:06.929Z",
-      "lastVerifiedAt": "2026-07-13T15:58:06.929Z",
-      "intelligenceGeneratedAt": "2026-07-13T15:58:14.250Z",
-      "expiresAt": "2026-07-14T18:56:31.000Z",
+      "publishedAt": "2026-07-13T16:52:45.000Z",
+      "lastUpdated": "2026-07-13T16:52:45.000Z",
+      "sourceCheckedAt": "2026-07-13T17:38:16.200Z",
+      "lastVerifiedAt": "2026-07-13T17:38:16.200Z",
+      "intelligenceGeneratedAt": "2026-07-13T17:38:20.782Z",
+      "expiresAt": "2026-07-14T04:52:45.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 63,
+      "confidenceScore": 70,
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
       "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
-      "affectedArea": "Moshi",
-      "upstreamId": "google-news-462a3226",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-1285c2b6",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "discoveredAt": "2026-07-13T17:38:16.200Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "local",
+      "geographicScope": "pune_district",
       "relatedEventIds": [
-        "rescue-operation-developing-pcmc-to-issue-notice-to-contractor-environment-dept-over-moshi"
+        "structural-collapse-developing-eight-feared-trapped-as-ndrf-army-intensify-moshi-building-"
       ],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
+      "independentSourceCount": 2,
+      "corroboratedByIndependentSources": true
     }
   ]
 }
