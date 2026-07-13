@@ -78,7 +78,7 @@ export async function materializeGoogleDiscoveries(discoveries = [], checkedAt =
     const location = await detectLocality(localitySearchText(discovery.title));
     items.push({
       eventKind: "incident", sourceId: discovery.publisherId, collectionSourceId: "google_news_discovery", upstreamId: discovery.id,
-      title: `Developing: ${discovery.title}`, summary: `Reported by ${discovery.publisher}. Official confirmation is awaited.`,
+      title: `Developing: ${discovery.title}`, summary: "A current trusted-media report relevant to Pune District.",
       category: discovery.category, severity: discovery.severity, source: discovery.publisher, sourceTrust: "B", link: discovery.discoveryLink,
       sourceOrigin: ["pti", "ani"].includes(discovery.publisherId) ? discovery.publisherId : "",
       publishedAt: discovery.publishedAt, lastUpdated: discovery.publishedAt, sourceCheckedAt: checkedAt, lastVerifiedAt: checkedAt,

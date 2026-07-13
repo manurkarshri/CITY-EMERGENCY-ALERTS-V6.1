@@ -45,5 +45,5 @@ function renderIncidentGroups(groups, incidentCount, roadClosureCount = 0) {
 }
 function section(title, description, items) {
   if (!items.length) return "";
-  return `<section class="card incident-group-heading"><h2>${title}</h2><p class="small">${description}</p></section>${renderEventList(items, "")}`;
+  return `<header class="incident-group-heading"><h2>${title}</h2><p class="small">${description}</p></header>${renderEventList(items, "")}`;
 }

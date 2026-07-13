@@ -184,6 +184,7 @@ function renderRoute(route) {
   return `<article class="card route-card ${route.recommended ? "recommended" : ""}">
     <div class="section-kicker">${route.recommended ? "Recommended" : `Route ${route.rank}`}</div>
     <h2>${escapeHtml(route.label)}</h2>
+    ${(route.comparisonLabels || []).length ? `<div class="route-comparison-labels">${route.comparisonLabels.map(label => `<span>${escapeHtml(label)}</span>`).join("")}</div>` : ""}
     <div class="grid journey-metrics">
       <div class="metric"><strong>${score.score}/100</strong><span>Journey Suitability</span></div>
       <div class="metric"><strong>${escapeHtml(score.label)}</strong><span>Recommendation</span></div>

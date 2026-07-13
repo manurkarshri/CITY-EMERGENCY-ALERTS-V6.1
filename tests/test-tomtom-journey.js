@@ -25,6 +25,8 @@ const analysed = analyseJourneyRoutes(routes, { trafficIncidents: [], environmen
 assert(analysed.length === 2, "Alternative routes were not analysed separately");
 assert(analysed[0].id === "tomtom-route-2" && analysed[0].recommended, "Lower-risk route was not recommended");
 assert(analysed[0].journeySuitability.score > analysed[1].journeySuitability.score, "Traffic penalty was not route-specific");
+assert(analysed[0].comparisonLabels.includes("Comparatively safer route") && analysed[0].comparisonLabels.includes("Slower route"), "Highest-SJI and longest-ETA route labels are incorrect");
+assert(analysed[1].comparisonLabels.includes("Quicker route"), "Lowest-ETA route must be labelled as quicker");
 const routeWeatherById = { [routes[0].id]: { point: { latitude: 18.55, longitude: 73.8, rainRisk: "High", visibilityRisk: "Minimal", windRisk: "Minimal" } }, [routes[1].id]: {} };
 const weatherAnalysed = analyseJourneyRoutes(routes, { trafficIncidents: [], routeWeatherById, environmental: { weatherIntelligence: { regions: {} } } });
 assert(weatherAnalysed.find(route => route.id === routes[0].id).journeySuitability.reasons.some(reason => reason.includes("Heavy rainfall")), "Weather was not applied to its route geometry");

@@ -7,11 +7,14 @@ export function renderEventList(items, emptyText) {
     const sources = eventSourceChoices(item);
     const primarySource = sources[0];
     const otherSources = sources.slice(1);
+    const verification = eventVerification(item);
+    const summary = displaySummary(item);
     return `
     <article id="event-${escapeAttr(item.id)}" tabindex="-1" class="card event-card ${item.severity || "advisory"}">
       <span class="badge ${item.severity || "advisory"}">${severityLabel(item.severity)}</span>
       <h3>${escapeHtml(item.title)}</h3>
-      <p>${escapeHtml(item.summary || item.impact || "")}</p>
+      ${summary ? `<p>${escapeHtml(summary)}</p>` : ""}
+      ${verification}
       ${item.impact ? `<p><strong>Impact:</strong> ${escapeHtml(item.impact)}</p>` : ""}
       ${item.recommendedAction ? `<p><strong>Action:</strong> ${escapeHtml(item.recommendedAction)}</p>` : ""}
       <p class="event-meta"><strong>Affected:</strong> ${escapeHtml([...(item.localities || []), ...(item.operationalZones || [])].slice(0, 5).join(" • ") || item.affectedArea || scopeLabel(item.geographicScope))}</p>
@@ -43,6 +46,21 @@ export function eventSourceChoices(item = {}) {
     if (!existing || sourceQuality(normalized, item) > sourceQuality(existing, item)) byPublisher.set(key, normalized);
   }
   return [...byPublisher.values()].sort((a, b) => sourceQuality(b, item) - sourceQuality(a, item) || a.name.localeCompare(b.name));
+}
+
+export function eventVerification(item = {}) {
+  const official = (item.sources || []).find(source => ["A+", "A"].includes(source.trust) && safeHttpUrl(source.link));
+  if (official) return `<p class="event-verification official-confirmation"><strong>Officially confirmed by <a href="${escapeAttr(safeHttpUrl(official.link))}" target="_blank" rel="noopener">${escapeHtml(official.name || "official source")}</a>.</strong></p>`;
+  if (item.sourceTrust !== "B") return "";
+  const count = item.independentSourceCount || independentSourceCount(item.sources || []);
+  if (item.corroboratedByIndependentSources && count > 1) return `<p class="event-verification"><strong>Independently reported by ${count} trusted sources.</strong></p>`;
+  return `<p class="event-verification">Reported by ${escapeHtml(item.source || "a trusted publisher")}. This is a developing media report.</p>`;
+}
+
+function displaySummary(item) {
+  const summary = String(item.summary || item.impact || "").trim();
+  if (/^Reported by .+\. Official confirmation is awaited\.?$/i.test(summary)) return "";
+  return summary;
 }
 
 function sourceQuality(source, item) {

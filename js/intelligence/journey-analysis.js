@@ -3,7 +3,16 @@ const INCIDENT_LABELS = { 1: "Accident", 2: "Fog", 3: "Dangerous conditions", 4:
 export function analyseJourneyRoutes(routes = [], context = {}) {
   const analysed = routes.map(route => analyseRoute(route, context));
   analysed.sort((a, b) => b.journeySuitability.score - a.journeySuitability.score || a.travelTimeSeconds - b.travelTimeSeconds);
-  return analysed.map((route, index) => ({ ...route, rank: index + 1, recommended: index === 0 }));
+  const fastest = Math.min(...analysed.map(route => route.travelTimeSeconds));
+  const slowest = Math.max(...analysed.map(route => route.travelTimeSeconds));
+  const safest = Math.max(...analysed.map(route => route.journeySuitability.score));
+  return analysed.map((route, index) => {
+    const comparisonLabels = [];
+    if (analysed.length > 1 && route.travelTimeSeconds === fastest) comparisonLabels.push("Quicker route");
+    if (analysed.length > 1 && route.journeySuitability.score === safest) comparisonLabels.push("Comparatively safer route");
+    if (analysed.length > 1 && slowest > fastest && route.travelTimeSeconds === slowest) comparisonLabels.push("Slower route");
+    return { ...route, rank: index + 1, recommended: index === 0, comparisonLabels };
+  });
 }
 
 export function analyseRoute(route, context = {}) {
