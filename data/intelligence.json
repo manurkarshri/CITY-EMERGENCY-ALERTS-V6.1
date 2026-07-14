@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-14T03:35:25.080Z",
+  "generatedAt": "2026-07-14T05:57:36.306Z",
   "status": "current",
   "situation": {
-    "snapshot": "1 important alert require attention.",
+    "snapshot": "2 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-07-14T03:35:25.135Z",
+      "generatedAt": "2026-07-14T05:57:36.364Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,16 +13,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-14T03:35:20.526Z",
-          "observedAt": "2026-07-14T09:00:00+05:30",
-          "temp": 25.6,
+          "sourceCheckedAt": "2026-07-14T05:57:30.958Z",
+          "observedAt": "2026-07-14T11:15:00+05:30",
+          "temp": 28.3,
           "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 0,
-          "wind": 40.7,
-          "gust": 40.7,
-          "humidity": 74,
-          "visibility": 33.6,
+          "wind": 48.2,
+          "gust": 48.2,
+          "humidity": 58,
+          "visibility": 39.7,
           "weatherCode": 2,
           "rainRisk": "Minimal",
           "windRisk": "Medium",
@@ -39,16 +39,16 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-14T03:35:20.526Z",
-          "observedAt": "2026-07-14T09:00:00+05:30",
-          "temp": 25.4,
+          "sourceCheckedAt": "2026-07-14T05:57:30.958Z",
+          "observedAt": "2026-07-14T11:15:00+05:30",
+          "temp": 28.2,
           "currentRain": 0,
           "rain6h": 0,
-          "precipitationProbability": 2,
-          "wind": 40,
-          "gust": 40,
-          "humidity": 77,
-          "visibility": 26.1,
+          "precipitationProbability": 4,
+          "wind": 46.1,
+          "gust": 46.1,
+          "humidity": 60,
+          "visibility": 36.5,
           "weatherCode": 2,
           "rainRisk": "Minimal",
           "windRisk": "Medium",
@@ -65,16 +65,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-14T03:35:20.526Z",
-          "observedAt": "2026-07-14T09:00:00+05:30",
-          "temp": 25.6,
+          "sourceCheckedAt": "2026-07-14T05:57:30.958Z",
+          "observedAt": "2026-07-14T11:15:00+05:30",
+          "temp": 28.3,
           "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 0,
-          "wind": 40.7,
-          "gust": 40.7,
-          "humidity": 74,
-          "visibility": 33.6,
+          "wind": 48.2,
+          "gust": 48.2,
+          "humidity": 58,
+          "visibility": 39.7,
           "weatherCode": 2,
           "rainRisk": "Minimal",
           "windRisk": "Medium",
@@ -91,19 +91,19 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-14T03:35:20.526Z",
-          "observedAt": "2026-07-14T09:00:00+05:30",
-          "temp": 23.4,
+          "sourceCheckedAt": "2026-07-14T05:57:30.958Z",
+          "observedAt": "2026-07-14T11:15:00+05:30",
+          "temp": 26.7,
           "currentRain": 0,
           "rain6h": 0.2,
-          "precipitationProbability": 83,
-          "wind": 39.2,
-          "gust": 39.2,
-          "humidity": 91,
-          "visibility": 11.3,
+          "precipitationProbability": 55,
+          "wind": 46.4,
+          "gust": 46.4,
+          "humidity": 67,
+          "visibility": 10.5,
           "weatherCode": 3,
           "rainRisk": "Minimal",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -117,19 +117,19 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-14T03:35:20.526Z",
-          "observedAt": "2026-07-14T09:00:00+05:30",
-          "temp": 23.4,
-          "currentRain": 0.1,
-          "rain6h": 0.3,
-          "precipitationProbability": 82,
-          "wind": 39.2,
-          "gust": 39.2,
-          "humidity": 89,
-          "visibility": 11.8,
-          "weatherCode": 51,
+          "sourceCheckedAt": "2026-07-14T05:57:30.958Z",
+          "observedAt": "2026-07-14T11:15:00+05:30",
+          "temp": 26.9,
+          "currentRain": 0,
+          "rain6h": 0.2,
+          "precipitationProbability": 41,
+          "wind": 41.8,
+          "gust": 41.8,
+          "humidity": 65,
+          "visibility": 11.3,
+          "weatherCode": 3,
           "rainRisk": "Minimal",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -141,23 +141,23 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-14T03:35:25.137Z",
+      "generatedAt": "2026-07-14T05:57:36.367Z",
       "riskLevel": "Normal",
       "impacts": [
-        "1 active transport-related event(s) may affect travel."
+        "2 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "1 active transport-related event(s) may affect travel.",
+      "citizenSummary": "2 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
   "alerts": [],
   "incidents": [
     {
-      "id": "structural-collapse-developing-maharashtra-government-orders-high-level-probe-into-pune-bu",
+      "id": "structural-collapse-developing-project-head-arrested-safety-officer-booked-in-pune-buildin",
       "eventKind": "incident",
       "sourceId": "indian_express_pune",
-      "title": "Developing: Maharashtra Government orders high-level probe into Pune building collapse",
-      "summary": "Maharashtra Government orders high-level probe into Pune building collapse",
+      "title": "Developing: Project head arrested, safety officer booked in Pune building collapse case",
+      "summary": "Project head arrested, safety officer booked in Pune building collapse case",
       "category": "structural_collapse",
       "severity": "warning",
       "source": "Indian Express Pune",
@@ -166,29 +166,29 @@
         {
           "name": "Indian Express Pune",
           "trust": "B",
-          "link": "https://indianexpress.com/article/pune/pune-moshi-garbage-collapse-maharashtra-government-orders-high-level-inquiry-10784967/",
+          "link": "https://indianexpress.com/article/cities/pune/pimpri-chinchwad-pune-waste-to-energy-plant-building-collapse-project-head-arrested-10785420/",
           "origin": ""
         },
         {
           "name": "Indian Express Pune",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHp0cVQ5emVpbTd1MHRXWmVMTDZEMGlNMlB2Q3VRcElDS1hZaURaOUdobDAybHBDQjRPVlliNVVUeFRUbXZsLXdkMmdzSnJUTnQ0NlZncnpHVDY0Zlk5UmltLWJTQWxSalZUSXJId0Q3eDR1V283OXlvVkZZNEFGTjItaVBEaDVQNlVyYlZDV3NBOE9QNEJ0aUJvdWg1TV9HN1dkOXp6RTJqYTgtcnJMY0VWTG00R19vYm5LQ3BDenItMTjSAcoBQVVfeXFMTUJMNEV5RTN3Z1NGVGV0WHRXMURCVW13T2J3VTFyczY5c0ozd2txRDZsZU1raGhJaTJOZTVheW9qU2xXNVczREdncEZxOEozSFQ0SXAzc3k0Z2dSTFZPT1hpdk9iTFFkTHlUWU9NQVNla043RzlYMThMM2U1eDRWbXlHOFZ2bUR6YUVXMG5tR0ZMLXhMTERmZWlFN3pHekdmNlJEeWZUUG4waEhZdmNOS0dxcVNiSFR4MEVERF80TE5MZldkeFN5WFZFZw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOc3VYOTlTM1dIclRiWmRVZHhfem9LMFZnOEdTTENLV3hRMmJwMU00NGFfckdtQ215alZTSUZnTTZ6VGQySFZLd29qSFVIS0NJaWxBYnpWcW1vTmpweHVfSEc0MXJMT2E0c2p1eENkeDhRbk94TTRRQjVPRFNRYTBONWJTc1BKU2M5bDg1OFNqWUV4eXFRSGR5dFdDaHBURGkwcndVYVp5RkFldnRGOGFSSXpnRzJIT3NVeXFMYjhrc3pRdGJIOGlzeG9SV0lhdjc0akJXcHpn?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://indianexpress.com/article/pune/pune-moshi-garbage-collapse-maharashtra-government-orders-high-level-inquiry-10784967/",
+      "link": "https://indianexpress.com/article/cities/pune/pimpri-chinchwad-pune-waste-to-energy-plant-building-collapse-project-head-arrested-10785420/",
       "talukas": [],
       "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-07-13T16:52:45.000Z",
-      "lastUpdated": "2026-07-13T16:52:45.000Z",
-      "sourceCheckedAt": "2026-07-14T03:35:21.068Z",
-      "lastVerifiedAt": "2026-07-14T03:35:21.068Z",
-      "intelligenceGeneratedAt": "2026-07-14T03:35:25.080Z",
-      "expiresAt": "2026-07-14T04:52:45.000Z",
+      "publishedAt": "2026-07-14T05:44:33.000Z",
+      "lastUpdated": "2026-07-14T05:44:33.000Z",
+      "sourceCheckedAt": "2026-07-14T05:57:31.972Z",
+      "lastVerifiedAt": "2026-07-14T05:57:31.972Z",
+      "intelligenceGeneratedAt": "2026-07-14T05:57:36.306Z",
+      "expiresAt": "2026-07-14T17:44:33.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 43,
+      "confidenceScore": 50,
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
       "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
       "affectedArea": "",
@@ -206,48 +206,40 @@
       "corroboratedByIndependentSources": false
     },
     {
-      "id": "accident-developing-3-women-pilgrims-killed-4-injured-as-truck-runs-over-warkaris-in-pune-",
+      "id": "accident-developing-daund-woman-s-organ-donation-gives-new-lease-of-life-to-four-patients-",
       "eventKind": "incident",
-      "sourceId": "indian_express_pune",
-      "title": "Developing: 3 women pilgrims killed, 4 injured as truck runs over Warkaris in Pune district",
-      "summary": "3 women pilgrims killed, 4 injured as truck runs over Warkaris in Pune district",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Daund woman’s organ donation gives new lease of life to four patients",
+      "summary": "The woman, an insurance agent, was admitted to Noble Hospitals and Research Centre (NHRC) on July 7 with severe injuries sustained in the accident. She was declared brain dead on July 9, following which her family consented to organ donation.",
       "category": "accident",
       "severity": "watch",
-      "source": "Indian Express Pune",
+      "source": "Hindustan Times Pune",
       "sourceTrust": "B",
       "sources": [
         {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://indianexpress.com/article/cities/pune/pune-ashadhi-wari-truck-accident-three-women-killed-jejuri-10783817/",
-          "origin": ""
-        },
-        {
           "name": "Hindustan Times Pune",
           "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/3-women-warkaris-killed-7-injured-in-palkhi-truck-hit-101783969841286.html",
-          "origin": ""
-        },
-        {
-          "name": "Mid-day",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPczlZQUhzaUdEY0lzdV9RRUtiUURrM0NPWDRLVHAtR05GczhSM1JXeE94akJjNjBmMWRMWi1DXzBSbUtxY3h4RFo0c3ZqTWZRaXN5dHA4ZkhLa0FYZklsaFAzOWU5bDlUZWZhVXg2VXBNN2NPQmNlZm5XM3hfa3NwVTFyOHJtdE9LTHZOVnRZSFBqN1ZQT1B2MVFDci01MXJlVEYzeUJ2YjlQUHM2NXFUSTVxd2Y4SkZYM0xtTkpn0gHDAUFVX3lxTE5ZRU05MVdWcU05U3pYcFJKY2RIT2xSMnZwbEtsOURfc1BoNGdoMnFzX0wtVGtmaHoxeXhVQTdGektpOTNQWDkyOUVZUEVHLW43cXJXRGJNRHd5WXAyY2NwSDlwQVVFZ3FvZEVuUzRxeEZwb1hkS08tWTI1RU9HU2xURjZNYWV0MEY5R2kyUmY5elZPazBmUFhhMktzU3dHTWF3N1JEejVBUW8zZEEyOHhkWnFtc1JTZ0JwRzF5bnpKeWt3WQ?oc=5",
+          "link": "https://www.hindustantimes.com/cities/pune-news/daund-woman-s-organ-donation-gives-new-lease-of-life-to-four-patients-101783970365887.html",
           "origin": ""
         }
       ],
-      "link": "https://indianexpress.com/article/cities/pune/pune-ashadhi-wari-truck-accident-three-women-killed-jejuri-10783817/",
-      "talukas": [],
-      "localities": [],
+      "link": "https://www.hindustantimes.com/cities/pune-news/daund-woman-s-organ-donation-gives-new-lease-of-life-to-four-patients-101783970365887.html",
+      "talukas": [
+        "daund"
+      ],
+      "localities": [
+        "Daund"
+      ],
       "operationalZones": [],
-      "publishedAt": "2026-07-13T04:34:08.000Z",
-      "lastUpdated": "2026-07-13T04:34:08.000Z",
-      "sourceCheckedAt": "2026-07-14T03:35:21.068Z",
-      "lastVerifiedAt": "2026-07-14T03:35:21.068Z",
-      "intelligenceGeneratedAt": "2026-07-14T03:35:25.080Z",
-      "expiresAt": "2026-07-14T04:34:08.000Z",
+      "publishedAt": "2026-07-14T03:29:08.000Z",
+      "lastUpdated": "2026-07-14T03:29:08.000Z",
+      "sourceCheckedAt": "2026-07-14T05:57:31.972Z",
+      "lastVerifiedAt": "2026-07-14T05:57:31.972Z",
+      "intelligenceGeneratedAt": "2026-07-14T05:57:36.306Z",
+      "expiresAt": "2026-07-15T03:29:08.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 71,
+      "confidenceScore": 70,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "",
@@ -259,19 +251,118 @@
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "pune_district",
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-3-women-warkaris-killed-7-injured-in-palkhi-truck-hit-2026-07-14t03-14",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: 3 women warkaris killed, 7 injured in palkhi truck hit",
+      "summary": "Police said that the truck belonged to the dindi of Ranganath Maharaj Pokharbisikar from Loha in Nanded district and was among the authorised vehicles accompanying the procession. It struck a group of women devotees from a dindi belonging to Kasabe Digraj in Sangli district.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/3-women-warkaris-killed-7-injured-in-palkhi-truck-hit-101783969841286.html",
+          "origin": ""
+        },
+        {
+          "name": "Mid-day",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWUVNOTFXVnFNOVN6WHBSSmNkSE9sUjJ2cGxLbDlEX3NQaDRnaDJxc19MLVRrZmh6MXl4VUE3RnpLaTkzUFg5MjlFWVBFRy1uN3FyV0RiTUR3eVlwMmNjcEg5cEFVRWdxb2RFblM0cXhGcG9YZEtPLVkyNUVPR1NsVEY2TWFldDBGOUdpMlJmOXpWT2swZlBYYTJLc1N3R01hdzdSRHo1QVFvM2RBMjh4ZFpxbXNSU2dCcEcxeW56Snlrd1nSAcMBQVVfeXFMTllFTTkxV1ZxTTlTelhwUkpjZEhPbFIydnBsS2w5RF9zUGg0Z2gycXNfTC1Ua2ZoejF5eFVBN0Z6S2k5M1BYOTI5RVlQRUctbjdxcldEYk1Ed3lZcDJjY3BIOXBBVUVncW9kRW5TNHF4RnBvWGRLTy1ZMjVFT0dTbFRGNk1hZXQwRjlHaTJSZjl6Vk9rMGZQWGEyS3NTd0dNYXc3UkR6NUFRbzNkQTI4eGRacW1zUlNnQnBHMXluekp5a3dZ?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/3-women-warkaris-killed-7-injured-in-palkhi-truck-hit-101783969841286.html",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-14T03:14:06.000Z",
+      "lastUpdated": "2026-07-14T03:14:06.000Z",
+      "sourceCheckedAt": "2026-07-14T05:57:31.972Z",
+      "lastVerifiedAt": "2026-07-14T05:57:31.972Z",
+      "intelligenceGeneratedAt": "2026-07-14T05:57:36.306Z",
+      "expiresAt": "2026-07-15T03:14:06.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 70,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
       "relatedEventIds": [
-        "accident-developing-3-women-warkaris-killed-7-injured-in-palkhi-truck-hit-2026-07-14t03-14",
         "accident-developing-three-women-devotees-killed-18-injured-after-truck-runs-over-warkaris-"
       ],
-      "independentSourceCount": 3,
+      "independentSourceCount": 2,
       "corroboratedByIndependentSources": true
+    },
+    {
+      "id": "structural-collapse-developing-pune-building-collapse-fir-registered-against-two-officials",
+      "eventKind": "incident",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Pune building collapse: FIR registered against two officials of energy company for safety lapses, negligence",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOM3YwLWMzQkhLQmN3ejlITG4tTjhwM2huWmU3bE16cGhRMnpxMUZfY3VBbkdLUm1mbkFMNWdfSDdBbHl0TFVhZHZIVnJZdVRxbGRpWmpxUHFxVVBJaXphWW01ajVXNkdfNkIzdDBnRlluckhEcGlqQUxiUXd2WTdwdkRRRnRNV21tVWJrTGhSbmxjOE1INGVWUkd0ZERjN3dqM1lQbXVzZ0ZOUnJ4WlA5dWJncXJsZkd3eFkwQjdzdmpadVZkSGYzb2ZVMVMxXzBmdDZ5cFk3SU9OWlpVa1NSYUt2NGNkQllDV2xOQ2dxaUJVaEFpcnpiSnNocEtveGPSAYwCQVVfeXFMTml0LVNWRTNkeERReC0yV3I0MHpzYUdWZnh2RHhMeThVUVNfMl9FckZWdVhSd1VHcXYyZW83Z0E5dGxsTEpuckpoRVJjLXNrUWUxQ3l1TzQxWEZsc2EtVkZsYm1PNEN3LTZIVGoyNFJhT1kxdUFUczY2dUNxNHZad3ZTSHdfbkxueUdqalpaekZKT2txblBNT0pvWHI3ckxvblpZaElTMmVaaHQyVkR4UlhtTllQRk9OeDF6UEI4ZmV1cHFveHJCR0xKOUJMeDlWY2tqNmlvazFBUk5mdkQ5NUdZamtjS0ptU0ViMWk5WDNsTzh4WXlCVDd2YkhWbll2NnRjZE42b08wTDVMNA?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOM3YwLWMzQkhLQmN3ejlITG4tTjhwM2huWmU3bE16cGhRMnpxMUZfY3VBbkdLUm1mbkFMNWdfSDdBbHl0TFVhZHZIVnJZdVRxbGRpWmpxUHFxVVBJaXphWW01ajVXNkdfNkIzdDBnRlluckhEcGlqQUxiUXd2WTdwdkRRRnRNV21tVWJrTGhSbmxjOE1INGVWUkd0ZERjN3dqM1lQbXVzZ0ZOUnJ4WlA5dWJncXJsZkd3eFkwQjdzdmpadVZkSGYzb2ZVMVMxXzBmdDZ5cFk3SU9OWlpVa1NSYUt2NGNkQllDV2xOQ2dxaUJVaEFpcnpiSnNocEtveGPSAYwCQVVfeXFMTml0LVNWRTNkeERReC0yV3I0MHpzYUdWZnh2RHhMeThVUVNfMl9FckZWdVhSd1VHcXYyZW83Z0E5dGxsTEpuckpoRVJjLXNrUWUxQ3l1TzQxWEZsc2EtVkZsYm1PNEN3LTZIVGoyNFJhT1kxdUFUczY2dUNxNHZad3ZTSHdfbkxueUdqalpaekZKT2txblBNT0pvWHI3ckxvblpZaElTMmVaaHQyVkR4UlhtTllQRk9OeDF6UEI4ZmV1cHFveHJCR0xKOUJMeDlWY2tqNmlvazFBUk5mdkQ5NUdZamtjS0ptU0ViMWk5WDNsTzh4WXlCVDd2YkhWbll2NnRjZE42b08wTDVMNA?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-14T04:48:55.000Z",
+      "lastUpdated": "2026-07-14T04:48:55.000Z",
+      "sourceCheckedAt": "2026-07-14T05:57:31.972Z",
+      "lastVerifiedAt": "2026-07-14T05:57:31.972Z",
+      "intelligenceGeneratedAt": "2026-07-14T05:57:36.306Z",
+      "expiresAt": "2026-07-14T16:48:55.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-682165e3",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "discoveredAt": "2026-07-14T05:57:31.972Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
     }
   ],
   "journeyContext": {
     "activeRiskEvents": [
       {
-        "id": "structural-collapse-developing-maharashtra-government-orders-high-level-probe-into-pune-bu",
+        "id": "structural-collapse-developing-project-head-arrested-safety-officer-booked-in-pune-buildin",
         "category": "structural_collapse",
         "severity": "warning",
         "localities": [],
@@ -280,25 +371,95 @@
         "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
       },
       {
-        "id": "accident-developing-3-women-pilgrims-killed-4-injured-as-truck-runs-over-warkaris-in-pune-",
+        "id": "accident-developing-daund-woman-s-organ-donation-gives-new-lease-of-life-to-four-patients-",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [
+          "Daund"
+        ],
+        "talukas": [
+          "daund"
+        ],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
+        "id": "accident-developing-3-women-warkaris-killed-7-injured-in-palkhi-truck-hit-2026-07-14t03-14",
         "category": "accident",
         "severity": "watch",
         "localities": [],
         "talukas": [],
         "operationalZones": [],
         "impact": "Traffic delays are likely near the incident location."
+      },
+      {
+        "id": "structural-collapse-developing-pune-building-collapse-fir-registered-against-two-officials",
+        "category": "structural_collapse",
+        "severity": "warning",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
       }
     ]
   },
-  "expiredEvents": [],
+  "expiredEvents": [
+    {
+      "id": "structural-collapse-developing-maharashtra-government-orders-high-level-probe-into-pune-bu",
+      "eventKind": "incident",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Maharashtra Government orders high-level probe into Pune building collapse",
+      "summary": "Maharashtra Government orders high-level probe into Pune building collapse",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://indianexpress.com/article/pune/pune-moshi-garbage-collapse-maharashtra-government-orders-high-level-inquiry-10784967/",
+          "origin": ""
+        }
+      ],
+      "link": "https://indianexpress.com/article/pune/pune-moshi-garbage-collapse-maharashtra-government-orders-high-level-inquiry-10784967/",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-13T16:52:45.000Z",
+      "lastUpdated": "2026-07-13T16:52:45.000Z",
+      "sourceCheckedAt": "2026-07-14T05:57:31.972Z",
+      "lastVerifiedAt": "2026-07-14T05:57:31.972Z",
+      "intelligenceGeneratedAt": "2026-07-14T05:57:36.306Z",
+      "expiresAt": "2026-07-14T04:52:45.000Z",
+      "lifecycle": "expired",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-14T03:35:21.068Z",
-      "lastSuccessfulAt": "2026-07-14T03:35:21.068Z",
+      "sourceCheckedAt": "2026-07-14T05:57:31.972Z",
+      "lastSuccessfulAt": "2026-07-14T05:57:31.972Z",
       "error": null
     }
   },
@@ -333,14 +494,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Koregaon Bhima river level is normal.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
+          "updatedAt": "2026-07-14T05:57:36.365Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-14T09:00:00+05:30",
+            "observedAt": "2026-07-14T11:15:00+05:30",
             "link": "",
             "note": ""
           }
@@ -360,10 +521,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 508.58,
+        "level": 508.54,
         "alertLevel": 515,
         "dangerLevel": 517,
-        "dischargeCumecs": 130.98,
+        "dischargeCumecs": 122.65,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -378,14 +539,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Paragaon river level is normal.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
+          "updatedAt": "2026-07-14T05:57:36.365Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-14T08:15:00+05:30",
+            "observedAt": "2026-07-14T11:15:00+05:30",
             "link": "",
             "note": ""
           }
@@ -405,10 +566,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 498.38,
+        "level": 498.34,
         "alertLevel": 504,
         "dangerLevel": 505,
-        "dischargeCumecs": 153.22,
+        "dischargeCumecs": 142.88,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -422,14 +583,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Daund river level is normal.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
+          "updatedAt": "2026-07-14T05:57:36.365Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-14T08:45:00+05:30",
+            "observedAt": "2026-07-14T11:15:00+05:30",
             "link": "",
             "note": ""
           }
@@ -466,14 +627,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Umbre Kasurdi river level is normal.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
+          "updatedAt": "2026-07-14T05:57:36.365Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-14T08:45:00+05:30",
+            "observedAt": "2026-07-14T11:15:00+05:30",
             "link": "",
             "note": ""
           }
@@ -492,12 +653,12 @@
         },
         "influenceRadiusKm": 3,
         "status": "normal",
-        "trend": "steady",
-        "level": 542.53,
+        "trend": "increasing",
+        "level": 542.59,
         "alertLevel": 545,
         "dangerLevel": 546.3,
-        "dischargeCumecs": 8.88,
-        "rsi": 10,
+        "dischargeCumecs": 12.61,
+        "rsi": 20,
         "severity": "advisory",
         "downstreamLocalities": [
           "Dattawadi",
@@ -511,16 +672,16 @@
         "bridges": [],
         "travelSensitivity": "medium",
         "timeline": {
-          "state": "monitoring",
+          "state": "developing",
           "note": "Dattawadi river level is normal.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
+          "updatedAt": "2026-07-14T05:57:36.365Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-14T09:00:00+05:30",
+            "observedAt": "2026-07-14T11:15:00+05:30",
             "link": "",
             "note": ""
           }
@@ -539,12 +700,12 @@
         },
         "influenceRadiusKm": 3,
         "status": "normal",
-        "trend": "steady",
-        "level": 533.76,
+        "trend": "increasing",
+        "level": 533.82,
         "alertLevel": 541.5,
         "dangerLevel": 542.5,
-        "dischargeCumecs": 17.09,
-        "rsi": 10,
+        "dischargeCumecs": 17.87,
+        "rsi": 20,
         "severity": "advisory",
         "downstreamLocalities": [
           "Kalyani Nagar",
@@ -558,16 +719,16 @@
         "bridges": [],
         "travelSensitivity": "medium",
         "timeline": {
-          "state": "monitoring",
+          "state": "developing",
           "note": "Kalyani nagar Bridge river level is normal.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
+          "updatedAt": "2026-07-14T05:57:36.365Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-14T08:45:00+05:30",
+            "observedAt": "2026-07-14T11:15:00+05:30",
             "link": "",
             "note": ""
           }
@@ -607,14 +768,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Pimple Gurav river level is normal.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
+          "updatedAt": "2026-07-14T05:57:36.365Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-14T09:00:00+05:30",
+            "observedAt": "2026-07-14T11:15:00+05:30",
             "link": "",
             "note": ""
           }
@@ -630,8 +791,8 @@
         "river": "Nira River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 98.19,
-        "reservoirLevel": 579.7,
+        "storagePercent": 98.07,
+        "reservoirLevel": 579.69,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -647,20 +808,20 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Veer Dam: 98.19% storage.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
+          "note": "Veer Dam: 98.07% storage.",
+          "updatedAt": "2026-07-14T05:57:36.365Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-14T08:00:00+05:30",
+            "observedAt": "2026-07-14T11:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Veer Dam has 98.19% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Veer Dam has 98.07% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -671,8 +832,8 @@
         "river": "Nira River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 52.38,
-        "reservoirLevel": 612.5,
+        "storagePercent": 52.47,
+        "reservoirLevel": 612.52,
         "dischargeCumecs": null,
         "rsi": 10,
         "severity": "advisory",
@@ -686,20 +847,20 @@
         "travelSensitivity": "low",
         "timeline": {
           "state": "monitoring",
-          "note": "Bhatghar Dam: 52.38% storage.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
+          "note": "Bhatghar Dam: 52.47% storage.",
+          "updatedAt": "2026-07-14T05:57:36.365Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-14T09:00:00+05:30",
+            "observedAt": "2026-07-14T11:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Bhatghar Dam has 52.38% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Bhatghar Dam has 52.47% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -710,8 +871,8 @@
         "river": "Mutha River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 95.95,
-        "reservoirLevel": 582.31,
+        "storagePercent": 95.27,
+        "reservoirLevel": 582.28,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -734,20 +895,20 @@
         "travelSensitivity": "high",
         "timeline": {
           "state": "monitoring",
-          "note": "Khadakwasla Dam: 95.95% storage.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
+          "note": "Khadakwasla Dam: 95.27% storage.",
+          "updatedAt": "2026-07-14T05:57:36.365Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-14T08:00:00+05:30",
+            "observedAt": "2026-07-14T11:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Khadakwasla Dam has 95.95% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Khadakwasla Dam has 95.27% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -758,8 +919,8 @@
         "river": "Mutha River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 39.37,
-        "reservoirLevel": 689.54,
+        "storagePercent": 39.42,
+        "reservoirLevel": 689.56,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -776,61 +937,20 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Temghar Dam: 39.37% storage.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
+          "note": "Temghar Dam: 39.42% storage.",
+          "updatedAt": "2026-07-14T05:57:36.365Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-14T08:45:00+05:30",
+            "observedAt": "2026-07-14T11:15:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Temghar Dam has 39.37% storage. Storage alone is not treated as a flood warning.",
-        "recommendedAction": "Monitor official discharge and downstream warnings."
-      },
-      {
-        "id": "rtdas-reservoir-mulshi",
-        "kind": "reservoir",
-        "dam": "mulshi",
-        "damLabel": "Mulshi Dam",
-        "river": "Mula River",
-        "status": "normal",
-        "trend": "unknown",
-        "storagePercent": 70.59,
-        "reservoirLevel": 602.87,
-        "dischargeCumecs": 0,
-        "rsi": 10,
-        "severity": "advisory",
-        "downstreamLocalities": [
-          "Paud",
-          "Pirangut",
-          "Mulshi"
-        ],
-        "talukas": [
-          "mulshi"
-        ],
-        "bridges": [],
-        "travelSensitivity": "medium",
-        "timeline": {
-          "state": "monitoring",
-          "note": "Mulshi Dam: 70.59% storage.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
-        },
-        "evidence": [
-          {
-            "source": "Maharashtra WRD RTDAS",
-            "sourceTrust": "A",
-            "type": "official",
-            "observedAt": "2026-07-14T06:30:00+05:30",
-            "link": "",
-            "note": ""
-          }
-        ],
-        "impact": "Mulshi Dam has 70.59% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Temghar Dam has 39.42% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -841,8 +961,8 @@
         "river": "Pavana River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 75.78,
-        "reservoirLevel": 610.52,
+        "storagePercent": 76.15,
+        "reservoirLevel": 610.56,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -859,25 +979,25 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Pawna Dam: 75.78% storage.",
-          "updatedAt": "2026-07-14T03:35:25.136Z"
+          "note": "Pawna Dam: 76.15% storage.",
+          "updatedAt": "2026-07-14T05:57:36.366Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-14T08:45:00+05:30",
+            "observedAt": "2026-07-14T11:15:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Pawna Dam has 75.78% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Pawna Dam has 76.15% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       }
     ],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-14T03:35:25.137Z",
+      "generatedAt": "2026-07-14T05:57:36.367Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -890,7 +1010,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-14T03:35:25.136Z",
+      "generatedAt": "2026-07-14T05:57:36.366Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -971,7 +1091,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-14T03:35:25.137Z",
+      "generatedAt": "2026-07-14T05:57:36.367Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -1016,7 +1136,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-14T03:35:25.188Z",
+        "generatedAt": "2026-07-14T05:57:36.419Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -1160,7 +1280,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-14T03:35:25.188Z",
+        "generatedAt": "2026-07-14T05:57:36.419Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1253,7 +1373,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-14T03:35:25.188Z",
+        "generatedAt": "2026-07-14T05:57:36.419Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -1358,12 +1478,6 @@
                 "category": "dam_release",
                 "penalty": 25,
                 "title": "Temghar Dam"
-              },
-              {
-                "eventId": "rtdas-reservoir-mulshi",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Mulshi Dam"
               },
               {
                 "eventId": "rtdas-reservoir-pawna",
@@ -1485,12 +1599,6 @@
                   "category": "dam_release",
                   "penalty": 25,
                   "title": "Temghar Dam"
-                },
-                {
-                  "eventId": "rtdas-reservoir-mulshi",
-                  "category": "dam_release",
-                  "penalty": 25,
-                  "title": "Mulshi Dam"
                 },
                 {
                   "eventId": "rtdas-reservoir-pawna",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-14T03:35:25.188Z",
+  "generatedAt": "2026-07-14T05:57:36.419Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-14T03:35:25.188Z",
+      "generatedAt": "2026-07-14T05:57:36.419Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -152,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-14T03:35:25.188Z",
+      "generatedAt": "2026-07-14T05:57:36.419Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -245,7 +245,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-14T03:35:25.188Z",
+      "generatedAt": "2026-07-14T05:57:36.419Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -350,12 +350,6 @@
               "category": "dam_release",
               "penalty": 25,
               "title": "Temghar Dam"
-            },
-            {
-              "eventId": "rtdas-reservoir-mulshi",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Mulshi Dam"
             },
             {
               "eventId": "rtdas-reservoir-pawna",
@@ -477,12 +471,6 @@
                 "category": "dam_release",
                 "penalty": 25,
                 "title": "Temghar Dam"
-              },
-              {
-                "eventId": "rtdas-reservoir-mulshi",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Mulshi Dam"
               },
               {
                 "eventId": "rtdas-reservoir-pawna",
