@@ -1,10 +1,24 @@
 {
   "schemaVersion": "6.1.0",
   "provider": "Google News RSS",
-  "sourceCheckedAt": "2026-07-14T00:10:15.967Z",
+  "sourceCheckedAt": "2026-07-14T03:35:21.068Z",
   "status": "healthy",
   "error": null,
   "items": [
+    {
+      "id": "google-news-73737c0",
+      "publisherId": "mid_day",
+      "publisher": "Mid-day",
+      "title": "Three women devotees killed, 18 injured after truck runs over Warkaris near Pune",
+      "category": "accident",
+      "severity": "watch",
+      "publishedAt": "2026-07-14T02:27:00.000Z",
+      "discoveredAt": "2026-07-14T03:35:21.068Z",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPczlZQUhzaUdEY0lzdV9RRUtiUURrM0NPWDRLVHAtR05GczhSM1JXeE94akJjNjBmMWRMWi1DXzBSbUtxY3h4RFo0c3ZqTWZRaXN5dHA4ZkhLa0FYZklsaFAzOWU5bDlUZWZhVXg2VXBNN2NPQmNlZm5XM3hfa3NwVTFyOHJtdE9LTHZOVnRZSFBqN1ZQT1B2MVFDci01MXJlVEYzeUJ2YjlQUHM2NXFUSTVxd2Y4SkZYM0xtTkpn0gHDAUFVX3lxTE5ZRU05MVdWcU05U3pYcFJKY2RIT2xSMnZwbEtsOURfc1BoNGdoMnFzX0wtVGtmaHoxeXhVQTdGektpOTNQWDkyOUVZUEVHLW43cXJXRGJNRHd5WXAyY2NwSDlwQVVFZ3FvZEVuUzRxeEZwb1hkS08tWTI1RU9HU2xURjZNYWV0MEY5R2kyUmY5elZPazBmUFhhMktzU3dHTWF3N1JEejVBUW8zZEEyOHhkWnFtc1JTZ0JwRzF5bnpKeWt3WQ?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "awaiting_direct_article",
+      "verifiedEventIds": []
+    },
     {
       "id": "google-news-1285c2b6",
       "publisherId": "indian_express_pune",
@@ -13,7 +27,7 @@
       "category": "structural_collapse",
       "severity": "warning",
       "publishedAt": "2026-07-13T16:52:45.000Z",
-      "discoveredAt": "2026-07-14T00:10:15.967Z",
+      "discoveredAt": "2026-07-14T03:35:21.068Z",
       "discoveryLink": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHp0cVQ5emVpbTd1MHRXWmVMTDZEMGlNMlB2Q3VRcElDS1hZaURaOUdobDAybHBDQjRPVlliNVVUeFRUbXZsLXdkMmdzSnJUTnQ0NlZncnpHVDY0Zlk5UmltLWJTQWxSalZUSXJId0Q3eDR1V283OXlvVkZZNEFGTjItaVBEaDVQNlVyYlZDV3NBOE9QNEJ0aUJvdWg1TV9HN1dkOXp6RTJqYTgtcnJMY0VWTG00R19vYm5LQ3BDenItMTjSAcoBQVVfeXFMTUJMNEV5RTN3Z1NGVGV0WHRXMURCVW13T2J3VTFyczY5c0ozd2txRDZsZU1raGhJaTJOZTVheW9qU2xXNVczREdncEZxOEozSFQ0SXAzc3k0Z2dSTFZPT1hpdk9iTFFkTHlUWU9NQVNla043RzlYMThMM2U1eDRWbXlHOFZ2bUR6YUVXMG5tR0ZMLXhMTERmZWlFN3pHekdmNlJEeWZUUG4waEhZdmNOS0dxcVNiSFR4MEVERF80TE5MZldkeFN5WFZFZw?oc=5",
       "discoveryProvider": "Google News RSS",
       "verificationStatus": "verified_direct_article",
@@ -22,6 +36,6 @@
       ]
     }
   ],
-  "collectedItems": 1,
-  "qualifiedItems": 1
+  "collectedItems": 2,
+  "qualifiedItems": 2
 }

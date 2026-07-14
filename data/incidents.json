@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-14T00:10:19.930Z",
+  "generatedAt": "2026-07-14T03:35:25.080Z",
   "sourceStatus": "healthy",
   "items": [
     {
@@ -33,9 +33,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-13T16:52:45.000Z",
       "lastUpdated": "2026-07-13T16:52:45.000Z",
-      "sourceCheckedAt": "2026-07-14T00:10:15.967Z",
-      "lastVerifiedAt": "2026-07-14T00:10:15.967Z",
-      "intelligenceGeneratedAt": "2026-07-14T00:10:19.930Z",
+      "sourceCheckedAt": "2026-07-14T03:35:21.068Z",
+      "lastVerifiedAt": "2026-07-14T03:35:21.068Z",
+      "intelligenceGeneratedAt": "2026-07-14T03:35:25.080Z",
       "expiresAt": "2026-07-14T04:52:45.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -72,6 +72,18 @@
           "trust": "B",
           "link": "https://indianexpress.com/article/cities/pune/pune-ashadhi-wari-truck-accident-three-women-killed-jejuri-10783817/",
           "origin": ""
+        },
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/3-women-warkaris-killed-7-injured-in-palkhi-truck-hit-101783969841286.html",
+          "origin": ""
+        },
+        {
+          "name": "Mid-day",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPczlZQUhzaUdEY0lzdV9RRUtiUURrM0NPWDRLVHAtR05GczhSM1JXeE94akJjNjBmMWRMWi1DXzBSbUtxY3h4RFo0c3ZqTWZRaXN5dHA4ZkhLa0FYZklsaFAzOWU5bDlUZWZhVXg2VXBNN2NPQmNlZm5XM3hfa3NwVTFyOHJtdE9LTHZOVnRZSFBqN1ZQT1B2MVFDci01MXJlVEYzeUJ2YjlQUHM2NXFUSTVxd2Y4SkZYM0xtTkpn0gHDAUFVX3lxTE5ZRU05MVdWcU05U3pYcFJKY2RIT2xSMnZwbEtsOURfc1BoNGdoMnFzX0wtVGtmaHoxeXhVQTdGektpOTNQWDkyOUVZUEVHLW43cXJXRGJNRHd5WXAyY2NwSDlwQVVFZ3FvZEVuUzRxeEZwb1hkS08tWTI1RU9HU2xURjZNYWV0MEY5R2kyUmY5elZPazBmUFhhMktzU3dHTWF3N1JEejVBUW8zZEEyOHhkWnFtc1JTZ0JwRzF5bnpKeWt3WQ?oc=5",
+          "origin": ""
         }
       ],
       "link": "https://indianexpress.com/article/cities/pune/pune-ashadhi-wari-truck-accident-three-women-killed-jejuri-10783817/",
@@ -80,13 +92,13 @@
       "operationalZones": [],
       "publishedAt": "2026-07-13T04:34:08.000Z",
       "lastUpdated": "2026-07-13T04:34:08.000Z",
-      "sourceCheckedAt": "2026-07-14T00:10:15.967Z",
-      "lastVerifiedAt": "2026-07-14T00:10:15.967Z",
-      "intelligenceGeneratedAt": "2026-07-14T00:10:19.930Z",
+      "sourceCheckedAt": "2026-07-14T03:35:21.068Z",
+      "lastVerifiedAt": "2026-07-14T03:35:21.068Z",
+      "intelligenceGeneratedAt": "2026-07-14T03:35:25.080Z",
       "expiresAt": "2026-07-14T04:34:08.000Z",
       "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
+      "confidence": "Medium",
+      "confidenceScore": 71,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "",
@@ -99,9 +111,12 @@
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
+      "relatedEventIds": [
+        "accident-developing-3-women-warkaris-killed-7-injured-in-palkhi-truck-hit-2026-07-14t03-14",
+        "accident-developing-three-women-devotees-killed-18-injured-after-truck-runs-over-warkaris-"
+      ],
+      "independentSourceCount": 3,
+      "corroboratedByIndependentSources": true
     }
   ]
 }
