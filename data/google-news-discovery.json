@@ -1,10 +1,27 @@
 {
   "schemaVersion": "6.1.0",
   "provider": "Google News RSS",
-  "sourceCheckedAt": "2026-07-15T08:30:51.914Z",
+  "sourceCheckedAt": "2026-07-15T10:29:01.271Z",
   "status": "healthy",
   "error": null,
-  "items": [],
-  "collectedItems": 0,
-  "qualifiedItems": 0
+  "items": [
+    {
+      "id": "google-news-1f9d682d",
+      "publisherId": "indian_express_pune",
+      "publisher": "Indian Express Pune",
+      "title": "Pune building collapse: Civic body suspends 2 engineers for negligence",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "publishedAt": "2026-07-15T09:59:52.000Z",
+      "discoveredAt": "2026-07-15T10:29:01.271Z",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa2xfNXNlbU41VW5LR0hBYjVSTDJmMWE5Tm9Yd0drLXB3eUtTblpJaEItWHVuUXctLWNjd0xPLVN2cHZ1YThrUXhIZ2h0ZElhUU5SRVNwN1p1b2RjS0ZBbFdGZXhrVkJJcHRXQ0RZcVhJZ1Z6ZWljYmpGblpPTWZFVzBhRFBuOEQxcWtNVE43bTVEZ1hlMDdWemotbWhuU3V4YTBvMHJ0bjdzX01jWndIT0lIM3VVVGpoUjJSRTRlc9IBxgFBVV95cUxNck1OTVVuelVnWkFRMGt6dGtOSnVRaE5tZVlKbmFyZlkyUDBFUC1KZzdacHM3VkpHcjFZNk5uRnZ2Zko4WDRhOXdxYXdCYnlkRG1UbGdnRnRKaEpySTg3V214eXFwNV9YU2s5ZExuN3VTYnhuRUhjd1BGS0hrMlE0TXB2OFhidDh4V1ljUm42LVlMSzdhQlJFRWlDakZtOERzd0J5MWd3QjJDZTNkYUVVQUM3Z1ZzUnNlRVlodGZqd1NEaFBKUFE?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "verified_direct_article",
+      "verifiedEventIds": [
+        "indian_express_pune:2026-07-15T09:59:52.000Z"
+      ]
+    }
+  ],
+  "collectedItems": 1,
+  "qualifiedItems": 1
 }
