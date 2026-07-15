@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-15T03:36:14.840Z",
-  "lastSuccessfulAt": "2026-07-15T03:36:14.840Z",
+  "sourceCheckedAt": "2026-07-15T05:59:47.000Z",
+  "lastSuccessfulAt": "2026-07-15T05:59:47.000Z",
   "error": null,
   "optionalErrors": [],
   "sources": [
@@ -11,8 +11,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-15T03:36:14.840Z",
-      "lastSuccessfulAt": "2026-07-15T03:36:14.840Z",
+      "sourceCheckedAt": "2026-07-15T05:59:47.000Z",
+      "lastSuccessfulAt": "2026-07-15T05:59:47.000Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -21,28 +21,28 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-15T03:36:14.840Z",
-      "lastSuccessfulAt": "2026-07-15T03:36:14.840Z",
+      "sourceCheckedAt": "2026-07-15T05:59:47.000Z",
+      "lastSuccessfulAt": "2026-07-15T05:59:47.000Z",
       "error": null,
-      "etag": "W/\"8673-1784070343586\"",
+      "etag": "W/\"8683-1784092546794\"",
       "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-15T03:36:14.840Z",
-      "lastSuccessfulAt": "2026-07-15T03:36:14.840Z",
+      "sourceCheckedAt": "2026-07-15T05:59:47.000Z",
+      "lastSuccessfulAt": "2026-07-15T05:59:47.000Z",
       "error": null,
       "etag": null,
-      "itemsCollected": 1
+      "itemsCollected": 0
     },
     {
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-15T03:36:14.840Z",
-      "lastSuccessfulAt": "2026-07-15T03:36:14.840Z",
+      "sourceCheckedAt": "2026-07-15T05:59:47.000Z",
+      "lastSuccessfulAt": "2026-07-15T05:59:47.000Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-15T03:36:14.840Z",
-      "lastSuccessfulAt": "2026-07-15T03:36:14.840Z",
+      "sourceCheckedAt": "2026-07-15T05:59:47.000Z",
+      "lastSuccessfulAt": "2026-07-15T05:59:47.000Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,8 +61,8 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-15T03:36:14.840Z",
-      "lastSuccessfulAt": "2026-07-15T03:36:14.840Z",
+      "sourceCheckedAt": "2026-07-15T05:59:47.000Z",
+      "lastSuccessfulAt": "2026-07-15T05:59:47.000Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -71,8 +71,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-15T03:36:14.840Z",
-      "lastSuccessfulAt": "2026-07-15T03:36:14.840Z",
+      "sourceCheckedAt": "2026-07-15T05:59:47.000Z",
+      "lastSuccessfulAt": "2026-07-15T05:59:47.000Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -81,28 +81,39 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-15T03:36:14.840Z",
-      "lastSuccessfulAt": "2026-07-15T03:36:14.840Z",
+      "sourceCheckedAt": "2026-07-15T05:59:47.000Z",
+      "lastSuccessfulAt": "2026-07-15T05:59:47.000Z",
       "error": null,
-      "itemsCollected": 0,
-      "itemsQualified": 0
+      "itemsCollected": 1,
+      "itemsQualified": 1
     }
   ],
   "items": [
     {
+      "eventKind": "incident",
       "sourceId": "indian_express_pune",
-      "title": "Developing: Project head arrested, safety officer booked in Pune building collapse case",
-      "summary": "Project head arrested, safety officer booked in Pune building collapse case",
+      "collectionSourceId": "google_news_discovery",
+      "upstreamId": "google-news-e9632faf",
+      "title": "Developing: After Pune building collapse, BMC orders safety audit of Mumbai’s landfills",
+      "summary": "A current trusted-media report relevant to Pune District.",
       "category": "structural_collapse",
       "severity": "warning",
       "source": "Indian Express Pune",
       "sourceTrust": "B",
-      "link": "https://indianexpress.com/article/cities/pune/pimpri-chinchwad-pune-waste-to-energy-plant-building-collapse-project-head-arrested-10785420/",
-      "publishedAt": "2026-07-14T05:44:33.000Z",
-      "lastUpdated": "2026-07-14T05:44:33.000Z",
-      "sourceCheckedAt": "2026-07-15T03:36:14.840Z",
-      "lastVerifiedAt": "2026-07-15T03:36:14.840Z",
-      "expiresAt": "2026-07-14T17:44:33.000Z"
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdFlUUC1NNHQyaWl4OVlqMUZHd1VscEx5LWRjMlFIT3Z0aVdaRzB5MjljblhOSFMweHIxc3VRZ0FJcmxlMHF6YUNvdkhfcHpUQlhVQ0VDaEZQVjlJWDBmRWs1bG4zd0hGRXRvOWhaWDBFQU85YnRQRDJnMEJGbDREeVo2czZPYnFZR3IzZ0d6WVBwYWxSLVVsTWxfY1RjYWZQVldXckxZaV9Cc19Hb29uTGt4MDPSAbsBQVVfeXFMTVRVOVlLajZJR25ZaS1mbGN4NnFnS2ZwaUVUVlFBNk1yeEliSEJwMWFMRTFveUVwaE1FSDRVY0swM1Rnbk5DSlVkd1JVTHRTLVY1S3pZOGZiSXY1YnhMQjA5MG5vdXNzZGk2aGtFeU42S01rSDB1T1ppdnExa1lwc2ZQczhzb0Q0bFdjT1ZnbVJTbWFuUVdqTEJvOUpIRUdETFBiWV9KbTd2Vk1sUVI5bGNmMmI0YU5ZTW82SQ?oc=5",
+      "sourceOrigin": "",
+      "publishedAt": "2026-07-14T18:56:16.000Z",
+      "discoveredAt": "2026-07-15T05:59:47.000Z",
+      "lastUpdated": "2026-07-14T18:56:16.000Z",
+      "sourceCheckedAt": "2026-07-15T05:59:47.000Z",
+      "lastVerifiedAt": "2026-07-15T05:59:47.000Z",
+      "expiresAt": "2026-07-15T06:56:16.000Z",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "geographicScope": "pune_district",
+      "affectedArea": "Pune District",
+      "talukas": [],
+      "localities": []
     }
   ]
 }
