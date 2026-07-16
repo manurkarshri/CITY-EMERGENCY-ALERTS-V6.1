@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-16T22:39:11.178Z",
+  "generatedAt": "2026-07-16T23:39:07.154Z",
   "status": "current",
   "situation": {
-    "snapshot": "1 important alert require attention.",
+    "snapshot": "1 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-07-16T22:39:11.241Z",
+      "generatedAt": "2026-07-16T23:39:07.212Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,16 +13,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-16T22:39:06.399Z",
-          "observedAt": "2026-07-17T04:00:00+05:30",
-          "temp": 23.5,
+          "sourceCheckedAt": "2026-07-16T23:39:01.977Z",
+          "observedAt": "2026-07-17T05:00:00+05:30",
+          "temp": 23.4,
           "currentRain": 0,
-          "rain6h": 0.1,
-          "precipitationProbability": 25,
-          "wind": 23,
-          "gust": 23,
+          "rain6h": 0.3,
+          "precipitationProbability": 55,
+          "wind": 25.6,
+          "gust": 25.6,
           "humidity": 88,
-          "visibility": 10.8,
+          "visibility": 6.2,
           "weatherCode": 3,
           "rainRisk": "Minimal",
           "windRisk": "Low",
@@ -39,19 +39,19 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-16T22:39:06.399Z",
-          "observedAt": "2026-07-17T04:00:00+05:30",
-          "temp": 23.5,
+          "sourceCheckedAt": "2026-07-16T23:39:01.977Z",
+          "observedAt": "2026-07-17T05:00:00+05:30",
+          "temp": 23.2,
           "currentRain": 0,
-          "rain6h": 0.1,
-          "precipitationProbability": 26,
-          "wind": 19.8,
-          "gust": 19.8,
+          "rain6h": 0.4,
+          "precipitationProbability": 59,
+          "wind": 23,
+          "gust": 23,
           "humidity": 89,
-          "visibility": 11.8,
+          "visibility": 6.3,
           "weatherCode": 3,
           "rainRisk": "Minimal",
-          "windRisk": "Minimal",
+          "windRisk": "Low",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -65,16 +65,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-16T22:39:06.399Z",
-          "observedAt": "2026-07-17T04:00:00+05:30",
-          "temp": 23.5,
+          "sourceCheckedAt": "2026-07-16T23:39:01.977Z",
+          "observedAt": "2026-07-17T05:00:00+05:30",
+          "temp": 23.4,
           "currentRain": 0,
-          "rain6h": 0.1,
-          "precipitationProbability": 25,
-          "wind": 23,
-          "gust": 23,
+          "rain6h": 0.3,
+          "precipitationProbability": 55,
+          "wind": 25.6,
+          "gust": 25.6,
           "humidity": 88,
-          "visibility": 10.8,
+          "visibility": 6.2,
           "weatherCode": 3,
           "rainRisk": "Minimal",
           "windRisk": "Low",
@@ -91,17 +91,17 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-16T22:39:06.399Z",
-          "observedAt": "2026-07-17T04:00:00+05:30",
-          "temp": 22.2,
-          "currentRain": 0,
-          "rain6h": 1.3,
-          "precipitationProbability": 97,
-          "wind": 28.1,
-          "gust": 28.1,
+          "sourceCheckedAt": "2026-07-16T23:39:01.977Z",
+          "observedAt": "2026-07-17T05:00:00+05:30",
+          "temp": 22.1,
+          "currentRain": 0.1,
+          "rain6h": 1.4,
+          "precipitationProbability": 99,
+          "wind": 24.5,
+          "gust": 24.5,
           "humidity": 100,
           "visibility": 0.3,
-          "weatherCode": 3,
+          "weatherCode": 51,
           "rainRisk": "Minimal",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -117,16 +117,16 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-16T22:39:06.399Z",
-          "observedAt": "2026-07-17T04:00:00+05:30",
-          "temp": 21.9,
+          "sourceCheckedAt": "2026-07-16T23:39:01.977Z",
+          "observedAt": "2026-07-17T05:00:00+05:30",
+          "temp": 21.7,
           "currentRain": 0,
-          "rain6h": 1.2,
-          "precipitationProbability": 83,
-          "wind": 23.8,
-          "gust": 23.8,
-          "humidity": 99,
-          "visibility": 0.7,
+          "rain6h": 1.3,
+          "precipitationProbability": 93,
+          "wind": 23.4,
+          "gust": 23.4,
+          "humidity": 100,
+          "visibility": 0.8,
           "weatherCode": 3,
           "rainRisk": "Minimal",
           "windRisk": "Low",
@@ -141,7 +141,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-16T22:39:11.243Z",
+      "generatedAt": "2026-07-16T23:39:07.214Z",
       "riskLevel": "Normal",
       "impacts": [
         "1 active transport-related event(s) may affect travel."
@@ -152,53 +152,6 @@
   },
   "alerts": [],
   "incidents": [
-    {
-      "id": "flood-developing-पुण्यात-आर्थिक-वादातून-कॉन्ट्रॅक्टरनं-संपवलं-जीवन-मृत्यूपूर्वी-शेअर-केला-",
-      "eventKind": "incident",
-      "sourceId": "esakal",
-      "title": "Developing: पुण्यात आर्थिक वादातून कॉन्ट्रॅक्टरनं संपवलं जीवन; मृत्यूपूर्वी शेअर केला व्हिडीओ, नाव घेत गंभीर आरोप...",
-      "summary": "Pune Contractor Death : संबंधित व्यक्तीने टोकाचं पाऊल उचलण्यापूर्वी व्हिडीओ बनवत अनेकांची नावं घेत गंभीर आरोपही केले आहेत. | ontractor was found dead in Pune's Dias Plot area after an alleged financial dispute. Police are examining videos, a handwritten note and other evidence as the investigation continues",
-      "category": "flood",
-      "severity": "warning",
-      "source": "eSakal Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "eSakal Pune",
-          "trust": "B",
-          "link": "https://www.esakal.com/pune/pune-contractor-death-after-financial-dispute-video-allegations-dias-plot-khalil-sheikh-pune-crime-latest-marathi-news-spb94",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.esakal.com/pune/pune-contractor-death-after-financial-dispute-video-allegations-dias-plot-khalil-sheikh-pune-crime-latest-marathi-news-spb94",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-07-16T10:23:58.000Z",
-      "lastUpdated": "2026-07-16T10:23:58.000Z",
-      "sourceCheckedAt": "2026-07-16T22:39:06.980Z",
-      "lastVerifiedAt": "2026-07-16T22:39:06.980Z",
-      "intelligenceGeneratedAt": "2026-07-16T22:39:11.178Z",
-      "expiresAt": "2026-07-17T10:23:58.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "",
-      "upstreamId": "da22e44597e1a07fed650beb8d21b62a",
-      "collectionProvider": "NewsData.io",
-      "discoveryOnly": false,
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "broader_area",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
     {
       "id": "accident-developing-65-year-old-warkari-killed-in-accident-at-baramati-2026-07-16t18-54-00",
       "eventKind": "incident",
@@ -227,9 +180,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-16T18:54:00.000Z",
       "lastUpdated": "2026-07-16T18:54:00.000Z",
-      "sourceCheckedAt": "2026-07-16T22:39:06.980Z",
-      "lastVerifiedAt": "2026-07-16T22:39:06.980Z",
-      "intelligenceGeneratedAt": "2026-07-16T22:39:11.178Z",
+      "sourceCheckedAt": "2026-07-16T23:39:02.667Z",
+      "lastVerifiedAt": "2026-07-16T23:39:02.667Z",
+      "intelligenceGeneratedAt": "2026-07-16T23:39:07.154Z",
       "expiresAt": "2026-07-17T06:54:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -240,7 +193,7 @@
       "upstreamId": "google-news-b388fc32",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
-      "discoveredAt": "2026-07-16T22:39:06.980Z",
+      "discoveredAt": "2026-07-16T23:39:02.667Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -253,15 +206,6 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
-      {
-        "id": "flood-developing-पुण्यात-आर्थिक-वादातून-कॉन्ट्रॅक्टरनं-संपवलं-जीवन-मृत्यूपूर्वी-शेअर-केला-",
-        "category": "flood",
-        "severity": "warning",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "This event may affect local awareness or movement."
-      },
       {
         "id": "accident-developing-65-year-old-warkari-killed-in-accident-at-baramati-2026-07-16t18-54-00",
         "category": "accident",
@@ -306,9 +250,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-16T03:18:07.000Z",
       "lastUpdated": "2026-07-16T03:18:07.000Z",
-      "sourceCheckedAt": "2026-07-16T22:39:06.980Z",
-      "lastVerifiedAt": "2026-07-16T22:39:06.980Z",
-      "intelligenceGeneratedAt": "2026-07-16T22:39:11.178Z",
+      "sourceCheckedAt": "2026-07-16T23:39:02.667Z",
+      "lastVerifiedAt": "2026-07-16T23:39:02.667Z",
+      "intelligenceGeneratedAt": "2026-07-16T23:39:07.154Z",
       "expiresAt": "2026-07-16T15:18:07.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -336,8 +280,8 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-16T22:39:06.980Z",
-      "lastSuccessfulAt": "2026-07-16T22:39:06.980Z",
+      "sourceCheckedAt": "2026-07-16T23:39:02.667Z",
+      "lastSuccessfulAt": "2026-07-16T23:39:02.667Z",
       "error": null
     }
   },
@@ -355,10 +299,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 537.48,
+        "level": 537.49,
         "alertLevel": 547,
         "dangerLevel": 548,
-        "dischargeCumecs": 7.29,
+        "dischargeCumecs": 7.33,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -372,14 +316,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Koregaon Bhima river level is normal.",
-          "updatedAt": "2026-07-16T22:39:11.241Z"
+          "updatedAt": "2026-07-16T23:39:07.213Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-17T04:00:00+05:30",
+            "observedAt": "2026-07-17T05:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -399,10 +343,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 508.29,
+        "level": 508.3,
         "alertLevel": 515,
         "dangerLevel": 517,
-        "dischargeCumecs": 76.2,
+        "dischargeCumecs": 77.87,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -417,14 +361,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Paragaon river level is normal.",
-          "updatedAt": "2026-07-16T22:39:11.241Z"
+          "updatedAt": "2026-07-16T23:39:07.213Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-17T03:45:00+05:30",
+            "observedAt": "2026-07-17T04:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -444,10 +388,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 498.2,
+        "level": 498.19,
         "alertLevel": 504,
         "dangerLevel": 505,
-        "dischargeCumecs": 109.3,
+        "dischargeCumecs": 107.06,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -461,14 +405,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Daund river level is normal.",
-          "updatedAt": "2026-07-16T22:39:11.241Z"
+          "updatedAt": "2026-07-16T23:39:07.213Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-17T04:00:00+05:30",
+            "observedAt": "2026-07-17T04:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -505,14 +449,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Umbre Kasurdi river level is normal.",
-          "updatedAt": "2026-07-16T22:39:11.241Z"
+          "updatedAt": "2026-07-16T23:39:07.213Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-17T04:00:00+05:30",
+            "observedAt": "2026-07-17T04:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -532,10 +476,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 542.49,
+        "level": 542.5,
         "alertLevel": 545,
         "dangerLevel": 546.3,
-        "dischargeCumecs": 6.72,
+        "dischargeCumecs": 7.24,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -552,14 +496,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Dattawadi river level is normal.",
-          "updatedAt": "2026-07-16T22:39:11.241Z"
+          "updatedAt": "2026-07-16T23:39:07.213Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-17T04:00:00+05:30",
+            "observedAt": "2026-07-17T05:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -579,10 +523,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 533.67,
+        "level": 533.65,
         "alertLevel": 541.5,
         "dangerLevel": 542.5,
-        "dischargeCumecs": 15.93,
+        "dischargeCumecs": 15.67,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -599,14 +543,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Kalyani nagar Bridge river level is normal.",
-          "updatedAt": "2026-07-16T22:39:11.241Z"
+          "updatedAt": "2026-07-16T23:39:07.213Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-17T03:45:00+05:30",
+            "observedAt": "2026-07-17T04:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -646,14 +590,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Pimple Gurav river level is normal.",
-          "updatedAt": "2026-07-16T22:39:11.241Z"
+          "updatedAt": "2026-07-16T23:39:07.213Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-17T04:00:00+05:30",
+            "observedAt": "2026-07-17T05:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -687,14 +631,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Veer Dam: 94.26% storage.",
-          "updatedAt": "2026-07-16T22:39:11.241Z"
+          "updatedAt": "2026-07-16T23:39:07.213Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-17T04:00:00+05:30",
+            "observedAt": "2026-07-17T05:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -710,8 +654,8 @@
         "river": "Nira River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 53.45,
-        "reservoirLevel": 612.77,
+        "storagePercent": 53.37,
+        "reservoirLevel": 612.75,
         "dischargeCumecs": null,
         "rsi": 10,
         "severity": "advisory",
@@ -725,20 +669,20 @@
         "travelSensitivity": "low",
         "timeline": {
           "state": "monitoring",
-          "note": "Bhatghar Dam: 53.45% storage.",
-          "updatedAt": "2026-07-16T22:39:11.241Z"
+          "note": "Bhatghar Dam: 53.37% storage.",
+          "updatedAt": "2026-07-16T23:39:07.213Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-17T04:00:00+05:30",
+            "observedAt": "2026-07-17T05:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Bhatghar Dam has 53.45% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Bhatghar Dam has 53.37% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -749,8 +693,8 @@
         "river": "Mutha River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 84.99,
-        "reservoirLevel": 581.84,
+        "storagePercent": 84.73,
+        "reservoirLevel": 581.83,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -773,20 +717,20 @@
         "travelSensitivity": "high",
         "timeline": {
           "state": "monitoring",
-          "note": "Khadakwasla Dam: 84.99% storage.",
-          "updatedAt": "2026-07-16T22:39:11.242Z"
+          "note": "Khadakwasla Dam: 84.73% storage.",
+          "updatedAt": "2026-07-16T23:39:07.213Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-17T04:00:00+05:30",
+            "observedAt": "2026-07-17T05:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Khadakwasla Dam has 84.99% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Khadakwasla Dam has 84.73% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -815,14 +759,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Mulshi Dam: 70.78% storage.",
-          "updatedAt": "2026-07-16T22:39:11.242Z"
+          "updatedAt": "2026-07-16T23:39:07.213Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-17T04:00:00+05:30",
+            "observedAt": "2026-07-17T05:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -857,14 +801,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Pawna Dam: 76.92% storage.",
-          "updatedAt": "2026-07-16T22:39:11.242Z"
+          "updatedAt": "2026-07-16T23:39:07.213Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-17T03:45:00+05:30",
+            "observedAt": "2026-07-17T04:45:00+05:30",
             "link": "",
             "note": ""
           }
@@ -874,7 +818,7 @@
       }
     ],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-16T22:39:11.242Z",
+      "generatedAt": "2026-07-16T23:39:07.214Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -887,7 +831,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-16T22:39:11.242Z",
+      "generatedAt": "2026-07-16T23:39:07.214Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -968,10 +912,9 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-16T22:39:11.243Z",
+      "generatedAt": "2026-07-16T23:39:07.214Z",
       "mode": "on-demand",
       "relevantDomains": [
-        "bridges",
         "highways"
       ],
       "infrastructure": {
@@ -1014,7 +957,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-16T22:39:11.304Z",
+        "generatedAt": "2026-07-16T23:39:07.274Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -1163,7 +1106,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-16T22:39:11.305Z",
+        "generatedAt": "2026-07-16T23:39:07.274Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1260,7 +1203,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-16T22:39:11.305Z",
+        "generatedAt": "2026-07-16T23:39:07.274Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
