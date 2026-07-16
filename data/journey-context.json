@@ -1,17 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-16T12:53:35.623Z",
+  "generatedAt": "2026-07-16T15:04:58.778Z",
   "routes": [],
   "risks": [
-    {
-      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-with-possibility-of-thunder-lightning",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
-    },
     {
       "id": "structural-collapse-developing-moshi-building-collapse-pcmc-suspends-two-officials-departm",
       "category": "structural_collapse",
@@ -24,6 +15,15 @@
       ],
       "operationalZones": [],
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+    },
+    {
+      "id": "flood-developing-pune-news-मोठी-घडामोड-यशवंत-कारखान्याच्या-99-एकर-जमीन-व्यवहाराला-सरकारची-",
+      "category": "flood",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
     }
   ]
 }
