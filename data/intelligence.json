@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-16T15:04:58.778Z",
+  "generatedAt": "2026-07-16T16:42:26.980Z",
   "status": "current",
   "situation": {
-    "snapshot": "2 important alerts require attention.",
+    "snapshot": "No major environmental disruption indicated from current data.",
     "weather": {
-      "generatedAt": "2026-07-16T15:04:58.832Z",
+      "generatedAt": "2026-07-16T16:42:27.043Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,15 +13,15 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-16T15:04:53.048Z",
-          "observedAt": "2026-07-16T20:30:00+05:30",
-          "temp": 23.8,
+          "sourceCheckedAt": "2026-07-16T16:42:22.342Z",
+          "observedAt": "2026-07-16T22:00:00+05:30",
+          "temp": 23.6,
           "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 0,
-          "wind": 27.4,
-          "gust": 27.4,
-          "humidity": 85,
+          "wind": 26.6,
+          "gust": 26.6,
+          "humidity": 87,
           "visibility": 16.3,
           "weatherCode": 3,
           "rainRisk": "Minimal",
@@ -39,15 +39,15 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-16T15:04:53.048Z",
-          "observedAt": "2026-07-16T20:30:00+05:30",
-          "temp": 23.8,
+          "sourceCheckedAt": "2026-07-16T16:42:22.342Z",
+          "observedAt": "2026-07-16T22:00:00+05:30",
+          "temp": 23.5,
           "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 0,
-          "wind": 24.8,
-          "gust": 24.8,
-          "humidity": 86,
+          "wind": 20.2,
+          "gust": 20.2,
+          "humidity": 89,
           "visibility": 16.6,
           "weatherCode": 3,
           "rainRisk": "Minimal",
@@ -65,15 +65,15 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-16T15:04:53.048Z",
-          "observedAt": "2026-07-16T20:30:00+05:30",
-          "temp": 23.8,
+          "sourceCheckedAt": "2026-07-16T16:42:22.342Z",
+          "observedAt": "2026-07-16T22:00:00+05:30",
+          "temp": 23.6,
           "currentRain": 0,
           "rain6h": 0,
           "precipitationProbability": 0,
-          "wind": 27.4,
-          "gust": 27.4,
-          "humidity": 85,
+          "wind": 26.6,
+          "gust": 26.6,
+          "humidity": 87,
           "visibility": 16.3,
           "weatherCode": 3,
           "rainRisk": "Minimal",
@@ -91,17 +91,17 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-16T15:04:53.048Z",
-          "observedAt": "2026-07-16T20:30:00+05:30",
-          "temp": 22.5,
-          "currentRain": 0,
+          "sourceCheckedAt": "2026-07-16T16:42:22.342Z",
+          "observedAt": "2026-07-16T22:00:00+05:30",
+          "temp": 22.6,
+          "currentRain": 0.1,
           "rain6h": 1.3,
-          "precipitationProbability": 88,
-          "wind": 27,
-          "gust": 27,
+          "precipitationProbability": 90,
+          "wind": 28.4,
+          "gust": 28.4,
           "humidity": 99,
           "visibility": 0.6,
-          "weatherCode": 3,
+          "weatherCode": 51,
           "rainRisk": "Minimal",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -117,14 +117,14 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-16T15:04:53.048Z",
-          "observedAt": "2026-07-16T20:30:00+05:30",
+          "sourceCheckedAt": "2026-07-16T16:42:22.342Z",
+          "observedAt": "2026-07-16T22:00:00+05:30",
           "temp": 22.2,
           "currentRain": 0,
           "rain6h": 0.9,
-          "precipitationProbability": 68,
-          "wind": 20.5,
-          "gust": 20.5,
+          "precipitationProbability": 56,
+          "wind": 25.2,
+          "gust": 25.2,
           "humidity": 99,
           "visibility": 0.4,
           "weatherCode": 3,
@@ -141,7 +141,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-16T15:04:58.834Z",
+      "generatedAt": "2026-07-16T16:42:27.044Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
@@ -149,137 +149,9 @@
     }
   },
   "alerts": [],
-  "incidents": [
-    {
-      "id": "structural-collapse-developing-moshi-building-collapse-pcmc-suspends-two-officials-departm",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Moshi building collapse: PCMC suspends two officials; departmental probes ordered",
-      "summary": "The civic body had issued show-cause notices to the two officials following the July 8 incident, in which a massive garbage mound collapsed onto the administrative building of the waste-to-energy plant at the Moshi garbage depot.",
-      "category": "structural_collapse",
-      "severity": "warning",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/moshi-building-collapse-pcmc-suspends-two-officials-departmental-probes-ordered-101784142012164.html",
-          "origin": ""
-        },
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPM2hVdURFZkczeWZyTHNpWVJzWEMxUnJXR2ZRb1VWSUZZR2dFa3BGT0dCQk5LdVphckdMQjZiWWg3ZjhiMkhkRHRXNTlzQUI3WFdCeGJSSGZQTUcyQ2Mwcjl3bGU5V3NDdms4X3k1MkdaUm5ibExzZkVyX3k4WFpOZWFZWkd1cEMxT19EOE95QmRQOUtVOXJEaklOWmY0YnlzZXAxSVVPNHlKV2lCVWpWTGpNNFVhY2xqRWtXeTR5aFZOY3NPSzZ1WkhJZGo0d29nbTNKSnUzcDlaRWJaOWpCRjdn0gHnAUFVX3lxTE5vbkhNMHhJd0tTMERMSmVhcmFIYTZhWXBQQnpPYVN1TnkzeXVMUnRQMFlOd3VYWUNfNjZORVNsMFRQTFNTTWRCeDlkQUczUkcwS0xuQ2ZmOG9IYVdXUUE4cWszdm5reHZhMTE3a3o4U2pRVGhQNllreWxPN3dqRktZVTBvR2pTZjdPNHNIdFNyTFhidU9pRGtTVjA3SDhVdzNOYWQ4LTJnQzRHb2FUYTV4eVktcV9zN0NDYV9MdXUwNzBvaUxOTGRHWm9MOEd5SHFGMTBPUGxLR0I1cXo3WXJjcURDTDBoYw?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.hindustantimes.com/cities/pune-news/moshi-building-collapse-pcmc-suspends-two-officials-departmental-probes-ordered-101784142012164.html",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Moshi"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-07-16T03:18:07.000Z",
-      "lastUpdated": "2026-07-16T03:18:07.000Z",
-      "sourceCheckedAt": "2026-07-16T15:04:53.770Z",
-      "lastVerifiedAt": "2026-07-16T15:04:53.770Z",
-      "intelligenceGeneratedAt": "2026-07-16T15:04:58.778Z",
-      "expiresAt": "2026-07-16T15:18:07.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
-      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
-      "affectedArea": "",
-      "upstreamId": "",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "flood-developing-pune-news-मोठी-घडामोड-यशवंत-कारखान्याच्या-99-एकर-जमीन-व्यवहाराला-सरकारची-",
-      "eventKind": "incident",
-      "sourceId": "esakal",
-      "title": "Developing: Pune News: मोठी घडामोड! यशवंत कारखान्याच्या 99 एकर जमीन व्यवहाराला सरकारची पुन्हा स्थगिती, खरेदीखत पूर्ण, तरीही ब्रेक",
-      "summary": "Pune Market Yard news: यशवंत साखर कारखान्याच्या 99 एकर जमीन खरेदीला सरकारची पुन्हा स्थगिती; 96.67 कोटींचा व्यवहार अनिश्चिततेत अडकला. Pune Market Yard land deal: Maharashtra govt again halts Yashwant sugar factory’s 99-acre sub-market yard purchase, putting ₹96.67 crore transaction and further payments on hold amid legal, political disputes.",
-      "category": "flood",
-      "severity": "warning",
-      "source": "eSakal Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "eSakal Pune",
-          "trust": "B",
-          "link": "https://www.esakal.com/pune/maharashtra-government-again-stays-99-acre-yashwant-sugar-factory-land-deal-after-cms-directions-sdj87",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.esakal.com/pune/maharashtra-government-again-stays-99-acre-yashwant-sugar-factory-land-deal-after-cms-directions-sdj87",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-07-16T02:50:34.000Z",
-      "lastUpdated": "2026-07-16T02:50:34.000Z",
-      "sourceCheckedAt": "2026-07-16T15:04:53.770Z",
-      "lastVerifiedAt": "2026-07-16T15:04:53.770Z",
-      "intelligenceGeneratedAt": "2026-07-16T15:04:58.778Z",
-      "expiresAt": "2026-07-17T02:50:34.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "",
-      "upstreamId": "5d64ddb88eb1b4b2a45ac821bee935b7",
-      "collectionProvider": "NewsData.io",
-      "discoveryOnly": false,
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "broader_area",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
+  "incidents": [],
   "journeyContext": {
-    "activeRiskEvents": [
-      {
-        "id": "structural-collapse-developing-moshi-building-collapse-pcmc-suspends-two-officials-departm",
-        "category": "structural_collapse",
-        "severity": "warning",
-        "localities": [
-          "Moshi"
-        ],
-        "talukas": [
-          "pcmc"
-        ],
-        "operationalZones": [],
-        "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
-      },
-      {
-        "id": "flood-developing-pune-news-मोठी-घडामोड-यशवंत-कारखान्याच्या-99-एकर-जमीन-व्यवहाराला-सरकारची-",
-        "category": "flood",
-        "severity": "warning",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "This event may affect local awareness or movement."
-      }
-    ]
+    "activeRiskEvents": []
   },
   "expiredEvents": [
     {
@@ -306,9 +178,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-15T20:00:23.000Z",
       "lastUpdated": "2026-07-15T20:00:23.000Z",
-      "sourceCheckedAt": "2026-07-16T15:04:53.770Z",
-      "lastVerifiedAt": "2026-07-16T15:04:53.770Z",
-      "intelligenceGeneratedAt": "2026-07-16T15:04:58.778Z",
+      "sourceCheckedAt": "2026-07-16T16:42:22.901Z",
+      "lastVerifiedAt": "2026-07-16T16:42:22.901Z",
+      "intelligenceGeneratedAt": "2026-07-16T16:42:26.980Z",
       "expiresAt": "2026-07-16T08:00:23.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -328,6 +200,57 @@
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "structural-collapse-developing-moshi-building-collapse-pcmc-suspends-two-officials-departm",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Moshi building collapse: PCMC suspends two officials; departmental probes ordered",
+      "summary": "The civic body had issued show-cause notices to the two officials following the July 8 incident, in which a massive garbage mound collapsed onto the administrative building of the waste-to-energy plant at the Moshi garbage depot.",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/moshi-building-collapse-pcmc-suspends-two-officials-departmental-probes-ordered-101784142012164.html",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/moshi-building-collapse-pcmc-suspends-two-officials-departmental-probes-ordered-101784142012164.html",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Moshi"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-07-16T03:18:07.000Z",
+      "lastUpdated": "2026-07-16T03:18:07.000Z",
+      "sourceCheckedAt": "2026-07-16T16:42:22.901Z",
+      "lastVerifiedAt": "2026-07-16T16:42:22.901Z",
+      "intelligenceGeneratedAt": "2026-07-16T16:42:26.980Z",
+      "expiresAt": "2026-07-16T15:18:07.000Z",
+      "lifecycle": "expired",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
     }
   ],
   "sourceHealth": {
@@ -336,8 +259,8 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-16T15:04:53.770Z",
-      "lastSuccessfulAt": "2026-07-16T15:04:53.770Z",
+      "sourceCheckedAt": "2026-07-16T16:42:22.901Z",
+      "lastSuccessfulAt": "2026-07-16T16:42:22.901Z",
       "error": null
     }
   },
@@ -355,10 +278,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 537.56,
+        "level": 537.53,
         "alertLevel": 547,
         "dangerLevel": 548,
-        "dischargeCumecs": 7.67,
+        "dischargeCumecs": 7.52,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -372,14 +295,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Koregaon Bhima river level is normal.",
-          "updatedAt": "2026-07-16T15:04:58.832Z"
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:30:00+05:30",
+            "observedAt": "2026-07-16T22:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -399,10 +322,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 508.33,
+        "level": 508.31,
         "alertLevel": 515,
         "dangerLevel": 517,
-        "dischargeCumecs": 82.97,
+        "dischargeCumecs": 79.55,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -417,14 +340,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Paragaon river level is normal.",
-          "updatedAt": "2026-07-16T15:04:58.832Z"
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:00:00+05:30",
+            "observedAt": "2026-07-16T22:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -444,10 +367,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 498.2,
+        "level": 498.21,
         "alertLevel": 504,
         "dangerLevel": 505,
-        "dischargeCumecs": 109.3,
+        "dischargeCumecs": 111.57,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -461,14 +384,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Daund river level is normal.",
-          "updatedAt": "2026-07-16T15:04:58.832Z"
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:15:00+05:30",
+            "observedAt": "2026-07-16T21:30:00+05:30",
             "link": "",
             "note": ""
           }
@@ -505,14 +428,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Umbre Kasurdi river level is normal.",
-          "updatedAt": "2026-07-16T15:04:58.832Z"
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:15:00+05:30",
+            "observedAt": "2026-07-16T22:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -552,14 +475,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Dattawadi river level is normal.",
-          "updatedAt": "2026-07-16T15:04:58.832Z"
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:30:00+05:30",
+            "observedAt": "2026-07-16T22:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -579,10 +502,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 533.73,
+        "level": 533.72,
         "alertLevel": 541.5,
         "dangerLevel": 542.5,
-        "dischargeCumecs": 16.71,
+        "dischargeCumecs": 16.58,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -599,14 +522,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Kalyani nagar Bridge river level is normal.",
-          "updatedAt": "2026-07-16T15:04:58.832Z"
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:15:00+05:30",
+            "observedAt": "2026-07-16T22:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -646,14 +569,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Pimple Gurav river level is normal.",
-          "updatedAt": "2026-07-16T15:04:58.832Z"
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:30:00+05:30",
+            "observedAt": "2026-07-16T22:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -687,14 +610,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Veer Dam: 94.97% storage.",
-          "updatedAt": "2026-07-16T15:04:58.832Z"
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:00:00+05:30",
+            "observedAt": "2026-07-16T22:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -710,8 +633,8 @@
         "river": "Nira River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 53.33,
-        "reservoirLevel": 612.74,
+        "storagePercent": 53.25,
+        "reservoirLevel": 612.72,
         "dischargeCumecs": null,
         "rsi": 10,
         "severity": "advisory",
@@ -725,20 +648,20 @@
         "travelSensitivity": "low",
         "timeline": {
           "state": "monitoring",
-          "note": "Bhatghar Dam: 53.33% storage.",
-          "updatedAt": "2026-07-16T15:04:58.832Z"
+          "note": "Bhatghar Dam: 53.25% storage.",
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:00:00+05:30",
+            "observedAt": "2026-07-16T22:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Bhatghar Dam has 53.33% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Bhatghar Dam has 53.25% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -749,8 +672,8 @@
         "river": "Mutha River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 87.25,
-        "reservoirLevel": 581.93,
+        "storagePercent": 86.25,
+        "reservoirLevel": 581.89,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -773,20 +696,20 @@
         "travelSensitivity": "high",
         "timeline": {
           "state": "monitoring",
-          "note": "Khadakwasla Dam: 87.25% storage.",
-          "updatedAt": "2026-07-16T15:04:58.833Z"
+          "note": "Khadakwasla Dam: 86.25% storage.",
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:00:00+05:30",
+            "observedAt": "2026-07-16T22:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Khadakwasla Dam has 87.25% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Khadakwasla Dam has 86.25% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -816,14 +739,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Temghar Dam: 39.97% storage.",
-          "updatedAt": "2026-07-16T15:04:58.833Z"
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:15:00+05:30",
+            "observedAt": "2026-07-16T22:00:00+05:30",
             "link": "",
             "note": ""
           }
@@ -839,8 +762,8 @@
         "river": "Mula River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 70.65,
-        "reservoirLevel": 602.88,
+        "storagePercent": 70.84,
+        "reservoirLevel": 602.91,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -856,20 +779,20 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Mulshi Dam: 70.65% storage.",
-          "updatedAt": "2026-07-16T15:04:58.833Z"
+          "note": "Mulshi Dam: 70.84% storage.",
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:00:00+05:30",
+            "observedAt": "2026-07-16T22:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Mulshi Dam has 70.65% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Mulshi Dam has 70.84% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -880,8 +803,8 @@
         "river": "Pavana River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 76.84,
-        "reservoirLevel": 610.64,
+        "storagePercent": 76.92,
+        "reservoirLevel": 610.65,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -898,25 +821,25 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Pawna Dam: 76.84% storage.",
-          "updatedAt": "2026-07-16T15:04:58.833Z"
+          "note": "Pawna Dam: 76.92% storage.",
+          "updatedAt": "2026-07-16T16:42:27.043Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-16T20:15:00+05:30",
+            "observedAt": "2026-07-16T22:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Pawna Dam has 76.84% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Pawna Dam has 76.92% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       }
     ],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-16T15:04:58.833Z",
+      "generatedAt": "2026-07-16T16:42:27.044Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -929,7 +852,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-16T15:04:58.833Z",
+      "generatedAt": "2026-07-16T16:42:27.044Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -1010,11 +933,9 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-16T15:04:58.833Z",
+      "generatedAt": "2026-07-16T16:42:27.044Z",
       "mode": "on-demand",
-      "relevantDomains": [
-        "bridges"
-      ],
+      "relevantDomains": [],
       "infrastructure": {
         "highways": [
           "Mumbai-Pune Expressway",
@@ -1055,7 +976,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-16T15:04:58.887Z",
+        "generatedAt": "2026-07-16T16:42:27.105Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -1204,7 +1125,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-16T15:04:58.888Z",
+        "generatedAt": "2026-07-16T16:42:27.106Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1301,7 +1222,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-16T15:04:58.888Z",
+        "generatedAt": "2026-07-16T16:42:27.106Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
