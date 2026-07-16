@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-16T00:56:57.025Z",
+  "generatedAt": "2026-07-16T04:14:34.851Z",
   "sourceStatus": "healthy",
   "items": [
     {
@@ -27,13 +27,13 @@
       "operationalZones": [],
       "publishedAt": "2026-07-15T20:00:23.000Z",
       "lastUpdated": "2026-07-15T20:00:23.000Z",
-      "sourceCheckedAt": "2026-07-16T00:56:52.466Z",
-      "lastVerifiedAt": "2026-07-16T00:56:52.466Z",
-      "intelligenceGeneratedAt": "2026-07-16T00:56:57.025Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastVerifiedAt": "2026-07-16T04:14:29.660Z",
+      "intelligenceGeneratedAt": "2026-07-16T04:14:34.851Z",
       "expiresAt": "2026-07-16T08:00:23.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "There may be an immediate risk to life and a wider safety perimeter may be required.",
       "recommendedAction": "Move away from the area and follow emergency-service instructions immediately.",
       "affectedArea": "",
@@ -46,6 +46,63 @@
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "structural-collapse-developing-moshi-building-collapse-pcmc-suspends-two-officials-departm",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Moshi building collapse: PCMC suspends two officials; departmental probes ordered",
+      "summary": "The civic body had issued show-cause notices to the two officials following the July 8 incident, in which a massive garbage mound collapsed onto the administrative building of the waste-to-energy plant at the Moshi garbage depot.",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/moshi-building-collapse-pcmc-suspends-two-officials-departmental-probes-ordered-101784142012164.html",
+          "origin": ""
+        },
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPM2hVdURFZkczeWZyTHNpWVJzWEMxUnJXR2ZRb1VWSUZZR2dFa3BGT0dCQk5LdVphckdMQjZiWWg3ZjhiMkhkRHRXNTlzQUI3WFdCeGJSSGZQTUcyQ2Mwcjl3bGU5V3NDdms4X3k1MkdaUm5ibExzZkVyX3k4WFpOZWFZWkd1cEMxT19EOE95QmRQOUtVOXJEaklOWmY0YnlzZXAxSVVPNHlKV2lCVWpWTGpNNFVhY2xqRWtXeTR5aFZOY3NPSzZ1WkhJZGo0d29nbTNKSnUzcDlaRWJaOWpCRjdn0gHnAUFVX3lxTE5vbkhNMHhJd0tTMERMSmVhcmFIYTZhWXBQQnpPYVN1TnkzeXVMUnRQMFlOd3VYWUNfNjZORVNsMFRQTFNTTWRCeDlkQUczUkcwS0xuQ2ZmOG9IYVdXUUE4cWszdm5reHZhMTE3a3o4U2pRVGhQNllreWxPN3dqRktZVTBvR2pTZjdPNHNIdFNyTFhidU9pRGtTVjA3SDhVdzNOYWQ4LTJnQzRHb2FUYTV4eVktcV9zN0NDYV9MdXUwNzBvaUxOTGRHWm9MOEd5SHFGMTBPUGxLR0I1cXo3WXJjcURDTDBoYw?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/moshi-building-collapse-pcmc-suspends-two-officials-departmental-probes-ordered-101784142012164.html",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Moshi"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-07-16T03:18:07.000Z",
+      "lastUpdated": "2026-07-16T03:18:07.000Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastVerifiedAt": "2026-07-16T04:14:29.660Z",
+      "intelligenceGeneratedAt": "2026-07-16T04:14:34.851Z",
+      "expiresAt": "2026-07-16T15:18:07.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 70,
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false

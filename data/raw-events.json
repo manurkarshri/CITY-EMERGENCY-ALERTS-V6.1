@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-16T00:56:52.466Z",
-  "lastSuccessfulAt": "2026-07-16T00:56:52.466Z",
+  "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+  "lastSuccessfulAt": "2026-07-16T04:14:29.660Z",
   "error": null,
   "optionalErrors": [],
   "sources": [
@@ -11,8 +11,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-16T00:56:52.466Z",
-      "lastSuccessfulAt": "2026-07-16T00:56:52.466Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastSuccessfulAt": "2026-07-16T04:14:29.660Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -21,18 +21,18 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-16T00:56:52.466Z",
-      "lastSuccessfulAt": "2026-07-16T00:56:52.466Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastSuccessfulAt": "2026-07-16T04:14:29.660Z",
       "error": null,
-      "etag": "W/\"9100-1784162800345\"",
+      "etag": "W/\"9043-1784166999772\"",
       "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-16T00:56:52.466Z",
-      "lastSuccessfulAt": "2026-07-16T00:56:52.466Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastSuccessfulAt": "2026-07-16T04:14:29.660Z",
       "error": null,
       "etag": null,
       "itemsCollected": 2
@@ -41,18 +41,18 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-16T00:56:52.466Z",
-      "lastSuccessfulAt": "2026-07-16T00:56:52.466Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastSuccessfulAt": "2026-07-16T04:14:29.660Z",
       "error": null,
       "etag": null,
-      "itemsCollected": 0
+      "itemsCollected": 1
     },
     {
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-16T00:56:52.466Z",
-      "lastSuccessfulAt": "2026-07-16T00:56:52.466Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastSuccessfulAt": "2026-07-16T04:14:29.660Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,8 +61,8 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-16T00:56:52.466Z",
-      "lastSuccessfulAt": "2026-07-16T00:56:52.466Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastSuccessfulAt": "2026-07-16T04:14:29.660Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -71,8 +71,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-16T00:56:52.466Z",
-      "lastSuccessfulAt": "2026-07-16T00:56:52.466Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastSuccessfulAt": "2026-07-16T04:14:29.660Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -81,11 +81,11 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-16T00:56:52.466Z",
-      "lastSuccessfulAt": "2026-07-16T00:56:52.466Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastSuccessfulAt": "2026-07-16T04:14:29.660Z",
       "error": null,
-      "itemsCollected": 0,
-      "itemsQualified": 0
+      "itemsCollected": 1,
+      "itemsQualified": 1
     }
   ],
   "items": [
@@ -100,8 +100,8 @@
       "link": "https://indianexpress.com/article/cities/pune/passport-office-gets-third-hoax-bomb-threat-in-five-months-10788408/",
       "publishedAt": "2026-07-15T20:00:23.000Z",
       "lastUpdated": "2026-07-15T20:00:23.000Z",
-      "sourceCheckedAt": "2026-07-16T00:56:52.466Z",
-      "lastVerifiedAt": "2026-07-16T00:56:52.466Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastVerifiedAt": "2026-07-16T04:14:29.660Z",
       "expiresAt": "2026-07-16T08:00:23.000Z"
     },
     {
@@ -115,9 +115,54 @@
       "link": "https://indianexpress.com/article/cities/pune/pcmc-suspends-two-engineers-moshi-pune-building-collapse-nine-dead-10787577/",
       "publishedAt": "2026-07-15T09:59:52.000Z",
       "lastUpdated": "2026-07-15T09:59:52.000Z",
-      "sourceCheckedAt": "2026-07-16T00:56:52.466Z",
-      "lastVerifiedAt": "2026-07-16T00:56:52.466Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastVerifiedAt": "2026-07-16T04:14:29.660Z",
       "expiresAt": "2026-07-15T21:59:52.000Z"
+    },
+    {
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Moshi building collapse: PCMC suspends two officials; departmental probes ordered",
+      "summary": "The civic body had issued show-cause notices to the two officials following the July 8 incident, in which a massive garbage mound collapsed onto the administrative building of the waste-to-energy plant at the Moshi garbage depot.",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "link": "https://www.hindustantimes.com/cities/pune-news/moshi-building-collapse-pcmc-suspends-two-officials-departmental-probes-ordered-101784142012164.html",
+      "publishedAt": "2026-07-16T03:18:07.000Z",
+      "lastUpdated": "2026-07-16T03:18:07.000Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastVerifiedAt": "2026-07-16T04:14:29.660Z",
+      "expiresAt": "2026-07-16T15:18:07.000Z"
+    },
+    {
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "collectionSourceId": "google_news_discovery",
+      "upstreamId": "google-news-80063e1d",
+      "title": "Developing: Moshi building collapse: PCMC suspends two officials; departmental probes ordered | Hindustan Times",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPM2hVdURFZkczeWZyTHNpWVJzWEMxUnJXR2ZRb1VWSUZZR2dFa3BGT0dCQk5LdVphckdMQjZiWWg3ZjhiMkhkRHRXNTlzQUI3WFdCeGJSSGZQTUcyQ2Mwcjl3bGU5V3NDdms4X3k1MkdaUm5ibExzZkVyX3k4WFpOZWFZWkd1cEMxT19EOE95QmRQOUtVOXJEaklOWmY0YnlzZXAxSVVPNHlKV2lCVWpWTGpNNFVhY2xqRWtXeTR5aFZOY3NPSzZ1WkhJZGo0d29nbTNKSnUzcDlaRWJaOWpCRjdn0gHnAUFVX3lxTE5vbkhNMHhJd0tTMERMSmVhcmFIYTZhWXBQQnpPYVN1TnkzeXVMUnRQMFlOd3VYWUNfNjZORVNsMFRQTFNTTWRCeDlkQUczUkcwS0xuQ2ZmOG9IYVdXUUE4cWszdm5reHZhMTE3a3o4U2pRVGhQNllreWxPN3dqRktZVTBvR2pTZjdPNHNIdFNyTFhidU9pRGtTVjA3SDhVdzNOYWQ4LTJnQzRHb2FUYTV4eVktcV9zN0NDYV9MdXUwNzBvaUxOTGRHWm9MOEd5SHFGMTBPUGxLR0I1cXo3WXJjcURDTDBoYw?oc=5",
+      "sourceOrigin": "",
+      "publishedAt": "2026-07-16T03:18:07.000Z",
+      "discoveredAt": "2026-07-16T04:14:29.660Z",
+      "lastUpdated": "2026-07-16T03:18:07.000Z",
+      "sourceCheckedAt": "2026-07-16T04:14:29.660Z",
+      "lastVerifiedAt": "2026-07-16T04:14:29.660Z",
+      "expiresAt": "2026-07-16T15:18:07.000Z",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "geographicScope": "local",
+      "affectedArea": "Moshi",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Moshi"
+      ]
     }
   ]
 }
