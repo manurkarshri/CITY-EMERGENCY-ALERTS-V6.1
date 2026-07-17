@@ -1,54 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-17T17:18:46.353Z",
+  "generatedAt": "2026-07-17T18:34:50.061Z",
   "sourceStatus": "healthy",
-  "items": [
-    {
-      "id": "heavy-rain-official-moderate-spells-of-rain-with-possibility-of-thunder-lightning-is-very-",
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "title": "Official: Moderate spells of rain with possibility of thunder/ lightning is very likely to occur at isolated places over Nashik, Palghar, Pune, Raigad, Thane in next 3 hours.",
-      "summary": "Moderate spells of rain with possibility of thunder/ lightning is very likely to occur at isolated places over Nashik, Palghar, Pune, Raigad, Thane in next 3 hours.",
-      "category": "heavy_rain",
-      "severity": "warning",
-      "source": "NDMA SACHET (IMD-Mumbai)",
-      "sourceTrust": "A+",
-      "sources": [
-        {
-          "name": "NDMA SACHET (IMD-Mumbai)",
-          "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784307552238029",
-          "origin": ""
-        }
-      ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784307552238029",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-07-17T16:56:32.000Z",
-      "lastUpdated": "2026-07-17T16:56:32.000Z",
-      "sourceCheckedAt": "2026-07-17T17:18:39.438Z",
-      "lastVerifiedAt": "2026-07-17T17:18:39.438Z",
-      "intelligenceGeneratedAt": "2026-07-17T17:18:46.353Z",
-      "expiresAt": "2026-07-17T19:30:00.000Z",
-      "lifecycle": "active",
-      "confidence": "Medium",
-      "confidenceScore": 65,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Nashik, Palghar, Pune, Raigad, Thane districts of Maharashtra",
-      "upstreamId": "IN-1784307552238029_46",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "discoveredAt": null,
-      "capMessageType": "Alert",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ]
+  "items": []
 }
