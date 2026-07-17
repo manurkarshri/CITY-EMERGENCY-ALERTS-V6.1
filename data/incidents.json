@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-17T04:28:13.642Z",
+  "generatedAt": "2026-07-17T06:58:33.074Z",
   "sourceStatus": "healthy",
   "items": [
     {
@@ -31,9 +31,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-17T03:49:43.000Z",
       "lastUpdated": "2026-07-17T03:49:43.000Z",
-      "sourceCheckedAt": "2026-07-17T04:28:08.691Z",
-      "lastVerifiedAt": "2026-07-17T04:28:08.691Z",
-      "intelligenceGeneratedAt": "2026-07-17T04:28:13.642Z",
+      "sourceCheckedAt": "2026-07-17T06:58:28.228Z",
+      "lastVerifiedAt": "2026-07-17T06:58:28.228Z",
+      "intelligenceGeneratedAt": "2026-07-17T06:58:33.074Z",
       "expiresAt": "2026-07-18T03:49:43.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -45,57 +45,6 @@
       "collectionProvider": "",
       "discoveryOnly": false,
       "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-65-year-old-warkari-killed-in-accident-at-baramati-2026-07-16t18-54-00",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: 65-year-old warkari killed in accident at Baramati",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaXdpSUNVUHJrZHdWNmVNam1IVEozRDVfX3RxWDVtTUV3TG9iSlUzWFp2eTAyM1VVMGxfNmZsMjZrVW9GNEcyQnZyS29Sa3hhbS0wd1RNMjYtNkZPaW9mN0VNNFhnLWdVbDU2UGQ1R3F2S1EwTzhXQzV1ZEFjWEx0cXlFNXhJVnNoNzY2OXRTc0JwVl9jZ1FvRWQ3RTEwMkN0RW1td2VpWGpwQVpWT2p3MkhiSGhidmxzRU9ITTdjVdIBxAFBVV95cUxNSnZhRXhBSXd0Um5PQzMtcF9qeDZROEdQWjJ5czdoaEFfOUh6SDRFVzN2Wlh3NW9XcGZwQkNWVjZBZXdxZnF3aDMxUGQwbkExZTNmRmE0ZWtQSXFxSFI5Vmh0VmkyVHpTdURhZDVvblphMnExVi1PSUpUQVJkMlBzSHl1dWh6bEx4MVZWUndzYmp4OXAzTjlONlphMGFkY09fNWNYekZXemFLS3AwamZsQ3pSSjdOcTdPbHBKNF9DY1FCZHoz?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaXdpSUNVUHJrZHdWNmVNam1IVEozRDVfX3RxWDVtTUV3TG9iSlUzWFp2eTAyM1VVMGxfNmZsMjZrVW9GNEcyQnZyS29Sa3hhbS0wd1RNMjYtNkZPaW9mN0VNNFhnLWdVbDU2UGQ1R3F2S1EwTzhXQzV1ZEFjWEx0cXlFNXhJVnNoNzY2OXRTc0JwVl9jZ1FvRWQ3RTEwMkN0RW1td2VpWGpwQVpWT2p3MkhiSGhidmxzRU9ITTdjVdIBxAFBVV95cUxNSnZhRXhBSXd0Um5PQzMtcF9qeDZROEdQWjJ5czdoaEFfOUh6SDRFVzN2Wlh3NW9XcGZwQkNWVjZBZXdxZnF3aDMxUGQwbkExZTNmRmE0ZWtQSXFxSFI5Vmh0VmkyVHpTdURhZDVvblphMnExVi1PSUpUQVJkMlBzSHl1dWh6bEx4MVZWUndzYmp4OXAzTjlONlphMGFkY09fNWNYekZXemFLS3AwamZsQ3pSSjdOcTdPbHBKNF9DY1FCZHoz?oc=5",
-      "talukas": [
-        "baramati"
-      ],
-      "localities": [
-        "Baramati"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-07-16T18:54:00.000Z",
-      "lastUpdated": "2026-07-16T18:54:00.000Z",
-      "sourceCheckedAt": "2026-07-17T04:28:08.691Z",
-      "lastVerifiedAt": "2026-07-17T04:28:08.691Z",
-      "intelligenceGeneratedAt": "2026-07-17T04:28:13.642Z",
-      "expiresAt": "2026-07-17T06:54:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Baramati",
-      "upstreamId": "google-news-b388fc32",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "discoveredAt": "2026-07-17T04:28:08.691Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
