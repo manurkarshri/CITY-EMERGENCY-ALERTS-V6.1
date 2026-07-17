@@ -3,9 +3,9 @@
   "build": {
     "version": "6.1.0-production-user-testing",
     "milestone": "Production User Testing Release",
-    "status": "healthy",
-    "buildTime": "2026-07-17T06:58:33.305Z",
-    "note": "All connected data sources are healthy.",
+    "status": "partial",
+    "buildTime": "2026-07-17T09:17:15.216Z",
+    "note": "The application built successfully, but one or more live data sources are stale, unavailable, or not connected.",
     "alerts": 0,
     "incidents": 1,
     "weatherRegions": 5,
@@ -15,9 +15,9 @@
     "trustedMediaSourcesConfigured": 28,
     "sourceSummary": {
       "total": 11,
-      "healthy": 11,
+      "healthy": 10,
       "stale": 0,
-      "unavailable": 0,
+      "unavailable": 1,
       "unverified": 0
     }
   }
