@@ -1,8 +1,59 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-17T01:12:39.270Z",
+  "generatedAt": "2026-07-17T04:28:13.642Z",
   "sourceStatus": "healthy",
   "items": [
+    {
+      "id": "accident-developing-3-booked-for-3-separate-road-accidents-that-left-3-dead-2026-07-17t03-",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: 3 booked for 3 separate road accidents that left 3 dead",
+      "summary": "Police on Wednesday filed three separate cases against three people for three road accidents that left three people dead, including two senior citizens, in Bibvewadi, Loni Kalbhor and Wadgaon Sheri",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/3-booked-for-3-separate-road-accidents-that-left-3-dead-101784232494122.html",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/3-booked-for-3-separate-road-accidents-that-left-3-dead-101784232494122.html",
+      "talukas": [
+        "loni_kalbhor"
+      ],
+      "localities": [
+        "Loni Kalbhor"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-07-17T03:49:43.000Z",
+      "lastUpdated": "2026-07-17T03:49:43.000Z",
+      "sourceCheckedAt": "2026-07-17T04:28:08.691Z",
+      "lastVerifiedAt": "2026-07-17T04:28:08.691Z",
+      "intelligenceGeneratedAt": "2026-07-17T04:28:13.642Z",
+      "expiresAt": "2026-07-18T03:49:43.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 70,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
     {
       "id": "accident-developing-65-year-old-warkari-killed-in-accident-at-baramati-2026-07-16t18-54-00",
       "eventKind": "incident",
@@ -31,9 +82,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-16T18:54:00.000Z",
       "lastUpdated": "2026-07-16T18:54:00.000Z",
-      "sourceCheckedAt": "2026-07-17T01:12:34.718Z",
-      "lastVerifiedAt": "2026-07-17T01:12:34.718Z",
-      "intelligenceGeneratedAt": "2026-07-17T01:12:39.270Z",
+      "sourceCheckedAt": "2026-07-17T04:28:08.691Z",
+      "lastVerifiedAt": "2026-07-17T04:28:08.691Z",
+      "intelligenceGeneratedAt": "2026-07-17T04:28:13.642Z",
       "expiresAt": "2026-07-17T06:54:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -44,7 +95,7 @@
       "upstreamId": "google-news-b388fc32",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
-      "discoveredAt": "2026-07-17T01:12:34.718Z",
+      "discoveredAt": "2026-07-17T04:28:08.691Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
