@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-17T15:56:42.098Z",
-  "lastSuccessfulAt": "2026-07-17T15:56:42.098Z",
+  "sourceCheckedAt": "2026-07-17T17:18:39.438Z",
+  "lastSuccessfulAt": "2026-07-17T17:18:39.438Z",
   "error": null,
   "optionalErrors": [],
   "sources": [
@@ -11,8 +11,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-17T15:56:42.098Z",
-      "lastSuccessfulAt": "2026-07-17T15:56:42.098Z",
+      "sourceCheckedAt": "2026-07-17T17:18:39.438Z",
+      "lastSuccessfulAt": "2026-07-17T17:18:39.438Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -21,18 +21,18 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-17T15:56:42.098Z",
-      "lastSuccessfulAt": "2026-07-17T15:56:42.098Z",
+      "sourceCheckedAt": "2026-07-17T17:18:39.438Z",
+      "lastSuccessfulAt": "2026-07-17T17:18:39.438Z",
       "error": null,
-      "etag": "W/\"8899-1784297582972\"",
-      "itemsCollected": 0
+      "etag": "W/\"8327-1784307573037\"",
+      "itemsCollected": 1
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-17T15:56:42.098Z",
-      "lastSuccessfulAt": "2026-07-17T15:56:42.098Z",
+      "sourceCheckedAt": "2026-07-17T17:18:39.438Z",
+      "lastSuccessfulAt": "2026-07-17T17:18:39.438Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-17T15:56:42.098Z",
-      "lastSuccessfulAt": "2026-07-17T15:56:42.098Z",
+      "sourceCheckedAt": "2026-07-17T17:18:39.438Z",
+      "lastSuccessfulAt": "2026-07-17T17:18:39.438Z",
       "error": null,
       "etag": null,
       "itemsCollected": 1
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-17T15:56:42.098Z",
-      "lastSuccessfulAt": "2026-07-17T15:56:42.098Z",
+      "sourceCheckedAt": "2026-07-17T17:18:39.438Z",
+      "lastSuccessfulAt": "2026-07-17T17:18:39.438Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,8 +61,8 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-17T15:56:42.098Z",
-      "lastSuccessfulAt": "2026-07-17T15:56:42.098Z",
+      "sourceCheckedAt": "2026-07-17T17:18:39.438Z",
+      "lastSuccessfulAt": "2026-07-17T17:18:39.438Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -71,8 +71,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-17T15:56:42.098Z",
-      "lastSuccessfulAt": "2026-07-17T15:56:42.098Z",
+      "sourceCheckedAt": "2026-07-17T17:18:39.438Z",
+      "lastSuccessfulAt": "2026-07-17T17:18:39.438Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -81,14 +81,37 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-17T15:56:42.098Z",
-      "lastSuccessfulAt": "2026-07-17T15:56:42.098Z",
+      "sourceCheckedAt": "2026-07-17T17:18:39.438Z",
+      "lastSuccessfulAt": "2026-07-17T17:18:39.438Z",
       "error": null,
       "itemsCollected": 0,
       "itemsQualified": 0
     }
   ],
   "items": [
+    {
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "upstreamId": "IN-1784307552238029_46",
+      "title": "Official: Moderate spells of rain with possibility of thunder/ lightning is very likely to occur at isolated places over Nashik, Palghar, Pune, Raigad, Thane in next 3 hours.",
+      "summary": "Moderate spells of rain with possibility of thunder/ lightning is very likely to occur at isolated places over Nashik, Palghar, Pune, Raigad, Thane in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "source": "NDMA SACHET (IMD-Mumbai)",
+      "sourceTrust": "A+",
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784307552238029",
+      "publishedAt": "2026-07-17T16:56:32.000Z",
+      "lastUpdated": "2026-07-17T16:56:32.000Z",
+      "sourceCheckedAt": "2026-07-17T17:18:39.438Z",
+      "lastVerifiedAt": "2026-07-17T17:18:39.438Z",
+      "expiresAt": "2026-07-17T19:30:00.000Z",
+      "recommendedAction": "Please follow SDMA guidelines.",
+      "talukas": [],
+      "localities": [],
+      "affectedArea": "Nashik, Palghar, Pune, Raigad, Thane districts of Maharashtra",
+      "capMessageType": "Alert",
+      "capReferences": ""
+    },
     {
       "sourceId": "hindustan_times_pune",
       "title": "Developing: 3 booked for 3 separate road accidents that left 3 dead",
@@ -100,8 +123,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/3-booked-for-3-separate-road-accidents-that-left-3-dead-101784232494122.html",
       "publishedAt": "2026-07-17T03:49:43.000Z",
       "lastUpdated": "2026-07-17T03:49:43.000Z",
-      "sourceCheckedAt": "2026-07-17T15:56:42.098Z",
-      "lastVerifiedAt": "2026-07-17T15:56:42.098Z",
+      "sourceCheckedAt": "2026-07-17T17:18:39.438Z",
+      "lastVerifiedAt": "2026-07-17T17:18:39.438Z",
       "expiresAt": "2026-07-18T03:49:43.000Z"
     }
   ]
