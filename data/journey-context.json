@@ -1,6 +1,25 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-18T21:54:08.833Z",
+  "generatedAt": "2026-07-18T22:53:49.194Z",
   "routes": [],
-  "risks": []
+  "risks": [
+    {
+      "id": "heavy-rain-official-light-to-moderate-rain-is-very-likely-to-occur-at-isolated-places-over",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "road-closure-developing-भगवान-जगन्नाथ-रथयात्रेनिमित्त-रविवारी-पुणे-शहराच्या-मध्यभागात-वाहत",
+      "category": "road_closure",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Route may be blocked or diverted."
+    }
+  ]
 }

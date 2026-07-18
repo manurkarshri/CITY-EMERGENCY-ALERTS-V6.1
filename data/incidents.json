@@ -1,6 +1,54 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-18T21:54:08.833Z",
+  "generatedAt": "2026-07-18T22:53:49.194Z",
   "sourceStatus": "healthy",
-  "items": []
+  "items": [
+    {
+      "id": "road-closure-developing-भगवान-जगन्नाथ-रथयात्रेनिमित्त-रविवारी-पुणे-शहराच्या-मध्यभागात-वाहत",
+      "eventKind": "incident",
+      "sourceId": "lokmat",
+      "title": "Developing: भगवान जगन्नाथ रथयात्रेनिमित्त रविवारी पुणे शहराच्या मध्यभागात वाहतूक बदल",
+      "summary": "Traffic changes in central Pune city on Sunday on the occasion of Lord Jagannath Rath Yatra - टिळक रस्त्यावरील स. प. महाविद्यालय चौकातून रथयात्रेचा प्रारंभ होणार असून शहराच्या मध्यवर्ती भागात फिरून पुन्हा स. प. महाविद्यालयाजवळ रथयात्रेची सांगता होणार आहे - Latest Marathi News (मराठी बातम्या). Find Breaking Headlines, Current and Latest pune news in Marathi at Lokmat.com",
+      "category": "road_closure",
+      "severity": "warning",
+      "source": "Lokmat Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Lokmat Pune",
+          "trust": "B",
+          "link": "https://www.lokmat.com/pune/traffic-changes-in-central-pune-city-on-sunday-on-the-occasion-of-lord-jagannath-rath-yatra-a-a727/",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.lokmat.com/pune/traffic-changes-in-central-pune-city-on-sunday-on-the-occasion-of-lord-jagannath-rath-yatra-a-a727/",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-18T10:43:41.000Z",
+      "lastUpdated": "2026-07-18T10:43:41.000Z",
+      "sourceCheckedAt": "2026-07-18T22:53:43.905Z",
+      "lastVerifiedAt": "2026-07-18T22:53:43.905Z",
+      "intelligenceGeneratedAt": "2026-07-18T22:53:49.194Z",
+      "expiresAt": "2026-07-19T10:43:41.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "Route may be blocked or diverted.",
+      "recommendedAction": "Use an alternate route and check official updates.",
+      "affectedArea": "",
+      "upstreamId": "70163acb5c3be6021133768b77843e9c",
+      "collectionProvider": "NewsData.io",
+      "discoveryOnly": false,
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
