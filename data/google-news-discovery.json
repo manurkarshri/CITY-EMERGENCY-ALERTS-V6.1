@@ -1,10 +1,25 @@
 {
   "schemaVersion": "6.1.0",
   "provider": "Google News RSS",
-  "sourceCheckedAt": "2026-07-18T00:10:03.677Z",
+  "sourceCheckedAt": "2026-07-18T03:33:27.927Z",
   "status": "healthy",
   "error": null,
-  "items": [],
-  "collectedItems": 0,
-  "qualifiedItems": 0
+  "items": [
+    {
+      "id": "google-news-bf695a3d",
+      "publisherId": "ani",
+      "publisher": "ANI",
+      "title": "Pune: Fire breaks out at paint warehouse in Kondhwa, one injured",
+      "category": "fire",
+      "severity": "warning",
+      "publishedAt": "2026-07-18T00:40:00.000Z",
+      "discoveredAt": "2026-07-18T03:33:27.927Z",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYldTNllFSTB3S1UzbnEwQmtBSzJHSWZ6amRwR0dtcnhmcXg3dEJOTTUycFFteS1GVjdIWTJzUjVKMFU3WUlERjg4Ml9sOUJ0ektfeDBfVWN2TEpyQVFMSVdOdEp0SjVUVHB1Sy1aRDhHZEhKejkyRlphOUdJenYtanptUkQtaVdjdVNfSHNWaFFPWGtlUnpOd20xN1NQU2VucUlvZW83eFV6YWFmdlh6NmdMLTA3cUJVOUMyUGhVcTJRbThH?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "awaiting_direct_article",
+      "verifiedEventIds": []
+    }
+  ],
+  "collectedItems": 1,
+  "qualifiedItems": 1
 }

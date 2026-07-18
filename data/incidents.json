@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-18T00:10:08.028Z",
+  "generatedAt": "2026-07-18T03:33:33.753Z",
   "sourceStatus": "healthy",
   "items": [
     {
@@ -31,9 +31,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-17T03:49:43.000Z",
       "lastUpdated": "2026-07-17T03:49:43.000Z",
-      "sourceCheckedAt": "2026-07-18T00:10:03.677Z",
-      "lastVerifiedAt": "2026-07-18T00:10:03.677Z",
-      "intelligenceGeneratedAt": "2026-07-18T00:10:08.028Z",
+      "sourceCheckedAt": "2026-07-18T03:33:27.927Z",
+      "lastVerifiedAt": "2026-07-18T03:33:27.927Z",
+      "intelligenceGeneratedAt": "2026-07-18T03:33:33.753Z",
       "expiresAt": "2026-07-18T03:49:43.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -45,6 +45,57 @@
       "collectionProvider": "",
       "discoveryOnly": false,
       "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "fire-developing-pune-fire-breaks-out-at-paint-warehouse-in-kondhwa-one-injured-2026-07-18t",
+      "eventKind": "incident",
+      "sourceId": "ani",
+      "title": "Developing: Pune: Fire breaks out at paint warehouse in Kondhwa, one injured",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "fire",
+      "severity": "warning",
+      "source": "ANI",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "ANI",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYldTNllFSTB3S1UzbnEwQmtBSzJHSWZ6amRwR0dtcnhmcXg3dEJOTTUycFFteS1GVjdIWTJzUjVKMFU3WUlERjg4Ml9sOUJ0ektfeDBfVWN2TEpyQVFMSVdOdEp0SjVUVHB1Sy1aRDhHZEhKejkyRlphOUdJenYtanptUkQtaVdjdVNfSHNWaFFPWGtlUnpOd20xN1NQU2VucUlvZW83eFV6YWFmdlh6NmdMLTA3cUJVOUMyUGhVcTJRbThH?oc=5",
+          "origin": "ani"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYldTNllFSTB3S1UzbnEwQmtBSzJHSWZ6amRwR0dtcnhmcXg3dEJOTTUycFFteS1GVjdIWTJzUjVKMFU3WUlERjg4Ml9sOUJ0ektfeDBfVWN2TEpyQVFMSVdOdEp0SjVUVHB1Sy1aRDhHZEhKejkyRlphOUdJenYtanptUkQtaVdjdVNfSHNWaFFPWGtlUnpOd20xN1NQU2VucUlvZW83eFV6YWFmdlh6NmdMLTA3cUJVOUMyUGhVcTJRbThH?oc=5",
+      "talukas": [
+        "pune_city"
+      ],
+      "localities": [
+        "Kondhwa"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-07-18T00:40:00.000Z",
+      "lastUpdated": "2026-07-18T00:40:00.000Z",
+      "sourceCheckedAt": "2026-07-18T03:33:27.927Z",
+      "lastVerifiedAt": "2026-07-18T03:33:27.927Z",
+      "intelligenceGeneratedAt": "2026-07-18T03:33:33.753Z",
+      "expiresAt": "2026-07-18T12:40:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 70,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Kondhwa",
+      "upstreamId": "google-news-bf695a3d",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "discoveredAt": "2026-07-18T03:33:27.927Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
