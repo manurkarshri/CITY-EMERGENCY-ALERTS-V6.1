@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-18T07:56:57.111Z",
+  "generatedAt": "2026-07-18T09:41:09.799Z",
   "sourceStatus": "healthy",
   "items": [
     {
@@ -19,6 +19,12 @@
           "trust": "B",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYldTNllFSTB3S1UzbnEwQmtBSzJHSWZ6amRwR0dtcnhmcXg3dEJOTTUycFFteS1GVjdIWTJzUjVKMFU3WUlERjg4Ml9sOUJ0ektfeDBfVWN2TEpyQVFMSVdOdEp0SjVUVHB1Sy1aRDhHZEhKejkyRlphOUdJenYtanptUkQtaVdjdVNfSHNWaFFPWGtlUnpOd20xN1NQU2VucUlvZW83eFV6YWFmdlh6NmdMLTA3cUJVOUMyUGhVcTJRbThH?oc=5",
           "origin": "ani"
+        },
+        {
+          "name": "Mid-day",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX1B5NmtqQnpXeGtPbUlraC1xb2lya0owRllONmluR1VLYjFIMEJkZUZvWUpKeE9OVVR5T2Z0RnIzZmhJN3lReWE2MHJPMk9iUnJMVTEwNDM2QzZDXzJTZFAwclRrSXJSallQU3RXMkRYRFFHTVZ0bW5TU01oY2k0Z3RKTEtleDVaS21xZ1VYQmF5QXU2cC1SbDBIZTRKYmNJRlhyR3dMN3drT0ZRVGZlXzV0RTkxUDcwR2RUV3RpakZ2d2lDNDVZV2hCaEl3SDJG0gHWAUFVX3lxTE5XOWFXZnNldmV2azFtQmQzaFpMX2lyLVluSFdKajdFcDdKdWlkV3BJcGVZTTRQSDdfTDY2UlBTTmdBZTB4Q3p3XzBWVFo5WFZ3c0Y0UWI0ZEZMQ3E0UDR2S0xoN2MyU3NKeC1BRGRFdFBUa3ZVVnZjS3ZzckZzMzlHQzNwRTZYU2NMc1FFVERDU0ZTT1laSVFPN0FucFZPdFlfX0dLZ0tYTEdJeEE1Sl9GX1NGNWhOeC03d0lWaFFRVHNHcEVtdGJMT0xESmRua1h6UFJOdkE?oc=5",
+          "origin": ""
         }
       ],
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYldTNllFSTB3S1UzbnEwQmtBSzJHSWZ6amRwR0dtcnhmcXg3dEJOTTUycFFteS1GVjdIWTJzUjVKMFU3WUlERjg4Ml9sOUJ0ektfeDBfVWN2TEpyQVFMSVdOdEp0SjVUVHB1Sy1aRDhHZEhKejkyRlphOUdJenYtanptUkQtaVdjdVNfSHNWaFFPWGtlUnpOd20xN1NQU2VucUlvZW83eFV6YWFmdlh6NmdMLTA3cUJVOUMyUGhVcTJRbThH?oc=5",
@@ -31,28 +37,30 @@
       "operationalZones": [],
       "publishedAt": "2026-07-18T00:40:00.000Z",
       "lastUpdated": "2026-07-18T00:40:00.000Z",
-      "sourceCheckedAt": "2026-07-18T07:56:53.012Z",
-      "lastVerifiedAt": "2026-07-18T07:56:53.012Z",
-      "intelligenceGeneratedAt": "2026-07-18T07:56:57.111Z",
+      "sourceCheckedAt": "2026-07-18T09:41:04.425Z",
+      "lastVerifiedAt": "2026-07-18T09:41:04.425Z",
+      "intelligenceGeneratedAt": "2026-07-18T09:41:09.799Z",
       "expiresAt": "2026-07-18T12:40:00.000Z",
       "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
+      "confidence": "High",
+      "confidenceScore": 83,
       "impact": "This event may affect local awareness or movement.",
       "recommendedAction": "Monitor updates and verify through official sources where needed.",
       "affectedArea": "Kondhwa",
       "upstreamId": "google-news-bf695a3d",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
-      "discoveredAt": "2026-07-18T07:56:53.012Z",
+      "discoveredAt": "2026-07-18T09:41:04.425Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
+      "relatedEventIds": [
+        "fire-developing-worker-dies-after-fire-breaks-out-at-storage-unit-in-pune-residential-buil"
+      ],
+      "independentSourceCount": 2,
+      "corroboratedByIndependentSources": true
     }
   ]
 }
