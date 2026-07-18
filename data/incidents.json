@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-18T11:54:50.580Z",
+  "generatedAt": "2026-07-18T13:22:44.075Z",
   "sourceStatus": "healthy",
   "items": [
     {
@@ -8,7 +8,7 @@
       "eventKind": "incident",
       "sourceId": "ani",
       "title": "Developing: Pune: Fire breaks out at paint warehouse in Kondhwa, one injured",
-      "summary": "A current trusted-media report relevant to Pune District.",
+      "summary": "Three fire tenders were rushed to the spot, and firefighting operations are underway.",
       "category": "fire",
       "severity": "warning",
       "source": "ANI",
@@ -17,9 +17,54 @@
         {
           "name": "ANI",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYldTNllFSTB3S1UzbnEwQmtBSzJHSWZ6amRwR0dtcnhmcXg3dEJOTTUycFFteS1GVjdIWTJzUjVKMFU3WUlERjg4Ml9sOUJ0ektfeDBfVWN2TEpyQVFMSVdOdEp0SjVUVHB1Sy1aRDhHZEhKejkyRlphOUdJenYtanptUkQtaVdjdVNfSHNWaFFPWGtlUnpOd20xN1NQU2VucUlvZW83eFV6YWFmdlh6NmdMLTA3cUJVOUMyUGhVcTJRbThH?oc=5",
+          "link": "https://www.aninews.in/news/national/general-news/pune-fire-breaks-out-at-paint-warehouse-in-kondhwa-one-injured20260718061023/",
           "origin": "ani"
-        },
+        }
+      ],
+      "link": "https://www.aninews.in/news/national/general-news/pune-fire-breaks-out-at-paint-warehouse-in-kondhwa-one-injured20260718061023/",
+      "talukas": [
+        "pune_city"
+      ],
+      "localities": [
+        "Kondhwa"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-07-18T00:00:00.000Z",
+      "lastUpdated": "2026-07-18T00:00:00.000Z",
+      "sourceCheckedAt": "2026-07-18T13:22:39.818Z",
+      "lastVerifiedAt": "2026-07-18T13:22:39.818Z",
+      "intelligenceGeneratedAt": "2026-07-18T13:22:44.075Z",
+      "expiresAt": "2026-07-19T00:00:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "",
+      "upstreamId": "14b4ce0cb7e1bc3da1657863dd734446",
+      "collectionProvider": "NewsData.io",
+      "discoveryOnly": false,
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "fire-developing-worker-dies-after-fire-breaks-out-at-storage-unit-in-pune-residential-buil",
+      "eventKind": "incident",
+      "sourceId": "mid_day",
+      "title": "Developing: Worker dies after fire breaks out at storage unit in Pune residential building",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "fire",
+      "severity": "warning",
+      "source": "Mid-day",
+      "sourceTrust": "B",
+      "sources": [
         {
           "name": "Mid-day",
           "trust": "B",
@@ -33,40 +78,34 @@
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYldTNllFSTB3S1UzbnEwQmtBSzJHSWZ6amRwR0dtcnhmcXg3dEJOTTUycFFteS1GVjdIWTJzUjVKMFU3WUlERjg4Ml9sOUJ0ektfeDBfVWN2TEpyQVFMSVdOdEp0SjVUVHB1Sy1aRDhHZEhKejkyRlphOUdJenYtanptUkQtaVdjdVNfSHNWaFFPWGtlUnpOd20xN1NQU2VucUlvZW83eFV6YWFmdlh6NmdMLTA3cUJVOUMyUGhVcTJRbThH?oc=5",
-      "talukas": [
-        "pune_city"
-      ],
-      "localities": [
-        "Kondhwa"
-      ],
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX1B5NmtqQnpXeGtPbUlraC1xb2lya0owRllONmluR1VLYjFIMEJkZUZvWUpKeE9OVVR5T2Z0RnIzZmhJN3lReWE2MHJPMk9iUnJMVTEwNDM2QzZDXzJTZFAwclRrSXJSallQU3RXMkRYRFFHTVZ0bW5TU01oY2k0Z3RKTEtleDVaS21xZ1VYQmF5QXU2cC1SbDBIZTRKYmNJRlhyR3dMN3drT0ZRVGZlXzV0RTkxUDcwR2RUV3RpakZ2d2lDNDVZV2hCaEl3SDJG0gHWAUFVX3lxTE5XOWFXZnNldmV2azFtQmQzaFpMX2lyLVluSFdKajdFcDdKdWlkV3BJcGVZTTRQSDdfTDY2UlBTTmdBZTB4Q3p3XzBWVFo5WFZ3c0Y0UWI0ZEZMQ3E0UDR2S0xoN2MyU3NKeC1BRGRFdFBUa3ZVVnZjS3ZzckZzMzlHQzNwRTZYU2NMc1FFVERDU0ZTT1laSVFPN0FucFZPdFlfX0dLZ0tYTEdJeEE1Sl9GX1NGNWhOeC03d0lWaFFRVHNHcEVtdGJMT0xESmRua1h6UFJOdkE?oc=5",
+      "talukas": [],
+      "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-07-18T00:40:00.000Z",
-      "lastUpdated": "2026-07-18T00:40:00.000Z",
-      "sourceCheckedAt": "2026-07-18T11:54:44.615Z",
-      "lastVerifiedAt": "2026-07-18T11:54:44.615Z",
-      "intelligenceGeneratedAt": "2026-07-18T11:54:50.580Z",
-      "expiresAt": "2026-07-18T12:40:00.000Z",
+      "publishedAt": "2026-07-18T08:23:00.000Z",
+      "lastUpdated": "2026-07-18T08:23:00.000Z",
+      "sourceCheckedAt": "2026-07-18T13:22:39.818Z",
+      "lastVerifiedAt": "2026-07-18T13:22:39.818Z",
+      "intelligenceGeneratedAt": "2026-07-18T13:22:44.075Z",
+      "expiresAt": "2026-07-18T20:23:00.000Z",
       "lifecycle": "developing",
-      "confidence": "High",
-      "confidenceScore": 83,
+      "confidence": "Low",
+      "confidenceScore": 50,
       "impact": "This event may affect local awareness or movement.",
       "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Kondhwa",
-      "upstreamId": "google-news-bf695a3d",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-44f18365",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
-      "discoveredAt": "2026-07-18T11:54:44.615Z",
+      "discoveredAt": "2026-07-18T13:22:39.818Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [
-        "fire-developing-worker-dies-after-fire-breaks-out-at-storage-unit-in-pune-residential-buil"
-      ],
-      "independentSourceCount": 2,
-      "corroboratedByIndependentSources": true
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
     }
   ]
 }
