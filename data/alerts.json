@@ -1,6 +1,54 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-18T03:33:33.753Z",
+  "generatedAt": "2026-07-18T05:52:31.625Z",
   "sourceStatus": "healthy",
-  "items": []
+  "items": [
+    {
+      "id": "heavy-rain-official-thunderstorm-accompanied-with-lightning-and-moderate-spells-of-rain-wi",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Thunderstorm accompanied with lightning and Moderate spells of rain with gusty winds reaching 30-40 kmph very likely to occur at isolated places over Palghar, Pune, Raigad in next 3 hours.",
+      "summary": "Thunderstorm accompanied with lightning and Moderate spells of rain with gusty winds reaching 30-40 kmph very likely to occur at isolated places over Palghar, Pune, Raigad in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "source": "NDMA SACHET (Maharashtra-SDMA)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (Maharashtra-SDMA)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784349698065029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784349698065029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-18T04:44:28.000Z",
+      "lastUpdated": "2026-07-18T04:44:28.000Z",
+      "sourceCheckedAt": "2026-07-18T05:52:25.961Z",
+      "lastVerifiedAt": "2026-07-18T05:52:25.961Z",
+      "intelligenceGeneratedAt": "2026-07-18T05:52:31.625Z",
+      "expiresAt": "2026-07-18T07:37:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Palghar,Pune,Raigad districts of Maharashtra",
+      "upstreamId": "IN-1784349698065029_29",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "discoveredAt": null,
+      "capMessageType": "Update",
+      "capReferences": "IMD-Mumbai,IN-1784349698065029_46,2026-07-18T10:10:02+05:30",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
