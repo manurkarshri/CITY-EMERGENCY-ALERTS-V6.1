@@ -1,6 +1,54 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-19T12:38:58.262Z",
+  "generatedAt": "2026-07-19T14:13:19.442Z",
   "sourceStatus": "healthy",
-  "items": []
+  "items": [
+    {
+      "id": "flood-developing-weather-news-maharashtra-कमी-दाब-क्षेत्राचा-हवामानावर-परिणाम-४८-तासांत-पा",
+      "eventKind": "alert",
+      "sourceId": "esakal",
+      "title": "Developing: Weather News Maharashtra : कमी दाब क्षेत्राचा हवामानावर परिणाम ४८ तासांत पाऊस वाढणार; पुणे, ठाणे, कोल्हापूर, सातारासह अनेक जिल्ह्यांना अलर्ट",
+      "summary": "IMD Rain Forecast : महाराष्ट्रात कमी दाब क्षेत्राचा प्रभाव वाढत असून पुढील ४८ तासांत अनेक भागांत जोरदार ते मुसळधार पावसाचा अंदाज आहे. पुणे, ठाणे, कोल्हापूर, सातारासह अनेक जिल्ह्यांना IMDचा अलर्ट जारी.",
+      "category": "flood",
+      "severity": "warning",
+      "source": "eSakal Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "eSakal Pune",
+          "trust": "B",
+          "link": "https://www.esakal.com/desh/maharashtra-rain-alert-low-pressure-area-to-intensify-rain-in-48-hours-pune-thane-kolhapur-satara-on-alert-srs92",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.esakal.com/desh/maharashtra-rain-alert-low-pressure-area-to-intensify-rain-in-48-hours-pune-thane-kolhapur-satara-on-alert-srs92",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-19T01:55:35.000Z",
+      "lastUpdated": "2026-07-19T01:55:35.000Z",
+      "sourceCheckedAt": "2026-07-19T14:13:14.616Z",
+      "lastVerifiedAt": "2026-07-19T14:13:14.616Z",
+      "intelligenceGeneratedAt": "2026-07-19T14:13:19.442Z",
+      "expiresAt": "2026-07-20T01:55:35.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "",
+      "upstreamId": "c0501c836d22116808237e7f99f51eab",
+      "collectionProvider": "NewsData.io",
+      "discoveryOnly": false,
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
