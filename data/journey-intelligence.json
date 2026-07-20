@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-20T18:54:40.344Z",
+  "generatedAt": "2026-07-20T20:23:41.364Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-20T18:54:40.344Z",
+      "generatedAt": "2026-07-20T20:23:41.363Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -127,14 +127,21 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 45,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 20,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
+              "Developing: Pune News: पुणेकरांना मोठा दिलासा! शिवाजीनगरची वाहतूक कोंडी फोडणार; ७३.५२ कोटींच्या उड्डाणपुलाला मंजुरी, दीड वर्षांत काम पूर्ण may cause delays or safety concerns.",
               "dam_release may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
+              {
+                "eventId": "flood-developing-pune-news-पुणेकरांना-मोठा-दिलासा-शिवाजीनगरची-वाहतूक-कोंडी-फोडणार-७३-५२-को",
+                "category": "flood",
+                "penalty": 25,
+                "title": "Developing: Pune News: पुणेकरांना मोठा दिलासा! शिवाजीनगरची वाहतूक कोंडी फोडणार; ७३.५२ कोटींच्या उड्डाणपुलाला मंजुरी, दीड वर्षांत काम पूर्ण"
+              },
               {
                 "eventId": "rtdas-river-kalyani-nagar-bridge",
                 "category": "dam_release",
@@ -143,12 +150,12 @@
               }
             ]
           },
-          "estimatedTimeMin": 90,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (45/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: dam_release may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (20/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Pune News: पुणेकरांना मोठा दिलासा! शिवाजीनगरची वाहतूक कोंडी फोडणार; ७३.५२ कोटींच्या उड्डाणपुलाला मंजुरी, दीड वर्षांत काम पूर्ण may cause delays or safety concerns."
         }
       ]
     },
@@ -157,7 +164,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-20T18:54:40.344Z",
+      "generatedAt": "2026-07-20T20:23:41.364Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -254,7 +261,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-20T18:54:40.344Z",
+      "generatedAt": "2026-07-20T20:23:41.364Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
