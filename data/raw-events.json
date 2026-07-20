@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-20T20:23:36.106Z",
-  "lastSuccessfulAt": "2026-07-20T20:23:36.106Z",
+  "sourceCheckedAt": "2026-07-20T21:44:00.347Z",
+  "lastSuccessfulAt": "2026-07-20T21:44:00.347Z",
   "error": null,
   "optionalErrors": [],
   "sources": [
@@ -11,8 +11,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T20:23:36.106Z",
-      "lastSuccessfulAt": "2026-07-20T20:23:36.106Z",
+      "sourceCheckedAt": "2026-07-20T21:44:00.347Z",
+      "lastSuccessfulAt": "2026-07-20T21:44:00.347Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -21,8 +21,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T20:23:36.106Z",
-      "lastSuccessfulAt": "2026-07-20T20:23:36.106Z",
+      "sourceCheckedAt": "2026-07-20T21:44:00.347Z",
+      "lastSuccessfulAt": "2026-07-20T21:44:00.347Z",
       "error": null,
       "etag": "W/\"8777-1784578169486\"",
       "itemsCollected": 0
@@ -31,8 +31,8 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T20:23:36.106Z",
-      "lastSuccessfulAt": "2026-07-20T20:23:36.106Z",
+      "sourceCheckedAt": "2026-07-20T21:44:00.347Z",
+      "lastSuccessfulAt": "2026-07-20T21:44:00.347Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T20:23:36.106Z",
-      "lastSuccessfulAt": "2026-07-20T20:23:36.106Z",
+      "sourceCheckedAt": "2026-07-20T21:44:00.347Z",
+      "lastSuccessfulAt": "2026-07-20T21:44:00.347Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T20:23:36.106Z",
-      "lastSuccessfulAt": "2026-07-20T20:23:36.106Z",
+      "sourceCheckedAt": "2026-07-20T21:44:00.347Z",
+      "lastSuccessfulAt": "2026-07-20T21:44:00.347Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,8 +61,8 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T20:23:36.106Z",
-      "lastSuccessfulAt": "2026-07-20T20:23:36.106Z",
+      "sourceCheckedAt": "2026-07-20T21:44:00.347Z",
+      "lastSuccessfulAt": "2026-07-20T21:44:00.347Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -71,42 +71,22 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T20:23:36.106Z",
-      "lastSuccessfulAt": "2026-07-20T20:23:36.106Z",
+      "sourceCheckedAt": "2026-07-20T21:44:00.347Z",
+      "lastSuccessfulAt": "2026-07-20T21:44:00.347Z",
       "error": null,
       "etag": null,
-      "itemsCollected": 1
+      "itemsCollected": 0
     },
     {
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T20:23:36.106Z",
-      "lastSuccessfulAt": "2026-07-20T20:23:36.106Z",
+      "sourceCheckedAt": "2026-07-20T21:44:00.347Z",
+      "lastSuccessfulAt": "2026-07-20T21:44:00.347Z",
       "error": null,
       "itemsCollected": 0,
       "itemsQualified": 0
     }
   ],
-  "items": [
-    {
-      "sourceId": "esakal",
-      "collectionSourceId": "newsdata_io",
-      "upstreamId": "423adaeaf44f547f8908875e93214931",
-      "title": "Developing: Pune News: पुणेकरांना मोठा दिलासा! शिवाजीनगरची वाहतूक कोंडी फोडणार; ७३.५२ कोटींच्या उड्डाणपुलाला मंजुरी, दीड वर्षांत काम पूर्ण",
-      "summary": "Pune Shivajinagar news: शिवाजीनगर वाहतूक कोंडीवर मोठा तोडगा; साखर संकुल ते जुना पुणे-मुंबई रस्ता ७३.५२ कोटींच्या उड्डाणपुलाला मंजुरी, दीड वर्षांत काम पूर्ण होणार. Pune Shivajinagar traffic update: PMC clears ₹73.52 crore flyover and grade separator from Sakhar Sankul to old Pune-Mumbai road, project to be completed in 1.5 years to ease chronic congestion",
-      "category": "flood",
-      "severity": "warning",
-      "source": "eSakal Pune",
-      "sourceTrust": "B",
-      "link": "https://www.esakal.com/pune/pune-infrastructure-boost-shivajinagar-flyover-approved-work-to-be-completed-in-18-months-sdj87",
-      "publishedAt": "2026-07-20T08:03:42.000Z",
-      "lastUpdated": "2026-07-20T08:03:42.000Z",
-      "sourceCheckedAt": "2026-07-20T20:23:36.106Z",
-      "lastVerifiedAt": "2026-07-20T20:23:36.106Z",
-      "expiresAt": "2026-07-21T08:03:42.000Z",
-      "collectionProvider": "NewsData.io",
-      "sourceOrigin": ""
-    }
-  ]
+  "items": []
 }
