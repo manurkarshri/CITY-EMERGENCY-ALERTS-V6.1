@@ -1,6 +1,54 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-20T22:41:32.346Z",
+  "generatedAt": "2026-07-20T23:42:10.409Z",
   "sourceStatus": "healthy",
-  "items": []
+  "items": [
+    {
+      "id": "heavy-rain-official-light-to-moderate-rain-is-very-likely-to-occur-at-isolated-places-over",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Light to moderate Rain is very likely to occur at isolated places over Beed, Dharashiv, Hingoli, Jalna, Latur, Mumbai, Mumbai Suburban, Nanded, Nashik, Palghar, Parbhani, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours.",
+      "summary": "Light to moderate Rain is very likely to occur at isolated places over Beed, Dharashiv, Hingoli, Jalna, Latur, Mumbai, Mumbai Suburban, Nanded, Nashik, Palghar, Parbhani, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "source": "NDMA SACHET (IMD-Mumbai)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (IMD-Mumbai)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784588737389029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784588737389029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-20T23:03:48.000Z",
+      "lastUpdated": "2026-07-20T23:03:48.000Z",
+      "sourceCheckedAt": "2026-07-20T23:42:04.763Z",
+      "lastVerifiedAt": "2026-07-20T23:42:04.763Z",
+      "intelligenceGeneratedAt": "2026-07-20T23:42:10.409Z",
+      "expiresAt": "2026-07-21T02:03:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Beed, Dharashiv, Hingoli, Jalna, Latur, Mumbai, Mumbai Suburban, Nanded, Nashik, Palghar, Parbhani, Pune, Raigad, Ratnagiri, Satara, Thane districts of Maharashtra",
+      "upstreamId": "IN-1784588737389029_46",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "discoveredAt": null,
+      "capMessageType": "Alert",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }

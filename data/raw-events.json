@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-20T22:41:28.164Z",
-  "lastSuccessfulAt": "2026-07-20T22:41:28.164Z",
+  "sourceCheckedAt": "2026-07-20T23:42:04.763Z",
+  "lastSuccessfulAt": "2026-07-20T23:42:04.763Z",
   "error": null,
   "optionalErrors": [],
   "sources": [
@@ -11,8 +11,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T22:41:28.164Z",
-      "lastSuccessfulAt": "2026-07-20T22:41:28.164Z",
+      "sourceCheckedAt": "2026-07-20T23:42:04.763Z",
+      "lastSuccessfulAt": "2026-07-20T23:42:04.763Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -21,18 +21,18 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T22:41:28.164Z",
-      "lastSuccessfulAt": "2026-07-20T22:41:28.164Z",
+      "sourceCheckedAt": "2026-07-20T23:42:04.763Z",
+      "lastSuccessfulAt": "2026-07-20T23:42:04.763Z",
       "error": null,
-      "etag": "W/\"8777-1784578169486\"",
-      "itemsCollected": 0
+      "etag": "W/\"8652-1784590535380\"",
+      "itemsCollected": 1
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T22:41:28.164Z",
-      "lastSuccessfulAt": "2026-07-20T22:41:28.164Z",
+      "sourceCheckedAt": "2026-07-20T23:42:04.763Z",
+      "lastSuccessfulAt": "2026-07-20T23:42:04.763Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T22:41:28.164Z",
-      "lastSuccessfulAt": "2026-07-20T22:41:28.164Z",
+      "sourceCheckedAt": "2026-07-20T23:42:04.763Z",
+      "lastSuccessfulAt": "2026-07-20T23:42:04.763Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T22:41:28.164Z",
-      "lastSuccessfulAt": "2026-07-20T22:41:28.164Z",
+      "sourceCheckedAt": "2026-07-20T23:42:04.763Z",
+      "lastSuccessfulAt": "2026-07-20T23:42:04.763Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,8 +61,8 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T22:41:28.164Z",
-      "lastSuccessfulAt": "2026-07-20T22:41:28.164Z",
+      "sourceCheckedAt": "2026-07-20T23:42:04.763Z",
+      "lastSuccessfulAt": "2026-07-20T23:42:04.763Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -71,8 +71,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T22:41:28.164Z",
-      "lastSuccessfulAt": "2026-07-20T22:41:28.164Z",
+      "sourceCheckedAt": "2026-07-20T23:42:04.763Z",
+      "lastSuccessfulAt": "2026-07-20T23:42:04.763Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -81,12 +81,36 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T22:41:28.164Z",
-      "lastSuccessfulAt": "2026-07-20T22:41:28.164Z",
+      "sourceCheckedAt": "2026-07-20T23:42:04.763Z",
+      "lastSuccessfulAt": "2026-07-20T23:42:04.763Z",
       "error": null,
       "itemsCollected": 0,
       "itemsQualified": 0
     }
   ],
-  "items": []
+  "items": [
+    {
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "upstreamId": "IN-1784588737389029_46",
+      "title": "Official: Light to moderate Rain is very likely to occur at isolated places over Beed, Dharashiv, Hingoli, Jalna, Latur, Mumbai, Mumbai Suburban, Nanded, Nashik, Palghar, Parbhani, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours.",
+      "summary": "Light to moderate Rain is very likely to occur at isolated places over Beed, Dharashiv, Hingoli, Jalna, Latur, Mumbai, Mumbai Suburban, Nanded, Nashik, Palghar, Parbhani, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "source": "NDMA SACHET (IMD-Mumbai)",
+      "sourceTrust": "A+",
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784588737389029",
+      "publishedAt": "2026-07-20T23:03:48.000Z",
+      "lastUpdated": "2026-07-20T23:03:48.000Z",
+      "sourceCheckedAt": "2026-07-20T23:42:04.763Z",
+      "lastVerifiedAt": "2026-07-20T23:42:04.763Z",
+      "expiresAt": "2026-07-21T02:03:00.000Z",
+      "recommendedAction": "Please follow SDMA guidelines.",
+      "talukas": [],
+      "localities": [],
+      "affectedArea": "Beed, Dharashiv, Hingoli, Jalna, Latur, Mumbai, Mumbai Suburban, Nanded, Nashik, Palghar, Parbhani, Pune, Raigad, Ratnagiri, Satara, Thane districts of Maharashtra",
+      "capMessageType": "Alert",
+      "capReferences": ""
+    }
+  ]
 }
