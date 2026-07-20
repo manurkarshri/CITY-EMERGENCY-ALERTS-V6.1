@@ -2,17 +2,19 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-20T04:06:01.459Z",
-  "lastSuccessfulAt": "2026-07-20T04:06:01.459Z",
+  "sourceCheckedAt": "2026-07-20T07:30:30.129Z",
+  "lastSuccessfulAt": "2026-07-20T07:30:30.129Z",
   "error": null,
-  "optionalErrors": [],
+  "optionalErrors": [
+    "free_news_api: This operation was aborted"
+  ],
   "sources": [
     {
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T04:06:01.459Z",
-      "lastSuccessfulAt": "2026-07-20T04:06:01.459Z",
+      "sourceCheckedAt": "2026-07-20T07:30:30.129Z",
+      "lastSuccessfulAt": "2026-07-20T07:30:30.129Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -21,18 +23,18 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T04:06:01.459Z",
-      "lastSuccessfulAt": "2026-07-20T04:06:01.459Z",
+      "sourceCheckedAt": "2026-07-20T07:30:30.129Z",
+      "lastSuccessfulAt": "2026-07-20T07:30:30.129Z",
       "error": null,
-      "etag": "W/\"8928-1784479927692\"",
+      "etag": "W/\"9174-1784524866145\"",
       "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T04:06:01.459Z",
-      "lastSuccessfulAt": "2026-07-20T04:06:01.459Z",
+      "sourceCheckedAt": "2026-07-20T07:30:30.129Z",
+      "lastSuccessfulAt": "2026-07-20T07:30:30.129Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -41,8 +43,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T04:06:01.459Z",
-      "lastSuccessfulAt": "2026-07-20T04:06:01.459Z",
+      "sourceCheckedAt": "2026-07-20T07:30:30.129Z",
+      "lastSuccessfulAt": "2026-07-20T07:30:30.129Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -51,8 +53,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T04:06:01.459Z",
-      "lastSuccessfulAt": "2026-07-20T04:06:01.459Z",
+      "sourceCheckedAt": "2026-07-20T07:30:30.129Z",
+      "lastSuccessfulAt": "2026-07-20T07:30:30.129Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -60,19 +62,17 @@
     {
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
-      "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T04:06:01.459Z",
+      "status": "unavailable",
+      "sourceCheckedAt": "2026-07-20T07:30:30.129Z",
       "lastSuccessfulAt": "2026-07-20T04:06:01.459Z",
-      "error": null,
-      "etag": null,
-      "itemsCollected": 0
+      "error": "This operation was aborted"
     },
     {
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T04:06:01.459Z",
-      "lastSuccessfulAt": "2026-07-20T04:06:01.459Z",
+      "sourceCheckedAt": "2026-07-20T07:30:30.129Z",
+      "lastSuccessfulAt": "2026-07-20T07:30:30.129Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -80,10 +80,10 @@
     {
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
-      "status": "healthy",
-      "sourceCheckedAt": "2026-07-20T04:06:01.459Z",
-      "lastSuccessfulAt": "2026-07-20T04:06:01.459Z",
-      "error": null,
+      "status": "unavailable",
+      "sourceCheckedAt": "2026-07-20T07:30:30.129Z",
+      "lastSuccessfulAt": null,
+      "error": "Google News RSS request failed with HTTP 503",
       "itemsCollected": 0,
       "itemsQualified": 0
     }
