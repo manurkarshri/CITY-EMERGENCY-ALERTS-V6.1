@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-22T06:31:54.383Z",
+  "generatedAt": "2026-07-22T09:16:07.102Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-22T06:31:54.382Z",
+      "generatedAt": "2026-07-22T09:16:07.102Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -41,7 +41,7 @@
           "label": "Consider Delaying",
           "recommendation": "Consider delaying or checking alternate routes.",
           "reasons": [
-            "Moderate rainfall may slow travel.",
+            "Strong winds may affect road safety.",
             "Low visibility may make driving unsafe."
           ],
           "penalties": []
@@ -51,7 +51,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Strong winds may affect road safety."
       },
       "routes": [
         {
@@ -86,7 +86,7 @@
             "label": "Consider Delaying",
             "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
-              "Moderate rainfall may slow travel.",
+              "Strong winds may affect road safety.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": []
@@ -96,7 +96,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Strong winds may affect road safety."
         },
         {
           "id": "kharadi-hinjawadi-nh48",
@@ -134,7 +134,7 @@
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "dam_release may cause delays or safety concerns.",
-              "Moderate rainfall may slow travel.",
+              "Strong winds may affect road safety.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
@@ -160,7 +160,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-22T06:31:54.383Z",
+      "generatedAt": "2026-07-22T09:16:07.102Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -194,7 +194,7 @@
           "label": "Consider Delaying",
           "recommendation": "Consider delaying or checking alternate routes.",
           "reasons": [
-            "Moderate rainfall may slow travel.",
+            "Strong winds may affect road safety.",
             "Low visibility may make driving unsafe."
           ],
           "penalties": []
@@ -204,7 +204,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Strong winds may affect road safety."
       },
       "routes": [
         {
@@ -240,7 +240,7 @@
             "label": "Consider Delaying",
             "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
-              "Moderate rainfall may slow travel.",
+              "Strong winds may affect road safety.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": []
@@ -250,7 +250,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Strong winds may affect road safety."
         }
       ]
     },
@@ -259,7 +259,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-22T06:31:54.383Z",
+      "generatedAt": "2026-07-22T09:16:07.102Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -292,13 +292,19 @@
           "label": "Avoid if Possible",
           "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
+            "Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash may cause delays or safety concerns.",
             "dam_release may cause delays or safety concerns.",
             "Veer Dam may cause delays or safety concerns.",
             "Bhatghar Dam may cause delays or safety concerns.",
-            "Khadakwasla Dam may cause delays or safety concerns.",
-            "Temghar Dam may cause delays or safety concerns."
+            "Khadakwasla Dam may cause delays or safety concerns."
           ],
           "penalties": [
+            {
+              "eventId": "accident-developing-udupi-police-arrest-pune-lorry-driver-absconding-since-2002-fatal-cras",
+              "category": "accident",
+              "penalty": 20,
+              "title": "Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash"
+            },
             {
               "eventId": "rtdas-river-koregaon-bhima",
               "category": "dam_release",
@@ -384,7 +390,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: dam_release may cause delays or safety concerns."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -419,13 +425,19 @@
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
+              "Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash may cause delays or safety concerns.",
               "dam_release may cause delays or safety concerns.",
               "Veer Dam may cause delays or safety concerns.",
               "Bhatghar Dam may cause delays or safety concerns.",
-              "Khadakwasla Dam may cause delays or safety concerns.",
-              "Temghar Dam may cause delays or safety concerns."
+              "Khadakwasla Dam may cause delays or safety concerns."
             ],
             "penalties": [
+              {
+                "eventId": "accident-developing-udupi-police-arrest-pune-lorry-driver-absconding-since-2002-fatal-cras",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash"
+              },
               {
                 "eventId": "rtdas-river-koregaon-bhima",
                 "category": "dam_release",
@@ -511,7 +523,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: dam_release may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash may cause delays or safety concerns."
         }
       ]
     }
