@@ -1,6 +1,54 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-22T16:56:43.399Z",
+  "generatedAt": "2026-07-22T18:14:33.966Z",
   "sourceStatus": "healthy",
-  "items": []
+  "items": [
+    {
+      "id": "heavy-rain-official-moderate-rain-is-very-likely-to-occur-at-isolated-places-over-nashik-p",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Moderate Rain is very likely to occur at isolated places over Nashik, Pune in next 3 hours.",
+      "summary": "Moderate Rain is very likely to occur at isolated places over Nashik, Pune in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "source": "NDMA SACHET (Maharashtra-SDMA)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (Maharashtra-SDMA)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784739714044029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784739714044029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-22T17:06:33.000Z",
+      "lastUpdated": "2026-07-22T17:06:33.000Z",
+      "sourceCheckedAt": "2026-07-22T18:14:28.499Z",
+      "lastVerifiedAt": "2026-07-22T18:14:28.499Z",
+      "intelligenceGeneratedAt": "2026-07-22T18:14:33.966Z",
+      "expiresAt": "2026-07-22T19:30:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Nashik,Pune districts of Maharashtra",
+      "upstreamId": "IN-1784739714044029_29",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "discoveredAt": null,
+      "capMessageType": "Update",
+      "capReferences": "IMD-Mumbai,IN-1784739714044029_46,2026-07-22T22:30:58+05:30",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
