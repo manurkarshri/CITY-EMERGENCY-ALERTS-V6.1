@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-22T22:17:35.096Z",
+  "generatedAt": "2026-07-22T23:30:46.435Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-22T22:17:35.096Z",
+      "generatedAt": "2026-07-22T23:30:46.435Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -160,7 +160,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-22T22:17:35.096Z",
+      "generatedAt": "2026-07-22T23:30:46.435Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -259,7 +259,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-22T22:17:35.096Z",
+      "generatedAt": "2026-07-22T23:30:46.435Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -296,7 +296,7 @@
             "Veer Dam may cause delays or safety concerns.",
             "Bhatghar Dam may cause delays or safety concerns.",
             "Khadakwasla Dam may cause delays or safety concerns.",
-            "Temghar Dam may cause delays or safety concerns."
+            "Mulshi Dam may cause delays or safety concerns."
           ],
           "penalties": [
             {
@@ -360,12 +360,6 @@
               "title": "Khadakwasla Dam"
             },
             {
-              "eventId": "rtdas-reservoir-temghar",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Temghar Dam"
-            },
-            {
               "eventId": "rtdas-reservoir-mulshi",
               "category": "dam_release",
               "penalty": 25,
@@ -423,7 +417,7 @@
               "Veer Dam may cause delays or safety concerns.",
               "Bhatghar Dam may cause delays or safety concerns.",
               "Khadakwasla Dam may cause delays or safety concerns.",
-              "Temghar Dam may cause delays or safety concerns."
+              "Mulshi Dam may cause delays or safety concerns."
             ],
             "penalties": [
               {
@@ -485,12 +479,6 @@
                 "category": "dam_release",
                 "penalty": 25,
                 "title": "Khadakwasla Dam"
-              },
-              {
-                "eventId": "rtdas-reservoir-temghar",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Temghar Dam"
               },
               {
                 "eventId": "rtdas-reservoir-mulshi",
