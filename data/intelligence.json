@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-22T19:48:35.730Z",
+  "generatedAt": "2026-07-22T21:12:36.125Z",
   "status": "current",
   "situation": {
-    "snapshot": "1 active transport-related event(s) may affect travel.",
+    "snapshot": "No major environmental disruption indicated from current data.",
     "weather": {
-      "generatedAt": "2026-07-22T19:48:35.800Z",
+      "generatedAt": "2026-07-22T21:12:36.184Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,17 +13,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-22T19:48:29.737Z",
-          "observedAt": "2026-07-23T01:15:00+05:30",
-          "temp": 22.4,
-          "currentRain": 0,
-          "rain6h": 2.8,
+          "sourceCheckedAt": "2026-07-22T21:12:29.474Z",
+          "observedAt": "2026-07-23T02:30:00+05:30",
+          "temp": 22.1,
+          "currentRain": 0.1,
+          "rain6h": 3.4,
           "precipitationProbability": 100,
-          "wind": 56.5,
-          "gust": 56.5,
-          "humidity": 87,
-          "visibility": 4.1,
-          "weatherCode": 3,
+          "wind": 54.4,
+          "gust": 54.4,
+          "humidity": 88,
+          "visibility": 3.8,
+          "weatherCode": 51,
           "rainRisk": "Minimal",
           "windRisk": "Medium",
           "visibilityRisk": "Low",
@@ -39,15 +39,15 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-22T19:48:29.737Z",
-          "observedAt": "2026-07-23T01:15:00+05:30",
-          "temp": 22.1,
+          "sourceCheckedAt": "2026-07-22T21:12:29.474Z",
+          "observedAt": "2026-07-23T02:30:00+05:30",
+          "temp": 21.7,
           "currentRain": 0.1,
-          "rain6h": 4,
+          "rain6h": 4.3,
           "precipitationProbability": 100,
-          "wind": 52.6,
-          "gust": 52.6,
-          "humidity": 91,
+          "wind": 48.2,
+          "gust": 48.2,
+          "humidity": 93,
           "visibility": 3.8,
           "weatherCode": 51,
           "rainRisk": "Minimal",
@@ -65,17 +65,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-22T19:48:29.737Z",
-          "observedAt": "2026-07-23T01:15:00+05:30",
-          "temp": 22.4,
-          "currentRain": 0,
-          "rain6h": 2.8,
+          "sourceCheckedAt": "2026-07-22T21:12:29.474Z",
+          "observedAt": "2026-07-23T02:30:00+05:30",
+          "temp": 22.1,
+          "currentRain": 0.1,
+          "rain6h": 3.4,
           "precipitationProbability": 100,
-          "wind": 56.5,
-          "gust": 56.5,
-          "humidity": 87,
-          "visibility": 4.1,
-          "weatherCode": 3,
+          "wind": 54.4,
+          "gust": 54.4,
+          "humidity": 88,
+          "visibility": 3.8,
+          "weatherCode": 51,
           "rainRisk": "Minimal",
           "windRisk": "Medium",
           "visibilityRisk": "Low",
@@ -91,23 +91,24 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-22T19:48:29.737Z",
-          "observedAt": "2026-07-23T01:15:00+05:30",
-          "temp": 21.3,
+          "sourceCheckedAt": "2026-07-22T21:12:29.474Z",
+          "observedAt": "2026-07-23T02:30:00+05:30",
+          "temp": 21.2,
           "currentRain": 0.5,
-          "rain6h": 12.4,
+          "rain6h": 12.5,
           "precipitationProbability": 100,
-          "wind": 59.8,
-          "gust": 59.8,
+          "wind": 62.3,
+          "gust": 62.3,
           "humidity": 100,
           "visibility": 0.7,
           "weatherCode": 61,
           "rainRisk": "Low",
-          "windRisk": "Medium",
+          "windRisk": "High",
           "visibilityRisk": "High",
           "heatRisk": "Normal",
           "travelImpact": "High",
           "advice": [
+            "Strong winds may affect trees, temporary structures and two-wheelers.",
             "Low visibility may make driving unsafe."
           ]
         },
@@ -117,23 +118,24 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-22T19:48:29.737Z",
-          "observedAt": "2026-07-23T01:15:00+05:30",
-          "temp": 21.2,
-          "currentRain": 0.3,
-          "rain6h": 14.8,
+          "sourceCheckedAt": "2026-07-22T21:12:29.474Z",
+          "observedAt": "2026-07-23T02:30:00+05:30",
+          "temp": 20.9,
+          "currentRain": 0.4,
+          "rain6h": 14.9,
           "precipitationProbability": 100,
-          "wind": 58.3,
-          "gust": 58.3,
+          "wind": 60.8,
+          "gust": 60.8,
           "humidity": 100,
           "visibility": 0.4,
           "weatherCode": 80,
           "rainRisk": "Low",
-          "windRisk": "Medium",
+          "windRisk": "High",
           "visibilityRisk": "High",
           "heatRisk": "Normal",
           "travelImpact": "High",
           "advice": [
+            "Strong winds may affect trees, temporary structures and two-wheelers.",
             "Low visibility may make driving unsafe."
           ]
         }
@@ -141,77 +143,17 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-22T19:48:35.802Z",
+      "generatedAt": "2026-07-22T21:12:36.186Z",
       "riskLevel": "Normal",
-      "impacts": [
-        "1 active transport-related event(s) may affect travel."
-      ],
-      "citizenSummary": "1 active transport-related event(s) may affect travel.",
+      "impacts": [],
+      "citizenSummary": "No major environmental disruption indicated from current data.",
       "seasonalContext": "monsoon"
     }
   },
   "alerts": [],
-  "incidents": [
-    {
-      "id": "accident-developing-udupi-police-arrest-pune-lorry-driver-absconding-since-2002-fatal-cras",
-      "eventKind": "incident",
-      "sourceId": "deccan_herald",
-      "title": "Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Deccan Herald",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Deccan Herald",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUnJtZnZWbl95WUJTSWhjVWJuNlFWamZoWWRHUnUwYVIzcGx2T05ZZ3Zodi1GZVMzMmtXVnl2ZU9GdDB0WlR3THkxSVd3V2YzSVJfZk4wZ0dmOEhER3hWOFN5TUlNQmNfMHdYVkhlTi02d29wZlVFcXlzaG1mZ2c4ZnZfdUFuQ09OM0lJMXhmMXBEOEZPbkNUMXk2YlA3RFR3X1JUenlaY2tjNzZyLTRuek1ndjNlbEktTVQzSkRfY3A5cUotTkxVXzFwcVY5dDg?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUnJtZnZWbl95WUJTSWhjVWJuNlFWamZoWWRHUnUwYVIzcGx2T05ZZ3Zodi1GZVMzMmtXVnl2ZU9GdDB0WlR3THkxSVd3V2YzSVJfZk4wZ0dmOEhER3hWOFN5TUlNQmNfMHdYVkhlTi02d29wZlVFcXlzaG1mZ2c4ZnZfdUFuQ09OM0lJMXhmMXBEOEZPbkNUMXk2YlA3RFR3X1JUenlaY2tjNzZyLTRuek1ndjNlbEktTVQzSkRfY3A5cUotTkxVXzFwcVY5dDg?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-07-22T08:47:23.000Z",
-      "lastUpdated": "2026-07-22T08:47:23.000Z",
-      "sourceCheckedAt": "2026-07-22T19:48:30.685Z",
-      "lastVerifiedAt": "2026-07-22T19:48:30.685Z",
-      "intelligenceGeneratedAt": "2026-07-22T19:48:35.730Z",
-      "expiresAt": "2026-07-22T20:47:23.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-989c0e18",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "discoveredAt": "2026-07-22T19:48:30.685Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
+  "incidents": [],
   "journeyContext": {
-    "activeRiskEvents": [
-      {
-        "id": "accident-developing-udupi-police-arrest-pune-lorry-driver-absconding-since-2002-fatal-cras",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      }
-    ]
+    "activeRiskEvents": []
   },
   "expiredEvents": [],
   "sourceHealth": {
@@ -220,8 +162,8 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-22T19:48:30.685Z",
-      "lastSuccessfulAt": "2026-07-22T19:48:30.685Z",
+      "sourceCheckedAt": "2026-07-22T21:12:30.443Z",
+      "lastSuccessfulAt": "2026-07-22T21:12:30.443Z",
       "error": null
     }
   },
@@ -239,10 +181,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "increasing",
-        "level": 540.03,
+        "level": 540.14,
         "alertLevel": 547,
         "dangerLevel": 548,
-        "dischargeCumecs": 152.08,
+        "dischargeCumecs": 175.01,
         "rsi": 20,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -256,14 +198,14 @@
         "timeline": {
           "state": "developing",
           "note": "Koregaon Bhima river level is normal.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "updatedAt": "2026-07-22T21:12:36.184Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T01:15:00+05:30",
+            "observedAt": "2026-07-23T02:30:00+05:30",
             "link": "",
             "note": ""
           }
@@ -283,10 +225,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "increasing",
-        "level": 510.37,
+        "level": 510.52,
         "alertLevel": 515,
         "dangerLevel": 517,
-        "dischargeCumecs": 735.93,
+        "dischargeCumecs": 805.93,
         "rsi": 20,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -301,14 +243,14 @@
         "timeline": {
           "state": "developing",
           "note": "Paragaon river level is normal.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "updatedAt": "2026-07-22T21:12:36.184Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T00:45:00+05:30",
+            "observedAt": "2026-07-23T02:30:00+05:30",
             "link": "",
             "note": ""
           }
@@ -328,10 +270,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "increasing",
-        "level": 499.29,
+        "level": 499.35,
         "alertLevel": 504,
         "dangerLevel": 505,
-        "dischargeCumecs": 474.46,
+        "dischargeCumecs": 501.23,
         "rsi": 20,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -345,14 +287,14 @@
         "timeline": {
           "state": "developing",
           "note": "Daund river level is normal.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "updatedAt": "2026-07-22T21:12:36.184Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T01:00:00+05:30",
+            "observedAt": "2026-07-23T02:30:00+05:30",
             "link": "",
             "note": ""
           }
@@ -371,12 +313,12 @@
         },
         "influenceRadiusKm": 3,
         "status": "normal",
-        "trend": "decreasing",
-        "level": 581.08,
+        "trend": "steady",
+        "level": 581.04,
         "alertLevel": 585.5,
         "dangerLevel": 585.89,
-        "dischargeCumecs": 3.54,
-        "rsi": 5,
+        "dischargeCumecs": 3.13,
+        "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
           "Bhor"
@@ -389,14 +331,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Umbre Kasurdi river level is normal.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "updatedAt": "2026-07-22T21:12:36.184Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T01:00:00+05:30",
+            "observedAt": "2026-07-23T02:30:00+05:30",
             "link": "",
             "note": ""
           }
@@ -416,10 +358,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 542.67,
+        "level": 542.64,
         "alertLevel": 545,
         "dangerLevel": 546.3,
-        "dischargeCumecs": 18.47,
+        "dischargeCumecs": 16.16,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -436,14 +378,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Dattawadi river level is normal.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "updatedAt": "2026-07-22T21:12:36.184Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T01:15:00+05:30",
+            "observedAt": "2026-07-23T02:30:00+05:30",
             "link": "",
             "note": ""
           }
@@ -463,10 +405,10 @@
         "influenceRadiusKm": 3,
         "status": "normal",
         "trend": "steady",
-        "level": 536.43,
+        "level": 536.45,
         "alertLevel": 541.5,
         "dangerLevel": 542.5,
-        "dischargeCumecs": 277.83,
+        "dischargeCumecs": 281.47,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -483,14 +425,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Kalyani nagar Bridge river level is normal.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "updatedAt": "2026-07-22T21:12:36.184Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T01:00:00+05:30",
+            "observedAt": "2026-07-23T02:30:00+05:30",
             "link": "",
             "note": ""
           }
@@ -530,14 +472,14 @@
         "timeline": {
           "state": "monitoring",
           "note": "Pimple Gurav river level is normal.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "updatedAt": "2026-07-22T21:12:36.184Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T01:15:00+05:30",
+            "observedAt": "2026-07-23T02:30:00+05:30",
             "link": "",
             "note": ""
           }
@@ -553,9 +495,9 @@
         "river": "Nira River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 96.52,
-        "reservoirLevel": 579.56,
-        "dischargeCumecs": 139.09,
+        "storagePercent": 96.64,
+        "reservoirLevel": 579.57,
+        "dischargeCumecs": 139.19,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -570,20 +512,20 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Veer Dam: 96.52% storage.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "note": "Veer Dam: 96.64% storage.",
+          "updatedAt": "2026-07-22T21:12:36.185Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T01:00:00+05:30",
+            "observedAt": "2026-07-23T02:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Veer Dam has 96.52% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Veer Dam has 96.64% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -594,8 +536,8 @@
         "river": "Nira River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 64.69,
-        "reservoirLevel": 615.48,
+        "storagePercent": 64.86,
+        "reservoirLevel": 615.52,
         "dischargeCumecs": null,
         "rsi": 10,
         "severity": "advisory",
@@ -609,20 +551,20 @@
         "travelSensitivity": "low",
         "timeline": {
           "state": "monitoring",
-          "note": "Bhatghar Dam: 64.69% storage.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "note": "Bhatghar Dam: 64.86% storage.",
+          "updatedAt": "2026-07-22T21:12:36.185Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T01:00:00+05:30",
+            "observedAt": "2026-07-23T02:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Bhatghar Dam has 64.69% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Bhatghar Dam has 64.86% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -633,8 +575,8 @@
         "river": "Mutha River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 88.52,
-        "reservoirLevel": 581.98,
+        "storagePercent": 89.44,
+        "reservoirLevel": 582.03,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -657,20 +599,20 @@
         "travelSensitivity": "high",
         "timeline": {
           "state": "monitoring",
-          "note": "Khadakwasla Dam: 88.52% storage.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "note": "Khadakwasla Dam: 89.44% storage.",
+          "updatedAt": "2026-07-22T21:12:36.185Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T01:00:00+05:30",
+            "observedAt": "2026-07-23T02:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Khadakwasla Dam has 88.52% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Khadakwasla Dam has 89.44% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -681,8 +623,8 @@
         "river": "Mutha River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 54.46,
-        "reservoirLevel": 694.91,
+        "storagePercent": 54.74,
+        "reservoirLevel": 695,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -699,20 +641,20 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Temghar Dam: 54.46% storage.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "note": "Temghar Dam: 54.74% storage.",
+          "updatedAt": "2026-07-22T21:12:36.185Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T01:00:00+05:30",
+            "observedAt": "2026-07-23T02:00:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Temghar Dam has 54.46% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Temghar Dam has 54.74% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -723,9 +665,9 @@
         "river": "Mula River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 85.02,
-        "reservoirLevel": 605.01,
-        "dischargeCumecs": 16.94,
+        "storagePercent": 85.16,
+        "reservoirLevel": 605.03,
+        "dischargeCumecs": 34.01,
         "rsi": 10,
         "severity": "advisory",
         "downstreamLocalities": [
@@ -740,20 +682,20 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Mulshi Dam: 85.02% storage.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "note": "Mulshi Dam: 85.16% storage.",
+          "updatedAt": "2026-07-22T21:12:36.185Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T01:00:00+05:30",
+            "observedAt": "2026-07-23T02:30:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Mulshi Dam has 85.02% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Mulshi Dam has 85.16% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       },
       {
@@ -764,8 +706,8 @@
         "river": "Pavana River",
         "status": "normal",
         "trend": "unknown",
-        "storagePercent": 91.04,
-        "reservoirLevel": 612.26,
+        "storagePercent": 91.2,
+        "reservoirLevel": 612.28,
         "dischargeCumecs": 0,
         "rsi": 10,
         "severity": "advisory",
@@ -782,25 +724,25 @@
         "travelSensitivity": "medium",
         "timeline": {
           "state": "monitoring",
-          "note": "Pawna Dam: 91.04% storage.",
-          "updatedAt": "2026-07-22T19:48:35.801Z"
+          "note": "Pawna Dam: 91.2% storage.",
+          "updatedAt": "2026-07-22T21:12:36.185Z"
         },
         "evidence": [
           {
             "source": "Maharashtra WRD RTDAS",
             "sourceTrust": "A",
             "type": "official",
-            "observedAt": "2026-07-23T01:00:00+05:30",
+            "observedAt": "2026-07-23T02:30:00+05:30",
             "link": "",
             "note": ""
           }
         ],
-        "impact": "Pawna Dam has 91.04% storage. Storage alone is not treated as a flood warning.",
+        "impact": "Pawna Dam has 91.2% storage. Storage alone is not treated as a flood warning.",
         "recommendedAction": "Monitor official discharge and downstream warnings."
       }
     ],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-22T19:48:35.802Z",
+      "generatedAt": "2026-07-22T21:12:36.185Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -813,7 +755,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-22T19:48:35.802Z",
+      "generatedAt": "2026-07-22T21:12:36.185Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -894,11 +836,9 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-22T19:48:35.802Z",
+      "generatedAt": "2026-07-22T21:12:36.186Z",
       "mode": "on-demand",
-      "relevantDomains": [
-        "highways"
-      ],
+      "relevantDomains": [],
       "infrastructure": {
         "highways": [
           "Mumbai-Pune Expressway",
@@ -939,7 +879,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-22T19:48:35.867Z",
+        "generatedAt": "2026-07-22T21:12:36.238Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -968,20 +908,21 @@
           "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
-              "Low visibility may make driving unsafe."
+              "Low visibility may make driving unsafe.",
+              "Strong winds may affect road safety."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 87,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 97,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -1012,20 +953,21 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 50,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
-                "Low visibility may make driving unsafe."
+                "Low visibility may make driving unsafe.",
+                "Strong winds may affect road safety."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 87,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 97,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
           },
           {
             "id": "kharadi-hinjawadi-nh48",
@@ -1058,12 +1000,13 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 45,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 25,
+              "label": "Avoid if Possible",
+              "recommendation": "Avoid this route if possible unless travel is essential.",
               "reasons": [
                 "dam_release may cause delays or safety concerns.",
-                "Low visibility may make driving unsafe."
+                "Low visibility may make driving unsafe.",
+                "Strong winds may affect road safety."
               ],
               "penalties": [
                 {
@@ -1074,12 +1017,12 @@
                 }
               ]
             },
-            "estimatedTimeMin": 90,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 110,
+            "estimatedDelayMin": 45,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (45/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: dam_release may cause delays or safety concerns."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (25/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: dam_release may cause delays or safety concerns."
           }
         ]
       },
@@ -1088,7 +1031,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-22T19:48:35.868Z",
+        "generatedAt": "2026-07-22T21:12:36.238Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1118,20 +1061,21 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
-              "Low visibility may make driving unsafe."
+              "Low visibility may make driving unsafe.",
+              "Strong winds may affect road safety."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 120,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -1163,20 +1107,21 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 50,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
-                "Low visibility may make driving unsafe."
+                "Low visibility may make driving unsafe.",
+                "Strong winds may affect road safety."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 110,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 120,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -1185,7 +1130,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-22T19:48:35.868Z",
+        "generatedAt": "2026-07-22T21:12:36.238Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -1218,19 +1163,13 @@
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
-              "Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash may cause delays or safety concerns.",
               "dam_release may cause delays or safety concerns.",
               "Veer Dam may cause delays or safety concerns.",
               "Bhatghar Dam may cause delays or safety concerns.",
-              "Khadakwasla Dam may cause delays or safety concerns."
+              "Khadakwasla Dam may cause delays or safety concerns.",
+              "Temghar Dam may cause delays or safety concerns."
             ],
             "penalties": [
-              {
-                "eventId": "accident-developing-udupi-police-arrest-pune-lorry-driver-absconding-since-2002-fatal-cras",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash"
-              },
               {
                 "eventId": "rtdas-river-koregaon-bhima",
                 "category": "dam_release",
@@ -1316,7 +1255,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: dam_release may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -1351,19 +1290,13 @@
               "label": "Avoid if Possible",
               "recommendation": "Avoid this route if possible unless travel is essential.",
               "reasons": [
-                "Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash may cause delays or safety concerns.",
                 "dam_release may cause delays or safety concerns.",
                 "Veer Dam may cause delays or safety concerns.",
                 "Bhatghar Dam may cause delays or safety concerns.",
-                "Khadakwasla Dam may cause delays or safety concerns."
+                "Khadakwasla Dam may cause delays or safety concerns.",
+                "Temghar Dam may cause delays or safety concerns."
               ],
               "penalties": [
-                {
-                  "eventId": "accident-developing-udupi-police-arrest-pune-lorry-driver-absconding-since-2002-fatal-cras",
-                  "category": "accident",
-                  "penalty": 20,
-                  "title": "Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash"
-                },
                 {
                   "eventId": "rtdas-river-koregaon-bhima",
                   "category": "dam_release",
@@ -1449,7 +1382,7 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Udupi Police arrest Pune lorry driver absconding since 2002 fatal crash may cause delays or safety concerns."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: dam_release may cause delays or safety concerns."
           }
         ]
       }
