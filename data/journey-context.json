@@ -1,8 +1,17 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-23T11:58:58.907Z",
+  "generatedAt": "2026-07-23T14:25:40.629Z",
   "routes": [],
   "risks": [
+    {
+      "id": "heavy-rain-official-moderate-to-intense-spells-of-rain-is-very-likely-to-occur-at-isolated",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
     {
       "id": "accident-developing-motorcyclist-killed-after-speeding-tempo-hits-bike-near-old-katraj-tun",
       "category": "accident",

@@ -1,6 +1,54 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-23T11:58:58.907Z",
+  "generatedAt": "2026-07-23T14:25:40.629Z",
   "sourceStatus": "healthy",
-  "items": []
+  "items": [
+    {
+      "id": "heavy-rain-official-moderate-to-intense-spells-of-rain-is-very-likely-to-occur-at-isolated",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Moderate to intense spells of rain is very likely to occur at isolated places over Pune, Raigad, Thane in next 3 hours.",
+      "summary": "Moderate to intense spells of rain is very likely to occur at isolated places over Pune, Raigad, Thane in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "source": "NDMA SACHET (Maharashtra-SDMA)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (Maharashtra-SDMA)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784814869548029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784814869548029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-23T13:58:04.000Z",
+      "lastUpdated": "2026-07-23T13:58:04.000Z",
+      "sourceCheckedAt": "2026-07-23T14:25:35.291Z",
+      "lastVerifiedAt": "2026-07-23T14:25:35.291Z",
+      "intelligenceGeneratedAt": "2026-07-23T14:25:40.629Z",
+      "expiresAt": "2026-07-23T16:30:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Pune,Raigad,Thane districts of Maharashtra",
+      "upstreamId": "IN-1784814869548029_29",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "discoveredAt": null,
+      "capMessageType": "Update",
+      "capReferences": "IMD-Mumbai,IN-1784814869548029_46,2026-07-23T19:23:53+05:30",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
