@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-23T10:00:06.458Z",
-  "lastSuccessfulAt": "2026-07-23T10:00:06.458Z",
+  "sourceCheckedAt": "2026-07-23T11:58:54.276Z",
+  "lastSuccessfulAt": "2026-07-23T11:58:54.276Z",
   "error": null,
   "optionalErrors": [],
   "sources": [
@@ -11,8 +11,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-23T10:00:06.458Z",
-      "lastSuccessfulAt": "2026-07-23T10:00:06.458Z",
+      "sourceCheckedAt": "2026-07-23T11:58:54.276Z",
+      "lastSuccessfulAt": "2026-07-23T11:58:54.276Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -21,18 +21,18 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-23T10:00:06.458Z",
-      "lastSuccessfulAt": "2026-07-23T10:00:06.458Z",
+      "sourceCheckedAt": "2026-07-23T11:58:54.276Z",
+      "lastSuccessfulAt": "2026-07-23T11:58:54.276Z",
       "error": null,
-      "etag": "W/\"8458-1784793607432\"",
-      "itemsCollected": 1
+      "etag": "W/\"8629-1784807332238\"",
+      "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-23T10:00:06.458Z",
-      "lastSuccessfulAt": "2026-07-23T10:00:06.458Z",
+      "sourceCheckedAt": "2026-07-23T11:58:54.276Z",
+      "lastSuccessfulAt": "2026-07-23T11:58:54.276Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-23T10:00:06.458Z",
-      "lastSuccessfulAt": "2026-07-23T10:00:06.458Z",
+      "sourceCheckedAt": "2026-07-23T11:58:54.276Z",
+      "lastSuccessfulAt": "2026-07-23T11:58:54.276Z",
       "error": null,
       "etag": null,
       "itemsCollected": 1
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-23T10:00:06.458Z",
-      "lastSuccessfulAt": "2026-07-23T10:00:06.458Z",
+      "sourceCheckedAt": "2026-07-23T11:58:54.276Z",
+      "lastSuccessfulAt": "2026-07-23T11:58:54.276Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,8 +61,8 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-23T10:00:06.458Z",
-      "lastSuccessfulAt": "2026-07-23T10:00:06.458Z",
+      "sourceCheckedAt": "2026-07-23T11:58:54.276Z",
+      "lastSuccessfulAt": "2026-07-23T11:58:54.276Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -71,8 +71,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-23T10:00:06.458Z",
-      "lastSuccessfulAt": "2026-07-23T10:00:06.458Z",
+      "sourceCheckedAt": "2026-07-23T11:58:54.276Z",
+      "lastSuccessfulAt": "2026-07-23T11:58:54.276Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -81,37 +81,14 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-23T10:00:06.458Z",
-      "lastSuccessfulAt": "2026-07-23T10:00:06.458Z",
+      "sourceCheckedAt": "2026-07-23T11:58:54.276Z",
+      "lastSuccessfulAt": "2026-07-23T11:58:54.276Z",
       "error": null,
       "itemsCollected": 0,
       "itemsQualified": 0
     }
   ],
   "items": [
-    {
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "upstreamId": "IN-1784793041662029_29",
-      "title": "Official: Weather: Moderate spells of rain very likely to occur at isolated places. Districts: Raigad, Ghat areas of Pune and Satara.",
-      "summary": "Weather: Moderate spells of rain very likely to occur at isolated places. Districts: Raigad, Ghat areas of Pune and Satara.",
-      "category": "heavy_rain",
-      "severity": "warning",
-      "source": "NDMA SACHET (Maharashtra-SDMA)",
-      "sourceTrust": "A+",
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784793041662029",
-      "publishedAt": "2026-07-23T07:59:02.000Z",
-      "lastUpdated": "2026-07-23T07:59:02.000Z",
-      "sourceCheckedAt": "2026-07-23T10:00:06.458Z",
-      "lastVerifiedAt": "2026-07-23T10:00:06.458Z",
-      "expiresAt": "2026-07-23T10:30:00.000Z",
-      "recommendedAction": "Follow instructions issued by the responsible government authority.",
-      "talukas": [],
-      "localities": [],
-      "affectedArea": "Pune,Raigad,Satara districts of Maharashtra",
-      "capMessageType": "Update",
-      "capReferences": "IMD-Mumbai,IN-1784793041662029_46,2026-07-23T13:19:50+05:30"
-    },
     {
       "sourceId": "hindustan_times_pune",
       "title": "Developing: Motorcyclist killed after speeding tempo hits bike near old Katraj tunnel",
@@ -123,8 +100,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/motorcyclist-killed-after-speeding-tempo-hits-bike-near-old-katraj-tunnel-101784747258426.html",
       "publishedAt": "2026-07-23T02:58:34.000Z",
       "lastUpdated": "2026-07-23T02:58:34.000Z",
-      "sourceCheckedAt": "2026-07-23T10:00:06.458Z",
-      "lastVerifiedAt": "2026-07-23T10:00:06.458Z",
+      "sourceCheckedAt": "2026-07-23T11:58:54.276Z",
+      "lastVerifiedAt": "2026-07-23T11:58:54.276Z",
       "expiresAt": "2026-07-24T02:58:34.000Z"
     }
   ]
