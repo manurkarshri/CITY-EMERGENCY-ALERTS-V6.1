@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-23T01:13:58.894Z",
+  "generatedAt": "2026-07-23T04:39:51.436Z",
   "status": "current",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-23T01:13:53.444Z",
-        "lastSuccessfulAt": "2026-07-23T01:13:53.444Z",
+        "sourceCheckedAt": "2026-07-23T04:39:45.685Z",
+        "lastSuccessfulAt": "2026-07-23T04:39:45.685Z",
         "error": null
       },
       {
@@ -25,16 +25,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-23T01:13:54.426Z",
-        "lastSuccessfulAt": "2026-07-23T01:13:54.426Z",
+        "sourceCheckedAt": "2026-07-23T04:39:46.391Z",
+        "lastSuccessfulAt": "2026-07-23T04:39:46.391Z",
         "error": null
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-23T01:13:54.426Z",
-        "lastSuccessfulAt": "2026-07-23T01:13:54.426Z",
+        "sourceCheckedAt": "2026-07-23T04:39:46.391Z",
+        "lastSuccessfulAt": "2026-07-23T04:39:46.391Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -44,19 +44,19 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-23T01:13:54.426Z",
-        "lastSuccessfulAt": "2026-07-23T01:13:54.426Z",
+        "sourceCheckedAt": "2026-07-23T04:39:46.391Z",
+        "lastSuccessfulAt": "2026-07-23T04:39:46.391Z",
         "error": null,
-        "etag": "W/\"9326-1784762368530\"",
-        "itemsCollected": 1,
+        "etag": "W/\"9317-1784773660740\"",
+        "itemsCollected": 0,
         "type": "alerts"
       },
       {
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-23T01:13:54.426Z",
-        "lastSuccessfulAt": "2026-07-23T01:13:54.426Z",
+        "sourceCheckedAt": "2026-07-23T04:39:46.391Z",
+        "lastSuccessfulAt": "2026-07-23T04:39:46.391Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -66,19 +66,19 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-23T01:13:54.426Z",
-        "lastSuccessfulAt": "2026-07-23T01:13:54.426Z",
+        "sourceCheckedAt": "2026-07-23T04:39:46.391Z",
+        "lastSuccessfulAt": "2026-07-23T04:39:46.391Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 0,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-23T01:13:54.426Z",
-        "lastSuccessfulAt": "2026-07-23T01:13:54.426Z",
+        "sourceCheckedAt": "2026-07-23T04:39:46.391Z",
+        "lastSuccessfulAt": "2026-07-23T04:39:46.391Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -88,8 +88,8 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-23T01:13:54.426Z",
-        "lastSuccessfulAt": "2026-07-23T01:13:54.426Z",
+        "sourceCheckedAt": "2026-07-23T04:39:46.391Z",
+        "lastSuccessfulAt": "2026-07-23T04:39:46.391Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -99,8 +99,8 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-23T01:13:54.426Z",
-        "lastSuccessfulAt": "2026-07-23T01:13:54.426Z",
+        "sourceCheckedAt": "2026-07-23T04:39:46.391Z",
+        "lastSuccessfulAt": "2026-07-23T04:39:46.391Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -110,8 +110,8 @@
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-23T01:13:54.426Z",
-        "lastSuccessfulAt": "2026-07-23T01:13:54.426Z",
+        "sourceCheckedAt": "2026-07-23T04:39:46.391Z",
+        "lastSuccessfulAt": "2026-07-23T04:39:46.391Z",
         "error": null,
         "itemsCollected": 0,
         "itemsQualified": 0,
@@ -121,10 +121,10 @@
         "id": "maharashtra_rtdas",
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
-        "status": "current",
-        "sourceCheckedAt": "2026-07-23T01:13:57.687Z",
+        "status": "stale",
+        "sourceCheckedAt": "2026-07-23T04:39:50.562Z",
         "lastSuccessfulAt": "2026-07-23T01:13:57.687Z",
-        "error": null
+        "error": "Maharashtra WRD RTDAS could not be reached during the latest check."
       }
     ],
     "official": [
@@ -485,11 +485,21 @@
   "liveReadiness": {
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
-    "alertsAvailable": 1,
-    "incidentsAvailable": 0,
+    "alertsAvailable": 0,
+    "incidentsAvailable": 1,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
-  "developingSituations": [],
+  "developingSituations": [
+    {
+      "id": "accident-developing-motorcyclist-killed-after-speeding-tempo-hits-bike-near-old-katraj-tun",
+      "title": "Developing: Motorcyclist killed after speeding tempo hits bike near old Katraj tunnel",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Hindustan Times Pune",
+      "trust": "B",
+      "updatedAt": "2026-07-23T02:58:34.000Z"
+    }
+  ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."
 }

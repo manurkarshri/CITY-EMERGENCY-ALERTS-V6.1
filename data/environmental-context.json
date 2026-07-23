@@ -1,10 +1,10 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-23T01:13:58.777Z",
+  "generatedAt": "2026-07-23T04:39:51.146Z",
   "weatherSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-23T01:13:53.444Z",
-    "lastSuccessfulAt": "2026-07-23T01:13:53.444Z",
+    "sourceCheckedAt": "2026-07-23T04:39:45.685Z",
+    "lastSuccessfulAt": "2026-07-23T04:39:45.685Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
@@ -13,13 +13,13 @@
     "error": null
   },
   "riverSource": {
-    "status": "current",
-    "sourceCheckedAt": "2026-07-23T01:13:57.687Z",
+    "status": "stale",
+    "sourceCheckedAt": "2026-07-23T04:39:50.562Z",
     "lastSuccessfulAt": "2026-07-23T01:13:57.687Z",
-    "error": null
+    "error": "Maharashtra WRD RTDAS could not be reached during the latest check."
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-07-23T01:13:58.775Z",
+    "generatedAt": "2026-07-23T04:39:51.144Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -27,18 +27,18 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-23T01:13:53.444Z",
-        "observedAt": "2026-07-23T06:30:00+05:30",
-        "temp": 20.4,
+        "sourceCheckedAt": "2026-07-23T04:39:45.685Z",
+        "observedAt": "2026-07-23T10:00:00+05:30",
+        "temp": 22.3,
         "currentRain": 0.3,
-        "rain6h": 4.1,
+        "rain6h": 5.6,
         "precipitationProbability": 100,
-        "wind": 57.2,
-        "gust": 57.2,
-        "humidity": 92,
+        "wind": 52.6,
+        "gust": 52.6,
+        "humidity": 91,
         "visibility": 3.9,
         "weatherCode": 55,
-        "rainRisk": "Minimal",
+        "rainRisk": "Low",
         "windRisk": "Medium",
         "visibilityRisk": "Low",
         "heatRisk": "Normal",
@@ -53,17 +53,17 @@
         "longitude": 73.76471,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-23T01:13:53.444Z",
-        "observedAt": "2026-07-23T06:30:00+05:30",
-        "temp": 20.7,
-        "currentRain": 0.4,
-        "rain6h": 5.6,
+        "sourceCheckedAt": "2026-07-23T04:39:45.685Z",
+        "observedAt": "2026-07-23T10:00:00+05:30",
+        "temp": 22.5,
+        "currentRain": 0.3,
+        "rain6h": 6.8,
         "precipitationProbability": 100,
         "wind": 50.4,
         "gust": 50.4,
-        "humidity": 93,
-        "visibility": 3.5,
-        "weatherCode": 61,
+        "humidity": 94,
+        "visibility": 3.1,
+        "weatherCode": 55,
         "rainRisk": "Low",
         "windRisk": "Medium",
         "visibilityRisk": "Low",
@@ -79,18 +79,18 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-23T01:13:53.444Z",
-        "observedAt": "2026-07-23T06:30:00+05:30",
-        "temp": 20.4,
+        "sourceCheckedAt": "2026-07-23T04:39:45.685Z",
+        "observedAt": "2026-07-23T10:00:00+05:30",
+        "temp": 22.3,
         "currentRain": 0.3,
-        "rain6h": 4.1,
+        "rain6h": 5.6,
         "precipitationProbability": 100,
-        "wind": 57.2,
-        "gust": 57.2,
-        "humidity": 92,
+        "wind": 52.6,
+        "gust": 52.6,
+        "humidity": 91,
         "visibility": 3.9,
         "weatherCode": 55,
-        "rainRisk": "Minimal",
+        "rainRisk": "Low",
         "windRisk": "Medium",
         "visibilityRisk": "Low",
         "heatRisk": "Normal",
@@ -105,17 +105,17 @@
         "longitude": 73.51617,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-23T01:13:53.444Z",
-        "observedAt": "2026-07-23T06:30:00+05:30",
-        "temp": 20.4,
-        "currentRain": 1.1,
-        "rain6h": 19,
+        "sourceCheckedAt": "2026-07-23T04:39:45.685Z",
+        "observedAt": "2026-07-23T10:00:00+05:30",
+        "temp": 21.9,
+        "currentRain": 0.6,
+        "rain6h": 22.9,
         "precipitationProbability": 100,
-        "wind": 57.2,
-        "gust": 57.2,
-        "humidity": 100,
-        "visibility": 0.8,
-        "weatherCode": 63,
+        "wind": 56.9,
+        "gust": 56.9,
+        "humidity": 99,
+        "visibility": 0.9,
+        "weatherCode": 81,
         "rainRisk": "Medium",
         "windRisk": "Medium",
         "visibilityRisk": "High",
@@ -132,25 +132,24 @@
         "longitude": 73.451324,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-23T01:13:53.444Z",
-        "observedAt": "2026-07-23T06:30:00+05:30",
-        "temp": 20.5,
-        "currentRain": 0.5,
-        "rain6h": 18.1,
+        "sourceCheckedAt": "2026-07-23T04:39:45.685Z",
+        "observedAt": "2026-07-23T10:00:00+05:30",
+        "temp": 21.6,
+        "currentRain": 0.3,
+        "rain6h": 23.5,
         "precipitationProbability": 100,
-        "wind": 61.9,
-        "gust": 61.9,
+        "wind": 56.5,
+        "gust": 56.5,
         "humidity": 99,
         "visibility": 0.4,
-        "weatherCode": 81,
+        "weatherCode": 80,
         "rainRisk": "Medium",
-        "windRisk": "High",
+        "windRisk": "Medium",
         "visibilityRisk": "High",
         "heatRisk": "Normal",
         "travelImpact": "High",
         "advice": [
           "Moderate rainfall may slow travel in low-lying areas.",
-          "Strong winds may affect trees, temporary structures and two-wheelers.",
           "Low visibility may make driving unsafe."
         ]
       }
@@ -186,7 +185,7 @@
       "timeline": {
         "state": "developing",
         "note": "Koregaon Bhima river level is normal.",
-        "updatedAt": "2026-07-23T01:13:58.775Z"
+        "updatedAt": "2026-07-23T04:39:51.144Z"
       },
       "evidence": [
         {
@@ -231,7 +230,7 @@
       "timeline": {
         "state": "developing",
         "note": "Paragaon river level is normal.",
-        "updatedAt": "2026-07-23T01:13:58.775Z"
+        "updatedAt": "2026-07-23T04:39:51.144Z"
       },
       "evidence": [
         {
@@ -275,7 +274,7 @@
       "timeline": {
         "state": "developing",
         "note": "Daund river level is normal.",
-        "updatedAt": "2026-07-23T01:13:58.775Z"
+        "updatedAt": "2026-07-23T04:39:51.144Z"
       },
       "evidence": [
         {
@@ -319,7 +318,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Umbre Kasurdi river level is normal.",
-        "updatedAt": "2026-07-23T01:13:58.776Z"
+        "updatedAt": "2026-07-23T04:39:51.144Z"
       },
       "evidence": [
         {
@@ -366,7 +365,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Dattawadi river level is normal.",
-        "updatedAt": "2026-07-23T01:13:58.776Z"
+        "updatedAt": "2026-07-23T04:39:51.144Z"
       },
       "evidence": [
         {
@@ -413,7 +412,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Kalyani nagar Bridge river level is normal.",
-        "updatedAt": "2026-07-23T01:13:58.776Z"
+        "updatedAt": "2026-07-23T04:39:51.144Z"
       },
       "evidence": [
         {
@@ -460,7 +459,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Pimple Gurav river level is normal.",
-        "updatedAt": "2026-07-23T01:13:58.776Z"
+        "updatedAt": "2026-07-23T04:39:51.144Z"
       },
       "evidence": [
         {
@@ -501,7 +500,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Veer Dam: 97.12% storage.",
-        "updatedAt": "2026-07-23T01:13:58.776Z"
+        "updatedAt": "2026-07-23T04:39:51.144Z"
       },
       "evidence": [
         {
@@ -540,7 +539,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Bhatghar Dam: 65.55% storage.",
-        "updatedAt": "2026-07-23T01:13:58.776Z"
+        "updatedAt": "2026-07-23T04:39:51.144Z"
       },
       "evidence": [
         {
@@ -588,7 +587,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Khadakwasla Dam: 92.08% storage.",
-        "updatedAt": "2026-07-23T01:13:58.776Z"
+        "updatedAt": "2026-07-23T04:39:51.145Z"
       },
       "evidence": [
         {
@@ -629,7 +628,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Mulshi Dam: 85.44% storage.",
-        "updatedAt": "2026-07-23T01:13:58.776Z"
+        "updatedAt": "2026-07-23T04:39:51.145Z"
       },
       "evidence": [
         {
@@ -671,7 +670,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Pawna Dam: 91.93% storage.",
-        "updatedAt": "2026-07-23T01:13:58.776Z"
+        "updatedAt": "2026-07-23T04:39:51.145Z"
       },
       "evidence": [
         {
@@ -688,7 +687,7 @@
     }
   ],
   "seasonalIntelligence": {
-    "generatedAt": "2026-07-23T01:13:58.777Z",
+    "generatedAt": "2026-07-23T04:39:51.146Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -701,7 +700,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-07-23T01:13:58.776Z",
+    "generatedAt": "2026-07-23T04:39:51.145Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -782,9 +781,11 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-07-23T01:13:58.777Z",
+    "generatedAt": "2026-07-23T04:39:51.146Z",
     "mode": "on-demand",
-    "relevantDomains": [],
+    "relevantDomains": [
+      "highways"
+    ],
     "infrastructure": {
       "highways": [
         "Mumbai-Pune Expressway",
@@ -818,13 +819,14 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-07-23T01:13:58.777Z",
+    "generatedAt": "2026-07-23T04:39:51.146Z",
     "riskLevel": "Elevated",
     "impacts": [
-      "2 area(s) have elevated rain-related travel impact."
+      "2 area(s) have elevated rain-related travel impact.",
+      "1 active transport-related event(s) may affect travel."
     ],
-    "citizenSummary": "2 area(s) have elevated rain-related travel impact.",
+    "citizenSummary": "2 area(s) have elevated rain-related travel impact. 1 active transport-related event(s) may affect travel.",
     "seasonalContext": "monsoon"
   },
-  "story": "Moderate rainfall may slow travel in some areas. 1 important alert require attention."
+  "story": "Moderate rainfall may slow travel in some areas."
 }

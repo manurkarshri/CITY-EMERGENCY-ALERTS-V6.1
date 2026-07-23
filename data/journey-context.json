@@ -1,16 +1,20 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-23T01:13:58.715Z",
+  "generatedAt": "2026-07-23T04:39:50.968Z",
   "routes": [],
   "risks": [
     {
-      "id": "heavy-rain-official-moderate-rain-is-very-likely-to-occur-at-isolated-places-over-nashik-p",
-      "category": "heavy_rain",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
+      "id": "accident-developing-motorcyclist-killed-after-speeding-tempo-hits-bike-near-old-katraj-tun",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Katraj"
+      ],
+      "talukas": [
+        "pune_city"
+      ],
       "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
+      "impact": "Traffic delays are likely near the incident location."
     }
   ]
 }
