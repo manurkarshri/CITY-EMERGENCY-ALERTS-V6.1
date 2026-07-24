@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-24T01:11:52.451Z",
-  "lastSuccessfulAt": "2026-07-24T01:11:52.451Z",
+  "sourceCheckedAt": "2026-07-24T04:34:34.986Z",
+  "lastSuccessfulAt": "2026-07-24T04:34:34.986Z",
   "error": null,
   "optionalErrors": [],
   "sources": [
@@ -11,8 +11,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-24T01:11:52.451Z",
-      "lastSuccessfulAt": "2026-07-24T01:11:52.451Z",
+      "sourceCheckedAt": "2026-07-24T04:34:34.986Z",
+      "lastSuccessfulAt": "2026-07-24T04:34:34.986Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -21,18 +21,18 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-24T01:11:52.451Z",
-      "lastSuccessfulAt": "2026-07-24T01:11:52.451Z",
+      "sourceCheckedAt": "2026-07-24T04:34:34.986Z",
+      "lastSuccessfulAt": "2026-07-24T04:34:34.986Z",
       "error": null,
-      "etag": "W/\"9421-1784848372945\"",
+      "etag": "W/\"9116-1784864829163\"",
       "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-24T01:11:52.451Z",
-      "lastSuccessfulAt": "2026-07-24T01:11:52.451Z",
+      "sourceCheckedAt": "2026-07-24T04:34:34.986Z",
+      "lastSuccessfulAt": "2026-07-24T04:34:34.986Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -41,18 +41,18 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-24T01:11:52.451Z",
-      "lastSuccessfulAt": "2026-07-24T01:11:52.451Z",
+      "sourceCheckedAt": "2026-07-24T04:34:34.986Z",
+      "lastSuccessfulAt": "2026-07-24T04:34:34.986Z",
       "error": null,
       "etag": null,
-      "itemsCollected": 1
+      "itemsCollected": 0
     },
     {
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-24T01:11:52.451Z",
-      "lastSuccessfulAt": "2026-07-24T01:11:52.451Z",
+      "sourceCheckedAt": "2026-07-24T04:34:34.986Z",
+      "lastSuccessfulAt": "2026-07-24T04:34:34.986Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,8 +61,8 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-24T01:11:52.451Z",
-      "lastSuccessfulAt": "2026-07-24T01:11:52.451Z",
+      "sourceCheckedAt": "2026-07-24T04:34:34.986Z",
+      "lastSuccessfulAt": "2026-07-24T04:34:34.986Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -71,8 +71,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-24T01:11:52.451Z",
-      "lastSuccessfulAt": "2026-07-24T01:11:52.451Z",
+      "sourceCheckedAt": "2026-07-24T04:34:34.986Z",
+      "lastSuccessfulAt": "2026-07-24T04:34:34.986Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -81,28 +81,12 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-24T01:11:52.451Z",
-      "lastSuccessfulAt": "2026-07-24T01:11:52.451Z",
+      "sourceCheckedAt": "2026-07-24T04:34:34.986Z",
+      "lastSuccessfulAt": "2026-07-24T04:34:34.986Z",
       "error": null,
       "itemsCollected": 0,
       "itemsQualified": 0
     }
   ],
-  "items": [
-    {
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Motorcyclist killed after speeding tempo hits bike near old Katraj tunnel",
-      "summary": "The deceased has been identified as Lavaji Bharat Waghmare, 42, a resident of Prem Nagar Vasahat in the Market Yard area.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "link": "https://www.hindustantimes.com/cities/pune-news/motorcyclist-killed-after-speeding-tempo-hits-bike-near-old-katraj-tunnel-101784747258426.html",
-      "publishedAt": "2026-07-23T02:58:34.000Z",
-      "lastUpdated": "2026-07-23T02:58:34.000Z",
-      "sourceCheckedAt": "2026-07-24T01:11:52.451Z",
-      "lastVerifiedAt": "2026-07-24T01:11:52.451Z",
-      "expiresAt": "2026-07-24T02:58:34.000Z"
-    }
-  ]
+  "items": []
 }
