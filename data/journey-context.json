@@ -1,16 +1,34 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-25T02:53:34.675Z",
+  "generatedAt": "2026-07-25T05:45:42.751Z",
   "routes": [],
   "risks": [
     {
-      "id": "flood-developing-ashadhi-ekadashi-2026-प्रतिपंढरपूरात-रंगणार-विठ्ठलभक्तीचा-सोहळा-आषाढी-एका",
-      "category": "flood",
-      "severity": "warning",
+      "id": "heavy-rain-official-light-to-moderate-rain-is-very-likely-to-occur-at-isolated-places-over",
+      "category": "heavy_rain",
+      "severity": "watch",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
       "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "public-safety-developing-man-hurt-in-open-firing-incident-in-ghorpade-peth-one-arrested-20",
+      "category": "public_safety",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "The incident may create an immediate safety risk in the affected area."
+    },
+    {
+      "id": "public-safety-developing-pune-khadak-firing-खडक-परिसरात-एकाच-दिवशी-दोन-गोळीबार-घोरपडे-पेठे",
+      "category": "public_safety",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "The incident may create an immediate safety risk in the affected area."
     }
   ]
 }
