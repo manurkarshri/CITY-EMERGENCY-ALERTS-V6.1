@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-  "lastSuccessfulAt": "2026-07-25T05:45:37.826Z",
+  "sourceCheckedAt": "2026-07-25T08:10:31.906Z",
+  "lastSuccessfulAt": "2026-07-25T08:10:31.906Z",
   "error": null,
   "optionalErrors": [],
   "sources": [
@@ -11,8 +11,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-      "lastSuccessfulAt": "2026-07-25T05:45:37.826Z",
+      "sourceCheckedAt": "2026-07-25T08:10:31.906Z",
+      "lastSuccessfulAt": "2026-07-25T08:10:31.906Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -21,18 +21,18 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-      "lastSuccessfulAt": "2026-07-25T05:45:37.826Z",
+      "sourceCheckedAt": "2026-07-25T08:10:31.906Z",
+      "lastSuccessfulAt": "2026-07-25T08:10:31.906Z",
       "error": null,
-      "etag": "W/\"8684-1784955414940\"",
-      "itemsCollected": 1
+      "etag": "W/\"9367-1784961691030\"",
+      "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-      "lastSuccessfulAt": "2026-07-25T05:45:37.826Z",
+      "sourceCheckedAt": "2026-07-25T08:10:31.906Z",
+      "lastSuccessfulAt": "2026-07-25T08:10:31.906Z",
       "error": null,
       "etag": null,
       "itemsCollected": 1
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-      "lastSuccessfulAt": "2026-07-25T05:45:37.826Z",
+      "sourceCheckedAt": "2026-07-25T08:10:31.906Z",
+      "lastSuccessfulAt": "2026-07-25T08:10:31.906Z",
       "error": null,
       "etag": null,
       "itemsCollected": 1
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-      "lastSuccessfulAt": "2026-07-25T05:45:37.826Z",
+      "sourceCheckedAt": "2026-07-25T08:10:31.906Z",
+      "lastSuccessfulAt": "2026-07-25T08:10:31.906Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,8 +61,8 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-      "lastSuccessfulAt": "2026-07-25T05:45:37.826Z",
+      "sourceCheckedAt": "2026-07-25T08:10:31.906Z",
+      "lastSuccessfulAt": "2026-07-25T08:10:31.906Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -71,47 +71,24 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-      "lastSuccessfulAt": "2026-07-25T05:45:37.826Z",
+      "sourceCheckedAt": "2026-07-25T08:10:31.906Z",
+      "lastSuccessfulAt": "2026-07-25T08:10:31.906Z",
       "error": null,
       "etag": null,
-      "itemsCollected": 1
+      "itemsCollected": 0
     },
     {
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-      "lastSuccessfulAt": "2026-07-25T05:45:37.826Z",
+      "sourceCheckedAt": "2026-07-25T08:10:31.906Z",
+      "lastSuccessfulAt": "2026-07-25T08:10:31.906Z",
       "error": null,
       "itemsCollected": 0,
       "itemsQualified": 0
     }
   ],
   "items": [
-    {
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "upstreamId": "IN-1784955406932029_46",
-      "title": "Official: Light to Moderate Rain is very likely to occur at isolated places over Ghat area of Nashik, Pune, Satara in next 3 hours.",
-      "summary": "Light to Moderate Rain is very likely to occur at isolated places over Ghat area of Nashik, Pune, Satara in next 3 hours.",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "source": "NDMA SACHET (IMD-Mumbai)",
-      "sourceTrust": "A+",
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1784955406932029",
-      "publishedAt": "2026-07-25T04:54:58.000Z",
-      "lastUpdated": "2026-07-25T04:54:58.000Z",
-      "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-      "lastVerifiedAt": "2026-07-25T05:45:37.826Z",
-      "expiresAt": "2026-07-25T07:30:00.000Z",
-      "recommendedAction": "Please follow SDMA guidelines.",
-      "talukas": [],
-      "localities": [],
-      "affectedArea": "Nashik, Pune, Satara districts of Maharashtra",
-      "capMessageType": "Alert",
-      "capReferences": ""
-    },
     {
       "sourceId": "indian_express_pune",
       "title": "Developing: Pune rain: Khadakwasla dam discharge continues, citizens advised to stay alert",
@@ -123,8 +100,8 @@
       "link": "https://indianexpress.com/article/cities/pune/pune-rain-khadakwasla-dam-discharge-continues-citizens-advised-to-stay-alert-10801513/",
       "publishedAt": "2026-07-24T08:18:40.000Z",
       "lastUpdated": "2026-07-24T08:18:40.000Z",
-      "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-      "lastVerifiedAt": "2026-07-25T05:45:37.826Z",
+      "sourceCheckedAt": "2026-07-25T08:10:31.906Z",
+      "lastVerifiedAt": "2026-07-25T08:10:31.906Z",
       "expiresAt": "2026-07-24T20:18:40.000Z"
     },
     {
@@ -138,28 +115,9 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/man-hurt-in-open-firing-incident-in-ghorpade-peth-one-arrested-101784918264183.html",
       "publishedAt": "2026-07-25T03:04:35.000Z",
       "lastUpdated": "2026-07-25T03:04:35.000Z",
-      "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-      "lastVerifiedAt": "2026-07-25T05:45:37.826Z",
+      "sourceCheckedAt": "2026-07-25T08:10:31.906Z",
+      "lastVerifiedAt": "2026-07-25T08:10:31.906Z",
       "expiresAt": "2026-07-25T15:04:35.000Z"
-    },
-    {
-      "sourceId": "esakal",
-      "collectionSourceId": "newsdata_io",
-      "upstreamId": "c01890692920ff096fb69a85097c534e",
-      "title": "Developing: Pune Khadak firing : खडक परिसरात एकाच दिवशी दोन गोळीबार; घोरपडे पेठेत तरुण जखमी, चौघांना अटक",
-      "summary": "पुणे खडक गोळीबार बातमी: घोरपडे पेठेत तरुणावर पिस्तुलातून गोळीबार, पाठीत गोळी लागून जखमी; जुन्या वादातून चार जण अटकेत, पोलिसांची वेगवान कारवाई. Pune Khadak firing news: Youth shot in the back in Ghorpade Peth over old rivalry; four suspects arrested as police respond swiftly to daylight gun attack.",
-      "category": "public_safety",
-      "severity": "warning",
-      "source": "eSakal Pune",
-      "sourceTrust": "B",
-      "link": "https://www.esakal.com/pune/pune-ghorpade-peth-lohiyanagar-shootout-young-man-injured-pune-khadak-police-station-ghorpade-peth-lohiyanagar-firing-incident-four-arrested-vsw03",
-      "publishedAt": "2026-07-24T17:26:58.000Z",
-      "lastUpdated": "2026-07-24T17:26:58.000Z",
-      "sourceCheckedAt": "2026-07-25T05:45:37.826Z",
-      "lastVerifiedAt": "2026-07-25T05:45:37.826Z",
-      "expiresAt": "2026-07-26T05:26:58.000Z",
-      "collectionProvider": "NewsData.io",
-      "sourceOrigin": ""
     }
   ]
 }
