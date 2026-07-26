@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-26T12:39:13.756Z",
+  "generatedAt": "2026-07-26T14:16:36.334Z",
   "routes": [],
   "risks": [
     {
@@ -22,15 +22,6 @@
       "impact": "Route may be blocked or diverted."
     },
     {
-      "id": "health-emergency-developing-rains-fuel-dengue-surge-pune-city-records-560-suspected-cases-",
-      "category": "health_emergency",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "A reported outbreak or contamination incident may affect public health in the area."
-    },
-    {
       "id": "dam-release-developing-collective-storage-in-reservoirs-around-pune-hits-80-water-discharg",
       "category": "dam_release",
       "severity": "warning",
@@ -47,6 +38,15 @@
         "Mulshi"
       ],
       "impact": "River levels may rise downstream."
+    },
+    {
+      "id": "health-emergency-developing-rains-fuel-dengue-surge-pune-city-records-560-suspected-cases-",
+      "category": "health_emergency",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "A reported outbreak or contamination incident may affect public health in the area."
     }
   ]
 }
