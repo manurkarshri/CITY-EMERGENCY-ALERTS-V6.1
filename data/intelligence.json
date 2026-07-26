@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-26T15:40:07.271Z",
+  "generatedAt": "2026-07-26T16:37:14.257Z",
   "status": "current",
   "situation": {
     "snapshot": "Moderate rainfall may slow travel in some areas. 3 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-07-26T15:40:07.337Z",
+      "generatedAt": "2026-07-26T16:37:14.313Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,17 +13,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-26T15:39:52.326Z",
-          "observedAt": "2026-07-26T21:00:00+05:30",
-          "temp": 23.3,
+          "sourceCheckedAt": "2026-07-26T16:36:58.330Z",
+          "observedAt": "2026-07-26T22:00:00+05:30",
+          "temp": 23,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 4.4,
           "precipitationProbability": 100,
-          "wind": 31,
-          "gust": 31,
-          "humidity": 88,
-          "visibility": 17.3,
+          "wind": 26.3,
+          "gust": 26.3,
+          "humidity": 89,
+          "visibility": 15.1,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -40,17 +40,17 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-26T15:39:52.326Z",
-          "observedAt": "2026-07-26T21:00:00+05:30",
-          "temp": 23.2,
+          "sourceCheckedAt": "2026-07-26T16:36:58.330Z",
+          "observedAt": "2026-07-26T22:00:00+05:30",
+          "temp": 23.1,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 6.1,
           "precipitationProbability": 100,
-          "wind": 30.2,
-          "gust": 30.2,
-          "humidity": 88,
-          "visibility": 15,
+          "wind": 24.8,
+          "gust": 24.8,
+          "humidity": 89,
+          "visibility": 14.3,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -67,17 +67,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-26T15:39:52.326Z",
-          "observedAt": "2026-07-26T21:00:00+05:30",
-          "temp": 23.3,
+          "sourceCheckedAt": "2026-07-26T16:36:58.330Z",
+          "observedAt": "2026-07-26T22:00:00+05:30",
+          "temp": 23,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 4.4,
           "precipitationProbability": 100,
-          "wind": 31,
-          "gust": 31,
-          "humidity": 88,
-          "visibility": 17.3,
+          "wind": 26.3,
+          "gust": 26.3,
+          "humidity": 89,
+          "visibility": 15.1,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -94,15 +94,15 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-26T15:39:52.326Z",
-          "observedAt": "2026-07-26T21:00:00+05:30",
-          "temp": 21.9,
+          "sourceCheckedAt": "2026-07-26T16:36:58.330Z",
+          "observedAt": "2026-07-26T22:00:00+05:30",
+          "temp": 21.8,
           "currentRain": 0.1,
-          "rain6h": 1.9,
+          "rain6h": 1.7,
           "rain24h": 22.9,
           "precipitationProbability": 100,
-          "wind": 28.4,
-          "gust": 28.4,
+          "wind": 23.4,
+          "gust": 23.4,
           "humidity": 99,
           "visibility": 0.3,
           "weatherCode": 51,
@@ -121,17 +121,17 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-26T15:39:52.326Z",
-          "observedAt": "2026-07-26T21:00:00+05:30",
-          "temp": 21.7,
+          "sourceCheckedAt": "2026-07-26T16:36:58.330Z",
+          "observedAt": "2026-07-26T22:00:00+05:30",
+          "temp": 21.6,
           "currentRain": 0.2,
-          "rain6h": 3,
-          "rain24h": 33.6,
+          "rain6h": 2.5,
+          "rain24h": 33.7,
           "precipitationProbability": 100,
-          "wind": 25.9,
-          "gust": 25.9,
+          "wind": 25.2,
+          "gust": 25.2,
           "humidity": 100,
-          "visibility": 0.4,
+          "visibility": 0.2,
           "weatherCode": 53,
           "rainRisk": "Medium",
           "windRisk": "Low",
@@ -147,7 +147,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-26T15:40:07.621Z",
+      "generatedAt": "2026-07-26T16:37:14.521Z",
       "riskLevel": "Elevated",
       "impacts": [
         "1 area(s) have elevated rain-related travel impact.",
@@ -162,13 +162,19 @@
       "id": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
       "eventKind": "alert",
       "sourceId": "ndma_sachet",
-      "title": "Official: Light to Moderate spells of Rain very likely to occur at isolated places over Nashik, Pune, Satara districts in next 3 hours.",
-      "summary": "Light to Moderate spells of Rain very likely to occur at isolated places over Nashik, Pune, Satara districts in next 3 hours.",
+      "title": "Official: Light to Moderate spells of rain very likely to occur at isolated places.",
+      "summary": "Light to Moderate spells of rain very likely to occur at isolated places.",
       "category": "heavy_rain",
       "severity": "watch",
-      "source": "NDMA SACHET (Maharashtra-SDMA)",
+      "source": "NDMA SACHET (IMD-Mumbai)",
       "sourceTrust": "A+",
       "sources": [
+        {
+          "name": "NDMA SACHET (IMD-Mumbai)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785083604432029",
+          "origin": ""
+        },
         {
           "name": "NDMA SACHET (Maharashtra-SDMA)",
           "trust": "A+",
@@ -176,36 +182,36 @@
           "origin": ""
         }
       ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785073679569029",
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785083604432029",
       "talukas": [],
       "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-07-26T14:01:22.000Z",
-      "lastUpdated": "2026-07-26T14:01:22.000Z",
-      "sourceCheckedAt": "2026-07-26T14:16:20.204Z",
-      "lastVerifiedAt": "2026-07-26T14:16:20.204Z",
-      "intelligenceGeneratedAt": "2026-07-26T15:40:07.271Z",
-      "expiresAt": "2026-07-26T16:45:00.000Z",
+      "publishedAt": "2026-07-26T16:32:41.000Z",
+      "lastUpdated": "2026-07-26T16:32:41.000Z",
+      "sourceCheckedAt": "2026-07-26T16:36:59.315Z",
+      "lastVerifiedAt": "2026-07-26T16:36:59.315Z",
+      "intelligenceGeneratedAt": "2026-07-26T16:37:14.257Z",
+      "expiresAt": "2026-07-26T19:30:00.000Z",
       "lifecycle": "active",
-      "confidence": "Medium",
-      "confidenceScore": 65,
+      "confidence": "High",
+      "confidenceScore": 85,
       "impact": "This event may affect local awareness or movement.",
       "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Nashik,Pune,Satara districts of Maharashtra",
-      "upstreamId": "IN-1785073679569029_29",
+      "affectedArea": "Pune, Raigad, Ratnagiri, Thane districts of Maharashtra",
+      "upstreamId": "IN-1785083604432029_46",
       "collectionProvider": "",
       "discoveryOnly": false,
       "reportedAuthority": "",
       "alertBasis": "",
       "discoveredAt": null,
-      "capMessageType": "Update",
-      "capReferences": "IMD-Mumbai,IN-1785073679569029_46,2026-07-26T19:16:30+05:30",
+      "capMessageType": "Alert",
+      "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
       "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
+      "independentSourceCount": 2,
+      "corroboratedByIndependentSources": true
     },
     {
       "id": "dam-release-developing-collective-storage-in-reservoirs-around-pune-hits-80-water-discharg",
@@ -246,9 +252,9 @@
       ],
       "publishedAt": "2026-07-24T18:34:00.000Z",
       "lastUpdated": "2026-07-24T18:34:00.000Z",
-      "sourceCheckedAt": "2026-07-26T15:39:52.993Z",
-      "lastVerifiedAt": "2026-07-26T15:39:52.993Z",
-      "intelligenceGeneratedAt": "2026-07-26T15:40:07.271Z",
+      "sourceCheckedAt": "2026-07-26T16:36:59.315Z",
+      "lastVerifiedAt": "2026-07-26T16:36:59.315Z",
+      "intelligenceGeneratedAt": "2026-07-26T16:37:14.257Z",
       "expiresAt": "2026-07-27T18:34:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -261,7 +267,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "media_corroborated",
-      "discoveredAt": "2026-07-26T15:39:52.993Z",
+      "discoveredAt": "2026-07-26T16:36:59.315Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -305,13 +311,13 @@
       "operationalZones": [],
       "publishedAt": "2026-07-26T09:51:43.000Z",
       "lastUpdated": "2026-07-26T09:51:43.000Z",
-      "sourceCheckedAt": "2026-07-26T15:39:52.993Z",
-      "lastVerifiedAt": "2026-07-26T15:39:52.993Z",
-      "intelligenceGeneratedAt": "2026-07-26T15:40:07.271Z",
+      "sourceCheckedAt": "2026-07-26T16:36:59.315Z",
+      "lastVerifiedAt": "2026-07-26T16:36:59.315Z",
+      "intelligenceGeneratedAt": "2026-07-26T16:37:14.257Z",
       "expiresAt": "2026-07-26T21:51:43.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "Route may be blocked or diverted.",
       "recommendedAction": "Use an alternate route and check official updates.",
       "affectedArea": "",
@@ -354,9 +360,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-25T03:04:05.000Z",
       "lastUpdated": "2026-07-25T03:04:05.000Z",
-      "sourceCheckedAt": "2026-07-26T15:39:52.993Z",
-      "lastVerifiedAt": "2026-07-26T15:39:52.993Z",
-      "intelligenceGeneratedAt": "2026-07-26T15:40:07.271Z",
+      "sourceCheckedAt": "2026-07-26T16:36:59.315Z",
+      "lastVerifiedAt": "2026-07-26T16:36:59.315Z",
+      "intelligenceGeneratedAt": "2026-07-26T16:37:14.257Z",
       "expiresAt": "2026-07-28T03:04:05.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -369,7 +375,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-07-26T15:39:52.993Z",
+      "discoveredAt": "2026-07-26T16:36:59.315Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -454,9 +460,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-24T18:47:00.000Z",
       "lastUpdated": "2026-07-24T18:47:00.000Z",
-      "sourceCheckedAt": "2026-07-26T15:39:52.993Z",
-      "lastVerifiedAt": "2026-07-26T15:39:52.993Z",
-      "intelligenceGeneratedAt": "2026-07-26T15:40:07.271Z",
+      "sourceCheckedAt": "2026-07-26T16:36:59.315Z",
+      "lastVerifiedAt": "2026-07-26T16:36:59.315Z",
+      "intelligenceGeneratedAt": "2026-07-26T16:37:14.257Z",
       "expiresAt": "2026-07-26T06:47:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -469,7 +475,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-07-26T15:39:52.993Z",
+      "discoveredAt": "2026-07-26T16:36:59.315Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -503,9 +509,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-24T09:01:00.000Z",
       "lastUpdated": "2026-07-24T09:01:00.000Z",
-      "sourceCheckedAt": "2026-07-26T15:39:52.993Z",
-      "lastVerifiedAt": "2026-07-26T15:39:52.993Z",
-      "intelligenceGeneratedAt": "2026-07-26T15:40:07.271Z",
+      "sourceCheckedAt": "2026-07-26T16:36:59.315Z",
+      "lastVerifiedAt": "2026-07-26T16:36:59.315Z",
+      "intelligenceGeneratedAt": "2026-07-26T16:37:14.257Z",
       "expiresAt": "2026-07-26T09:01:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -518,7 +524,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-07-26T15:39:52.993Z",
+      "discoveredAt": "2026-07-26T16:36:59.315Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -535,8 +541,8 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-26T15:39:52.993Z",
-      "lastSuccessfulAt": "2026-07-26T15:39:52.993Z",
+      "sourceCheckedAt": "2026-07-26T16:36:59.315Z",
+      "lastSuccessfulAt": "2026-07-26T16:36:59.315Z",
       "error": null
     }
   },
@@ -580,7 +586,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Khadakwasla Dam: 100% storage.",
-          "updatedAt": "2026-07-26T15:40:07.618Z"
+          "updatedAt": "2026-07-26T16:37:14.518Z"
         },
         "evidence": [
           {
@@ -627,7 +633,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Panshet Dam: 91.01% storage.",
-          "updatedAt": "2026-07-26T15:40:07.618Z"
+          "updatedAt": "2026-07-26T16:37:14.519Z"
         },
         "evidence": [
           {
@@ -673,7 +679,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Varasgaon Dam: 84.74% storage.",
-          "updatedAt": "2026-07-26T15:40:07.619Z"
+          "updatedAt": "2026-07-26T16:37:14.519Z"
         },
         "evidence": [
           {
@@ -720,7 +726,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Temghar Dam: 70.09% storage.",
-          "updatedAt": "2026-07-26T15:40:07.619Z"
+          "updatedAt": "2026-07-26T16:37:14.519Z"
         },
         "evidence": [
           {
@@ -766,7 +772,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Mulshi Dam: 93.96% storage.",
-          "updatedAt": "2026-07-26T15:40:07.619Z"
+          "updatedAt": "2026-07-26T16:37:14.519Z"
         },
         "evidence": [
           {
@@ -810,7 +816,7 @@
         "timeline": {
           "state": "monitoring",
           "note": "Bhatghar Dam: 79.48% storage.",
-          "updatedAt": "2026-07-26T15:40:07.619Z"
+          "updatedAt": "2026-07-26T16:37:14.519Z"
         },
         "evidence": [
           {
@@ -827,7 +833,7 @@
       }
     ],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-26T15:40:07.620Z",
+      "generatedAt": "2026-07-26T16:37:14.521Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -840,7 +846,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-26T15:40:07.620Z",
+      "generatedAt": "2026-07-26T16:37:14.520Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -921,7 +927,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-26T15:40:07.621Z",
+      "generatedAt": "2026-07-26T16:37:14.521Z",
       "mode": "on-demand",
       "relevantDomains": [
         "bridges",
@@ -967,7 +973,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-26T15:40:07.683Z",
+        "generatedAt": "2026-07-26T16:37:14.575Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -1119,7 +1125,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-26T15:40:07.683Z",
+        "generatedAt": "2026-07-26T16:37:14.575Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1218,7 +1224,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-26T15:40:07.683Z",
+        "generatedAt": "2026-07-26T16:37:14.576Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
