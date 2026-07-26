@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-26T17:45:09.118Z",
+  "generatedAt": "2026-07-26T18:46:09.006Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-26T17:45:09.117Z",
+      "generatedAt": "2026-07-26T18:46:09.006Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -160,7 +160,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-26T17:45:09.118Z",
+      "generatedAt": "2026-07-26T18:46:09.006Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -259,7 +259,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-26T17:45:09.118Z",
+      "generatedAt": "2026-07-26T18:46:09.006Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -288,15 +288,13 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 0,
+          "score": 35,
           "label": "Avoid if Possible",
           "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
             "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns.",
-            "Khadakwasla Dam may cause delays or safety concerns.",
-            "Panshet Dam may cause delays or safety concerns.",
-            "Varasgaon Dam may cause delays or safety concerns.",
-            "Temghar Dam may cause delays or safety concerns."
+            "Low visibility may make driving unsafe.",
+            "Moderate rainfall may slow travel."
           ],
           "penalties": [
             {
@@ -304,42 +302,6 @@
               "category": "dam_release",
               "penalty": 25,
               "title": "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana"
-            },
-            {
-              "eventId": "pravah-reservoir-khadakwasla",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Khadakwasla Dam"
-            },
-            {
-              "eventId": "pravah-reservoir-panshet",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Panshet Dam"
-            },
-            {
-              "eventId": "pravah-reservoir-varasgaon",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Varasgaon Dam"
-            },
-            {
-              "eventId": "pravah-reservoir-temghar",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Temghar Dam"
-            },
-            {
-              "eventId": "pravah-reservoir-mulshi",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Mulshi Dam"
-            },
-            {
-              "eventId": "pravah-reservoir-bhatghar",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Bhatghar Dam"
             }
           ]
         },
@@ -348,7 +310,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -379,15 +341,13 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 0,
+            "score": 35,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns.",
-              "Khadakwasla Dam may cause delays or safety concerns.",
-              "Panshet Dam may cause delays or safety concerns.",
-              "Varasgaon Dam may cause delays or safety concerns.",
-              "Temghar Dam may cause delays or safety concerns."
+              "Low visibility may make driving unsafe.",
+              "Moderate rainfall may slow travel."
             ],
             "penalties": [
               {
@@ -395,42 +355,6 @@
                 "category": "dam_release",
                 "penalty": 25,
                 "title": "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana"
-              },
-              {
-                "eventId": "pravah-reservoir-khadakwasla",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Khadakwasla Dam"
-              },
-              {
-                "eventId": "pravah-reservoir-panshet",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Panshet Dam"
-              },
-              {
-                "eventId": "pravah-reservoir-varasgaon",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Varasgaon Dam"
-              },
-              {
-                "eventId": "pravah-reservoir-temghar",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Temghar Dam"
-              },
-              {
-                "eventId": "pravah-reservoir-mulshi",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Mulshi Dam"
-              },
-              {
-                "eventId": "pravah-reservoir-bhatghar",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Bhatghar Dam"
               }
             ]
           },
@@ -439,7 +363,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns."
         }
       ]
     }
