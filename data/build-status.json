@@ -4,10 +4,10 @@
     "version": "6.1.0-production-user-testing",
     "milestone": "Production User Testing Release",
     "status": "degraded",
-    "buildTime": "2026-07-26T21:13:08.126Z",
+    "buildTime": "2026-07-26T22:15:39.010Z",
     "note": "The application built successfully, but one or more live data sources are stale, unavailable, or not connected.",
     "alerts": 1,
-    "incidents": 3,
+    "incidents": 2,
     "weatherRegions": 5,
     "riverEvents": 0,
     "journeys": 3,
@@ -15,8 +15,8 @@
     "trustedMediaSourcesConfigured": 28,
     "sourceSummary": {
       "total": 13,
-      "healthy": 11,
-      "stale": 2,
+      "healthy": 10,
+      "stale": 3,
       "unavailable": 0,
       "unverified": 0
     }

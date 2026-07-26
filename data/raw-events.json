@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "healthy",
-  "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
-  "lastSuccessfulAt": "2026-07-26T21:12:49.189Z",
+  "sourceCheckedAt": "2026-07-26T22:15:11.518Z",
+  "lastSuccessfulAt": "2026-07-26T22:15:11.518Z",
   "error": null,
   "optionalErrors": [],
   "sources": [
@@ -11,8 +11,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
-      "lastSuccessfulAt": "2026-07-26T21:12:49.189Z",
+      "sourceCheckedAt": "2026-07-26T22:15:11.518Z",
+      "lastSuccessfulAt": "2026-07-26T22:15:11.518Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -21,8 +21,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
-      "lastSuccessfulAt": "2026-07-26T21:12:49.189Z",
+      "sourceCheckedAt": "2026-07-26T22:15:11.518Z",
+      "lastSuccessfulAt": "2026-07-26T22:15:11.518Z",
       "error": null,
       "etag": "W/\"9326-1785095232643\"",
       "itemsCollected": 0
@@ -31,8 +31,8 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
-      "lastSuccessfulAt": "2026-07-26T21:12:49.189Z",
+      "sourceCheckedAt": "2026-07-26T22:15:11.518Z",
+      "lastSuccessfulAt": "2026-07-26T22:15:11.518Z",
       "error": null,
       "etag": null,
       "itemsCollected": 1
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
-      "lastSuccessfulAt": "2026-07-26T21:12:49.189Z",
+      "sourceCheckedAt": "2026-07-26T22:15:11.518Z",
+      "lastSuccessfulAt": "2026-07-26T22:15:11.518Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
-      "lastSuccessfulAt": "2026-07-26T21:12:49.189Z",
+      "sourceCheckedAt": "2026-07-26T22:15:11.518Z",
+      "lastSuccessfulAt": "2026-07-26T22:15:11.518Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,8 +61,8 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
-      "lastSuccessfulAt": "2026-07-26T21:12:49.189Z",
+      "sourceCheckedAt": "2026-07-26T22:15:11.518Z",
+      "lastSuccessfulAt": "2026-07-26T22:15:11.518Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -71,8 +71,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
-      "lastSuccessfulAt": "2026-07-26T21:12:49.189Z",
+      "sourceCheckedAt": "2026-07-26T22:15:11.518Z",
+      "lastSuccessfulAt": "2026-07-26T22:15:11.518Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -80,12 +80,12 @@
     {
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
-      "status": "healthy",
-      "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
+      "status": "stale",
+      "sourceCheckedAt": "2026-07-26T22:15:11.518Z",
       "lastSuccessfulAt": "2026-07-26T21:12:49.189Z",
-      "error": null,
-      "itemsCollected": 7,
-      "itemsQualified": 7
+      "error": "Google News RSS request failed with HTTP 503",
+      "itemsCollected": 0,
+      "itemsQualified": 5
     }
   ],
   "items": [
@@ -100,8 +100,8 @@
       "link": "https://indianexpress.com/article/cities/pune/malshej-ghat-closed-national-highway-61-road-damage-alternate-routes-10804395/",
       "publishedAt": "2026-07-26T09:51:43.000Z",
       "lastUpdated": "2026-07-26T09:51:43.000Z",
-      "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
-      "lastVerifiedAt": "2026-07-26T21:12:49.189Z",
+      "sourceCheckedAt": "2026-07-26T22:15:11.518Z",
+      "lastVerifiedAt": "2026-07-26T22:15:11.518Z",
       "expiresAt": "2026-07-26T21:51:43.000Z"
     },
     {
@@ -150,33 +150,6 @@
       "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
       "lastVerifiedAt": "2026-07-26T21:12:49.189Z",
       "expiresAt": "2026-07-28T18:44:00.000Z",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "geographicScope": "pune_district",
-      "affectedArea": "Pune District",
-      "talukas": [],
-      "localities": []
-    },
-    {
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "collectionSourceId": "google_news_discovery",
-      "upstreamId": "google-news-420397df",
-      "title": "Developing: Man shot at outside Ghorpade Peth police chowkey; four held",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "public_safety",
-      "severity": "warning",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWTJqcE14V2dvRFFVR0ZxWXpReUlPa1RPazVTX056STRKQ3ZUa25laGdad2FXUzRxTkpWY2RMVWFTS0xXTmpZNGFQUEdueEdTNWt0NEN6Xy02UEZRSTJOS2IxalBfLUgxZzVwNk1oeDdJUVg2X2VJX3RybXhLaVBEUVV0Z0o0TXc3c0hLLWNvd3dEa0Z6bEk5ZWNEUUZ2M25sTndZU3pPYXlZTnJYYzBYNXBIVE4yaXJ0cmxTVnljc1N5Y25OcXR5UHZB0gHPAUFVX3lxTE5lWTJHcGdqVVZoa3F5LVpOdTFRZFVCNGdsTXdKWVE1NFNtX3l6MDYwWGhJM1JfTlZvTmlhNWV5MHdEalp5QmM2cDJ4VGM2c3VQN3FVNGNxeDh2VmNaZDNNeUxxdmdXdXJVNF8xczJ4endSUnNfTURDZ0ZsQ3MtajNndy1Ed28wYnBmV0tGcHVRaVBiaUJjbjdvcDNKU0FjMUlNV0hRMDc5Z0pBYWJ2U3V1SUN5TnpBTXNuQnZYbTd0YkYxcms4enk5VEZCS012OA?oc=5",
-      "sourceOrigin": "",
-      "publishedAt": "2026-07-24T18:47:00.000Z",
-      "discoveredAt": "2026-07-26T21:12:49.189Z",
-      "lastUpdated": "2026-07-24T18:47:00.000Z",
-      "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
-      "lastVerifiedAt": "2026-07-26T21:12:49.189Z",
-      "expiresAt": "2026-07-26T06:47:00.000Z",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
@@ -275,33 +248,6 @@
       "localities": [
         "Khadakwasla"
       ]
-    },
-    {
-      "eventKind": "incident",
-      "sourceId": "mid_day",
-      "collectionSourceId": "google_news_discovery",
-      "upstreamId": "google-news-7d2e3ac5",
-      "title": "Developing: Maharashtra weather update: Red alert for Pune ghats, heavy rain and strong winds likely across state",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "heavy_rain",
-      "severity": "warning",
-      "source": "Mid-day",
-      "sourceTrust": "B",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaGZoQUFqTGhPT1ZrNDdES0lmallpV21jYTdkdUp3RFNwNnZkbTYzMUlrTlFuS0dDdmYtM09OTENSYmZQR1JwUnEwVHE4LXh2Z2RHY3pQVlQzQjR3MmtCb0hOZTRFajdSTm92Y0Z1eEcwUzlOaU1iQjJUbHg4RTlBTFBibXJHZTVXM2tVM01oTTQyVmo3Yjk5TUdrTGd0ZXAxNW1lMHNWYWsxbExMb01ldm51VmRhN2JaQ0RoWEFBVjdIZlNUQ0NweE9wVkNyaVBEckdoQU5Mc3ZNUWJ0VUHSAeMBQVVfeXFMTTVLblk0NC1WTExlLWszSGR5SEx4N2tiMy1LaEJsdXh0MkdNTW5qa1ZuVWw1bE9iQkw3OERLT0ZHMEExVkcxLXlKbFFkUXhkblZmMnE5Q1Rkb1R1SXMxN2tFTHpfb2JaVEppWjVpVGx1N3ducGt6NEdEUm81UWxzWlMycjBUWUlUeVQzaXdfYUJiUDhtbWppSS1IcW5Ra3BXaXVHZkw5eUpjbjVEajlnb1YtSUNDREFKZHJuVzNwLTlJdTU5WVJPY0tVTEJBblJFYmI3Ukk4U2xvYnQwcFljUUdHc1E?oc=5",
-      "sourceOrigin": "",
-      "publishedAt": "2026-07-24T09:01:00.000Z",
-      "discoveredAt": "2026-07-26T21:12:49.189Z",
-      "lastUpdated": "2026-07-24T09:01:00.000Z",
-      "sourceCheckedAt": "2026-07-26T21:12:49.189Z",
-      "lastVerifiedAt": "2026-07-26T21:12:49.189Z",
-      "expiresAt": "2026-07-26T09:01:00.000Z",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "geographicScope": "pune_district",
-      "affectedArea": "Pune District",
-      "talukas": [],
-      "localities": []
     }
   ]
 }
