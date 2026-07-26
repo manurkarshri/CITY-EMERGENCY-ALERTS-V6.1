@@ -1,15 +1,18 @@
 export function buildWeatherIntelligence(weather = {}) {
   const regions = {};
   for (const [key, item] of Object.entries(weather.regions || {})) {
-    const rain6h = Number(item.next6hRainMm ?? item.rain ?? 0);
+    const currentRain = Number(item.rain ?? 0);
+    const rain6h = Number(item.next6hRainMm ?? currentRain);
+    const rain24h = Number(item.next24hRainMm ?? rain6h);
+    const rainProbability = Number(item.precipitationProbability ?? 0);
     const wind = Number(item.gust ?? item.wind ?? 0);
     const visibility = Number(item.visibility ?? 10);
     const temp = Number(item.temp ?? 0);
-    const rainRisk = rain6h >= 30 ? "High" : rain6h >= 15 ? "Medium" : rain6h >= 5 ? "Low" : "Minimal";
+    const rainRisk = rain6h >= 30 || rain24h >= 60 ? "High" : rain6h >= 15 || rain24h >= 30 ? "Medium" : rain6h >= 5 || rain24h >= 10 || currentRain > 0 || rainProbability >= 80 ? "Low" : "Minimal";
     const windRisk = wind >= 60 ? "High" : wind >= 40 ? "Medium" : wind >= 20 ? "Low" : "Minimal";
     const visibilityRisk = visibility <= 1 ? "High" : visibility <= 2 ? "Medium" : visibility <= 5 ? "Low" : "Minimal";
     const heatRisk = temp >= 45 ? "Emergency" : temp >= 41 ? "Warning" : temp >= 38 ? "Watch" : "Normal";
-    regions[key] = { label: item.label || key, latitude: Number(item.latitude), longitude: Number(item.longitude), source: item.source || "Weather", sourceUrl: item.sourceUrl || null, sourceCheckedAt: item.sourceCheckedAt || weather.sourceCheckedAt || null, observedAt: item.observedAt || null, temp, currentRain: Number(item.rain ?? 0), rain6h, precipitationProbability: Number(item.precipitationProbability ?? 0), wind, gust: Number(item.gust ?? item.wind ?? 0), humidity: Number(item.humidity ?? 0), visibility, weatherCode: item.weatherCode ?? null, rainRisk, windRisk, visibilityRisk, heatRisk, travelImpact: rainRisk === "High" || visibilityRisk === "High" ? "High" : rainRisk === "Medium" ? "Medium" : "Low", advice: buildWeatherAdvice(rainRisk, windRisk, visibilityRisk, heatRisk) };
+    regions[key] = { label: item.label || key, latitude: Number(item.latitude), longitude: Number(item.longitude), source: item.source || "Weather", sourceUrl: item.sourceUrl || null, sourceCheckedAt: item.sourceCheckedAt || weather.sourceCheckedAt || null, observedAt: item.observedAt || null, temp, currentRain, rain6h, rain24h, precipitationProbability: rainProbability, wind, gust: Number(item.gust ?? item.wind ?? 0), humidity: Number(item.humidity ?? 0), visibility, weatherCode: item.weatherCode ?? null, rainRisk, windRisk, visibilityRisk, heatRisk, travelImpact: rainRisk === "High" || visibilityRisk === "High" ? "High" : rainRisk === "Medium" ? "Medium" : "Low", advice: buildWeatherAdvice(rainRisk, windRisk, visibilityRisk, heatRisk) };
   }
   return { generatedAt: new Date().toISOString(), regions };
 }

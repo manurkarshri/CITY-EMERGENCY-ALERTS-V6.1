@@ -70,8 +70,10 @@ try {
   discoveryData = { ...discoveryData, status: "healthy", items: verifiedDiscoveries, collectedItems: discoveries.length, qualifiedItems: developingIncidents.length };
   sourceStates.push({ id: "google_news_discovery", name: "Google News trusted-media discovery", status: "healthy", sourceCheckedAt: checkedAt, lastSuccessfulAt: checkedAt, error: null, itemsCollected: discoveries.length, itemsQualified: developingIncidents.length });
 } catch (error) {
+  const preserved = preservedItems(previous.items, "google_news_discovery");
+  items.push(...preserved);
   discoveryData.error = error?.message || "Google News discovery failed";
-  sourceStates.push({ id: "google_news_discovery", name: "Google News trusted-media discovery", status: "unavailable", sourceCheckedAt: checkedAt, lastSuccessfulAt: null, error: discoveryData.error, itemsCollected: 0, itemsQualified: 0 });
+  sourceStates.push({ id: "google_news_discovery", name: "Google News trusted-media discovery", status: preserved.length ? "stale" : "unavailable", sourceCheckedAt: checkedAt, lastSuccessfulAt: (previous.sources || []).find(source => source.id === "google_news_discovery")?.lastSuccessfulAt || null, error: discoveryData.error, itemsCollected: 0, itemsQualified: preserved.length });
 }
 await writeJson("data/google-news-discovery.json", discoveryData);
 await writeJson("data/raw-events.json", { schemaVersion: "6.1.0", mode: "live", status: collectionHealth.status,

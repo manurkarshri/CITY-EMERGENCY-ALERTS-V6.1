@@ -23,7 +23,10 @@ const normalized = normalizeOpenMeteoResponse({
   hourly: { time: ["2026-07-10T12:00", "2026-07-10T13:00", "2026-07-10T14:00"], precipitation_probability: [60, 70, 40], precipitation: [1.2, 2.3, 0.5], visibility: [8000, 6000, 9000] }
 }, locations, "2026-07-10T06:30:00.000Z");
 assert(normalized.pune_city.next6hRainMm === 4, "Open-Meteo rainfall normalization failed");
+assert(normalized.pune_city.next24hRainMm === 4, "Open-Meteo 24-hour rainfall normalization failed");
 assert(normalized.pune_city.precipitationProbability === 70, "Open-Meteo probability normalization failed");
 assert(normalized.pune_city.visibility === 6, "Open-Meteo visibility normalization failed");
 assert(normalized.pune_city.observedAt.endsWith("+05:30"), "Open-Meteo local timestamp normalization failed");
+const raining = buildWeatherIntelligence({ regions: { pune_city: { rain: 0.1, next6hRainMm: 0.9, next24hRainMm: 4, precipitationProbability: 100 } } });
+assert(raining.regions.pune_city.rainRisk === "Low", "Current rain and high probability must not be labelled Minimal");
 console.log("Environmental intelligence tests passed.");

@@ -18,9 +18,11 @@ try {
     ...parseRtdasReservoirPage(reservoirHtml, config.reservoirs, checkedAt)
   ];
   if (!items.length) throw new Error("RTDAS returned no configured Pune river or reservoir records");
-  output = { schemaVersion: "6.1.0", generatedAt: checkedAt, sourceCheckedAt: checkedAt, lastSuccessfulAt: checkedAt, status: "current", staleAfterMinutes: config.staleAfterMinutes || 180, attribution: { name: "Maharashtra WRD RTDAS", url: "https://wrd.maharashtra.gov.in/" }, items };
-  setHealth("healthy", checkedAt, null);
-  log("Maharashtra RTDAS river collection completed.", { items: items.length, current: items.filter(item => item.freshness === "current").length });
+  const currentItems = items.filter(item => item.freshness === "current");
+  const status = currentItems.length ? "current" : "stale";
+  output = { schemaVersion: "6.1.0", generatedAt: checkedAt, sourceCheckedAt: checkedAt, lastSuccessfulAt: checkedAt, status, staleAfterMinutes: config.staleAfterMinutes || 180, attribution: { name: "Maharashtra WRD RTDAS", url: "https://wrd.maharashtra.gov.in/" }, items };
+  setHealth(status === "current" ? "healthy" : "stale", checkedAt, status === "stale" ? "RTDAS responded, but all configured readings are older than the freshness limit." : null);
+  log("Maharashtra RTDAS river collection completed.", { items: items.length, current: currentItems.length });
 } catch (error) {
   const hasPrevious = previous.items?.length && previous.lastSuccessfulAt;
   output = { ...previous, schemaVersion: "6.1.0", generatedAt: checkedAt, sourceCheckedAt: checkedAt, status: hasPrevious ? "stale" : "unavailable", error: "Maharashtra WRD RTDAS could not be reached during the latest check." };

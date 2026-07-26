@@ -52,6 +52,9 @@ export function eventVerification(item = {}) {
   const official = (item.sources || []).find(source => ["A+", "A"].includes(source.trust) && safeHttpUrl(source.link));
   if (official) return `<p class="event-verification official-confirmation"><strong>Officially confirmed by <a href="${escapeAttr(safeHttpUrl(official.link))}" target="_blank" rel="noopener">${escapeHtml(official.name || "official source")}</a>.</strong></p>`;
   if (item.sourceTrust !== "B") return "";
+  if (item.alertBasis === "trusted_media_attributed_official" && item.reportedAuthority) {
+    return `<p class="event-verification"><strong>${escapeHtml(item.source || "Trusted media")} attributes this alert to ${escapeHtml(item.reportedAuthority)}.</strong> The app did not receive the original official notice directly; verify through the linked report and follow subsequent official instructions.</p>`;
+  }
   const count = item.independentSourceCount || independentSourceCount(item.sources || []);
   if (item.corroboratedByIndependentSources && count > 1) return `<p class="event-verification"><strong>Independently reported by ${count} trusted sources.</strong></p>`;
   return `<p class="event-verification">Reported by ${escapeHtml(item.source || "a trusted publisher")}. This is a developing media report.</p>`;

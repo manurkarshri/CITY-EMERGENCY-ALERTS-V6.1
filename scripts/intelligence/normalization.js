@@ -32,6 +32,7 @@ export async function normalizeRawEvent(raw = {}) {
     upstreamId: raw.upstreamId || "",
     collectionProvider: raw.collectionProvider || "",
     discoveryOnly: Boolean(raw.discoveryOnly),
+    reportedAuthority: raw.reportedAuthority || "",
     discoveredAt: raw.discoveredAt || null,
     capMessageType: raw.capMessageType || "",
     capReferences: raw.capReferences || "",

@@ -19,7 +19,7 @@ export function renderSituation() {
       ${weather && weatherStatus !== "unavailable" ? `
         <div class="grid">
           ${weatherMetric(`${weather.temp ?? "--"}°C`, "Temperature", temperatureGuidance(weather.temp))}
-          ${weatherMetric(weather.rainRisk || "Minimal", "Rain Risk", rainGuidance(weather))}
+          ${weatherMetric(rainStatus(weather), "Rain", rainGuidance(weather))}
           ${weatherMetric(`${weather.wind ?? "--"} km/h`, "Wind", windGuidance(weather.wind, weather.gust))}
           ${weatherMetric(`${weather.visibility ?? "--"} km`, "Visibility", visibilityGuidance(weather.visibility))}
         </div>
@@ -64,14 +64,16 @@ function renderRiverIntelligence() {
   const reservoirs = items.filter(item => item.kind === "reservoir");
   if (!items.length) return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2><p class="empty">Current official river and dam readings are unavailable.</p></section>`;
   const attention = items.filter(item => ["watch", "warning", "emergency", "elevated", "high", "critical"].includes(item.severity) || ["elevated", "high", "critical"].includes(item.status)).length;
+  const stale = items.filter(item => item.dataFreshness === "stale").length;
   const summary = attention ? `${attention} of ${items.length} official readings need attention` : `No Risk on ${items.length} official readings`;
   return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2>
     <p><strong>${attention ? "River and dam conditions need attention" : "Rivers and dams normal"}:</strong> ${escapeHtml(summary)}</p>
+    ${stale ? `<p class="small"><strong>${stale} reading${stale === 1 ? " is" : "s are"} stale.</strong> Values are shown for context and must not be treated as current safety confirmation.</p>` : ""}
     <details><summary>View ${items.length} official readings</summary>
       <p class="small">Official Maharashtra WRD readings. Reservoir storage is informational and does not by itself indicate a flood warning.</p>
       <ul class="compact-list">
-        ${gauges.map(item => `<li><strong>${escapeHtml(item.station)}</strong> · ${escapeHtml(item.river)} · ${escapeHtml(item.status === "normal" ? "below alert level" : item.status)}${Number.isFinite(item.level) ? ` · ${escapeHtml(item.level)} m` : ""}</li>`).join("")}
-        ${reservoirs.map(item => `<li><strong>${escapeHtml(item.damLabel)}</strong>${Number.isFinite(item.storagePercent) ? ` · ${escapeHtml(item.storagePercent)}% storage` : ""}${Number.isFinite(item.dischargeCumecs) ? ` · ${escapeHtml(item.dischargeCumecs)} cumecs reported discharge` : ""}</li>`).join("")}
+        ${gauges.map(item => `<li><strong>${escapeHtml(item.station)}</strong> · ${escapeHtml(item.river)} · ${escapeHtml(item.status === "normal" ? "below alert level" : item.status)}${Number.isFinite(item.level) ? ` · ${escapeHtml(item.level)} m` : ""}${Number.isFinite(item.dischargeCumecs) ? ` · ${escapeHtml(item.dischargeCumecs)} cumecs` : ""}${item.lastUpdated ? ` · observed ${escapeHtml(relativeTime(item.lastUpdated))}` : ""}</li>`).join("")}
+        ${reservoirs.map(item => `<li><strong>${escapeHtml(item.damLabel)}</strong>${Number.isFinite(item.storagePercent) ? ` · ${escapeHtml(item.storagePercent)}% storage` : ""}${Number.isFinite(item.dischargeCumecs) ? ` · ${escapeHtml(item.dischargeCumecs)} cumecs reported discharge` : ""}${item.lastUpdated ? ` · observed ${escapeHtml(relativeTime(item.lastUpdated))}` : ""}</li>`).join("")}
       </ul>
     </details>
   </section>`;
@@ -92,8 +94,20 @@ export function temperatureGuidance(value) {
 }
 
 export function rainGuidance(weather = {}) {
-  const now = Number(weather.currentRain || 0) > 0 ? "Raining now" : "No measurable rain now";
-  return `${now}; ${weather.rainRisk || "Minimal"} risk in next 6 hours`;
+  const now = isPrecipitationNow(weather) ? "Raining now" : "No measurable rain now";
+  const forecast = Number.isFinite(Number(weather.rain24h)) ? `${Number(weather.rain24h).toFixed(1)} mm forecast in next 24 hours` : `${weather.rainRisk || "Minimal"} rain risk`;
+  const probability = Number.isFinite(Number(weather.precipitationProbability)) ? `; peak probability ${Math.round(Number(weather.precipitationProbability))}%` : "";
+  return `${now}; ${forecast}${probability}`;
+}
+
+export function rainStatus(weather = {}) {
+  if (isPrecipitationNow(weather)) return "Raining now";
+  return `${weather.rainRisk || "Minimal"} risk`;
+}
+
+function isPrecipitationNow(weather = {}) {
+  const code = Number(weather.weatherCode);
+  return Number(weather.currentRain || 0) > 0 || (code >= 51 && code <= 67) || (code >= 80 && code <= 82);
 }
 
 export function windGuidance(value, gustValue) {

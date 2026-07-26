@@ -29,6 +29,8 @@ export function createEvent(input = {}) {
     upstreamId: input.upstreamId || "",
     collectionProvider: input.collectionProvider || "",
     discoveryOnly: Boolean(input.discoveryOnly),
+    reportedAuthority: input.reportedAuthority || "",
+    alertBasis: input.alertBasis || "",
     discoveredAt: input.discoveredAt || null,
     capMessageType: input.capMessageType || "",
     capReferences: input.capReferences || "",

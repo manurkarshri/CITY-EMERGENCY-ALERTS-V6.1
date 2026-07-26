@@ -1,4 +1,5 @@
 import { parseRtdasRiverPage, parseRtdasReservoirPage } from "../scripts/collectors/maharashtra-rtdas.js";
+import { buildRiverIntelligence } from "../scripts/environment/river-intelligence.js";
 
 function assert(condition, message) { if (!condition) throw new Error(message); }
 
@@ -12,5 +13,8 @@ const reservoirHtml = `<input title="Reservoir Level : 582.56 (mtr)&lt;/br>Disch
 const reservoir = parseRtdasReservoirPage(reservoirHtml, { Khadakwasala: "khadakwasla" }, "2026-07-11T19:30:00+05:30");
 assert(reservoir.length === 1 && reservoir[0].storagePercent === 100, "RTDAS reservoir storage was not parsed");
 assert(reservoir[0].status === "normal", "Full storage was incorrectly converted into a flood warning");
+const staleRiver = parseRtdasRiverPage(riverHtml, { Dattawadi: { river: "Mutha River", talukas: ["pune_city"], localities: ["Dattawadi"] } }, "2026-07-12T19:30:00+05:30");
+const staleIntelligence = await buildRiverIntelligence({ items: staleRiver });
+assert(staleIntelligence.length === 1 && staleIntelligence[0].dataFreshness === "stale", "Stale official river readings should remain visible with a warning");
 
 console.log("Maharashtra RTDAS river tests passed.");

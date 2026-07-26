@@ -10,8 +10,8 @@ assert(verified[0].verificationStatus === "verified_direct_article", "Matching d
 const materialized = await materializeGoogleDiscoveries(discoveries, checkedAt);
 assert(materialized.length === 2, "Trusted Google discoveries must create developing incidents");
 assert(materialized.every(item => item.eventKind === "incident" && item.sourceTrust === "B" && item.collectionProvider === "Google News RSS"), "Google discoveries must remain trusted-media incidents, not official alerts");
-const staleDiscovery = { ...discoveries[0], publishedAt: "2026-07-10T22:00:00.000Z" };
-assert((await materializeGoogleDiscoveries([staleDiscovery], checkedAt)).length === 0, "Google-only discoveries older than 12 hours must not become current incidents");
+const staleDiscovery = { ...discoveries[0], publishedAt: "2026-07-07T22:00:00.000Z" };
+assert((await materializeGoogleDiscoveries([staleDiscovery], checkedAt)).length === 0, "Google-only discoveries older than 72 hours must not become current incidents");
 const hindiXml = `<?xml version="1.0"?><rss><channel><item><title>\u092a\u0941\u0923\u0947 \u092e\u0947\u0902 \u0938\u0921\u093c\u0915 \u092c\u0902\u0926 - ANI</title><link>https://news.google.com/hi</link><pubDate>Sat, 11 Jul 2026 10:20:00 GMT</pubDate><source>ANI</source></item></channel></rss>`;
 const hindi = normalizeGoogleNewsRss(hindiXml, checkedAt);
 assert(hindi.length === 1 && hindi[0].publisherId === "ani" && hindi[0].category === "road_closure", "Hindi ANI discovery must be retained and classified");
@@ -30,8 +30,18 @@ const accidentXml = `<?xml version="1.0"?><rss><channel>
 const accidents = normalizeGoogleNewsRss(accidentXml, checkedAt);
 assert(accidents.length === 4 && accidents.every(item => item.category === "accident"), "Hit-and-run and procession collision wording must create accident incidents");
 assert(["the_print", "moneycontrol", "mid_day"].every(id => accidents.some(item => item.publisherId === id)), "ThePrint, Moneycontrol and Mid-day must be accepted as Tier 2 publishers");
-const englishQuery = decodeURIComponent(FEED_URLS[0]);
+const englishQuery = FEED_URLS.map(decodeURIComponent).find(url => url.includes("Pune (accident OR hit-and-run")) || "";
 assert(englishQuery.includes("Pune (accident OR hit-and-run") && !englishQuery.includes("Pune (PMC OR"), "Pune accident discovery must not require an extra municipal keyword");
 assert(FEED_URLS.some(url => decodeURIComponent(url).includes("PCMC OR Pimpri")) && FEED_URLS.some(url => decodeURIComponent(url).includes("Pune District OR Lonavala")), "PCMC localities and Pune District towns must have focused discovery searches");
+const advisoryXml = `<?xml version="1.0"?><rss><channel>
+<item><title>Pune rain: Khadakwasla dam discharge continues, citizens advised to stay alert - The Indian Express</title><link>https://news.google.com/dam</link><pubDate>Sat, 11 Jul 2026 10:40:00 GMT</pubDate><source>The Indian Express</source></item>
+<item><title>PMC advises Pune residents to boil tap water amid turbidity concerns - Hindustan Times</title><link>https://news.google.com/water</link><pubDate>Sat, 11 Jul 2026 10:41:00 GMT</pubDate><source>Hindustan Times</source></item>
+</channel></rss>`;
+const advisories = normalizeGoogleNewsRss(advisoryXml, checkedAt);
+assert(advisories.some(item => item.category === "dam_release"), "Dam discharge reporting must be discovered");
+assert(advisories.some(item => item.category === "health_emergency"), "Drinking-water safety advisories must be discovered");
+const attributedXml = `<?xml version="1.0"?><rss><channel><item><title>IMD issues red alert for Pune ghats amid very heavy rain - Hindustan Times</title><link>https://news.google.com/imd</link><pubDate>Sat, 11 Jul 2026 10:42:00 GMT</pubDate><source>Hindustan Times</source></item></channel></rss>`;
+const attributedWarning = normalizeGoogleNewsRss(attributedXml, checkedAt);
+assert(attributedWarning[0]?.reportedAuthority === "India Meteorological Department", "Named official authority must be retained from a trusted-media alert headline");
 console.log("Google News discovery tests passed.");
 function assert(condition, message) { if (!condition) throw new Error(message); }

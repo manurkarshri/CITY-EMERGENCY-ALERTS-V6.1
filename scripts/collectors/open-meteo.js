@@ -26,8 +26,10 @@ export function normalizeOpenMeteoResponse(payload, locations, checkedAt) {
       throw new Error(`Open-Meteo response is incomplete for ${location.label || key}`);
     }
     const nextIndexes = futureHourlyIndexes(response.hourly.time, response.current.time, 6);
+    const next24Indexes = futureHourlyIndexes(response.hourly.time, response.current.time, 24);
     const precipitation = nextIndexes.reduce((sum, i) => sum + finite(response.hourly.precipitation?.[i]), 0);
-    const probabilities = nextIndexes.map(i => finite(response.hourly.precipitation_probability?.[i]));
+    const precipitation24h = next24Indexes.reduce((sum, i) => sum + finite(response.hourly.precipitation?.[i]), 0);
+    const probabilities = next24Indexes.map(i => finite(response.hourly.precipitation_probability?.[i]));
     const visibilityValues = nextIndexes.map(i => finite(response.hourly.visibility?.[i], 10000));
 
     return [key, {
@@ -38,6 +40,7 @@ export function normalizeOpenMeteoResponse(payload, locations, checkedAt) {
       rain: finite(response.current.rain),
       precipitation: finite(response.current.precipitation),
       next6hRainMm: round(precipitation, 1),
+      next24hRainMm: round(precipitation24h, 1),
       precipitationProbability: Math.max(0, ...probabilities),
       wind: finite(response.current.wind_speed_10m),
       gust: finite(response.current.wind_gusts_10m),

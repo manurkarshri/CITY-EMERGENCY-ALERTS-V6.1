@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-26T09:46:45.737Z",
+  "generatedAt": "2026-07-26T10:41:35.299Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,54 +8,96 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-26T09:46:45.737Z",
+      "generatedAt": "2026-07-26T10:41:35.299Z",
       "bestRoute": {
-        "id": "kharadi-hinjawadi-nh48",
-        "label": "Kharadi to Hinjawadi via NH48",
+        "id": "kharadi-hinjawadi-pashan",
+        "label": "Kharadi to Hinjawadi via Pashan",
         "fromAliases": [
           "Kharadi",
-          "EON",
-          "World Trade Center"
+          "EON"
         ],
         "toAliases": [
           "Hinjawadi",
-          "Hinjewadi",
-          "Rajiv Gandhi Infotech Park"
+          "Hinjewadi"
         ],
         "via": [
           "Kharadi",
-          "Viman Nagar",
-          "Shivajinagar",
-          "Baner",
-          "Wakad",
+          "Yerwada",
+          "Aundh",
+          "Pashan",
+          "Mahalunge",
           "Hinjawadi"
         ],
         "operationalZones": [
-          "Pune-Ahmednagar Highway",
-          "NH48",
+          "Pashan Road",
           "IT Corridor"
         ],
-        "distanceKm": 33,
-        "baseTimeMin": 65,
-        "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+        "distanceKm": 36,
+        "baseTimeMin": 72,
+        "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 70,
+          "score": 60,
           "label": "Proceed with Caution",
           "recommendation": "Proceed with caution and allow extra travel time.",
           "reasons": [
-            "Low visibility may make driving unsafe."
+            "Low visibility may make driving unsafe.",
+            "Moderate rainfall may slow travel."
           ],
           "penalties": []
         },
-        "estimatedTimeMin": 80,
+        "estimatedTimeMin": 87,
         "estimatedDelayMin": 15,
-        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
       },
       "routes": [
+        {
+          "id": "kharadi-hinjawadi-pashan",
+          "label": "Kharadi to Hinjawadi via Pashan",
+          "fromAliases": [
+            "Kharadi",
+            "EON"
+          ],
+          "toAliases": [
+            "Hinjawadi",
+            "Hinjewadi"
+          ],
+          "via": [
+            "Kharadi",
+            "Yerwada",
+            "Aundh",
+            "Pashan",
+            "Mahalunge",
+            "Hinjawadi"
+          ],
+          "operationalZones": [
+            "Pashan Road",
+            "IT Corridor"
+          ],
+          "distanceKm": 36,
+          "baseTimeMin": 72,
+          "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 60,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
+            "reasons": [
+              "Low visibility may make driving unsafe.",
+              "Moderate rainfall may slow travel."
+            ],
+            "penalties": []
+          },
+          "estimatedTimeMin": 87,
+          "estimatedDelayMin": 15,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        },
         {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -87,63 +129,36 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 0,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
-              "Low visibility may make driving unsafe."
+              "Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions may significantly affect this route.",
+              "dam_release may cause delays or safety concerns.",
+              "Low visibility may make driving unsafe.",
+              "Moderate rainfall may slow travel."
             ],
-            "penalties": []
+            "penalties": [
+              {
+                "eventId": "road-closure-developing-malshej-ghat-in-maharashtra-closed-indefinitely-after-highway-dama",
+                "category": "road_closure",
+                "penalty": 35,
+                "title": "Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions"
+              },
+              {
+                "eventId": "rtdas-river-kalyani-nagar-bridge",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              }
+            ]
           },
-          "estimatedTimeMin": 80,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-          "rank": 1,
-          "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
-        },
-        {
-          "id": "kharadi-hinjawadi-pashan",
-          "label": "Kharadi to Hinjawadi via Pashan",
-          "fromAliases": [
-            "Kharadi",
-            "EON"
-          ],
-          "toAliases": [
-            "Hinjawadi",
-            "Hinjewadi"
-          ],
-          "via": [
-            "Kharadi",
-            "Yerwada",
-            "Aundh",
-            "Pashan",
-            "Mahalunge",
-            "Hinjawadi"
-          ],
-          "operationalZones": [
-            "Pashan Road",
-            "IT Corridor"
-          ],
-          "distanceKm": 36,
-          "baseTimeMin": 72,
-          "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
-          "routeType": "known-corridor",
-          "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
-            "reasons": [
-              "Low visibility may make driving unsafe."
-            ],
-            "penalties": []
-          },
-          "estimatedTimeMin": 87,
-          "estimatedDelayMin": 15,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions may significantly affect this route."
         }
       ]
     },
@@ -152,7 +167,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-26T09:46:45.737Z",
+      "generatedAt": "2026-07-26T10:41:35.299Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -182,11 +197,12 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 70,
+          "score": 60,
           "label": "Proceed with Caution",
           "recommendation": "Proceed with caution and allow extra travel time.",
           "reasons": [
-            "Low visibility may make driving unsafe."
+            "Low visibility may make driving unsafe.",
+            "Moderate rainfall may slow travel."
           ],
           "penalties": []
         },
@@ -195,7 +211,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
       },
       "routes": [
         {
@@ -227,11 +243,12 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
+            "score": 60,
             "label": "Proceed with Caution",
             "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Low visibility may make driving unsafe."
+              "Low visibility may make driving unsafe.",
+              "Moderate rainfall may slow travel."
             ],
             "penalties": []
           },
@@ -240,7 +257,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         }
       ]
     },
@@ -249,7 +266,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-26T09:46:45.737Z",
+      "generatedAt": "2026-07-26T10:41:35.299Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -278,20 +295,121 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 70,
-          "label": "Proceed with Caution",
-          "recommendation": "Proceed with caution and allow extra travel time.",
+          "score": 0,
+          "label": "Avoid if Possible",
+          "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
-            "Low visibility may make driving unsafe."
+            "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns.",
+            "dam_release may cause delays or safety concerns.",
+            "Veer Dam may cause delays or safety concerns.",
+            "Bhatghar Dam may cause delays or safety concerns.",
+            "Varasgaon Dam may cause delays or safety concerns."
           ],
-          "penalties": []
+          "penalties": [
+            {
+              "eventId": "dam-release-developing-collective-storage-in-reservoirs-around-pune-hits-80-water-discharg",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana"
+            },
+            {
+              "eventId": "rtdas-river-koregaon-bhima",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "dam_release"
+            },
+            {
+              "eventId": "rtdas-river-paragaon",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "dam_release"
+            },
+            {
+              "eventId": "rtdas-river-daund",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "dam_release"
+            },
+            {
+              "eventId": "rtdas-river-umbre-kasurdi",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "dam_release"
+            },
+            {
+              "eventId": "rtdas-river-dattawadi",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "dam_release"
+            },
+            {
+              "eventId": "rtdas-river-kalyani-nagar-bridge",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "dam_release"
+            },
+            {
+              "eventId": "rtdas-river-pimple-gurav",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "dam_release"
+            },
+            {
+              "eventId": "rtdas-reservoir-veer",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "Veer Dam"
+            },
+            {
+              "eventId": "rtdas-reservoir-bhatghar",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "Bhatghar Dam"
+            },
+            {
+              "eventId": "rtdas-reservoir-varasgaon",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "Varasgaon Dam"
+            },
+            {
+              "eventId": "rtdas-reservoir-panshet",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "Panshet Dam"
+            },
+            {
+              "eventId": "rtdas-reservoir-khadakwasla",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "Khadakwasla Dam"
+            },
+            {
+              "eventId": "rtdas-reservoir-temghar",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "Temghar Dam"
+            },
+            {
+              "eventId": "rtdas-reservoir-mulshi",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "Mulshi Dam"
+            },
+            {
+              "eventId": "rtdas-reservoir-pawna",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "Pawna Dam"
+            }
+          ]
         },
-        "estimatedTimeMin": 50,
-        "estimatedDelayMin": 15,
+        "estimatedTimeMin": 80,
+        "estimatedDelayMin": 45,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -322,20 +440,121 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 0,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
-              "Low visibility may make driving unsafe."
+              "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns.",
+              "dam_release may cause delays or safety concerns.",
+              "Veer Dam may cause delays or safety concerns.",
+              "Bhatghar Dam may cause delays or safety concerns.",
+              "Varasgaon Dam may cause delays or safety concerns."
             ],
-            "penalties": []
+            "penalties": [
+              {
+                "eventId": "dam-release-developing-collective-storage-in-reservoirs-around-pune-hits-80-water-discharg",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana"
+              },
+              {
+                "eventId": "rtdas-river-koregaon-bhima",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-river-paragaon",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-river-daund",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-river-umbre-kasurdi",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-river-dattawadi",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-river-kalyani-nagar-bridge",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-river-pimple-gurav",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "dam_release"
+              },
+              {
+                "eventId": "rtdas-reservoir-veer",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Veer Dam"
+              },
+              {
+                "eventId": "rtdas-reservoir-bhatghar",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Bhatghar Dam"
+              },
+              {
+                "eventId": "rtdas-reservoir-varasgaon",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Varasgaon Dam"
+              },
+              {
+                "eventId": "rtdas-reservoir-panshet",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Panshet Dam"
+              },
+              {
+                "eventId": "rtdas-reservoir-khadakwasla",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Khadakwasla Dam"
+              },
+              {
+                "eventId": "rtdas-reservoir-temghar",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Temghar Dam"
+              },
+              {
+                "eventId": "rtdas-reservoir-mulshi",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Mulshi Dam"
+              },
+              {
+                "eventId": "rtdas-reservoir-pawna",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Pawna Dam"
+              }
+            ]
           },
-          "estimatedTimeMin": 50,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns."
         }
       ]
     }
