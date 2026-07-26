@@ -23,6 +23,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Enable pnpm
+        run: corepack enable
+      - name: Install collector dependencies
+        run: pnpm install --frozen-lockfile
       - name: Collect Live Open-Meteo Weather
         run: node scripts/collect-weather.js
       - name: Collect Official IMD Pune Alerts

@@ -19,6 +19,7 @@ import "./test-pune-metro-source.js";
 import "./test-alert-empty-state.js";
 import "./test-incident-presentation.js";
 import "./test-rtdas-river.js";
+import "./test-pravah-daily-report.js";
 import "./test-visit-history.js";
 import "./test-safety-checklists.js";
 import "./test-official-sources.js";

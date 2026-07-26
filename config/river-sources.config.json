@@ -2,7 +2,8 @@
   "staleAfterMinutes": 180,
   "sources": {
     "rtdas_bhima_rivers": "http://103.215.166.155/RTDAS/BhimaRiver.aspx",
-    "rtdas_bhima_reservoirs": "http://103.215.166.155/RTDAS/BhimaReservoir.aspx"
+    "rtdas_bhima_reservoirs": "http://103.215.166.155/RTDAS/BhimaReservoir.aspx",
+    "pravah_daily_report": "https://mwrdpravah.in/damsafety/control/pdfLatestReportEng"
   },
   "riverStations": {
     "Dattawadi": { "river": "Mutha River", "position": { "lat": 18.5044, "lon": 73.8364 }, "talukas": ["pune_city", "haveli"], "localities": ["Dattawadi", "Sinhagad Road", "Deccan"] },

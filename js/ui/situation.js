@@ -55,14 +55,16 @@ function renderRiverIntelligence() {
     return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2><p class="empty"><strong>No live or current-day official readings are available.</strong>${escapeHtml(timing)} Old values are withheld and must not be interpreted as normal conditions.</p></section>`;
   }
   const attention = items.filter(item => ["watch", "warning", "emergency", "elevated", "high", "critical"].includes(item.severity) || ["elevated", "high", "critical"].includes(item.status)).length;
-  const summary = attention ? `${attention} of ${items.length} official readings need attention` : `No Risk on ${items.length} official readings`;
+  const liveOperational = items.filter(item => !item.storageOnly).length;
+  const dailyStorage = items.filter(item => item.storageOnly).length;
+  const summary = attention ? `${attention} of ${items.length} official readings need attention` : liveOperational ? `No threshold exceedance on ${liveOperational} live operational reading${liveOperational === 1 ? "" : "s"}${dailyStorage ? `; ${dailyStorage} daily storage report${dailyStorage === 1 ? "" : "s"} also available` : ""}` : `${dailyStorage} current-day official storage report${dailyStorage === 1 ? "" : "s"} available`;
   return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2>
-    <p><strong>${attention ? "River and dam conditions need attention" : "Rivers and dams normal"}:</strong> ${escapeHtml(summary)}</p>
+    <p><strong>${attention ? "River and dam conditions need attention" : liveOperational ? "Current official water readings" : "Current-day dam storage"}:</strong> ${escapeHtml(summary)}</p>
     <details><summary>View ${items.length} official readings</summary>
-      <p class="small">Official Maharashtra WRD readings. Reservoir storage is informational and does not by itself indicate a flood warning.</p>
+      <p class="small">Official Maharashtra WRD readings. Pravah daily reports provide storage, not live discharge. Reservoir storage is informational and does not by itself indicate a flood warning.</p>
       <ul class="compact-list">
         ${gauges.map(item => `<li><strong>${escapeHtml(item.station)}</strong> · ${escapeHtml(item.river)} · ${escapeHtml(item.status === "normal" ? "below alert level" : item.status)}${Number.isFinite(item.level) ? ` · ${escapeHtml(item.level)} m` : ""}${Number.isFinite(item.dischargeCumecs) ? ` · ${escapeHtml(item.dischargeCumecs)} cumecs` : ""}${item.lastUpdated ? ` · observed ${escapeHtml(relativeTime(item.lastUpdated))}` : ""}</li>`).join("")}
-        ${reservoirs.map(item => `<li><strong>${escapeHtml(item.damLabel)}</strong>${Number.isFinite(item.storagePercent) ? ` · ${escapeHtml(item.storagePercent)}% storage` : ""}${Number.isFinite(item.dischargeCumecs) ? ` · ${escapeHtml(item.dischargeCumecs)} cumecs reported discharge` : ""}${item.lastUpdated ? ` · observed ${escapeHtml(relativeTime(item.lastUpdated))}` : ""}</li>`).join("")}
+        ${reservoirs.map(item => `<li><strong>${escapeHtml(item.damLabel)}</strong>${Number.isFinite(item.storagePercent) ? ` · ${escapeHtml(item.storagePercent)}% storage` : ""}${Number.isFinite(item.dischargeCumecs) ? ` · ${escapeHtml(item.dischargeCumecs)} cumecs reported discharge` : ""}${item.storageOnly ? " · daily official storage report" : " · live telemetry"}${item.lastUpdated ? ` · observed ${escapeHtml(relativeTime(item.lastUpdated))}` : ""}${item.sourceUrl ? ` · <a href="${escapeAttr(item.sourceUrl)}" target="_blank" rel="noopener">source</a>` : ""}</li>`).join("")}
       </ul>
     </details>
   </section>`;

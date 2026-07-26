@@ -3,6 +3,9 @@
   "version": "6.1.0-production-user-testing",
   "type": "module",
   "private": true,
+  "dependencies": {
+    "pdfjs-dist": "5.6.205"
+  },
   "scripts": {
     "validate": "node scripts/validation/validate-build.js",
     "build:status": "node scripts/builders/build-status.js",
