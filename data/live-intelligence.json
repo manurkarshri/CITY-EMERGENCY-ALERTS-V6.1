@@ -1,7 +1,7 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-26T10:41:35.335Z",
-  "status": "partial",
+  "generatedAt": "2026-07-26T11:22:12.963Z",
+  "status": "current",
   "releaseMode": "production-user-testing",
   "policy": {
     "officialFirst": true,
@@ -12,11 +12,84 @@
   "sourceHealth": {
     "collected": [
       {
+        "id": "open_meteo",
+        "name": "Open-Meteo",
+        "type": "weather",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-26T11:22:04.461Z",
+        "lastSuccessfulAt": "2026-07-26T11:22:04.461Z",
+        "error": null
+      },
+      {
+        "id": "event_feeds",
+        "name": "Alert and incident sources",
+        "type": "events",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-26T11:22:05.113Z",
+        "lastSuccessfulAt": "2026-07-26T11:22:05.113Z",
+        "error": null
+      },
+      {
+        "id": "imd_nowcast",
+        "name": "IMD Pune Nowcast",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-26T11:22:05.113Z",
+        "lastSuccessfulAt": "2026-07-26T11:22:05.113Z",
+        "error": null,
+        "etag": null,
+        "itemsCollected": 0,
+        "type": "alerts"
+      },
+      {
+        "id": "ndma_sachet",
+        "name": "NDMA SACHET Maharashtra CAP",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-26T11:22:05.113Z",
+        "lastSuccessfulAt": "2026-07-26T11:22:05.113Z",
+        "error": null,
+        "etag": "W/\"7417-1785064368848\"",
+        "itemsCollected": 1,
+        "type": "alerts"
+      },
+      {
+        "id": "indian_express_pune",
+        "name": "Indian Express Pune",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-26T11:22:05.113Z",
+        "lastSuccessfulAt": "2026-07-26T11:22:05.113Z",
+        "error": null,
+        "etag": null,
+        "itemsCollected": 1,
+        "type": "incidents"
+      },
+      {
+        "id": "hindustan_times_pune",
+        "name": "Hindustan Times Pune",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-26T11:22:05.113Z",
+        "lastSuccessfulAt": "2026-07-26T11:22:05.113Z",
+        "error": null,
+        "etag": null,
+        "itemsCollected": 0,
+        "type": "incidents"
+      },
+      {
+        "id": "pune_metro",
+        "name": "Pune Metro Official Updates",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-07-26T11:22:05.113Z",
+        "lastSuccessfulAt": "2026-07-26T11:22:05.113Z",
+        "error": null,
+        "etag": null,
+        "itemsCollected": 0,
+        "type": "incidents"
+      },
+      {
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-26T09:46:40.858Z",
-        "lastSuccessfulAt": "2026-07-26T09:46:40.858Z",
+        "sourceCheckedAt": "2026-07-26T11:22:05.113Z",
+        "lastSuccessfulAt": "2026-07-26T11:22:05.113Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -26,84 +99,19 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-26T09:46:40.858Z",
-        "lastSuccessfulAt": "2026-07-26T09:46:40.858Z",
+        "sourceCheckedAt": "2026-07-26T11:22:05.113Z",
+        "lastSuccessfulAt": "2026-07-26T11:22:05.113Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
-        "type": "incidents"
-      },
-      {
-        "id": "open_meteo",
-        "name": "Open-Meteo",
-        "type": "weather",
-        "status": "healthy",
-        "sourceCheckedAt": "2026-07-26T10:40:47.192Z",
-        "lastSuccessfulAt": "2026-07-26T10:40:47.192Z",
-        "error": null
-      },
-      {
-        "id": "event_feeds",
-        "name": "Alert and incident sources",
-        "type": "events",
-        "status": "stale",
-        "sourceCheckedAt": "2026-07-26T10:40:48.961Z",
-        "lastSuccessfulAt": "2026-07-26T10:40:48.961Z",
-        "error": "ndma_sachet: fetch failed; indian_express_pune: fetch failed; hindustan_times_pune: fetch failed; pune_metro: fetch failed"
-      },
-      {
-        "id": "imd_nowcast",
-        "name": "IMD Pune Nowcast",
-        "status": "healthy",
-        "sourceCheckedAt": "2026-07-26T10:40:48.961Z",
-        "lastSuccessfulAt": "2026-07-26T10:40:48.961Z",
-        "error": null,
-        "etag": null,
-        "itemsCollected": 0,
-        "type": "alerts"
-      },
-      {
-        "id": "ndma_sachet",
-        "name": "NDMA SACHET Maharashtra CAP",
-        "status": "unavailable",
-        "sourceCheckedAt": "2026-07-26T10:40:48.961Z",
-        "lastSuccessfulAt": "2026-07-26T10:20:32.430Z",
-        "error": "fetch failed",
-        "type": "alerts"
-      },
-      {
-        "id": "indian_express_pune",
-        "name": "Indian Express Pune",
-        "status": "stale",
-        "sourceCheckedAt": "2026-07-26T10:40:48.961Z",
-        "lastSuccessfulAt": "2026-07-26T10:20:32.430Z",
-        "error": "fetch failed",
-        "type": "incidents"
-      },
-      {
-        "id": "hindustan_times_pune",
-        "name": "Hindustan Times Pune",
-        "status": "unavailable",
-        "sourceCheckedAt": "2026-07-26T10:40:48.961Z",
-        "lastSuccessfulAt": "2026-07-26T10:20:32.430Z",
-        "error": "fetch failed",
-        "type": "incidents"
-      },
-      {
-        "id": "pune_metro",
-        "name": "Pune Metro Official Updates",
-        "status": "unavailable",
-        "sourceCheckedAt": "2026-07-26T10:40:48.961Z",
-        "lastSuccessfulAt": "2026-07-26T10:20:32.430Z",
-        "error": "fetch failed",
         "type": "incidents"
       },
       {
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-26T10:40:48.961Z",
-        "lastSuccessfulAt": "2026-07-26T10:40:48.961Z",
+        "sourceCheckedAt": "2026-07-26T11:22:05.113Z",
+        "lastSuccessfulAt": "2026-07-26T11:22:05.113Z",
         "error": null,
         "itemsCollected": 5,
         "itemsQualified": 5,
@@ -114,8 +122,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-07-26T10:41:34.631Z",
-        "lastSuccessfulAt": "2026-07-26T10:41:34.631Z",
+        "sourceCheckedAt": "2026-07-26T11:22:11.893Z",
+        "lastSuccessfulAt": "2026-07-26T11:22:11.893Z",
         "error": null
       }
     ],
@@ -477,7 +485,7 @@
   "liveReadiness": {
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
-    "alertsAvailable": 1,
+    "alertsAvailable": 2,
     "incidentsAvailable": 2,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
