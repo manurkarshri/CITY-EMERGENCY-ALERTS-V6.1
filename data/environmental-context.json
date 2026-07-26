@@ -1,10 +1,10 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-26T12:36:46.730Z",
+  "generatedAt": "2026-07-26T12:39:13.806Z",
   "weatherSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-26T12:36:28.510Z",
-    "lastSuccessfulAt": "2026-07-26T12:36:28.510Z",
+    "sourceCheckedAt": "2026-07-26T12:38:57.710Z",
+    "lastSuccessfulAt": "2026-07-26T12:38:57.710Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
@@ -14,12 +14,12 @@
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-26T12:36:32.971Z",
-    "lastSuccessfulAt": "2026-07-26T12:36:32.971Z",
-    "error": null
+    "sourceCheckedAt": "2026-07-26T12:39:02.694Z",
+    "lastSuccessfulAt": "2026-07-26T12:39:02.694Z",
+    "error": "Pravah: fetch failed"
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-07-26T12:36:46.717Z",
+    "generatedAt": "2026-07-26T12:39:13.795Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -27,7 +27,7 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-26T12:36:28.510Z",
+        "sourceCheckedAt": "2026-07-26T12:38:57.710Z",
         "observedAt": "2026-07-26T18:00:00+05:30",
         "temp": 25,
         "currentRain": 0,
@@ -54,7 +54,7 @@
         "longitude": 73.76471,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-26T12:36:28.510Z",
+        "sourceCheckedAt": "2026-07-26T12:38:57.710Z",
         "observedAt": "2026-07-26T18:00:00+05:30",
         "temp": 24.7,
         "currentRain": 0,
@@ -81,7 +81,7 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-26T12:36:28.510Z",
+        "sourceCheckedAt": "2026-07-26T12:38:57.710Z",
         "observedAt": "2026-07-26T18:00:00+05:30",
         "temp": 25,
         "currentRain": 0,
@@ -108,7 +108,7 @@
         "longitude": 73.51617,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-26T12:36:28.510Z",
+        "sourceCheckedAt": "2026-07-26T12:38:57.710Z",
         "observedAt": "2026-07-26T18:00:00+05:30",
         "temp": 22.7,
         "currentRain": 0.3,
@@ -135,7 +135,7 @@
         "longitude": 73.451324,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-26T12:36:28.510Z",
+        "sourceCheckedAt": "2026-07-26T12:38:57.710Z",
         "observedAt": "2026-07-26T18:00:00+05:30",
         "temp": 22.1,
         "currentRain": 0.2,
@@ -197,7 +197,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Khadakwasla Dam: 100% storage.",
-        "updatedAt": "2026-07-26T12:36:46.729Z"
+        "updatedAt": "2026-07-26T12:39:13.804Z"
       },
       "evidence": [
         {
@@ -244,7 +244,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Panshet Dam: 91.01% storage.",
-        "updatedAt": "2026-07-26T12:36:46.729Z"
+        "updatedAt": "2026-07-26T12:39:13.805Z"
       },
       "evidence": [
         {
@@ -290,7 +290,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Varasgaon Dam: 84.74% storage.",
-        "updatedAt": "2026-07-26T12:36:46.729Z"
+        "updatedAt": "2026-07-26T12:39:13.805Z"
       },
       "evidence": [
         {
@@ -337,7 +337,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Temghar Dam: 70.09% storage.",
-        "updatedAt": "2026-07-26T12:36:46.729Z"
+        "updatedAt": "2026-07-26T12:39:13.805Z"
       },
       "evidence": [
         {
@@ -383,7 +383,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Mulshi Dam: 93.96% storage.",
-        "updatedAt": "2026-07-26T12:36:46.729Z"
+        "updatedAt": "2026-07-26T12:39:13.805Z"
       },
       "evidence": [
         {
@@ -427,7 +427,7 @@
       "timeline": {
         "state": "monitoring",
         "note": "Bhatghar Dam: 79.48% storage.",
-        "updatedAt": "2026-07-26T12:36:46.729Z"
+        "updatedAt": "2026-07-26T12:39:13.805Z"
       },
       "evidence": [
         {
@@ -444,7 +444,7 @@
     }
   ],
   "seasonalIntelligence": {
-    "generatedAt": "2026-07-26T12:36:46.730Z",
+    "generatedAt": "2026-07-26T12:39:13.806Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -457,7 +457,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-07-26T12:36:46.730Z",
+    "generatedAt": "2026-07-26T12:39:13.805Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -538,7 +538,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-07-26T12:36:46.730Z",
+    "generatedAt": "2026-07-26T12:39:13.806Z",
     "mode": "on-demand",
     "relevantDomains": [
       "bridges",
@@ -577,7 +577,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-07-26T12:36:46.730Z",
+    "generatedAt": "2026-07-26T12:39:13.806Z",
     "riskLevel": "Normal",
     "impacts": [
       "1 active transport-related event(s) may affect travel."
