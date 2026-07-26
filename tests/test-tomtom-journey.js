@@ -12,6 +12,7 @@ assert(!nationwideSearchUrl.includes("radius="), "India-wide search must not be 
 
 const freshWeather = normalizeLiveWeather({ latitude: 19.1, longitude: 72.9, current: { time: "2026-07-11T01:00", temperature_2m: 26, wind_speed_10m: 15, wind_gusts_10m: 22 }, hourly: { time: ["2026-07-11T01:00", "2026-07-11T02:00"], precipitation: [8, 8], precipitation_probability: [80, 90], visibility: [3000, 2000] } }, "2026-07-10T19:30:00Z");
 assert(freshWeather.rainRisk === "Medium" && freshWeather.sourceCheckedAt, "Fresh route weather normalization failed");
+assert(freshWeather.rain24h === 16 && freshWeather.precipitationProbability === 90, "Selected-location weather must retain the next-24-hour rain total and highest hourly probability");
 
 const start = { lat: 18.516, lon: 73.841 };
 const destination = { lat: 18.591, lon: 73.739 };

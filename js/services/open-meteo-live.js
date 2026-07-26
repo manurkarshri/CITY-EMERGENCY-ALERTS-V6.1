@@ -33,9 +33,11 @@ export function normalizeLiveWeather(item, checkedAt) {
   const hourly = item.hourly || {};
   const start = Math.max(0, (hourly.time || []).findIndex(time => time >= item.current?.time));
   const indexes = Array.from({ length: Math.min(6, (hourly.time || []).length - start) }, (_, index) => start + index);
+  const dayIndexes = Array.from({ length: Math.min(24, (hourly.time || []).length - start) }, (_, index) => start + index);
   const rain6h = indexes.reduce((sum, index) => sum + number(hourly.precipitation?.[index]), 0);
+  const rain24h = dayIndexes.reduce((sum, index) => sum + number(hourly.precipitation?.[index]), 0);
   const visibility = Math.min(...indexes.map(index => number(hourly.visibility?.[index], 10000))) / 1000;
-  const probability = Math.max(0, ...indexes.map(index => number(hourly.precipitation_probability?.[index])));
+  const probability = Math.max(0, ...dayIndexes.map(index => number(hourly.precipitation_probability?.[index])));
   const gust = number(item.current?.wind_gusts_10m);
   const temperature = number(item.current?.temperature_2m);
   const rainRisk = rain6h >= 30 ? "High" : rain6h >= 15 ? "Medium" : rain6h >= 5 ? "Low" : "Minimal";
@@ -44,7 +46,7 @@ export function normalizeLiveWeather(item, checkedAt) {
   return {
     label: "Route weather point",
     latitude: Number(item.latitude), longitude: Number(item.longitude), temp: temperature,
-    currentRain: number(item.current?.rain), rain6h: round(rain6h), precipitationProbability: probability,
+    currentRain: number(item.current?.rain), rain6h: round(rain6h), rain24h: round(rain24h), precipitationProbability: probability,
     wind: number(item.current?.wind_speed_10m), gust, humidity: number(item.current?.relative_humidity_2m),
     visibility: round(visibility), weatherCode: item.current?.weather_code ?? null,
     rainRisk, windRisk, visibilityRisk, heatRisk: temperature >= 45 ? "Emergency" : temperature >= 41 ? "Warning" : temperature >= 38 ? "Watch" : "Normal",
