@@ -1,4 +1,4 @@
-const CACHE = "city-emergency-alerts-v6-1-20260726-19";
+const CACHE = "city-emergency-alerts-v6-1-20260726-20";
 const APP_SHELL = [
   "./", "./index.html", "./manifest.json", "./config/runtime-config.js",
   "./assets/icons/icon-192.png", "./assets/icons/icon-512.png", "./assets/icons/icon-maskable-512.png",

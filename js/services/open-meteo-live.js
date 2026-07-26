@@ -18,7 +18,7 @@ async function fetchWeatherPoints(points, prefix) {
     longitude: points.map(point => point.longitude ?? point.lon).join(","),
     current: "temperature_2m,relative_humidity_2m,precipitation,rain,weather_code,wind_speed_10m,wind_gusts_10m",
     hourly: "precipitation_probability,precipitation,visibility",
-    forecast_days: "1",
+    forecast_days: "2",
     timezone: "auto"
   });
   const response = await fetch(`${ENDPOINT}?${params}`, { cache: "no-store" });
