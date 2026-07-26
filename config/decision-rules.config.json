@@ -61,6 +61,31 @@
       "action": "Follow official health guidance, avoid the suspected source and seek medical help if symptoms develop."
     },
     {
+      "category": "food_safety",
+      "impact": "Unsafe or contaminated food may affect people who consumed the reported product or visited the location.",
+      "action": "Avoid the suspected item or outlet, follow recall or health guidance, and seek medical help if symptoms develop."
+    },
+    {
+      "category": "medical_advisory",
+      "impact": "A medicine, hospital-service or medical-supply issue may affect access to safe care.",
+      "action": "Check official health guidance and contact an appropriate medical provider before changing treatment."
+    },
+    {
+      "category": "environmental_hazard",
+      "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces.",
+      "action": "Avoid exposure and follow civic, pollution-control or health-authority guidance."
+    },
+    {
+      "category": "animal_hazard",
+      "impact": "A reported animal hazard may create a safety or rabies risk nearby.",
+      "action": "Keep away, supervise children and pets, and contact emergency or animal-control authorities."
+    },
+    {
+      "category": "weather_hazard",
+      "impact": "Severe local weather may affect outdoor safety, visibility, power or travel.",
+      "action": "Move indoors where appropriate and follow weather and emergency-service guidance."
+    },
+    {
       "category": "road_closure",
       "impact": "Route may be blocked or diverted.",
       "action": "Use an alternate route and check official updates."

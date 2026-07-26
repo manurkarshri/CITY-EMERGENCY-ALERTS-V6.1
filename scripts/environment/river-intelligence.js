@@ -5,8 +5,9 @@ import { createEvidence } from "../models/evidence-model.js";
 export async function buildRiverIntelligence(riverData = {}) {
   const systems = await loadConfig("river-systems.config.json");
   const results = [];
+  const referenceTime = riverData.sourceCheckedAt || riverData.generatedAt || new Date();
   for (const item of riverData.items || []) {
-    if (!["current", "stale"].includes(item.freshness)) continue;
+    if (item.freshness !== "current" || !isCurrentPuneDay(item.lastUpdated, referenceTime)) continue;
     if (item.kind === "river_gauge") {
       const rsi = riverSeverityIndex(item.status, item.trend);
       const severity = rsi >= 80 ? "emergency" : rsi >= 60 ? "warning" : rsi >= 35 ? "watch" : "advisory";
@@ -21,6 +22,13 @@ export async function buildRiverIntelligence(riverData = {}) {
     results.push({ id: item.id || `river-${item.dam}-${String(item.lastUpdated || "").slice(0,10)}`, kind: item.kind || "reservoir", dam: item.dam, damLabel: dam.label, river: dam.river, status: item.status, trend: item.trend, storagePercent: item.storagePercent, reservoirLevel: item.reservoirLevel, dischargeCumecs: item.dischargeCumecs, dataFreshness: item.freshness, lastUpdated: item.lastUpdated, rsi, severity, downstreamLocalities: dam.downstreamLocalities, talukas: dam.talukas, bridges: dam.bridges, travelSensitivity: dam.travelSensitivity, timeline: createTimeline("monitoring", `${dam.label}: ${storage}.`), evidence: [createEvidence({ source: item.source, sourceTrust: item.sourceTrust, type: "official", observedAt: item.lastUpdated })], impact: `${dam.label} has ${storage}. Storage alone is not treated as a flood warning.`, recommendedAction: "Monitor official discharge and downstream warnings." });
   }
   return results;
+}
+export function isCurrentPuneDay(value, now = new Date()) {
+  const observed = new Date(value);
+  const reference = new Date(now);
+  if (!Number.isFinite(observed.getTime()) || !Number.isFinite(reference.getTime())) return false;
+  const key = date => new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
+  return key(observed) === key(reference);
 }
 function formatStatus(status) { return ({ normal: "below its alert level", elevated: "approaching its alert level", high: "at or above alert level", critical: "at or above danger level" })[status] || "unavailable"; }
 function riverSeverityIndex(status, trend) {

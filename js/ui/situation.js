@@ -1,4 +1,4 @@
-import { state, filteredEvents } from "../core/state.js";
+import { state } from "../core/state.js";
 import { escapeHtml, escapeAttr, relativeTime } from "../utils/format.js";
 import { openTab } from "../core/navigation.js";
 import { sourceStatus } from "../utils/freshness.js";
@@ -9,7 +9,6 @@ export function renderSituation() {
   const weather = weatherRegions[state.selected.taluka] || weatherRegions[state.selected.region] || weatherRegions.pune_city || Object.values(weatherRegions)[0];
   const weatherSource = state.environmental?.weatherSource || {};
   const weatherStatus = effectiveWeatherStatus(weatherSource);
-  const snapshot = state.intelligence?.situation?.snapshot || state.environmental?.story || "Situation information is being prepared.";
 
   panel.innerHTML = `
     <section class="card feature">
@@ -19,25 +18,13 @@ export function renderSituation() {
       ${weather && weatherStatus !== "unavailable" ? `
         <div class="grid">
           ${weatherMetric(`${weather.temp ?? "--"}°C`, "Temperature", temperatureGuidance(weather.temp))}
-          ${weatherMetric(rainStatus(weather), "Rain", rainGuidance(weather))}
+          ${weatherMetric(rainForecastValue(weather), "Rain · next 24 hours", rainGuidance(weather))}
           ${weatherMetric(`${weather.wind ?? "--"} km/h`, "Wind", windGuidance(weather.wind, weather.gust))}
           ${weatherMetric(`${weather.visibility ?? "--"} km`, "Visibility", visibilityGuidance(weather.visibility))}
         </div>
         <p>${escapeHtml((weather.advice || [])[0] || "No major weather issue indicated.")}</p>
         ${weatherSource.attribution?.url ? `<p class="small">Weather data: <a href="${escapeAttr(weatherSource.attribution.url)}" target="_blank" rel="noopener">${escapeHtml(weatherSource.attribution.name || "Open-Meteo")}</a></p>` : ""}
       ` : `<p class="empty">Weather intelligence is not available yet.</p>`}
-    </section>
-
-    <section class="card">
-      <div class="section-kicker">Situation</div>
-      <h2>Snapshot</h2>
-      <p>${escapeHtml(snapshot)}</p>
-      <details><summary>Why am I seeing this?</summary><p>${escapeHtml(explainSituation())}</p></details>
-      <div class="health-strip">
-        <span class="health-chip">${filteredEvents(state.alerts).length} alerts</span>
-        <span class="health-chip">${filteredEvents(state.incidents).length} incidents</span>
-        <span class="health-chip">${state.environmental?.riverIntelligence?.length || 0} river items</span>
-      </div>
     </section>
 
     ${renderRiverIntelligence()}
@@ -62,13 +49,15 @@ function renderRiverIntelligence() {
   const items = state.environmental?.riverIntelligence || [];
   const gauges = items.filter(item => item.kind === "river_gauge");
   const reservoirs = items.filter(item => item.kind === "reservoir");
-  if (!items.length) return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2><p class="empty">Current official river and dam readings are unavailable.</p></section>`;
+  if (!items.length) {
+    const source = state.environmental?.riverSource || {};
+    const timing = source.lastSuccessfulAt ? ` Last successful source update was ${relativeTime(source.lastSuccessfulAt)}.` : "";
+    return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2><p class="empty"><strong>No live or current-day official readings are available.</strong>${escapeHtml(timing)} Old values are withheld and must not be interpreted as normal conditions.</p></section>`;
+  }
   const attention = items.filter(item => ["watch", "warning", "emergency", "elevated", "high", "critical"].includes(item.severity) || ["elevated", "high", "critical"].includes(item.status)).length;
-  const stale = items.filter(item => item.dataFreshness === "stale").length;
   const summary = attention ? `${attention} of ${items.length} official readings need attention` : `No Risk on ${items.length} official readings`;
   return `<section class="card"><div class="section-kicker">Water Intelligence</div><h2>Rivers and Dams</h2>
     <p><strong>${attention ? "River and dam conditions need attention" : "Rivers and dams normal"}:</strong> ${escapeHtml(summary)}</p>
-    ${stale ? `<p class="small"><strong>${stale} reading${stale === 1 ? " is" : "s are"} stale.</strong> Values are shown for context and must not be treated as current safety confirmation.</p>` : ""}
     <details><summary>View ${items.length} official readings</summary>
       <p class="small">Official Maharashtra WRD readings. Reservoir storage is informational and does not by itself indicate a flood warning.</p>
       <ul class="compact-list">
@@ -95,14 +84,23 @@ export function temperatureGuidance(value) {
 
 export function rainGuidance(weather = {}) {
   const now = isPrecipitationNow(weather) ? "Raining now" : "No measurable rain now";
-  const forecast = Number.isFinite(Number(weather.rain24h)) ? `${Number(weather.rain24h).toFixed(1)} mm forecast in next 24 hours` : `${weather.rainRisk || "Minimal"} rain risk`;
-  const probability = Number.isFinite(Number(weather.precipitationProbability)) ? `; peak probability ${Math.round(Number(weather.precipitationProbability))}%` : "";
-  return `${now}; ${forecast}${probability}`;
+  const risk = rainDisruptionRisk(weather);
+  const probability = Number.isFinite(Number(weather.precipitationProbability)) ? ` Highest hourly chance of rain: ${Math.round(Number(weather.precipitationProbability))}%.` : "";
+  return `${now}. ${risk} rain-related disruption risk.${probability}`;
 }
 
-export function rainStatus(weather = {}) {
-  if (isPrecipitationNow(weather)) return "Raining now";
-  return `${weather.rainRisk || "Minimal"} risk`;
+export function rainForecastValue(weather = {}) {
+  return Number.isFinite(Number(weather.rain24h)) ? `${Number(weather.rain24h).toFixed(1)} mm` : "Unavailable";
+}
+
+export function rainDisruptionRisk(weather = {}) {
+  const rainfall = Number(weather.rain24h);
+  const probability = Number(weather.precipitationProbability);
+  if (Number.isFinite(rainfall) && rainfall >= 65) return "Very high";
+  if (Number.isFinite(rainfall) && rainfall >= 35) return "High";
+  if ((Number.isFinite(rainfall) && rainfall >= 10) || (Number.isFinite(probability) && probability >= 80 && Number.isFinite(rainfall) && rainfall >= 5)) return "Moderate";
+  if ((Number.isFinite(rainfall) && rainfall > 0) || isPrecipitationNow(weather)) return "Low";
+  return weather.rainRisk || "Minimal";
 }
 
 function isPrecipitationNow(weather = {}) {
@@ -213,13 +211,4 @@ function renderDisclaimer() {
       <p class="small"><strong>Last reviewed:</strong> July 2026 · Version 6.1</p>
     </dialog>
   </section>`;
-}
-
-function explainSituation() {
-  const parts = [];
-  if (state.environmental?.environmentalImpact?.citizenSummary) parts.push(state.environmental.environmentalImpact.citizenSummary);
-  if ((state.alerts || []).length) parts.push("Alerts are ranked using severity, source confidence, freshness and locality relevance.");
-  if ((state.environmental?.riverIntelligence || []).length) parts.push("River and dam conditions are included because they can affect downstream travel and safety.");
-  if (state.live?.liveReadiness) parts.push("Official and trusted sources are configured for production user testing.");
-  return parts.join(" ") || "This snapshot is generated from validated emergency intelligence data.";
 }

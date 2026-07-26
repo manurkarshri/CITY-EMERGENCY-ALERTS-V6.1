@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-26T11:22:12.912Z",
+  "generatedAt": "2026-07-26T11:44:16.395Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-26T11:22:12.912Z",
+      "generatedAt": "2026-07-26T11:44:16.395Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -129,12 +129,11 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 0,
+            "score": 25,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions may significantly affect this route.",
-              "dam_release may cause delays or safety concerns.",
               "Low visibility may make driving unsafe.",
               "Moderate rainfall may slow travel."
             ],
@@ -144,12 +143,6 @@
                 "category": "road_closure",
                 "penalty": 35,
                 "title": "Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions"
-              },
-              {
-                "eventId": "rtdas-river-kalyani-nagar-bridge",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "dam_release"
               }
             ]
           },
@@ -158,7 +151,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions may significantly affect this route."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (25/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions may significantly affect this route."
         }
       ]
     },
@@ -167,7 +160,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-26T11:22:12.912Z",
+      "generatedAt": "2026-07-26T11:44:16.395Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -266,7 +259,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-26T11:22:12.912Z",
+      "generatedAt": "2026-07-26T11:44:16.395Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -295,15 +288,13 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 0,
+          "score": 35,
           "label": "Avoid if Possible",
           "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
             "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns.",
-            "dam_release may cause delays or safety concerns.",
-            "Veer Dam may cause delays or safety concerns.",
-            "Bhatghar Dam may cause delays or safety concerns.",
-            "Varasgaon Dam may cause delays or safety concerns."
+            "Low visibility may make driving unsafe.",
+            "Moderate rainfall may slow travel."
           ],
           "penalties": [
             {
@@ -311,96 +302,6 @@
               "category": "dam_release",
               "penalty": 25,
               "title": "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana"
-            },
-            {
-              "eventId": "rtdas-river-koregaon-bhima",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "dam_release"
-            },
-            {
-              "eventId": "rtdas-river-paragaon",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "dam_release"
-            },
-            {
-              "eventId": "rtdas-river-daund",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "dam_release"
-            },
-            {
-              "eventId": "rtdas-river-umbre-kasurdi",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "dam_release"
-            },
-            {
-              "eventId": "rtdas-river-dattawadi",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "dam_release"
-            },
-            {
-              "eventId": "rtdas-river-kalyani-nagar-bridge",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "dam_release"
-            },
-            {
-              "eventId": "rtdas-river-pimple-gurav",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "dam_release"
-            },
-            {
-              "eventId": "rtdas-reservoir-veer",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Veer Dam"
-            },
-            {
-              "eventId": "rtdas-reservoir-bhatghar",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Bhatghar Dam"
-            },
-            {
-              "eventId": "rtdas-reservoir-varasgaon",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Varasgaon Dam"
-            },
-            {
-              "eventId": "rtdas-reservoir-panshet",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Panshet Dam"
-            },
-            {
-              "eventId": "rtdas-reservoir-khadakwasla",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Khadakwasla Dam"
-            },
-            {
-              "eventId": "rtdas-reservoir-temghar",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Temghar Dam"
-            },
-            {
-              "eventId": "rtdas-reservoir-mulshi",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Mulshi Dam"
-            },
-            {
-              "eventId": "rtdas-reservoir-pawna",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Pawna Dam"
             }
           ]
         },
@@ -409,7 +310,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -440,15 +341,13 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 0,
+            "score": 35,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns.",
-              "dam_release may cause delays or safety concerns.",
-              "Veer Dam may cause delays or safety concerns.",
-              "Bhatghar Dam may cause delays or safety concerns.",
-              "Varasgaon Dam may cause delays or safety concerns."
+              "Low visibility may make driving unsafe.",
+              "Moderate rainfall may slow travel."
             ],
             "penalties": [
               {
@@ -456,96 +355,6 @@
                 "category": "dam_release",
                 "penalty": 25,
                 "title": "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana"
-              },
-              {
-                "eventId": "rtdas-river-koregaon-bhima",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "dam_release"
-              },
-              {
-                "eventId": "rtdas-river-paragaon",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "dam_release"
-              },
-              {
-                "eventId": "rtdas-river-daund",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "dam_release"
-              },
-              {
-                "eventId": "rtdas-river-umbre-kasurdi",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "dam_release"
-              },
-              {
-                "eventId": "rtdas-river-dattawadi",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "dam_release"
-              },
-              {
-                "eventId": "rtdas-river-kalyani-nagar-bridge",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "dam_release"
-              },
-              {
-                "eventId": "rtdas-river-pimple-gurav",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "dam_release"
-              },
-              {
-                "eventId": "rtdas-reservoir-veer",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Veer Dam"
-              },
-              {
-                "eventId": "rtdas-reservoir-bhatghar",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Bhatghar Dam"
-              },
-              {
-                "eventId": "rtdas-reservoir-varasgaon",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Varasgaon Dam"
-              },
-              {
-                "eventId": "rtdas-reservoir-panshet",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Panshet Dam"
-              },
-              {
-                "eventId": "rtdas-reservoir-khadakwasla",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Khadakwasla Dam"
-              },
-              {
-                "eventId": "rtdas-reservoir-temghar",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Temghar Dam"
-              },
-              {
-                "eventId": "rtdas-reservoir-mulshi",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Mulshi Dam"
-              },
-              {
-                "eventId": "rtdas-reservoir-pawna",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Pawna Dam"
               }
             ]
           },
@@ -554,7 +363,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns."
         }
       ]
     }

@@ -40,6 +40,13 @@ const advisoryXml = `<?xml version="1.0"?><rss><channel>
 const advisories = normalizeGoogleNewsRss(advisoryXml, checkedAt);
 assert(advisories.some(item => item.category === "dam_release"), "Dam discharge reporting must be discovered");
 assert(advisories.some(item => item.category === "health_emergency"), "Drinking-water safety advisories must be discovered");
+const broaderSafetyXml = `<?xml version="1.0"?><rss><channel>
+<item><title>Pune FDA seizes adulterated food after safety raid - Times of India</title><link>https://news.google.com/food</link><pubDate>Sat, 11 Jul 2026 10:43:00 GMT</pubDate><source>Times of India</source></item>
+<item><title>Hazardous air quality alert issued for Pune after toxic smoke - NDTV</title><link>https://news.google.com/air</link><pubDate>Sat, 11 Jul 2026 10:44:00 GMT</pubDate><source>NDTV</source></item>
+</channel></rss>`;
+const broaderSafety = normalizeGoogleNewsRss(broaderSafetyXml, checkedAt);
+assert(broaderSafety.some(item => item.category === "food_safety"), "Material food-safety incidents must be discovered");
+assert(broaderSafety.some(item => item.category === "environmental_hazard"), "Material environmental-health hazards must be discovered");
 const attributedXml = `<?xml version="1.0"?><rss><channel><item><title>IMD issues red alert for Pune ghats amid very heavy rain - Hindustan Times</title><link>https://news.google.com/imd</link><pubDate>Sat, 11 Jul 2026 10:42:00 GMT</pubDate><source>Hindustan Times</source></item></channel></rss>`;
 const attributedWarning = normalizeGoogleNewsRss(attributedXml, checkedAt);
 assert(attributedWarning[0]?.reportedAuthority === "India Meteorological Department", "Named official authority must be retained from a trusted-media alert headline");

@@ -11,6 +11,11 @@ const RULES = [
   { category: "public_safety", severity: "warning", patterns: [/\b(?:stampede|crowd crush|shooting|shot at|firing|hostage|riot|major violence|armed attack)\b/i, /\b(?:school|hospital|mall|station|neighbourhood|neighborhood|building)\s+evacuat(?:ed|ion)\b/i, /\bmultiple (?:people|persons|victims) (?:killed|injured)\b/i, /\u091a\u0947\u0902\u0917\u0930\u093e\u091a\u0947\u0902\u0917\u0930\u0940|\u0917\u094b\u0933\u0940\u092c\u093e\u0930|\u0926\u0902\u0917\u093e/i, /\u092d\u0917\u0926\u0921\u093c|\u0917\u094b\u0932\u0940\u092c\u093e\u0930|\u0926\u0902\u0917\u093e/i] },
   { category: "health_emergency", severity: "warning", patterns: [/\b(?:disease|viral|cholera|dengue) (?:outbreak|surge)\b/i, /\bmass food poisoning\b|\bfood poisoning.{0,45}(?:hospitali[sz]ed|people|students|workers)\b/i, /\b(?:drinking water|water supply) contamination\b/i] },
   { category: "health_emergency", severity: "warning", patterns: [/\b(?:drinking|tap|raw) water.{0,70}(?:advisory|contaminat|turbidity|unsafe|boil|filter)|\b(?:boil|filter).{0,45}(?:drinking|tap) water\b/i] },
+  { category: "food_safety", severity: "warning", patterns: [/\b(?:food poisoning|contaminated food|unsafe food|food adulteration|adulterated food).{0,70}(?:hospital|ill|sick|recall|seiz|raid|warn|clos)|\b(?:FDA|food safety).{0,70}(?:recall|seiz|raid|unsafe|adulterat|contaminat|closure)\b/i] },
+  { category: "medical_advisory", severity: "warning", patterns: [/\b(?:medicine|drug|vaccine|blood).{0,60}(?:recall|shortage|contaminat|unsafe)|\b(?:hospital|emergency department).{0,60}(?:closed|evacuat|capacity crisis|services suspended)\b/i] },
+  { category: "environmental_hazard", severity: "warning", patterns: [/\b(?:toxic|hazardous).{0,40}(?:air|smoke|waste|pollution)|\b(?:sewage|chemical|industrial waste).{0,55}(?:river|lake|water|discharge|spill)|\b(?:severe|hazardous) (?:AQI|air quality)\b/i] },
+  { category: "animal_hazard", severity: "warning", patterns: [/\b(?:rabies alert|rabid (?:dog|animal)|leopard attack|wild animal attack|multiple dog attacks)\b/i] },
+  { category: "weather_hazard", severity: "warning", patterns: [/\b(?:lightning|thunderstorm|hailstorm|cloudburst).{0,60}(?:warning|alert|strike|damage|injur|kill)|\b(?:extreme wind|severe storm).{0,60}(?:warning|alert|damage)\b/i] },
   { category: "dam_release", severity: "warning", patterns: [/\b(?:dam|reservoir).{0,55}(?:discharge|release(?:d|s|ing)? water|spillway)|\b\d[\d,]*\s*cusecs?\b/i, /\u0927\u0930\u0923.*\u0935\u093f\u0938\u0930\u094d\u0917|\u092c\u093e\u0902\u0927.*\u092a\u093e\u0928\u0940 \u091b\u094b\u0921\u093c/i] },
   { category: "heavy_rain", severity: "warning", patterns: [/\b(?:red|orange) alert.{0,60}(?:rain|pune)|\bheavy to (?:very|extremely) heavy rain\b/i] },
   { category: "road_closure", severity: "warning", patterns: [/\b(?:ghat|road|route|bridge|expressway|highway).{0,60}(?:closed|closure|blocked|diversion)|traffic diversion\b/i, /\u0930\u0938\u094d\u0924\u093e.*\u092c\u0902\u0926|\u0935\u093e\u0939\u0924.{0,36}(?:\u092c\u0902\u0926|\u0935\u0933\u0935|\u092c\u0926\u0932)/i, /\u0938\u0921\u093c\u0915.*\u092c\u0902\u0926|\u091f\u094d\u0930\u0948\u092b\u093f\u0915.*(?:\u092c\u0902\u0926|\u0921\u093e\u092f\u0935\u0930\u094d\u091c\u0928)/i] },
@@ -24,7 +29,7 @@ export function classifyLifeSafetyText(text = "") {
 }
 
 export function incidentFreshnessHours(classification = {}) {
-  if (["dam_release", "health_emergency"].includes(classification.category)) return 72;
+  if (["dam_release", "health_emergency", "food_safety", "medical_advisory", "environmental_hazard"].includes(classification.category)) return 72;
   if (["structural_collapse", "rescue_operation", "explosion", "chemical_hazard", "infrastructure_failure", "public_safety", "health_emergency", "water_rescue"].includes(classification.category)) return 36;
   if (classification.severity === "warning") return 48;
   if (classification.severity === "watch") return 48;

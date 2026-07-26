@@ -1,6 +1,7 @@
 const ALERT_ELIGIBLE_CATEGORIES = new Set([
   "road_closure", "flood", "dam_release", "heavy_rain", "chemical_hazard", "gas_leak",
-  "explosion", "public_safety", "power_outage", "transport_disruption", "health_emergency"
+  "explosion", "public_safety", "power_outage", "transport_disruption", "health_emergency",
+  "food_safety", "medical_advisory", "environmental_hazard", "animal_hazard", "weather_hazard"
 ]);
 
 export function promoteCorroboratedMediaAlert(event = {}) {

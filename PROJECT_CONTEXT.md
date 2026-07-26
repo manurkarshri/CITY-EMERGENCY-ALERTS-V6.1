@@ -36,7 +36,7 @@ No new tabs should be added without explicit product approval.
 Required order:
 
 1. Weather
-2. Snapshot
+2. Water Intelligence
 3. Since Your Last Visit
 4. Updated timestamp
 
@@ -189,7 +189,7 @@ The current release must not be treated as fully live or production-complete unt
 ## 5. Current known defects
 
 - locality hierarchy is incomplete and partly incorrect
-- Snapshot remains unchanged because live collectors are not implemented
+- A separate Snapshot card is intentionally omitted because it duplicated weather, water, Alert and Incident information.
 - Since Your Last Visit is not clickable
 - freshness timestamps do not represent true source freshness
 - Alerts remain stale/sample-driven

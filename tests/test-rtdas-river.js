@@ -14,7 +14,9 @@ const reservoir = parseRtdasReservoirPage(reservoirHtml, { Khadakwasala: "khadak
 assert(reservoir.length === 1 && reservoir[0].storagePercent === 100, "RTDAS reservoir storage was not parsed");
 assert(reservoir[0].status === "normal", "Full storage was incorrectly converted into a flood warning");
 const staleRiver = parseRtdasRiverPage(riverHtml, { Dattawadi: { river: "Mutha River", talukas: ["pune_city"], localities: ["Dattawadi"] } }, "2026-07-12T19:30:00+05:30");
-const staleIntelligence = await buildRiverIntelligence({ items: staleRiver });
-assert(staleIntelligence.length === 1 && staleIntelligence[0].dataFreshness === "stale", "Stale official river readings should remain visible with a warning");
+const currentIntelligence = await buildRiverIntelligence({ items: river, sourceCheckedAt: "2026-07-11T19:30:00+05:30" });
+assert(currentIntelligence.length === 1 && currentIntelligence[0].dataFreshness === "current", "Current-day official river readings should remain visible");
+const staleIntelligence = await buildRiverIntelligence({ items: staleRiver, sourceCheckedAt: "2026-07-12T19:30:00+05:30" });
+assert(staleIntelligence.length === 0, "Old official river readings must not be presented as current water intelligence");
 
 console.log("Maharashtra RTDAS river tests passed.");

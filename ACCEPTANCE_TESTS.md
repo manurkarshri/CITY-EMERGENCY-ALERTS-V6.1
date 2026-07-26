@@ -41,12 +41,12 @@ Use these statuses:
 
 | ID | Test | Expected result | Mandatory |
 |---|---|---|---|
-| SIT-01 | Verify order | Weather → Snapshot → Since Your Last Visit → Updated | Yes |
-| SIT-02 | Change active event fixture | Snapshot content changes after rebuild | Yes |
-| SIT-03 | No active events | Snapshot clearly states no significant active event | Yes |
+| SIT-01 | Verify order | Weather → Water Intelligence → Since Your Last Visit → Updated | Yes |
+| SIT-02 | Change weather fixture | 24-hour rainfall and associated risk change after rebuild | Yes |
+| SIT-03 | No current-day river readings | Old values are withheld and unavailable state is explicit | Yes |
 | SIT-04 | Stale data | UI clearly marks stale or unavailable data | Yes |
-| SIT-05 | Explain Snapshot | Explanation lists key evidence/factors | Yes |
-| SIT-06 | Selected locality | Snapshot reflects selected area relevance | Yes |
+| SIT-05 | Rain probability wording | Highest hourly probability is distinguished from 24-hour rainfall | Yes |
+| SIT-06 | Selected locality | Weather and event relevance reflect selected area | Yes |
 
 ## 4. Since Your Last Visit
 
