@@ -1,56 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-27T08:33:54.891Z",
+  "generatedAt": "2026-07-27T11:58:56.926Z",
   "sourceStatus": "healthy",
-  "items": [
-    {
-      "id": "heavy-rain-official-moderate-to-intense-spells-of-rain-with-possibility-of-thunder-lightni",
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "title": "Official: Moderate to intense spells of rain with possibility of thunder/lightning with gusty winds 30-40 kmph very likely to occur at isolated places over Pune in next 3 hours.",
-      "summary": "Moderate to intense spells of rain with possibility of thunder/lightning with gusty winds 30-40 kmph very likely to occur at isolated places over Pune in next 3 hours.",
-      "category": "heavy_rain",
-      "severity": "warning",
-      "source": "NDMA SACHET (Maharashtra-SDMA)",
-      "sourceTrust": "A+",
-      "sources": [
-        {
-          "name": "NDMA SACHET (Maharashtra-SDMA)",
-          "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785136979334029",
-          "origin": ""
-        }
-      ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785136979334029",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-07-27T08:09:57.000Z",
-      "lastUpdated": "2026-07-27T08:09:57.000Z",
-      "sourceCheckedAt": "2026-07-27T08:33:22.947Z",
-      "lastVerifiedAt": "2026-07-27T08:33:22.947Z",
-      "intelligenceGeneratedAt": "2026-07-27T08:33:54.891Z",
-      "expiresAt": "2026-07-27T10:30:00.000Z",
-      "lifecycle": "active",
-      "confidence": "Medium",
-      "confidenceScore": 65,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Pune district of Maharashtra",
-      "upstreamId": "IN-1785136979334029_29",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "Update",
-      "capReferences": "IMD-Mumbai,IN-1785136979334029_46,2026-07-27T12:51:55+05:30",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ]
+  "items": []
 }
