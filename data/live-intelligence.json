@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-27T01:09:33.472Z",
+  "generatedAt": "2026-07-27T04:53:28.379Z",
   "status": "current",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-27T01:09:16.590Z",
-        "lastSuccessfulAt": "2026-07-27T01:09:16.590Z",
+        "sourceCheckedAt": "2026-07-27T04:53:11.591Z",
+        "lastSuccessfulAt": "2026-07-27T04:53:11.591Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-07-27T01:09:21.275Z",
-        "lastSuccessfulAt": "2026-07-27T01:09:21.275Z",
+        "sourceCheckedAt": "2026-07-27T04:53:16.758Z",
+        "lastSuccessfulAt": "2026-07-27T04:53:16.758Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-07-27T01:09:21.275Z",
-        "lastSuccessfulAt": "2026-07-26T23:16:11.550Z",
+        "sourceCheckedAt": "2026-07-27T04:53:16.758Z",
+        "lastSuccessfulAt": "2026-07-27T01:09:21.275Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-27T01:09:17.493Z",
-        "lastSuccessfulAt": "2026-07-27T01:09:17.493Z",
+        "sourceCheckedAt": "2026-07-27T04:53:12.103Z",
+        "lastSuccessfulAt": "2026-07-27T04:53:12.103Z",
         "error": null
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-27T01:09:17.493Z",
-        "lastSuccessfulAt": "2026-07-27T01:09:17.493Z",
+        "sourceCheckedAt": "2026-07-27T04:53:12.103Z",
+        "lastSuccessfulAt": "2026-07-27T04:53:12.103Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,19 +62,19 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-27T01:09:17.493Z",
-        "lastSuccessfulAt": "2026-07-27T01:09:17.493Z",
+        "sourceCheckedAt": "2026-07-27T04:53:12.103Z",
+        "lastSuccessfulAt": "2026-07-27T04:53:12.103Z",
         "error": null,
-        "etag": "W/\"9264-1785106754546\"",
-        "itemsCollected": 0,
+        "etag": "W/\"8528-1785127273367\"",
+        "itemsCollected": 1,
         "type": "alerts"
       },
       {
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-27T01:09:17.493Z",
-        "lastSuccessfulAt": "2026-07-27T01:09:17.493Z",
+        "sourceCheckedAt": "2026-07-27T04:53:12.103Z",
+        "lastSuccessfulAt": "2026-07-27T04:53:12.103Z",
         "error": null,
         "etag": null,
         "itemsCollected": 1,
@@ -84,19 +84,19 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-27T01:09:17.493Z",
-        "lastSuccessfulAt": "2026-07-27T01:09:17.493Z",
+        "sourceCheckedAt": "2026-07-27T04:53:12.103Z",
+        "lastSuccessfulAt": "2026-07-27T04:53:12.103Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 0,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-27T01:09:17.493Z",
-        "lastSuccessfulAt": "2026-07-27T01:09:17.493Z",
+        "sourceCheckedAt": "2026-07-27T04:53:12.103Z",
+        "lastSuccessfulAt": "2026-07-27T04:53:12.103Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -106,8 +106,8 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-27T01:09:17.493Z",
-        "lastSuccessfulAt": "2026-07-27T01:09:17.493Z",
+        "sourceCheckedAt": "2026-07-27T04:53:12.103Z",
+        "lastSuccessfulAt": "2026-07-27T04:53:12.103Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -117,8 +117,8 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-27T01:09:17.493Z",
-        "lastSuccessfulAt": "2026-07-27T01:09:17.493Z",
+        "sourceCheckedAt": "2026-07-27T04:53:12.103Z",
+        "lastSuccessfulAt": "2026-07-27T04:53:12.103Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -128,11 +128,11 @@
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-27T01:09:17.493Z",
-        "lastSuccessfulAt": "2026-07-27T01:09:17.493Z",
+        "sourceCheckedAt": "2026-07-27T04:53:12.103Z",
+        "lastSuccessfulAt": "2026-07-27T04:53:12.103Z",
         "error": null,
-        "itemsCollected": 6,
-        "itemsQualified": 6,
+        "itemsCollected": 7,
+        "itemsQualified": 7,
         "type": "incidents"
       },
       {
@@ -140,8 +140,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-07-27T01:09:21.275Z",
-        "lastSuccessfulAt": "2026-07-27T01:09:21.275Z",
+        "sourceCheckedAt": "2026-07-27T04:53:16.758Z",
+        "lastSuccessfulAt": "2026-07-27T04:53:16.758Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -503,8 +503,8 @@
   "liveReadiness": {
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
-    "alertsAvailable": 1,
-    "incidentsAvailable": 2,
+    "alertsAvailable": 2,
+    "incidentsAvailable": 3,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
@@ -517,6 +517,15 @@
       "source": "Times of India",
       "trust": "B",
       "updatedAt": "2026-07-24T18:34:00.000Z"
+    },
+    {
+      "id": "infrastructure-failure-developing-malshej-ghat-stretch-closed-after-road-subsidence-traffi",
+      "title": "Developing: Malshej Ghat stretch closed after road subsidence; traffic diverted",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Hindustan Times Pune",
+      "trust": "B",
+      "updatedAt": "2026-07-27T02:38:00.000Z"
     },
     {
       "id": "road-closure-developing-malshej-ghat-closed-to-traffic-till-further-notice-after-subsidenc",
