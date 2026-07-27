@@ -1,122 +1,56 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-27T04:53:27.851Z",
+  "generatedAt": "2026-07-27T08:33:54.891Z",
   "sourceStatus": "healthy",
   "items": [
     {
-      "id": "heavy-rain-official-moderate-rain-is-very-likely-to-occur-at-isolated-places-over-kolhapur",
+      "id": "heavy-rain-official-moderate-to-intense-spells-of-rain-with-possibility-of-thunder-lightni",
       "eventKind": "alert",
       "sourceId": "ndma_sachet",
-      "title": "Official: Moderate Rain is very likely to occur at isolated places over Kolhapur, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Thane in next 3 hours.",
-      "summary": "Moderate Rain is very likely to occur at isolated places over Kolhapur, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Thane in next 3 hours.",
+      "title": "Official: Moderate to intense spells of rain with possibility of thunder/lightning with gusty winds 30-40 kmph very likely to occur at isolated places over Pune in next 3 hours.",
+      "summary": "Moderate to intense spells of rain with possibility of thunder/lightning with gusty winds 30-40 kmph very likely to occur at isolated places over Pune in next 3 hours.",
       "category": "heavy_rain",
-      "severity": "watch",
-      "source": "NDMA SACHET (IMD-Mumbai)",
+      "severity": "warning",
+      "source": "NDMA SACHET (Maharashtra-SDMA)",
       "sourceTrust": "A+",
       "sources": [
         {
-          "name": "NDMA SACHET (IMD-Mumbai)",
+          "name": "NDMA SACHET (Maharashtra-SDMA)",
           "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785127264256029",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785136979334029",
           "origin": ""
         }
       ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785127264256029",
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785136979334029",
       "talukas": [],
       "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-07-27T04:39:37.000Z",
-      "lastUpdated": "2026-07-27T04:39:37.000Z",
-      "sourceCheckedAt": "2026-07-27T04:53:12.103Z",
-      "lastVerifiedAt": "2026-07-27T04:53:12.103Z",
-      "intelligenceGeneratedAt": "2026-07-27T04:53:27.851Z",
-      "expiresAt": "2026-07-27T07:30:00.000Z",
+      "publishedAt": "2026-07-27T08:09:57.000Z",
+      "lastUpdated": "2026-07-27T08:09:57.000Z",
+      "sourceCheckedAt": "2026-07-27T08:33:22.947Z",
+      "lastVerifiedAt": "2026-07-27T08:33:22.947Z",
+      "intelligenceGeneratedAt": "2026-07-27T08:33:54.891Z",
+      "expiresAt": "2026-07-27T10:30:00.000Z",
       "lifecycle": "active",
       "confidence": "Medium",
       "confidenceScore": 65,
       "impact": "This event may affect local awareness or movement.",
       "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Kolhapur, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Thane districts of Maharashtra",
-      "upstreamId": "IN-1785127264256029_46",
+      "affectedArea": "Pune district of Maharashtra",
+      "upstreamId": "IN-1785136979334029_29",
       "collectionProvider": "",
       "discoveryOnly": false,
       "reportedAuthority": "",
       "alertBasis": "",
       "discoveredAt": null,
-      "capMessageType": "Alert",
-      "capReferences": "",
+      "capMessageType": "Update",
+      "capReferences": "IMD-Mumbai,IN-1785136979334029_46,2026-07-27T12:51:55+05:30",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "dam-release-developing-collective-storage-in-reservoirs-around-pune-hits-80-water-discharg",
-      "eventKind": "alert",
-      "sourceId": "times_of_india",
-      "title": "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana",
-      "summary": "A current trusted-media report relevant to Pune District. Multiple independent trusted media sources report this. Official confirmation is not yet available.",
-      "category": "dam_release",
-      "severity": "warning",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQM2ZoeTdrekQxWHlReXlZc0llNmpJREtWMl9VRDNsTURRZmRpYVM3Z0gtdFIwUHB3d20zSUZWWUlSTTRxSnVfTkIxaWg4WTZTQVFPYVdBaGJ2LXF6RU04Vk9JM210YmxYak52LXhwdXV1eUlpeDlQcUt3aTF6S1FjOE1wYVBEZnhXekhtX3AtVkxIQmpwd0tCd1pwc0hTd2dvV0laclZZZ2VONXpDdE5COEFxWDJacGp6TTU5ZVI2N3BXN1Q3djFMMjRzVjBxTnJhMDFHNDRCNk1ZUElHVVpZRnFrZHFIcUdycEJsay1JMkZXbC1zSUxVeU5NVE1oa1BfdHlzRWY0LTfSAY4CQVVfeXFMTTk2SzZZaFFZYXdRVkRiUUJ1bzQyeHI0X2VCakdqaElfMmpIdVQ0bzlxZ3NFV2NoU2xnQ3lsRDRsTk1XSmpRdHh3enp0T1FCazRnTkR3eUVPd0hBMGdmbWd0QVhjb05JNWVnZTdDaHFRV00zSmIxSXJnMm9CTmhUUHhySzZ6WmJILUoxVTl2MndyQjc2RDBFUXd5Tk1FODh0WUxIYk9MUXVTV21LdUZyaHJQLXUxWXoyT08yWE0yYWY2dGpmanVKVkRpZWFDX3dMR2ljeW14UC1qTnpJajNVRUttOHFfMmRlSFdnTzB2dVZCR1d5THBlU1k0VTlKeXpVa1ZHWUJjMGNJWFY5MVZR?oc=5",
-          "origin": ""
-        },
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQkUyVklsMDc0UW40NTRjZzJ1VWlWODNQdl94eGY4OU9Ga0dLTkhBNzBmbmRldkVZQWd3V1pYYTBMWC1GemRiQVlxZG5MakJkSjA5V1dZWlJ1T2xYVi1oRHBPM2RRV0xvNnZlRmNjRl9mQ0dOZXpmNDZfclpoXy1HT0E3YjJKQW5MVklJbHlmQ1o3NjhOUEoyVzBpdTNFUlZocE5UbmF3SkVjODd3NEhMX1F0S1VjbE1iUWt3V2FLcURMQWh6OVNoWTczNm7SAdMBQVVfeXFMT1hTd3JVSGF6azNJd2JyR1AtVXNGVVBybW1TSEhtM0EtVWc5QzluV0R0NUt6ZVdwOHcxbUluSmVCUjVzMWpyTUtMYktCNV8wbHBpRW5YX3h1RlF0bnBJYmZiRUZ1dC1hamd3dFNRVXJCX1BPckk2bkN1bVFNNjY0eFZRTmpwYzBjdnc2T0N4WkRNcUFncnVkV082ME9nZXFxSlZnYU9pYjd1bWxoanQ3LUFrRWhfMUNIT1NEY0tuTjJoX3R0UVhjVWdweXZRQ3VHb2Jtcw?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQM2ZoeTdrekQxWHlReXlZc0llNmpJREtWMl9VRDNsTURRZmRpYVM3Z0gtdFIwUHB3d20zSUZWWUlSTTRxSnVfTkIxaWg4WTZTQVFPYVdBaGJ2LXF6RU04Vk9JM210YmxYak52LXhwdXV1eUlpeDlQcUt3aTF6S1FjOE1wYVBEZnhXekhtX3AtVkxIQmpwd0tCd1pwc0hTd2dvV0laclZZZ2VONXpDdE5COEFxWDJacGp6TTU5ZVI2N3BXN1Q3djFMMjRzVjBxTnJhMDFHNDRCNk1ZUElHVVpZRnFrZHFIcUdycEJsay1JMkZXbC1zSUxVeU5NVE1oa1BfdHlzRWY0LTfSAY4CQVVfeXFMTTk2SzZZaFFZYXdRVkRiUUJ1bzQyeHI0X2VCakdqaElfMmpIdVQ0bzlxZ3NFV2NoU2xnQ3lsRDRsTk1XSmpRdHh3enp0T1FCazRnTkR3eUVPd0hBMGdmbWd0QVhjb05JNWVnZTdDaHFRV00zSmIxSXJnMm9CTmhUUHhySzZ6WmJILUoxVTl2MndyQjc2RDBFUXd5Tk1FODh0WUxIYk9MUXVTV21LdUZyaHJQLXUxWXoyT08yWE0yYWY2dGpmanVKVkRpZWFDX3dMR2ljeW14UC1qTnpJajNVRUttOHFfMmRlSFdnTzB2dVZCR1d5THBlU1k0VTlKeXpVa1ZHWUJjMGNJWFY5MVZR?oc=5",
-      "talukas": [
-        "haveli",
-        "mulshi"
-      ],
-      "localities": [
-        "Khadakwasla",
-        "Mulshi"
-      ],
-      "operationalZones": [
-        "Khadakwasla",
-        "Mulshi"
-      ],
-      "publishedAt": "2026-07-24T18:34:00.000Z",
-      "lastUpdated": "2026-07-24T18:34:00.000Z",
-      "sourceCheckedAt": "2026-07-27T04:53:12.103Z",
-      "lastVerifiedAt": "2026-07-27T04:53:12.103Z",
-      "intelligenceGeneratedAt": "2026-07-27T04:53:27.851Z",
-      "expiresAt": "2026-07-27T18:34:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 75,
-      "impact": "River levels may rise downstream.",
-      "recommendedAction": "Avoid riverbanks and follow official advisories.",
-      "affectedArea": "Khadakwasla, Mulshi",
-      "upstreamId": "google-news-85cf77c2",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "media_corroborated",
-      "discoveredAt": "2026-07-27T04:53:12.103Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [
-        "dam-release-developing-pune-rain-khadakwasla-dam-discharge-continues-citizens-advised-to-s"
-      ],
-      "independentSourceCount": 2,
-      "corroboratedByIndependentSources": true
     }
   ]
 }

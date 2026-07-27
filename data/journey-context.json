@@ -1,12 +1,12 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-27T04:53:27.851Z",
+  "generatedAt": "2026-07-27T08:33:54.891Z",
   "routes": [],
   "risks": [
     {
-      "id": "heavy-rain-official-moderate-rain-is-very-likely-to-occur-at-isolated-places-over-kolhapur",
+      "id": "heavy-rain-official-moderate-to-intense-spells-of-rain-with-possibility-of-thunder-lightni",
       "category": "heavy_rain",
-      "severity": "watch",
+      "severity": "warning",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
@@ -20,33 +20,6 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Damaged infrastructure may create an immediate safety hazard and disrupt movement or essential services."
-    },
-    {
-      "id": "road-closure-developing-malshej-ghat-closed-to-traffic-till-further-notice-after-subsidenc",
-      "category": "road_closure",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Route may be blocked or diverted."
-    },
-    {
-      "id": "dam-release-developing-collective-storage-in-reservoirs-around-pune-hits-80-water-discharg",
-      "category": "dam_release",
-      "severity": "warning",
-      "localities": [
-        "Khadakwasla",
-        "Mulshi"
-      ],
-      "talukas": [
-        "haveli",
-        "mulshi"
-      ],
-      "operationalZones": [
-        "Khadakwasla",
-        "Mulshi"
-      ],
-      "impact": "River levels may rise downstream."
     },
     {
       "id": "health-emergency-developing-rains-fuel-dengue-surge-pune-city-records-560-suspected-cases-",
