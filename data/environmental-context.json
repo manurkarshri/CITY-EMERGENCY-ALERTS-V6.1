@@ -1,10 +1,10 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-27T21:41:07.429Z",
+  "generatedAt": "2026-07-27T22:43:23.928Z",
   "weatherSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-27T21:40:51.693Z",
-    "lastSuccessfulAt": "2026-07-27T21:40:51.693Z",
+    "sourceCheckedAt": "2026-07-27T22:43:08.527Z",
+    "lastSuccessfulAt": "2026-07-27T22:43:08.527Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
@@ -14,12 +14,12 @@
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-27T21:40:56.016Z",
-    "lastSuccessfulAt": "2026-07-27T21:40:56.016Z",
+    "sourceCheckedAt": "2026-07-27T22:43:12.752Z",
+    "lastSuccessfulAt": "2026-07-27T22:43:12.752Z",
     "error": "Pravah: fetch failed"
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-07-27T21:41:07.174Z",
+    "generatedAt": "2026-07-27T22:43:23.896Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -27,15 +27,15 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-27T21:40:51.693Z",
-        "observedAt": "2026-07-28T03:00:00+05:30",
-        "temp": 22.3,
+        "sourceCheckedAt": "2026-07-27T22:43:08.527Z",
+        "observedAt": "2026-07-28T04:00:00+05:30",
+        "temp": 22.5,
         "currentRain": 0,
-        "rain6h": 0,
+        "rain6h": 0.1,
         "rain24h": 5.2,
         "precipitationProbability": 100,
-        "wind": 27,
-        "gust": 27,
+        "wind": 24.5,
+        "gust": 24.5,
         "humidity": 92,
         "visibility": 10.3,
         "weatherCode": 3,
@@ -54,18 +54,18 @@
         "longitude": 73.76471,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-27T21:40:51.693Z",
-        "observedAt": "2026-07-28T03:00:00+05:30",
-        "temp": 22.2,
+        "sourceCheckedAt": "2026-07-27T22:43:08.527Z",
+        "observedAt": "2026-07-28T04:00:00+05:30",
+        "temp": 22.4,
         "currentRain": 0,
-        "rain6h": 0,
-        "rain24h": 4.7,
+        "rain6h": 0.1,
+        "rain24h": 4.8,
         "precipitationProbability": 100,
-        "wind": 23.8,
-        "gust": 23.8,
+        "wind": 22,
+        "gust": 22,
         "humidity": 94,
         "visibility": 7.8,
-        "weatherCode": 2,
+        "weatherCode": 3,
         "rainRisk": "Low",
         "windRisk": "Low",
         "visibilityRisk": "Minimal",
@@ -81,15 +81,15 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-27T21:40:51.693Z",
-        "observedAt": "2026-07-28T03:00:00+05:30",
-        "temp": 22.3,
+        "sourceCheckedAt": "2026-07-27T22:43:08.527Z",
+        "observedAt": "2026-07-28T04:00:00+05:30",
+        "temp": 22.5,
         "currentRain": 0,
-        "rain6h": 0,
+        "rain6h": 0.1,
         "rain24h": 5.2,
         "precipitationProbability": 100,
-        "wind": 27,
-        "gust": 27,
+        "wind": 24.5,
+        "gust": 24.5,
         "humidity": 92,
         "visibility": 10.3,
         "weatherCode": 3,
@@ -108,15 +108,15 @@
         "longitude": 73.51617,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-27T21:40:51.693Z",
-        "observedAt": "2026-07-28T03:00:00+05:30",
-        "temp": 21.7,
+        "sourceCheckedAt": "2026-07-27T22:43:08.527Z",
+        "observedAt": "2026-07-28T04:00:00+05:30",
+        "temp": 21.9,
         "currentRain": 0.1,
-        "rain6h": 1.6,
-        "rain24h": 19.4,
+        "rain6h": 1.9,
+        "rain24h": 20.1,
         "precipitationProbability": 100,
-        "wind": 23.4,
-        "gust": 23.4,
+        "wind": 24.5,
+        "gust": 24.5,
         "humidity": 100,
         "visibility": 0.2,
         "weatherCode": 51,
@@ -135,15 +135,15 @@
         "longitude": 73.451324,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-27T21:40:51.693Z",
-        "observedAt": "2026-07-28T03:00:00+05:30",
+        "sourceCheckedAt": "2026-07-27T22:43:08.527Z",
+        "observedAt": "2026-07-28T04:00:00+05:30",
         "temp": 21.3,
         "currentRain": 0.1,
-        "rain6h": 1.9,
-        "rain24h": 26.9,
+        "rain6h": 2.2,
+        "rain24h": 27.8,
         "precipitationProbability": 100,
-        "wind": 24.5,
-        "gust": 24.5,
+        "wind": 23.4,
+        "gust": 23.4,
         "humidity": 100,
         "visibility": 0.2,
         "weatherCode": 51,
@@ -160,7 +160,7 @@
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-07-27T21:41:07.429Z",
+    "generatedAt": "2026-07-27T22:43:23.927Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -173,7 +173,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-07-27T21:41:07.429Z",
+    "generatedAt": "2026-07-27T22:43:23.927Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -254,9 +254,10 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-07-27T21:41:07.429Z",
+    "generatedAt": "2026-07-27T22:43:23.927Z",
     "mode": "on-demand",
     "relevantDomains": [
+      "bridges",
       "highways"
     ],
     "infrastructure": {
@@ -292,7 +293,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-07-27T21:41:07.429Z",
+    "generatedAt": "2026-07-27T22:43:23.927Z",
     "riskLevel": "Normal",
     "impacts": [
       "1 active transport-related event(s) may affect travel."
@@ -300,5 +301,5 @@
     "citizenSummary": "1 active transport-related event(s) may affect travel.",
     "seasonalContext": "monsoon"
   },
-  "story": "2 important alerts require attention."
+  "story": "3 important alerts require attention."
 }
