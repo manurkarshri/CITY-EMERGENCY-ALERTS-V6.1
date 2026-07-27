@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-27T17:02:34.079Z",
+  "generatedAt": "2026-07-27T18:48:27.225Z",
   "status": "current",
   "situation": {
-    "snapshot": "3 important alerts require attention.",
+    "snapshot": "2 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-07-27T17:02:34.142Z",
+      "generatedAt": "2026-07-27T18:48:27.283Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,17 +13,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-27T17:02:15.738Z",
-          "observedAt": "2026-07-27T22:30:00+05:30",
-          "temp": 23.1,
+          "sourceCheckedAt": "2026-07-27T18:48:11.215Z",
+          "observedAt": "2026-07-28T00:15:00+05:30",
+          "temp": 22.9,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 7.9,
           "precipitationProbability": 100,
-          "wind": 25.6,
-          "gust": 25.6,
+          "wind": 27.7,
+          "gust": 27.7,
           "humidity": 91,
-          "visibility": 16.6,
+          "visibility": 16.3,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -40,15 +40,15 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-27T17:02:15.738Z",
-          "observedAt": "2026-07-27T22:30:00+05:30",
-          "temp": 22.9,
+          "sourceCheckedAt": "2026-07-27T18:48:11.215Z",
+          "observedAt": "2026-07-28T00:15:00+05:30",
+          "temp": 22.7,
           "currentRain": 0,
           "rain6h": 0,
-          "rain24h": 6,
+          "rain24h": 6.1,
           "precipitationProbability": 100,
-          "wind": 22.7,
-          "gust": 22.7,
+          "wind": 24.1,
+          "gust": 24.1,
           "humidity": 91,
           "visibility": 12.3,
           "weatherCode": 3,
@@ -67,17 +67,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-27T17:02:15.738Z",
-          "observedAt": "2026-07-27T22:30:00+05:30",
-          "temp": 23.1,
+          "sourceCheckedAt": "2026-07-27T18:48:11.215Z",
+          "observedAt": "2026-07-28T00:15:00+05:30",
+          "temp": 22.9,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 7.9,
           "precipitationProbability": 100,
-          "wind": 25.6,
-          "gust": 25.6,
+          "wind": 27.7,
+          "gust": 27.7,
           "humidity": 91,
-          "visibility": 16.6,
+          "visibility": 16.3,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -94,15 +94,15 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-27T17:02:15.738Z",
-          "observedAt": "2026-07-27T22:30:00+05:30",
-          "temp": 22,
+          "sourceCheckedAt": "2026-07-27T18:48:11.215Z",
+          "observedAt": "2026-07-28T00:15:00+05:30",
+          "temp": 21.8,
           "currentRain": 0,
-          "rain6h": 0.7,
-          "rain24h": 19.5,
+          "rain6h": 1.1,
+          "rain24h": 19.7,
           "precipitationProbability": 100,
-          "wind": 22.7,
-          "gust": 22.7,
+          "wind": 24.5,
+          "gust": 24.5,
           "humidity": 100,
           "visibility": 0.2,
           "weatherCode": 3,
@@ -121,18 +121,18 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-27T17:02:15.738Z",
-          "observedAt": "2026-07-27T22:30:00+05:30",
-          "temp": 21.7,
-          "currentRain": 0.1,
-          "rain6h": 1.2,
-          "rain24h": 25.5,
+          "sourceCheckedAt": "2026-07-27T18:48:11.215Z",
+          "observedAt": "2026-07-28T00:15:00+05:30",
+          "temp": 21.6,
+          "currentRain": 0,
+          "rain6h": 1.7,
+          "rain24h": 26.4,
           "precipitationProbability": 100,
-          "wind": 20.2,
-          "gust": 20.2,
-          "humidity": 99,
+          "wind": 24.5,
+          "gust": 24.5,
+          "humidity": 100,
           "visibility": 0.2,
-          "weatherCode": 51,
+          "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-27T17:02:34.179Z",
+      "generatedAt": "2026-07-27T18:48:27.320Z",
       "riskLevel": "Normal",
       "impacts": [
         "1 active transport-related event(s) may affect travel."
@@ -171,19 +171,19 @@
         {
           "name": "Indian Express Pune",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdTBKMTFMbkU3elY0dXppTVJjRjRfb3kxVC1LaUJYdkE0a0JlcDZwcl9kZ19maWhaVkdKNGMzZjBEUEdjTWRLT3Eyd0NISzhGdWFSUjJ4MEd2Zk9CbnRTdjJRaXo5VFk0NDR2QTMtM0ZWVXRCU1N6aFVNMDFHQUw3YXZDNDNCOWcyMXh0TUVnajdpQnlTMXFBSFFSVThtWlJYcWlBS2VxS3NZUEo2dklya2cteWZYc09fUUJ0UG84enhiUdIByAFBVV95cUxNT2xWVm1qTWdYSmNiZjd6VTVJbUtrOWZodUxzUG80V2tmNm5XdUNITXI4cmF1VzN2T2hMZDlqZ2MzRU5fbjlmN2ZDSXo2MVVmQ3pSNlBlWGlla1loc0liODQ3aGFkRVJld2laS2c4UXNhQjlRdTNuYkhhTUNJcVNUTjVzRHFTWm1MRnU5ZDRuQ3ZfNjI4cDRfWDd5WHh2VE1ua3pHT0ZDNGRSWF9Zd3hqOERlazY5Z2lLZFlrc2UzU1hGalhWT3JmUA?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdTBKMTFMbkU3elY0dXppTVJjRjRfb3kxVC1LaUJYdkE0a0JlcDZwcl9kZ19maWhaVkdKNGMzZjBEUEdjTWRLT3Eyd0NISzhGdWFSUjJ4MEd2Zk9CbnRTdjJRaXo5VFk0NDR2QTMtM0ZWVXRCU1N6aFVNMDFHQUw3YXZDNDNCOWcyMXh0TUVnajdpQnlTMXFBSFFSVThtWlJYcWlBS2VxS3NZUEo2dklya2cteWZYc09fUUJ0UG84enhiUQ?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdTBKMTFMbkU3elY0dXppTVJjRjRfb3kxVC1LaUJYdkE0a0JlcDZwcl9kZ19maWhaVkdKNGMzZjBEUEdjTWRLT3Eyd0NISzhGdWFSUjJ4MEd2Zk9CbnRTdjJRaXo5VFk0NDR2QTMtM0ZWVXRCU1N6aFVNMDFHQUw3YXZDNDNCOWcyMXh0TUVnajdpQnlTMXFBSFFSVThtWlJYcWlBS2VxS3NZUEo2dklya2cteWZYc09fUUJ0UG84enhiUdIByAFBVV95cUxNT2xWVm1qTWdYSmNiZjd6VTVJbUtrOWZodUxzUG80V2tmNm5XdUNITXI4cmF1VzN2T2hMZDlqZ2MzRU5fbjlmN2ZDSXo2MVVmQ3pSNlBlWGlla1loc0liODQ3aGFkRVJld2laS2c4UXNhQjlRdTNuYkhhTUNJcVNUTjVzRHFTWm1MRnU5ZDRuQ3ZfNjI4cDRfWDd5WHh2VE1ua3pHT0ZDNGRSWF9Zd3hqOERlazY5Z2lLZFlrc2UzU1hGalhWT3JmUA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdTBKMTFMbkU3elY0dXppTVJjRjRfb3kxVC1LaUJYdkE0a0JlcDZwcl9kZ19maWhaVkdKNGMzZjBEUEdjTWRLT3Eyd0NISzhGdWFSUjJ4MEd2Zk9CbnRTdjJRaXo5VFk0NDR2QTMtM0ZWVXRCU1N6aFVNMDFHQUw3YXZDNDNCOWcyMXh0TUVnajdpQnlTMXFBSFFSVThtWlJYcWlBS2VxS3NZUEo2dklya2cteWZYc09fUUJ0UG84enhiUQ?oc=5",
       "talukas": [],
       "localities": [],
       "operationalZones": [],
       "publishedAt": "2026-07-26T09:51:43.000Z",
       "lastUpdated": "2026-07-26T09:51:43.000Z",
-      "sourceCheckedAt": "2026-07-27T17:02:16.674Z",
-      "lastVerifiedAt": "2026-07-27T17:02:16.674Z",
-      "intelligenceGeneratedAt": "2026-07-27T17:02:34.079Z",
+      "sourceCheckedAt": "2026-07-27T18:48:12.215Z",
+      "lastVerifiedAt": "2026-07-27T18:48:12.215Z",
+      "intelligenceGeneratedAt": "2026-07-27T18:48:27.225Z",
       "expiresAt": "2026-07-28T09:51:43.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -196,70 +196,12 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-07-27T17:02:16.674Z",
+      "discoveredAt": "2026-07-27T18:48:12.215Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "dam-release-developing-collective-storage-in-reservoirs-around-pune-hits-80-water-discharg",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "dam_release",
-      "severity": "warning",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQM2ZoeTdrekQxWHlReXlZc0llNmpJREtWMl9VRDNsTURRZmRpYVM3Z0gtdFIwUHB3d20zSUZWWUlSTTRxSnVfTkIxaWg4WTZTQVFPYVdBaGJ2LXF6RU04Vk9JM210YmxYak52LXhwdXV1eUlpeDlQcUt3aTF6S1FjOE1wYVBEZnhXekhtX3AtVkxIQmpwd0tCd1pwc0hTd2dvV0laclZZZ2VONXpDdE5COEFxWDJacGp6TTU5ZVI2N3BXN1Q3djFMMjRzVjBxTnJhMDFHNDRCNk1ZUElHVVpZRnFrZHFIcUdycEJsay1JMkZXbC1zSUxVeU5NVE1oa1BfdHlzRWY0LTfSAY4CQVVfeXFMTTk2SzZZaFFZYXdRVkRiUUJ1bzQyeHI0X2VCakdqaElfMmpIdVQ0bzlxZ3NFV2NoU2xnQ3lsRDRsTk1XSmpRdHh3enp0T1FCazRnTkR3eUVPd0hBMGdmbWd0QVhjb05JNWVnZTdDaHFRV00zSmIxSXJnMm9CTmhUUHhySzZ6WmJILUoxVTl2MndyQjc2RDBFUXd5Tk1FODh0WUxIYk9MUXVTV21LdUZyaHJQLXUxWXoyT08yWE0yYWY2dGpmanVKVkRpZWFDX3dMR2ljeW14UC1qTnpJajNVRUttOHFfMmRlSFdnTzB2dVZCR1d5THBlU1k0VTlKeXpVa1ZHWUJjMGNJWFY5MVZR?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQM2ZoeTdrekQxWHlReXlZc0llNmpJREtWMl9VRDNsTURRZmRpYVM3Z0gtdFIwUHB3d20zSUZWWUlSTTRxSnVfTkIxaWg4WTZTQVFPYVdBaGJ2LXF6RU04Vk9JM210YmxYak52LXhwdXV1eUlpeDlQcUt3aTF6S1FjOE1wYVBEZnhXekhtX3AtVkxIQmpwd0tCd1pwc0hTd2dvV0laclZZZ2VONXpDdE5COEFxWDJacGp6TTU5ZVI2N3BXN1Q3djFMMjRzVjBxTnJhMDFHNDRCNk1ZUElHVVpZRnFrZHFIcUdycEJsay1JMkZXbC1zSUxVeU5NVE1oa1BfdHlzRWY0LTfSAY4CQVVfeXFMTTk2SzZZaFFZYXdRVkRiUUJ1bzQyeHI0X2VCakdqaElfMmpIdVQ0bzlxZ3NFV2NoU2xnQ3lsRDRsTk1XSmpRdHh3enp0T1FCazRnTkR3eUVPd0hBMGdmbWd0QVhjb05JNWVnZTdDaHFRV00zSmIxSXJnMm9CTmhUUHhySzZ6WmJILUoxVTl2MndyQjc2RDBFUXd5Tk1FODh0WUxIYk9MUXVTV21LdUZyaHJQLXUxWXoyT08yWE0yYWY2dGpmanVKVkRpZWFDX3dMR2ljeW14UC1qTnpJajNVRUttOHFfMmRlSFdnTzB2dVZCR1d5THBlU1k0VTlKeXpVa1ZHWUJjMGNJWFY5MVZR?oc=5",
-      "talukas": [
-        "haveli",
-        "mulshi"
-      ],
-      "localities": [
-        "Khadakwasla",
-        "Mulshi"
-      ],
-      "operationalZones": [
-        "Khadakwasla",
-        "Mulshi"
-      ],
-      "publishedAt": "2026-07-24T18:34:00.000Z",
-      "lastUpdated": "2026-07-24T18:34:00.000Z",
-      "sourceCheckedAt": "2026-07-27T17:02:16.674Z",
-      "lastVerifiedAt": "2026-07-27T17:02:16.674Z",
-      "intelligenceGeneratedAt": "2026-07-27T17:02:34.079Z",
-      "expiresAt": "2026-07-27T18:34:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 55,
-      "impact": "River levels may rise downstream.",
-      "recommendedAction": "Avoid riverbanks and follow official advisories.",
-      "affectedArea": "Khadakwasla, Mulshi",
-      "upstreamId": "google-news-85cf77c2",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-07-27T17:02:16.674Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
@@ -288,9 +230,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-25T03:04:05.000Z",
       "lastUpdated": "2026-07-25T03:04:05.000Z",
-      "sourceCheckedAt": "2026-07-27T17:02:16.674Z",
-      "lastVerifiedAt": "2026-07-27T17:02:16.674Z",
-      "intelligenceGeneratedAt": "2026-07-27T17:02:34.079Z",
+      "sourceCheckedAt": "2026-07-27T18:48:12.215Z",
+      "lastVerifiedAt": "2026-07-27T18:48:12.215Z",
+      "intelligenceGeneratedAt": "2026-07-27T18:48:27.225Z",
       "expiresAt": "2026-07-28T03:04:05.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -303,7 +245,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-07-27T17:02:16.674Z",
+      "discoveredAt": "2026-07-27T18:48:12.215Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -324,24 +266,6 @@
         "talukas": [],
         "operationalZones": [],
         "impact": "Route may be blocked or diverted."
-      },
-      {
-        "id": "dam-release-developing-collective-storage-in-reservoirs-around-pune-hits-80-water-discharg",
-        "category": "dam_release",
-        "severity": "warning",
-        "localities": [
-          "Khadakwasla",
-          "Mulshi"
-        ],
-        "talukas": [
-          "haveli",
-          "mulshi"
-        ],
-        "operationalZones": [
-          "Khadakwasla",
-          "Mulshi"
-        ],
-        "impact": "River levels may rise downstream."
       },
       {
         "id": "health-emergency-developing-rains-fuel-dengue-surge-pune-city-records-560-suspected-cases-",
@@ -379,9 +303,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-27T02:38:00.000Z",
       "lastUpdated": "2026-07-27T02:38:00.000Z",
-      "sourceCheckedAt": "2026-07-27T17:02:16.674Z",
-      "lastVerifiedAt": "2026-07-27T17:02:16.674Z",
-      "intelligenceGeneratedAt": "2026-07-27T17:02:34.079Z",
+      "sourceCheckedAt": "2026-07-27T18:48:12.215Z",
+      "lastVerifiedAt": "2026-07-27T18:48:12.215Z",
+      "intelligenceGeneratedAt": "2026-07-27T18:48:27.225Z",
       "expiresAt": "2026-07-27T14:38:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -411,15 +335,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-27T17:02:16.674Z",
-      "lastSuccessfulAt": "2026-07-27T17:02:16.674Z",
+      "sourceCheckedAt": "2026-07-27T18:48:12.215Z",
+      "lastSuccessfulAt": "2026-07-27T18:48:12.215Z",
       "error": null
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-27T17:02:34.179Z",
+      "generatedAt": "2026-07-27T18:48:27.320Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -432,7 +356,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-27T17:02:34.178Z",
+      "generatedAt": "2026-07-27T18:48:27.320Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -513,11 +437,10 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-27T17:02:34.179Z",
+      "generatedAt": "2026-07-27T18:48:27.320Z",
       "mode": "on-demand",
       "relevantDomains": [
-        "highways",
-        "bridges"
+        "highways"
       ],
       "infrastructure": {
         "highways": [
@@ -559,7 +482,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-27T17:02:34.241Z",
+        "generatedAt": "2026-07-27T18:48:27.374Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -708,7 +631,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-27T17:02:34.241Z",
+        "generatedAt": "2026-07-27T18:48:27.374Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -805,7 +728,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-27T17:02:34.241Z",
+        "generatedAt": "2026-07-27T18:48:27.375Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -834,28 +757,20 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 45,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 70,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": [
-              {
-                "eventId": "dam-release-developing-collective-storage-in-reservoirs-around-pune-hits-80-water-discharg",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana"
-              }
-            ]
+            "penalties": []
           },
-          "estimatedTimeMin": 60,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 50,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (45/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -886,28 +801,20 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 45,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 70,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns.",
                 "Low visibility may make driving unsafe."
               ],
-              "penalties": [
-                {
-                  "eventId": "dam-release-developing-collective-storage-in-reservoirs-around-pune-hits-80-water-discharg",
-                  "category": "dam_release",
-                  "penalty": 25,
-                  "title": "Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana"
-                }
-              ]
+              "penalties": []
             },
-            "estimatedTimeMin": 60,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 50,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (45/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Developing: Collective storage in reservoirs around Pune hits 80%, water discharged from Khadakwasla, Mulshi, Pavana may cause delays or safety concerns."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       }
