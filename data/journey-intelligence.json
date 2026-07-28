@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-28T05:49:53.491Z",
+  "generatedAt": "2026-07-28T08:39:42.595Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-28T05:49:53.491Z",
+      "generatedAt": "2026-07-28T08:39:42.595Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -37,12 +37,11 @@
         "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 60,
+          "score": 70,
           "label": "Proceed with Caution",
           "recommendation": "Proceed with caution and allow extra travel time.",
           "reasons": [
-            "Low visibility may make driving unsafe.",
-            "Moderate rainfall may slow travel."
+            "Low visibility may make driving unsafe."
           ],
           "penalties": []
         },
@@ -51,7 +50,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
       },
       "routes": [
         {
@@ -82,12 +81,11 @@
           "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 60,
+            "score": 70,
             "label": "Proceed with Caution",
             "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Low visibility may make driving unsafe.",
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
@@ -96,7 +94,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         {
           "id": "kharadi-hinjawadi-nh48",
@@ -129,13 +127,12 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 25,
+            "score": 35,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions may significantly affect this route.",
-              "Low visibility may make driving unsafe.",
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
             "penalties": [
               {
@@ -151,7 +148,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (25/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions may significantly affect this route."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions may significantly affect this route."
         }
       ]
     },
@@ -160,7 +157,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-28T05:49:53.491Z",
+      "generatedAt": "2026-07-28T08:39:42.595Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -190,12 +187,11 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 60,
+          "score": 70,
           "label": "Proceed with Caution",
           "recommendation": "Proceed with caution and allow extra travel time.",
           "reasons": [
-            "Low visibility may make driving unsafe.",
-            "Moderate rainfall may slow travel."
+            "Low visibility may make driving unsafe."
           ],
           "penalties": []
         },
@@ -204,7 +200,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
       },
       "routes": [
         {
@@ -236,12 +232,11 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 60,
+            "score": 70,
             "label": "Proceed with Caution",
             "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Low visibility may make driving unsafe.",
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
@@ -250,7 +245,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         }
       ]
     },
@@ -259,7 +254,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-28T05:49:53.491Z",
+      "generatedAt": "2026-07-28T08:39:42.595Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -288,12 +283,11 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 60,
+          "score": 70,
           "label": "Proceed with Caution",
           "recommendation": "Proceed with caution and allow extra travel time.",
           "reasons": [
-            "Low visibility may make driving unsafe.",
-            "Moderate rainfall may slow travel."
+            "Low visibility may make driving unsafe."
           ],
           "penalties": []
         },
@@ -302,7 +296,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
       },
       "routes": [
         {
@@ -333,12 +327,11 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 60,
+            "score": 70,
             "label": "Proceed with Caution",
             "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Low visibility may make driving unsafe.",
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
@@ -347,7 +340,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         }
       ]
     }
