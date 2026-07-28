@@ -1,6 +1,56 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-28T08:39:42.468Z",
+  "generatedAt": "2026-07-28T11:03:07.084Z",
   "sourceStatus": "healthy",
-  "items": []
+  "items": [
+    {
+      "id": "heavy-rain-official-moderate-to-intense-spells-of-rain-possibility-of-thunder-lightning-20",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Moderate to intense spells of rain + possibility of thunder/lightning",
+      "summary": "Moderate to intense spells of rain + possibility of thunder/lightning",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "source": "NDMA SACHET (IMD-Mumbai)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (IMD-Mumbai)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785235587547029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785235587547029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-28T10:44:06.000Z",
+      "lastUpdated": "2026-07-28T10:44:06.000Z",
+      "sourceCheckedAt": "2026-07-28T11:02:50.732Z",
+      "lastVerifiedAt": "2026-07-28T11:02:50.732Z",
+      "intelligenceGeneratedAt": "2026-07-28T11:03:07.084Z",
+      "expiresAt": "2026-07-28T13:39:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Pune, Raigad districts of Maharashtra",
+      "upstreamId": "IN-1785235587547029_46",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Alert",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }

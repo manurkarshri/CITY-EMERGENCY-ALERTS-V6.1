@@ -1,8 +1,17 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-28T08:39:42.468Z",
+  "generatedAt": "2026-07-28T11:03:07.084Z",
   "routes": [],
   "risks": [
+    {
+      "id": "heavy-rain-official-moderate-to-intense-spells-of-rain-possibility-of-thunder-lightning-20",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
     {
       "id": "road-closure-developing-mahabaleshwar-hill-station-link-road-closed-due-to-landslide-2026-",
       "category": "road_closure",
@@ -24,15 +33,6 @@
       ],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "road-closure-developing-malshej-ghat-in-maharashtra-closed-indefinitely-after-highway-dama",
-      "category": "road_closure",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Route may be blocked or diverted."
     }
   ]
 }
