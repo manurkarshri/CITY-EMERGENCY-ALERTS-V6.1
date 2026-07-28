@@ -1,10 +1,10 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-28T18:47:00.787Z",
+  "generatedAt": "2026-07-28T20:17:52.113Z",
   "weatherSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-28T18:46:43.814Z",
-    "lastSuccessfulAt": "2026-07-28T18:46:43.814Z",
+    "sourceCheckedAt": "2026-07-28T20:17:27.258Z",
+    "lastSuccessfulAt": "2026-07-28T20:17:27.258Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
@@ -14,12 +14,12 @@
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-28T18:46:49.621Z",
-    "lastSuccessfulAt": "2026-07-28T18:46:49.621Z",
+    "sourceCheckedAt": "2026-07-28T20:17:40.934Z",
+    "lastSuccessfulAt": "2026-07-28T20:17:40.934Z",
     "error": "Pravah: fetch failed"
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-07-28T18:47:00.770Z",
+    "generatedAt": "2026-07-28T20:17:52.085Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -27,17 +27,17 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-28T18:46:43.814Z",
-        "observedAt": "2026-07-29T00:15:00+05:30",
-        "temp": 23.2,
+        "sourceCheckedAt": "2026-07-28T20:17:27.258Z",
+        "observedAt": "2026-07-29T01:45:00+05:30",
+        "temp": 23.4,
         "currentRain": 0,
-        "rain6h": 0.6,
-        "rain24h": 4.4,
+        "rain6h": 0.2,
+        "rain24h": 5.9,
         "precipitationProbability": 100,
-        "wind": 30.2,
-        "gust": 30.2,
+        "wind": 34.6,
+        "gust": 34.6,
         "humidity": 91,
-        "visibility": 5.8,
+        "visibility": 8,
         "weatherCode": 3,
         "rainRisk": "Low",
         "windRisk": "Low",
@@ -54,21 +54,21 @@
         "longitude": 73.76471,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-28T18:46:43.814Z",
-        "observedAt": "2026-07-29T00:15:00+05:30",
+        "sourceCheckedAt": "2026-07-28T20:17:27.258Z",
+        "observedAt": "2026-07-29T01:45:00+05:30",
         "temp": 23.2,
         "currentRain": 0,
-        "rain6h": 0.9,
-        "rain24h": 7.2,
+        "rain6h": 0.4,
+        "rain24h": 4.1,
         "precipitationProbability": 100,
-        "wind": 28.4,
-        "gust": 28.4,
-        "humidity": 91,
-        "visibility": 4.8,
+        "wind": 31,
+        "gust": 31,
+        "humidity": 93,
+        "visibility": 10.5,
         "weatherCode": 3,
         "rainRisk": "Low",
         "windRisk": "Low",
-        "visibilityRisk": "Low",
+        "visibilityRisk": "Minimal",
         "heatRisk": "Normal",
         "travelImpact": "Low",
         "advice": [
@@ -81,17 +81,17 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-28T18:46:43.814Z",
-        "observedAt": "2026-07-29T00:15:00+05:30",
-        "temp": 23.2,
+        "sourceCheckedAt": "2026-07-28T20:17:27.258Z",
+        "observedAt": "2026-07-29T01:45:00+05:30",
+        "temp": 23.4,
         "currentRain": 0,
-        "rain6h": 0.6,
-        "rain24h": 4.4,
+        "rain6h": 0.2,
+        "rain24h": 5.9,
         "precipitationProbability": 100,
-        "wind": 30.2,
-        "gust": 30.2,
+        "wind": 34.6,
+        "gust": 34.6,
         "humidity": 91,
-        "visibility": 5.8,
+        "visibility": 8,
         "weatherCode": 3,
         "rainRisk": "Low",
         "windRisk": "Low",
@@ -108,18 +108,18 @@
         "longitude": 73.51617,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-28T18:46:43.814Z",
-        "observedAt": "2026-07-29T00:15:00+05:30",
-        "temp": 22.2,
-        "currentRain": 0.1,
-        "rain6h": 3.7,
-        "rain24h": 22.7,
+        "sourceCheckedAt": "2026-07-28T20:17:27.258Z",
+        "observedAt": "2026-07-29T01:45:00+05:30",
+        "temp": 22.7,
+        "currentRain": 0.2,
+        "rain6h": 3.8,
+        "rain24h": 25.5,
         "precipitationProbability": 100,
-        "wind": 29.5,
-        "gust": 29.5,
+        "wind": 32,
+        "gust": 32,
         "humidity": 100,
-        "visibility": 0.2,
-        "weatherCode": 51,
+        "visibility": 0.4,
+        "weatherCode": 53,
         "rainRisk": "Low",
         "windRisk": "Low",
         "visibilityRisk": "High",
@@ -135,25 +135,24 @@
         "longitude": 73.451324,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-28T18:46:43.814Z",
-        "observedAt": "2026-07-29T00:15:00+05:30",
+        "sourceCheckedAt": "2026-07-28T20:17:27.258Z",
+        "observedAt": "2026-07-29T01:45:00+05:30",
         "temp": 21.8,
-        "currentRain": 0.2,
-        "rain6h": 5.4,
-        "rain24h": 30.3,
+        "currentRain": 0.1,
+        "rain6h": 5.2,
+        "rain24h": 26.8,
         "precipitationProbability": 100,
-        "wind": 24.1,
-        "gust": 24.1,
+        "wind": 28.8,
+        "gust": 28.8,
         "humidity": 100,
         "visibility": 0.2,
         "weatherCode": 53,
-        "rainRisk": "Medium",
+        "rainRisk": "Low",
         "windRisk": "Low",
         "visibilityRisk": "High",
         "heatRisk": "Normal",
         "travelImpact": "High",
         "advice": [
-          "Moderate rainfall may slow travel in low-lying areas.",
           "Low visibility may make driving unsafe."
         ]
       }
@@ -161,7 +160,7 @@
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-07-28T18:47:00.786Z",
+    "generatedAt": "2026-07-28T20:17:52.113Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -174,7 +173,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-07-28T18:47:00.786Z",
+    "generatedAt": "2026-07-28T20:17:52.113Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -255,10 +254,11 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-07-28T18:47:00.786Z",
+    "generatedAt": "2026-07-28T20:17:52.113Z",
     "mode": "on-demand",
     "relevantDomains": [
-      "highways"
+      "highways",
+      "bridges"
     ],
     "infrastructure": {
       "highways": [
@@ -293,14 +293,13 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-07-28T18:47:00.787Z",
-    "riskLevel": "Elevated",
+    "generatedAt": "2026-07-28T20:17:52.113Z",
+    "riskLevel": "Normal",
     "impacts": [
-      "1 area(s) have elevated rain-related travel impact.",
-      "2 active transport-related event(s) may affect travel."
+      "1 active transport-related event(s) may affect travel."
     ],
-    "citizenSummary": "1 area(s) have elevated rain-related travel impact. 2 active transport-related event(s) may affect travel.",
+    "citizenSummary": "1 active transport-related event(s) may affect travel.",
     "seasonalContext": "monsoon"
   },
-  "story": "Moderate rainfall may slow travel in some areas. 1 important alert require attention."
+  "story": "1 important alert require attention."
 }
