@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-28T02:45:52.412Z",
+  "generatedAt": "2026-07-28T05:49:53.522Z",
   "status": "current",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-28T02:45:36.444Z",
-        "lastSuccessfulAt": "2026-07-28T02:45:36.444Z",
+        "sourceCheckedAt": "2026-07-28T05:49:36.328Z",
+        "lastSuccessfulAt": "2026-07-28T05:49:36.328Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-07-28T02:45:41.133Z",
-        "lastSuccessfulAt": "2026-07-28T02:45:41.133Z",
+        "sourceCheckedAt": "2026-07-28T05:49:41.640Z",
+        "lastSuccessfulAt": "2026-07-28T05:49:41.640Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-07-28T02:45:41.133Z",
-        "lastSuccessfulAt": "2026-07-27T23:48:12.648Z",
+        "sourceCheckedAt": "2026-07-28T05:49:41.640Z",
+        "lastSuccessfulAt": "2026-07-28T02:45:41.133Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-28T02:45:37.215Z",
-        "lastSuccessfulAt": "2026-07-28T02:45:37.215Z",
+        "sourceCheckedAt": "2026-07-28T05:49:37.290Z",
+        "lastSuccessfulAt": "2026-07-28T05:49:37.290Z",
         "error": null
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-28T02:45:37.215Z",
-        "lastSuccessfulAt": "2026-07-28T02:45:37.215Z",
+        "sourceCheckedAt": "2026-07-28T05:49:37.290Z",
+        "lastSuccessfulAt": "2026-07-28T05:49:37.290Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,10 +62,10 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-28T02:45:37.215Z",
-        "lastSuccessfulAt": "2026-07-28T02:45:37.215Z",
+        "sourceCheckedAt": "2026-07-28T05:49:37.290Z",
+        "lastSuccessfulAt": "2026-07-28T05:49:37.290Z",
         "error": null,
-        "etag": "W/\"9535-1785181318040\"",
+        "etag": "W/\"9516-1785217169159\"",
         "itemsCollected": 0,
         "type": "alerts"
       },
@@ -73,8 +73,8 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-28T02:45:37.215Z",
-        "lastSuccessfulAt": "2026-07-28T02:45:37.215Z",
+        "sourceCheckedAt": "2026-07-28T05:49:37.290Z",
+        "lastSuccessfulAt": "2026-07-28T05:49:37.290Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -84,19 +84,19 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-28T02:45:37.215Z",
-        "lastSuccessfulAt": "2026-07-28T02:45:37.215Z",
+        "sourceCheckedAt": "2026-07-28T05:49:37.290Z",
+        "lastSuccessfulAt": "2026-07-28T05:49:37.290Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 0,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-28T02:45:37.215Z",
-        "lastSuccessfulAt": "2026-07-28T02:45:37.215Z",
+        "sourceCheckedAt": "2026-07-28T05:49:37.290Z",
+        "lastSuccessfulAt": "2026-07-28T05:49:37.290Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -106,8 +106,8 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-28T02:45:37.215Z",
-        "lastSuccessfulAt": "2026-07-28T02:45:37.215Z",
+        "sourceCheckedAt": "2026-07-28T05:49:37.290Z",
+        "lastSuccessfulAt": "2026-07-28T05:49:37.290Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -117,8 +117,8 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-28T02:45:37.215Z",
-        "lastSuccessfulAt": "2026-07-28T02:45:37.215Z",
+        "sourceCheckedAt": "2026-07-28T05:49:37.290Z",
+        "lastSuccessfulAt": "2026-07-28T05:49:37.290Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -128,11 +128,11 @@
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-28T02:45:37.215Z",
-        "lastSuccessfulAt": "2026-07-28T02:45:37.215Z",
+        "sourceCheckedAt": "2026-07-28T05:49:37.290Z",
+        "lastSuccessfulAt": "2026-07-28T05:49:37.290Z",
         "error": null,
-        "itemsCollected": 2,
-        "itemsQualified": 2,
+        "itemsCollected": 1,
+        "itemsQualified": 1,
         "type": "incidents"
       },
       {
@@ -140,8 +140,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-07-28T02:45:41.133Z",
-        "lastSuccessfulAt": "2026-07-28T02:45:41.133Z",
+        "sourceCheckedAt": "2026-07-28T05:49:41.640Z",
+        "lastSuccessfulAt": "2026-07-28T05:49:41.640Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -510,6 +510,15 @@
   },
   "developingSituations": [
     {
+      "id": "accident-developing-woman-one-year-old-son-killed-relative-seriously-injured-after-contain",
+      "title": "Developing: Woman, one-year-old son killed; relative seriously injured after container truck hits motorcycle",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Hindustan Times Pune",
+      "trust": "B",
+      "updatedAt": "2026-07-28T03:32:08.000Z"
+    },
+    {
       "id": "road-closure-developing-malshej-ghat-in-maharashtra-closed-indefinitely-after-highway-dama",
       "title": "Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions",
       "status": "developing",
@@ -517,15 +526,6 @@
       "source": "Indian Express Pune",
       "trust": "B",
       "updatedAt": "2026-07-26T09:51:43.000Z"
-    },
-    {
-      "id": "health-emergency-developing-rains-fuel-dengue-surge-pune-city-records-560-suspected-cases-",
-      "title": "Developing: Rains fuel dengue surge: Pune city records 560 suspected cases, 212 in July alone | Hindustan Times",
-      "status": "developing",
-      "confirmation": "Awaiting official confirmation",
-      "source": "Hindustan Times Pune",
-      "trust": "B",
-      "updatedAt": "2026-07-25T03:04:05.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."

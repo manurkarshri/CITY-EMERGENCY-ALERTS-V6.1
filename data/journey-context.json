@@ -1,8 +1,21 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-28T02:45:52.216Z",
+  "generatedAt": "2026-07-28T05:49:53.290Z",
   "routes": [],
   "risks": [
+    {
+      "id": "accident-developing-woman-one-year-old-son-killed-relative-seriously-injured-after-contain",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Chakan"
+      ],
+      "talukas": [
+        "khed"
+      ],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
     {
       "id": "road-closure-developing-malshej-ghat-in-maharashtra-closed-indefinitely-after-highway-dama",
       "category": "road_closure",
@@ -11,15 +24,6 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Route may be blocked or diverted."
-    },
-    {
-      "id": "health-emergency-developing-rains-fuel-dengue-surge-pune-city-records-560-suspected-cases-",
-      "category": "health_emergency",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "A reported outbreak or contamination incident may affect public health in the area."
     }
   ]
 }

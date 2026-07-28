@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-28T02:45:52.216Z",
+  "generatedAt": "2026-07-28T05:49:53.290Z",
   "status": "current",
   "situation": {
-    "snapshot": "Moderate rainfall may slow travel in some areas. 2 important alerts require attention.",
+    "snapshot": "Moderate rainfall may slow travel in some areas. 1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-07-28T02:45:52.272Z",
+      "generatedAt": "2026-07-28T05:49:53.441Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,20 +13,20 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-28T02:45:36.444Z",
-          "observedAt": "2026-07-28T08:15:00+05:30",
-          "temp": 23.8,
+          "sourceCheckedAt": "2026-07-28T05:49:36.328Z",
+          "observedAt": "2026-07-28T11:15:00+05:30",
+          "temp": 27.1,
           "currentRain": 0,
-          "rain6h": 1.9,
-          "rain24h": 5.6,
+          "rain6h": 4.5,
+          "rain24h": 6.1,
           "precipitationProbability": 100,
-          "wind": 35.3,
-          "gust": 35.3,
-          "humidity": 88,
+          "wind": 45,
+          "gust": 45,
+          "humidity": 71,
           "visibility": 3.6,
-          "weatherCode": 2,
+          "weatherCode": 1,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Low",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -40,20 +40,20 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-28T02:45:36.444Z",
-          "observedAt": "2026-07-28T08:15:00+05:30",
-          "temp": 23.7,
+          "sourceCheckedAt": "2026-07-28T05:49:36.328Z",
+          "observedAt": "2026-07-28T11:15:00+05:30",
+          "temp": 27.4,
           "currentRain": 0,
-          "rain6h": 2.3,
-          "rain24h": 6.6,
+          "rain6h": 5.2,
+          "rain24h": 7,
           "precipitationProbability": 100,
-          "wind": 29.2,
-          "gust": 29.2,
-          "humidity": 90,
+          "wind": 43.6,
+          "gust": 43.6,
+          "humidity": 70,
           "visibility": 4.9,
-          "weatherCode": 3,
+          "weatherCode": 1,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Low",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -67,20 +67,20 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-28T02:45:36.444Z",
-          "observedAt": "2026-07-28T08:15:00+05:30",
-          "temp": 23.8,
+          "sourceCheckedAt": "2026-07-28T05:49:36.328Z",
+          "observedAt": "2026-07-28T11:15:00+05:30",
+          "temp": 27.1,
           "currentRain": 0,
-          "rain6h": 1.9,
-          "rain24h": 5.6,
+          "rain6h": 4.5,
+          "rain24h": 6.1,
           "precipitationProbability": 100,
-          "wind": 35.3,
-          "gust": 35.3,
-          "humidity": 88,
+          "wind": 45,
+          "gust": 45,
+          "humidity": 71,
           "visibility": 3.6,
-          "weatherCode": 2,
+          "weatherCode": 1,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Low",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -94,25 +94,25 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-28T02:45:36.444Z",
-          "observedAt": "2026-07-28T08:15:00+05:30",
-          "temp": 22.2,
-          "currentRain": 0.1,
-          "rain6h": 4.5,
-          "rain24h": 20.3,
+          "sourceCheckedAt": "2026-07-28T05:49:36.328Z",
+          "observedAt": "2026-07-28T11:15:00+05:30",
+          "temp": 24.5,
+          "currentRain": 0.2,
+          "rain6h": 8,
+          "rain24h": 23.1,
           "precipitationProbability": 100,
-          "wind": 25.6,
-          "gust": 25.6,
-          "humidity": 100,
-          "visibility": 1.1,
-          "weatherCode": 51,
+          "wind": 37.4,
+          "gust": 37.4,
+          "humidity": 89,
+          "visibility": 1,
+          "weatherCode": 53,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "Medium",
+          "visibilityRisk": "High",
           "heatRisk": "Normal",
-          "travelImpact": "Low",
+          "travelImpact": "High",
           "advice": [
-            "No major weather-related disruption indicated."
+            "Low visibility may make driving unsafe."
           ]
         },
         "maval": {
@@ -121,43 +121,97 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-28T02:45:36.444Z",
-          "observedAt": "2026-07-28T08:15:00+05:30",
-          "temp": 22,
+          "sourceCheckedAt": "2026-07-28T05:49:36.328Z",
+          "observedAt": "2026-07-28T11:15:00+05:30",
+          "temp": 23.6,
           "currentRain": 0,
-          "rain6h": 5.6,
-          "rain24h": 30.6,
+          "rain6h": 11.8,
+          "rain24h": 35,
           "precipitationProbability": 100,
-          "wind": 27.7,
-          "gust": 27.7,
-          "humidity": 97,
-          "visibility": 2,
+          "wind": 41.8,
+          "gust": 41.8,
+          "humidity": 93,
+          "visibility": 0.3,
           "weatherCode": 51,
           "rainRisk": "Medium",
-          "windRisk": "Low",
-          "visibilityRisk": "Medium",
+          "windRisk": "Medium",
+          "visibilityRisk": "High",
           "heatRisk": "Normal",
-          "travelImpact": "Medium",
+          "travelImpact": "High",
           "advice": [
-            "Moderate rainfall may slow travel in low-lying areas."
+            "Moderate rainfall may slow travel in low-lying areas.",
+            "Low visibility may make driving unsafe."
           ]
         }
       }
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-28T02:45:52.304Z",
+      "generatedAt": "2026-07-28T05:49:53.452Z",
       "riskLevel": "Elevated",
       "impacts": [
         "1 area(s) have elevated rain-related travel impact.",
-        "1 active transport-related event(s) may affect travel."
+        "2 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "1 area(s) have elevated rain-related travel impact. 1 active transport-related event(s) may affect travel.",
+      "citizenSummary": "1 area(s) have elevated rain-related travel impact. 2 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
   "alerts": [],
   "incidents": [
+    {
+      "id": "accident-developing-woman-one-year-old-son-killed-relative-seriously-injured-after-contain",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Woman, one-year-old son killed; relative seriously injured after container truck hits motorcycle",
+      "summary": "PUNE: A 25-year-old woman and her one-year-old son were killed, while her brother-in-law sustained grievous injuries after a speeding container truck allegedly rammed into their motorcycle from behind near Hotel Pancharatna on the Chakan-Nighoje road in Pune district on Sunday morning",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/woman-one-year-old-son-killed-relative-seriously-injured-after-container-truck-hits-motorcycle-101785180223960.html",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/woman-one-year-old-son-killed-relative-seriously-injured-after-container-truck-hits-motorcycle-101785180223960.html",
+      "talukas": [
+        "khed"
+      ],
+      "localities": [
+        "Chakan"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-07-28T03:32:08.000Z",
+      "lastUpdated": "2026-07-28T03:32:08.000Z",
+      "sourceCheckedAt": "2026-07-28T05:49:37.290Z",
+      "lastVerifiedAt": "2026-07-28T05:49:37.290Z",
+      "intelligenceGeneratedAt": "2026-07-28T05:49:53.290Z",
+      "expiresAt": "2026-07-29T03:32:08.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 70,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
     {
       "id": "road-closure-developing-malshej-ghat-in-maharashtra-closed-indefinitely-after-highway-dama",
       "eventKind": "incident",
@@ -182,9 +236,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-26T09:51:43.000Z",
       "lastUpdated": "2026-07-26T09:51:43.000Z",
-      "sourceCheckedAt": "2026-07-28T02:45:37.215Z",
-      "lastVerifiedAt": "2026-07-28T02:45:37.215Z",
-      "intelligenceGeneratedAt": "2026-07-28T02:45:52.216Z",
+      "sourceCheckedAt": "2026-07-28T05:49:37.290Z",
+      "lastVerifiedAt": "2026-07-28T05:49:37.290Z",
+      "intelligenceGeneratedAt": "2026-07-28T05:49:53.290Z",
       "expiresAt": "2026-07-28T09:51:43.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -197,56 +251,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-07-28T02:45:37.215Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "health-emergency-developing-rains-fuel-dengue-surge-pune-city-records-560-suspected-cases-",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Rains fuel dengue surge: Pune city records 560 suspected cases, 212 in July alone | Hindustan Times",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "health_emergency",
-      "severity": "warning",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcTZlYngzU3VsQzFxMjV0MUZ5d3lzeVRwdGRKdDhDNjZ1MWhEbXVBcVR5QVZvVXRjVU5tSmJCU0pCZ09sbjgxc09xczlVZXJqWmIxYmMwVFNwckIzU2pxRk9KaWJrSEdXTzluTGo3MXF6QVM0TjhWOXdOMVFDWHU0cW8yZnotYnhwRWFydmNscmNQLWF3Q3JWMnEtY09OcmdFbkpwdWZ4YjFXWTFFOU14ZE8tTE1ZcU5sY2otU1FBSzVxQ3B0NE5ObnlEb1RPUmFnV09jbHNMNVNxaVA1Ql81VGt30gHnAUFVX3lxTE5ITTRlWFZNQkpIb2l0MURnek9mb3AtcVl1OHBmd1g5bGZwM3o0cGlqTVliOGR6dVpOSUxmV3BxZmc1UTRPcFhxNkV2VDdrNmdraFNYMXZ2NkNmS0dKa1F3MWlkVUZ6NlFTZ0wySzdnNFJvQVFQZGxUandXZ0JVVVJpNDVybk9ORFg0QS1sSlVZQ0Iyam9neS1GcUNXYUotbkIzMktuMG1TRkJoUFZCc2JZTXZ3b19rbmltbVZyTEZ6d0lrb3V6NnVhVVpqblFMTFF6YmtJaV9TQzdyMDRRSHlFUmlkTkRBaw?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcTZlYngzU3VsQzFxMjV0MUZ5d3lzeVRwdGRKdDhDNjZ1MWhEbXVBcVR5QVZvVXRjVU5tSmJCU0pCZ09sbjgxc09xczlVZXJqWmIxYmMwVFNwckIzU2pxRk9KaWJrSEdXTzluTGo3MXF6QVM0TjhWOXdOMVFDWHU0cW8yZnotYnhwRWFydmNscmNQLWF3Q3JWMnEtY09OcmdFbkpwdWZ4YjFXWTFFOU14ZE8tTE1ZcU5sY2otU1FBSzVxQ3B0NE5ObnlEb1RPUmFnV09jbHNMNVNxaVA1Ql81VGt30gHnAUFVX3lxTE5ITTRlWFZNQkpIb2l0MURnek9mb3AtcVl1OHBmd1g5bGZwM3o0cGlqTVliOGR6dVpOSUxmV3BxZmc1UTRPcFhxNkV2VDdrNmdraFNYMXZ2NkNmS0dKa1F3MWlkVUZ6NlFTZ0wySzdnNFJvQVFQZGxUandXZ0JVVVJpNDVybk9ORFg0QS1sSlVZQ0Iyam9neS1GcUNXYUotbkIzMktuMG1TRkJoUFZCc2JZTXZ3b19rbmltbVZyTEZ6d0lrb3V6NnVhVVpqblFMTFF6YmtJaV9TQzdyMDRRSHlFUmlkTkRBaw?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-07-25T03:04:05.000Z",
-      "lastUpdated": "2026-07-25T03:04:05.000Z",
-      "sourceCheckedAt": "2026-07-28T02:45:37.215Z",
-      "lastVerifiedAt": "2026-07-28T02:45:37.215Z",
-      "intelligenceGeneratedAt": "2026-07-28T02:45:52.216Z",
-      "expiresAt": "2026-07-28T03:04:05.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "A reported outbreak or contamination incident may affect public health in the area.",
-      "recommendedAction": "Follow official health guidance, avoid the suspected source and seek medical help if symptoms develop.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-4c7d0782",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-07-28T02:45:37.215Z",
+      "discoveredAt": "2026-07-28T05:49:37.290Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -260,6 +265,19 @@
   "journeyContext": {
     "activeRiskEvents": [
       {
+        "id": "accident-developing-woman-one-year-old-son-killed-relative-seriously-injured-after-contain",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [
+          "Chakan"
+        ],
+        "talukas": [
+          "khed"
+        ],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
         "id": "road-closure-developing-malshej-ghat-in-maharashtra-closed-indefinitely-after-highway-dama",
         "category": "road_closure",
         "severity": "warning",
@@ -267,15 +285,6 @@
         "talukas": [],
         "operationalZones": [],
         "impact": "Route may be blocked or diverted."
-      },
-      {
-        "id": "health-emergency-developing-rains-fuel-dengue-surge-pune-city-records-560-suspected-cases-",
-        "category": "health_emergency",
-        "severity": "warning",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "A reported outbreak or contamination incident may affect public health in the area."
       }
     ]
   },
@@ -286,15 +295,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-28T02:45:37.215Z",
-      "lastSuccessfulAt": "2026-07-28T02:45:37.215Z",
+      "sourceCheckedAt": "2026-07-28T05:49:37.290Z",
+      "lastSuccessfulAt": "2026-07-28T05:49:37.290Z",
       "error": null
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-28T02:45:52.304Z",
+      "generatedAt": "2026-07-28T05:49:53.452Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -307,7 +316,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-28T02:45:52.304Z",
+      "generatedAt": "2026-07-28T05:49:53.452Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -388,7 +397,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-28T02:45:52.304Z",
+      "generatedAt": "2026-07-28T05:49:53.452Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -433,7 +442,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-28T02:45:52.359Z",
+        "generatedAt": "2026-07-28T05:49:53.491Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -462,20 +471,21 @@
           "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 90,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
+            "score": 60,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
+              "Low visibility may make driving unsafe.",
               "Moderate rainfall may slow travel."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 72,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 87,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (90/100). Estimated travel time is about 72 minutes. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -506,20 +516,21 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 90,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
+              "score": 60,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
+                "Low visibility may make driving unsafe.",
                 "Moderate rainfall may slow travel."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 72,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 87,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (90/100). Estimated travel time is about 72 minutes. Main reason: Moderate rainfall may slow travel."
+            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           },
           {
             "id": "kharadi-hinjawadi-nh48",
@@ -552,11 +563,12 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 55,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 25,
+              "label": "Avoid if Possible",
+              "recommendation": "Avoid this route if possible unless travel is essential.",
               "reasons": [
                 "Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions may significantly affect this route.",
+                "Low visibility may make driving unsafe.",
                 "Moderate rainfall may slow travel."
               ],
               "penalties": [
@@ -568,12 +580,12 @@
                 }
               ]
             },
-            "estimatedTimeMin": 90,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 110,
+            "estimatedDelayMin": 45,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (55/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions may significantly affect this route."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (25/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Malshej Ghat in Maharashtra closed indefinitely after highway damage; check diversions may significantly affect this route."
           }
         ]
       },
@@ -582,7 +594,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-28T02:45:52.359Z",
+        "generatedAt": "2026-07-28T05:49:53.491Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -612,20 +624,21 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 90,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
+            "score": 60,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
+              "Low visibility may make driving unsafe.",
               "Moderate rainfall may slow travel."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 95,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (90/100). Estimated travel time is about 95 minutes. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -657,20 +670,21 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 90,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
+              "score": 60,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
+                "Low visibility may make driving unsafe.",
                 "Moderate rainfall may slow travel."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 95,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 110,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (90/100). Estimated travel time is about 95 minutes. Main reason: Moderate rainfall may slow travel."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -679,7 +693,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-28T02:45:52.359Z",
+        "generatedAt": "2026-07-28T05:49:53.491Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -708,20 +722,21 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 90,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
+            "score": 60,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
+              "Low visibility may make driving unsafe.",
               "Moderate rainfall may slow travel."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 35,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 50,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (90/100). Estimated travel time is about 35 minutes. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -752,20 +767,21 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 90,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
+              "score": 60,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
+                "Low visibility may make driving unsafe.",
                 "Moderate rainfall may slow travel."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 35,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 50,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (90/100). Estimated travel time is about 35 minutes. Main reason: Moderate rainfall may slow travel."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       }
