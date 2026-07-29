@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-29T20:31:27.995Z",
+  "generatedAt": "2026-07-29T21:39:13.746Z",
   "routes": [],
   "risks": [
     {
@@ -29,6 +29,19 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Emergency access and local movement may be restricted while rescue work continues."
+    },
+    {
+      "id": "structural-collapse-developing-pune-g-0-plan-g-2-noc-pcmc-suspends-fire-officer-over-moshi",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "localities": [
+        "Moshi"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
     }
   ]
 }
