@@ -1,17 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-29T21:39:13.746Z",
+  "generatedAt": "2026-07-29T22:41:14.069Z",
   "routes": [],
   "risks": [
-    {
-      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
-    },
     {
       "id": "flood-developing-water-release-from-dams-eases-but-flood-alert-along-pune-rivers-stays-202",
       "category": "flood",
@@ -29,19 +20,6 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Emergency access and local movement may be restricted while rescue work continues."
-    },
-    {
-      "id": "structural-collapse-developing-pune-g-0-plan-g-2-noc-pcmc-suspends-fire-officer-over-moshi",
-      "category": "structural_collapse",
-      "severity": "warning",
-      "localities": [
-        "Moshi"
-      ],
-      "talukas": [
-        "pcmc"
-      ],
-      "operationalZones": [],
-      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
     }
   ]
 }
