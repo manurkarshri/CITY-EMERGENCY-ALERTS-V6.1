@@ -1,17 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-29T14:56:01.878Z",
+  "generatedAt": "2026-07-29T16:24:49.414Z",
   "routes": [],
   "risks": [
-    {
-      "id": "flood-developing-pune-rain-पुणेकरांनो-पुढील-3-दिवस-महत्त्वाचे-119-वर्षांपूर्वीचा-तो-रेकॉर्",
-      "category": "flood",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
-    },
     {
       "id": "rescue-operation-developing-central-railway-restores-mumbai-pune-rail-link-after-23-day-la",
       "category": "rescue_operation",
@@ -20,6 +11,15 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Emergency access and local movement may be restricted while rescue work continues."
+    },
+    {
+      "id": "landslide-developing-in-photos-central-railway-restores-mumbai-pune-rail-link-after-massiv",
+      "category": "landslide",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Road or rail movement may be blocked, cancelled or delayed."
     }
   ]
 }
