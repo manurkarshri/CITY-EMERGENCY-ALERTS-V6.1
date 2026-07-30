@@ -1,6 +1,56 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-30T19:37:09.805Z",
+  "generatedAt": "2026-07-30T20:46:53.447Z",
   "sourceStatus": "healthy",
-  "items": []
+  "items": [
+    {
+      "id": "heavy-rain-developing-imd-s-red-alert-for-pune-ghats-today-light-to-moderate-rain-likely-i",
+      "eventKind": "alert",
+      "sourceId": "times_of_india",
+      "title": "Developing: IMD’s red alert for Pune ghats today, light to moderate rain likely in city",
+      "summary": "A current trusted-media report relevant to Pune District. Times of India attributes this alert to India Meteorological Department. The original official feed was not available to the app at collection time.",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOV0JWVy1LYnRPUGoxcGFJbGNfRlU3Q2pBbTFaeXB0MDl0WWdIakVGbXNrbU1MdDZHT050ZmoyN2FzQjVDelpWY2ZXQVRxNVZSV3FJY1RNZ0ZkUm5jeEV2a2xkWTNYTDY5TFBFejVvYTlXY3ZtbkdVbFg5TTRWZ3dwenJlaHVzbklJS0tUcnpBNzNuOEtQTHhIU3NwdGRmTi1jRmw4SmgtTUx2NkdDS1Rwa2FMN1kzRUxQd082NlN1aElwSDYyUVBXdHJ4UThESlFrQ1JFbTBaUGN5QWs3OEHSAeMBQVVfeXFMTkFMNnlMSy1pbTJSX2JIcUltTXpjaXFOSTEzMW93RGhadTlyVXM1emxOTHo1M2xOSWVjeTNoRElaZ18tWGw4SGlWRURhcDVUdVd3ci1LcmNRbnlsNzBnNkExZDBoWk5QLUFkVTBfZk9tRE13YWRvN0s5Ymc4TkR0NmJoZDRzSVhZRmR5UHhsazdrLWNmRUtkZWdfd0JvY3daWkNqNzhBTjZ1UTdpbFJiNGVWRlgwQjYwalN1cUl5MkxLX3JuLXlwc3ROS0ZhclZvbnY0YW0yVlU5bHJ4UFNfOTdXejA?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOV0JWVy1LYnRPUGoxcGFJbGNfRlU3Q2pBbTFaeXB0MDl0WWdIakVGbXNrbU1MdDZHT050ZmoyN2FzQjVDelpWY2ZXQVRxNVZSV3FJY1RNZ0ZkUm5jeEV2a2xkWTNYTDY5TFBFejVvYTlXY3ZtbkdVbFg5TTRWZ3dwenJlaHVzbklJS0tUcnpBNzNuOEtQTHhIU3NwdGRmTi1jRmw4SmgtTUx2NkdDS1Rwa2FMN1kzRUxQd082NlN1aElwSDYyUVBXdHJ4UThESlFrQ1JFbTBaUGN5QWs3OEHSAeMBQVVfeXFMTkFMNnlMSy1pbTJSX2JIcUltTXpjaXFOSTEzMW93RGhadTlyVXM1emxOTHo1M2xOSWVjeTNoRElaZ18tWGw4SGlWRURhcDVUdVd3ci1LcmNRbnlsNzBnNkExZDBoWk5QLUFkVTBfZk9tRE13YWRvN0s5Ymc4TkR0NmJoZDRzSVhZRmR5UHhsazdrLWNmRUtkZWdfd0JvY3daWkNqNzhBTjZ1UTdpbFJiNGVWRlgwQjYwalN1cUl5MkxLX3JuLXlwc3ROS0ZhclZvbnY0YW0yVlU5bHJ4UFNfOTdXejA?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-07-30T18:48:00.000Z",
+      "lastUpdated": "2026-07-30T18:48:00.000Z",
+      "sourceCheckedAt": "2026-07-30T20:46:37.553Z",
+      "lastVerifiedAt": "2026-07-30T20:46:37.553Z",
+      "intelligenceGeneratedAt": "2026-07-30T20:46:53.447Z",
+      "expiresAt": "2026-08-01T18:48:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-72bdb790",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "India Meteorological Department",
+      "alertBasis": "trusted_media_attributed_official",
+      "discoveredAt": "2026-07-30T20:46:37.553Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
