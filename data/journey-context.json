@@ -1,8 +1,21 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-30T01:04:58.829Z",
+  "generatedAt": "2026-07-30T04:22:19.076Z",
   "routes": [],
   "risks": [
+    {
+      "id": "structural-collapse-developing-pcmc-suspends-fire-officer-over-moshi-garbage-depot-tragedy",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "localities": [
+        "Moshi"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+    },
     {
       "id": "flood-developing-water-release-from-dams-eases-but-flood-alert-along-pune-rivers-stays-202",
       "category": "flood",

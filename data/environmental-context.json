@@ -1,10 +1,10 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-30T01:04:59.234Z",
+  "generatedAt": "2026-07-30T04:22:19.173Z",
   "weatherSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-30T01:04:43.142Z",
-    "lastSuccessfulAt": "2026-07-30T01:04:43.142Z",
+    "sourceCheckedAt": "2026-07-30T04:22:03.072Z",
+    "lastSuccessfulAt": "2026-07-30T04:22:03.072Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
@@ -14,12 +14,12 @@
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-07-30T01:04:47.740Z",
-    "lastSuccessfulAt": "2026-07-30T01:04:47.740Z",
+    "sourceCheckedAt": "2026-07-30T04:22:07.988Z",
+    "lastSuccessfulAt": "2026-07-30T04:22:07.988Z",
     "error": "Pravah: fetch failed"
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-07-30T01:04:58.888Z",
+    "generatedAt": "2026-07-30T04:22:19.138Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -27,25 +27,25 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-30T01:04:43.142Z",
-        "observedAt": "2026-07-30T06:30:00+05:30",
-        "temp": 23.4,
+        "sourceCheckedAt": "2026-07-30T04:22:03.072Z",
+        "observedAt": "2026-07-30T09:45:00+05:30",
+        "temp": 24.6,
         "currentRain": 0,
-        "rain6h": 1.4,
-        "rain24h": 28.8,
+        "rain6h": 4.7,
+        "rain24h": 31.6,
         "precipitationProbability": 100,
-        "wind": 35.6,
-        "gust": 35.6,
-        "humidity": 91,
-        "visibility": 5.9,
-        "weatherCode": 3,
-        "rainRisk": "Low",
-        "windRisk": "Low",
-        "visibilityRisk": "Minimal",
+        "wind": 47.2,
+        "gust": 47.2,
+        "humidity": 88,
+        "visibility": 2.9,
+        "weatherCode": 51,
+        "rainRisk": "Medium",
+        "windRisk": "Medium",
+        "visibilityRisk": "Low",
         "heatRisk": "Normal",
-        "travelImpact": "Low",
+        "travelImpact": "Medium",
         "advice": [
-          "No major weather-related disruption indicated."
+          "Moderate rainfall may slow travel in low-lying areas."
         ]
       },
       "pcmc": {
@@ -54,18 +54,18 @@
         "longitude": 73.76471,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-30T01:04:43.142Z",
-        "observedAt": "2026-07-30T06:30:00+05:30",
-        "temp": 23.4,
+        "sourceCheckedAt": "2026-07-30T04:22:03.072Z",
+        "observedAt": "2026-07-30T09:45:00+05:30",
+        "temp": 24.7,
         "currentRain": 0,
-        "rain6h": 1.3,
-        "rain24h": 25.7,
+        "rain6h": 2.7,
+        "rain24h": 29.2,
         "precipitationProbability": 100,
-        "wind": 32.4,
-        "gust": 32.4,
-        "humidity": 92,
+        "wind": 37.8,
+        "gust": 37.8,
+        "humidity": 88,
         "visibility": 5.3,
-        "weatherCode": 3,
+        "weatherCode": 51,
         "rainRisk": "Low",
         "windRisk": "Low",
         "visibilityRisk": "Minimal",
@@ -81,25 +81,25 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-30T01:04:43.142Z",
-        "observedAt": "2026-07-30T06:30:00+05:30",
-        "temp": 23.4,
+        "sourceCheckedAt": "2026-07-30T04:22:03.072Z",
+        "observedAt": "2026-07-30T09:45:00+05:30",
+        "temp": 24.6,
         "currentRain": 0,
-        "rain6h": 1.4,
-        "rain24h": 28.8,
+        "rain6h": 4.7,
+        "rain24h": 31.6,
         "precipitationProbability": 100,
-        "wind": 35.6,
-        "gust": 35.6,
-        "humidity": 91,
-        "visibility": 5.9,
-        "weatherCode": 3,
-        "rainRisk": "Low",
-        "windRisk": "Low",
-        "visibilityRisk": "Minimal",
+        "wind": 47.2,
+        "gust": 47.2,
+        "humidity": 88,
+        "visibility": 2.9,
+        "weatherCode": 51,
+        "rainRisk": "Medium",
+        "windRisk": "Medium",
+        "visibilityRisk": "Low",
         "heatRisk": "Normal",
-        "travelImpact": "Low",
+        "travelImpact": "Medium",
         "advice": [
-          "No major weather-related disruption indicated."
+          "Moderate rainfall may slow travel in low-lying areas."
         ]
       },
       "mulshi": {
@@ -108,18 +108,18 @@
         "longitude": 73.51617,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-30T01:04:43.142Z",
-        "observedAt": "2026-07-30T06:30:00+05:30",
-        "temp": 22.4,
-        "currentRain": 0.2,
-        "rain6h": 6.5,
-        "rain24h": 44.9,
+        "sourceCheckedAt": "2026-07-30T04:22:03.072Z",
+        "observedAt": "2026-07-30T09:45:00+05:30",
+        "temp": 22.7,
+        "currentRain": 0.3,
+        "rain6h": 8.4,
+        "rain24h": 48.5,
         "precipitationProbability": 100,
-        "wind": 29.9,
-        "gust": 29.9,
+        "wind": 34.2,
+        "gust": 34.2,
         "humidity": 100,
-        "visibility": 0.3,
-        "weatherCode": 53,
+        "visibility": 1,
+        "weatherCode": 55,
         "rainRisk": "Medium",
         "windRisk": "Low",
         "visibilityRisk": "High",
@@ -136,25 +136,25 @@
         "longitude": 73.451324,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-07-30T01:04:43.142Z",
-        "observedAt": "2026-07-30T06:30:00+05:30",
-        "temp": 21.9,
-        "currentRain": 0.3,
-        "rain6h": 10.6,
-        "rain24h": 59,
+        "sourceCheckedAt": "2026-07-30T04:22:03.072Z",
+        "observedAt": "2026-07-30T09:45:00+05:30",
+        "temp": 22.3,
+        "currentRain": 0.4,
+        "rain6h": 11.5,
+        "rain24h": 62.5,
         "precipitationProbability": 100,
-        "wind": 32.4,
-        "gust": 32.4,
-        "humidity": 99,
+        "wind": 33.5,
+        "gust": 33.5,
+        "humidity": 100,
         "visibility": 0.3,
         "weatherCode": 80,
-        "rainRisk": "Medium",
+        "rainRisk": "High",
         "windRisk": "Low",
         "visibilityRisk": "High",
         "heatRisk": "Normal",
         "travelImpact": "High",
         "advice": [
-          "Moderate rainfall may slow travel in low-lying areas.",
+          "Heavy rainfall may cause waterlogging. Allow extra travel time.",
           "Low visibility may make driving unsafe."
         ]
       }
@@ -162,7 +162,7 @@
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-07-30T01:04:59.234Z",
+    "generatedAt": "2026-07-30T04:22:19.173Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -175,7 +175,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-07-30T01:04:59.233Z",
+    "generatedAt": "2026-07-30T04:22:19.173Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -256,7 +256,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-07-30T01:04:59.234Z",
+    "generatedAt": "2026-07-30T04:22:19.173Z",
     "mode": "on-demand",
     "relevantDomains": [
       "bridges"
@@ -294,13 +294,13 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-07-30T01:04:59.234Z",
+    "generatedAt": "2026-07-30T04:22:19.173Z",
     "riskLevel": "Elevated",
     "impacts": [
-      "2 area(s) have elevated rain-related travel impact."
+      "4 area(s) have elevated rain-related travel impact."
     ],
-    "citizenSummary": "2 area(s) have elevated rain-related travel impact.",
+    "citizenSummary": "4 area(s) have elevated rain-related travel impact.",
     "seasonalContext": "monsoon"
   },
-  "story": "Moderate rainfall may slow travel in some areas. 2 important alerts require attention."
+  "story": "Heavy rainfall may affect travel in parts of Pune District. 3 important alerts require attention."
 }

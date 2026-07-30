@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-30T01:04:59.300Z",
+  "generatedAt": "2026-07-30T04:22:19.236Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-30T01:04:59.300Z",
+      "generatedAt": "2026-07-30T04:22:19.236Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -40,21 +40,22 @@
         "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 50,
-          "label": "Consider Delaying",
-          "recommendation": "Consider delaying or checking alternate routes.",
+          "score": 20,
+          "label": "Avoid if Possible",
+          "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
             "Moderate rainfall may slow travel.",
-            "Low visibility may make driving unsafe."
+            "Low visibility may make driving unsafe.",
+            "Heavy rainfall may reduce travel suitability."
           ],
           "penalties": []
         },
-        "estimatedTimeMin": 90,
-        "estimatedDelayMin": 25,
+        "estimatedTimeMin": 110,
+        "estimatedDelayMin": 45,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+        "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Avoid if Possible (20/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Moderate rainfall may slow travel."
       },
       "routes": [
         {
@@ -88,21 +89,22 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 50,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 20,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Moderate rainfall may slow travel.",
-              "Low visibility may make driving unsafe."
+              "Low visibility may make driving unsafe.",
+              "Heavy rainfall may reduce travel suitability."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 90,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Avoid if Possible (20/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Moderate rainfall may slow travel."
         },
         {
           "id": "kharadi-hinjawadi-pashan",
@@ -132,21 +134,22 @@
           "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 50,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 20,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Moderate rainfall may slow travel.",
-              "Low visibility may make driving unsafe."
+              "Low visibility may make driving unsafe.",
+              "Heavy rainfall may reduce travel suitability."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 97,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 117,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Avoid if Possible (20/100). Estimated travel time is about 117 minutes including around 45 minutes delay. Main reason: Moderate rainfall may slow travel."
         }
       ]
     },
@@ -155,7 +158,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-30T01:04:59.300Z",
+      "generatedAt": "2026-07-30T04:22:19.236Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -185,13 +188,14 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 30,
+          "score": 0,
           "label": "Avoid if Possible",
           "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
             "Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns.",
             "Moderate rainfall may slow travel.",
-            "Low visibility may make driving unsafe."
+            "Low visibility may make driving unsafe.",
+            "Heavy rainfall may reduce travel suitability."
           ],
           "penalties": [
             {
@@ -207,7 +211,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -239,13 +243,14 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 30,
+            "score": 0,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns.",
               "Moderate rainfall may slow travel.",
-              "Low visibility may make driving unsafe."
+              "Low visibility may make driving unsafe.",
+              "Heavy rainfall may reduce travel suitability."
             ],
             "penalties": [
               {
@@ -261,7 +266,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns."
         }
       ]
     },
@@ -270,7 +275,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-30T01:04:59.300Z",
+      "generatedAt": "2026-07-30T04:22:19.236Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -299,13 +304,14 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 25,
+          "score": 0,
           "label": "Avoid if Possible",
           "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
             "Developing: Water release from dams eases, but flood alert along Pune rivers stays may cause delays or safety concerns.",
             "Moderate rainfall may slow travel.",
-            "Low visibility may make driving unsafe."
+            "Low visibility may make driving unsafe.",
+            "Heavy rainfall may reduce travel suitability."
           ],
           "penalties": [
             {
@@ -321,7 +327,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (25/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Water release from dams eases, but flood alert along Pune rivers stays may cause delays or safety concerns."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Water release from dams eases, but flood alert along Pune rivers stays may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -352,13 +358,14 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 25,
+            "score": 0,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Water release from dams eases, but flood alert along Pune rivers stays may cause delays or safety concerns.",
               "Moderate rainfall may slow travel.",
-              "Low visibility may make driving unsafe."
+              "Low visibility may make driving unsafe.",
+              "Heavy rainfall may reduce travel suitability."
             ],
             "penalties": [
               {
@@ -374,7 +381,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (25/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Water release from dams eases, but flood alert along Pune rivers stays may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Water release from dams eases, but flood alert along Pune rivers stays may cause delays or safety concerns."
         }
       ]
     }

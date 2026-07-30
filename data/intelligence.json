@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-30T01:04:58.829Z",
+  "generatedAt": "2026-07-30T04:22:19.076Z",
   "status": "current",
   "situation": {
-    "snapshot": "Moderate rainfall may slow travel in some areas. 2 important alerts require attention.",
+    "snapshot": "Heavy rainfall may affect travel in parts of Pune District. 3 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-07-30T01:04:58.888Z",
+      "generatedAt": "2026-07-30T04:22:19.138Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,25 +13,25 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-30T01:04:43.142Z",
-          "observedAt": "2026-07-30T06:30:00+05:30",
-          "temp": 23.4,
+          "sourceCheckedAt": "2026-07-30T04:22:03.072Z",
+          "observedAt": "2026-07-30T09:45:00+05:30",
+          "temp": 24.6,
           "currentRain": 0,
-          "rain6h": 1.4,
-          "rain24h": 28.8,
+          "rain6h": 4.7,
+          "rain24h": 31.6,
           "precipitationProbability": 100,
-          "wind": 35.6,
-          "gust": 35.6,
-          "humidity": 91,
-          "visibility": 5.9,
-          "weatherCode": 3,
-          "rainRisk": "Low",
-          "windRisk": "Low",
-          "visibilityRisk": "Minimal",
+          "wind": 47.2,
+          "gust": 47.2,
+          "humidity": 88,
+          "visibility": 2.9,
+          "weatherCode": 51,
+          "rainRisk": "Medium",
+          "windRisk": "Medium",
+          "visibilityRisk": "Low",
           "heatRisk": "Normal",
-          "travelImpact": "Low",
+          "travelImpact": "Medium",
           "advice": [
-            "No major weather-related disruption indicated."
+            "Moderate rainfall may slow travel in low-lying areas."
           ]
         },
         "pcmc": {
@@ -40,18 +40,18 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-30T01:04:43.142Z",
-          "observedAt": "2026-07-30T06:30:00+05:30",
-          "temp": 23.4,
+          "sourceCheckedAt": "2026-07-30T04:22:03.072Z",
+          "observedAt": "2026-07-30T09:45:00+05:30",
+          "temp": 24.7,
           "currentRain": 0,
-          "rain6h": 1.3,
-          "rain24h": 25.7,
+          "rain6h": 2.7,
+          "rain24h": 29.2,
           "precipitationProbability": 100,
-          "wind": 32.4,
-          "gust": 32.4,
-          "humidity": 92,
+          "wind": 37.8,
+          "gust": 37.8,
+          "humidity": 88,
           "visibility": 5.3,
-          "weatherCode": 3,
+          "weatherCode": 51,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "Minimal",
@@ -67,25 +67,25 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-30T01:04:43.142Z",
-          "observedAt": "2026-07-30T06:30:00+05:30",
-          "temp": 23.4,
+          "sourceCheckedAt": "2026-07-30T04:22:03.072Z",
+          "observedAt": "2026-07-30T09:45:00+05:30",
+          "temp": 24.6,
           "currentRain": 0,
-          "rain6h": 1.4,
-          "rain24h": 28.8,
+          "rain6h": 4.7,
+          "rain24h": 31.6,
           "precipitationProbability": 100,
-          "wind": 35.6,
-          "gust": 35.6,
-          "humidity": 91,
-          "visibility": 5.9,
-          "weatherCode": 3,
-          "rainRisk": "Low",
-          "windRisk": "Low",
-          "visibilityRisk": "Minimal",
+          "wind": 47.2,
+          "gust": 47.2,
+          "humidity": 88,
+          "visibility": 2.9,
+          "weatherCode": 51,
+          "rainRisk": "Medium",
+          "windRisk": "Medium",
+          "visibilityRisk": "Low",
           "heatRisk": "Normal",
-          "travelImpact": "Low",
+          "travelImpact": "Medium",
           "advice": [
-            "No major weather-related disruption indicated."
+            "Moderate rainfall may slow travel in low-lying areas."
           ]
         },
         "mulshi": {
@@ -94,18 +94,18 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-30T01:04:43.142Z",
-          "observedAt": "2026-07-30T06:30:00+05:30",
-          "temp": 22.4,
-          "currentRain": 0.2,
-          "rain6h": 6.5,
-          "rain24h": 44.9,
+          "sourceCheckedAt": "2026-07-30T04:22:03.072Z",
+          "observedAt": "2026-07-30T09:45:00+05:30",
+          "temp": 22.7,
+          "currentRain": 0.3,
+          "rain6h": 8.4,
+          "rain24h": 48.5,
           "precipitationProbability": 100,
-          "wind": 29.9,
-          "gust": 29.9,
+          "wind": 34.2,
+          "gust": 34.2,
           "humidity": 100,
-          "visibility": 0.3,
-          "weatherCode": 53,
+          "visibility": 1,
+          "weatherCode": 55,
           "rainRisk": "Medium",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -122,25 +122,25 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-07-30T01:04:43.142Z",
-          "observedAt": "2026-07-30T06:30:00+05:30",
-          "temp": 21.9,
-          "currentRain": 0.3,
-          "rain6h": 10.6,
-          "rain24h": 59,
+          "sourceCheckedAt": "2026-07-30T04:22:03.072Z",
+          "observedAt": "2026-07-30T09:45:00+05:30",
+          "temp": 22.3,
+          "currentRain": 0.4,
+          "rain6h": 11.5,
+          "rain24h": 62.5,
           "precipitationProbability": 100,
-          "wind": 32.4,
-          "gust": 32.4,
-          "humidity": 99,
+          "wind": 33.5,
+          "gust": 33.5,
+          "humidity": 100,
           "visibility": 0.3,
           "weatherCode": 80,
-          "rainRisk": "Medium",
+          "rainRisk": "High",
           "windRisk": "Low",
           "visibilityRisk": "High",
           "heatRisk": "Normal",
           "travelImpact": "High",
           "advice": [
-            "Moderate rainfall may slow travel in low-lying areas.",
+            "Heavy rainfall may cause waterlogging. Allow extra travel time.",
             "Low visibility may make driving unsafe."
           ]
         }
@@ -148,17 +148,70 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-07-30T01:04:59.234Z",
+      "generatedAt": "2026-07-30T04:22:19.173Z",
       "riskLevel": "Elevated",
       "impacts": [
-        "2 area(s) have elevated rain-related travel impact."
+        "4 area(s) have elevated rain-related travel impact."
       ],
-      "citizenSummary": "2 area(s) have elevated rain-related travel impact.",
+      "citizenSummary": "4 area(s) have elevated rain-related travel impact.",
       "seasonalContext": "monsoon"
     }
   },
   "alerts": [],
   "incidents": [
+    {
+      "id": "structural-collapse-developing-pcmc-suspends-fire-officer-over-moshi-garbage-depot-tragedy",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: PCMC suspends fire officer over Moshi garbage depot tragedy, orders departmental probe",
+      "summary": "Civic body cites serious lapses in issuing fire NOC; officer suspended pending inquiry into role in fatal building collapse",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/pcmc-suspends-fire-officer-over-moshi-garbage-depot-tragedy-orders-departmental-probe-101785350285780.html",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/pcmc-suspends-fire-officer-over-moshi-garbage-depot-tragedy-orders-departmental-probe-101785350285780.html",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Moshi"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-07-30T03:04:04.000Z",
+      "lastUpdated": "2026-07-30T03:04:04.000Z",
+      "sourceCheckedAt": "2026-07-30T04:22:03.630Z",
+      "lastVerifiedAt": "2026-07-30T04:22:03.630Z",
+      "intelligenceGeneratedAt": "2026-07-30T04:22:19.076Z",
+      "expiresAt": "2026-07-30T15:04:04.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 70,
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
     {
       "id": "flood-developing-water-release-from-dams-eases-but-flood-alert-along-pune-rivers-stays-202",
       "eventKind": "incident",
@@ -183,9 +236,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-28T18:36:00.000Z",
       "lastUpdated": "2026-07-28T18:36:00.000Z",
-      "sourceCheckedAt": "2026-07-30T01:04:43.948Z",
-      "lastVerifiedAt": "2026-07-30T01:04:43.948Z",
-      "intelligenceGeneratedAt": "2026-07-30T01:04:58.829Z",
+      "sourceCheckedAt": "2026-07-30T04:22:03.630Z",
+      "lastVerifiedAt": "2026-07-30T04:22:03.630Z",
+      "intelligenceGeneratedAt": "2026-07-30T04:22:19.076Z",
       "expiresAt": "2026-07-30T18:36:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -198,7 +251,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-07-30T01:04:43.948Z",
+      "discoveredAt": "2026-07-30T04:22:03.630Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -232,9 +285,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-29T14:03:00.000Z",
       "lastUpdated": "2026-07-29T14:03:00.000Z",
-      "sourceCheckedAt": "2026-07-30T01:04:43.948Z",
-      "lastVerifiedAt": "2026-07-30T01:04:43.948Z",
-      "intelligenceGeneratedAt": "2026-07-30T01:04:58.829Z",
+      "sourceCheckedAt": "2026-07-30T04:22:03.630Z",
+      "lastVerifiedAt": "2026-07-30T04:22:03.630Z",
+      "intelligenceGeneratedAt": "2026-07-30T04:22:19.076Z",
       "expiresAt": "2026-07-31T02:03:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -247,7 +300,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-07-30T01:04:43.948Z",
+      "discoveredAt": "2026-07-30T04:22:03.630Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -260,6 +313,19 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
+      {
+        "id": "structural-collapse-developing-pcmc-suspends-fire-officer-over-moshi-garbage-depot-tragedy",
+        "category": "structural_collapse",
+        "severity": "warning",
+        "localities": [
+          "Moshi"
+        ],
+        "talukas": [
+          "pcmc"
+        ],
+        "operationalZones": [],
+        "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+      },
       {
         "id": "flood-developing-water-release-from-dams-eases-but-flood-alert-along-pune-rivers-stays-202",
         "category": "flood",
@@ -287,15 +353,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-07-30T01:04:43.948Z",
-      "lastSuccessfulAt": "2026-07-30T01:04:43.948Z",
+      "sourceCheckedAt": "2026-07-30T04:22:03.630Z",
+      "lastSuccessfulAt": "2026-07-30T04:22:03.630Z",
       "error": null
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-07-30T01:04:59.234Z",
+      "generatedAt": "2026-07-30T04:22:19.173Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -308,7 +374,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-07-30T01:04:59.233Z",
+      "generatedAt": "2026-07-30T04:22:19.173Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -389,7 +455,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-07-30T01:04:59.234Z",
+      "generatedAt": "2026-07-30T04:22:19.173Z",
       "mode": "on-demand",
       "relevantDomains": [
         "bridges"
@@ -434,7 +500,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-07-30T01:04:59.300Z",
+        "generatedAt": "2026-07-30T04:22:19.236Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -466,21 +532,22 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 50,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 20,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Moderate rainfall may slow travel.",
-              "Low visibility may make driving unsafe."
+              "Low visibility may make driving unsafe.",
+              "Heavy rainfall may reduce travel suitability."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 90,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Avoid if Possible (20/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Moderate rainfall may slow travel."
         },
         "routes": [
           {
@@ -514,21 +581,22 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 50,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 20,
+              "label": "Avoid if Possible",
+              "recommendation": "Avoid this route if possible unless travel is essential.",
               "reasons": [
                 "Moderate rainfall may slow travel.",
-                "Low visibility may make driving unsafe."
+                "Low visibility may make driving unsafe.",
+                "Heavy rainfall may reduce travel suitability."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 90,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 110,
+            "estimatedDelayMin": 45,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Avoid if Possible (20/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Moderate rainfall may slow travel."
           },
           {
             "id": "kharadi-hinjawadi-pashan",
@@ -558,21 +626,22 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 50,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 20,
+              "label": "Avoid if Possible",
+              "recommendation": "Avoid this route if possible unless travel is essential.",
               "reasons": [
                 "Moderate rainfall may slow travel.",
-                "Low visibility may make driving unsafe."
+                "Low visibility may make driving unsafe.",
+                "Heavy rainfall may reduce travel suitability."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 97,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 117,
+            "estimatedDelayMin": 45,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Avoid if Possible (20/100). Estimated travel time is about 117 minutes including around 45 minutes delay. Main reason: Moderate rainfall may slow travel."
           }
         ]
       },
@@ -581,7 +650,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-07-30T01:04:59.300Z",
+        "generatedAt": "2026-07-30T04:22:19.236Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -611,13 +680,14 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 30,
+            "score": 0,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns.",
               "Moderate rainfall may slow travel.",
-              "Low visibility may make driving unsafe."
+              "Low visibility may make driving unsafe.",
+              "Heavy rainfall may reduce travel suitability."
             ],
             "penalties": [
               {
@@ -633,7 +703,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -665,13 +735,14 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 30,
+              "score": 0,
               "label": "Avoid if Possible",
               "recommendation": "Avoid this route if possible unless travel is essential.",
               "reasons": [
                 "Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns.",
                 "Moderate rainfall may slow travel.",
-                "Low visibility may make driving unsafe."
+                "Low visibility may make driving unsafe.",
+                "Heavy rainfall may reduce travel suitability."
               ],
               "penalties": [
                 {
@@ -687,7 +758,7 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns."
           }
         ]
       },
@@ -696,7 +767,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-07-30T01:04:59.300Z",
+        "generatedAt": "2026-07-30T04:22:19.236Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -725,13 +796,14 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 25,
+            "score": 0,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Water release from dams eases, but flood alert along Pune rivers stays may cause delays or safety concerns.",
               "Moderate rainfall may slow travel.",
-              "Low visibility may make driving unsafe."
+              "Low visibility may make driving unsafe.",
+              "Heavy rainfall may reduce travel suitability."
             ],
             "penalties": [
               {
@@ -747,7 +819,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (25/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Water release from dams eases, but flood alert along Pune rivers stays may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Water release from dams eases, but flood alert along Pune rivers stays may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -778,13 +850,14 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 25,
+              "score": 0,
               "label": "Avoid if Possible",
               "recommendation": "Avoid this route if possible unless travel is essential.",
               "reasons": [
                 "Developing: Water release from dams eases, but flood alert along Pune rivers stays may cause delays or safety concerns.",
                 "Moderate rainfall may slow travel.",
-                "Low visibility may make driving unsafe."
+                "Low visibility may make driving unsafe.",
+                "Heavy rainfall may reduce travel suitability."
               ],
               "penalties": [
                 {
@@ -800,7 +873,7 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (25/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Water release from dams eases, but flood alert along Pune rivers stays may cause delays or safety concerns."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Water release from dams eases, but flood alert along Pune rivers stays may cause delays or safety concerns."
           }
         ]
       }
