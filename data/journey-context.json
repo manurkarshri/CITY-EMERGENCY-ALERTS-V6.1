@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-30T14:09:38.756Z",
+  "generatedAt": "2026-07-30T16:01:37.098Z",
   "routes": [],
   "risks": [
     {
@@ -13,19 +13,6 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "structural-collapse-developing-pcmc-suspends-fire-officer-over-moshi-garbage-depot-tragedy",
-      "category": "structural_collapse",
-      "severity": "warning",
-      "localities": [
-        "Moshi"
-      ],
-      "talukas": [
-        "pcmc"
-      ],
-      "operationalZones": [],
-      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
-    },
-    {
       "id": "structural-collapse-developing-3-officials-suspended-for-wall-collapse-on-pune-bengaluru-n",
       "category": "structural_collapse",
       "severity": "warning",
@@ -35,13 +22,13 @@
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
     },
     {
-      "id": "landslide-developing-in-photos-central-railway-restores-mumbai-pune-rail-link-after-massiv",
-      "category": "landslide",
+      "id": "road-closure-developing-video-bridge-built-but-closed-pune-project-triggers-public-anger-2",
+      "category": "road_closure",
       "severity": "warning",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "Road or rail movement may be blocked, cancelled or delayed."
+      "impact": "Route may be blocked or diverted."
     },
     {
       "id": "flood-developing-water-release-from-dams-eases-but-flood-alert-along-pune-rivers-stays-202",
@@ -51,6 +38,15 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "landslide-developing-in-photos-central-railway-restores-mumbai-pune-rail-link-after-massiv",
+      "category": "landslide",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Road or rail movement may be blocked, cancelled or delayed."
     },
     {
       "id": "rescue-operation-developing-central-railway-restores-mumbai-pune-rail-link-after-23-day-la",

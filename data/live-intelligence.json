@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-07-30T14:09:38.956Z",
+  "generatedAt": "2026-07-30T16:01:37.655Z",
   "status": "current",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-30T14:09:22.961Z",
-        "lastSuccessfulAt": "2026-07-30T14:09:22.961Z",
+        "sourceCheckedAt": "2026-07-30T16:01:20.513Z",
+        "lastSuccessfulAt": "2026-07-30T16:01:20.513Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-07-30T14:09:27.663Z",
-        "lastSuccessfulAt": "2026-07-30T14:09:27.663Z",
+        "sourceCheckedAt": "2026-07-30T16:01:26.018Z",
+        "lastSuccessfulAt": "2026-07-30T16:01:26.018Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-07-30T14:09:27.663Z",
-        "lastSuccessfulAt": "2026-07-30T11:54:01.829Z",
+        "sourceCheckedAt": "2026-07-30T16:01:26.018Z",
+        "lastSuccessfulAt": "2026-07-30T14:09:27.663Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-30T14:09:23.732Z",
-        "lastSuccessfulAt": "2026-07-30T14:09:23.732Z",
+        "sourceCheckedAt": "2026-07-30T16:01:21.177Z",
+        "lastSuccessfulAt": "2026-07-30T16:01:21.177Z",
         "error": null
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-30T14:09:23.732Z",
-        "lastSuccessfulAt": "2026-07-30T14:09:23.732Z",
+        "sourceCheckedAt": "2026-07-30T16:01:21.177Z",
+        "lastSuccessfulAt": "2026-07-30T16:01:21.177Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,10 +62,10 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-30T14:09:23.732Z",
-        "lastSuccessfulAt": "2026-07-30T14:09:23.732Z",
+        "sourceCheckedAt": "2026-07-30T16:01:21.177Z",
+        "lastSuccessfulAt": "2026-07-30T16:01:21.177Z",
         "error": null,
-        "etag": "W/\"9430-1785420316020\"",
+        "etag": "W/\"9412-1785422944607\"",
         "itemsCollected": 0,
         "type": "alerts"
       },
@@ -73,8 +73,8 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-30T14:09:23.732Z",
-        "lastSuccessfulAt": "2026-07-30T14:09:23.732Z",
+        "sourceCheckedAt": "2026-07-30T16:01:21.177Z",
+        "lastSuccessfulAt": "2026-07-30T16:01:21.177Z",
         "error": null,
         "etag": null,
         "itemsCollected": 1,
@@ -84,8 +84,8 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-30T14:09:23.732Z",
-        "lastSuccessfulAt": "2026-07-30T14:09:23.732Z",
+        "sourceCheckedAt": "2026-07-30T16:01:21.177Z",
+        "lastSuccessfulAt": "2026-07-30T16:01:21.177Z",
         "error": null,
         "etag": null,
         "itemsCollected": 1,
@@ -95,8 +95,8 @@
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-30T14:09:23.732Z",
-        "lastSuccessfulAt": "2026-07-30T14:09:23.732Z",
+        "sourceCheckedAt": "2026-07-30T16:01:21.177Z",
+        "lastSuccessfulAt": "2026-07-30T16:01:21.177Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -106,8 +106,8 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-30T14:09:23.732Z",
-        "lastSuccessfulAt": "2026-07-30T14:09:23.732Z",
+        "sourceCheckedAt": "2026-07-30T16:01:21.177Z",
+        "lastSuccessfulAt": "2026-07-30T16:01:21.177Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -117,8 +117,8 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-30T14:09:23.732Z",
-        "lastSuccessfulAt": "2026-07-30T14:09:23.732Z",
+        "sourceCheckedAt": "2026-07-30T16:01:21.177Z",
+        "lastSuccessfulAt": "2026-07-30T16:01:21.177Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -128,11 +128,11 @@
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-07-30T14:09:23.732Z",
-        "lastSuccessfulAt": "2026-07-30T14:09:23.732Z",
+        "sourceCheckedAt": "2026-07-30T16:01:21.177Z",
+        "lastSuccessfulAt": "2026-07-30T16:01:21.177Z",
         "error": null,
-        "itemsCollected": 5,
-        "itemsQualified": 5,
+        "itemsCollected": 6,
+        "itemsQualified": 6,
         "type": "incidents"
       },
       {
@@ -140,8 +140,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-07-30T14:09:27.663Z",
-        "lastSuccessfulAt": "2026-07-30T14:09:27.663Z",
+        "sourceCheckedAt": "2026-07-30T16:01:26.018Z",
+        "lastSuccessfulAt": "2026-07-30T16:01:26.018Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -519,15 +519,6 @@
       "updatedAt": "2026-07-30T08:04:25.000Z"
     },
     {
-      "id": "structural-collapse-developing-pcmc-suspends-fire-officer-over-moshi-garbage-depot-tragedy",
-      "title": "Developing: PCMC suspends fire officer over Moshi garbage depot tragedy, orders departmental probe",
-      "status": "developing",
-      "confirmation": "Awaiting official confirmation",
-      "source": "Hindustan Times Pune",
-      "trust": "B",
-      "updatedAt": "2026-07-30T03:04:04.000Z"
-    },
-    {
       "id": "structural-collapse-developing-3-officials-suspended-for-wall-collapse-on-pune-bengaluru-n",
       "title": "Developing: 3 officials suspended for wall collapse on Pune-Bengaluru National Highway",
       "status": "developing",
@@ -537,13 +528,13 @@
       "updatedAt": "2026-07-30T09:39:34.000Z"
     },
     {
-      "id": "landslide-developing-in-photos-central-railway-restores-mumbai-pune-rail-link-after-massiv",
-      "title": "Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services",
+      "id": "road-closure-developing-video-bridge-built-but-closed-pune-project-triggers-public-anger-2",
+      "title": "Developing: Video | Bridge Built, But Closed: Pune Project Triggers Public Anger",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Mid-day",
+      "source": "NDTV",
       "trust": "B",
-      "updatedAt": "2026-07-29T15:43:00.000Z"
+      "updatedAt": "2026-07-30T13:03:44.000Z"
     },
     {
       "id": "flood-developing-water-release-from-dams-eases-but-flood-alert-along-pune-rivers-stays-202",
@@ -553,6 +544,15 @@
       "source": "Times of India",
       "trust": "B",
       "updatedAt": "2026-07-28T18:36:00.000Z"
+    },
+    {
+      "id": "landslide-developing-in-photos-central-railway-restores-mumbai-pune-rail-link-after-massiv",
+      "title": "Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Mid-day",
+      "trust": "B",
+      "updatedAt": "2026-07-29T15:43:00.000Z"
     },
     {
       "id": "rescue-operation-developing-central-railway-restores-mumbai-pune-rail-link-after-23-day-la",
