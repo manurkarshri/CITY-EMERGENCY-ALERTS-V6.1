@@ -1,8 +1,17 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-30T07:14:27.126Z",
+  "generatedAt": "2026-07-30T09:45:59.514Z",
   "routes": [],
   "risks": [
+    {
+      "id": "accident-developing-2-injured-as-speeding-car-uproots-tree-in-pune-drunk-driving-suspected",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
     {
       "id": "structural-collapse-developing-pcmc-suspends-fire-officer-over-moshi-garbage-depot-tragedy",
       "category": "structural_collapse",
@@ -13,6 +22,24 @@
       "talukas": [
         "pcmc"
       ],
+      "operationalZones": [],
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+    },
+    {
+      "id": "landslide-developing-in-photos-central-railway-restores-mumbai-pune-rail-link-after-massiv",
+      "category": "landslide",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Road or rail movement may be blocked, cancelled or delayed."
+    },
+    {
+      "id": "structural-collapse-developing-3-officials-suspended-for-wall-collapse-on-pune-bengaluru-n",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
       "operationalZones": [],
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
     },

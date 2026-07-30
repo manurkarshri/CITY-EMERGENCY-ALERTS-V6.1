@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-30T07:14:27.486Z",
+  "generatedAt": "2026-07-30T09:45:59.648Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,36 +8,33 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-30T07:14:27.485Z",
+      "generatedAt": "2026-07-30T09:45:59.648Z",
       "bestRoute": {
-        "id": "kharadi-hinjawadi-nh48",
-        "label": "Kharadi to Hinjawadi via NH48",
+        "id": "kharadi-hinjawadi-pashan",
+        "label": "Kharadi to Hinjawadi via Pashan",
         "fromAliases": [
           "Kharadi",
-          "EON",
-          "World Trade Center"
+          "EON"
         ],
         "toAliases": [
           "Hinjawadi",
-          "Hinjewadi",
-          "Rajiv Gandhi Infotech Park"
+          "Hinjewadi"
         ],
         "via": [
           "Kharadi",
-          "Viman Nagar",
-          "Shivajinagar",
-          "Baner",
-          "Wakad",
+          "Yerwada",
+          "Aundh",
+          "Pashan",
+          "Mahalunge",
           "Hinjawadi"
         ],
         "operationalZones": [
-          "Pune-Ahmednagar Highway",
-          "NH48",
+          "Pashan Road",
           "IT Corridor"
         ],
-        "distanceKm": 33,
-        "baseTimeMin": 65,
-        "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+        "distanceKm": 36,
+        "baseTimeMin": 72,
+        "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
         "routeType": "known-corridor",
         "journeySuitability": {
           "score": 50,
@@ -49,61 +46,14 @@
           ],
           "penalties": []
         },
-        "estimatedTimeMin": 90,
+        "estimatedTimeMin": 97,
         "estimatedDelayMin": 25,
-        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
       },
       "routes": [
-        {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
-          "fromAliases": [
-            "Kharadi",
-            "EON",
-            "World Trade Center"
-          ],
-          "toAliases": [
-            "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
-          ],
-          "via": [
-            "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
-            "Hinjawadi"
-          ],
-          "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
-            "IT Corridor"
-          ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-          "routeType": "known-corridor",
-          "journeySuitability": {
-            "score": 50,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
-            "reasons": [
-              "Moderate rainfall may slow travel.",
-              "Low visibility may make driving unsafe."
-            ],
-            "penalties": []
-          },
-          "estimatedTimeMin": 90,
-          "estimatedDelayMin": 25,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-          "rank": 1,
-          "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
-        },
         {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -144,9 +94,64 @@
           "estimatedTimeMin": 97,
           "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+        },
+        {
+          "id": "kharadi-hinjawadi-nh48",
+          "label": "Kharadi to Hinjawadi via NH48",
+          "fromAliases": [
+            "Kharadi",
+            "EON",
+            "World Trade Center"
+          ],
+          "toAliases": [
+            "Hinjawadi",
+            "Hinjewadi",
+            "Rajiv Gandhi Infotech Park"
+          ],
+          "via": [
+            "Kharadi",
+            "Viman Nagar",
+            "Shivajinagar",
+            "Baner",
+            "Wakad",
+            "Hinjawadi"
+          ],
+          "operationalZones": [
+            "Pune-Ahmednagar Highway",
+            "NH48",
+            "IT Corridor"
+          ],
+          "distanceKm": 33,
+          "baseTimeMin": 65,
+          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 30,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "reasons": [
+              "Developing: 3 officials suspended for wall collapse on Pune-Bengaluru National Highway may cause delays or safety concerns.",
+              "Moderate rainfall may slow travel.",
+              "Low visibility may make driving unsafe."
+            ],
+            "penalties": [
+              {
+                "eventId": "structural-collapse-developing-3-officials-suspended-for-wall-collapse-on-pune-bengaluru-n",
+                "category": "structural_collapse",
+                "penalty": 20,
+                "title": "Developing: 3 officials suspended for wall collapse on Pune-Bengaluru National Highway"
+              }
+            ]
+          },
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 45,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: 3 officials suspended for wall collapse on Pune-Bengaluru National Highway may cause delays or safety concerns."
         }
       ]
     },
@@ -155,7 +160,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-30T07:14:27.486Z",
+      "generatedAt": "2026-07-30T09:45:59.648Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -185,15 +190,22 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 30,
+          "score": 10,
           "label": "Avoid if Possible",
           "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
+            "Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services may cause delays or safety concerns.",
             "Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns.",
             "Moderate rainfall may slow travel.",
             "Low visibility may make driving unsafe."
           ],
           "penalties": [
+            {
+              "eventId": "landslide-developing-in-photos-central-railway-restores-mumbai-pune-rail-link-after-massiv",
+              "category": "landslide",
+              "penalty": 20,
+              "title": "Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services"
+            },
             {
               "eventId": "rescue-operation-developing-central-railway-restores-mumbai-pune-rail-link-after-23-day-la",
               "category": "rescue_operation",
@@ -207,7 +219,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (10/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -239,15 +251,22 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 30,
+            "score": 10,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
+              "Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services may cause delays or safety concerns.",
               "Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns.",
               "Moderate rainfall may slow travel.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
+              {
+                "eventId": "landslide-developing-in-photos-central-railway-restores-mumbai-pune-rail-link-after-massiv",
+                "category": "landslide",
+                "penalty": 20,
+                "title": "Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services"
+              },
               {
                 "eventId": "rescue-operation-developing-central-railway-restores-mumbai-pune-rail-link-after-23-day-la",
                 "category": "rescue_operation",
@@ -261,7 +280,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (10/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services may cause delays or safety concerns."
         }
       ]
     },
@@ -270,7 +289,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-30T07:14:27.486Z",
+      "generatedAt": "2026-07-30T09:45:59.648Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
