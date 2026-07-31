@@ -1,32 +1,16 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-31T18:25:49.752Z",
+  "generatedAt": "2026-07-31T20:03:54.798Z",
   "routes": [],
   "risks": [
     {
-      "id": "dam-release-developing-khadakwasla-dam-water-discharge-पुणेकरांनो-सावधान-दुपारी-12-वाजता-ख",
-      "category": "dam_release",
+      "id": "heavy-rain-developing-imd-s-red-alert-for-pune-ghats-today-light-to-moderate-rain-likely-i",
+      "category": "heavy_rain",
       "severity": "warning",
-      "localities": [
-        "Khadakwasla"
-      ],
-      "talukas": [
-        "haveli"
-      ],
-      "operationalZones": [
-        "Mutha River",
-        "Khadakwasla"
-      ],
-      "impact": "River levels may rise downstream."
-    },
-    {
-      "id": "accident-developing-2-injured-as-speeding-car-uproots-tree-in-pune-drunk-driving-suspected",
-      "category": "accident",
-      "severity": "watch",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
+      "impact": "This event may affect local awareness or movement."
     },
     {
       "id": "structural-collapse-developing-3-officials-suspended-for-wall-collapse-on-pune-bengaluru-n",
@@ -45,6 +29,24 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Route may be blocked or diverted."
+    },
+    {
+      "id": "accident-developing-2-injured-as-speeding-car-uproots-tree-in-pune-drunk-driving-suspected",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-pune-resort-manager-killed-in-head-on-collision-with-electric-car-near",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
     }
   ]
 }
