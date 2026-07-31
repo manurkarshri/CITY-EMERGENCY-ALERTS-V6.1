@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-31T16:57:41.731Z",
+  "generatedAt": "2026-07-31T18:25:49.905Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-31T16:57:41.730Z",
+      "generatedAt": "2026-07-31T18:25:49.905Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -160,7 +160,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-31T16:57:41.731Z",
+      "generatedAt": "2026-07-31T18:25:49.905Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -259,7 +259,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-31T16:57:41.731Z",
+      "generatedAt": "2026-07-31T18:25:49.905Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -288,21 +288,29 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 60,
-          "label": "Proceed with Caution",
-          "recommendation": "Proceed with caution and allow extra travel time.",
+          "score": 35,
+          "label": "Avoid if Possible",
+          "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
+            "Developing: Khadakwasla Dam Water Discharge : पुणेकरांनो सावधान! दुपारी 12 वाजता खडकवासल्यातून 22,880 क्युसेकने विसर्ग; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा, धरणाच्या साखळीत 'मुसळधार' may cause delays or safety concerns.",
             "Low visibility may make driving unsafe.",
             "Moderate rainfall may slow travel."
           ],
-          "penalties": []
+          "penalties": [
+            {
+              "eventId": "dam-release-developing-khadakwasla-dam-water-discharge-पुणेकरांनो-सावधान-दुपारी-12-वाजता-ख",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "Developing: Khadakwasla Dam Water Discharge : पुणेकरांनो सावधान! दुपारी 12 वाजता खडकवासल्यातून 22,880 क्युसेकने विसर्ग; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा, धरणाच्या साखळीत 'मुसळधार'"
+            }
+          ]
         },
-        "estimatedTimeMin": 50,
-        "estimatedDelayMin": 15,
+        "estimatedTimeMin": 80,
+        "estimatedDelayMin": 45,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Khadakwasla Dam Water Discharge : पुणेकरांनो सावधान! दुपारी 12 वाजता खडकवासल्यातून 22,880 क्युसेकने विसर्ग; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा, धरणाच्या साखळीत 'मुसळधार' may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -333,21 +341,29 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 60,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 35,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
+              "Developing: Khadakwasla Dam Water Discharge : पुणेकरांनो सावधान! दुपारी 12 वाजता खडकवासल्यातून 22,880 क्युसेकने विसर्ग; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा, धरणाच्या साखळीत 'मुसळधार' may cause delays or safety concerns.",
               "Low visibility may make driving unsafe.",
               "Moderate rainfall may slow travel."
             ],
-            "penalties": []
+            "penalties": [
+              {
+                "eventId": "dam-release-developing-khadakwasla-dam-water-discharge-पुणेकरांनो-सावधान-दुपारी-12-वाजता-ख",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Developing: Khadakwasla Dam Water Discharge : पुणेकरांनो सावधान! दुपारी 12 वाजता खडकवासल्यातून 22,880 क्युसेकने विसर्ग; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा, धरणाच्या साखळीत 'मुसळधार'"
+              }
+            ]
           },
-          "estimatedTimeMin": 50,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Khadakwasla Dam Water Discharge : पुणेकरांनो सावधान! दुपारी 12 वाजता खडकवासल्यातून 22,880 क्युसेकने विसर्ग; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा, धरणाच्या साखळीत 'मुसळधार' may cause delays or safety concerns."
         }
       ]
     }
