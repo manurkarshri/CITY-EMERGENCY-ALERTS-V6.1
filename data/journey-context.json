@@ -1,10 +1,19 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-31T12:27:48.132Z",
+  "generatedAt": "2026-07-31T15:02:17.618Z",
   "routes": [],
   "risks": [
     {
       "id": "heavy-rain-developing-red-alert-issued-for-pune-ghat-areas-on-july-31-2026-07-31t03-21-38-",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "heavy-rain-developing-imd-s-red-alert-for-pune-ghats-today-light-to-moderate-rain-likely-i",
       "category": "heavy_rain",
       "severity": "warning",
       "localities": [],
@@ -20,15 +29,6 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "heavy-rain-developing-imd-s-red-alert-for-pune-ghats-today-light-to-moderate-rain-likely-i",
-      "category": "heavy_rain",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
     },
     {
       "id": "structural-collapse-developing-3-officials-suspended-for-wall-collapse-on-pune-bengaluru-n",
