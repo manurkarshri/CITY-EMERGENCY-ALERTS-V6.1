@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-31T01:06:01.178Z",
+  "generatedAt": "2026-07-31T04:42:32.027Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-07-31T01:06:01.177Z",
+      "generatedAt": "2026-07-31T04:42:32.027Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -160,7 +160,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-07-31T01:06:01.178Z",
+      "generatedAt": "2026-07-31T04:42:32.027Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -190,12 +190,11 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 20,
-          "label": "Avoid if Possible",
-          "recommendation": "Avoid this route if possible unless travel is essential.",
+          "score": 40,
+          "label": "Consider Delaying",
+          "recommendation": "Consider delaying or checking alternate routes.",
           "reasons": [
             "Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services may cause delays or safety concerns.",
-            "Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns.",
             "Low visibility may make driving unsafe.",
             "Moderate rainfall may slow travel."
           ],
@@ -205,21 +204,15 @@
               "category": "landslide",
               "penalty": 20,
               "title": "Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services"
-            },
-            {
-              "eventId": "rescue-operation-developing-central-railway-restores-mumbai-pune-rail-link-after-23-day-la",
-              "category": "rescue_operation",
-              "penalty": 20,
-              "title": "Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation"
             }
           ]
         },
-        "estimatedTimeMin": 140,
-        "estimatedDelayMin": 45,
+        "estimatedTimeMin": 120,
+        "estimatedDelayMin": 25,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (20/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services may cause delays or safety concerns."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (40/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -251,12 +244,11 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 20,
-            "label": "Avoid if Possible",
-            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "score": 40,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
               "Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services may cause delays or safety concerns.",
-              "Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation may cause delays or safety concerns.",
               "Low visibility may make driving unsafe.",
               "Moderate rainfall may slow travel."
             ],
@@ -266,21 +258,15 @@
                 "category": "landslide",
                 "penalty": 20,
                 "title": "Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services"
-              },
-              {
-                "eventId": "rescue-operation-developing-central-railway-restores-mumbai-pune-rail-link-after-23-day-la",
-                "category": "rescue_operation",
-                "penalty": 20,
-                "title": "Developing: Central Railway restores Mumbai-Pune rail link after 23-day landslide recovery operation"
               }
             ]
           },
-          "estimatedTimeMin": 140,
-          "estimatedDelayMin": 45,
+          "estimatedTimeMin": 120,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (20/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (40/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: IN PHOTOS: Central Railway restores Mumbai-Pune rail link after massive landslide disrupt services may cause delays or safety concerns."
         }
       ]
     },
@@ -289,7 +275,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-07-31T01:06:01.178Z",
+      "generatedAt": "2026-07-31T04:42:32.027Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",

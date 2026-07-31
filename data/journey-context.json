@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-31T01:06:01.014Z",
+  "generatedAt": "2026-07-31T04:42:31.900Z",
   "routes": [],
   "risks": [
     {
@@ -11,6 +11,15 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "heavy-rain-developing-red-alert-issued-for-pune-ghat-areas-on-july-31-2026-07-31t03-21-38-",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
     },
     {
       "id": "road-closure-developing-video-bridge-built-but-closed-pune-project-triggers-public-anger-2",
@@ -47,15 +56,6 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "This event may affect local awareness or movement."
-    },
-    {
-      "id": "rescue-operation-developing-central-railway-restores-mumbai-pune-rail-link-after-23-day-la",
-      "category": "rescue_operation",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Emergency access and local movement may be restricted while rescue work continues."
     }
   ]
 }
