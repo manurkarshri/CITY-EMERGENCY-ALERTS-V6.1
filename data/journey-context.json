@@ -1,16 +1,31 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-07-31T23:43:23.228Z",
+  "generatedAt": "2026-08-01T01:18:06.741Z",
   "routes": [],
   "risks": [
     {
-      "id": "heavy-rain-developing-imd-s-red-alert-for-pune-ghats-today-light-to-moderate-rain-likely-i",
-      "category": "heavy_rain",
+      "id": "dam-release-developing-pune-flood-alert-पुण्यात-अलर्ट-खडकवासला-धरणातून-मोठा-विसर्ग-बाबा-भि",
+      "category": "dam_release",
+      "severity": "warning",
+      "localities": [
+        "Khadakwasla"
+      ],
+      "talukas": [
+        "haveli"
+      ],
+      "operationalZones": [
+        "Khadakwasla"
+      ],
+      "impact": "River levels may rise downstream."
+    },
+    {
+      "id": "water-rescue-developing-pune-rain-updates-पुण्यात-आभाळ-फाटलं-घरात-पाणी-सोसायटीचे-मजलेही-बु",
+      "category": "water_rescue",
       "severity": "warning",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
+      "impact": "Water conditions may be dangerous near the affected location."
     },
     {
       "id": "road-closure-developing-video-bridge-built-but-closed-pune-project-triggers-public-anger-2",
@@ -22,7 +37,7 @@
       "impact": "Route may be blocked or diverted."
     },
     {
-      "id": "accident-developing-2-injured-as-speeding-car-uproots-tree-in-pune-drunk-driving-suspected",
+      "id": "accident-developing-pune-resort-manager-killed-in-head-on-collision-with-electric-car-near",
       "category": "accident",
       "severity": "watch",
       "localities": [],
@@ -31,7 +46,16 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "accident-developing-pune-resort-manager-killed-in-head-on-collision-with-electric-car-near",
+      "id": "heavy-rain-developing-imd-s-red-alert-for-pune-ghats-today-light-to-moderate-rain-likely-i",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "accident-developing-2-injured-as-speeding-car-uproots-tree-in-pune-drunk-driving-suspected",
       "category": "accident",
       "severity": "watch",
       "localities": [],
