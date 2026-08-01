@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-01T01:18:06.886Z",
+  "generatedAt": "2026-08-01T04:53:47.234Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-01T01:18:06.886Z",
+      "generatedAt": "2026-08-01T04:53:47.234Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -155,7 +155,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-01T01:18:06.886Z",
+      "generatedAt": "2026-08-01T04:53:47.234Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -254,7 +254,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-01T01:18:06.886Z",
+      "generatedAt": "2026-08-01T04:53:47.234Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -283,29 +283,21 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 25,
-          "label": "Avoid if Possible",
-          "recommendation": "Avoid this route if possible unless travel is essential.",
+          "score": 50,
+          "label": "Consider Delaying",
+          "recommendation": "Consider delaying or checking alternate routes.",
           "reasons": [
-            "Developing: Pune Flood Alert: पुण्यात अलर्ट! खडकवासला धरणातून मोठा विसर्ग; बाबा भिडे पूल पाण्याखाली, रस्ता बंद, युवकाची अग्निशामक दलाकडून सुटका may cause delays or safety concerns.",
             "Moderate rainfall may slow travel.",
             "Low visibility may make driving unsafe."
           ],
-          "penalties": [
-            {
-              "eventId": "dam-release-developing-pune-flood-alert-पुण्यात-अलर्ट-खडकवासला-धरणातून-मोठा-विसर्ग-बाबा-भि",
-              "category": "dam_release",
-              "penalty": 25,
-              "title": "Developing: Pune Flood Alert: पुण्यात अलर्ट! खडकवासला धरणातून मोठा विसर्ग; बाबा भिडे पूल पाण्याखाली, रस्ता बंद, युवकाची अग्निशामक दलाकडून सुटका"
-            }
-          ]
+          "penalties": []
         },
-        "estimatedTimeMin": 80,
-        "estimatedDelayMin": 45,
+        "estimatedTimeMin": 60,
+        "estimatedDelayMin": 25,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (25/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Pune Flood Alert: पुण्यात अलर्ट! खडकवासला धरणातून मोठा विसर्ग; बाबा भिडे पूल पाण्याखाली, रस्ता बंद, युवकाची अग्निशामक दलाकडून सुटका may cause delays or safety concerns."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
       },
       "routes": [
         {
@@ -336,29 +328,21 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 25,
-            "label": "Avoid if Possible",
-            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
-              "Developing: Pune Flood Alert: पुण्यात अलर्ट! खडकवासला धरणातून मोठा विसर्ग; बाबा भिडे पूल पाण्याखाली, रस्ता बंद, युवकाची अग्निशामक दलाकडून सुटका may cause delays or safety concerns.",
               "Moderate rainfall may slow travel.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": [
-              {
-                "eventId": "dam-release-developing-pune-flood-alert-पुण्यात-अलर्ट-खडकवासला-धरणातून-मोठा-विसर्ग-बाबा-भि",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Developing: Pune Flood Alert: पुण्यात अलर्ट! खडकवासला धरणातून मोठा विसर्ग; बाबा भिडे पूल पाण्याखाली, रस्ता बंद, युवकाची अग्निशामक दलाकडून सुटका"
-              }
-            ]
+            "penalties": []
           },
-          "estimatedTimeMin": 80,
-          "estimatedDelayMin": 45,
+          "estimatedTimeMin": 60,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (25/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Pune Flood Alert: पुण्यात अलर्ट! खडकवासला धरणातून मोठा विसर्ग; बाबा भिडे पूल पाण्याखाली, रस्ता बंद, युवकाची अग्निशामक दलाकडून सुटका may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Moderate rainfall may slow travel."
         }
       ]
     }

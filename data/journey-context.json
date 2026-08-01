@@ -1,49 +1,16 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-01T01:18:06.741Z",
+  "generatedAt": "2026-08-01T04:53:47.108Z",
   "routes": [],
   "risks": [
     {
-      "id": "dam-release-developing-pune-flood-alert-पुण्यात-अलर्ट-खडकवासला-धरणातून-मोठा-विसर्ग-बाबा-भि",
-      "category": "dam_release",
-      "severity": "warning",
-      "localities": [
-        "Khadakwasla"
-      ],
-      "talukas": [
-        "haveli"
-      ],
-      "operationalZones": [
-        "Khadakwasla"
-      ],
-      "impact": "River levels may rise downstream."
-    },
-    {
-      "id": "water-rescue-developing-pune-rain-updates-पुण्यात-आभाळ-फाटलं-घरात-पाणी-सोसायटीचे-मजलेही-बु",
-      "category": "water_rescue",
+      "id": "heavy-rain-developing-red-alert-issued-for-pune-ghat-areas-on-july-31-hindustan-times-2026",
+      "category": "heavy_rain",
       "severity": "warning",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "Water conditions may be dangerous near the affected location."
-    },
-    {
-      "id": "road-closure-developing-video-bridge-built-but-closed-pune-project-triggers-public-anger-2",
-      "category": "road_closure",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Route may be blocked or diverted."
-    },
-    {
-      "id": "accident-developing-pune-resort-manager-killed-in-head-on-collision-with-electric-car-near",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
+      "impact": "This event may affect local awareness or movement."
     },
     {
       "id": "heavy-rain-developing-imd-s-red-alert-for-pune-ghats-today-light-to-moderate-rain-likely-i",
@@ -55,7 +22,25 @@
       "impact": "This event may affect local awareness or movement."
     },
     {
+      "id": "road-closure-developing-video-bridge-built-but-closed-pune-project-triggers-public-anger-2",
+      "category": "road_closure",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Route may be blocked or diverted."
+    },
+    {
       "id": "accident-developing-2-injured-as-speeding-car-uproots-tree-in-pune-drunk-driving-suspected",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-pune-resort-manager-killed-in-head-on-collision-with-electric-car-near",
       "category": "accident",
       "severity": "watch",
       "localities": [],
