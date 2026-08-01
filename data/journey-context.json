@@ -1,8 +1,17 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-01T12:13:38.713Z",
+  "generatedAt": "2026-08-01T13:59:35.745Z",
   "routes": [],
   "risks": [
+    {
+      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
     {
       "id": "accident-developing-pune-resort-manager-killed-in-head-on-collision-with-electric-car-near",
       "category": "accident",
@@ -13,25 +22,7 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "road-closure-developing-video-bridge-built-but-closed-pune-project-triggers-public-anger-2",
-      "category": "road_closure",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Route may be blocked or diverted."
-    },
-    {
       "id": "heavy-rain-developing-imd-s-red-alert-for-pune-ghats-today-light-to-moderate-rain-likely-i",
-      "category": "heavy_rain",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
-    },
-    {
-      "id": "heavy-rain-developing-red-alert-issued-for-pune-ghat-areas-on-july-31-hindustan-times-2026",
       "category": "heavy_rain",
       "severity": "warning",
       "localities": [],
