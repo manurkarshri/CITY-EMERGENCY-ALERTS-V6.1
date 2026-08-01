@@ -1,26 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-01T09:33:23.596Z",
+  "generatedAt": "2026-08-01T11:05:46.522Z",
   "routes": [],
   "risks": [
-    {
-      "id": "heavy-rain-developing-red-alert-issued-for-pune-ghat-areas-on-july-31-hindustan-times-2026",
-      "category": "heavy_rain",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
-    },
-    {
-      "id": "heavy-rain-developing-imd-s-red-alert-for-pune-ghats-today-light-to-moderate-rain-likely-i",
-      "category": "heavy_rain",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
-    },
     {
       "id": "road-closure-developing-video-bridge-built-but-closed-pune-project-triggers-public-anger-2",
       "category": "road_closure",
@@ -38,6 +20,24 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "heavy-rain-developing-imd-s-red-alert-for-pune-ghats-today-light-to-moderate-rain-likely-i",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "heavy-rain-developing-red-alert-issued-for-pune-ghat-areas-on-july-31-hindustan-times-2026",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
     }
   ]
 }

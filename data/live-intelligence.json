@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-01T09:33:23.999Z",
+  "generatedAt": "2026-08-01T11:05:46.743Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-01T09:33:07.244Z",
-        "lastSuccessfulAt": "2026-08-01T09:33:07.244Z",
+        "sourceCheckedAt": "2026-08-01T11:05:29.728Z",
+        "lastSuccessfulAt": "2026-08-01T11:05:29.728Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-08-01T09:33:12.408Z",
-        "lastSuccessfulAt": "2026-08-01T09:33:12.408Z",
+        "sourceCheckedAt": "2026-08-01T11:05:35.425Z",
+        "lastSuccessfulAt": "2026-08-01T11:05:35.425Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-08-01T09:33:12.408Z",
-        "lastSuccessfulAt": "2026-08-01T07:29:06.363Z",
+        "sourceCheckedAt": "2026-08-01T11:05:35.425Z",
+        "lastSuccessfulAt": "2026-08-01T09:33:12.408Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-08-01T09:33:07.840Z",
-        "lastSuccessfulAt": "2026-08-01T09:33:07.840Z",
+        "sourceCheckedAt": "2026-08-01T11:05:30.275Z",
+        "lastSuccessfulAt": "2026-08-01T11:05:30.275Z",
         "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-01T09:33:07.840Z",
-        "lastSuccessfulAt": "2026-08-01T09:33:07.840Z",
+        "sourceCheckedAt": "2026-08-01T11:05:30.275Z",
+        "lastSuccessfulAt": "2026-08-01T11:05:30.275Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,10 +62,10 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-01T09:33:07.840Z",
-        "lastSuccessfulAt": "2026-08-01T09:33:07.840Z",
+        "sourceCheckedAt": "2026-08-01T11:05:30.275Z",
+        "lastSuccessfulAt": "2026-08-01T11:05:30.275Z",
         "error": null,
-        "etag": "W/\"8763-1785576750342\"",
+        "etag": "W/\"8404-1785581077994\"",
         "itemsCollected": 0,
         "type": "alerts"
       },
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-08-01T09:33:07.840Z",
+        "sourceCheckedAt": "2026-08-01T11:05:30.275Z",
         "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,8 +82,8 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-01T09:33:07.840Z",
-        "lastSuccessfulAt": "2026-08-01T09:33:07.840Z",
+        "sourceCheckedAt": "2026-08-01T11:05:30.275Z",
+        "lastSuccessfulAt": "2026-08-01T11:05:30.275Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -93,8 +93,8 @@
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-01T09:33:07.840Z",
-        "lastSuccessfulAt": "2026-08-01T09:33:07.840Z",
+        "sourceCheckedAt": "2026-08-01T11:05:30.275Z",
+        "lastSuccessfulAt": "2026-08-01T11:05:30.275Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -104,8 +104,8 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-01T09:33:07.840Z",
-        "lastSuccessfulAt": "2026-08-01T09:33:07.840Z",
+        "sourceCheckedAt": "2026-08-01T11:05:30.275Z",
+        "lastSuccessfulAt": "2026-08-01T11:05:30.275Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -115,8 +115,8 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-01T09:33:07.840Z",
-        "lastSuccessfulAt": "2026-08-01T09:33:07.840Z",
+        "sourceCheckedAt": "2026-08-01T11:05:30.275Z",
+        "lastSuccessfulAt": "2026-08-01T11:05:30.275Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -126,8 +126,8 @@
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-01T09:33:07.840Z",
-        "lastSuccessfulAt": "2026-08-01T09:33:07.840Z",
+        "sourceCheckedAt": "2026-08-01T11:05:30.275Z",
+        "lastSuccessfulAt": "2026-08-01T11:05:30.275Z",
         "error": null,
         "itemsCollected": 7,
         "itemsQualified": 7,
@@ -138,8 +138,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-08-01T09:33:12.408Z",
-        "lastSuccessfulAt": "2026-08-01T09:33:12.408Z",
+        "sourceCheckedAt": "2026-08-01T11:05:35.425Z",
+        "lastSuccessfulAt": "2026-08-01T11:05:35.425Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -517,15 +517,6 @@
       "updatedAt": "2026-07-30T18:48:00.000Z"
     },
     {
-      "id": "heavy-rain-developing-red-alert-issued-for-pune-ghat-areas-on-july-31-hindustan-times-2026",
-      "title": "Developing: Red alert issued for Pune ghat areas on July 31 | Hindustan Times",
-      "status": "developing",
-      "confirmation": "Awaiting official confirmation",
-      "source": "Hindustan Times Pune",
-      "trust": "B",
-      "updatedAt": "2026-07-31T03:21:38.000Z"
-    },
-    {
       "id": "road-closure-developing-video-bridge-built-but-closed-pune-project-triggers-public-anger-2",
       "title": "Developing: Video | Bridge Built, But Closed: Pune Project Triggers Public Anger",
       "status": "developing",
@@ -542,6 +533,15 @@
       "source": "Times of India",
       "trust": "B",
       "updatedAt": "2026-07-31T19:14:00.000Z"
+    },
+    {
+      "id": "heavy-rain-developing-red-alert-issued-for-pune-ghat-areas-on-july-31-hindustan-times-2026",
+      "title": "Developing: Red alert issued for Pune ghat areas on July 31 | Hindustan Times",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Hindustan Times Pune",
+      "trust": "B",
+      "updatedAt": "2026-07-31T03:21:38.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."
