@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-02T18:32:16.971Z",
+  "generatedAt": "2026-08-02T19:55:34.935Z",
   "status": "stale",
   "situation": {
-    "snapshot": "Moderate rainfall may slow travel in some areas. 1 important alert require attention.",
+    "snapshot": "No major environmental disruption indicated from current data.",
     "weather": {
-      "generatedAt": "2026-08-02T18:32:17.028Z",
+      "generatedAt": "2026-08-02T19:55:34.998Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,17 +13,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T18:32:00.290Z",
-          "observedAt": "2026-08-03T00:00:00+05:30",
-          "temp": 23.1,
+          "sourceCheckedAt": "2026-08-02T19:55:19.301Z",
+          "observedAt": "2026-08-03T01:15:00+05:30",
+          "temp": 23.4,
           "currentRain": 0,
-          "rain6h": 0,
-          "rain24h": 4.2,
+          "rain6h": 0.2,
+          "rain24h": 3.2,
           "precipitationProbability": 100,
-          "wind": 27.7,
-          "gust": 27.7,
+          "wind": 27.4,
+          "gust": 27.4,
           "humidity": 90,
-          "visibility": 12.5,
+          "visibility": 7.4,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -40,17 +40,17 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T18:32:00.290Z",
-          "observedAt": "2026-08-03T00:00:00+05:30",
-          "temp": 23,
+          "sourceCheckedAt": "2026-08-02T19:55:19.301Z",
+          "observedAt": "2026-08-03T01:15:00+05:30",
+          "temp": 23.3,
           "currentRain": 0,
-          "rain6h": 0.1,
-          "rain24h": 7.2,
+          "rain6h": 0.3,
+          "rain24h": 2.9,
           "precipitationProbability": 100,
-          "wind": 27.4,
-          "gust": 27.4,
-          "humidity": 92,
-          "visibility": 12.3,
+          "wind": 25.9,
+          "gust": 25.9,
+          "humidity": 91,
+          "visibility": 7.3,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -67,17 +67,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T18:32:00.290Z",
-          "observedAt": "2026-08-03T00:00:00+05:30",
-          "temp": 23.1,
+          "sourceCheckedAt": "2026-08-02T19:55:19.301Z",
+          "observedAt": "2026-08-03T01:15:00+05:30",
+          "temp": 23.4,
           "currentRain": 0,
-          "rain6h": 0,
-          "rain24h": 4.2,
+          "rain6h": 0.2,
+          "rain24h": 3.2,
           "precipitationProbability": 100,
-          "wind": 27.7,
-          "gust": 27.7,
+          "wind": 27.4,
+          "gust": 27.4,
           "humidity": 90,
-          "visibility": 12.5,
+          "visibility": 7.4,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -94,15 +94,15 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T18:32:00.290Z",
-          "observedAt": "2026-08-03T00:00:00+05:30",
+          "sourceCheckedAt": "2026-08-02T19:55:19.301Z",
+          "observedAt": "2026-08-03T01:15:00+05:30",
           "temp": 22.1,
           "currentRain": 0.1,
-          "rain6h": 2.8,
-          "rain24h": 16.2,
+          "rain6h": 3.9,
+          "rain24h": 14.3,
           "precipitationProbability": 100,
-          "wind": 27,
-          "gust": 27,
+          "wind": 31,
+          "gust": 31,
           "humidity": 100,
           "visibility": 0.4,
           "weatherCode": 51,
@@ -121,25 +121,24 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T18:32:00.290Z",
-          "observedAt": "2026-08-03T00:00:00+05:30",
-          "temp": 21.7,
+          "sourceCheckedAt": "2026-08-02T19:55:19.301Z",
+          "observedAt": "2026-08-03T01:15:00+05:30",
+          "temp": 21.8,
           "currentRain": 0.1,
-          "rain6h": 3.5,
-          "rain24h": 36.6,
+          "rain6h": 6.6,
+          "rain24h": 22.7,
           "precipitationProbability": 100,
-          "wind": 28.4,
-          "gust": 28.4,
-          "humidity": 100,
+          "wind": 31,
+          "gust": 31,
+          "humidity": 99,
           "visibility": 0.2,
-          "weatherCode": 51,
-          "rainRisk": "Medium",
+          "weatherCode": 53,
+          "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "High",
           "heatRisk": "Normal",
           "travelImpact": "High",
           "advice": [
-            "Moderate rainfall may slow travel in low-lying areas.",
             "Low visibility may make driving unsafe."
           ]
         }
@@ -147,78 +146,19 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-02T18:32:17.066Z",
-      "riskLevel": "Elevated",
-      "impacts": [
-        "1 area(s) have elevated rain-related travel impact.",
-        "1 active transport-related event(s) may affect travel."
-      ],
-      "citizenSummary": "1 area(s) have elevated rain-related travel impact. 1 active transport-related event(s) may affect travel.",
+      "generatedAt": "2026-08-02T19:55:35.014Z",
+      "riskLevel": "Normal",
+      "impacts": [],
+      "citizenSummary": "No major environmental disruption indicated from current data.",
       "seasonalContext": "monsoon"
     }
   },
-  "alerts": [
-    {
-      "id": "dam-release-developing-pune-flood-alert-पुणेकरांनो-सावधान-खडकवासला-धरणाचा-विसर्ग-२०-७७९-क्",
-      "eventKind": "alert",
-      "sourceId": "esakal",
-      "title": "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा",
-      "summary": "Pune Kharakvasla Dam News: खडकवासला, पानशेत, वरसगाव धरणे १००% भरली; २०,७७९ क्युसेक विसर्गामुळे मुठा नदीकाठच्या पुणेकरांना सतर्कतेचा इशारा, नदीपात्रात जाणे टाळा व प्रशासनाच्या सूचनांचे पालन करा. Pune Kharakvasla Dam News: Discharge raised to 20,779 cusecs as Khadakwasla, Panshet and Varasgaon dams reach full capacity; authorities warn riverside residents to stay alert and avoid entering Mutha riverbed.",
-      "category": "dam_release",
-      "severity": "warning",
-      "source": "eSakal Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "eSakal Pune",
-          "trust": "B",
-          "link": "https://www.esakal.com/pune/pune-flood-alert-khadakwasla-dam-discharge-rises-to-20779-cusecs-mutha-river-residents-warned-viral-video-sdj87",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.esakal.com/pune/pune-flood-alert-khadakwasla-dam-discharge-rises-to-20779-cusecs-mutha-river-residents-warned-viral-video-sdj87",
-      "talukas": [
-        "haveli",
-        "velhe"
-      ],
-      "localities": [
-        "Khadakwasla",
-        "Panshet"
-      ],
-      "operationalZones": [
-        "Khadakwasla",
-        "Panshet",
-        "Varasgaon"
-      ],
-      "publishedAt": "2026-08-02T06:23:18.000Z",
-      "lastUpdated": "2026-08-02T06:23:18.000Z",
-      "sourceCheckedAt": "2026-08-02T18:32:01.276Z",
-      "lastVerifiedAt": "2026-08-02T18:32:01.276Z",
-      "intelligenceGeneratedAt": "2026-08-02T18:32:16.971Z",
-      "expiresAt": "2026-08-05T06:23:18.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "River levels may rise downstream.",
-      "recommendedAction": "Avoid riverbanks and follow official advisories.",
-      "affectedArea": "",
-      "upstreamId": "f8b49914f1c69dd107610ba28751df3f",
-      "collectionProvider": "NewsData.io",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
-  "incidents": [
+  "alerts": [],
+  "incidents": [],
+  "journeyContext": {
+    "activeRiskEvents": []
+  },
+  "expiredEvents": [
     {
       "id": "accident-developing-pune-resort-manager-killed-in-head-on-collision-with-electric-car-near",
       "eventKind": "incident",
@@ -243,11 +183,11 @@
       "operationalZones": [],
       "publishedAt": "2026-07-31T19:14:00.000Z",
       "lastUpdated": "2026-07-31T19:14:00.000Z",
-      "sourceCheckedAt": "2026-08-02T18:32:01.276Z",
-      "lastVerifiedAt": "2026-08-02T18:32:01.276Z",
-      "intelligenceGeneratedAt": "2026-08-02T18:32:16.971Z",
+      "sourceCheckedAt": "2026-08-02T19:55:19.898Z",
+      "lastVerifiedAt": "2026-08-02T19:55:19.898Z",
+      "intelligenceGeneratedAt": "2026-08-02T19:55:34.935Z",
       "expiresAt": "2026-08-02T19:14:00.000Z",
-      "lifecycle": "developing",
+      "lifecycle": "expired",
       "confidence": "Low",
       "confidenceScore": 35,
       "impact": "Traffic delays are likely near the incident location.",
@@ -258,7 +198,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-02T18:32:01.276Z",
+      "discoveredAt": "2026-08-02T19:55:19.898Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -269,54 +209,21 @@
       "corroboratedByIndependentSources": false
     }
   ],
-  "journeyContext": {
-    "activeRiskEvents": [
-      {
-        "id": "dam-release-developing-pune-flood-alert-पुणेकरांनो-सावधान-खडकवासला-धरणाचा-विसर्ग-२०-७७९-क्",
-        "category": "dam_release",
-        "severity": "warning",
-        "localities": [
-          "Khadakwasla",
-          "Panshet"
-        ],
-        "talukas": [
-          "haveli",
-          "velhe"
-        ],
-        "operationalZones": [
-          "Khadakwasla",
-          "Panshet",
-          "Varasgaon"
-        ],
-        "impact": "River levels may rise downstream."
-      },
-      {
-        "id": "accident-developing-pune-resort-manager-killed-in-head-on-collision-with-electric-car-near",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      }
-    ]
-  },
-  "expiredEvents": [],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-02T18:32:01.276Z",
-      "lastSuccessfulAt": "2026-08-02T18:32:01.276Z",
+      "sourceCheckedAt": "2026-08-02T19:55:19.898Z",
+      "lastSuccessfulAt": "2026-08-02T19:55:19.898Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-02T18:32:17.065Z",
+      "generatedAt": "2026-08-02T19:55:35.014Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -329,7 +236,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-02T18:32:17.065Z",
+      "generatedAt": "2026-08-02T19:55:35.014Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -410,12 +317,9 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-02T18:32:17.066Z",
+      "generatedAt": "2026-08-02T19:55:35.014Z",
       "mode": "on-demand",
-      "relevantDomains": [
-        "bridges",
-        "highways"
-      ],
+      "relevantDomains": [],
       "infrastructure": {
         "highways": [
           "Mumbai-Pune Expressway",
@@ -456,7 +360,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-02T18:32:17.123Z",
+        "generatedAt": "2026-08-02T19:55:35.070Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -488,12 +392,11 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 60,
+            "score": 70,
             "label": "Proceed with Caution",
             "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Low visibility may make driving unsafe.",
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
@@ -502,7 +405,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -536,12 +439,11 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 60,
+              "score": 70,
               "label": "Proceed with Caution",
               "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Low visibility may make driving unsafe.",
-                "Moderate rainfall may slow travel."
+                "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
@@ -550,7 +452,7 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           },
           {
             "id": "kharadi-hinjawadi-pashan",
@@ -580,12 +482,11 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 60,
+              "score": 70,
               "label": "Proceed with Caution",
               "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Low visibility may make driving unsafe.",
-                "Moderate rainfall may slow travel."
+                "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
@@ -594,7 +495,7 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -603,7 +504,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-02T18:32:17.124Z",
+        "generatedAt": "2026-08-02T19:55:35.070Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -633,12 +534,11 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 60,
+            "score": 70,
             "label": "Proceed with Caution",
             "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Low visibility may make driving unsafe.",
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
@@ -647,7 +547,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -679,12 +579,11 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 60,
+              "score": 70,
               "label": "Proceed with Caution",
               "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Low visibility may make driving unsafe.",
-                "Moderate rainfall may slow travel."
+                "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
@@ -693,7 +592,7 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -702,7 +601,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-02T18:32:17.124Z",
+        "generatedAt": "2026-08-02T19:55:35.070Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -731,29 +630,20 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 35,
-            "label": "Avoid if Possible",
-            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "score": 70,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा may cause delays or safety concerns.",
-              "Low visibility may make driving unsafe.",
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
-            "penalties": [
-              {
-                "eventId": "dam-release-developing-pune-flood-alert-पुणेकरांनो-सावधान-खडकवासला-धरणाचा-विसर्ग-२०-७७९-क्",
-                "category": "dam_release",
-                "penalty": 25,
-                "title": "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा"
-              }
-            ]
+            "penalties": []
           },
-          "estimatedTimeMin": 80,
-          "estimatedDelayMin": 45,
+          "estimatedTimeMin": 50,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -784,29 +674,20 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 35,
-              "label": "Avoid if Possible",
-              "recommendation": "Avoid this route if possible unless travel is essential.",
+              "score": 70,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा may cause delays or safety concerns.",
-                "Low visibility may make driving unsafe.",
-                "Moderate rainfall may slow travel."
+                "Low visibility may make driving unsafe."
               ],
-              "penalties": [
-                {
-                  "eventId": "dam-release-developing-pune-flood-alert-पुणेकरांनो-सावधान-खडकवासला-धरणाचा-विसर्ग-२०-७७९-क्",
-                  "category": "dam_release",
-                  "penalty": 25,
-                  "title": "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा"
-                }
-              ]
+              "penalties": []
             },
-            "estimatedTimeMin": 80,
-            "estimatedDelayMin": 45,
+            "estimatedTimeMin": 50,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा may cause delays or safety concerns."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       }
