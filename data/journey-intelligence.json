@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-02T17:26:21.726Z",
+  "generatedAt": "2026-08-02T18:32:17.124Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-02T17:26:21.726Z",
+      "generatedAt": "2026-08-02T18:32:17.123Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -155,7 +155,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-02T17:26:21.726Z",
+      "generatedAt": "2026-08-02T18:32:17.124Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -254,7 +254,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-02T17:26:21.726Z",
+      "generatedAt": "2026-08-02T18:32:17.124Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -283,21 +283,29 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 60,
-          "label": "Proceed with Caution",
-          "recommendation": "Proceed with caution and allow extra travel time.",
+          "score": 35,
+          "label": "Avoid if Possible",
+          "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
+            "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा may cause delays or safety concerns.",
             "Low visibility may make driving unsafe.",
             "Moderate rainfall may slow travel."
           ],
-          "penalties": []
+          "penalties": [
+            {
+              "eventId": "dam-release-developing-pune-flood-alert-पुणेकरांनो-सावधान-खडकवासला-धरणाचा-विसर्ग-२०-७७९-क्",
+              "category": "dam_release",
+              "penalty": 25,
+              "title": "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा"
+            }
+          ]
         },
-        "estimatedTimeMin": 50,
-        "estimatedDelayMin": 15,
+        "estimatedTimeMin": 80,
+        "estimatedDelayMin": 45,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -328,21 +336,29 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 60,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 35,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
+              "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा may cause delays or safety concerns.",
               "Low visibility may make driving unsafe.",
               "Moderate rainfall may slow travel."
             ],
-            "penalties": []
+            "penalties": [
+              {
+                "eventId": "dam-release-developing-pune-flood-alert-पुणेकरांनो-सावधान-खडकवासला-धरणाचा-विसर्ग-२०-७७९-क्",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा"
+              }
+            ]
           },
-          "estimatedTimeMin": 50,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा may cause delays or safety concerns."
         }
       ]
     }

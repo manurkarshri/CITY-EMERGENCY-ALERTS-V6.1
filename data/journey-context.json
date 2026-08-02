@@ -1,8 +1,27 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-02T17:26:21.593Z",
+  "generatedAt": "2026-08-02T18:32:16.971Z",
   "routes": [],
   "risks": [
+    {
+      "id": "dam-release-developing-pune-flood-alert-पुणेकरांनो-सावधान-खडकवासला-धरणाचा-विसर्ग-२०-७७९-क्",
+      "category": "dam_release",
+      "severity": "warning",
+      "localities": [
+        "Khadakwasla",
+        "Panshet"
+      ],
+      "talukas": [
+        "haveli",
+        "velhe"
+      ],
+      "operationalZones": [
+        "Khadakwasla",
+        "Panshet",
+        "Varasgaon"
+      ],
+      "impact": "River levels may rise downstream."
+    },
     {
       "id": "accident-developing-pune-resort-manager-killed-in-head-on-collision-with-electric-car-near",
       "category": "accident",

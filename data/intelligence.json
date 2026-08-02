@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-02T17:26:21.593Z",
+  "generatedAt": "2026-08-02T18:32:16.971Z",
   "status": "stale",
   "situation": {
-    "snapshot": "Moderate rainfall may slow travel in some areas.",
+    "snapshot": "Moderate rainfall may slow travel in some areas. 1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-08-02T17:26:21.651Z",
+      "generatedAt": "2026-08-02T18:32:17.028Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,16 +13,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T17:26:06.517Z",
-          "observedAt": "2026-08-02T22:45:00+05:30",
-          "temp": 23.2,
+          "sourceCheckedAt": "2026-08-02T18:32:00.290Z",
+          "observedAt": "2026-08-03T00:00:00+05:30",
+          "temp": 23.1,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 4.2,
           "precipitationProbability": 100,
-          "wind": 29.5,
-          "gust": 29.5,
-          "humidity": 89,
+          "wind": 27.7,
+          "gust": 27.7,
+          "humidity": 90,
           "visibility": 12.5,
           "weatherCode": 3,
           "rainRisk": "Low",
@@ -40,15 +40,15 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T17:26:06.517Z",
-          "observedAt": "2026-08-02T22:45:00+05:30",
-          "temp": 22.9,
+          "sourceCheckedAt": "2026-08-02T18:32:00.290Z",
+          "observedAt": "2026-08-03T00:00:00+05:30",
+          "temp": 23,
           "currentRain": 0,
           "rain6h": 0.1,
           "rain24h": 7.2,
           "precipitationProbability": 100,
-          "wind": 29.5,
-          "gust": 29.5,
+          "wind": 27.4,
+          "gust": 27.4,
           "humidity": 92,
           "visibility": 12.3,
           "weatherCode": 3,
@@ -67,16 +67,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T17:26:06.517Z",
-          "observedAt": "2026-08-02T22:45:00+05:30",
-          "temp": 23.2,
+          "sourceCheckedAt": "2026-08-02T18:32:00.290Z",
+          "observedAt": "2026-08-03T00:00:00+05:30",
+          "temp": 23.1,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 4.2,
           "precipitationProbability": 100,
-          "wind": 29.5,
-          "gust": 29.5,
-          "humidity": 89,
+          "wind": 27.7,
+          "gust": 27.7,
+          "humidity": 90,
           "visibility": 12.5,
           "weatherCode": 3,
           "rainRisk": "Low",
@@ -94,15 +94,15 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T17:26:06.517Z",
-          "observedAt": "2026-08-02T22:45:00+05:30",
+          "sourceCheckedAt": "2026-08-02T18:32:00.290Z",
+          "observedAt": "2026-08-03T00:00:00+05:30",
           "temp": 22.1,
           "currentRain": 0.1,
-          "rain6h": 3,
-          "rain24h": 16.5,
+          "rain6h": 2.8,
+          "rain24h": 16.2,
           "precipitationProbability": 100,
-          "wind": 30.2,
-          "gust": 30.2,
+          "wind": 27,
+          "gust": 27,
           "humidity": 100,
           "visibility": 0.4,
           "weatherCode": 51,
@@ -121,18 +121,18 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T17:26:06.517Z",
-          "observedAt": "2026-08-02T22:45:00+05:30",
+          "sourceCheckedAt": "2026-08-02T18:32:00.290Z",
+          "observedAt": "2026-08-03T00:00:00+05:30",
           "temp": 21.7,
-          "currentRain": 0.2,
-          "rain6h": 3.7,
-          "rain24h": 36.2,
+          "currentRain": 0.1,
+          "rain6h": 3.5,
+          "rain24h": 36.6,
           "precipitationProbability": 100,
-          "wind": 29.2,
-          "gust": 29.2,
+          "wind": 28.4,
+          "gust": 28.4,
           "humidity": 100,
           "visibility": 0.2,
-          "weatherCode": 53,
+          "weatherCode": 51,
           "rainRisk": "Medium",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -147,7 +147,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-02T17:26:21.668Z",
+      "generatedAt": "2026-08-02T18:32:17.066Z",
       "riskLevel": "Elevated",
       "impacts": [
         "1 area(s) have elevated rain-related travel impact.",
@@ -157,7 +157,67 @@
       "seasonalContext": "monsoon"
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "id": "dam-release-developing-pune-flood-alert-पुणेकरांनो-सावधान-खडकवासला-धरणाचा-विसर्ग-२०-७७९-क्",
+      "eventKind": "alert",
+      "sourceId": "esakal",
+      "title": "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा",
+      "summary": "Pune Kharakvasla Dam News: खडकवासला, पानशेत, वरसगाव धरणे १००% भरली; २०,७७९ क्युसेक विसर्गामुळे मुठा नदीकाठच्या पुणेकरांना सतर्कतेचा इशारा, नदीपात्रात जाणे टाळा व प्रशासनाच्या सूचनांचे पालन करा. Pune Kharakvasla Dam News: Discharge raised to 20,779 cusecs as Khadakwasla, Panshet and Varasgaon dams reach full capacity; authorities warn riverside residents to stay alert and avoid entering Mutha riverbed.",
+      "category": "dam_release",
+      "severity": "warning",
+      "source": "eSakal Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "eSakal Pune",
+          "trust": "B",
+          "link": "https://www.esakal.com/pune/pune-flood-alert-khadakwasla-dam-discharge-rises-to-20779-cusecs-mutha-river-residents-warned-viral-video-sdj87",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.esakal.com/pune/pune-flood-alert-khadakwasla-dam-discharge-rises-to-20779-cusecs-mutha-river-residents-warned-viral-video-sdj87",
+      "talukas": [
+        "haveli",
+        "velhe"
+      ],
+      "localities": [
+        "Khadakwasla",
+        "Panshet"
+      ],
+      "operationalZones": [
+        "Khadakwasla",
+        "Panshet",
+        "Varasgaon"
+      ],
+      "publishedAt": "2026-08-02T06:23:18.000Z",
+      "lastUpdated": "2026-08-02T06:23:18.000Z",
+      "sourceCheckedAt": "2026-08-02T18:32:01.276Z",
+      "lastVerifiedAt": "2026-08-02T18:32:01.276Z",
+      "intelligenceGeneratedAt": "2026-08-02T18:32:16.971Z",
+      "expiresAt": "2026-08-05T06:23:18.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "River levels may rise downstream.",
+      "recommendedAction": "Avoid riverbanks and follow official advisories.",
+      "affectedArea": "",
+      "upstreamId": "f8b49914f1c69dd107610ba28751df3f",
+      "collectionProvider": "NewsData.io",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "incidents": [
     {
       "id": "accident-developing-pune-resort-manager-killed-in-head-on-collision-with-electric-car-near",
@@ -183,9 +243,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-31T19:14:00.000Z",
       "lastUpdated": "2026-07-31T19:14:00.000Z",
-      "sourceCheckedAt": "2026-08-02T17:26:07.033Z",
-      "lastVerifiedAt": "2026-08-02T17:26:07.033Z",
-      "intelligenceGeneratedAt": "2026-08-02T17:26:21.593Z",
+      "sourceCheckedAt": "2026-08-02T18:32:01.276Z",
+      "lastVerifiedAt": "2026-08-02T18:32:01.276Z",
+      "intelligenceGeneratedAt": "2026-08-02T18:32:16.971Z",
       "expiresAt": "2026-08-02T19:14:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -198,7 +258,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-02T17:26:07.033Z",
+      "discoveredAt": "2026-08-02T18:32:01.276Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -211,6 +271,25 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
+      {
+        "id": "dam-release-developing-pune-flood-alert-पुणेकरांनो-सावधान-खडकवासला-धरणाचा-विसर्ग-२०-७७९-क्",
+        "category": "dam_release",
+        "severity": "warning",
+        "localities": [
+          "Khadakwasla",
+          "Panshet"
+        ],
+        "talukas": [
+          "haveli",
+          "velhe"
+        ],
+        "operationalZones": [
+          "Khadakwasla",
+          "Panshet",
+          "Varasgaon"
+        ],
+        "impact": "River levels may rise downstream."
+      },
       {
         "id": "accident-developing-pune-resort-manager-killed-in-head-on-collision-with-electric-car-near",
         "category": "accident",
@@ -229,15 +308,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-02T17:26:07.033Z",
-      "lastSuccessfulAt": "2026-08-02T17:26:07.033Z",
+      "sourceCheckedAt": "2026-08-02T18:32:01.276Z",
+      "lastSuccessfulAt": "2026-08-02T18:32:01.276Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-02T17:26:21.668Z",
+      "generatedAt": "2026-08-02T18:32:17.065Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -250,7 +329,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-02T17:26:21.667Z",
+      "generatedAt": "2026-08-02T18:32:17.065Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -331,9 +410,10 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-02T17:26:21.668Z",
+      "generatedAt": "2026-08-02T18:32:17.066Z",
       "mode": "on-demand",
       "relevantDomains": [
+        "bridges",
         "highways"
       ],
       "infrastructure": {
@@ -376,7 +456,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-02T17:26:21.726Z",
+        "generatedAt": "2026-08-02T18:32:17.123Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -523,7 +603,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-02T17:26:21.726Z",
+        "generatedAt": "2026-08-02T18:32:17.124Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -622,7 +702,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-02T17:26:21.726Z",
+        "generatedAt": "2026-08-02T18:32:17.124Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -651,21 +731,29 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 60,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 35,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
+              "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा may cause delays or safety concerns.",
               "Low visibility may make driving unsafe.",
               "Moderate rainfall may slow travel."
             ],
-            "penalties": []
+            "penalties": [
+              {
+                "eventId": "dam-release-developing-pune-flood-alert-पुणेकरांनो-सावधान-खडकवासला-धरणाचा-विसर्ग-२०-७७९-क्",
+                "category": "dam_release",
+                "penalty": 25,
+                "title": "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा"
+              }
+            ]
           },
-          "estimatedTimeMin": 50,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -696,21 +784,29 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 60,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 35,
+              "label": "Avoid if Possible",
+              "recommendation": "Avoid this route if possible unless travel is essential.",
               "reasons": [
+                "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा may cause delays or safety concerns.",
                 "Low visibility may make driving unsafe.",
                 "Moderate rainfall may slow travel."
               ],
-              "penalties": []
+              "penalties": [
+                {
+                  "eventId": "dam-release-developing-pune-flood-alert-पुणेकरांनो-सावधान-खडकवासला-धरणाचा-विसर्ग-२०-७७९-क्",
+                  "category": "dam_release",
+                  "penalty": 25,
+                  "title": "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा"
+                }
+              ]
             },
-            "estimatedTimeMin": 50,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 80,
+            "estimatedDelayMin": 45,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा may cause delays or safety concerns."
           }
         ]
       }

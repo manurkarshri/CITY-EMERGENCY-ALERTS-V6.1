@@ -1,6 +1,66 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-02T17:26:21.593Z",
+  "generatedAt": "2026-08-02T18:32:16.971Z",
   "sourceStatus": "stale",
-  "items": []
+  "items": [
+    {
+      "id": "dam-release-developing-pune-flood-alert-पुणेकरांनो-सावधान-खडकवासला-धरणाचा-विसर्ग-२०-७७९-क्",
+      "eventKind": "alert",
+      "sourceId": "esakal",
+      "title": "Developing: Pune Flood Alert: पुणेकरांनो सावधान! खडकवासला धरणाचा विसर्ग २०,७७९ क्युसेक; मुठा नदीकाठच्या नागरिकांना सतर्कतेचा इशारा",
+      "summary": "Pune Kharakvasla Dam News: खडकवासला, पानशेत, वरसगाव धरणे १००% भरली; २०,७७९ क्युसेक विसर्गामुळे मुठा नदीकाठच्या पुणेकरांना सतर्कतेचा इशारा, नदीपात्रात जाणे टाळा व प्रशासनाच्या सूचनांचे पालन करा. Pune Kharakvasla Dam News: Discharge raised to 20,779 cusecs as Khadakwasla, Panshet and Varasgaon dams reach full capacity; authorities warn riverside residents to stay alert and avoid entering Mutha riverbed.",
+      "category": "dam_release",
+      "severity": "warning",
+      "source": "eSakal Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "eSakal Pune",
+          "trust": "B",
+          "link": "https://www.esakal.com/pune/pune-flood-alert-khadakwasla-dam-discharge-rises-to-20779-cusecs-mutha-river-residents-warned-viral-video-sdj87",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.esakal.com/pune/pune-flood-alert-khadakwasla-dam-discharge-rises-to-20779-cusecs-mutha-river-residents-warned-viral-video-sdj87",
+      "talukas": [
+        "haveli",
+        "velhe"
+      ],
+      "localities": [
+        "Khadakwasla",
+        "Panshet"
+      ],
+      "operationalZones": [
+        "Khadakwasla",
+        "Panshet",
+        "Varasgaon"
+      ],
+      "publishedAt": "2026-08-02T06:23:18.000Z",
+      "lastUpdated": "2026-08-02T06:23:18.000Z",
+      "sourceCheckedAt": "2026-08-02T18:32:01.276Z",
+      "lastVerifiedAt": "2026-08-02T18:32:01.276Z",
+      "intelligenceGeneratedAt": "2026-08-02T18:32:16.971Z",
+      "expiresAt": "2026-08-05T06:23:18.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "River levels may rise downstream.",
+      "recommendedAction": "Avoid riverbanks and follow official advisories.",
+      "affectedArea": "",
+      "upstreamId": "f8b49914f1c69dd107610ba28751df3f",
+      "collectionProvider": "NewsData.io",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
