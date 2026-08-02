@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-02T22:04:05.887Z",
+  "generatedAt": "2026-08-02T23:13:00.741Z",
   "status": "stale",
   "situation": {
-    "snapshot": "No major environmental disruption indicated from current data.",
+    "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-08-02T22:04:05.945Z",
+      "generatedAt": "2026-08-02T23:13:00.801Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,12 +13,12 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T22:03:45.528Z",
-          "observedAt": "2026-08-03T03:30:00+05:30",
+          "sourceCheckedAt": "2026-08-02T23:12:45.177Z",
+          "observedAt": "2026-08-03T04:30:00+05:30",
           "temp": 23.1,
           "currentRain": 0,
-          "rain6h": 0.6,
-          "rain24h": 3.3,
+          "rain6h": 0.7,
+          "rain24h": 3.2,
           "precipitationProbability": 100,
           "wind": 26.3,
           "gust": 26.3,
@@ -40,15 +40,15 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T22:03:45.528Z",
-          "observedAt": "2026-08-03T03:30:00+05:30",
-          "temp": 23.2,
+          "sourceCheckedAt": "2026-08-02T23:12:45.177Z",
+          "observedAt": "2026-08-03T04:30:00+05:30",
+          "temp": 23.1,
           "currentRain": 0,
-          "rain6h": 0.6,
+          "rain6h": 0.8,
           "rain24h": 3,
           "precipitationProbability": 100,
-          "wind": 28.8,
-          "gust": 28.8,
+          "wind": 28.1,
+          "gust": 28.1,
           "humidity": 91,
           "visibility": 6.5,
           "weatherCode": 3,
@@ -67,12 +67,12 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T22:03:45.528Z",
-          "observedAt": "2026-08-03T03:30:00+05:30",
+          "sourceCheckedAt": "2026-08-02T23:12:45.177Z",
+          "observedAt": "2026-08-03T04:30:00+05:30",
           "temp": 23.1,
           "currentRain": 0,
-          "rain6h": 0.6,
-          "rain24h": 3.3,
+          "rain6h": 0.7,
+          "rain24h": 3.2,
           "precipitationProbability": 100,
           "wind": 26.3,
           "gust": 26.3,
@@ -94,18 +94,18 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T22:03:45.528Z",
-          "observedAt": "2026-08-03T03:30:00+05:30",
+          "sourceCheckedAt": "2026-08-02T23:12:45.177Z",
+          "observedAt": "2026-08-03T04:30:00+05:30",
           "temp": 22.1,
-          "currentRain": 0.1,
-          "rain6h": 4.2,
-          "rain24h": 14.3,
+          "currentRain": 0.2,
+          "rain6h": 4.7,
+          "rain24h": 13.9,
           "precipitationProbability": 100,
-          "wind": 27,
-          "gust": 27,
+          "wind": 25.6,
+          "gust": 25.6,
           "humidity": 100,
           "visibility": 0.4,
-          "weatherCode": 51,
+          "weatherCode": 53,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -121,18 +121,18 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-02T22:03:45.528Z",
-          "observedAt": "2026-08-03T03:30:00+05:30",
-          "temp": 21.7,
-          "currentRain": 0.4,
-          "rain6h": 5.5,
+          "sourceCheckedAt": "2026-08-02T23:12:45.177Z",
+          "observedAt": "2026-08-03T04:30:00+05:30",
+          "temp": 21.6,
+          "currentRain": 0.2,
+          "rain6h": 5.1,
           "rain24h": 21.4,
           "precipitationProbability": 100,
-          "wind": 22.3,
-          "gust": 22.3,
+          "wind": 24.8,
+          "gust": 24.8,
           "humidity": 100,
           "visibility": 0.2,
-          "weatherCode": 61,
+          "weatherCode": 55,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -146,17 +146,77 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-02T22:04:05.961Z",
+      "generatedAt": "2026-08-02T23:13:00.817Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
       "seasonalContext": "monsoon"
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "id": "heavy-rain-official-heavy-rain-is-very-likely-to-occur-at-isolated-places-over-mumbai-mumb",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Heavy Rain is very likely to occur at isolated places over Mumbai, Mumbai Suburban, Raigad, Thane, Ghat areas of Pune and Light to Moderate rain is very likely to occur at isolated places over plain areas of Pune in next 3 hours.",
+      "summary": "Heavy Rain is very likely to occur at isolated places over Mumbai, Mumbai Suburban, Raigad, Thane, Ghat areas of Pune and Light to Moderate rain is very likely to occur at isolated places over plain areas of Pune in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "warning",
+      "source": "NDMA SACHET (IMD-Mumbai)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (IMD-Mumbai)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785710796584029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785710796584029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-02T22:45:46.000Z",
+      "lastUpdated": "2026-08-02T22:45:46.000Z",
+      "sourceCheckedAt": "2026-08-02T23:12:45.691Z",
+      "lastVerifiedAt": "2026-08-02T23:12:45.691Z",
+      "intelligenceGeneratedAt": "2026-08-02T23:13:00.741Z",
+      "expiresAt": "2026-08-03T01:30:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Mumbai, Mumbai Suburban, Pune, Raigad, Thane districts of Maharashtra",
+      "upstreamId": "IN-1785710796584029_46",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Alert",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "incidents": [],
   "journeyContext": {
-    "activeRiskEvents": []
+    "activeRiskEvents": [
+      {
+        "id": "heavy-rain-official-heavy-rain-is-very-likely-to-occur-at-isolated-places-over-mumbai-mumb",
+        "category": "heavy_rain",
+        "severity": "warning",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "This event may affect local awareness or movement."
+      }
+    ]
   },
   "expiredEvents": [
     {
@@ -183,9 +243,9 @@
       "operationalZones": [],
       "publishedAt": "2026-07-31T19:14:00.000Z",
       "lastUpdated": "2026-07-31T19:14:00.000Z",
-      "sourceCheckedAt": "2026-08-02T22:03:46.474Z",
-      "lastVerifiedAt": "2026-08-02T22:03:46.474Z",
-      "intelligenceGeneratedAt": "2026-08-02T22:04:05.887Z",
+      "sourceCheckedAt": "2026-08-02T23:12:45.691Z",
+      "lastVerifiedAt": "2026-08-02T23:12:45.691Z",
+      "intelligenceGeneratedAt": "2026-08-02T23:13:00.741Z",
       "expiresAt": "2026-08-02T19:14:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -198,7 +258,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-02T22:03:46.474Z",
+      "discoveredAt": "2026-08-02T23:12:45.691Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -215,15 +275,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-02T22:03:46.474Z",
-      "lastSuccessfulAt": "2026-08-02T22:03:46.474Z",
+      "sourceCheckedAt": "2026-08-02T23:12:45.691Z",
+      "lastSuccessfulAt": "2026-08-02T23:12:45.691Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-02T22:04:05.961Z",
+      "generatedAt": "2026-08-02T23:13:00.817Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -236,7 +296,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-02T22:04:05.961Z",
+      "generatedAt": "2026-08-02T23:13:00.817Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -317,7 +377,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-02T22:04:05.961Z",
+      "generatedAt": "2026-08-02T23:13:00.817Z",
       "mode": "on-demand",
       "relevantDomains": [],
       "infrastructure": {
@@ -360,7 +420,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-02T22:04:06.016Z",
+        "generatedAt": "2026-08-02T23:13:00.869Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -504,7 +564,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-02T22:04:06.016Z",
+        "generatedAt": "2026-08-02T23:13:00.870Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -534,20 +594,28 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 55,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
+              "Official: Heavy Rain is very likely to occur at isolated places over Mumbai, Mumbai Suburban, Raigad, Thane, Ghat areas of Pune and Light to Moderate rain is very likely to occur at isolated places over plain areas of Pune in next 3 hours. may have minor impact on travel.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": []
+            "penalties": [
+              {
+                "eventId": "heavy-rain-official-heavy-rain-is-very-likely-to-occur-at-isolated-places-over-mumbai-mumb",
+                "category": "heavy_rain",
+                "penalty": 15,
+                "title": "Official: Heavy Rain is very likely to occur at isolated places over Mumbai, Mumbai Suburban, Raigad, Thane, Ghat areas of Pune and Light to Moderate rain is very likely to occur at isolated places over plain areas of Pune in next 3 hours."
+              }
+            ]
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 120,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Official: Heavy Rain is very likely to occur at isolated places over Mumbai, Mumbai Suburban, Raigad, Thane, Ghat areas of Pune and Light to Moderate rain is very likely to occur at isolated places over plain areas of Pune in next 3 hours. may have minor impact on travel."
         },
         "routes": [
           {
@@ -579,20 +647,28 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 55,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
+                "Official: Heavy Rain is very likely to occur at isolated places over Mumbai, Mumbai Suburban, Raigad, Thane, Ghat areas of Pune and Light to Moderate rain is very likely to occur at isolated places over plain areas of Pune in next 3 hours. may have minor impact on travel.",
                 "Low visibility may make driving unsafe."
               ],
-              "penalties": []
+              "penalties": [
+                {
+                  "eventId": "heavy-rain-official-heavy-rain-is-very-likely-to-occur-at-isolated-places-over-mumbai-mumb",
+                  "category": "heavy_rain",
+                  "penalty": 15,
+                  "title": "Official: Heavy Rain is very likely to occur at isolated places over Mumbai, Mumbai Suburban, Raigad, Thane, Ghat areas of Pune and Light to Moderate rain is very likely to occur at isolated places over plain areas of Pune in next 3 hours."
+                }
+              ]
             },
-            "estimatedTimeMin": 110,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 120,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Official: Heavy Rain is very likely to occur at isolated places over Mumbai, Mumbai Suburban, Raigad, Thane, Ghat areas of Pune and Light to Moderate rain is very likely to occur at isolated places over plain areas of Pune in next 3 hours. may have minor impact on travel."
           }
         ]
       },
@@ -601,7 +677,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-02T22:04:06.016Z",
+        "generatedAt": "2026-08-02T23:13:00.870Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
