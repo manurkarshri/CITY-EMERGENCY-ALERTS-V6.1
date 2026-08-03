@@ -1,56 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-02T23:13:00.741Z",
+  "generatedAt": "2026-08-03T00:15:29.390Z",
   "sourceStatus": "stale",
-  "items": [
-    {
-      "id": "heavy-rain-official-heavy-rain-is-very-likely-to-occur-at-isolated-places-over-mumbai-mumb",
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "title": "Official: Heavy Rain is very likely to occur at isolated places over Mumbai, Mumbai Suburban, Raigad, Thane, Ghat areas of Pune and Light to Moderate rain is very likely to occur at isolated places over plain areas of Pune in next 3 hours.",
-      "summary": "Heavy Rain is very likely to occur at isolated places over Mumbai, Mumbai Suburban, Raigad, Thane, Ghat areas of Pune and Light to Moderate rain is very likely to occur at isolated places over plain areas of Pune in next 3 hours.",
-      "category": "heavy_rain",
-      "severity": "warning",
-      "source": "NDMA SACHET (IMD-Mumbai)",
-      "sourceTrust": "A+",
-      "sources": [
-        {
-          "name": "NDMA SACHET (IMD-Mumbai)",
-          "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785710796584029",
-          "origin": ""
-        }
-      ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785710796584029",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-02T22:45:46.000Z",
-      "lastUpdated": "2026-08-02T22:45:46.000Z",
-      "sourceCheckedAt": "2026-08-02T23:12:45.691Z",
-      "lastVerifiedAt": "2026-08-02T23:12:45.691Z",
-      "intelligenceGeneratedAt": "2026-08-02T23:13:00.741Z",
-      "expiresAt": "2026-08-03T01:30:00.000Z",
-      "lifecycle": "active",
-      "confidence": "Medium",
-      "confidenceScore": 65,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Mumbai, Mumbai Suburban, Pune, Raigad, Thane districts of Maharashtra",
-      "upstreamId": "IN-1785710796584029_46",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "Alert",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ]
+  "items": []
 }
