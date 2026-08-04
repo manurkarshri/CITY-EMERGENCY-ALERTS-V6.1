@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-04T17:22:49.038Z",
+  "generatedAt": "2026-08-04T19:09:09.475Z",
   "sourceStatus": "stale",
   "items": [
     {
@@ -31,13 +31,13 @@
       "operationalZones": [],
       "publishedAt": "2026-08-03T18:51:00.000Z",
       "lastUpdated": "2026-08-03T18:51:00.000Z",
-      "sourceCheckedAt": "2026-08-04T17:22:34.501Z",
-      "lastVerifiedAt": "2026-08-04T17:22:34.501Z",
-      "intelligenceGeneratedAt": "2026-08-04T17:22:49.038Z",
+      "sourceCheckedAt": "2026-08-04T19:08:55.469Z",
+      "lastVerifiedAt": "2026-08-04T19:08:55.469Z",
+      "intelligenceGeneratedAt": "2026-08-04T19:09:09.475Z",
       "expiresAt": "2026-08-05T06:51:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 63,
+      "confidenceScore": 55,
       "impact": "There may be an immediate risk to life and a wider safety perimeter may be required.",
       "recommendedAction": "Move away from the area and follow emergency-service instructions immediately.",
       "affectedArea": "Wakad",
@@ -46,7 +46,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-04T17:22:34.501Z",
+      "discoveredAt": "2026-08-04T19:08:55.469Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -55,62 +55,6 @@
       "relatedEventIds": [
         "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-2026-08-04t03-22-39-000",
         "accident-developing-two-killed-as-truck-crashes-into-parked-dumper-near-wakad-bridge-2026-"
-      ],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-two-killed-as-truck-crashes-into-parked-dumper-near-wakad-bridge-2026-",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: Two killed as truck crashes into parked dumper near Wakad bridge",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS1lSS1VuemFrTDVoeWhITm91Y2VIZG15Z2c2TUx4NkNuNGExWEdtOUVMcy1iR2E0dUxCWDlRaDhtajZRQTdfSVBHQjhUeG01RU45SlhhZmNHaHFNVXJBQjlTUXJ6OElsUnhhdzIxSXk3a1dNZ0I5TUVDWFE0SFh4a1VaemZNSzJpNTNHYUNnVlkzd0oybjhqVGZnejN1bmJLMjJwRU9WekMyczRPa0NmZlpPUUJIWldLODBwMEVrTXZZbG1HUVFRQllIWUd6NFpWVWfSAdcBQVVfeXFMTV9hSnZfdWtaUTd1NGYwbE5wbXIzNVJ3STFiZlpHYXV0aml2Q0I4UWdaTVZubmZFZW5ZaDYzQVN1VS1WNmthWlhGZVJTQ0MxNDNFSzhDTERWY1NGV2JhRnpGWlpUV2k0bnFiZUNMQnVEbzVLQVl2T3dOV1cyZFpSdjA4X2VKTGpOZHd4V0pJSlFRdmlFckhDZXRidG1YejZSQWNJcUN4eUM5UFhVWWN3U1JVUTFJUUhXZXNlMmRfR2JlNS16dHROU3Z5R1NuMkFSUXY2ZWwweHc?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS1lSS1VuemFrTDVoeWhITm91Y2VIZG15Z2c2TUx4NkNuNGExWEdtOUVMcy1iR2E0dUxCWDlRaDhtajZRQTdfSVBHQjhUeG01RU45SlhhZmNHaHFNVXJBQjlTUXJ6OElsUnhhdzIxSXk3a1dNZ0I5TUVDWFE0SFh4a1VaemZNSzJpNTNHYUNnVlkzd0oybjhqVGZnejN1bmJLMjJwRU9WekMyczRPa0NmZlpPUUJIWldLODBwMEVrTXZZbG1HUVFRQllIWUd6NFpWVWfSAdcBQVVfeXFMTV9hSnZfdWtaUTd1NGYwbE5wbXIzNVJ3STFiZlpHYXV0aml2Q0I4UWdaTVZubmZFZW5ZaDYzQVN1VS1WNmthWlhGZVJTQ0MxNDNFSzhDTERWY1NGV2JhRnpGWlpUV2k0bnFiZUNMQnVEbzVLQVl2T3dOV1cyZFpSdjA4X2VKTGpOZHd4V0pJSlFRdmlFckhDZXRidG1YejZSQWNJcUN4eUM5UFhVWWN3U1JVUTFJUUhXZXNlMmRfR2JlNS16dHROU3Z5R1NuMkFSUXY2ZWwweHc?oc=5",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Wakad"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-08-02T18:19:00.000Z",
-      "lastUpdated": "2026-08-02T18:19:00.000Z",
-      "sourceCheckedAt": "2026-08-04T17:22:34.501Z",
-      "lastVerifiedAt": "2026-08-04T17:22:34.501Z",
-      "intelligenceGeneratedAt": "2026-08-04T17:22:49.038Z",
-      "expiresAt": "2026-08-04T18:19:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 55,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Wakad",
-      "upstreamId": "google-news-c8e02fa0",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-08-04T17:22:34.501Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [
-        "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-2026-08-04t03-22-39-000",
-        "explosion-developing-wakad-eatery-owner-killed-in-fire-triggered-by-cylinder-explosion-202"
       ],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-04T17:22:49.197Z",
+  "generatedAt": "2026-08-04T19:09:09.618Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-04T17:22:49.197Z",
+      "generatedAt": "2026-08-04T19:09:09.617Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -127,12 +127,11 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 15,
+            "score": 35,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route.",
-              "Developing: Two killed as truck crashes into parked dumper near Wakad bridge may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
@@ -141,12 +140,6 @@
                 "category": "explosion",
                 "penalty": 35,
                 "title": "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion"
-              },
-              {
-                "eventId": "accident-developing-two-killed-as-truck-crashes-into-parked-dumper-near-wakad-bridge-2026-",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Two killed as truck crashes into parked dumper near Wakad bridge"
               }
             ]
           },
@@ -155,7 +148,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (15/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route."
         }
       ]
     },
@@ -164,7 +157,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-04T17:22:49.197Z",
+      "generatedAt": "2026-08-04T19:09:09.617Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -194,12 +187,11 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 15,
+          "score": 35,
           "label": "Avoid if Possible",
           "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
             "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route.",
-            "Developing: Two killed as truck crashes into parked dumper near Wakad bridge may cause delays or safety concerns.",
             "Low visibility may make driving unsafe."
           ],
           "penalties": [
@@ -208,12 +200,6 @@
               "category": "explosion",
               "penalty": 35,
               "title": "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion"
-            },
-            {
-              "eventId": "accident-developing-two-killed-as-truck-crashes-into-parked-dumper-near-wakad-bridge-2026-",
-              "category": "accident",
-              "penalty": 20,
-              "title": "Developing: Two killed as truck crashes into parked dumper near Wakad bridge"
             }
           ]
         },
@@ -222,7 +208,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (15/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route."
       },
       "routes": [
         {
@@ -254,12 +240,11 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 15,
+            "score": 35,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route.",
-              "Developing: Two killed as truck crashes into parked dumper near Wakad bridge may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
@@ -268,12 +253,6 @@
                 "category": "explosion",
                 "penalty": 35,
                 "title": "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion"
-              },
-              {
-                "eventId": "accident-developing-two-killed-as-truck-crashes-into-parked-dumper-near-wakad-bridge-2026-",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Two killed as truck crashes into parked dumper near Wakad bridge"
               }
             ]
           },
@@ -282,7 +261,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (15/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route."
         }
       ]
     },
@@ -291,7 +270,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-04T17:22:49.197Z",
+      "generatedAt": "2026-08-04T19:09:09.618Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
