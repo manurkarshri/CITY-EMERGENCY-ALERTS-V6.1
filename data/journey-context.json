@@ -1,8 +1,30 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-04T02:48:52.993Z",
+  "generatedAt": "2026-08-04T05:51:00.200Z",
   "routes": [],
   "risks": [
+    {
+      "id": "heavy-rain-official-moderate-rain-is-very-likely-to-occur-at-isolated-places-over-pune-rai",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-2026-08-04t03-22-39-000",
+      "category": "fire",
+      "severity": "warning",
+      "localities": [
+        "Wakad"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
     {
       "id": "explosion-developing-wakad-eatery-owner-killed-in-fire-triggered-by-cylinder-explosion-202",
       "category": "explosion",
