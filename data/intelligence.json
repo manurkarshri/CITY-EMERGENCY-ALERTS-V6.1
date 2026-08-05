@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-05T18:55:13.958Z",
+  "generatedAt": "2026-08-05T20:34:58.570Z",
   "status": "stale",
   "situation": {
-    "snapshot": "1 important alert require attention.",
+    "snapshot": "2 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-08-05T18:55:14.014Z",
+      "generatedAt": "2026-08-05T20:34:58.617Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,18 +13,18 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-05T18:54:58.728Z",
-          "observedAt": "2026-08-06T00:15:00+05:30",
-          "temp": 23.2,
+          "sourceCheckedAt": "2026-08-05T20:34:42.092Z",
+          "observedAt": "2026-08-06T02:00:00+05:30",
+          "temp": 23.1,
           "currentRain": 0,
           "rain6h": 0.4,
-          "rain24h": 2.5,
+          "rain24h": 2.4,
           "precipitationProbability": 99,
-          "wind": 26.3,
-          "gust": 26.3,
-          "humidity": 90,
-          "visibility": 7.6,
-          "weatherCode": 2,
+          "wind": 21.2,
+          "gust": 21.2,
+          "humidity": 91,
+          "visibility": 8.7,
+          "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "Minimal",
@@ -40,20 +40,20 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-05T18:54:58.728Z",
-          "observedAt": "2026-08-06T00:15:00+05:30",
+          "sourceCheckedAt": "2026-08-05T20:34:42.092Z",
+          "observedAt": "2026-08-06T02:00:00+05:30",
           "temp": 23,
           "currentRain": 0,
           "rain6h": 0.1,
           "rain24h": 2.9,
           "precipitationProbability": 97,
-          "wind": 21.6,
-          "gust": 21.6,
+          "wind": 18.7,
+          "gust": 18.7,
           "humidity": 92,
-          "visibility": 9.8,
+          "visibility": 7.4,
           "weatherCode": 3,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -67,18 +67,18 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-05T18:54:58.728Z",
-          "observedAt": "2026-08-06T00:15:00+05:30",
-          "temp": 23.2,
+          "sourceCheckedAt": "2026-08-05T20:34:42.092Z",
+          "observedAt": "2026-08-06T02:00:00+05:30",
+          "temp": 23.1,
           "currentRain": 0,
           "rain6h": 0.4,
-          "rain24h": 2.5,
+          "rain24h": 2.4,
           "precipitationProbability": 99,
-          "wind": 26.3,
-          "gust": 26.3,
-          "humidity": 90,
-          "visibility": 7.6,
-          "weatherCode": 2,
+          "wind": 21.2,
+          "gust": 21.2,
+          "humidity": 91,
+          "visibility": 8.7,
+          "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "Minimal",
@@ -94,15 +94,15 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-05T18:54:58.728Z",
-          "observedAt": "2026-08-06T00:15:00+05:30",
-          "temp": 22.1,
+          "sourceCheckedAt": "2026-08-05T20:34:42.092Z",
+          "observedAt": "2026-08-06T02:00:00+05:30",
+          "temp": 22.2,
           "currentRain": 0.1,
-          "rain6h": 2.4,
-          "rain24h": 17.9,
+          "rain6h": 2.6,
+          "rain24h": 18,
           "precipitationProbability": 100,
-          "wind": 26.3,
-          "gust": 26.3,
+          "wind": 22,
+          "gust": 22,
           "humidity": 100,
           "visibility": 0.4,
           "weatherCode": 51,
@@ -121,15 +121,15 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-05T18:54:58.728Z",
-          "observedAt": "2026-08-06T00:15:00+05:30",
-          "temp": 21.8,
+          "sourceCheckedAt": "2026-08-05T20:34:42.092Z",
+          "observedAt": "2026-08-06T02:00:00+05:30",
+          "temp": 21.7,
           "currentRain": 0.1,
-          "rain6h": 4,
-          "rain24h": 23.8,
+          "rain6h": 4.2,
+          "rain24h": 24.3,
           "precipitationProbability": 100,
-          "wind": 23,
-          "gust": 23,
+          "wind": 23.8,
+          "gust": 23.8,
           "humidity": 100,
           "visibility": 0.2,
           "weatherCode": 51,
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-05T18:55:14.047Z",
+      "generatedAt": "2026-08-05T20:34:58.630Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
@@ -183,9 +183,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-05T07:58:22.000Z",
       "lastUpdated": "2026-08-05T07:58:22.000Z",
-      "sourceCheckedAt": "2026-08-05T18:54:59.282Z",
-      "lastVerifiedAt": "2026-08-05T18:54:59.282Z",
-      "intelligenceGeneratedAt": "2026-08-05T18:55:13.958Z",
+      "sourceCheckedAt": "2026-08-05T20:34:42.831Z",
+      "lastVerifiedAt": "2026-08-05T20:34:42.831Z",
+      "intelligenceGeneratedAt": "2026-08-05T20:34:58.570Z",
       "expiresAt": "2026-08-07T07:58:22.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -198,13 +198,68 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-05T18:54:59.282Z",
+      "discoveredAt": "2026-08-05T20:34:42.831Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "local",
       "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "fire",
+      "severity": "warning",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY2FTai0xY19tUVFDQ0kzcHFFWlFUcHJwMklTUVZ1WWc1cFZocEsySkFqMWw4NjU4ZWRtQnJvR0hEekVFWng4ZFFBQ2NmMXB4YVliVW1jS0Z0M3l5ci1ldGo3dDc0NmJwU1dmbmFDOWZBd3pQbW1XQ1BnU1Z6QXFFempLa0FjS3JyNzN1bXM2WkJOaGRPakZFNXlybFJSbkladGtma2s3R01ybkU4RHFXVTdnVTFhcFNuUGVhdjE0eDLSAcABQVVfeXFMTWNhU2otMWNfbVFRQ0NJM3BxRVpRVHBycDJJU1FWdVlnNXBWaHBLMkpBajFsODY1OGVkbUJyb0dIRHpFRVp4OGRRQUNjZjFweGFZYlVtY0tGdDN5eXItZXRqN3Q3NDZicFNXZm5hQzlmQXd6UG1tV0NQZ1NWekFxRXpqS2tBY0tycjczdW1zNlpCTmhkT2pGRTV5cmxSUm5JWnRrZmtrN0dNcm5FOERxV1U3Z1UxYXBTblBlYXYxNHgy?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY2FTai0xY19tUVFDQ0kzcHFFWlFUcHJwMklTUVZ1WWc1cFZocEsySkFqMWw4NjU4ZWRtQnJvR0hEekVFWng4ZFFBQ2NmMXB4YVliVW1jS0Z0M3l5ci1ldGo3dDc0NmJwU1dmbmFDOWZBd3pQbW1XQ1BnU1Z6QXFFempLa0FjS3JyNzN1bXM2WkJOaGRPakZFNXlybFJSbkladGtma2s3R01ybkU4RHFXVTdnVTFhcFNuUGVhdjE0eDLSAcABQVVfeXFMTWNhU2otMWNfbVFRQ0NJM3BxRVpRVHBycDJJU1FWdVlnNXBWaHBLMkpBajFsODY1OGVkbUJyb0dIRHpFRVp4OGRRQUNjZjFweGFZYlVtY0tGdDN5eXItZXRqN3Q3NDZicFNXZm5hQzlmQXd6UG1tV0NQZ1NWekFxRXpqS2tBY0tycjczdW1zNlpCTmhkT2pGRTV5cmxSUm5JWnRrZmtrN0dNcm5FOERxV1U3Z1UxYXBTblBlYXYxNHgy?oc=5",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Wakad"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-08-04T03:22:39.000Z",
+      "lastUpdated": "2026-08-04T03:22:39.000Z",
+      "sourceCheckedAt": "2026-08-05T20:34:42.831Z",
+      "lastVerifiedAt": "2026-08-05T20:34:42.831Z",
+      "intelligenceGeneratedAt": "2026-08-05T20:34:58.570Z",
+      "expiresAt": "2026-08-06T03:22:39.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 55,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Wakad",
+      "upstreamId": "google-news-5254abba",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-08-05T20:34:42.831Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [
+        "explosion-developing-wakad-eatery-owner-killed-in-fire-triggered-by-cylinder-explosion-202"
+      ],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
     }
@@ -220,6 +275,19 @@
         ],
         "talukas": [
           "pune_city"
+        ],
+        "operationalZones": [],
+        "impact": "This event may affect local awareness or movement."
+      },
+      {
+        "id": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08",
+        "category": "fire",
+        "severity": "warning",
+        "localities": [
+          "Wakad"
+        ],
+        "talukas": [
+          "pcmc"
         ],
         "operationalZones": [],
         "impact": "This event may affect local awareness or movement."
@@ -255,9 +323,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-03T18:51:00.000Z",
       "lastUpdated": "2026-08-03T18:51:00.000Z",
-      "sourceCheckedAt": "2026-08-05T18:54:59.282Z",
-      "lastVerifiedAt": "2026-08-05T18:54:59.282Z",
-      "intelligenceGeneratedAt": "2026-08-05T18:55:13.958Z",
+      "sourceCheckedAt": "2026-08-05T20:34:42.831Z",
+      "lastVerifiedAt": "2026-08-05T20:34:42.831Z",
+      "intelligenceGeneratedAt": "2026-08-05T20:34:58.570Z",
       "expiresAt": "2026-08-05T06:51:00.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -270,13 +338,15 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-05T18:54:59.282Z",
+      "discoveredAt": "2026-08-05T20:34:42.831Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "local",
-      "relatedEventIds": [],
+      "relatedEventIds": [
+        "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08"
+      ],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
     }
@@ -287,15 +357,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-05T18:54:59.282Z",
-      "lastSuccessfulAt": "2026-08-05T18:54:59.282Z",
+      "sourceCheckedAt": "2026-08-05T20:34:42.831Z",
+      "lastSuccessfulAt": "2026-08-05T20:34:42.831Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-05T18:55:14.047Z",
+      "generatedAt": "2026-08-05T20:34:58.629Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -308,7 +378,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-05T18:55:14.046Z",
+      "generatedAt": "2026-08-05T20:34:58.629Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -389,7 +459,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-05T18:55:14.047Z",
+      "generatedAt": "2026-08-05T20:34:58.629Z",
       "mode": "on-demand",
       "relevantDomains": [
         "emergencyServices"
@@ -434,36 +504,33 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-05T18:55:14.107Z",
+        "generatedAt": "2026-08-05T20:34:58.676Z",
         "bestRoute": {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
+          "id": "kharadi-hinjawadi-pashan",
+          "label": "Kharadi to Hinjawadi via Pashan",
           "fromAliases": [
             "Kharadi",
-            "EON",
-            "World Trade Center"
+            "EON"
           ],
           "toAliases": [
             "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
+            "Hinjewadi"
           ],
           "via": [
             "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
+            "Yerwada",
+            "Aundh",
+            "Pashan",
+            "Mahalunge",
             "Hinjawadi"
           ],
           "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
+            "Pashan Road",
             "IT Corridor"
           ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "distanceKm": 36,
+          "baseTimeMin": 72,
+          "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
             "score": 70,
@@ -474,60 +541,14 @@
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 80,
+          "estimatedTimeMin": 87,
           "estimatedDelayMin": 15,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
-          {
-            "id": "kharadi-hinjawadi-nh48",
-            "label": "Kharadi to Hinjawadi via NH48",
-            "fromAliases": [
-              "Kharadi",
-              "EON",
-              "World Trade Center"
-            ],
-            "toAliases": [
-              "Hinjawadi",
-              "Hinjewadi",
-              "Rajiv Gandhi Infotech Park"
-            ],
-            "via": [
-              "Kharadi",
-              "Viman Nagar",
-              "Shivajinagar",
-              "Baner",
-              "Wakad",
-              "Hinjawadi"
-            ],
-            "operationalZones": [
-              "Pune-Ahmednagar Highway",
-              "NH48",
-              "IT Corridor"
-            ],
-            "distanceKm": 33,
-            "baseTimeMin": 65,
-            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
-              "reasons": [
-                "Low visibility may make driving unsafe."
-              ],
-              "penalties": []
-            },
-            "estimatedTimeMin": 80,
-            "estimatedDelayMin": 15,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-            "rank": 1,
-            "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
-          },
           {
             "id": "kharadi-hinjawadi-pashan",
             "label": "Kharadi to Hinjawadi via Pashan",
@@ -567,9 +588,63 @@
             "estimatedTimeMin": 87,
             "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          },
+          {
+            "id": "kharadi-hinjawadi-nh48",
+            "label": "Kharadi to Hinjawadi via NH48",
+            "fromAliases": [
+              "Kharadi",
+              "EON",
+              "World Trade Center"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi",
+              "Rajiv Gandhi Infotech Park"
+            ],
+            "via": [
+              "Kharadi",
+              "Viman Nagar",
+              "Shivajinagar",
+              "Baner",
+              "Wakad",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pune-Ahmednagar Highway",
+              "NH48",
+              "IT Corridor"
+            ],
+            "distanceKm": 33,
+            "baseTimeMin": 65,
+            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 50,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
+              "reasons": [
+                "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns.",
+                "Low visibility may make driving unsafe."
+              ],
+              "penalties": [
+                {
+                  "eventId": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08",
+                  "category": "fire",
+                  "penalty": 20,
+                  "title": "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times"
+                }
+              ]
+            },
+            "estimatedTimeMin": 90,
+            "estimatedDelayMin": 25,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns."
           }
         ]
       },
@@ -578,7 +653,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-05T18:55:14.107Z",
+        "generatedAt": "2026-08-05T20:34:58.676Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -608,20 +683,28 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
+              "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": []
+            "penalties": [
+              {
+                "eventId": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08",
+                "category": "fire",
+                "penalty": 20,
+                "title": "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times"
+              }
+            ]
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 120,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -653,20 +736,28 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 50,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
+                "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns.",
                 "Low visibility may make driving unsafe."
               ],
-              "penalties": []
+              "penalties": [
+                {
+                  "eventId": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08",
+                  "category": "fire",
+                  "penalty": 20,
+                  "title": "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times"
+                }
+              ]
             },
-            "estimatedTimeMin": 110,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 120,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns."
           }
         ]
       },
@@ -675,7 +766,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-05T18:55:14.107Z",
+        "generatedAt": "2026-08-05T20:34:58.676Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
