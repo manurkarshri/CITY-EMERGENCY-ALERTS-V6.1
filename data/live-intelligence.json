@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-05T00:16:47.652Z",
+  "generatedAt": "2026-08-05T03:44:38.007Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-05T00:16:32.044Z",
-        "lastSuccessfulAt": "2026-08-05T00:16:32.044Z",
+        "sourceCheckedAt": "2026-08-05T03:44:21.514Z",
+        "lastSuccessfulAt": "2026-08-05T03:44:21.514Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-08-05T00:16:36.361Z",
-        "lastSuccessfulAt": "2026-08-05T00:16:36.361Z",
+        "sourceCheckedAt": "2026-08-05T03:44:26.714Z",
+        "lastSuccessfulAt": "2026-08-05T03:44:26.714Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-08-05T00:16:36.361Z",
-        "lastSuccessfulAt": "2026-08-04T23:13:12.268Z",
+        "sourceCheckedAt": "2026-08-05T03:44:26.714Z",
+        "lastSuccessfulAt": "2026-08-05T00:16:36.361Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-08-05T00:16:32.750Z",
-        "lastSuccessfulAt": "2026-08-05T00:16:32.750Z",
+        "sourceCheckedAt": "2026-08-05T03:44:22.061Z",
+        "lastSuccessfulAt": "2026-08-05T03:44:22.061Z",
         "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-05T00:16:32.750Z",
-        "lastSuccessfulAt": "2026-08-05T00:16:32.750Z",
+        "sourceCheckedAt": "2026-08-05T03:44:22.061Z",
+        "lastSuccessfulAt": "2026-08-05T03:44:22.061Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,10 +62,10 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-05T00:16:32.750Z",
-        "lastSuccessfulAt": "2026-08-05T00:16:32.750Z",
+        "sourceCheckedAt": "2026-08-05T03:44:22.061Z",
+        "lastSuccessfulAt": "2026-08-05T03:44:22.061Z",
         "error": null,
-        "etag": "W/\"8629-1785862291284\"",
+        "etag": "W/\"8711-1785895380076\"",
         "itemsCollected": 0,
         "type": "alerts"
       },
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-08-05T00:16:32.750Z",
+        "sourceCheckedAt": "2026-08-05T03:44:22.061Z",
         "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,19 +82,19 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-05T00:16:32.750Z",
-        "lastSuccessfulAt": "2026-08-05T00:16:32.750Z",
+        "sourceCheckedAt": "2026-08-05T03:44:22.061Z",
+        "lastSuccessfulAt": "2026-08-05T03:44:22.061Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 1,
+        "itemsCollected": 0,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-05T00:16:32.750Z",
-        "lastSuccessfulAt": "2026-08-05T00:16:32.750Z",
+        "sourceCheckedAt": "2026-08-05T03:44:22.061Z",
+        "lastSuccessfulAt": "2026-08-05T03:44:22.061Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -104,7 +104,7 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-08-05T00:16:32.750Z",
+        "sourceCheckedAt": "2026-08-05T03:44:22.061Z",
         "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
         "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}",
         "type": "incidents"
@@ -113,8 +113,8 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-05T00:16:32.750Z",
-        "lastSuccessfulAt": "2026-08-05T00:16:32.750Z",
+        "sourceCheckedAt": "2026-08-05T03:44:22.061Z",
+        "lastSuccessfulAt": "2026-08-05T03:44:22.061Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -124,11 +124,11 @@
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-05T00:16:32.750Z",
-        "lastSuccessfulAt": "2026-08-05T00:16:32.750Z",
+        "sourceCheckedAt": "2026-08-05T03:44:22.061Z",
+        "lastSuccessfulAt": "2026-08-05T03:44:22.061Z",
         "error": null,
-        "itemsCollected": 3,
-        "itemsQualified": 3,
+        "itemsCollected": 1,
+        "itemsQualified": 1,
         "type": "incidents"
       },
       {
@@ -136,8 +136,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-08-05T00:16:36.361Z",
-        "lastSuccessfulAt": "2026-08-05T00:16:36.361Z",
+        "sourceCheckedAt": "2026-08-05T03:44:26.714Z",
+        "lastSuccessfulAt": "2026-08-05T03:44:26.714Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -506,13 +506,13 @@
   },
   "developingSituations": [
     {
-      "id": "explosion-developing-wakad-eatery-owner-killed-in-fire-triggered-by-cylinder-explosion-202",
-      "title": "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion",
+      "id": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08",
+      "title": "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Times of India",
+      "source": "Hindustan Times Pune",
       "trust": "B",
-      "updatedAt": "2026-08-03T18:51:00.000Z"
+      "updatedAt": "2026-08-04T03:22:39.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."
