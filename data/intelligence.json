@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-05T03:44:37.795Z",
+  "generatedAt": "2026-08-05T06:14:25.603Z",
   "status": "stale",
   "situation": {
     "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-08-05T03:44:37.855Z",
+      "generatedAt": "2026-08-05T06:14:25.667Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,20 +13,20 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-05T03:44:21.514Z",
-          "observedAt": "2026-08-05T09:00:00+05:30",
-          "temp": 25,
-          "currentRain": 0.1,
-          "rain6h": 1.9,
-          "rain24h": 2.8,
+          "sourceCheckedAt": "2026-08-05T06:14:09.033Z",
+          "observedAt": "2026-08-05T11:30:00+05:30",
+          "temp": 27,
+          "currentRain": 0,
+          "rain6h": 2.2,
+          "rain24h": 2.7,
           "precipitationProbability": 100,
-          "wind": 37.1,
-          "gust": 37.1,
-          "humidity": 81,
+          "wind": 43.6,
+          "gust": 43.6,
+          "humidity": 72,
           "visibility": 3.8,
-          "weatherCode": 51,
+          "weatherCode": 3,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Low",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -40,20 +40,20 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-05T03:44:21.514Z",
-          "observedAt": "2026-08-05T09:00:00+05:30",
-          "temp": 25,
-          "currentRain": 0,
-          "rain6h": 1.4,
-          "rain24h": 2.5,
+          "sourceCheckedAt": "2026-08-05T06:14:09.033Z",
+          "observedAt": "2026-08-05T11:30:00+05:30",
+          "temp": 26.7,
+          "currentRain": 0.1,
+          "rain6h": 1.6,
+          "rain24h": 2.6,
           "precipitationProbability": 100,
-          "wind": 34.6,
-          "gust": 34.6,
-          "humidity": 84,
-          "visibility": 6.3,
-          "weatherCode": 3,
+          "wind": 43.6,
+          "gust": 43.6,
+          "humidity": 76,
+          "visibility": 5.1,
+          "weatherCode": 51,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -67,20 +67,20 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-05T03:44:21.514Z",
-          "observedAt": "2026-08-05T09:00:00+05:30",
-          "temp": 25,
-          "currentRain": 0.1,
-          "rain6h": 1.9,
-          "rain24h": 2.8,
+          "sourceCheckedAt": "2026-08-05T06:14:09.033Z",
+          "observedAt": "2026-08-05T11:30:00+05:30",
+          "temp": 27,
+          "currentRain": 0,
+          "rain6h": 2.2,
+          "rain24h": 2.7,
           "precipitationProbability": 100,
-          "wind": 37.1,
-          "gust": 37.1,
-          "humidity": 81,
+          "wind": 43.6,
+          "gust": 43.6,
+          "humidity": 72,
           "visibility": 3.8,
-          "weatherCode": 51,
+          "weatherCode": 3,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Low",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -94,44 +94,17 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-05T03:44:21.514Z",
-          "observedAt": "2026-08-05T09:00:00+05:30",
-          "temp": 22.6,
+          "sourceCheckedAt": "2026-08-05T06:14:09.033Z",
+          "observedAt": "2026-08-05T11:30:00+05:30",
+          "temp": 23.9,
           "currentRain": 0.1,
-          "rain6h": 3.9,
-          "rain24h": 15.1,
+          "rain6h": 6.6,
+          "rain24h": 16.2,
           "precipitationProbability": 100,
-          "wind": 30.6,
-          "gust": 30.6,
-          "humidity": 98,
-          "visibility": 1.4,
-          "weatherCode": 53,
-          "rainRisk": "Low",
-          "windRisk": "Low",
-          "visibilityRisk": "Medium",
-          "heatRisk": "Normal",
-          "travelImpact": "Low",
-          "advice": [
-            "No major weather-related disruption indicated."
-          ]
-        },
-        "maval": {
-          "label": "Maval / Lonavala",
-          "latitude": 18.80492,
-          "longitude": 73.451324,
-          "source": "Open-Meteo",
-          "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-05T03:44:21.514Z",
-          "observedAt": "2026-08-05T09:00:00+05:30",
-          "temp": 22,
-          "currentRain": 0,
-          "rain6h": 8.5,
-          "rain24h": 25.1,
-          "precipitationProbability": 100,
-          "wind": 31.7,
-          "gust": 31.7,
-          "humidity": 100,
-          "visibility": 1,
+          "wind": 37.8,
+          "gust": 37.8,
+          "humidity": 92,
+          "visibility": 0.4,
           "weatherCode": 51,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -141,12 +114,39 @@
           "advice": [
             "Low visibility may make driving unsafe."
           ]
+        },
+        "maval": {
+          "label": "Maval / Lonavala",
+          "latitude": 18.80492,
+          "longitude": 73.451324,
+          "source": "Open-Meteo",
+          "sourceUrl": "https://open-meteo.com/",
+          "sourceCheckedAt": "2026-08-05T06:14:09.033Z",
+          "observedAt": "2026-08-05T11:30:00+05:30",
+          "temp": 23.1,
+          "currentRain": 0.2,
+          "rain6h": 9.7,
+          "rain24h": 27.9,
+          "precipitationProbability": 100,
+          "wind": 34.2,
+          "gust": 34.2,
+          "humidity": 95,
+          "visibility": 1.1,
+          "weatherCode": 81,
+          "rainRisk": "Low",
+          "windRisk": "Low",
+          "visibilityRisk": "Medium",
+          "heatRisk": "Normal",
+          "travelImpact": "Low",
+          "advice": [
+            "No major weather-related disruption indicated."
+          ]
         }
       }
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-05T03:44:37.903Z",
+      "generatedAt": "2026-08-05T06:14:25.695Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
@@ -156,24 +156,24 @@
   "alerts": [],
   "incidents": [
     {
-      "id": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08",
+      "id": "explosion-developing-wakad-eatery-owner-killed-in-fire-triggered-by-cylinder-explosion-202",
       "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times",
+      "sourceId": "times_of_india",
+      "title": "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion",
       "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "fire",
-      "severity": "warning",
-      "source": "Hindustan Times Pune",
+      "category": "explosion",
+      "severity": "emergency",
+      "source": "Times of India",
       "sourceTrust": "B",
       "sources": [
         {
-          "name": "Hindustan Times Pune",
+          "name": "Times of India",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY2FTai0xY19tUVFDQ0kzcHFFWlFUcHJwMklTUVZ1WWc1cFZocEsySkFqMWw4NjU4ZWRtQnJvR0hEekVFWng4ZFFBQ2NmMXB4YVliVW1jS0Z0M3l5ci1ldGo3dDc0NmJwU1dmbmFDOWZBd3pQbW1XQ1BnU1Z6QXFFempLa0FjS3JyNzN1bXM2WkJOaGRPakZFNXlybFJSbkladGtma2s3R01ybkU4RHFXVTdnVTFhcFNuUGVhdjE0eDLSAcABQVVfeXFMTWNhU2otMWNfbVFRQ0NJM3BxRVpRVHBycDJJU1FWdVlnNXBWaHBLMkpBajFsODY1OGVkbUJyb0dIRHpFRVp4OGRRQUNjZjFweGFZYlVtY0tGdDN5eXItZXRqN3Q3NDZicFNXZm5hQzlmQXd6UG1tV0NQZ1NWekFxRXpqS2tBY0tycjczdW1zNlpCTmhkT2pGRTV5cmxSUm5JWnRrZmtrN0dNcm5FOERxV1U3Z1UxYXBTblBlYXYxNHgy?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWnlaSWtFWURlVl9YdENld1lnLWdYaDhUc3paTHRHaVRvZXRGUEZIS3hCVmZyLVdjMVlTUFM2VS1tQ0huUHdHcXRhdVZMNTMtWDltYnJ6eG5Ba3JUYzdETlZiejl2cV8wT1hsSldMaEo2eDJpMTFtd0ZucGluUnk0akdhRGtzdm9MVFhkS0wzM3c3ZnhmaWF1aHE2clV1MDJjclF2NkN2Wk1DdjJIc2FEYmxmZEdUMm1Bc0lpQ1ByNXFiUXpjRlpEVndBNWpSTlF2ZXZR0gHYAUFVX3lxTFB4Rnh4TGk3ZDBnTm1GMVRTYV9Rdm04b1VoT3VYWGd1al9Ya1JFNlNYUGNGNFNBd0RnRU80ei0yVzdubnlNcjkxNm9Td0R0YzNvbFl3UkowWG9rTm05RVdrbTAzek1GZ1VfM25tZng3MW9tZHZCWldUcjdIVF8zV0hYR2J6NVczQXBuVnZGZFpwWldmdlI4LUZZaVN5WllVcWhpUVlUdUZ2czF4M3JQTlZxOTBHaVcxNUxKYWJxMEw0QkJCTGRJYzI5VEVBMnJUd05vUUJuTjlLaw?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY2FTai0xY19tUVFDQ0kzcHFFWlFUcHJwMklTUVZ1WWc1cFZocEsySkFqMWw4NjU4ZWRtQnJvR0hEekVFWng4ZFFBQ2NmMXB4YVliVW1jS0Z0M3l5ci1ldGo3dDc0NmJwU1dmbmFDOWZBd3pQbW1XQ1BnU1Z6QXFFempLa0FjS3JyNzN1bXM2WkJOaGRPakZFNXlybFJSbkladGtma2s3R01ybkU4RHFXVTdnVTFhcFNuUGVhdjE0eDLSAcABQVVfeXFMTWNhU2otMWNfbVFRQ0NJM3BxRVpRVHBycDJJU1FWdVlnNXBWaHBLMkpBajFsODY1OGVkbUJyb0dIRHpFRVp4OGRRQUNjZjFweGFZYlVtY0tGdDN5eXItZXRqN3Q3NDZicFNXZm5hQzlmQXd6UG1tV0NQZ1NWekFxRXpqS2tBY0tycjczdW1zNlpCTmhkT2pGRTV5cmxSUm5JWnRrZmtrN0dNcm5FOERxV1U3Z1UxYXBTblBlYXYxNHgy?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWnlaSWtFWURlVl9YdENld1lnLWdYaDhUc3paTHRHaVRvZXRGUEZIS3hCVmZyLVdjMVlTUFM2VS1tQ0huUHdHcXRhdVZMNTMtWDltYnJ6eG5Ba3JUYzdETlZiejl2cV8wT1hsSldMaEo2eDJpMTFtd0ZucGluUnk0akdhRGtzdm9MVFhkS0wzM3c3ZnhmaWF1aHE2clV1MDJjclF2NkN2Wk1DdjJIc2FEYmxmZEdUMm1Bc0lpQ1ByNXFiUXpjRlpEVndBNWpSTlF2ZXZR0gHYAUFVX3lxTFB4Rnh4TGk3ZDBnTm1GMVRTYV9Rdm04b1VoT3VYWGd1al9Ya1JFNlNYUGNGNFNBd0RnRU80ei0yVzdubnlNcjkxNm9Td0R0YzNvbFl3UkowWG9rTm05RVdrbTAzek1GZ1VfM25tZng3MW9tZHZCWldUcjdIVF8zV0hYR2J6NVczQXBuVnZGZFpwWldmdlI4LUZZaVN5WllVcWhpUVlUdUZ2czF4M3JQTlZxOTBHaVcxNUxKYWJxMEw0QkJCTGRJYzI5VEVBMnJUd05vUUJuTjlLaw?oc=5",
       "talukas": [
         "pcmc"
       ],
@@ -181,30 +181,32 @@
         "Wakad"
       ],
       "operationalZones": [],
-      "publishedAt": "2026-08-04T03:22:39.000Z",
-      "lastUpdated": "2026-08-04T03:22:39.000Z",
-      "sourceCheckedAt": "2026-08-05T03:44:22.061Z",
-      "lastVerifiedAt": "2026-08-05T03:44:22.061Z",
-      "intelligenceGeneratedAt": "2026-08-05T03:44:37.795Z",
-      "expiresAt": "2026-08-06T03:22:39.000Z",
+      "publishedAt": "2026-08-03T18:51:00.000Z",
+      "lastUpdated": "2026-08-03T18:51:00.000Z",
+      "sourceCheckedAt": "2026-08-05T06:14:09.531Z",
+      "lastVerifiedAt": "2026-08-05T06:14:09.531Z",
+      "intelligenceGeneratedAt": "2026-08-05T06:14:25.603Z",
+      "expiresAt": "2026-08-05T06:51:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
       "confidenceScore": 55,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required.",
+      "recommendedAction": "Move away from the area and follow emergency-service instructions immediately.",
       "affectedArea": "Wakad",
-      "upstreamId": "google-news-5254abba",
+      "upstreamId": "google-news-db3b71f3",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-05T03:44:22.061Z",
+      "discoveredAt": "2026-08-05T06:14:09.531Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "local",
-      "relatedEventIds": [],
+      "relatedEventIds": [
+        "accident-developing-two-killed-as-truck-crashes-into-parked-dumper-near-wakad-bridge-2026-"
+      ],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
     }
@@ -212,9 +214,9 @@
   "journeyContext": {
     "activeRiskEvents": [
       {
-        "id": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08",
-        "category": "fire",
-        "severity": "warning",
+        "id": "explosion-developing-wakad-eatery-owner-killed-in-fire-triggered-by-cylinder-explosion-202",
+        "category": "explosion",
+        "severity": "emergency",
         "localities": [
           "Wakad"
         ],
@@ -222,26 +224,82 @@
           "pcmc"
         ],
         "operationalZones": [],
-        "impact": "This event may affect local awareness or movement."
+        "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
       }
     ]
   },
-  "expiredEvents": [],
+  "expiredEvents": [
+    {
+      "id": "accident-developing-two-killed-as-truck-crashes-into-parked-dumper-near-wakad-bridge-2026-",
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "title": "Developing: Two killed as truck crashes into parked dumper near Wakad bridge",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS1lSS1VuemFrTDVoeWhITm91Y2VIZG15Z2c2TUx4NkNuNGExWEdtOUVMcy1iR2E0dUxCWDlRaDhtajZRQTdfSVBHQjhUeG01RU45SlhhZmNHaHFNVXJBQjlTUXJ6OElsUnhhdzIxSXk3a1dNZ0I5TUVDWFE0SFh4a1VaemZNSzJpNTNHYUNnVlkzd0oybjhqVGZnejN1bmJLMjJwRU9WekMyczRPa0NmZlpPUUJIWldLODBwMEVrTXZZbG1HUVFRQllIWUd6NFpWVWfSAdcBQVVfeXFMTV9hSnZfdWtaUTd1NGYwbE5wbXIzNVJ3STFiZlpHYXV0aml2Q0I4UWdaTVZubmZFZW5ZaDYzQVN1VS1WNmthWlhGZVJTQ0MxNDNFSzhDTERWY1NGV2JhRnpGWlpUV2k0bnFiZUNMQnVEbzVLQVl2T3dOV1cyZFpSdjA4X2VKTGpOZHd4V0pJSlFRdmlFckhDZXRidG1YejZSQWNJcUN4eUM5UFhVWWN3U1JVUTFJUUhXZXNlMmRfR2JlNS16dHROU3Z5R1NuMkFSUXY2ZWwweHc?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS1lSS1VuemFrTDVoeWhITm91Y2VIZG15Z2c2TUx4NkNuNGExWEdtOUVMcy1iR2E0dUxCWDlRaDhtajZRQTdfSVBHQjhUeG01RU45SlhhZmNHaHFNVXJBQjlTUXJ6OElsUnhhdzIxSXk3a1dNZ0I5TUVDWFE0SFh4a1VaemZNSzJpNTNHYUNnVlkzd0oybjhqVGZnejN1bmJLMjJwRU9WekMyczRPa0NmZlpPUUJIWldLODBwMEVrTXZZbG1HUVFRQllIWUd6NFpWVWfSAdcBQVVfeXFMTV9hSnZfdWtaUTd1NGYwbE5wbXIzNVJ3STFiZlpHYXV0aml2Q0I4UWdaTVZubmZFZW5ZaDYzQVN1VS1WNmthWlhGZVJTQ0MxNDNFSzhDTERWY1NGV2JhRnpGWlpUV2k0bnFiZUNMQnVEbzVLQVl2T3dOV1cyZFpSdjA4X2VKTGpOZHd4V0pJSlFRdmlFckhDZXRidG1YejZSQWNJcUN4eUM5UFhVWWN3U1JVUTFJUUhXZXNlMmRfR2JlNS16dHROU3Z5R1NuMkFSUXY2ZWwweHc?oc=5",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Wakad"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-08-02T18:19:00.000Z",
+      "lastUpdated": "2026-08-02T18:19:00.000Z",
+      "sourceCheckedAt": "2026-08-05T06:14:09.531Z",
+      "lastVerifiedAt": "2026-08-05T06:14:09.531Z",
+      "intelligenceGeneratedAt": "2026-08-05T06:14:25.603Z",
+      "expiresAt": "2026-08-04T18:19:00.000Z",
+      "lifecycle": "expired",
+      "confidence": "Medium",
+      "confidenceScore": 55,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Wakad",
+      "upstreamId": "google-news-c8e02fa0",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-08-05T06:14:09.531Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [
+        "explosion-developing-wakad-eatery-owner-killed-in-fire-triggered-by-cylinder-explosion-202"
+      ],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-05T03:44:22.061Z",
-      "lastSuccessfulAt": "2026-08-05T03:44:22.061Z",
+      "sourceCheckedAt": "2026-08-05T06:14:09.531Z",
+      "lastSuccessfulAt": "2026-08-05T06:14:09.531Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-05T03:44:37.902Z",
+      "generatedAt": "2026-08-05T06:14:25.694Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -254,7 +312,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-05T03:44:37.902Z",
+      "generatedAt": "2026-08-05T06:14:25.694Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -335,11 +393,9 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-05T03:44:37.902Z",
+      "generatedAt": "2026-08-05T06:14:25.695Z",
       "mode": "on-demand",
-      "relevantDomains": [
-        "emergencyServices"
-      ],
+      "relevantDomains": [],
       "infrastructure": {
         "highways": [
           "Mumbai-Pune Expressway",
@@ -380,7 +436,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-05T03:44:37.959Z",
+        "generatedAt": "2026-08-05T06:14:25.754Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -499,28 +555,28 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 65,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 50,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
-                "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns.",
+                "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route.",
                 "Low visibility may make driving unsafe."
               ],
               "penalties": [
                 {
-                  "eventId": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08",
-                  "category": "fire",
-                  "penalty": 20,
-                  "title": "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times"
+                  "eventId": "explosion-developing-wakad-eatery-owner-killed-in-fire-triggered-by-cylinder-explosion-202",
+                  "category": "explosion",
+                  "penalty": 35,
+                  "title": "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion"
                 }
               ]
             },
-            "estimatedTimeMin": 80,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 90,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route."
           }
         ]
       },
@@ -529,7 +585,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-05T03:44:37.959Z",
+        "generatedAt": "2026-08-05T06:14:25.754Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -559,28 +615,28 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 65,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
-              "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns.",
+              "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
               {
-                "eventId": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08",
-                "category": "fire",
-                "penalty": 20,
-                "title": "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times"
+                "eventId": "explosion-developing-wakad-eatery-owner-killed-in-fire-triggered-by-cylinder-explosion-202",
+                "category": "explosion",
+                "penalty": 35,
+                "title": "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion"
               }
             ]
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 120,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route."
         },
         "routes": [
           {
@@ -612,28 +668,28 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 65,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 50,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
-                "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns.",
+                "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route.",
                 "Low visibility may make driving unsafe."
               ],
               "penalties": [
                 {
-                  "eventId": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08",
-                  "category": "fire",
-                  "penalty": 20,
-                  "title": "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times"
+                  "eventId": "explosion-developing-wakad-eatery-owner-killed-in-fire-triggered-by-cylinder-explosion-202",
+                  "category": "explosion",
+                  "penalty": 35,
+                  "title": "Developing: Wakad eatery owner killed in fire triggered by cylinder explosion"
                 }
               ]
             },
-            "estimatedTimeMin": 110,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 120,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Wakad eatery owner killed in fire triggered by cylinder explosion may significantly affect this route."
           }
         ]
       },
@@ -642,7 +698,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-05T03:44:37.959Z",
+        "generatedAt": "2026-08-05T06:14:25.755Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
