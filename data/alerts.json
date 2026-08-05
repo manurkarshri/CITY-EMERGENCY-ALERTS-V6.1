@@ -1,56 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-05T09:11:20.517Z",
+  "generatedAt": "2026-08-05T11:31:03.320Z",
   "sourceStatus": "stale",
-  "items": [
-    {
-      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "title": "Official: Light to moderate spells of rain very likely to occur at isolated places. Districts: Mumbai, Thane, Palghar, Raigad, Ghats of Pune, Ahilyanagar, Chh. Sambhaji Nagar, Ghats of Satara, Parbhani, Beed, Hingoli.",
-      "summary": "Light to moderate spells of rain very likely to occur at isolated places. Districts: Mumbai, Thane, Palghar, Raigad, Ghats of Pune, Ahilyanagar, Chh. Sambhaji Nagar, Ghats of Satara, Parbhani, Beed, Hingoli.",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "source": "NDMA SACHET (IMD-Mumbai)",
-      "sourceTrust": "A+",
-      "sources": [
-        {
-          "name": "NDMA SACHET (IMD-Mumbai)",
-          "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785916360506029",
-          "origin": ""
-        }
-      ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1785916360506029",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-05T07:52:02.000Z",
-      "lastUpdated": "2026-08-05T07:52:02.000Z",
-      "sourceCheckedAt": "2026-08-05T09:11:03.956Z",
-      "lastVerifiedAt": "2026-08-05T09:11:03.956Z",
-      "intelligenceGeneratedAt": "2026-08-05T09:11:20.517Z",
-      "expiresAt": "2026-08-05T10:30:00.000Z",
-      "lifecycle": "active",
-      "confidence": "Medium",
-      "confidenceScore": 65,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Ahilyanagar, Beed, Chhatrapati Sambhajinagar, Hingoli, Mumbai, Mumbai Suburban, Palghar, Parbhani, Pune, Raigad, Satara, Thane districts of Maharashtra",
-      "upstreamId": "IN-1785916360506029_46",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "Alert",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ]
+  "items": []
 }

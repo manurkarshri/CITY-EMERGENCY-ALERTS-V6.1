@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-05T09:11:20.615Z",
+  "generatedAt": "2026-08-05T11:31:03.465Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-05T09:11:20.614Z",
+      "generatedAt": "2026-08-05T11:31:03.465Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -127,21 +127,14 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 35,
-            "label": "Avoid if Possible",
-            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
-              "Official: Light to moderate spells of rain very likely to occur at isolated places. Districts: Mumbai, Thane, Palghar, Raigad, Ghats of Pune, Ahilyanagar, Chh. Sambhaji Nagar, Ghats of Satara, Parbhani, Beed, Hingoli. may have minor impact on travel.",
               "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
-              {
-                "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
-                "category": "heavy_rain",
-                "penalty": 15,
-                "title": "Official: Light to moderate spells of rain very likely to occur at isolated places. Districts: Mumbai, Thane, Palghar, Raigad, Ghats of Pune, Ahilyanagar, Chh. Sambhaji Nagar, Ghats of Satara, Parbhani, Beed, Hingoli."
-              },
               {
                 "eventId": "fire-developing-youth-dies-after-fire-breaks-out-at-hotel-in-wakad-hindustan-times-2026-08",
                 "category": "fire",
@@ -150,12 +143,12 @@
               }
             ]
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 45,
+          "estimatedTimeMin": 90,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Official: Light to moderate spells of rain very likely to occur at isolated places. Districts: Mumbai, Thane, Palghar, Raigad, Ghats of Pune, Ahilyanagar, Chh. Sambhaji Nagar, Ghats of Satara, Parbhani, Beed, Hingoli. may have minor impact on travel."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times may cause delays or safety concerns."
         }
       ]
     },
@@ -164,7 +157,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-05T09:11:20.614Z",
+      "generatedAt": "2026-08-05T11:31:03.465Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -277,7 +270,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-05T09:11:20.615Z",
+      "generatedAt": "2026-08-05T11:31:03.465Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
