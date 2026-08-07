@@ -1,20 +1,20 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-07T14:56:02.740Z",
+  "generatedAt": "2026-08-07T15:59:54.133Z",
   "routes": [],
   "risks": [
     {
-      "id": "flood-developing-mayor-orders-permanent-flood-mitigation-plan-for-sinhagad-road-areas-2026",
-      "category": "flood",
-      "severity": "warning",
+      "id": "accident-developing-mumbai-pune-expressway-missing-link-accident-मुंबई-पुणे-मिसिंग-लिंकवर-",
+      "category": "accident",
+      "severity": "watch",
       "localities": [
-        "Sinhagad Road"
+        "Mumbai-Pune Expressway"
       ],
-      "talukas": [
-        "pune_city"
+      "talukas": [],
+      "operationalZones": [
+        "Mumbai-Pune Expressway"
       ],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
+      "impact": "Traffic delays are likely near the incident location."
     },
     {
       "id": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
@@ -27,6 +27,19 @@
       "operationalZones": [
         "Mumbai-Pune Expressway"
       ],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-research-firm-employee-killed-in-nigdi-road-accident-2026-08-06t18-59-",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Nigdi"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
     }
   ]
