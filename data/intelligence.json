@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-07T15:59:54.133Z",
+  "generatedAt": "2026-08-07T17:02:26.967Z",
   "status": "stale",
   "situation": {
-    "snapshot": "3 active transport-related event(s) may affect travel.",
+    "snapshot": "2 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-08-07T15:59:54.188Z",
+      "generatedAt": "2026-08-07T17:02:27.004Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,16 +13,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-07T15:59:39.492Z",
-          "observedAt": "2026-08-07T21:15:00+05:30",
-          "temp": 23.3,
+          "sourceCheckedAt": "2026-08-07T17:02:07.477Z",
+          "observedAt": "2026-08-07T22:30:00+05:30",
+          "temp": 23.2,
           "currentRain": 0,
-          "rain6h": 0.2,
+          "rain6h": 0.3,
           "rain24h": 2.4,
           "precipitationProbability": 98,
-          "wind": 31.3,
-          "gust": 31.3,
-          "humidity": 89,
+          "wind": 29.9,
+          "gust": 29.9,
+          "humidity": 90,
           "visibility": 8,
           "weatherCode": 3,
           "rainRisk": "Low",
@@ -40,18 +40,18 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-07T15:59:39.492Z",
-          "observedAt": "2026-08-07T21:15:00+05:30",
+          "sourceCheckedAt": "2026-08-07T17:02:07.477Z",
+          "observedAt": "2026-08-07T22:30:00+05:30",
           "temp": 23.2,
           "currentRain": 0,
-          "rain6h": 0.1,
+          "rain6h": 0.2,
           "rain24h": 3.6,
           "precipitationProbability": 99,
-          "wind": 29.2,
-          "gust": 29.2,
-          "humidity": 90,
+          "wind": 27,
+          "gust": 27,
+          "humidity": 91,
           "visibility": 11.8,
-          "weatherCode": 2,
+          "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "Minimal",
@@ -67,16 +67,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-07T15:59:39.492Z",
-          "observedAt": "2026-08-07T21:15:00+05:30",
-          "temp": 23.3,
+          "sourceCheckedAt": "2026-08-07T17:02:07.477Z",
+          "observedAt": "2026-08-07T22:30:00+05:30",
+          "temp": 23.2,
           "currentRain": 0,
-          "rain6h": 0.2,
+          "rain6h": 0.3,
           "rain24h": 2.4,
           "precipitationProbability": 98,
-          "wind": 31.3,
-          "gust": 31.3,
-          "humidity": 89,
+          "wind": 29.9,
+          "gust": 29.9,
+          "humidity": 90,
           "visibility": 8,
           "weatherCode": 3,
           "rainRisk": "Low",
@@ -94,15 +94,15 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-07T15:59:39.492Z",
-          "observedAt": "2026-08-07T21:15:00+05:30",
+          "sourceCheckedAt": "2026-08-07T17:02:07.477Z",
+          "observedAt": "2026-08-07T22:30:00+05:30",
           "temp": 22.3,
           "currentRain": 0.1,
-          "rain6h": 2.4,
+          "rain6h": 2.3,
           "rain24h": 13.6,
           "precipitationProbability": 100,
-          "wind": 32.8,
-          "gust": 32.8,
+          "wind": 28.8,
+          "gust": 28.8,
           "humidity": 100,
           "visibility": 0.1,
           "weatherCode": 51,
@@ -121,15 +121,15 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-07T15:59:39.492Z",
-          "observedAt": "2026-08-07T21:15:00+05:30",
+          "sourceCheckedAt": "2026-08-07T17:02:07.477Z",
+          "observedAt": "2026-08-07T22:30:00+05:30",
           "temp": 21.9,
           "currentRain": 0.1,
-          "rain6h": 2.9,
+          "rain6h": 2.8,
           "rain24h": 17,
           "precipitationProbability": 100,
-          "wind": 25.2,
-          "gust": 25.2,
+          "wind": 25.6,
+          "gust": 25.6,
           "humidity": 100,
           "visibility": 0.1,
           "weatherCode": 51,
@@ -146,72 +146,17 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-07T15:59:54.204Z",
+      "generatedAt": "2026-08-07T17:02:27.014Z",
       "riskLevel": "Normal",
       "impacts": [
-        "3 active transport-related event(s) may affect travel."
+        "2 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "3 active transport-related event(s) may affect travel.",
+      "citizenSummary": "2 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
   "alerts": [],
   "incidents": [
-    {
-      "id": "accident-developing-mumbai-pune-expressway-missing-link-accident-मुंबई-पुणे-मिसिंग-लिंकवर-",
-      "eventKind": "incident",
-      "sourceId": "abp_news",
-      "title": "Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ",
-      "summary": "Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे एक्सप्रेस वेवरील (Mumbai Pune Expressway) मिसिंग लिंकवरील (Missing Link Accident) बोगद्यात झालेल्या भीषण अपघातानं (Accident Update) खळबळ उडाली आहे. पुण्याहून (Pune News) मुंबईकडे (Mumbai News) जाणाऱ्या भरधाव फॉर्च्युनरनं मुंबईच्या दिशेनं जाणाऱ्या एका मालवाहू टेम्पोला जोरदार धडक दिली. अपघात एवढा भीषण होता की, दोन्ही गाड्यांचा चक्काचूर झाला आहे. अपघातात एकाचा जागीच मृत्यू झाला असून एकजण गंभीर जखमी आहे. तर, अन्य तिघे सुखरुप बचावले आहेत. पुण्याहुन मुंबईकडे जाताना मिसिंग लिंकच्या टनलमध्येच अपघात झाला. अपघातानंतर दोन तास मुंबईकडे जाणारी वाहतूक मिसिंग लिंकमधून बंद जुन्या मार्गानं वळवण्यात आली होती. अपघातग्रस्त वाहानं महामार्गावरून हटवल्यानंतर मुंबईकडील लेन पूर्ववत करण्यात आली. अपघात नेमका झाला कसा? (Mumbai Pune Expressway Missing Link Accident) मुंबई–पुणे एक्सप्रेस वेवरील मिसिंग लिंकवरील बोगद्यात रात्री दीड वाजण्याच्या सुमारास भीषण अपघात झाला. या अपघातात दोन्ही गाड्यांचा पुरता चक्काचूर झाल्याचं पाहायला मिळालं. पुण्याहून मुंबईकडे जाणाऱ्या भरधाव फॉर्च्युनरनं मुंबईच्या दिशेनं भाजीपाला वाहतूक करणाऱ्या एका मालवाहू टेम्पोला जोरदार धडक दिली आहे. यामध्ये एकाचा जागीच मृत्यू झाला असून एक जण गंभीर जखमी असल्याची माहिती समोर आलीय.,या अपघातात अन्य तिघेजण सुखरूप बचावले आहेत. मिळालेल्या माहितीनुसार, फॉर्च्युनरमधील सर्व पाचही जण पिंपरी-चिंचवडमधील वाकड येथील भूमकर चौक परिसरातील रहिवासी आहेत. त्यांच्यापैकी तुषार भूमकर या तरुणाचा जागीच मृत्यू झाला आहे. अपघातानंतर पर्यायी मार्गानं वळवण्यात आलेली वाहतूक पूर्ववत अपघातानंतर मुंबईकडे जाणारी वाहतूक सुमारे दोन तास बंद ठेवत सर्व वाहनं जुन्या मार्गानं मुंबईकडे वळविण्यात आली होती. महामार्ग पोलीस, आयआरबी पथक देवदूत आणि मदत यंत्रणांनी तातडीनं घटनास्थळी धाव घेत जखमींना अपघातग्रस्त वाहनातून बाहेर काढून उपचारासाठी रुग्णालयात दाखल केलं. दोन्ही अपघातग्रस्त वाहनं महामार्गावरून हटवल्यानंतर मुंबईकडे जाणारी वाहतूक पूर्ववत करण्यात आली. या प्रकरणाचा पुढील तपास महामार्ग पोलीस करत आहेत. पाहा व्हिडीओ : मुंबई - पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, अंगावर शहारे आणणारा VIDEO",
-      "category": "accident",
-      "severity": "watch",
-      "source": "ABP News Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "ABP News Pune",
-          "trust": "B",
-          "link": "https://marathi.abplive.com/news/pune/mumbai-pune-expressway-missing-link-accident-tempo-collides-with-fortuner-car-watch-video-1434674",
-          "origin": ""
-        }
-      ],
-      "link": "https://marathi.abplive.com/news/pune/mumbai-pune-expressway-missing-link-accident-tempo-collides-with-fortuner-car-watch-video-1434674",
-      "talukas": [],
-      "localities": [
-        "Mumbai-Pune Expressway"
-      ],
-      "operationalZones": [
-        "Mumbai-Pune Expressway"
-      ],
-      "publishedAt": "2026-08-07T03:56:53.000Z",
-      "lastUpdated": "2026-08-07T03:56:53.000Z",
-      "sourceCheckedAt": "2026-08-07T15:59:40.019Z",
-      "lastVerifiedAt": "2026-08-07T15:59:40.019Z",
-      "intelligenceGeneratedAt": "2026-08-07T15:59:54.133Z",
-      "expiresAt": "2026-08-09T03:56:53.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 55,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "",
-      "upstreamId": "9d0fb5b60da75f8807251ebc330108dd",
-      "collectionProvider": "NewsData.io",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [
-        "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway"
-      ],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
     {
       "id": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
       "eventKind": "incident",
@@ -246,9 +191,9 @@
       ],
       "publishedAt": "2026-08-07T13:48:43.000Z",
       "lastUpdated": "2026-08-07T13:48:43.000Z",
-      "sourceCheckedAt": "2026-08-07T15:59:40.019Z",
-      "lastVerifiedAt": "2026-08-07T15:59:40.019Z",
-      "intelligenceGeneratedAt": "2026-08-07T15:59:54.133Z",
+      "sourceCheckedAt": "2026-08-07T17:02:08.153Z",
+      "lastVerifiedAt": "2026-08-07T17:02:08.153Z",
+      "intelligenceGeneratedAt": "2026-08-07T17:02:26.967Z",
       "expiresAt": "2026-08-09T13:48:43.000Z",
       "lifecycle": "developing",
       "confidence": "High",
@@ -261,15 +206,14 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-07T15:59:40.019Z",
+      "discoveredAt": "2026-08-07T17:02:08.153Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "local",
       "relatedEventIds": [
-        "accident-developing-mumbai-pune-expressway-accident-wakad-man-killed-after-suv-rams-into-t",
-        "accident-developing-mumbai-pune-expressway-missing-link-accident-मुंबई-पुणे-मिसिंग-लिंकवर-"
+        "accident-developing-mumbai-pune-expressway-accident-wakad-man-killed-after-suv-rams-into-t"
       ],
       "independentSourceCount": 2,
       "corroboratedByIndependentSources": true
@@ -308,9 +252,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-06T18:59:00.000Z",
       "lastUpdated": "2026-08-06T18:59:00.000Z",
-      "sourceCheckedAt": "2026-08-07T15:59:40.019Z",
-      "lastVerifiedAt": "2026-08-07T15:59:40.019Z",
-      "intelligenceGeneratedAt": "2026-08-07T15:59:54.133Z",
+      "sourceCheckedAt": "2026-08-07T17:02:08.153Z",
+      "lastVerifiedAt": "2026-08-07T17:02:08.153Z",
+      "intelligenceGeneratedAt": "2026-08-07T17:02:26.967Z",
       "expiresAt": "2026-08-08T18:59:00.000Z",
       "lifecycle": "developing",
       "confidence": "High",
@@ -323,7 +267,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-07T15:59:40.019Z",
+      "discoveredAt": "2026-08-07T17:02:08.153Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -338,19 +282,6 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
-      {
-        "id": "accident-developing-mumbai-pune-expressway-missing-link-accident-मुंबई-पुणे-मिसिंग-लिंकवर-",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [
-          "Mumbai-Pune Expressway"
-        ],
-        "talukas": [],
-        "operationalZones": [
-          "Mumbai-Pune Expressway"
-        ],
-        "impact": "Traffic delays are likely near the incident location."
-      },
       {
         "id": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
         "category": "accident",
@@ -408,9 +339,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-07T02:59:33.000Z",
       "lastUpdated": "2026-08-07T02:59:33.000Z",
-      "sourceCheckedAt": "2026-08-07T15:59:40.019Z",
-      "lastVerifiedAt": "2026-08-07T15:59:40.019Z",
-      "intelligenceGeneratedAt": "2026-08-07T15:59:54.133Z",
+      "sourceCheckedAt": "2026-08-07T17:02:08.153Z",
+      "lastVerifiedAt": "2026-08-07T17:02:08.153Z",
+      "intelligenceGeneratedAt": "2026-08-07T17:02:26.967Z",
       "expiresAt": "2026-08-07T14:59:33.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -461,9 +392,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-05T07:58:22.000Z",
       "lastUpdated": "2026-08-05T07:58:22.000Z",
-      "sourceCheckedAt": "2026-08-07T15:59:40.019Z",
-      "lastVerifiedAt": "2026-08-07T15:59:40.019Z",
-      "intelligenceGeneratedAt": "2026-08-07T15:59:54.133Z",
+      "sourceCheckedAt": "2026-08-07T17:02:08.153Z",
+      "lastVerifiedAt": "2026-08-07T17:02:08.153Z",
+      "intelligenceGeneratedAt": "2026-08-07T17:02:26.967Z",
       "expiresAt": "2026-08-07T07:58:22.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -476,7 +407,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-07T15:59:40.019Z",
+      "discoveredAt": "2026-08-07T17:02:08.153Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -493,15 +424,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-07T15:59:40.019Z",
-      "lastSuccessfulAt": "2026-08-07T15:59:40.019Z",
+      "sourceCheckedAt": "2026-08-07T17:02:08.153Z",
+      "lastSuccessfulAt": "2026-08-07T17:02:08.153Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-07T15:59:54.204Z",
+      "generatedAt": "2026-08-07T17:02:27.014Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -514,7 +445,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-07T15:59:54.203Z",
+      "generatedAt": "2026-08-07T17:02:27.014Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -595,7 +526,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-07T15:59:54.204Z",
+      "generatedAt": "2026-08-07T17:02:27.014Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -640,7 +571,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-07T15:59:54.258Z",
+        "generatedAt": "2026-08-07T17:02:27.162Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -784,7 +715,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-07T15:59:54.258Z",
+        "generatedAt": "2026-08-07T17:02:27.162Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -814,21 +745,14 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 30,
-            "label": "Avoid if Possible",
-            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
-              "Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ may cause delays or safety concerns.",
               "Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
-              {
-                "eventId": "accident-developing-mumbai-pune-expressway-missing-link-accident-मुंबई-पुणे-मिसिंग-लिंकवर-",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ"
-              },
               {
                 "eventId": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
                 "category": "accident",
@@ -837,12 +761,12 @@
               }
             ]
           },
-          "estimatedTimeMin": 140,
-          "estimatedDelayMin": 45,
+          "estimatedTimeMin": 120,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -874,21 +798,14 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 30,
-              "label": "Avoid if Possible",
-              "recommendation": "Avoid this route if possible unless travel is essential.",
+              "score": 50,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
-                "Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ may cause delays or safety concerns.",
                 "Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns.",
                 "Low visibility may make driving unsafe."
               ],
               "penalties": [
-                {
-                  "eventId": "accident-developing-mumbai-pune-expressway-missing-link-accident-मुंबई-पुणे-मिसिंग-लिंकवर-",
-                  "category": "accident",
-                  "penalty": 20,
-                  "title": "Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ"
-                },
                 {
                   "eventId": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
                   "category": "accident",
@@ -897,12 +814,12 @@
                 }
               ]
             },
-            "estimatedTimeMin": 140,
-            "estimatedDelayMin": 45,
+            "estimatedTimeMin": 120,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ may cause delays or safety concerns."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns."
           }
         ]
       },
@@ -911,7 +828,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-07T15:59:54.258Z",
+        "generatedAt": "2026-08-07T17:02:27.163Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",

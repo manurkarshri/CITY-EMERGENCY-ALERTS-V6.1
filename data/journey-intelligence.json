@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-07T15:59:54.258Z",
+  "generatedAt": "2026-08-07T17:02:27.163Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-07T15:59:54.258Z",
+      "generatedAt": "2026-08-07T17:02:27.162Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -152,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-07T15:59:54.258Z",
+      "generatedAt": "2026-08-07T17:02:27.162Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -182,21 +182,14 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 30,
-          "label": "Avoid if Possible",
-          "recommendation": "Avoid this route if possible unless travel is essential.",
+          "score": 50,
+          "label": "Consider Delaying",
+          "recommendation": "Consider delaying or checking alternate routes.",
           "reasons": [
-            "Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ may cause delays or safety concerns.",
             "Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns.",
             "Low visibility may make driving unsafe."
           ],
           "penalties": [
-            {
-              "eventId": "accident-developing-mumbai-pune-expressway-missing-link-accident-मुंबई-पुणे-मिसिंग-लिंकवर-",
-              "category": "accident",
-              "penalty": 20,
-              "title": "Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ"
-            },
             {
               "eventId": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
               "category": "accident",
@@ -205,12 +198,12 @@
             }
           ]
         },
-        "estimatedTimeMin": 140,
-        "estimatedDelayMin": 45,
+        "estimatedTimeMin": 120,
+        "estimatedDelayMin": 25,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ may cause delays or safety concerns."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -242,21 +235,14 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 30,
-            "label": "Avoid if Possible",
-            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
-              "Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ may cause delays or safety concerns.",
               "Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
-              {
-                "eventId": "accident-developing-mumbai-pune-expressway-missing-link-accident-मुंबई-पुणे-मिसिंग-लिंकवर-",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ"
-              },
               {
                 "eventId": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
                 "category": "accident",
@@ -265,12 +251,12 @@
               }
             ]
           },
-          "estimatedTimeMin": 140,
-          "estimatedDelayMin": 45,
+          "estimatedTimeMin": 120,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Mumbai Pune Expressway Missing Link Accident: मुंबई-पुणे मिसिंग लिंकवर धडकी भरवणारा भीषण अपघात, कार टेम्पोला धडकली, एकाचा मृत्यू, पाहा भयंकर व्हिडीओ may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns."
         }
       ]
     },
@@ -279,7 +265,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-07T15:59:54.258Z",
+      "generatedAt": "2026-08-07T17:02:27.163Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
