@@ -1,56 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-07T08:16:40.670Z",
+  "generatedAt": "2026-08-07T09:33:18.905Z",
   "sourceStatus": "stale",
-  "items": [
-    {
-      "id": "heavy-rain-official-light-to-moderate-rain-is-very-likely-to-occur-at-isolated-places-over",
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "title": "Official: Light to Moderate Rain is very likely to occur at isolated places over Kolhapur, Raigad, Ratnagiri, Satara, Thane, Ghat areas of Pune in next 3 hours.",
-      "summary": "Light to Moderate Rain is very likely to occur at isolated places over Kolhapur, Raigad, Ratnagiri, Satara, Thane, Ghat areas of Pune in next 3 hours.",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "source": "NDMA SACHET (IMD-Mumbai)",
-      "sourceTrust": "A+",
-      "sources": [
-        {
-          "name": "NDMA SACHET (IMD-Mumbai)",
-          "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786088856067029",
-          "origin": ""
-        }
-      ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786088856067029",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-07T07:45:45.000Z",
-      "lastUpdated": "2026-08-07T07:45:45.000Z",
-      "sourceCheckedAt": "2026-08-07T08:16:26.258Z",
-      "lastVerifiedAt": "2026-08-07T08:16:26.258Z",
-      "intelligenceGeneratedAt": "2026-08-07T08:16:40.670Z",
-      "expiresAt": "2026-08-07T10:30:00.000Z",
-      "lifecycle": "active",
-      "confidence": "Medium",
-      "confidenceScore": 65,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Kolhapur, Pune, Raigad, Ratnagiri, Satara, Thane districts of Maharashtra",
-      "upstreamId": "IN-1786088856067029_46",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "Alert",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ]
+  "items": []
 }
