@@ -1,8 +1,21 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-07T00:42:28.731Z",
+  "generatedAt": "2026-08-07T03:40:27.543Z",
   "routes": [],
   "risks": [
+    {
+      "id": "flood-developing-mayor-orders-permanent-flood-mitigation-plan-for-sinhagad-road-areas-2026",
+      "category": "flood",
+      "severity": "warning",
+      "localities": [
+        "Sinhagad Road"
+      ],
+      "talukas": [
+        "pune_city"
+      ],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
     {
       "id": "fire-developing-pune-major-fire-averted-after-mngl-gas-pipeline-leak-on-porwal-road-in-dha",
       "category": "fire",

@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-08-07T00:42:09.831Z",
-  "lastSuccessfulAt": "2026-08-07T00:42:09.831Z",
+  "sourceCheckedAt": "2026-08-07T03:40:13.378Z",
+  "lastSuccessfulAt": "2026-08-07T03:40:13.378Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-07T00:42:09.831Z",
-      "lastSuccessfulAt": "2026-08-07T00:42:09.831Z",
+      "sourceCheckedAt": "2026-08-07T03:40:13.378Z",
+      "lastSuccessfulAt": "2026-08-07T03:40:13.378Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,8 +23,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-07T00:42:09.831Z",
-      "lastSuccessfulAt": "2026-08-07T00:42:09.831Z",
+      "sourceCheckedAt": "2026-08-07T03:40:13.378Z",
+      "lastSuccessfulAt": "2026-08-07T03:40:13.378Z",
       "error": null,
       "etag": "W/\"8779-1786034672447\"",
       "itemsCollected": 0
@@ -33,7 +33,7 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-07T00:42:09.831Z",
+      "sourceCheckedAt": "2026-08-07T03:40:13.378Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,18 +41,18 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-07T00:42:09.831Z",
-      "lastSuccessfulAt": "2026-08-07T00:42:09.831Z",
+      "sourceCheckedAt": "2026-08-07T03:40:13.378Z",
+      "lastSuccessfulAt": "2026-08-07T03:40:13.378Z",
       "error": null,
       "etag": null,
-      "itemsCollected": 0
+      "itemsCollected": 1
     },
     {
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-07T00:42:09.831Z",
-      "lastSuccessfulAt": "2026-08-07T00:42:09.831Z",
+      "sourceCheckedAt": "2026-08-07T03:40:13.378Z",
+      "lastSuccessfulAt": "2026-08-07T03:40:13.378Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-07T00:42:09.831Z",
+      "sourceCheckedAt": "2026-08-07T03:40:13.378Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,8 +69,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-07T00:42:09.831Z",
-      "lastSuccessfulAt": "2026-08-07T00:42:09.831Z",
+      "sourceCheckedAt": "2026-08-07T03:40:13.378Z",
+      "lastSuccessfulAt": "2026-08-07T03:40:13.378Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -79,14 +79,29 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-07T00:42:09.831Z",
-      "lastSuccessfulAt": "2026-08-07T00:42:09.831Z",
+      "sourceCheckedAt": "2026-08-07T03:40:13.378Z",
+      "lastSuccessfulAt": "2026-08-07T03:40:13.378Z",
       "error": null,
-      "itemsCollected": 2,
-      "itemsQualified": 2
+      "itemsCollected": 1,
+      "itemsQualified": 1
     }
   ],
   "items": [
+    {
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Mayor orders permanent flood mitigation plan for Sinhagad Road areas",
+      "summary": "The mayor convened an urgent review meeting with senior civic engineers and irrigation officials to assess the recurring flooding in the low-lying Sinhagad Road neighbourhoods",
+      "category": "flood",
+      "severity": "warning",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "link": "https://www.hindustantimes.com/cities/pune-news/mayor-orders-permanent-flood-mitigation-plan-for-sinhagad-road-areas-101786041869399.html",
+      "publishedAt": "2026-08-07T02:59:33.000Z",
+      "lastUpdated": "2026-08-07T02:59:33.000Z",
+      "sourceCheckedAt": "2026-08-07T03:40:13.378Z",
+      "lastVerifiedAt": "2026-08-07T03:40:13.378Z",
+      "expiresAt": "2026-08-07T14:59:33.000Z"
+    },
     {
       "eventKind": "incident",
       "sourceId": "punekar_news",
@@ -101,10 +116,10 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMXctM0xERDVkWml2TVFHcWd2SDhJeTBwR1NYWkdFenB3eW9JeDJYV2ZrZmk0MGhQTGNQSm9TSDRGeFZzcXlRaGVxS3pDQlBSWi00dWJmTVUzSzlBTkJlU01pV3J1bDRaNXctZkRPZmdoZDIyQ0NsUW44SEpZYlR2RGJvWkFtSE9JbVF0X1BYYURIYUtvQjFUNVhLcDFlMkx5dWU1cnhMVHdaUQ?oc=5",
       "sourceOrigin": "",
       "publishedAt": "2026-08-05T07:58:22.000Z",
-      "discoveredAt": "2026-08-07T00:42:09.831Z",
+      "discoveredAt": "2026-08-07T03:40:13.378Z",
       "lastUpdated": "2026-08-05T07:58:22.000Z",
-      "sourceCheckedAt": "2026-08-07T00:42:09.831Z",
-      "lastVerifiedAt": "2026-08-07T00:42:09.831Z",
+      "sourceCheckedAt": "2026-08-07T03:40:13.378Z",
+      "lastVerifiedAt": "2026-08-07T03:40:13.378Z",
       "expiresAt": "2026-08-07T07:58:22.000Z",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
@@ -116,37 +131,6 @@
       ],
       "localities": [
         "Dhanori"
-      ]
-    },
-    {
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "collectionSourceId": "google_news_discovery",
-      "upstreamId": "google-news-5254abba",
-      "title": "Developing: Youth dies after fire breaks out at hotel in Wakad | Hindustan Times",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "fire",
-      "severity": "warning",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONS0xXzN5Z2dtOVo2WWlROEhKS29mdm5oQTlpeU90RVFMS2lGdDRNeWhiV2tMYy0zclpJWTRYQjFSTkZTczF1clF3TWVtTldjd1JHREUtT0d6U1ZMNFZ5TEtiVjRLUHRZbDc2Ykl5NUJleVAzM3lPQ2did2NLWjJfRW9VNklSbVNjNklSaVhHZkZ5a0NRNkNxS0Riam1Nd2ZIdEdXM2xKX2NsTDlkbHl6VWNBRUJsT1czeWNN0gHAAUFVX3lxTE1jYVNqLTFjX21RUUNDSTNwcUVaUVRwcnAySVNRVnVZZzVwVmhwSzJKQWoxbDg2NThlZG1Ccm9HSER6RUVaeDhkUUFDY2YxcHhhWWJVbWNLRnQzeXlyLWV0ajd0NzQ2YnBTV2ZuYUM5ZkF3elBtbVdDUGdTVnpBcUV6aktrQWNLcnI3M3VtczZaQk5oZE9qRkU1eXJsUlJuSVp0a2ZrazdHTXJuRThEcVdVN2dVMWFwU25QZWF2MTR4Mg?oc=5",
-      "sourceOrigin": "",
-      "publishedAt": "2026-08-04T03:22:39.000Z",
-      "discoveredAt": "2026-08-07T00:42:09.831Z",
-      "lastUpdated": "2026-08-04T03:22:39.000Z",
-      "sourceCheckedAt": "2026-08-07T00:42:09.831Z",
-      "lastVerifiedAt": "2026-08-07T00:42:09.831Z",
-      "expiresAt": "2026-08-06T03:22:39.000Z",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "geographicScope": "local",
-      "affectedArea": "Wakad",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Wakad"
       ]
     }
   ]
