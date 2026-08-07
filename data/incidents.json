@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-07T06:48:45.408Z",
+  "generatedAt": "2026-08-07T08:16:40.670Z",
   "sourceStatus": "stale",
   "items": [
     {
@@ -31,9 +31,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-07T02:59:33.000Z",
       "lastUpdated": "2026-08-07T02:59:33.000Z",
-      "sourceCheckedAt": "2026-08-07T06:48:30.594Z",
-      "lastVerifiedAt": "2026-08-07T06:48:30.594Z",
-      "intelligenceGeneratedAt": "2026-08-07T06:48:45.408Z",
+      "sourceCheckedAt": "2026-08-07T08:16:26.258Z",
+      "lastVerifiedAt": "2026-08-07T08:16:26.258Z",
+      "intelligenceGeneratedAt": "2026-08-07T08:16:40.670Z",
       "expiresAt": "2026-08-07T14:59:33.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -93,9 +93,9 @@
       ],
       "publishedAt": "2026-08-07T05:57:00.000Z",
       "lastUpdated": "2026-08-07T05:57:00.000Z",
-      "sourceCheckedAt": "2026-08-07T06:48:30.594Z",
-      "lastVerifiedAt": "2026-08-07T06:48:30.594Z",
-      "intelligenceGeneratedAt": "2026-08-07T06:48:45.408Z",
+      "sourceCheckedAt": "2026-08-07T08:16:26.258Z",
+      "lastVerifiedAt": "2026-08-07T08:16:26.258Z",
+      "intelligenceGeneratedAt": "2026-08-07T08:16:40.670Z",
       "expiresAt": "2026-08-09T05:57:00.000Z",
       "lifecycle": "developing",
       "confidence": "High",
@@ -108,7 +108,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-07T06:48:30.594Z",
+      "discoveredAt": "2026-08-07T08:16:26.258Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -119,59 +119,6 @@
       ],
       "independentSourceCount": 2,
       "corroboratedByIndependentSources": true
-    },
-    {
-      "id": "fire-developing-pune-major-fire-averted-after-mngl-gas-pipeline-leak-on-porwal-road-in-dha",
-      "eventKind": "incident",
-      "sourceId": "punekar_news",
-      "title": "Developing: Pune: Major Fire Averted After MNGL Gas Pipeline Leak on Porwal Road in Dhanori",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "fire",
-      "severity": "warning",
-      "source": "Punekar News",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Punekar News",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMXctM0xERDVkWml2TVFHcWd2SDhJeTBwR1NYWkdFenB3eW9JeDJYV2ZrZmk0MGhQTGNQSm9TSDRGeFZzcXlRaGVxS3pDQlBSWi00dWJmTVUzSzlBTkJlU01pV3J1bDRaNXctZkRPZmdoZDIyQ0NsUW44SEpZYlR2RGJvWkFtSE9JbVF0X1BYYURIYUtvQjFUNVhLcDFlMkx5dWU1cnhMVHdaUQ?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMXctM0xERDVkWml2TVFHcWd2SDhJeTBwR1NYWkdFenB3eW9JeDJYV2ZrZmk0MGhQTGNQSm9TSDRGeFZzcXlRaGVxS3pDQlBSWi00dWJmTVUzSzlBTkJlU01pV3J1bDRaNXctZkRPZmdoZDIyQ0NsUW44SEpZYlR2RGJvWkFtSE9JbVF0X1BYYURIYUtvQjFUNVhLcDFlMkx5dWU1cnhMVHdaUQ?oc=5",
-      "talukas": [
-        "pune_city"
-      ],
-      "localities": [
-        "Dhanori"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-08-05T07:58:22.000Z",
-      "lastUpdated": "2026-08-05T07:58:22.000Z",
-      "sourceCheckedAt": "2026-08-07T06:48:30.594Z",
-      "lastVerifiedAt": "2026-08-07T06:48:30.594Z",
-      "intelligenceGeneratedAt": "2026-08-07T06:48:45.408Z",
-      "expiresAt": "2026-08-07T07:58:22.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 55,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Dhanori",
-      "upstreamId": "google-news-1c964480",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-08-07T06:48:30.594Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
     }
   ]
 }
