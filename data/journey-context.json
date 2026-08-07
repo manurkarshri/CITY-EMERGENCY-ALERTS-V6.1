@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-07T05:24:29.730Z",
+  "generatedAt": "2026-08-07T06:48:45.408Z",
   "routes": [],
   "risks": [
     {
@@ -17,13 +17,20 @@
       "impact": "This event may affect local awareness or movement."
     },
     {
-      "id": "flood-developing-pune-civic-roads-issue-पुण्यात-खड्ड्यांचा-मारा-कायम-महापौरांचा-यंदा-खड्डे",
-      "category": "flood",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
+      "id": "accident-developing-mumbai-pune-expressway-accident-wakad-man-killed-after-suv-rams-into-t",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Wakad",
+        "Mumbai-Pune Expressway"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [
+        "Mumbai-Pune Expressway"
+      ],
+      "impact": "Traffic delays are likely near the incident location."
     },
     {
       "id": "fire-developing-pune-major-fire-averted-after-mngl-gas-pipeline-leak-on-porwal-road-in-dha",
