@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-08T14:41:34.538Z",
+  "generatedAt": "2026-08-08T15:11:50.211Z",
   "routes": [],
   "risks": [
     {
@@ -17,13 +17,20 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "road-closure-developing-pune-news-पुणेकरांनो-घराबाहेर-पडण्याआधी-हे-बघा-आज-शहरात-मोठे-वाहतू",
-      "category": "road_closure",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Route may be blocked or diverted."
+      "id": "accident-developing-mumbai-pune-expressway-crash-wakad-businessman-killed-after-fortuner-h",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Wakad",
+        "Mumbai-Pune Expressway"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [
+        "Mumbai-Pune Expressway"
+      ],
+      "impact": "Traffic delays are likely near the incident location."
     },
     {
       "id": "accident-developing-pune-state-run-buses-run-over-2-women-in-separate-road-accidents-2026-",
