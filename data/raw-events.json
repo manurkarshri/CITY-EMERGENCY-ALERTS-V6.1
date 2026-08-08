@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-08-08T10:54:14.856Z",
-  "lastSuccessfulAt": "2026-08-08T10:54:14.856Z",
+  "sourceCheckedAt": "2026-08-08T11:31:32.739Z",
+  "lastSuccessfulAt": "2026-08-08T11:31:32.739Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-08T10:54:14.856Z",
-      "lastSuccessfulAt": "2026-08-08T10:54:14.856Z",
+      "sourceCheckedAt": "2026-08-08T11:31:32.739Z",
+      "lastSuccessfulAt": "2026-08-08T11:31:32.739Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,8 +23,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-08T10:54:14.856Z",
-      "lastSuccessfulAt": "2026-08-08T10:54:14.856Z",
+      "sourceCheckedAt": "2026-08-08T11:31:32.739Z",
+      "lastSuccessfulAt": "2026-08-08T11:31:32.739Z",
       "error": null,
       "etag": "W/\"8512-1786185933554\"",
       "itemsCollected": 0
@@ -33,7 +33,7 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-08T10:54:14.856Z",
+      "sourceCheckedAt": "2026-08-08T11:31:32.739Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-08T10:54:14.856Z",
-      "lastSuccessfulAt": "2026-08-08T10:54:14.856Z",
+      "sourceCheckedAt": "2026-08-08T11:31:32.739Z",
+      "lastSuccessfulAt": "2026-08-08T11:31:32.739Z",
       "error": null,
       "etag": null,
       "itemsCollected": 2
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-08T10:54:14.856Z",
-      "lastSuccessfulAt": "2026-08-08T10:54:14.856Z",
+      "sourceCheckedAt": "2026-08-08T11:31:32.739Z",
+      "lastSuccessfulAt": "2026-08-08T11:31:32.739Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-08T10:54:14.856Z",
+      "sourceCheckedAt": "2026-08-08T11:31:32.739Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,8 +69,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-08T10:54:14.856Z",
-      "lastSuccessfulAt": "2026-08-08T10:54:14.856Z",
+      "sourceCheckedAt": "2026-08-08T11:31:32.739Z",
+      "lastSuccessfulAt": "2026-08-08T11:31:32.739Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -78,11 +78,11 @@
     {
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
-      "status": "healthy",
-      "sourceCheckedAt": "2026-08-08T10:54:14.856Z",
+      "status": "stale",
+      "sourceCheckedAt": "2026-08-08T11:31:32.739Z",
       "lastSuccessfulAt": "2026-08-08T10:54:14.856Z",
-      "error": null,
-      "itemsCollected": 4,
+      "error": "Google News RSS request failed with HTTP 503",
+      "itemsCollected": 0,
       "itemsQualified": 4
     }
   ],
@@ -98,8 +98,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/mumbai-pune-congress-leader-killed-truck-overturned-devendra-fadnavis-pimpri-chinchwad-police-cctv-speeding-suv-101786158338274.html",
       "publishedAt": "2026-08-08T03:48:35.000Z",
       "lastUpdated": "2026-08-08T03:48:35.000Z",
-      "sourceCheckedAt": "2026-08-08T10:54:14.856Z",
-      "lastVerifiedAt": "2026-08-08T10:54:14.856Z",
+      "sourceCheckedAt": "2026-08-08T11:31:32.739Z",
+      "lastVerifiedAt": "2026-08-08T11:31:32.739Z",
       "expiresAt": "2026-08-09T03:48:35.000Z"
     },
     {
@@ -113,8 +113,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/congress-leader-killed-after-speeding-suv-rams-mini-truck-on-pune-mumbai-expressway-101786127835092.html",
       "publishedAt": "2026-08-08T02:53:32.000Z",
       "lastUpdated": "2026-08-08T02:53:32.000Z",
-      "sourceCheckedAt": "2026-08-08T10:54:14.856Z",
-      "lastVerifiedAt": "2026-08-08T10:54:14.856Z",
+      "sourceCheckedAt": "2026-08-08T11:31:32.739Z",
+      "lastVerifiedAt": "2026-08-08T11:31:32.739Z",
       "expiresAt": "2026-08-09T02:53:32.000Z"
     },
     {
