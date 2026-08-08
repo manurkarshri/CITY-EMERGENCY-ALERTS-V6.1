@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-08T02:12:27.527Z",
+  "generatedAt": "2026-08-08T03:45:40.569Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-08T02:12:27.527Z",
+      "generatedAt": "2026-08-08T03:45:40.569Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -152,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-08T02:12:27.527Z",
+      "generatedAt": "2026-08-08T03:45:40.569Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -182,14 +182,21 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 65,
-          "label": "Proceed with Caution",
-          "recommendation": "Proceed with caution and allow extra travel time.",
+          "score": 45,
+          "label": "Consider Delaying",
+          "recommendation": "Consider delaying or checking alternate routes.",
           "reasons": [
+            "Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway may cause delays or safety concerns.",
             "Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns.",
             "Low visibility may make driving unsafe."
           ],
           "penalties": [
+            {
+              "eventId": "accident-developing-congress-leader-killed-after-speeding-suv-rams-mini-truck-on-pune-mumb",
+              "category": "accident",
+              "penalty": 20,
+              "title": "Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway"
+            },
             {
               "eventId": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
               "category": "accident",
@@ -198,12 +205,12 @@
             }
           ]
         },
-        "estimatedTimeMin": 110,
-        "estimatedDelayMin": 15,
+        "estimatedTimeMin": 120,
+        "estimatedDelayMin": 25,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (45/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -235,14 +242,21 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 65,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 45,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
+              "Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway may cause delays or safety concerns.",
               "Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
+              {
+                "eventId": "accident-developing-congress-leader-killed-after-speeding-suv-rams-mini-truck-on-pune-mumb",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway"
+              },
               {
                 "eventId": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
                 "category": "accident",
@@ -251,12 +265,12 @@
               }
             ]
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 120,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (45/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway may cause delays or safety concerns."
         }
       ]
     },
@@ -265,7 +279,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-08T02:12:27.527Z",
+      "generatedAt": "2026-08-08T03:45:40.569Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
