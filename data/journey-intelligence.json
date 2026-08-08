@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-08T15:11:50.677Z",
+  "generatedAt": "2026-08-08T15:47:41.448Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,33 +8,36 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-08T15:11:50.676Z",
+      "generatedAt": "2026-08-08T15:47:41.448Z",
       "bestRoute": {
-        "id": "kharadi-hinjawadi-pashan",
-        "label": "Kharadi to Hinjawadi via Pashan",
+        "id": "kharadi-hinjawadi-nh48",
+        "label": "Kharadi to Hinjawadi via NH48",
         "fromAliases": [
           "Kharadi",
-          "EON"
+          "EON",
+          "World Trade Center"
         ],
         "toAliases": [
           "Hinjawadi",
-          "Hinjewadi"
+          "Hinjewadi",
+          "Rajiv Gandhi Infotech Park"
         ],
         "via": [
           "Kharadi",
-          "Yerwada",
-          "Aundh",
-          "Pashan",
-          "Mahalunge",
+          "Viman Nagar",
+          "Shivajinagar",
+          "Baner",
+          "Wakad",
           "Hinjawadi"
         ],
         "operationalZones": [
-          "Pashan Road",
+          "Pune-Ahmednagar Highway",
+          "NH48",
           "IT Corridor"
         ],
-        "distanceKm": 36,
-        "baseTimeMin": 72,
-        "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
+        "distanceKm": 33,
+        "baseTimeMin": 65,
+        "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
         "routeType": "known-corridor",
         "journeySuitability": {
           "score": 70,
@@ -45,14 +48,60 @@
           ],
           "penalties": []
         },
-        "estimatedTimeMin": 87,
+        "estimatedTimeMin": 80,
         "estimatedDelayMin": 15,
-        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
       },
       "routes": [
+        {
+          "id": "kharadi-hinjawadi-nh48",
+          "label": "Kharadi to Hinjawadi via NH48",
+          "fromAliases": [
+            "Kharadi",
+            "EON",
+            "World Trade Center"
+          ],
+          "toAliases": [
+            "Hinjawadi",
+            "Hinjewadi",
+            "Rajiv Gandhi Infotech Park"
+          ],
+          "via": [
+            "Kharadi",
+            "Viman Nagar",
+            "Shivajinagar",
+            "Baner",
+            "Wakad",
+            "Hinjawadi"
+          ],
+          "operationalZones": [
+            "Pune-Ahmednagar Highway",
+            "NH48",
+            "IT Corridor"
+          ],
+          "distanceKm": 33,
+          "baseTimeMin": 65,
+          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 70,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
+            "reasons": [
+              "Low visibility may make driving unsafe."
+            ],
+            "penalties": []
+          },
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 15,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        },
         {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -92,63 +141,9 @@
           "estimatedTimeMin": 87,
           "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
-          "rank": 1,
-          "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
-        },
-        {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
-          "fromAliases": [
-            "Kharadi",
-            "EON",
-            "World Trade Center"
-          ],
-          "toAliases": [
-            "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
-          ],
-          "via": [
-            "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
-            "Hinjawadi"
-          ],
-          "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
-            "IT Corridor"
-          ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-          "routeType": "known-corridor",
-          "journeySuitability": {
-            "score": 50,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
-            "reasons": [
-              "Developing: Mumbai-Pune Expressway crash: Wakad businessman killed after Fortuner hits tempo may cause delays or safety concerns.",
-              "Low visibility may make driving unsafe."
-            ],
-            "penalties": [
-              {
-                "eventId": "accident-developing-mumbai-pune-expressway-crash-wakad-businessman-killed-after-fortuner-h",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Mumbai-Pune Expressway crash: Wakad businessman killed after Fortuner hits tempo"
-              }
-            ]
-          },
-          "estimatedTimeMin": 90,
-          "estimatedDelayMin": 25,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: Mumbai-Pune Expressway crash: Wakad businessman killed after Fortuner hits tempo may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         }
       ]
     },
@@ -157,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-08T15:11:50.677Z",
+      "generatedAt": "2026-08-08T15:47:41.448Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -187,12 +182,11 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 30,
-          "label": "Avoid if Possible",
-          "recommendation": "Avoid this route if possible unless travel is essential.",
+          "score": 50,
+          "label": "Consider Delaying",
+          "recommendation": "Consider delaying or checking alternate routes.",
           "reasons": [
             "Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune may cause delays or safety concerns.",
-            "Developing: Mumbai-Pune Expressway crash: Wakad businessman killed after Fortuner hits tempo may cause delays or safety concerns.",
             "Low visibility may make driving unsafe."
           ],
           "penalties": [
@@ -201,21 +195,15 @@
               "category": "accident",
               "penalty": 20,
               "title": "Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune"
-            },
-            {
-              "eventId": "accident-developing-mumbai-pune-expressway-crash-wakad-businessman-killed-after-fortuner-h",
-              "category": "accident",
-              "penalty": 20,
-              "title": "Developing: Mumbai-Pune Expressway crash: Wakad businessman killed after Fortuner hits tempo"
             }
           ]
         },
-        "estimatedTimeMin": 140,
-        "estimatedDelayMin": 45,
+        "estimatedTimeMin": 120,
+        "estimatedDelayMin": 25,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune may cause delays or safety concerns."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -247,12 +235,11 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 30,
-            "label": "Avoid if Possible",
-            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
               "Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune may cause delays or safety concerns.",
-              "Developing: Mumbai-Pune Expressway crash: Wakad businessman killed after Fortuner hits tempo may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
@@ -261,21 +248,15 @@
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune"
-              },
-              {
-                "eventId": "accident-developing-mumbai-pune-expressway-crash-wakad-businessman-killed-after-fortuner-h",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Mumbai-Pune Expressway crash: Wakad businessman killed after Fortuner hits tempo"
               }
             ]
           },
-          "estimatedTimeMin": 140,
-          "estimatedDelayMin": 45,
+          "estimatedTimeMin": 120,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune may cause delays or safety concerns."
         }
       ]
     },
@@ -284,7 +265,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-08T15:11:50.677Z",
+      "generatedAt": "2026-08-08T15:47:41.448Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
