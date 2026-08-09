@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-09T01:57:30.624Z",
+  "generatedAt": "2026-08-09T03:49:30.462Z",
   "status": "stale",
   "situation": {
-    "snapshot": "2 active transport-related event(s) may affect travel.",
+    "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-08-09T01:57:30.683Z",
+      "generatedAt": "2026-08-09T03:49:30.518Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,20 +13,20 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-09T01:57:15.940Z",
-          "observedAt": "2026-08-09T07:15:00+05:30",
-          "temp": 23.3,
+          "sourceCheckedAt": "2026-08-09T03:49:15.418Z",
+          "observedAt": "2026-08-09T09:15:00+05:30",
+          "temp": 25.2,
           "currentRain": 0,
-          "rain6h": 0.5,
+          "rain6h": 0.6,
           "rain24h": 1,
           "precipitationProbability": 96,
-          "wind": 33.8,
-          "gust": 33.8,
-          "humidity": 89,
-          "visibility": 8.8,
-          "weatherCode": 3,
+          "wind": 42.5,
+          "gust": 42.5,
+          "humidity": 80,
+          "visibility": 8.5,
+          "weatherCode": 1,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -40,21 +40,21 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-09T01:57:15.940Z",
-          "observedAt": "2026-08-09T07:15:00+05:30",
-          "temp": 23.3,
+          "sourceCheckedAt": "2026-08-09T03:49:15.418Z",
+          "observedAt": "2026-08-09T09:15:00+05:30",
+          "temp": 25.1,
           "currentRain": 0,
-          "rain6h": 0.8,
-          "rain24h": 2,
+          "rain6h": 1.4,
+          "rain24h": 1.9,
           "precipitationProbability": 92,
-          "wind": 29.9,
-          "gust": 29.9,
-          "humidity": 90,
-          "visibility": 5.8,
-          "weatherCode": 3,
+          "wind": 40.7,
+          "gust": 40.7,
+          "humidity": 81,
+          "visibility": 5,
+          "weatherCode": 2,
           "rainRisk": "Low",
-          "windRisk": "Low",
-          "visibilityRisk": "Minimal",
+          "windRisk": "Medium",
+          "visibilityRisk": "Low",
           "heatRisk": "Normal",
           "travelImpact": "Low",
           "advice": [
@@ -67,20 +67,20 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-09T01:57:15.940Z",
-          "observedAt": "2026-08-09T07:15:00+05:30",
-          "temp": 23.3,
+          "sourceCheckedAt": "2026-08-09T03:49:15.418Z",
+          "observedAt": "2026-08-09T09:15:00+05:30",
+          "temp": 25.2,
           "currentRain": 0,
-          "rain6h": 0.5,
+          "rain6h": 0.6,
           "rain24h": 1,
           "precipitationProbability": 96,
-          "wind": 33.8,
-          "gust": 33.8,
-          "humidity": 89,
-          "visibility": 8.8,
-          "weatherCode": 3,
+          "wind": 42.5,
+          "gust": 42.5,
+          "humidity": 80,
+          "visibility": 8.5,
+          "weatherCode": 1,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -94,25 +94,25 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-09T01:57:15.940Z",
-          "observedAt": "2026-08-09T07:15:00+05:30",
-          "temp": 22.1,
+          "sourceCheckedAt": "2026-08-09T03:49:15.418Z",
+          "observedAt": "2026-08-09T09:15:00+05:30",
+          "temp": 22.7,
           "currentRain": 0.1,
-          "rain6h": 3.8,
-          "rain24h": 11.7,
+          "rain6h": 4.7,
+          "rain24h": 11.8,
           "precipitationProbability": 100,
-          "wind": 31,
-          "gust": 31,
-          "humidity": 100,
-          "visibility": 1,
+          "wind": 33.1,
+          "gust": 33.1,
+          "humidity": 95,
+          "visibility": 2.7,
           "weatherCode": 51,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "High",
+          "visibilityRisk": "Low",
           "heatRisk": "Normal",
-          "travelImpact": "High",
+          "travelImpact": "Low",
           "advice": [
-            "Low visibility may make driving unsafe."
+            "No major weather-related disruption indicated."
           ]
         },
         "maval": {
@@ -121,17 +121,17 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-09T01:57:15.940Z",
-          "observedAt": "2026-08-09T07:15:00+05:30",
-          "temp": 21.3,
-          "currentRain": 0.2,
-          "rain6h": 5.4,
-          "rain24h": 17.4,
+          "sourceCheckedAt": "2026-08-09T03:49:15.418Z",
+          "observedAt": "2026-08-09T09:15:00+05:30",
+          "temp": 21.7,
+          "currentRain": 0.1,
+          "rain6h": 5.6,
+          "rain24h": 19.8,
           "precipitationProbability": 100,
-          "wind": 29.2,
-          "gust": 29.2,
-          "humidity": 100,
-          "visibility": 2.4,
+          "wind": 31,
+          "gust": 31,
+          "humidity": 95,
+          "visibility": 2.8,
           "weatherCode": 53,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -146,78 +146,50 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-09T01:57:30.699Z",
+      "generatedAt": "2026-08-09T03:49:30.563Z",
       "riskLevel": "Normal",
       "impacts": [
-        "2 active transport-related event(s) may affect travel."
+        "3 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "2 active transport-related event(s) may affect travel.",
+      "citizenSummary": "3 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
   "alerts": [],
   "incidents": [
     {
-      "id": "accident-developing-cong-leader-killed-after-speeding-suv-rams-truck-on-link-connecting-mu",
+      "id": "public-safety-developing-three-held-in-indore-within-24-hours-of-businessman-robbery-2026-",
       "eventKind": "incident",
       "sourceId": "hindustan_times_pune",
-      "title": "Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune",
-      "summary": "A 35-year-old local Congress leader was killed, and six others were injured after a speeding SUV rammed into a truck on the Mumbai-Pune Expressway.",
-      "category": "accident",
-      "severity": "watch",
+      "title": "Developing: Three held in Indore within 24 hours of businessman robbery",
+      "summary": "Pune Crime Branch arrested three alleged members of an interstate robbery gang in Indore within 24 hours of a businessman being shot at and robbed of gold ornaments in Haveli taluka",
+      "category": "public_safety",
+      "severity": "warning",
       "source": "Hindustan Times Pune",
       "sourceTrust": "B",
       "sources": [
         {
           "name": "Hindustan Times Pune",
           "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/mumbai-pune-congress-leader-killed-truck-overturned-devendra-fadnavis-pimpri-chinchwad-police-cctv-speeding-suv-101786158338274.html",
-          "origin": ""
-        },
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/congress-leader-killed-after-speeding-suv-rams-mini-truck-on-pune-mumbai-expressway-101786127835092.html",
-          "origin": ""
-        },
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQNmx1c3dvX0EyUlhUX2xKZUFObXlSeV9vY01QZkp1VzZxWkkxR0RHT0ExTjYxVlF6N2Z3d0U5ZFRwUk9odFNTT091cXpfLU01WkZObTRKZ1hrNzB3ajVCSnVHdVMyWGxZRjRST0ZkbVNnT2VDcVJEY1YtbzVYdFlSTWd6RzBldTdLX2xtejlqd2FCSGIxakFwbDFmWVVxcUt3YWVPVC1TOHA3TGdZNmowUTMwUWhQSkpDVlRMVzB3aFFndmhOYXlRaW1hQTFOM25JZGxmU1NyeUEwcGxiUUdrS1FVRlBlclB5dWRXRi1PbnN1SDJobDItMVdFWTdNVkRzSWc4U25WSm1JNWVW0gGSAkFVX3lxTE1aREJJVEtCd2NraGpOS0tSbGtral90NmlaZlVSNlZfTFF3TU5WMHByT2hzR1VoeS1kdFZISV92ZXo1aG1iMWVVN3JTbG55anp5RURlVHdJZDcxN0FlY1pGbnN3bzJvRVk5RzlUWC1Mc2lSdmRRTWs1UDJSdUlaTlFFei1wNHZIcU9BR3pPc244UE1RYWtBNG03ZTZQVkJuSXRjU29EOGdJZEhibnVOZEpaZHE5d0JNNDFJYlhRX2ZHWFhfQngzS0NNNlR5OGZfcnoxRExkSkhNMjBUelFWLU45WG5STktGWVJnVWdBM3ZTMFZYMWw2S1lrdmEzVjRIM013OTFxcWxIanJGR0h0M1lQVEE?oc=5",
-          "origin": ""
-        },
-        {
-          "name": "ThePrint",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNkJGYnMtZEtBREpiNUk0ckpMeFBZS2ktYmxQRkJwMjFXdnFiS3I5R2tZZmVwcG4ybG1FOFVlOXFsbkQ0TzJFOHBoYjFJbmFDWHo2empwSnh5TmJqZG5qUHNMSnVNOWJKUnJHblNlcDN4VFZFcW1GS1N0cEJrTWVXN1JxeWNsX244SGR5VUFrVGVXbHVNTU1XYjFWLWFhZ29rVnRyekM0TlVZQnIyc2pNY2FuRnZMUXZUU01wOEhza9IBvwFBVV95cUxQNkJGYnMtZEtBREpiNUk0ckpMeFBZS2ktYmxQRkJwMjFXdnFiS3I5R2tZZmVwcG4ybG1FOFVlOXFsbkQ0TzJFOHBoYjFJbmFDWHo2empwSnh5TmJqZG5qUHNMSnVNOWJKUnJHblNlcDN4VFZFcW1GS1N0cEJrTWVXN1JxeWNsX244SGR5VUFrVGVXbHVNTU1XYjFWLWFhZ29rVnRyekM0TlVZQnIyc2pNY2FuRnZMUXZUU01wOEhzaw?oc=5",
-          "origin": ""
-        },
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbU5HTjl1dll3d3VmTTlrQ3pLWUZaNnZnZVNheFhlREtjSVR2dThxRjVfQmNvQTZxRUU0SXdZbnFKS2c5eDdneGlzMmFIbURKVDRHazdhTmVjTDlDanVnc0VDY1dPbk1kMjllM3hJXzBadGNTbFFFcjNOWU1BVC1uT0o2ZHFFUTQtcnhOU2tpVk51WFlyb29sdHdOT09TUDllaTJMREx1VnR0UjE4Q0tCdWpqNldmRm9SdmRZQUNJYU9zNHhxV3dKOC1nTjBjLWptNmZKbFpKYmVUdXNFTHNRSnZDYzQ5NmPSAewBQVVfeXFMT21hWlR6dzhMRXNwbHpxeVV0YktVUVBfSlFNREdVb2hOeDdqM0tFblYyUHBaa1EwbEtmWURhV3Vpb21pZ0N1djNrU1JhLThFM3ctd0YyWWdDeDE2c3pjNXNicU5yd2lOOUxOYzAyd2NlS0Z4Rkx0UndyMzFjWFFhR3h3RkliRmt5LU5rNEFIS05TMFk3Ym90OFlzdGhmY0NMSmFhVUowSnV0U1R1RTl6YmNVNVRPRzlaM0ZDdjV3c1FXdWhhbW5FU0tWQ0hSa0NYcFQtT3N5dUdfV0xRYVZRMnRWaWhvamN3ZjlucGo?oc=5",
+          "link": "https://www.hindustantimes.com/cities/pune-news/three-held-in-indore-within-24-hours-of-businessman-robbery-101786211267713.html",
           "origin": ""
         }
       ],
-      "link": "https://www.hindustantimes.com/cities/pune-news/mumbai-pune-congress-leader-killed-truck-overturned-devendra-fadnavis-pimpri-chinchwad-police-cctv-speeding-suv-101786158338274.html",
+      "link": "https://www.hindustantimes.com/cities/pune-news/three-held-in-indore-within-24-hours-of-businessman-robbery-101786211267713.html",
       "talukas": [],
-      "localities": [
-        "Mumbai-Pune Expressway"
-      ],
-      "operationalZones": [
-        "Mumbai-Pune Expressway"
-      ],
-      "publishedAt": "2026-08-08T03:48:35.000Z",
-      "lastUpdated": "2026-08-08T03:48:35.000Z",
-      "sourceCheckedAt": "2026-08-09T01:57:16.501Z",
-      "lastVerifiedAt": "2026-08-09T01:57:16.501Z",
-      "intelligenceGeneratedAt": "2026-08-09T01:57:30.624Z",
-      "expiresAt": "2026-08-09T03:48:35.000Z",
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-09T02:32:00.000Z",
+      "lastUpdated": "2026-08-09T02:32:00.000Z",
+      "sourceCheckedAt": "2026-08-09T03:49:16.187Z",
+      "lastVerifiedAt": "2026-08-09T03:49:16.187Z",
+      "intelligenceGeneratedAt": "2026-08-09T03:49:30.462Z",
+      "expiresAt": "2026-08-09T14:32:00.000Z",
       "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 75,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "The incident may create an immediate safety risk in the affected area.",
+      "recommendedAction": "Avoid the area and follow police or emergency-service instructions.",
       "affectedArea": "",
       "upstreamId": "",
       "collectionProvider": "",
@@ -229,13 +201,10 @@
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [
-        "accident-developing-congress-leader-killed-after-speeding-suv-rams-mini-truck-on-pune-mumb",
-        "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway"
-      ],
-      "independentSourceCount": 2,
-      "corroboratedByIndependentSources": true
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
     },
     {
       "id": "accident-developing-pune-state-run-buses-run-over-2-women-in-separate-road-accidents-2026-",
@@ -261,9 +230,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-08T12:52:52.000Z",
       "lastUpdated": "2026-08-08T12:52:52.000Z",
-      "sourceCheckedAt": "2026-08-09T01:57:16.501Z",
-      "lastVerifiedAt": "2026-08-09T01:57:16.501Z",
-      "intelligenceGeneratedAt": "2026-08-09T01:57:30.624Z",
+      "sourceCheckedAt": "2026-08-09T03:49:16.187Z",
+      "lastVerifiedAt": "2026-08-09T03:49:16.187Z",
+      "intelligenceGeneratedAt": "2026-08-09T03:49:30.462Z",
       "expiresAt": "2026-08-10T12:52:52.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -276,7 +245,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-09T01:57:16.501Z",
+      "discoveredAt": "2026-08-09T03:49:16.187Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -285,12 +254,149 @@
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-cong-leader-killed-after-speeding-suv-rams-truck-on-link-connecting-mu",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune | Hindustan Times",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQNmx1c3dvX0EyUlhUX2xKZUFObXlSeV9vY01QZkp1VzZxWkkxR0RHT0ExTjYxVlF6N2Z3d0U5ZFRwUk9odFNTT091cXpfLU01WkZObTRKZ1hrNzB3ajVCSnVHdVMyWGxZRjRST0ZkbVNnT2VDcVJEY1YtbzVYdFlSTWd6RzBldTdLX2xtejlqd2FCSGIxakFwbDFmWVVxcUt3YWVPVC1TOHA3TGdZNmowUTMwUWhQSkpDVlRMVzB3aFFndmhOYXlRaW1hQTFOM25JZGxmU1NyeUEwcGxiUUdrS1FVRlBlclB5dWRXRi1PbnN1SDJobDItMVdFWTdNVkRzSWc4U25WSm1JNWVW0gGSAkFVX3lxTE1aREJJVEtCd2NraGpOS0tSbGtral90NmlaZlVSNlZfTFF3TU5WMHByT2hzR1VoeS1kdFZISV92ZXo1aG1iMWVVN3JTbG55anp5RURlVHdJZDcxN0FlY1pGbnN3bzJvRVk5RzlUWC1Mc2lSdmRRTWs1UDJSdUlaTlFFei1wNHZIcU9BR3pPc244UE1RYWtBNG03ZTZQVkJuSXRjU29EOGdJZEhibnVOZEpaZHE5d0JNNDFJYlhRX2ZHWFhfQngzS0NNNlR5OGZfcnoxRExkSkhNMjBUelFWLU45WG5STktGWVJnVWdBM3ZTMFZYMWw2S1lrdmEzVjRIM013OTFxcWxIanJGR0h0M1lQVEE?oc=5",
+          "origin": ""
+        },
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbU5HTjl1dll3d3VmTTlrQ3pLWUZaNnZnZVNheFhlREtjSVR2dThxRjVfQmNvQTZxRUU0SXdZbnFKS2c5eDdneGlzMmFIbURKVDRHazdhTmVjTDlDanVnc0VDY1dPbk1kMjllM3hJXzBadGNTbFFFcjNOWU1BVC1uT0o2ZHFFUTQtcnhOU2tpVk51WFlyb29sdHdOT09TUDllaTJMREx1VnR0UjE4Q0tCdWpqNldmRm9SdmRZQUNJYU9zNHhxV3dKOC1nTjBjLWptNmZKbFpKYmVUdXNFTHNRSnZDYzQ5NmPSAewBQVVfeXFMT21hWlR6dzhMRXNwbHpxeVV0YktVUVBfSlFNREdVb2hOeDdqM0tFblYyUHBaa1EwbEtmWURhV3Vpb21pZ0N1djNrU1JhLThFM3ctd0YyWWdDeDE2c3pjNXNicU5yd2lOOUxOYzAyd2NlS0Z4Rkx0UndyMzFjWFFhR3h3RkliRmt5LU5rNEFIS05TMFk3Ym90OFlzdGhmY0NMSmFhVUowSnV0U1R1RTl6YmNVNVRPRzlaM0ZDdjV3c1FXdWhhbW5FU0tWQ0hSa0NYcFQtT3N5dUdfV0xRYVZRMnRWaWhvamN3ZjlucGo?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQNmx1c3dvX0EyUlhUX2xKZUFObXlSeV9vY01QZkp1VzZxWkkxR0RHT0ExTjYxVlF6N2Z3d0U5ZFRwUk9odFNTT091cXpfLU01WkZObTRKZ1hrNzB3ajVCSnVHdVMyWGxZRjRST0ZkbVNnT2VDcVJEY1YtbzVYdFlSTWd6RzBldTdLX2xtejlqd2FCSGIxakFwbDFmWVVxcUt3YWVPVC1TOHA3TGdZNmowUTMwUWhQSkpDVlRMVzB3aFFndmhOYXlRaW1hQTFOM25JZGxmU1NyeUEwcGxiUUdrS1FVRlBlclB5dWRXRi1PbnN1SDJobDItMVdFWTdNVkRzSWc4U25WSm1JNWVW0gGSAkFVX3lxTE1aREJJVEtCd2NraGpOS0tSbGtral90NmlaZlVSNlZfTFF3TU5WMHByT2hzR1VoeS1kdFZISV92ZXo1aG1iMWVVN3JTbG55anp5RURlVHdJZDcxN0FlY1pGbnN3bzJvRVk5RzlUWC1Mc2lSdmRRTWs1UDJSdUlaTlFFei1wNHZIcU9BR3pPc244UE1RYWtBNG03ZTZQVkJuSXRjU29EOGdJZEhibnVOZEpaZHE5d0JNNDFJYlhRX2ZHWFhfQngzS0NNNlR5OGZfcnoxRExkSkhNMjBUelFWLU45WG5STktGWVJnVWdBM3ZTMFZYMWw2S1lrdmEzVjRIM013OTFxcWxIanJGR0h0M1lQVEE?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-08T03:48:35.000Z",
+      "lastUpdated": "2026-08-08T03:48:35.000Z",
+      "sourceCheckedAt": "2026-08-09T03:49:16.187Z",
+      "lastVerifiedAt": "2026-08-09T03:49:16.187Z",
+      "intelligenceGeneratedAt": "2026-08-09T03:49:30.462Z",
+      "expiresAt": "2026-08-10T03:48:35.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 35,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-b83c7e2",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-08-09T03:49:16.187Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [
+        "accident-developing-congress-leader-killed-after-speeding-suv-rams-mini-truck-on-pune-mumb"
+      ],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
+      "eventKind": "incident",
+      "sourceId": "the_print",
+      "title": "Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "ThePrint",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "ThePrint",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNkJGYnMtZEtBREpiNUk0ckpMeFBZS2ktYmxQRkJwMjFXdnFiS3I5R2tZZmVwcG4ybG1FOFVlOXFsbkQ0TzJFOHBoYjFJbmFDWHo2empwSnh5TmJqZG5qUHNMSnVNOWJKUnJHblNlcDN4VFZFcW1GS1N0cEJrTWVXN1JxeWNsX244SGR5VUFrVGVXbHVNTU1XYjFWLWFhZ29rVnRyekM0TlVZQnIyc2pNY2FuRnZMUXZUU01wOEhza9IBvwFBVV95cUxQNkJGYnMtZEtBREpiNUk0ckpMeFBZS2ktYmxQRkJwMjFXdnFiS3I5R2tZZmVwcG4ybG1FOFVlOXFsbkQ0TzJFOHBoYjFJbmFDWHo2empwSnh5TmJqZG5qUHNMSnVNOWJKUnJHblNlcDN4VFZFcW1GS1N0cEJrTWVXN1JxeWNsX244SGR5VUFrVGVXbHVNTU1XYjFWLWFhZ29rVnRyekM0TlVZQnIyc2pNY2FuRnZMUXZUU01wOEhzaw?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNkJGYnMtZEtBREpiNUk0ckpMeFBZS2ktYmxQRkJwMjFXdnFiS3I5R2tZZmVwcG4ybG1FOFVlOXFsbkQ0TzJFOHBoYjFJbmFDWHo2empwSnh5TmJqZG5qUHNMSnVNOWJKUnJHblNlcDN4VFZFcW1GS1N0cEJrTWVXN1JxeWNsX244SGR5VUFrVGVXbHVNTU1XYjFWLWFhZ29rVnRyekM0TlVZQnIyc2pNY2FuRnZMUXZUU01wOEhza9IBvwFBVV95cUxQNkJGYnMtZEtBREpiNUk0ckpMeFBZS2ktYmxQRkJwMjFXdnFiS3I5R2tZZmVwcG4ybG1FOFVlOXFsbkQ0TzJFOHBoYjFJbmFDWHo2empwSnh5TmJqZG5qUHNMSnVNOWJKUnJHblNlcDN4VFZFcW1GS1N0cEJrTWVXN1JxeWNsX244SGR5VUFrVGVXbHVNTU1XYjFWLWFhZ29rVnRyekM0TlVZQnIyc2pNY2FuRnZMUXZUU01wOEhzaw?oc=5",
+      "talukas": [],
+      "localities": [
+        "Mumbai-Pune Expressway"
+      ],
+      "operationalZones": [
+        "Mumbai-Pune Expressway"
+      ],
+      "publishedAt": "2026-08-07T13:48:43.000Z",
+      "lastUpdated": "2026-08-07T13:48:43.000Z",
+      "sourceCheckedAt": "2026-08-09T03:49:16.187Z",
+      "lastVerifiedAt": "2026-08-09T03:49:16.187Z",
+      "intelligenceGeneratedAt": "2026-08-09T03:49:30.462Z",
+      "expiresAt": "2026-08-09T13:48:43.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 47,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Mumbai-Pune Expressway",
+      "upstreamId": "google-news-29d9b0d6",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-08-09T03:49:16.187Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
     }
   ],
   "journeyContext": {
     "activeRiskEvents": [
       {
+        "id": "public-safety-developing-three-held-in-indore-within-24-hours-of-businessman-robbery-2026-",
+        "category": "public_safety",
+        "severity": "warning",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "The incident may create an immediate safety risk in the affected area."
+      },
+      {
+        "id": "accident-developing-pune-state-run-buses-run-over-2-women-in-separate-road-accidents-2026-",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
         "id": "accident-developing-cong-leader-killed-after-speeding-suv-rams-truck-on-link-connecting-mu",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
+        "id": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
         "category": "accident",
         "severity": "watch",
         "localities": [
@@ -300,15 +406,6 @@
         "operationalZones": [
           "Mumbai-Pune Expressway"
         ],
-        "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "accident-developing-pune-state-run-buses-run-over-2-women-in-separate-road-accidents-2026-",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
         "impact": "Traffic delays are likely near the incident location."
       }
     ]
@@ -354,9 +451,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-06T18:59:00.000Z",
       "lastUpdated": "2026-08-06T18:59:00.000Z",
-      "sourceCheckedAt": "2026-08-09T01:57:16.501Z",
-      "lastVerifiedAt": "2026-08-09T01:57:16.501Z",
-      "intelligenceGeneratedAt": "2026-08-09T01:57:30.624Z",
+      "sourceCheckedAt": "2026-08-09T03:49:16.187Z",
+      "lastVerifiedAt": "2026-08-09T03:49:16.187Z",
+      "intelligenceGeneratedAt": "2026-08-09T03:49:30.462Z",
       "expiresAt": "2026-08-08T18:59:00.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -369,7 +466,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-09T01:57:16.501Z",
+      "discoveredAt": "2026-08-09T03:49:16.187Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -388,15 +485,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-09T01:57:16.501Z",
-      "lastSuccessfulAt": "2026-08-09T01:57:16.501Z",
+      "sourceCheckedAt": "2026-08-09T03:49:16.187Z",
+      "lastSuccessfulAt": "2026-08-09T03:49:16.187Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-09T01:57:30.699Z",
+      "generatedAt": "2026-08-09T03:49:30.562Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -409,7 +506,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-09T01:57:30.699Z",
+      "generatedAt": "2026-08-09T03:49:30.562Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -490,7 +587,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-09T01:57:30.699Z",
+      "generatedAt": "2026-08-09T03:49:30.562Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -535,7 +632,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-09T01:57:30.755Z",
+        "generatedAt": "2026-08-09T03:49:30.620Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -567,20 +664,18 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 85,
-            "label": "Good to Go",
-            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-            "reasons": [
-              "Low visibility may make driving unsafe."
-            ],
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
             "penalties": []
           },
-          "estimatedTimeMin": 73,
-          "estimatedDelayMin": 8,
+          "estimatedTimeMin": 65,
+          "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Good to Go (85/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
         },
         "routes": [
           {
@@ -614,20 +709,18 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 85,
-              "label": "Good to Go",
-              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-              "reasons": [
-                "Low visibility may make driving unsafe."
-              ],
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
               "penalties": []
             },
-            "estimatedTimeMin": 73,
-            "estimatedDelayMin": 8,
+            "estimatedTimeMin": 65,
+            "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Good to Go (85/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
           },
           {
             "id": "kharadi-hinjawadi-pashan",
@@ -657,20 +750,18 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 85,
-              "label": "Good to Go",
-              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-              "reasons": [
-                "Low visibility may make driving unsafe."
-              ],
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
               "penalties": []
             },
-            "estimatedTimeMin": 80,
-            "estimatedDelayMin": 8,
+            "estimatedTimeMin": 72,
+            "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Good to Go (85/100). Estimated travel time is about 80 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
           }
         ]
       },
@@ -679,7 +770,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-09T01:57:30.756Z",
+        "generatedAt": "2026-08-09T03:49:30.620Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -709,28 +800,27 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 65,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune may cause delays or safety concerns.",
-              "Low visibility may make driving unsafe."
+              "Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns."
             ],
             "penalties": [
               {
-                "eventId": "accident-developing-cong-leader-killed-after-speeding-suv-rams-truck-on-link-connecting-mu",
+                "eventId": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
                 "category": "accident",
                 "penalty": 20,
-                "title": "Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune"
+                "title": "Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’"
               }
             ]
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 103,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -762,28 +852,27 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 65,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 80,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
-                "Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune may cause delays or safety concerns.",
-                "Low visibility may make driving unsafe."
+                "Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns."
               ],
               "penalties": [
                 {
-                  "eventId": "accident-developing-cong-leader-killed-after-speeding-suv-rams-truck-on-link-connecting-mu",
+                  "eventId": "accident-developing-one-dead-four-injured-as-suv-rams-into-tempo-on-mumbai-pune-expressway",
                   "category": "accident",
                   "penalty": 20,
-                  "title": "Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune"
+                  "title": "Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’"
                 }
               ]
             },
-            "estimatedTimeMin": 110,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 103,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune may cause delays or safety concerns."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: One dead, four injured as SUV rams into tempo on Mumbai-Pune Expressway ‘Missing Link’ may cause delays or safety concerns."
           }
         ]
       },
@@ -792,7 +881,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-09T01:57:30.756Z",
+        "generatedAt": "2026-08-09T03:49:30.620Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -821,20 +910,18 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 85,
-            "label": "Good to Go",
-            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-            "reasons": [
-              "Low visibility may make driving unsafe."
-            ],
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
             "penalties": []
           },
-          "estimatedTimeMin": 43,
-          "estimatedDelayMin": 8,
+          "estimatedTimeMin": 35,
+          "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
         },
         "routes": [
           {
@@ -865,20 +952,18 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 85,
-              "label": "Good to Go",
-              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-              "reasons": [
-                "Low visibility may make driving unsafe."
-              ],
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
               "penalties": []
             },
-            "estimatedTimeMin": 43,
-            "estimatedDelayMin": 8,
+            "estimatedTimeMin": 35,
+            "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
           }
         ]
       }
