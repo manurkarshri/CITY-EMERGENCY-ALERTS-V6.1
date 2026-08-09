@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-09T17:59:39.775Z",
+  "generatedAt": "2026-08-09T18:54:35.993Z",
   "status": "stale",
   "situation": {
-    "snapshot": "1 active transport-related event(s) may affect travel.",
+    "snapshot": "3 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-08-09T17:59:39.815Z",
+      "generatedAt": "2026-08-09T18:54:36.049Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,18 +13,18 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-09T17:59:23.944Z",
-          "observedAt": "2026-08-09T23:15:00+05:30",
-          "temp": 23.1,
+          "sourceCheckedAt": "2026-08-09T18:54:20.261Z",
+          "observedAt": "2026-08-10T00:15:00+05:30",
+          "temp": 23,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 4.3,
           "precipitationProbability": 100,
-          "wind": 27,
-          "gust": 27,
-          "humidity": 90,
+          "wind": 27.7,
+          "gust": 27.7,
+          "humidity": 91,
           "visibility": 11.5,
-          "weatherCode": 3,
+          "weatherCode": 2,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "Minimal",
@@ -40,16 +40,16 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-09T17:59:23.944Z",
-          "observedAt": "2026-08-09T23:15:00+05:30",
-          "temp": 23.1,
+          "sourceCheckedAt": "2026-08-09T18:54:20.261Z",
+          "observedAt": "2026-08-10T00:15:00+05:30",
+          "temp": 23,
           "currentRain": 0,
-          "rain6h": 0.1,
+          "rain6h": 0.2,
           "rain24h": 4.3,
           "precipitationProbability": 100,
-          "wind": 23.4,
-          "gust": 23.4,
-          "humidity": 91,
+          "wind": 22,
+          "gust": 22,
+          "humidity": 92,
           "visibility": 9.8,
           "weatherCode": 3,
           "rainRisk": "Low",
@@ -67,18 +67,18 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-09T17:59:23.944Z",
-          "observedAt": "2026-08-09T23:15:00+05:30",
-          "temp": 23.1,
+          "sourceCheckedAt": "2026-08-09T18:54:20.261Z",
+          "observedAt": "2026-08-10T00:15:00+05:30",
+          "temp": 23,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 4.3,
           "precipitationProbability": 100,
-          "wind": 27,
-          "gust": 27,
-          "humidity": 90,
+          "wind": 27.7,
+          "gust": 27.7,
+          "humidity": 91,
           "visibility": 11.5,
-          "weatherCode": 3,
+          "weatherCode": 2,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "Minimal",
@@ -94,18 +94,18 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-09T17:59:23.944Z",
-          "observedAt": "2026-08-09T23:15:00+05:30",
-          "temp": 22.1,
-          "currentRain": 0,
-          "rain6h": 2.2,
-          "rain24h": 15.9,
+          "sourceCheckedAt": "2026-08-09T18:54:20.261Z",
+          "observedAt": "2026-08-10T00:15:00+05:30",
+          "temp": 22.2,
+          "currentRain": 0.1,
+          "rain6h": 2.5,
+          "rain24h": 15.7,
           "precipitationProbability": 100,
-          "wind": 26.3,
-          "gust": 26.3,
+          "wind": 25.6,
+          "gust": 25.6,
           "humidity": 100,
-          "visibility": 0.2,
-          "weatherCode": 3,
+          "visibility": 0.3,
+          "weatherCode": 51,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -121,18 +121,18 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-09T17:59:23.944Z",
-          "observedAt": "2026-08-09T23:15:00+05:30",
-          "temp": 21.9,
-          "currentRain": 0,
-          "rain6h": 4.4,
-          "rain24h": 23.3,
+          "sourceCheckedAt": "2026-08-09T18:54:20.261Z",
+          "observedAt": "2026-08-10T00:15:00+05:30",
+          "temp": 21.8,
+          "currentRain": 0.1,
+          "rain6h": 4.7,
+          "rain24h": 23,
           "precipitationProbability": 100,
-          "wind": 25.2,
-          "gust": 25.2,
+          "wind": 25.6,
+          "gust": 25.6,
           "humidity": 100,
           "visibility": 0.1,
-          "weatherCode": 3,
+          "weatherCode": 51,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -146,22 +146,71 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-09T17:59:39.825Z",
+      "generatedAt": "2026-08-09T18:54:36.087Z",
       "riskLevel": "Normal",
       "impacts": [
-        "1 active transport-related event(s) may affect travel."
+        "3 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "1 active transport-related event(s) may affect travel.",
+      "citizenSummary": "3 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
   "alerts": [],
   "incidents": [
     {
-      "id": "accident-developing-congress-leader-killed-after-speeding-suv-rams-mini-truck-on-pune-mumb",
+      "id": "accident-developing-pune-state-run-buses-run-over-2-women-in-separate-road-accidents-2026-",
+      "eventKind": "incident",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Pune state-run buses run over 2 women in separate road accidents",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX0hLbUNlMmk3UWttR1pLX1RNRjhpckNZVlNSclFraUFQSFhQdl82eHFFaWpQM3p0NFpUaVptQjd2V3BpTlo3eVNaS0Z5TDVuNWVJSUtkWXFnQ1JqSXNPTVkzYUxwWGVmaU96SklxSVRfMTZITEFDU2NmVXlsbEJEVk9pVmZaV3phRHZqQkxPcE1xNllZTEhXZFlST3ExQdIBpAFBVV95cUxObUdEcmxzOWpBZU9tUzZlRnR2LUI3SWE4WjlDNlVLQV9VV1pPZjRKbkgzUUFJc2VmSmI4em0tMzJWb2l1UWhMLXhKS0xNbVlMNXpSVGFQTDZmdW82c284dU4ycWhmUWxGUXQteTE3Rkc2MHE4RUJPU3Y1TWVweS1rVV9jOENfaEQtN1BHeHJ5UWFES1RoTXlIT20zRWVWeDFuVGFBbg?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX0hLbUNlMmk3UWttR1pLX1RNRjhpckNZVlNSclFraUFQSFhQdl82eHFFaWpQM3p0NFpUaVptQjd2V3BpTlo3eVNaS0Z5TDVuNWVJSUtkWXFnQ1JqSXNPTVkzYUxwWGVmaU96SklxSVRfMTZITEFDU2NmVXlsbEJEVk9pVmZaV3phRHZqQkxPcE1xNllZTEhXZFlST3ExQdIBpAFBVV95cUxObUdEcmxzOWpBZU9tUzZlRnR2LUI3SWE4WjlDNlVLQV9VV1pPZjRKbkgzUUFJc2VmSmI4em0tMzJWb2l1UWhMLXhKS0xNbVlMNXpSVGFQTDZmdW82c284dU4ycWhmUWxGUXQteTE3Rkc2MHE4RUJPU3Y1TWVweS1rVV9jOENfaEQtN1BHeHJ5UWFES1RoTXlIT20zRWVWeDFuVGFBbg?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-08T12:52:52.000Z",
+      "lastUpdated": "2026-08-08T12:52:52.000Z",
+      "sourceCheckedAt": "2026-08-09T18:54:20.987Z",
+      "lastVerifiedAt": "2026-08-09T18:54:20.987Z",
+      "intelligenceGeneratedAt": "2026-08-09T18:54:35.993Z",
+      "expiresAt": "2026-08-10T12:52:52.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 35,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-da54d1c5",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-08-09T18:54:20.987Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-cong-leader-killed-after-speeding-suv-rams-truck-on-link-connecting-mu",
       "eventKind": "incident",
       "sourceId": "hindustan_times_pune",
-      "title": "Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway | Hindustan Times",
+      "title": "Developing: Cong leader killed after speeding SUV rams truck on link connecting Mumbai, Pune | Hindustan Times",
       "summary": "A current trusted-media report relevant to Pune District.",
       "category": "accident",
       "severity": "watch",
@@ -171,37 +220,98 @@
         {
           "name": "Hindustan Times Pune",
           "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQNmx1c3dvX0EyUlhUX2xKZUFObXlSeV9vY01QZkp1VzZxWkkxR0RHT0ExTjYxVlF6N2Z3d0U5ZFRwUk9odFNTT091cXpfLU01WkZObTRKZ1hrNzB3ajVCSnVHdVMyWGxZRjRST0ZkbVNnT2VDcVJEY1YtbzVYdFlSTWd6RzBldTdLX2xtejlqd2FCSGIxakFwbDFmWVVxcUt3YWVPVC1TOHA3TGdZNmowUTMwUWhQSkpDVlRMVzB3aFFndmhOYXlRaW1hQTFOM25JZGxmU1NyeUEwcGxiUUdrS1FVRlBlclB5dWRXRi1PbnN1SDJobDItMVdFWTdNVkRzSWc4U25WSm1JNWVW0gGSAkFVX3lxTE1aREJJVEtCd2NraGpOS0tSbGtral90NmlaZlVSNlZfTFF3TU5WMHByT2hzR1VoeS1kdFZISV92ZXo1aG1iMWVVN3JTbG55anp5RURlVHdJZDcxN0FlY1pGbnN3bzJvRVk5RzlUWC1Mc2lSdmRRTWs1UDJSdUlaTlFFei1wNHZIcU9BR3pPc244UE1RYWtBNG03ZTZQVkJuSXRjU29EOGdJZEhibnVOZEpaZHE5d0JNNDFJYlhRX2ZHWFhfQngzS0NNNlR5OGZfcnoxRExkSkhNMjBUelFWLU45WG5STktGWVJnVWdBM3ZTMFZYMWw2S1lrdmEzVjRIM013OTFxcWxIanJGR0h0M1lQVEE?oc=5",
+          "origin": ""
+        },
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
           "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbU5HTjl1dll3d3VmTTlrQ3pLWUZaNnZnZVNheFhlREtjSVR2dThxRjVfQmNvQTZxRUU0SXdZbnFKS2c5eDdneGlzMmFIbURKVDRHazdhTmVjTDlDanVnc0VDY1dPbk1kMjllM3hJXzBadGNTbFFFcjNOWU1BVC1uT0o2ZHFFUTQtcnhOU2tpVk51WFlyb29sdHdOT09TUDllaTJMREx1VnR0UjE4Q0tCdWpqNldmRm9SdmRZQUNJYU9zNHhxV3dKOC1nTjBjLWptNmZKbFpKYmVUdXNFTHNRSnZDYzQ5NmPSAewBQVVfeXFMT21hWlR6dzhMRXNwbHpxeVV0YktVUVBfSlFNREdVb2hOeDdqM0tFblYyUHBaa1EwbEtmWURhV3Vpb21pZ0N1djNrU1JhLThFM3ctd0YyWWdDeDE2c3pjNXNicU5yd2lOOUxOYzAyd2NlS0Z4Rkx0UndyMzFjWFFhR3h3RkliRmt5LU5rNEFIS05TMFk3Ym90OFlzdGhmY0NMSmFhVUowSnV0U1R1RTl6YmNVNVRPRzlaM0ZDdjV3c1FXdWhhbW5FU0tWQ0hSa0NYcFQtT3N5dUdfV0xRYVZRMnRWaWhvamN3ZjlucGo?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbU5HTjl1dll3d3VmTTlrQ3pLWUZaNnZnZVNheFhlREtjSVR2dThxRjVfQmNvQTZxRUU0SXdZbnFKS2c5eDdneGlzMmFIbURKVDRHazdhTmVjTDlDanVnc0VDY1dPbk1kMjllM3hJXzBadGNTbFFFcjNOWU1BVC1uT0o2ZHFFUTQtcnhOU2tpVk51WFlyb29sdHdOT09TUDllaTJMREx1VnR0UjE4Q0tCdWpqNldmRm9SdmRZQUNJYU9zNHhxV3dKOC1nTjBjLWptNmZKbFpKYmVUdXNFTHNRSnZDYzQ5NmPSAewBQVVfeXFMT21hWlR6dzhMRXNwbHpxeVV0YktVUVBfSlFNREdVb2hOeDdqM0tFblYyUHBaa1EwbEtmWURhV3Vpb21pZ0N1djNrU1JhLThFM3ctd0YyWWdDeDE2c3pjNXNicU5yd2lOOUxOYzAyd2NlS0Z4Rkx0UndyMzFjWFFhR3h3RkliRmt5LU5rNEFIS05TMFk3Ym90OFlzdGhmY0NMSmFhVUowSnV0U1R1RTl6YmNVNVRPRzlaM0ZDdjV3c1FXdWhhbW5FU0tWQ0hSa0NYcFQtT3N5dUdfV0xRYVZRMnRWaWhvamN3ZjlucGo?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQNmx1c3dvX0EyUlhUX2xKZUFObXlSeV9vY01QZkp1VzZxWkkxR0RHT0ExTjYxVlF6N2Z3d0U5ZFRwUk9odFNTT091cXpfLU01WkZObTRKZ1hrNzB3ajVCSnVHdVMyWGxZRjRST0ZkbVNnT2VDcVJEY1YtbzVYdFlSTWd6RzBldTdLX2xtejlqd2FCSGIxakFwbDFmWVVxcUt3YWVPVC1TOHA3TGdZNmowUTMwUWhQSkpDVlRMVzB3aFFndmhOYXlRaW1hQTFOM25JZGxmU1NyeUEwcGxiUUdrS1FVRlBlclB5dWRXRi1PbnN1SDJobDItMVdFWTdNVkRzSWc4U25WSm1JNWVW0gGSAkFVX3lxTE1aREJJVEtCd2NraGpOS0tSbGtral90NmlaZlVSNlZfTFF3TU5WMHByT2hzR1VoeS1kdFZISV92ZXo1aG1iMWVVN3JTbG55anp5RURlVHdJZDcxN0FlY1pGbnN3bzJvRVk5RzlUWC1Mc2lSdmRRTWs1UDJSdUlaTlFFei1wNHZIcU9BR3pPc244UE1RYWtBNG03ZTZQVkJuSXRjU29EOGdJZEhibnVOZEpaZHE5d0JNNDFJYlhRX2ZHWFhfQngzS0NNNlR5OGZfcnoxRExkSkhNMjBUelFWLU45WG5STktGWVJnVWdBM3ZTMFZYMWw2S1lrdmEzVjRIM013OTFxcWxIanJGR0h0M1lQVEE?oc=5",
       "talukas": [],
       "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-08-08T02:53:32.000Z",
-      "lastUpdated": "2026-08-08T02:53:32.000Z",
-      "sourceCheckedAt": "2026-08-09T17:59:24.667Z",
-      "lastVerifiedAt": "2026-08-09T17:59:24.667Z",
-      "intelligenceGeneratedAt": "2026-08-09T17:59:39.775Z",
-      "expiresAt": "2026-08-10T02:53:32.000Z",
+      "publishedAt": "2026-08-08T03:48:35.000Z",
+      "lastUpdated": "2026-08-08T03:48:35.000Z",
+      "sourceCheckedAt": "2026-08-09T18:54:20.987Z",
+      "lastVerifiedAt": "2026-08-09T18:54:20.987Z",
+      "intelligenceGeneratedAt": "2026-08-09T18:54:35.993Z",
+      "expiresAt": "2026-08-10T03:48:35.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
       "confidenceScore": 35,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
-      "upstreamId": "google-news-6a211ec",
+      "upstreamId": "google-news-b83c7e2",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-09T17:59:24.667Z",
+      "discoveredAt": "2026-08-09T18:54:20.987Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
+      "relatedEventIds": [
+        "accident-developing-congress-leader-killed-after-speeding-suv-rams-mini-truck-on-pune-mumb"
+      ],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-second-aircraft-mishap-at-baramati-airfield-since-ajit-pawar-s-fatal-c",
+      "eventKind": "incident",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Second aircraft mishap at Baramati airfield since Ajit Pawar’s fatal crash",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdGJjQlI3Nnd5S1VKVlNHb3RDM3lFN0VNeXBjczJBTHI0dU5KX0FwbVo0b2ktNzZsOTVWU0dOWmd5ZzVobXBpSEw3Um1UMy1NQ3k0Y2I3SHBvVEV3UEIzaVotZkNjaXBPWFdxd0x3aFllbEhzZk8wUy1vSDZaLWM1Zl9ZZFRPb3RVRlhSNWIyNkVDRGlyMUwzTHkxYktvMzBEN0UzUklLVDNmOGtIMFFRNU41NHhvZkx5TzlsNEEzeFBZTUpOTS1nWVlZd3rSAdMBQVVfeXFMT1RRV19BU284dlRBSUREbEpjcG5QR1oyUEVJVWlTN1hCeWZTVXNlcU05TTN4RW9tVEI4MFpjQnpiTkFCdWNEdXQ3UF9TN0M5SW5QZnEwMk5OWmZzLTN6QUNjSjMxMmtCNWprd2RLb2JDYjB2ZVZUZmRoaW1LU0d1U1NLcmE5QVpwZjVseUlJQVR5VnM0YVViT1Q0UFhMZ0dOeHV1a0x4RElQRkZUOWtSaFB4TFNjOEhVYllqSnhHQ29MZjZkRDFwNDY4ekk2Und1d2FGNA?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdGJjQlI3Nnd5S1VKVlNHb3RDM3lFN0VNeXBjczJBTHI0dU5KX0FwbVo0b2ktNzZsOTVWU0dOWmd5ZzVobXBpSEw3Um1UMy1NQ3k0Y2I3SHBvVEV3UEIzaVotZkNjaXBPWFdxd0x3aFllbEhzZk8wUy1vSDZaLWM1Zl9ZZFRPb3RVRlhSNWIyNkVDRGlyMUwzTHkxYktvMzBEN0UzUklLVDNmOGtIMFFRNU41NHhvZkx5TzlsNEEzeFBZTUpOTS1nWVlZd3rSAdMBQVVfeXFMT1RRV19BU284dlRBSUREbEpjcG5QR1oyUEVJVWlTN1hCeWZTVXNlcU05TTN4RW9tVEI4MFpjQnpiTkFCdWNEdXQ3UF9TN0M5SW5QZnEwMk5OWmZzLTN6QUNjSjMxMmtCNWprd2RLb2JDYjB2ZVZUZmRoaW1LU0d1U1NLcmE5QVpwZjVseUlJQVR5VnM0YVViT1Q0UFhMZ0dOeHV1a0x4RElQRkZUOWtSaFB4TFNjOEhVYllqSnhHQ29MZjZkRDFwNDY4ekk2Und1d2FGNA?oc=5",
+      "talukas": [
+        "baramati"
+      ],
+      "localities": [
+        "Baramati"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-08-09T10:05:26.000Z",
+      "lastUpdated": "2026-08-09T10:05:26.000Z",
+      "sourceCheckedAt": "2026-08-09T18:54:20.987Z",
+      "lastVerifiedAt": "2026-08-09T18:54:20.987Z",
+      "intelligenceGeneratedAt": "2026-08-09T18:54:35.993Z",
+      "expiresAt": "2026-08-11T10:05:26.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Baramati",
+      "upstreamId": "google-news-cb662935",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-08-09T18:54:20.987Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
@@ -210,11 +320,33 @@
   "journeyContext": {
     "activeRiskEvents": [
       {
-        "id": "accident-developing-congress-leader-killed-after-speeding-suv-rams-mini-truck-on-pune-mumb",
+        "id": "accident-developing-pune-state-run-buses-run-over-2-women-in-separate-road-accidents-2026-",
         "category": "accident",
         "severity": "watch",
         "localities": [],
         "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
+        "id": "accident-developing-cong-leader-killed-after-speeding-suv-rams-truck-on-link-connecting-mu",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
+        "id": "accident-developing-second-aircraft-mishap-at-baramati-airfield-since-ajit-pawar-s-fatal-c",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [
+          "Baramati"
+        ],
+        "talukas": [
+          "baramati"
+        ],
         "operationalZones": [],
         "impact": "Traffic delays are likely near the incident location."
       }
@@ -245,9 +377,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-09T02:32:00.000Z",
       "lastUpdated": "2026-08-09T02:32:00.000Z",
-      "sourceCheckedAt": "2026-08-09T17:59:24.667Z",
-      "lastVerifiedAt": "2026-08-09T17:59:24.667Z",
-      "intelligenceGeneratedAt": "2026-08-09T17:59:39.775Z",
+      "sourceCheckedAt": "2026-08-09T18:54:20.987Z",
+      "lastVerifiedAt": "2026-08-09T18:54:20.987Z",
+      "intelligenceGeneratedAt": "2026-08-09T18:54:35.993Z",
       "expiresAt": "2026-08-09T14:32:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -298,9 +430,9 @@
       ],
       "publishedAt": "2026-08-07T13:48:43.000Z",
       "lastUpdated": "2026-08-07T13:48:43.000Z",
-      "sourceCheckedAt": "2026-08-09T17:59:24.667Z",
-      "lastVerifiedAt": "2026-08-09T17:59:24.667Z",
-      "intelligenceGeneratedAt": "2026-08-09T17:59:39.775Z",
+      "sourceCheckedAt": "2026-08-09T18:54:20.987Z",
+      "lastVerifiedAt": "2026-08-09T18:54:20.987Z",
+      "intelligenceGeneratedAt": "2026-08-09T18:54:35.993Z",
       "expiresAt": "2026-08-09T13:48:43.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -313,7 +445,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-09T17:59:24.667Z",
+      "discoveredAt": "2026-08-09T18:54:20.987Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -357,9 +489,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-06T18:59:00.000Z",
       "lastUpdated": "2026-08-06T18:59:00.000Z",
-      "sourceCheckedAt": "2026-08-09T17:59:24.667Z",
-      "lastVerifiedAt": "2026-08-09T17:59:24.667Z",
-      "intelligenceGeneratedAt": "2026-08-09T17:59:39.775Z",
+      "sourceCheckedAt": "2026-08-09T18:54:20.987Z",
+      "lastVerifiedAt": "2026-08-09T18:54:20.987Z",
+      "intelligenceGeneratedAt": "2026-08-09T18:54:35.993Z",
       "expiresAt": "2026-08-08T18:59:00.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -372,7 +504,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-09T17:59:24.667Z",
+      "discoveredAt": "2026-08-09T18:54:20.987Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -391,15 +523,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-09T17:59:24.667Z",
-      "lastSuccessfulAt": "2026-08-09T17:59:24.667Z",
+      "sourceCheckedAt": "2026-08-09T18:54:20.987Z",
+      "lastSuccessfulAt": "2026-08-09T18:54:20.987Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-09T17:59:39.825Z",
+      "generatedAt": "2026-08-09T18:54:36.087Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -412,7 +544,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-09T17:59:39.825Z",
+      "generatedAt": "2026-08-09T18:54:36.087Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -493,7 +625,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-09T17:59:39.825Z",
+      "generatedAt": "2026-08-09T18:54:36.087Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -538,7 +670,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-09T17:59:39.863Z",
+        "generatedAt": "2026-08-09T18:54:36.140Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -682,7 +814,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-09T17:59:39.863Z",
+        "generatedAt": "2026-08-09T18:54:36.140Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -712,28 +844,20 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 50,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 70,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway | Hindustan Times may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": [
-              {
-                "eventId": "accident-developing-congress-leader-killed-after-speeding-suv-rams-mini-truck-on-pune-mumb",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway | Hindustan Times"
-              }
-            ]
+            "penalties": []
           },
-          "estimatedTimeMin": 120,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway | Hindustan Times may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -765,28 +889,20 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 50,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 70,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway | Hindustan Times may cause delays or safety concerns.",
                 "Low visibility may make driving unsafe."
               ],
-              "penalties": [
-                {
-                  "eventId": "accident-developing-congress-leader-killed-after-speeding-suv-rams-mini-truck-on-pune-mumb",
-                  "category": "accident",
-                  "penalty": 20,
-                  "title": "Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway | Hindustan Times"
-                }
-              ]
+              "penalties": []
             },
-            "estimatedTimeMin": 120,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 110,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Congress leader killed after speeding SUV rams mini truck on Pune-Mumbai Expressway | Hindustan Times may cause delays or safety concerns."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -795,7 +911,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-09T17:59:39.863Z",
+        "generatedAt": "2026-08-09T18:54:36.140Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
