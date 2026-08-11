@@ -1,8 +1,58 @@
 {
   "schemaVersion": "6.1.0",
   "provider": "Google News RSS",
-  "sourceCheckedAt": "2026-08-11T11:06:47.718Z",
-  "status": "unavailable",
-  "error": "Google News RSS request failed with HTTP 503",
-  "items": []
+  "sourceCheckedAt": "2026-08-11T11:57:59.223Z",
+  "status": "healthy",
+  "error": null,
+  "items": [
+    {
+      "id": "google-news-4a4a0eab",
+      "publisherId": "hindustan_times_pune",
+      "publisher": "Hindustan Times Pune",
+      "title": "Four people killed after car rams into road divider on Pune-Satara highway: Police | Hindustan Times",
+      "category": "accident",
+      "severity": "watch",
+      "publishedAt": "2026-08-11T06:28:38.000Z",
+      "discoveredAt": "2026-08-11T11:57:59.223Z",
+      "reportedAuthority": "",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPV3RJdU9FYVNCc3hIUmlzXy1NdXhqYkJEM010M3MtZHhjcmFYQjA1UHVyXzZQSjVndUhvYjdDMnRqS2VPeGk0RWctb0UxSHBYbkhscUVHVkhaOXR6TmlCRVdWZllROWxSQ0FmUm55c1ZPZlRVelMyTlJuNFY2SXk3OTJtZGs1RnotWEJoUWVTM2pKS0dxMTJoc21QZzdKRVpsZloteWdydEJlZUVUSVRsU0xXQjRsN2RmclJaTTVmVjlXdDd4M01oRUtCaHY4TGdrWHRWUjJwNWtWLTB6VUVvcGhrSGrSAeoBQVVfeXFMTjd3bjBTTU5rTHA3VFVXeUZCWlNubzllMFNOTGs4cTU4REloLTltTTNvRGpaMl9fWXI1NmIyaXFwUWhJTWJBbHViOW5BYU9BbTlSVTAyUW96QkJuSDhCMTZJcmxUdDctN0JRWGhxbTJLQUhNa2JxWDdRMGdYQkxFZmY0NnhiWko2c0lmdWpXdXpuUUhXOXFTMnh2QWl3VUlTTi1PU3ROVUxyR0h4X016NW5SekU5bjVDcWNGYVJmRUt6M1ppYlYyVGt1bTNWdHBTdzF6NnhXemhQOWM0SUZsTGwxbXJQZXNNa1ZR?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "verified_direct_article",
+      "verifiedEventIds": [
+        "hindustan_times_pune:2026-08-11T06:28:38.000Z"
+      ]
+    },
+    {
+      "id": "google-news-da54d1c5",
+      "publisherId": "indian_express_pune",
+      "publisher": "Indian Express Pune",
+      "title": "Pune state-run buses run over 2 women in separate road accidents",
+      "category": "accident",
+      "severity": "watch",
+      "publishedAt": "2026-08-08T12:52:52.000Z",
+      "discoveredAt": "2026-08-11T11:57:59.223Z",
+      "reportedAuthority": "",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX0hLbUNlMmk3UWttR1pLX1RNRjhpckNZVlNSclFraUFQSFhQdl82eHFFaWpQM3p0NFpUaVptQjd2V3BpTlo3eVNaS0Z5TDVuNWVJSUtkWXFnQ1JqSXNPTVkzYUxwWGVmaU96SklxSVRfMTZITEFDU2NmVXlsbEJEVk9pVmZaV3phRHZqQkxPcE1xNllZTEhXZFlST3ExQdIBpAFBVV95cUxObUdEcmxzOWpBZU9tUzZlRnR2LUI3SWE4WjlDNlVLQV9VV1pPZjRKbkgzUUFJc2VmSmI4em0tMzJWb2l1UWhMLXhKS0xNbVlMNXpSVGFQTDZmdW82c284dU4ycWhmUWxGUXQteTE3Rkc2MHE4RUJPU3Y1TWVweS1rVV9jOENfaEQtN1BHeHJ5UWFES1RoTXlIT20zRWVWeDFuVGFBbg?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "awaiting_direct_article",
+      "verifiedEventIds": []
+    },
+    {
+      "id": "google-news-2f5741b6",
+      "publisherId": "indian_express_pune",
+      "publisher": "Indian Express Pune",
+      "title": "Second aircraft mishap at Baramati airfield since Ajit Pawar’s fatal crash",
+      "category": "accident",
+      "severity": "watch",
+      "publishedAt": "2026-08-09T10:03:45.000Z",
+      "discoveredAt": "2026-08-11T11:57:59.223Z",
+      "reportedAuthority": "",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdGJjQlI3Nnd5S1VKVlNHb3RDM3lFN0VNeXBjczJBTHI0dU5KX0FwbVo0b2ktNzZsOTVWU0dOWmd5ZzVobXBpSEw3Um1UMy1NQ3k0Y2I3SHBvVEV3UEIzaVotZkNjaXBPWFdxd0x3aFllbEhzZk8wUy1vSDZaLWM1Zl9ZZFRPb3RVRlhSNWIyNkVDRGlyMUwzTHkxYktvMzBEN0UzUklLVDNmOGtIMFFRNU41NHhvZkx5TzlsNEEzeFBZTUpOTS1nWVlZd3rSAdMBQVVfeXFMT1RRV19BU284dlRBSUREbEpjcG5QR1oyUEVJVWlTN1hCeWZTVXNlcU05TTN4RW9tVEI4MFpjQnpiTkFCdWNEdXQ3UF9TN0M5SW5QZnEwMk5OWmZzLTN6QUNjSjMxMmtCNWprd2RLb2JDYjB2ZVZUZmRoaW1LU0d1U1NLcmE5QVpwZjVseUlJQVR5VnM0YVViT1Q0UFhMZ0dOeHV1a0x4RElQRkZUOWtSaFB4TFNjOEhVYllqSnhHQ29MZjZkRDFwNDY4ekk2Und1d2FGNA?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "awaiting_direct_article",
+      "verifiedEventIds": []
+    }
+  ],
+  "collectedItems": 3,
+  "qualifiedItems": 3
 }

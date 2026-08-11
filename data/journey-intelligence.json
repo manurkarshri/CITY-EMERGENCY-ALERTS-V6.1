@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-11T11:07:15.209Z",
+  "generatedAt": "2026-08-11T11:58:16.161Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-11T11:07:15.209Z",
+      "generatedAt": "2026-08-11T11:58:16.160Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -127,12 +127,11 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 30,
-            "label": "Avoid if Possible",
-            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
               "Developing: Four people killed after car rams into road divider on Pune-Satara highway: Police may cause delays or safety concerns.",
-              "Developing: 4 college friends killed, 2 injured after SUV rams divider, crashes into truck on Pune-Bengaluru highway may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
@@ -141,21 +140,15 @@
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: Four people killed after car rams into road divider on Pune-Satara highway: Police"
-              },
-              {
-                "eventId": "accident-developing-4-college-friends-killed-2-injured-after-suv-rams-divider-crashes-into",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: 4 college friends killed, 2 injured after SUV rams divider, crashes into truck on Pune-Bengaluru highway"
               }
             ]
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 45,
+          "estimatedTimeMin": 90,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Four people killed after car rams into road divider on Pune-Satara highway: Police may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: Four people killed after car rams into road divider on Pune-Satara highway: Police may cause delays or safety concerns."
         }
       ]
     },
@@ -164,7 +157,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-11T11:07:15.209Z",
+      "generatedAt": "2026-08-11T11:58:16.160Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -261,7 +254,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-11T11:07:15.209Z",
+      "generatedAt": "2026-08-11T11:58:16.161Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
