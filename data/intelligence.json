@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-11T15:40:22.313Z",
+  "generatedAt": "2026-08-11T16:37:50.660Z",
   "status": "stale",
   "situation": {
     "snapshot": "2 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-08-11T15:40:22.374Z",
+      "generatedAt": "2026-08-11T16:37:50.704Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,16 +13,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-11T15:40:06.868Z",
-          "observedAt": "2026-08-11T21:00:00+05:30",
+          "sourceCheckedAt": "2026-08-11T16:37:34.596Z",
+          "observedAt": "2026-08-11T22:00:00+05:30",
           "temp": 22.6,
           "currentRain": 0,
-          "rain6h": 0.7,
-          "rain24h": 2.6,
+          "rain6h": 0.6,
+          "rain24h": 2.5,
           "precipitationProbability": 100,
-          "wind": 29.9,
-          "gust": 29.9,
-          "humidity": 95,
+          "wind": 26.6,
+          "gust": 26.6,
+          "humidity": 94,
           "visibility": 6,
           "weatherCode": 3,
           "rainRisk": "Low",
@@ -40,16 +40,16 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-11T15:40:06.868Z",
-          "observedAt": "2026-08-11T21:00:00+05:30",
-          "temp": 22.6,
+          "sourceCheckedAt": "2026-08-11T16:37:34.596Z",
+          "observedAt": "2026-08-11T22:00:00+05:30",
+          "temp": 22.5,
           "currentRain": 0.1,
-          "rain6h": 1.7,
-          "rain24h": 4.8,
+          "rain6h": 1.4,
+          "rain24h": 4.5,
           "precipitationProbability": 100,
-          "wind": 25.9,
-          "gust": 25.9,
-          "humidity": 95,
+          "wind": 23,
+          "gust": 23,
+          "humidity": 96,
           "visibility": 4.4,
           "weatherCode": 51,
           "rainRisk": "Low",
@@ -67,16 +67,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-11T15:40:06.868Z",
-          "observedAt": "2026-08-11T21:00:00+05:30",
+          "sourceCheckedAt": "2026-08-11T16:37:34.596Z",
+          "observedAt": "2026-08-11T22:00:00+05:30",
           "temp": 22.6,
           "currentRain": 0,
-          "rain6h": 0.7,
-          "rain24h": 2.6,
+          "rain6h": 0.6,
+          "rain24h": 2.5,
           "precipitationProbability": 100,
-          "wind": 29.9,
-          "gust": 29.9,
-          "humidity": 95,
+          "wind": 26.6,
+          "gust": 26.6,
+          "humidity": 94,
           "visibility": 6,
           "weatherCode": 3,
           "rainRisk": "Low",
@@ -94,15 +94,15 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-11T15:40:06.868Z",
-          "observedAt": "2026-08-11T21:00:00+05:30",
-          "temp": 22,
+          "sourceCheckedAt": "2026-08-11T16:37:34.596Z",
+          "observedAt": "2026-08-11T22:00:00+05:30",
+          "temp": 22.1,
           "currentRain": 0.1,
-          "rain6h": 1.7,
+          "rain6h": 1.5,
           "rain24h": 11.7,
           "precipitationProbability": 100,
-          "wind": 32.8,
-          "gust": 32.8,
+          "wind": 28.4,
+          "gust": 28.4,
           "humidity": 100,
           "visibility": 0.2,
           "weatherCode": 51,
@@ -121,18 +121,18 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-11T15:40:06.868Z",
-          "observedAt": "2026-08-11T21:00:00+05:30",
+          "sourceCheckedAt": "2026-08-11T16:37:34.596Z",
+          "observedAt": "2026-08-11T22:00:00+05:30",
           "temp": 21.6,
-          "currentRain": 0,
-          "rain6h": 4.4,
-          "rain24h": 21.6,
+          "currentRain": 0.1,
+          "rain6h": 3.6,
+          "rain24h": 20.5,
           "precipitationProbability": 100,
-          "wind": 27.7,
-          "gust": 27.7,
-          "humidity": 100,
+          "wind": 28.8,
+          "gust": 28.8,
+          "humidity": 99,
           "visibility": 0.2,
-          "weatherCode": 80,
+          "weatherCode": 51,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-11T15:40:22.409Z",
+      "generatedAt": "2026-08-11T16:37:50.719Z",
       "riskLevel": "Normal",
       "impacts": [
         "2 active transport-related event(s) may affect travel."
@@ -155,7 +155,57 @@
       "seasonalContext": "monsoon"
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Light to Moderate spells of rain very likely to occur at isolated places over Chhatrapati Sambhajinagar, Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Solapur, Thane in next 3 hours.",
+      "summary": "Light to Moderate spells of rain very likely to occur at isolated places over Chhatrapati Sambhajinagar, Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Solapur, Thane in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "source": "NDMA SACHET (IMD-Mumbai)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (IMD-Mumbai)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786465971911029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786465971911029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-11T16:31:51.000Z",
+      "lastUpdated": "2026-08-11T16:31:51.000Z",
+      "sourceCheckedAt": "2026-08-11T16:37:35.370Z",
+      "lastVerifiedAt": "2026-08-11T16:37:35.370Z",
+      "intelligenceGeneratedAt": "2026-08-11T16:37:50.660Z",
+      "expiresAt": "2026-08-11T19:30:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Chhatrapati Sambhajinagar, Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Solapur, Thane districts of Maharashtra",
+      "upstreamId": "IN-1786465971911029_46",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Alert",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "incidents": [
     {
       "id": "accident-developing-four-people-killed-after-car-rams-into-road-divider-on-pune-satara-hig",
@@ -189,9 +239,9 @@
       ],
       "publishedAt": "2026-08-11T06:28:38.000Z",
       "lastUpdated": "2026-08-11T06:28:38.000Z",
-      "sourceCheckedAt": "2026-08-11T15:40:07.669Z",
-      "lastVerifiedAt": "2026-08-11T15:40:07.669Z",
-      "intelligenceGeneratedAt": "2026-08-11T15:40:22.313Z",
+      "sourceCheckedAt": "2026-08-11T16:37:35.370Z",
+      "lastVerifiedAt": "2026-08-11T16:37:35.370Z",
+      "intelligenceGeneratedAt": "2026-08-11T16:37:50.660Z",
       "expiresAt": "2026-08-12T06:28:38.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -238,9 +288,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-11T03:45:00.000Z",
       "lastUpdated": "2026-08-11T03:45:00.000Z",
-      "sourceCheckedAt": "2026-08-11T15:40:07.669Z",
-      "lastVerifiedAt": "2026-08-11T15:40:07.669Z",
-      "intelligenceGeneratedAt": "2026-08-11T15:40:22.313Z",
+      "sourceCheckedAt": "2026-08-11T16:37:35.370Z",
+      "lastVerifiedAt": "2026-08-11T16:37:35.370Z",
+      "intelligenceGeneratedAt": "2026-08-11T16:37:50.660Z",
       "expiresAt": "2026-08-13T03:45:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -253,7 +303,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-11T15:40:07.669Z",
+      "discoveredAt": "2026-08-11T16:37:35.370Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -266,6 +316,15 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
+      {
+        "id": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
+        "category": "heavy_rain",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "This event may affect local awareness or movement."
+      },
       {
         "id": "accident-developing-four-people-killed-after-car-rams-into-road-divider-on-pune-satara-hig",
         "category": "accident",
@@ -288,76 +347,22 @@
       }
     ]
   },
-  "expiredEvents": [
-    {
-      "id": "accident-developing-second-aircraft-mishap-at-baramati-airfield-since-ajit-pawar-s-fatal-c",
-      "eventKind": "incident",
-      "sourceId": "indian_express_pune",
-      "title": "Developing: Second aircraft mishap at Baramati airfield since Ajit Pawar’s fatal crash",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Indian Express Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdGJjQlI3Nnd5S1VKVlNHb3RDM3lFN0VNeXBjczJBTHI0dU5KX0FwbVo0b2ktNzZsOTVWU0dOWmd5ZzVobXBpSEw3Um1UMy1NQ3k0Y2I3SHBvVEV3UEIzaVotZkNjaXBPWFdxd0x3aFllbEhzZk8wUy1vSDZaLWM1Zl9ZZFRPb3RVRlhSNWIyNkVDRGlyMUwzTHkxYktvMzBEN0UzUklLVDNmOGtIMFFRNU41NHhvZkx5TzlsNEEzeFBZTUpOTS1nWVlZd3rSAdMBQVVfeXFMT1RRV19BU284dlRBSUREbEpjcG5QR1oyUEVJVWlTN1hCeWZTVXNlcU05TTN4RW9tVEI4MFpjQnpiTkFCdWNEdXQ3UF9TN0M5SW5QZnEwMk5OWmZzLTN6QUNjSjMxMmtCNWprd2RLb2JDYjB2ZVZUZmRoaW1LU0d1U1NLcmE5QVpwZjVseUlJQVR5VnM0YVViT1Q0UFhMZ0dOeHV1a0x4RElQRkZUOWtSaFB4TFNjOEhVYllqSnhHQ29MZjZkRDFwNDY4ekk2Und1d2FGNA?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdGJjQlI3Nnd5S1VKVlNHb3RDM3lFN0VNeXBjczJBTHI0dU5KX0FwbVo0b2ktNzZsOTVWU0dOWmd5ZzVobXBpSEw3Um1UMy1NQ3k0Y2I3SHBvVEV3UEIzaVotZkNjaXBPWFdxd0x3aFllbEhzZk8wUy1vSDZaLWM1Zl9ZZFRPb3RVRlhSNWIyNkVDRGlyMUwzTHkxYktvMzBEN0UzUklLVDNmOGtIMFFRNU41NHhvZkx5TzlsNEEzeFBZTUpOTS1nWVlZd3rSAdMBQVVfeXFMT1RRV19BU284dlRBSUREbEpjcG5QR1oyUEVJVWlTN1hCeWZTVXNlcU05TTN4RW9tVEI4MFpjQnpiTkFCdWNEdXQ3UF9TN0M5SW5QZnEwMk5OWmZzLTN6QUNjSjMxMmtCNWprd2RLb2JDYjB2ZVZUZmRoaW1LU0d1U1NLcmE5QVpwZjVseUlJQVR5VnM0YVViT1Q0UFhMZ0dOeHV1a0x4RElQRkZUOWtSaFB4TFNjOEhVYllqSnhHQ29MZjZkRDFwNDY4ekk2Und1d2FGNA?oc=5",
-      "talukas": [
-        "baramati"
-      ],
-      "localities": [
-        "Baramati"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-08-09T10:03:45.000Z",
-      "lastUpdated": "2026-08-09T10:03:45.000Z",
-      "sourceCheckedAt": "2026-08-11T15:40:07.669Z",
-      "lastVerifiedAt": "2026-08-11T15:40:07.669Z",
-      "intelligenceGeneratedAt": "2026-08-11T15:40:22.313Z",
-      "expiresAt": "2026-08-11T10:03:45.000Z",
-      "lifecycle": "expired",
-      "confidence": "Medium",
-      "confidenceScore": 55,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Baramati",
-      "upstreamId": "google-news-2f5741b6",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-08-11T15:40:07.669Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
+  "expiredEvents": [],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-11T15:40:07.669Z",
-      "lastSuccessfulAt": "2026-08-11T15:40:07.669Z",
+      "sourceCheckedAt": "2026-08-11T16:37:35.370Z",
+      "lastSuccessfulAt": "2026-08-11T16:37:35.370Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-11T15:40:22.409Z",
+      "generatedAt": "2026-08-11T16:37:50.719Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -370,7 +375,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-11T15:40:22.408Z",
+      "generatedAt": "2026-08-11T16:37:50.719Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -451,7 +456,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-11T15:40:22.409Z",
+      "generatedAt": "2026-08-11T16:37:50.719Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -496,7 +501,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-11T15:40:22.467Z",
+        "generatedAt": "2026-08-11T16:37:50.771Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -615,15 +620,22 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 30,
+              "score": 15,
               "label": "Avoid if Possible",
               "recommendation": "Avoid this route if possible unless travel is essential.",
               "reasons": [
+                "Official: Light to Moderate spells of rain very likely to occur at isolated places over Chhatrapati Sambhajinagar, Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Solapur, Thane in next 3 hours. may have minor impact on travel.",
                 "Developing: Four people killed after car rams into road divider on Pune-Satara highway: Police may cause delays or safety concerns.",
                 "Developing: 4 college friends killed, 2 injured after SUV rams divider, crashes into truck on Pune-Bengaluru highway may cause delays or safety concerns.",
                 "Low visibility may make driving unsafe."
               ],
               "penalties": [
+                {
+                  "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
+                  "category": "heavy_rain",
+                  "penalty": 15,
+                  "title": "Official: Light to Moderate spells of rain very likely to occur at isolated places over Chhatrapati Sambhajinagar, Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Solapur, Thane in next 3 hours."
+                },
                 {
                   "eventId": "accident-developing-four-people-killed-after-car-rams-into-road-divider-on-pune-satara-hig",
                   "category": "accident",
@@ -643,7 +655,7 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Four people killed after car rams into road divider on Pune-Satara highway: Police may cause delays or safety concerns."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (15/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Official: Light to Moderate spells of rain very likely to occur at isolated places over Chhatrapati Sambhajinagar, Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Solapur, Thane in next 3 hours. may have minor impact on travel."
           }
         ]
       },
@@ -652,7 +664,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-11T15:40:22.467Z",
+        "generatedAt": "2026-08-11T16:37:50.772Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -682,20 +694,28 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 55,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
+              "Official: Light to Moderate spells of rain very likely to occur at isolated places over Chhatrapati Sambhajinagar, Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Solapur, Thane in next 3 hours. may have minor impact on travel.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": []
+            "penalties": [
+              {
+                "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
+                "category": "heavy_rain",
+                "penalty": 15,
+                "title": "Official: Light to Moderate spells of rain very likely to occur at isolated places over Chhatrapati Sambhajinagar, Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Solapur, Thane in next 3 hours."
+              }
+            ]
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 120,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Official: Light to Moderate spells of rain very likely to occur at isolated places over Chhatrapati Sambhajinagar, Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Solapur, Thane in next 3 hours. may have minor impact on travel."
         },
         "routes": [
           {
@@ -727,20 +747,28 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 55,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
+                "Official: Light to Moderate spells of rain very likely to occur at isolated places over Chhatrapati Sambhajinagar, Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Solapur, Thane in next 3 hours. may have minor impact on travel.",
                 "Low visibility may make driving unsafe."
               ],
-              "penalties": []
+              "penalties": [
+                {
+                  "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
+                  "category": "heavy_rain",
+                  "penalty": 15,
+                  "title": "Official: Light to Moderate spells of rain very likely to occur at isolated places over Chhatrapati Sambhajinagar, Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Solapur, Thane in next 3 hours."
+                }
+              ]
             },
-            "estimatedTimeMin": 110,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 120,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Official: Light to Moderate spells of rain very likely to occur at isolated places over Chhatrapati Sambhajinagar, Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Solapur, Thane in next 3 hours. may have minor impact on travel."
           }
         ]
       },
@@ -749,7 +777,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-11T15:40:22.468Z",
+        "generatedAt": "2026-08-11T16:37:50.772Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
