@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-12T21:21:17.225Z",
+  "generatedAt": "2026-08-12T22:11:38.227Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-12T21:21:17.225Z",
+      "generatedAt": "2026-08-12T22:11:38.227Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -132,7 +132,7 @@
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Four youths killed, two injured in road accident on Pune-Satara highway may cause delays or safety concerns.",
-              "Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur may cause delays or safety concerns.",
+              "Developing: 4 college friends killed, 2 injured after SUV hits divider, crashes into truck on Pune-Bengaluru highway may cause delays or safety concerns.",
               "Developing: Four people killed after car rams into road divider on Pune-Satara highway: Police | Hindustan Times may cause delays or safety concerns.",
               "Developing: Maharashtra: 14 school students and 5 teachers injured after bus loses control on highway in Pune may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
@@ -145,10 +145,10 @@
                 "title": "Developing: Four youths killed, two injured in road accident on Pune-Satara highway"
               },
               {
-                "eventId": "accident-developing-two-killed-in-four-vehicle-crash-on-pune-ahilyanagar-highway-in-shirur",
+                "eventId": "accident-developing-4-college-friends-killed-2-injured-after-suv-hits-divider-crashes-into",
                 "category": "accident",
                 "penalty": 20,
-                "title": "Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur"
+                "title": "Developing: 4 college friends killed, 2 injured after SUV hits divider, crashes into truck on Pune-Bengaluru highway"
               },
               {
                 "eventId": "accident-developing-four-people-killed-after-car-rams-into-road-divider-on-pune-satara-hig",
@@ -178,7 +178,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-12T21:21:17.225Z",
+      "generatedAt": "2026-08-12T22:11:38.227Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -208,20 +208,28 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 70,
-          "label": "Proceed with Caution",
-          "recommendation": "Proceed with caution and allow extra travel time.",
+          "score": 35,
+          "label": "Avoid if Possible",
+          "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
+            "Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News may significantly affect this route.",
             "Low visibility may make driving unsafe."
           ],
-          "penalties": []
+          "penalties": [
+            {
+              "eventId": "road-closure-developing-pune-mumbai-expressway-traffic-diversion-for-maintenance-repair-wo",
+              "category": "road_closure",
+              "penalty": 35,
+              "title": "Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News"
+            }
+          ]
         },
-        "estimatedTimeMin": 110,
-        "estimatedDelayMin": 15,
+        "estimatedTimeMin": 140,
+        "estimatedDelayMin": 45,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News may significantly affect this route."
       },
       "routes": [
         {
@@ -253,20 +261,28 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 35,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
+              "Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News may significantly affect this route.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": []
+            "penalties": [
+              {
+                "eventId": "road-closure-developing-pune-mumbai-expressway-traffic-diversion-for-maintenance-repair-wo",
+                "category": "road_closure",
+                "penalty": 35,
+                "title": "Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News"
+              }
+            ]
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 140,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (35/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News may significantly affect this route."
         }
       ]
     },
@@ -275,7 +291,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-12T21:21:17.225Z",
+      "generatedAt": "2026-08-12T22:11:38.227Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
