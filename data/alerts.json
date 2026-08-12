@@ -1,64 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-12T05:08:49.030Z",
+  "generatedAt": "2026-08-12T06:43:26.284Z",
   "sourceStatus": "stale",
-  "items": [
-    {
-      "id": "heavy-rain-official-moderate-rain-is-very-likely-to-occur-at-isolated-places-over-dhule-ja",
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "title": "Official: Moderate Rain is very likely to occur at isolated places over Dhule, Jalgaon, Kolhapur, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Thane in next 3 hours.",
-      "summary": "Moderate Rain is very likely to occur at isolated places over Dhule, Jalgaon, Kolhapur, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Thane in next 3 hours.",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "source": "NDMA SACHET (IMD-Mumbai)",
-      "sourceTrust": "A+",
-      "sources": [
-        {
-          "name": "NDMA SACHET (IMD-Mumbai)",
-          "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786509186041029",
-          "origin": ""
-        },
-        {
-          "name": "NDMA SACHET (Maharashtra-SDMA)",
-          "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786502579584029",
-          "origin": ""
-        }
-      ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786509186041029",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-12T04:31:57.000Z",
-      "lastUpdated": "2026-08-12T04:31:57.000Z",
-      "sourceCheckedAt": "2026-08-12T05:08:33.587Z",
-      "lastVerifiedAt": "2026-08-12T05:08:33.587Z",
-      "intelligenceGeneratedAt": "2026-08-12T05:08:49.030Z",
-      "expiresAt": "2026-08-12T07:30:00.000Z",
-      "lifecycle": "active",
-      "confidence": "High",
-      "confidenceScore": 85,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Dhule, Jalgaon, Kolhapur, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Thane districts of Maharashtra",
-      "upstreamId": "IN-1786509186041029_46",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "Alert",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [
-        "heavy-rain-official-moderate-rain-is-very-likely-to-occur-at-isolated-places-over-kolhapur"
-      ],
-      "independentSourceCount": 2,
-      "corroboratedByIndependentSources": true
-    }
-  ]
+  "items": []
 }
