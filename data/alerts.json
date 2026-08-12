@@ -1,6 +1,56 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-12T10:43:01.318Z",
+  "generatedAt": "2026-08-12T11:33:34.672Z",
   "sourceStatus": "stale",
-  "items": []
+  "items": [
+    {
+      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Light to Moderate spells of rain very likely to occur at isolated places over Jalna, Beed, Chhatrapati Sambhajinagar, Jalgaon, Dhule, Nashik, Pune, Ahilya nagar, Ghats of Satara, Kolhapur in next 3 hours.",
+      "summary": "Light to Moderate spells of rain very likely to occur at isolated places over Jalna, Beed, Chhatrapati Sambhajinagar, Jalgaon, Dhule, Nashik, Pune, Ahilya nagar, Ghats of Satara, Kolhapur in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "source": "NDMA SACHET (IMD-Mumbai)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (IMD-Mumbai)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786531609732029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786531609732029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-12T10:44:20.000Z",
+      "lastUpdated": "2026-08-12T10:44:20.000Z",
+      "sourceCheckedAt": "2026-08-12T11:33:18.740Z",
+      "lastVerifiedAt": "2026-08-12T11:33:18.740Z",
+      "intelligenceGeneratedAt": "2026-08-12T11:33:34.672Z",
+      "expiresAt": "2026-08-12T13:43:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Ahilyanagar, Beed, Chhatrapati Sambhajinagar, Dhule, Jalgaon, Jalna, Kolhapur, Nashik, Pune, Satara districts of Maharashtra",
+      "upstreamId": "IN-1786531609732029_46",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Alert",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
