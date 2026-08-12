@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-12T14:07:13.103Z",
+  "generatedAt": "2026-08-12T15:15:19.392Z",
   "routes": [],
   "risks": [
     {
@@ -25,15 +25,6 @@
       "operationalZones": [
         "Pune-Satara Highway"
       ],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "accident-developing-मोठी-बातमी-सोलापूर-पुणे-हायवेवरील-६०-मीटर-अंतरातील-ढाबे-हॉटेल-६-महिन्य",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
     },
     {
@@ -64,6 +55,28 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
+      "id": "road-closure-developing-pune-mumbai-expressway-traffic-diversion-for-maintenance-repair-wo",
+      "category": "road_closure",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Route may be blocked or diverted."
+    },
+    {
+      "id": "accident-developing-two-killed-in-four-vehicle-crash-on-pune-ahilyanagar-highway-in-shirur",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Shirur"
+      ],
+      "talukas": [
+        "shirur"
+      ],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
       "id": "accident-developing-four-people-killed-after-car-rams-into-road-divider-on-pune-satara-hig",
       "category": "accident",
       "severity": "watch",
@@ -73,15 +86,6 @@
         "Pune-Satara Highway"
       ],
       "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "road-closure-developing-pune-mumbai-expressway-traffic-diversion-for-maintenance-repair-wo",
-      "category": "road_closure",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Route may be blocked or diverted."
     },
     {
       "id": "accident-developing-maharashtra-14-school-students-and-5-teachers-injured-after-bus-loses-",

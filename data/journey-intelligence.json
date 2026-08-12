@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-12T14:07:13.252Z",
+  "generatedAt": "2026-08-12T15:15:19.556Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-12T14:07:13.251Z",
+      "generatedAt": "2026-08-12T15:15:19.555Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -133,9 +133,9 @@
             "reasons": [
               "Developing: Four youths killed, two injured in road accident on Pune-Satara highway may cause delays or safety concerns.",
               "Developing: 4 college friends killed, 2 injured after SUV hits divider, crashes into truck on Pune-Bengaluru highway may cause delays or safety concerns.",
+              "Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur may cause delays or safety concerns.",
               "Developing: Four people killed after car rams into road divider on Pune-Satara highway: Police | Hindustan Times may cause delays or safety concerns.",
-              "Developing: Maharashtra: 14 school students and 5 teachers injured after bus loses control on highway in Pune may cause delays or safety concerns.",
-              "Low visibility may make driving unsafe."
+              "Developing: Maharashtra: 14 school students and 5 teachers injured after bus loses control on highway in Pune may cause delays or safety concerns."
             ],
             "penalties": [
               {
@@ -149,6 +149,12 @@
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: 4 college friends killed, 2 injured after SUV hits divider, crashes into truck on Pune-Bengaluru highway"
+              },
+              {
+                "eventId": "accident-developing-two-killed-in-four-vehicle-crash-on-pune-ahilyanagar-highway-in-shirur",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur"
               },
               {
                 "eventId": "accident-developing-four-people-killed-after-car-rams-into-road-divider-on-pune-satara-hig",
@@ -178,7 +184,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-12T14:07:13.251Z",
+      "generatedAt": "2026-08-12T15:15:19.556Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -291,7 +297,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-12T14:07:13.252Z",
+      "generatedAt": "2026-08-12T15:15:19.556Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
