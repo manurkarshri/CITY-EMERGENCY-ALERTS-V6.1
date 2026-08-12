@@ -1,8 +1,41 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-12T00:43:51.624Z",
+  "generatedAt": "2026-08-12T03:14:13.303Z",
   "routes": [],
   "risks": [
+    {
+      "id": "heavy-rain-official-moderate-rain-is-very-likely-to-occur-at-isolated-places-over-kolhapur",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "accident-developing-mishap-victim-declared-brain-dead-gives-4-a-fresh-lease-of-life-2026-0",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-four-youths-killed-two-injured-in-road-accident-on-pune-satara-highway",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Khandala"
+      ],
+      "talukas": [
+        "maval"
+      ],
+      "operationalZones": [
+        "Pune-Satara Highway"
+      ],
+      "impact": "Traffic delays are likely near the incident location."
+    },
     {
       "id": "accident-developing-four-people-killed-after-car-rams-into-road-divider-on-pune-satara-hig",
       "category": "accident",

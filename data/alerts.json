@@ -1,6 +1,56 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-12T00:43:51.624Z",
+  "generatedAt": "2026-08-12T03:14:13.303Z",
   "sourceStatus": "stale",
-  "items": []
+  "items": [
+    {
+      "id": "heavy-rain-official-moderate-rain-is-very-likely-to-occur-at-isolated-places-over-kolhapur",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Moderate Rain is very likely to occur at isolated places over Kolhapur, Pune, Raigad in next 3 hours.",
+      "summary": "Moderate Rain is very likely to occur at isolated places over Kolhapur, Pune, Raigad in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "source": "NDMA SACHET (Maharashtra-SDMA)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (Maharashtra-SDMA)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786502579584029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786502579584029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-12T02:47:49.000Z",
+      "lastUpdated": "2026-08-12T02:47:49.000Z",
+      "sourceCheckedAt": "2026-08-12T03:13:41.517Z",
+      "lastVerifiedAt": "2026-08-12T03:13:41.517Z",
+      "intelligenceGeneratedAt": "2026-08-12T03:14:13.303Z",
+      "expiresAt": "2026-08-12T05:40:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Kolhapur,Pune,Raigad districts of Maharashtra",
+      "upstreamId": "IN-1786502579584029_29",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Update",
+      "capReferences": "IMD-Mumbai,IN-1786502579584029_46,2026-08-12T08:12:08+05:30",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
