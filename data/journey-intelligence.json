@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-12T12:32:52.729Z",
+  "generatedAt": "2026-08-12T14:07:13.252Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-12T12:32:52.728Z",
+      "generatedAt": "2026-08-12T14:07:13.251Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -131,19 +131,13 @@
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
-              "Official: Light to Moderate spells of rain very likely to occur at isolated places over Jalna, Beed, Chhatrapati Sambhajinagar, Jalgaon, Dhule, Nashik, Pune, Ahilya nagar, Ghats of Satara, Kolhapur in next 3 hours. may have minor impact on travel.",
               "Developing: Four youths killed, two injured in road accident on Pune-Satara highway may cause delays or safety concerns.",
               "Developing: 4 college friends killed, 2 injured after SUV hits divider, crashes into truck on Pune-Bengaluru highway may cause delays or safety concerns.",
               "Developing: Four people killed after car rams into road divider on Pune-Satara highway: Police | Hindustan Times may cause delays or safety concerns.",
+              "Developing: Maharashtra: 14 school students and 5 teachers injured after bus loses control on highway in Pune may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
-              {
-                "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
-                "category": "heavy_rain",
-                "penalty": 15,
-                "title": "Official: Light to Moderate spells of rain very likely to occur at isolated places over Jalna, Beed, Chhatrapati Sambhajinagar, Jalgaon, Dhule, Nashik, Pune, Ahilya nagar, Ghats of Satara, Kolhapur in next 3 hours."
-              },
               {
                 "eventId": "accident-developing-four-youths-killed-two-injured-in-road-accident-on-pune-satara-highway",
                 "category": "accident",
@@ -161,6 +155,12 @@
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: Four people killed after car rams into road divider on Pune-Satara highway: Police | Hindustan Times"
+              },
+              {
+                "eventId": "accident-developing-maharashtra-14-school-students-and-5-teachers-injured-after-bus-loses-",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Maharashtra: 14 school students and 5 teachers injured after bus loses control on highway in Pune"
               }
             ]
           },
@@ -169,7 +169,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Official: Light to Moderate spells of rain very likely to occur at isolated places over Jalna, Beed, Chhatrapati Sambhajinagar, Jalgaon, Dhule, Nashik, Pune, Ahilya nagar, Ghats of Satara, Kolhapur in next 3 hours. may have minor impact on travel."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Four youths killed, two injured in road accident on Pune-Satara highway may cause delays or safety concerns."
         }
       ]
     },
@@ -178,7 +178,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-12T12:32:52.729Z",
+      "generatedAt": "2026-08-12T14:07:13.251Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -291,7 +291,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-12T12:32:52.729Z",
+      "generatedAt": "2026-08-12T14:07:13.252Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
