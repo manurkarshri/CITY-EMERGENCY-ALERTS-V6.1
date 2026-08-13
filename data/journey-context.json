@@ -1,8 +1,17 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-13T06:06:30.173Z",
+  "generatedAt": "2026-08-13T07:54:18.008Z",
   "routes": [],
   "risks": [
+    {
+      "id": "road-closure-developing-pune-mumbai-expressway-traffic-diversion-for-maintenance-repair-wo",
+      "category": "road_closure",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Route may be blocked or diverted."
+    },
     {
       "id": "accident-developing-four-youths-killed-two-injured-in-road-accident-on-pune-satara-highway",
       "category": "accident",
@@ -13,15 +22,6 @@
         "Pune-Satara Highway"
       ],
       "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "road-closure-developing-pune-mumbai-expressway-traffic-diversion-for-maintenance-repair-wo",
-      "category": "road_closure",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Route may be blocked or diverted."
     },
     {
       "id": "accident-developing-maharashtra-14-school-students-and-5-teachers-injured-after-bus-loses-",
