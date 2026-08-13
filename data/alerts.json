@@ -1,56 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-13T19:45:01.901Z",
+  "generatedAt": "2026-08-13T20:24:03.353Z",
   "sourceStatus": "stale",
-  "items": [
-    {
-      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "title": "Official: Light to Moderate spells of rain very likely to occur at isolated places. Districts: Mumbai, Palghar, Thane, Raigad, Ratnagiri, Pune, Satara.",
-      "summary": "Light to Moderate spells of rain very likely to occur at isolated places. Districts: Mumbai, Palghar, Thane, Raigad, Ratnagiri, Pune, Satara.",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "source": "NDMA SACHET (IMD-Mumbai)",
-      "sourceTrust": "A+",
-      "sources": [
-        {
-          "name": "NDMA SACHET (IMD-Mumbai)",
-          "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786650105505029",
-          "origin": ""
-        }
-      ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786650105505029",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-13T19:41:03.000Z",
-      "lastUpdated": "2026-08-13T19:41:03.000Z",
-      "sourceCheckedAt": "2026-08-13T19:44:46.754Z",
-      "lastVerifiedAt": "2026-08-13T19:44:46.754Z",
-      "intelligenceGeneratedAt": "2026-08-13T19:45:01.901Z",
-      "expiresAt": "2026-08-13T22:30:00.000Z",
-      "lifecycle": "active",
-      "confidence": "Medium",
-      "confidenceScore": 65,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Mumbai, Mumbai Suburban, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane districts of Maharashtra",
-      "upstreamId": "IN-1786650105505029_46",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "Alert",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ]
+  "items": []
 }
