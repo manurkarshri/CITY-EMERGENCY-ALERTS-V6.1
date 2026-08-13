@@ -1,17 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-13T14:01:45.392Z",
+  "generatedAt": "2026-08-13T15:16:07.340Z",
   "routes": [],
   "risks": [
-    {
-      "id": "heavy-rain-official-moderate-rain-is-very-likely-to-occur-at-isolated-places-over-mumbai-m",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
-    },
     {
       "id": "infrastructure-failure-developing-road-cave-in-water-works-and-the-monsoon-infrastructure-",
       "category": "infrastructure_failure",
@@ -42,6 +33,15 @@
       ],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "road-closure-developing-pune-mumbai-expressway-traffic-diversion-for-maintenance-repair-wo",
+      "category": "road_closure",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Route may be blocked or diverted."
     },
     {
       "id": "accident-developing-maharashtra-14-school-students-and-5-teachers-injured-after-bus-loses-",
