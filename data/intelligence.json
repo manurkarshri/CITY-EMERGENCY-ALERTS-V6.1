@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-13T02:38:56.372Z",
+  "generatedAt": "2026-08-13T04:31:01.116Z",
   "status": "stale",
   "situation": {
     "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-08-13T02:38:56.441Z",
+      "generatedAt": "2026-08-13T04:31:01.665Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,20 +13,20 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-13T02:38:37.274Z",
-          "observedAt": "2026-08-13T08:00:00+05:30",
-          "temp": 23.5,
+          "sourceCheckedAt": "2026-08-13T04:30:45.510Z",
+          "observedAt": "2026-08-13T10:00:00+05:30",
+          "temp": 25,
           "currentRain": 0,
-          "rain6h": 2,
+          "rain6h": 2.2,
           "rain24h": 3.6,
           "precipitationProbability": 99,
-          "wind": 27.4,
-          "gust": 27.4,
-          "humidity": 86,
-          "visibility": 5.6,
-          "weatherCode": 3,
+          "wind": 40,
+          "gust": 40,
+          "humidity": 79,
+          "visibility": 5.5,
+          "weatherCode": 51,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -40,20 +40,20 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-13T02:38:37.274Z",
-          "observedAt": "2026-08-13T08:00:00+05:30",
-          "temp": 23.4,
+          "sourceCheckedAt": "2026-08-13T04:30:45.510Z",
+          "observedAt": "2026-08-13T10:00:00+05:30",
+          "temp": 25,
           "currentRain": 0,
-          "rain6h": 2.2,
-          "rain24h": 4.3,
+          "rain6h": 2.6,
+          "rain24h": 4.2,
           "precipitationProbability": 99,
-          "wind": 25.9,
-          "gust": 25.9,
-          "humidity": 87,
-          "visibility": 6.5,
-          "weatherCode": 2,
+          "wind": 41,
+          "gust": 41,
+          "humidity": 80,
+          "visibility": 6.4,
+          "weatherCode": 51,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -67,20 +67,20 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-13T02:38:37.274Z",
-          "observedAt": "2026-08-13T08:00:00+05:30",
-          "temp": 23.5,
+          "sourceCheckedAt": "2026-08-13T04:30:45.510Z",
+          "observedAt": "2026-08-13T10:00:00+05:30",
+          "temp": 25,
           "currentRain": 0,
-          "rain6h": 2,
+          "rain6h": 2.2,
           "rain24h": 3.6,
           "precipitationProbability": 99,
-          "wind": 27.4,
-          "gust": 27.4,
-          "humidity": 86,
-          "visibility": 5.6,
-          "weatherCode": 3,
+          "wind": 40,
+          "gust": 40,
+          "humidity": 79,
+          "visibility": 5.5,
+          "weatherCode": 51,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -94,25 +94,25 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-13T02:38:37.274Z",
-          "observedAt": "2026-08-13T08:00:00+05:30",
-          "temp": 21.7,
-          "currentRain": 0.1,
-          "rain6h": 6.4,
-          "rain24h": 21.3,
+          "sourceCheckedAt": "2026-08-13T04:30:45.510Z",
+          "observedAt": "2026-08-13T10:00:00+05:30",
+          "temp": 22.3,
+          "currentRain": 0.2,
+          "rain6h": 8.1,
+          "rain24h": 21.2,
           "precipitationProbability": 100,
-          "wind": 24.8,
-          "gust": 24.8,
-          "humidity": 100,
-          "visibility": 0.3,
-          "weatherCode": 51,
+          "wind": 33.1,
+          "gust": 33.1,
+          "humidity": 95,
+          "visibility": 1.6,
+          "weatherCode": 55,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "High",
+          "visibilityRisk": "Medium",
           "heatRisk": "Normal",
-          "travelImpact": "High",
+          "travelImpact": "Low",
           "advice": [
-            "Low visibility may make driving unsafe."
+            "No major weather-related disruption indicated."
           ]
         },
         "maval": {
@@ -121,21 +121,21 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-13T02:38:37.274Z",
-          "observedAt": "2026-08-13T08:00:00+05:30",
-          "temp": 21.2,
+          "sourceCheckedAt": "2026-08-13T04:30:45.510Z",
+          "observedAt": "2026-08-13T10:00:00+05:30",
+          "temp": 22.1,
           "currentRain": 0.1,
-          "rain6h": 7.3,
-          "rain24h": 24.9,
+          "rain6h": 9.7,
+          "rain24h": 24.5,
           "precipitationProbability": 100,
-          "wind": 26.3,
-          "gust": 26.3,
-          "humidity": 99,
-          "visibility": 1.4,
-          "weatherCode": 53,
+          "wind": 31,
+          "gust": 31,
+          "humidity": 96,
+          "visibility": 2.4,
+          "weatherCode": 80,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "Medium",
+          "visibilityRisk": "Low",
           "heatRisk": "Normal",
           "travelImpact": "Low",
           "advice": [
@@ -146,115 +146,17 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-13T02:38:56.457Z",
+      "generatedAt": "2026-08-13T04:31:01.678Z",
       "riskLevel": "Normal",
       "impacts": [
-        "7 active transport-related event(s) may affect travel."
+        "5 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "7 active transport-related event(s) may affect travel.",
+      "citizenSummary": "5 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
   "alerts": [],
   "incidents": [
-    {
-      "id": "accident-developing-mishap-victim-declared-brain-dead-gives-4-a-fresh-lease-of-life-2026-0",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Mishap victim declared brain dead; gives 4 a fresh lease of life",
-      "summary": "Family of a 21-year-old accident victim donated his organs after he was declared brain dead at Bharati hospital, giving four patients a fresh lease of life",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/mishap-victim-declared-brain-dead-gives-4-a-fresh-lease-of-life-101786472527802.html",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.hindustantimes.com/cities/pune-news/mishap-victim-declared-brain-dead-gives-4-a-fresh-lease-of-life-101786472527802.html",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-12T02:54:02.000Z",
-      "lastUpdated": "2026-08-12T02:54:02.000Z",
-      "sourceCheckedAt": "2026-08-13T02:38:37.815Z",
-      "lastVerifiedAt": "2026-08-13T02:38:37.815Z",
-      "intelligenceGeneratedAt": "2026-08-13T02:38:56.372Z",
-      "expiresAt": "2026-08-13T02:54:02.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "",
-      "upstreamId": "",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "broader_area",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "transport-disruption-developing-delhi-pune-spicejet-flight-cancelled-as-ac-snag-leaves-fly",
-      "eventKind": "incident",
-      "sourceId": "indian_express_pune",
-      "title": "Developing: Delhi-Pune SpiceJet flight cancelled as AC snag leaves flyers ‘suffocating’",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "transport_disruption",
-      "severity": "advisory",
-      "source": "Indian Express Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWHhKZTNqaFdvUFg0RGVqOVNITDNsT1RkS25rOWlYdnJ4VGxmMThzaEdULVdUY3R6d19sZjNuQUVyaWdGMW1SeTUwRUUyOU1NQXlCUHRhbURtTnBjQ1RqYWsySVhVSEZ0SkJORFJMdHFWTDlmcnU3QWhVYnJ1RWkxSUJmZmdLaWdhSE1EbFdnT1RkS0U1bmlsUklCNzRMNzhxMTg0MEl1UEtqZ9IBsAFBVV95cUxNNHF2a0d6RzhCcHZ1TGlyTUd0YllBOUxad1BQcVQ2UFN2aXdOUmF6ems1SmlJdTVjV3EyMVFlWVNpNkN2aHdUcExEdXdZRWlpTFI5b05YWl9rUG00cndYMUgwU1dmWU40N1ZFN19zSXJUOEZrOWJzS1hhYkotVUswU21CcnBsVHRsSzI0NzRWdnpNcVR5YTBsTGFtV0hHOW5zd3h2ZUZQanY1OEs4dFhWag?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWHhKZTNqaFdvUFg0RGVqOVNITDNsT1RkS25rOWlYdnJ4VGxmMThzaEdULVdUY3R6d19sZjNuQUVyaWdGMW1SeTUwRUUyOU1NQXlCUHRhbURtTnBjQ1RqYWsySVhVSEZ0SkJORFJMdHFWTDlmcnU3QWhVYnJ1RWkxSUJmZmdLaWdhSE1EbFdnT1RkS0U1bmlsUklCNzRMNzhxMTg0MEl1UEtqZ9IBsAFBVV95cUxNNHF2a0d6RzhCcHZ1TGlyTUd0YllBOUxad1BQcVQ2UFN2aXdOUmF6ems1SmlJdTVjV3EyMVFlWVNpNkN2aHdUcExEdXdZRWlpTFI5b05YWl9rUG00cndYMUgwU1dmWU40N1ZFN19zSXJUOEZrOWJzS1hhYkotVUswU21CcnBsVHRsSzI0NzRWdnpNcVR5YTBsTGFtV0hHOW5zd3h2ZUZQanY1OEs4dFhWag?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-12T08:06:12.000Z",
-      "lastUpdated": "2026-08-12T08:06:12.000Z",
-      "sourceCheckedAt": "2026-08-13T02:38:37.815Z",
-      "lastVerifiedAt": "2026-08-13T02:38:37.815Z",
-      "intelligenceGeneratedAt": "2026-08-13T02:38:56.372Z",
-      "expiresAt": "2026-08-13T08:06:12.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
-      "impact": "Public transport journeys may be cancelled or delayed.",
-      "recommendedAction": "Confirm service status and keep an alternative journey available.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-b13dfc0f",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-08-13T02:38:37.815Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
     {
       "id": "accident-developing-two-killed-in-four-vehicle-crash-on-pune-ahilyanagar-highway-in-shirur",
       "eventKind": "incident",
@@ -289,9 +191,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-12T15:02:17.000Z",
       "lastUpdated": "2026-08-12T15:02:17.000Z",
-      "sourceCheckedAt": "2026-08-13T02:38:37.815Z",
-      "lastVerifiedAt": "2026-08-13T02:38:37.815Z",
-      "intelligenceGeneratedAt": "2026-08-13T02:38:56.372Z",
+      "sourceCheckedAt": "2026-08-13T04:30:46.269Z",
+      "lastVerifiedAt": "2026-08-13T04:30:46.269Z",
+      "intelligenceGeneratedAt": "2026-08-13T04:31:01.116Z",
       "expiresAt": "2026-08-14T15:02:17.000Z",
       "lifecycle": "developing",
       "confidence": "High",
@@ -304,7 +206,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-13T02:38:37.815Z",
+      "discoveredAt": "2026-08-13T04:30:46.269Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -315,6 +217,55 @@
       ],
       "independentSourceCount": 2,
       "corroboratedByIndependentSources": true
+    },
+    {
+      "id": "transport-disruption-developing-delhi-pune-spicejet-flight-cancelled-as-ac-snag-leaves-fly",
+      "eventKind": "incident",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Delhi-Pune SpiceJet flight cancelled as AC snag leaves flyers ‘suffocating’",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "transport_disruption",
+      "severity": "advisory",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWHhKZTNqaFdvUFg0RGVqOVNITDNsT1RkS25rOWlYdnJ4VGxmMThzaEdULVdUY3R6d19sZjNuQUVyaWdGMW1SeTUwRUUyOU1NQXlCUHRhbURtTnBjQ1RqYWsySVhVSEZ0SkJORFJMdHFWTDlmcnU3QWhVYnJ1RWkxSUJmZmdLaWdhSE1EbFdnT1RkS0U1bmlsUklCNzRMNzhxMTg0MEl1UEtqZ9IBsAFBVV95cUxNNHF2a0d6RzhCcHZ1TGlyTUd0YllBOUxad1BQcVQ2UFN2aXdOUmF6ems1SmlJdTVjV3EyMVFlWVNpNkN2aHdUcExEdXdZRWlpTFI5b05YWl9rUG00cndYMUgwU1dmWU40N1ZFN19zSXJUOEZrOWJzS1hhYkotVUswU21CcnBsVHRsSzI0NzRWdnpNcVR5YTBsTGFtV0hHOW5zd3h2ZUZQanY1OEs4dFhWag?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWHhKZTNqaFdvUFg0RGVqOVNITDNsT1RkS25rOWlYdnJ4VGxmMThzaEdULVdUY3R6d19sZjNuQUVyaWdGMW1SeTUwRUUyOU1NQXlCUHRhbURtTnBjQ1RqYWsySVhVSEZ0SkJORFJMdHFWTDlmcnU3QWhVYnJ1RWkxSUJmZmdLaWdhSE1EbFdnT1RkS0U1bmlsUklCNzRMNzhxMTg0MEl1UEtqZ9IBsAFBVV95cUxNNHF2a0d6RzhCcHZ1TGlyTUd0YllBOUxad1BQcVQ2UFN2aXdOUmF6ems1SmlJdTVjV3EyMVFlWVNpNkN2aHdUcExEdXdZRWlpTFI5b05YWl9rUG00cndYMUgwU1dmWU40N1ZFN19zSXJUOEZrOWJzS1hhYkotVUswU21CcnBsVHRsSzI0NzRWdnpNcVR5YTBsTGFtV0hHOW5zd3h2ZUZQanY1OEs4dFhWag?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-12T08:06:12.000Z",
+      "lastUpdated": "2026-08-12T08:06:12.000Z",
+      "sourceCheckedAt": "2026-08-13T04:30:46.269Z",
+      "lastVerifiedAt": "2026-08-13T04:30:46.269Z",
+      "intelligenceGeneratedAt": "2026-08-13T04:31:01.116Z",
+      "expiresAt": "2026-08-13T08:06:12.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "Public transport journeys may be cancelled or delayed.",
+      "recommendedAction": "Confirm service status and keep an alternative journey available.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-b13dfc0f",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-08-13T04:30:46.269Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
     },
     {
       "id": "accident-developing-i-had-asked-him-not-to-go-pune-friends-mahabaleshwar-trip-ends-in-trag",
@@ -340,9 +291,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-12T09:22:20.000Z",
       "lastUpdated": "2026-08-12T09:22:20.000Z",
-      "sourceCheckedAt": "2026-08-13T02:38:37.815Z",
-      "lastVerifiedAt": "2026-08-13T02:38:37.815Z",
-      "intelligenceGeneratedAt": "2026-08-13T02:38:56.372Z",
+      "sourceCheckedAt": "2026-08-13T04:30:46.269Z",
+      "lastVerifiedAt": "2026-08-13T04:30:46.269Z",
+      "intelligenceGeneratedAt": "2026-08-13T04:31:01.116Z",
       "expiresAt": "2026-08-14T09:22:20.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -355,56 +306,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-13T02:38:37.815Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-4-college-friends-killed-2-injured-after-suv-hits-divider-crashes-into",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: 4 college friends killed, 2 injured after SUV hits divider, crashes into truck on Pune-Bengaluru highway",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPQUZnVGdGdW90d1E3UXRVWnR3MkZTZUJKS3ViczJyLTN5S3Z1TDhTSDdyd213eGRRd2tIMFdLV1YwcDZHdy0wY21vRGRuWjZEb3loaU92ZDd6TFhaTlY1X3pwdnh5TU9DOXlwWGlxQTVPRDYxeVZ1dC1kbElVZnNKbkx5TzRpT2h3V2MwTkMxb0dXVmVQZTA5bFlVZ2xkblNyZ0xWbHN4NjdnZzhrWWJXd2JmRUZmSnZsV0ZVdE9QUjdMNlRLNGtsbVFmaExOTm9VVUV4TWdLWkwzUXVaVE93MF9zQldLTVM4Rzk1MHVfcjlERGJLTzQtTVdzakM1eXQ4UkhqOWhLbDZUQdIBjwJBVV95cUxONFRpUWJDR0s3bHZ0UG9RbThfREY0YjNBNC14blM2bHllZFpOTV81ZkxiX1dSMkg4ZHVMaFg1bWViVE9zQk1uVU1GWHpqTHJObEdlS0lmVkY0MjNJN0ZOSF9kSFRVNU5nNG5wTnUtZ3V3OTZUWWs2bjM2VVB5V2VWTUN4MG1iX2xaNFRDUUsyQVlwSHJFeHNzRFdjY1R0djB2aUFVVllveXk4b2lIcm5KaHlwYmVyQkdPd3N3Q29tMVZfRWRJOG9nd25XYXFuTVQtYXpXNG9SRTdfMGo3V19WS29RVlA0S0dlemlyUFF5TzRKUXJ4MU1UMzdZdnpjT1RMYVB0dHdBQ3czTy10UTRJ?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPQUZnVGdGdW90d1E3UXRVWnR3MkZTZUJKS3ViczJyLTN5S3Z1TDhTSDdyd213eGRRd2tIMFdLV1YwcDZHdy0wY21vRGRuWjZEb3loaU92ZDd6TFhaTlY1X3pwdnh5TU9DOXlwWGlxQTVPRDYxeVZ1dC1kbElVZnNKbkx5TzRpT2h3V2MwTkMxb0dXVmVQZTA5bFlVZ2xkblNyZ0xWbHN4NjdnZzhrWWJXd2JmRUZmSnZsV0ZVdE9QUjdMNlRLNGtsbVFmaExOTm9VVUV4TWdLWkwzUXVaVE93MF9zQldLTVM4Rzk1MHVfcjlERGJLTzQtTVdzakM1eXQ4UkhqOWhLbDZUQdIBjwJBVV95cUxONFRpUWJDR0s3bHZ0UG9RbThfREY0YjNBNC14blM2bHllZFpOTV81ZkxiX1dSMkg4ZHVMaFg1bWViVE9zQk1uVU1GWHpqTHJObEdlS0lmVkY0MjNJN0ZOSF9kSFRVNU5nNG5wTnUtZ3V3OTZUWWs2bjM2VVB5V2VWTUN4MG1iX2xaNFRDUUsyQVlwSHJFeHNzRFdjY1R0djB2aUFVVllveXk4b2lIcm5KaHlwYmVyQkdPd3N3Q29tMVZfRWRJOG9nd25XYXFuTVQtYXpXNG9SRTdfMGo3V19WS29RVlA0S0dlemlyUFF5TzRKUXJ4MU1UMzdZdnpjT1RMYVB0dHdBQ3czTy10UTRJ?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-11T03:45:00.000Z",
-      "lastUpdated": "2026-08-11T03:45:00.000Z",
-      "sourceCheckedAt": "2026-08-13T02:38:37.815Z",
-      "lastVerifiedAt": "2026-08-13T02:38:37.815Z",
-      "intelligenceGeneratedAt": "2026-08-13T02:38:56.372Z",
-      "expiresAt": "2026-08-13T03:45:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-864c5acc",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-08-13T02:38:37.815Z",
+      "discoveredAt": "2026-08-13T04:30:46.269Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -438,9 +340,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-12T09:55:36.000Z",
       "lastUpdated": "2026-08-12T09:55:36.000Z",
-      "sourceCheckedAt": "2026-08-13T02:38:37.815Z",
-      "lastVerifiedAt": "2026-08-13T02:38:37.815Z",
-      "intelligenceGeneratedAt": "2026-08-13T02:38:56.372Z",
+      "sourceCheckedAt": "2026-08-13T04:30:46.269Z",
+      "lastVerifiedAt": "2026-08-13T04:30:46.269Z",
+      "intelligenceGeneratedAt": "2026-08-13T04:31:01.116Z",
       "expiresAt": "2026-08-14T09:55:36.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -453,7 +355,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-13T02:38:37.815Z",
+      "discoveredAt": "2026-08-13T04:30:46.269Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -489,9 +391,9 @@
       ],
       "publishedAt": "2026-08-11T06:28:38.000Z",
       "lastUpdated": "2026-08-11T06:28:38.000Z",
-      "sourceCheckedAt": "2026-08-13T02:38:37.815Z",
-      "lastVerifiedAt": "2026-08-13T02:38:37.815Z",
-      "intelligenceGeneratedAt": "2026-08-13T02:38:56.372Z",
+      "sourceCheckedAt": "2026-08-13T04:30:46.269Z",
+      "lastVerifiedAt": "2026-08-13T04:30:46.269Z",
+      "intelligenceGeneratedAt": "2026-08-13T04:31:01.116Z",
       "expiresAt": "2026-08-13T06:28:38.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -504,7 +406,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-13T02:38:37.815Z",
+      "discoveredAt": "2026-08-13T04:30:46.269Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -538,9 +440,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-12T10:45:35.000Z",
       "lastUpdated": "2026-08-12T10:45:35.000Z",
-      "sourceCheckedAt": "2026-08-13T02:38:37.815Z",
-      "lastVerifiedAt": "2026-08-13T02:38:37.815Z",
-      "intelligenceGeneratedAt": "2026-08-13T02:38:56.372Z",
+      "sourceCheckedAt": "2026-08-13T04:30:46.269Z",
+      "lastVerifiedAt": "2026-08-13T04:30:46.269Z",
+      "intelligenceGeneratedAt": "2026-08-13T04:31:01.116Z",
       "expiresAt": "2026-08-14T10:45:35.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -553,7 +455,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-13T02:38:37.815Z",
+      "discoveredAt": "2026-08-13T04:30:46.269Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -566,24 +468,6 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
-      {
-        "id": "accident-developing-mishap-victim-declared-brain-dead-gives-4-a-fresh-lease-of-life-2026-0",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "transport-disruption-developing-delhi-pune-spicejet-flight-cancelled-as-ac-snag-leaves-fly",
-        "category": "transport_disruption",
-        "severity": "advisory",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Public transport journeys may be cancelled or delayed."
-      },
       {
         "id": "accident-developing-two-killed-in-four-vehicle-crash-on-pune-ahilyanagar-highway-in-shirur",
         "category": "accident",
@@ -598,16 +482,16 @@
         "impact": "Traffic delays are likely near the incident location."
       },
       {
-        "id": "accident-developing-i-had-asked-him-not-to-go-pune-friends-mahabaleshwar-trip-ends-in-trag",
-        "category": "accident",
-        "severity": "watch",
+        "id": "transport-disruption-developing-delhi-pune-spicejet-flight-cancelled-as-ac-snag-leaves-fly",
+        "category": "transport_disruption",
+        "severity": "advisory",
         "localities": [],
         "talukas": [],
         "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
+        "impact": "Public transport journeys may be cancelled or delayed."
       },
       {
-        "id": "accident-developing-4-college-friends-killed-2-injured-after-suv-hits-divider-crashes-into",
+        "id": "accident-developing-i-had-asked-him-not-to-go-pune-friends-mahabaleshwar-trip-ends-in-trag",
         "category": "accident",
         "severity": "watch",
         "localities": [],
@@ -646,22 +530,72 @@
       }
     ]
   },
-  "expiredEvents": [],
+  "expiredEvents": [
+    {
+      "id": "accident-developing-4-college-friends-killed-2-injured-after-suv-hits-divider-crashes-into",
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "title": "Developing: 4 college friends killed, 2 injured after SUV hits divider, crashes into truck on Pune-Bengaluru highway",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPQUZnVGdGdW90d1E3UXRVWnR3MkZTZUJKS3ViczJyLTN5S3Z1TDhTSDdyd213eGRRd2tIMFdLV1YwcDZHdy0wY21vRGRuWjZEb3loaU92ZDd6TFhaTlY1X3pwdnh5TU9DOXlwWGlxQTVPRDYxeVZ1dC1kbElVZnNKbkx5TzRpT2h3V2MwTkMxb0dXVmVQZTA5bFlVZ2xkblNyZ0xWbHN4NjdnZzhrWWJXd2JmRUZmSnZsV0ZVdE9QUjdMNlRLNGtsbVFmaExOTm9VVUV4TWdLWkwzUXVaVE93MF9zQldLTVM4Rzk1MHVfcjlERGJLTzQtTVdzakM1eXQ4UkhqOWhLbDZUQdIBjwJBVV95cUxONFRpUWJDR0s3bHZ0UG9RbThfREY0YjNBNC14blM2bHllZFpOTV81ZkxiX1dSMkg4ZHVMaFg1bWViVE9zQk1uVU1GWHpqTHJObEdlS0lmVkY0MjNJN0ZOSF9kSFRVNU5nNG5wTnUtZ3V3OTZUWWs2bjM2VVB5V2VWTUN4MG1iX2xaNFRDUUsyQVlwSHJFeHNzRFdjY1R0djB2aUFVVllveXk4b2lIcm5KaHlwYmVyQkdPd3N3Q29tMVZfRWRJOG9nd25XYXFuTVQtYXpXNG9SRTdfMGo3V19WS29RVlA0S0dlemlyUFF5TzRKUXJ4MU1UMzdZdnpjT1RMYVB0dHdBQ3czTy10UTRJ?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPQUZnVGdGdW90d1E3UXRVWnR3MkZTZUJKS3ViczJyLTN5S3Z1TDhTSDdyd213eGRRd2tIMFdLV1YwcDZHdy0wY21vRGRuWjZEb3loaU92ZDd6TFhaTlY1X3pwdnh5TU9DOXlwWGlxQTVPRDYxeVZ1dC1kbElVZnNKbkx5TzRpT2h3V2MwTkMxb0dXVmVQZTA5bFlVZ2xkblNyZ0xWbHN4NjdnZzhrWWJXd2JmRUZmSnZsV0ZVdE9QUjdMNlRLNGtsbVFmaExOTm9VVUV4TWdLWkwzUXVaVE93MF9zQldLTVM4Rzk1MHVfcjlERGJLTzQtTVdzakM1eXQ4UkhqOWhLbDZUQdIBjwJBVV95cUxONFRpUWJDR0s3bHZ0UG9RbThfREY0YjNBNC14blM2bHllZFpOTV81ZkxiX1dSMkg4ZHVMaFg1bWViVE9zQk1uVU1GWHpqTHJObEdlS0lmVkY0MjNJN0ZOSF9kSFRVNU5nNG5wTnUtZ3V3OTZUWWs2bjM2VVB5V2VWTUN4MG1iX2xaNFRDUUsyQVlwSHJFeHNzRFdjY1R0djB2aUFVVllveXk4b2lIcm5KaHlwYmVyQkdPd3N3Q29tMVZfRWRJOG9nd25XYXFuTVQtYXpXNG9SRTdfMGo3V19WS29RVlA0S0dlemlyUFF5TzRKUXJ4MU1UMzdZdnpjT1RMYVB0dHdBQ3czTy10UTRJ?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-11T03:45:00.000Z",
+      "lastUpdated": "2026-08-11T03:45:00.000Z",
+      "sourceCheckedAt": "2026-08-13T04:30:46.269Z",
+      "lastVerifiedAt": "2026-08-13T04:30:46.269Z",
+      "intelligenceGeneratedAt": "2026-08-13T04:31:01.116Z",
+      "expiresAt": "2026-08-13T03:45:00.000Z",
+      "lifecycle": "expired",
+      "confidence": "Low",
+      "confidenceScore": 35,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-864c5acc",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-08-13T04:30:46.269Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-13T02:38:37.815Z",
-      "lastSuccessfulAt": "2026-08-13T02:38:37.815Z",
+      "sourceCheckedAt": "2026-08-13T04:30:46.269Z",
+      "lastSuccessfulAt": "2026-08-13T04:30:46.269Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-13T02:38:56.457Z",
+      "generatedAt": "2026-08-13T04:31:01.678Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -674,7 +608,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-13T02:38:56.457Z",
+      "generatedAt": "2026-08-13T04:31:01.678Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -755,7 +689,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-13T02:38:56.457Z",
+      "generatedAt": "2026-08-13T04:31:01.678Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -800,7 +734,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-13T02:38:56.512Z",
+        "generatedAt": "2026-08-13T04:31:01.816Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -829,20 +763,18 @@
           "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 85,
-            "label": "Good to Go",
-            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-            "reasons": [
-              "Low visibility may make driving unsafe."
-            ],
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
             "penalties": []
           },
-          "estimatedTimeMin": 80,
-          "estimatedDelayMin": 8,
+          "estimatedTimeMin": 72,
+          "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Good to Go (85/100). Estimated travel time is about 80 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
         },
         "routes": [
           {
@@ -873,20 +805,18 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 85,
-              "label": "Good to Go",
-              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-              "reasons": [
-                "Low visibility may make driving unsafe."
-              ],
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
               "penalties": []
             },
-            "estimatedTimeMin": 80,
-            "estimatedDelayMin": 8,
+            "estimatedTimeMin": 72,
+            "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Good to Go (85/100). Estimated travel time is about 80 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
           },
           {
             "id": "kharadi-hinjawadi-nh48",
@@ -919,15 +849,13 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 5,
-              "label": "Avoid if Possible",
-              "recommendation": "Avoid this route if possible unless travel is essential.",
+              "score": 40,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
                 "Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur may cause delays or safety concerns.",
-                "Developing: 4 college friends killed, 2 injured after SUV hits divider, crashes into truck on Pune-Bengaluru highway may cause delays or safety concerns.",
                 "Developing: Four people killed after car rams into road divider on Pune-Satara highway: Police | Hindustan Times may cause delays or safety concerns.",
-                "Developing: Maharashtra: 14 school students and 5 teachers injured after bus loses control on highway in Pune may cause delays or safety concerns.",
-                "Low visibility may make driving unsafe."
+                "Developing: Maharashtra: 14 school students and 5 teachers injured after bus loses control on highway in Pune may cause delays or safety concerns."
               ],
               "penalties": [
                 {
@@ -935,12 +863,6 @@
                   "category": "accident",
                   "penalty": 20,
                   "title": "Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur"
-                },
-                {
-                  "eventId": "accident-developing-4-college-friends-killed-2-injured-after-suv-hits-divider-crashes-into",
-                  "category": "accident",
-                  "penalty": 20,
-                  "title": "Developing: 4 college friends killed, 2 injured after SUV hits divider, crashes into truck on Pune-Bengaluru highway"
                 },
                 {
                   "eventId": "accident-developing-four-people-killed-after-car-rams-into-road-divider-on-pune-satara-hig",
@@ -956,12 +878,12 @@
                 }
               ]
             },
-            "estimatedTimeMin": 110,
-            "estimatedDelayMin": 45,
+            "estimatedTimeMin": 90,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (5/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur may cause delays or safety concerns."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (40/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur may cause delays or safety concerns."
           }
         ]
       },
@@ -970,7 +892,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-13T02:38:56.512Z",
+        "generatedAt": "2026-08-13T04:31:01.816Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1000,12 +922,11 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 50,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 65,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News may significantly affect this route.",
-              "Low visibility may make driving unsafe."
+              "Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News may significantly affect this route."
             ],
             "penalties": [
               {
@@ -1016,12 +937,12 @@
               }
             ]
           },
-          "estimatedTimeMin": 120,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News may significantly affect this route."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News may significantly affect this route."
         },
         "routes": [
           {
@@ -1053,12 +974,11 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 50,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 65,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News may significantly affect this route.",
-                "Low visibility may make driving unsafe."
+                "Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News may significantly affect this route."
               ],
               "penalties": [
                 {
@@ -1069,12 +989,12 @@
                 }
               ]
             },
-            "estimatedTimeMin": 120,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 110,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News may significantly affect this route."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Developing: Pune-Mumbai Expressway traffic diversion for maintenance, repair work | India News may significantly affect this route."
           }
         ]
       },
@@ -1083,7 +1003,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-13T02:38:56.512Z",
+        "generatedAt": "2026-08-13T04:31:01.817Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -1112,20 +1032,18 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 85,
-            "label": "Good to Go",
-            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-            "reasons": [
-              "Low visibility may make driving unsafe."
-            ],
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
             "penalties": []
           },
-          "estimatedTimeMin": 43,
-          "estimatedDelayMin": 8,
+          "estimatedTimeMin": 35,
+          "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
         },
         "routes": [
           {
@@ -1156,20 +1074,18 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 85,
-              "label": "Good to Go",
-              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-              "reasons": [
-                "Low visibility may make driving unsafe."
-              ],
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
               "penalties": []
             },
-            "estimatedTimeMin": 43,
-            "estimatedDelayMin": 8,
+            "estimatedTimeMin": 35,
+            "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
           }
         ]
       }
