@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-12T23:59:24.995Z",
+  "generatedAt": "2026-08-13T02:38:56.372Z",
   "routes": [],
   "risks": [
     {
@@ -10,21 +10,6 @@
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "accident-developing-four-youths-killed-two-injured-in-road-accident-on-pune-satara-highway",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [
-        "Khandala"
-      ],
-      "talukas": [
-        "maval"
-      ],
-      "operationalZones": [
-        "Pune-Satara Highway"
-      ],
       "impact": "Traffic delays are likely near the incident location."
     },
     {
@@ -66,6 +51,15 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "road-closure-developing-pune-mumbai-expressway-traffic-diversion-for-maintenance-repair-wo",
+      "category": "road_closure",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Route may be blocked or diverted."
     },
     {
       "id": "accident-developing-four-people-killed-after-car-rams-into-road-divider-on-pune-satara-hig",
