@@ -1,8 +1,17 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-13T09:15:44.583Z",
+  "generatedAt": "2026-08-13T10:37:36.051Z",
   "routes": [],
   "risks": [
+    {
+      "id": "heavy-rain-official-moderate-rain-is-very-likely-to-occur-at-isolated-places-over-kolhapur",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
     {
       "id": "accident-developing-two-killed-in-four-vehicle-crash-on-pune-ahilyanagar-highway-in-shirur",
       "category": "accident",
@@ -24,15 +33,6 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "road-closure-developing-pune-mumbai-expressway-traffic-diversion-for-maintenance-repair-wo",
-      "category": "road_closure",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Route may be blocked or diverted."
     },
     {
       "id": "accident-developing-maharashtra-14-school-students-and-5-teachers-injured-after-bus-loses-",
