@@ -1,37 +1,17 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-13T04:31:01.116Z",
+  "generatedAt": "2026-08-13T06:06:30.173Z",
   "routes": [],
   "risks": [
     {
-      "id": "accident-developing-two-killed-in-four-vehicle-crash-on-pune-ahilyanagar-highway-in-shirur",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [
-        "Shirur"
-      ],
-      "talukas": [
-        "shirur"
-      ],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "transport-disruption-developing-delhi-pune-spicejet-flight-cancelled-as-ac-snag-leaves-fly",
-      "category": "transport_disruption",
-      "severity": "advisory",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Public transport journeys may be cancelled or delayed."
-    },
-    {
-      "id": "accident-developing-i-had-asked-him-not-to-go-pune-friends-mahabaleshwar-trip-ends-in-trag",
+      "id": "accident-developing-four-youths-killed-two-injured-in-road-accident-on-pune-satara-highway",
       "category": "accident",
       "severity": "watch",
       "localities": [],
       "talukas": [],
-      "operationalZones": [],
+      "operationalZones": [
+        "Pune-Satara Highway"
+      ],
       "impact": "Traffic delays are likely near the incident location."
     },
     {
@@ -42,17 +22,6 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Route may be blocked or diverted."
-    },
-    {
-      "id": "accident-developing-four-people-killed-after-car-rams-into-road-divider-on-pune-satara-hig",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [
-        "Pune-Satara Highway"
-      ],
-      "impact": "Traffic delays are likely near the incident location."
     },
     {
       "id": "accident-developing-maharashtra-14-school-students-and-5-teachers-injured-after-bus-loses-",
