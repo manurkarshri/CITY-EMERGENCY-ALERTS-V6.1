@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-14T15:36:19.283Z",
+  "generatedAt": "2026-08-14T16:34:17.953Z",
   "routes": [],
   "risks": [
     {
@@ -11,6 +11,15 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "infrastructure-failure-developing-road-cave-in-water-works-and-the-monsoon-infrastructure-",
+      "category": "infrastructure_failure",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Damaged infrastructure may create an immediate safety hazard and disrupt movement or essential services."
     },
     {
       "id": "structural-collapse-developing-moshi-building-collapse-victim-s-wife-dies-by-suicide-a-mon",
@@ -24,15 +33,6 @@
       ],
       "operationalZones": [],
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
-    },
-    {
-      "id": "infrastructure-failure-developing-road-cave-in-water-works-and-the-monsoon-infrastructure-",
-      "category": "infrastructure_failure",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Damaged infrastructure may create an immediate safety hazard and disrupt movement or essential services."
     }
   ]
 }
