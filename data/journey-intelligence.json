@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-14T10:17:53.546Z",
+  "generatedAt": "2026-08-14T11:20:37.067Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-14T10:17:53.545Z",
+      "generatedAt": "2026-08-14T11:20:37.066Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -127,12 +127,11 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 30,
-            "label": "Avoid if Possible",
-            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
               "Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur may cause delays or safety concerns.",
-              "Developing: Maharashtra: 14 school students and 5 teachers injured after bus loses control on highway in Pune may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
@@ -141,21 +140,15 @@
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur"
-              },
-              {
-                "eventId": "accident-developing-maharashtra-14-school-students-and-5-teachers-injured-after-bus-loses-",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Maharashtra: 14 school students and 5 teachers injured after bus loses control on highway in Pune"
               }
             ]
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 45,
+          "estimatedTimeMin": 90,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur may cause delays or safety concerns."
         }
       ]
     },
@@ -164,7 +157,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-14T10:17:53.546Z",
+      "generatedAt": "2026-08-14T11:20:37.067Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -261,7 +254,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-14T10:17:53.546Z",
+      "generatedAt": "2026-08-14T11:20:37.067Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
