@@ -1,8 +1,17 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-13T23:59:54.567Z",
+  "generatedAt": "2026-08-14T02:37:37.046Z",
   "routes": [],
   "risks": [
+    {
+      "id": "heavy-rain-official-light-to-moderate-rain-is-very-likely-to-occur-at-isolated-places-over",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
     {
       "id": "infrastructure-failure-developing-road-cave-in-water-works-and-the-monsoon-infrastructure-",
       "category": "infrastructure_failure",
@@ -13,13 +22,17 @@
       "impact": "Damaged infrastructure may create an immediate safety hazard and disrupt movement or essential services."
     },
     {
-      "id": "accident-developing-i-had-asked-him-not-to-go-pune-friends-mahabaleshwar-trip-ends-in-trag",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
+      "id": "structural-collapse-developing-moshi-building-collapse-victim-s-wife-dies-by-suicide-a-mon",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "localities": [
+        "Moshi"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
       "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
     },
     {
       "id": "accident-developing-two-killed-in-four-vehicle-crash-on-pune-ahilyanagar-highway-in-shirur",
@@ -35,22 +48,13 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "road-closure-developing-pune-mumbai-expressway-traffic-diversion-for-maintenance-repair-wo",
-      "category": "road_closure",
-      "severity": "warning",
+      "id": "accident-developing-i-had-asked-him-not-to-go-pune-friends-mahabaleshwar-trip-ends-in-trag",
+      "category": "accident",
+      "severity": "watch",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "Route may be blocked or diverted."
-    },
-    {
-      "id": "structural-collapse-developing-pune-building-collapse-victim-s-wife-dies-by-suicide-a-mont",
-      "category": "structural_collapse",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+      "impact": "Traffic delays are likely near the incident location."
     },
     {
       "id": "accident-developing-maharashtra-14-school-students-and-5-teachers-injured-after-bus-loses-",
