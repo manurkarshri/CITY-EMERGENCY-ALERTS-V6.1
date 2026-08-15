@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-15T05:53:51.070Z",
+  "generatedAt": "2026-08-15T06:42:33.061Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-15T05:53:51.070Z",
+      "generatedAt": "2026-08-15T06:42:33.061Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -146,7 +146,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-15T05:53:51.070Z",
+      "generatedAt": "2026-08-15T06:42:33.061Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -176,27 +176,18 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 85,
-          "label": "Good to Go",
-          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-          "reasons": [
-            "Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours. may have minor impact on travel."
-          ],
-          "penalties": [
-            {
-              "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
-              "category": "heavy_rain",
-              "penalty": 15,
-              "title": "Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours."
-            }
-          ]
+          "score": 100,
+          "label": "Excellent",
+          "recommendation": "Travel conditions look suitable.",
+          "reasons": [],
+          "penalties": []
         },
-        "estimatedTimeMin": 103,
-        "estimatedDelayMin": 8,
+        "estimatedTimeMin": 95,
+        "estimatedDelayMin": 0,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours. may have minor impact on travel."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
       },
       "routes": [
         {
@@ -228,27 +219,18 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 85,
-            "label": "Good to Go",
-            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-            "reasons": [
-              "Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours. may have minor impact on travel."
-            ],
-            "penalties": [
-              {
-                "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
-                "category": "heavy_rain",
-                "penalty": 15,
-                "title": "Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours."
-              }
-            ]
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
+            "penalties": []
           },
-          "estimatedTimeMin": 103,
-          "estimatedDelayMin": 8,
+          "estimatedTimeMin": 95,
+          "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours. may have minor impact on travel."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
         }
       ]
     },
@@ -257,7 +239,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-15T05:53:51.070Z",
+      "generatedAt": "2026-08-15T06:42:33.061Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
