@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-15T04:48:12.567Z",
+  "generatedAt": "2026-08-15T05:27:55.816Z",
   "status": "stale",
   "situation": {
-    "snapshot": "2 important alerts require attention.",
+    "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-08-15T04:48:12.627Z",
+      "generatedAt": "2026-08-15T05:27:55.877Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,20 +13,20 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-15T04:47:57.708Z",
-          "observedAt": "2026-08-15T10:15:00+05:30",
-          "temp": 25.2,
-          "currentRain": 0.1,
+          "sourceCheckedAt": "2026-08-15T05:27:40.061Z",
+          "observedAt": "2026-08-15T10:45:00+05:30",
+          "temp": 25.6,
+          "currentRain": 0,
           "rain6h": 4,
           "rain24h": 4.5,
           "precipitationProbability": 100,
-          "wind": 39.2,
-          "gust": 39.2,
-          "humidity": 77,
+          "wind": 41.4,
+          "gust": 41.4,
+          "humidity": 76,
           "visibility": 3.7,
           "weatherCode": 51,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Low",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -40,16 +40,16 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-15T04:47:57.708Z",
-          "observedAt": "2026-08-15T10:15:00+05:30",
-          "temp": 25.3,
+          "sourceCheckedAt": "2026-08-15T05:27:40.061Z",
+          "observedAt": "2026-08-15T10:45:00+05:30",
+          "temp": 25.7,
           "currentRain": 0.1,
           "rain6h": 2,
           "rain24h": 2.3,
           "precipitationProbability": 100,
-          "wind": 40.3,
-          "gust": 40.3,
-          "humidity": 78,
+          "wind": 42.8,
+          "gust": 42.8,
+          "humidity": 77,
           "visibility": 5.1,
           "weatherCode": 51,
           "rainRisk": "Low",
@@ -67,20 +67,20 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-15T04:47:57.708Z",
-          "observedAt": "2026-08-15T10:15:00+05:30",
-          "temp": 25.2,
-          "currentRain": 0.1,
+          "sourceCheckedAt": "2026-08-15T05:27:40.061Z",
+          "observedAt": "2026-08-15T10:45:00+05:30",
+          "temp": 25.6,
+          "currentRain": 0,
           "rain6h": 4,
           "rain24h": 4.5,
           "precipitationProbability": 100,
-          "wind": 39.2,
-          "gust": 39.2,
-          "humidity": 77,
+          "wind": 41.4,
+          "gust": 41.4,
+          "humidity": 76,
           "visibility": 3.7,
           "weatherCode": 51,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Low",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -94,16 +94,16 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-15T04:47:57.708Z",
-          "observedAt": "2026-08-15T10:15:00+05:30",
-          "temp": 22.5,
+          "sourceCheckedAt": "2026-08-15T05:27:40.061Z",
+          "observedAt": "2026-08-15T10:45:00+05:30",
+          "temp": 22.8,
           "currentRain": 0.1,
           "rain6h": 7.5,
           "rain24h": 14.8,
           "precipitationProbability": 100,
-          "wind": 33.8,
-          "gust": 33.8,
-          "humidity": 96,
+          "wind": 36.7,
+          "gust": 36.7,
+          "humidity": 95,
           "visibility": 2.2,
           "weatherCode": 51,
           "rainRisk": "Low",
@@ -121,18 +121,18 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-15T04:47:57.708Z",
-          "observedAt": "2026-08-15T10:15:00+05:30",
+          "sourceCheckedAt": "2026-08-15T05:27:40.061Z",
+          "observedAt": "2026-08-15T10:45:00+05:30",
           "temp": 23.7,
-          "currentRain": 0,
+          "currentRain": 0.1,
           "rain6h": 13.8,
           "rain24h": 25.8,
           "precipitationProbability": 100,
-          "wind": 41,
-          "gust": 41,
+          "wind": 43.6,
+          "gust": 43.6,
           "humidity": 88,
           "visibility": 1.5,
-          "weatherCode": 3,
+          "weatherCode": 80,
           "rainRisk": "Low",
           "windRisk": "Medium",
           "visibilityRisk": "Medium",
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-15T04:48:12.652Z",
+      "generatedAt": "2026-08-15T05:27:55.894Z",
       "riskLevel": "Normal",
       "impacts": [
         "1 active transport-related event(s) may affect travel."
@@ -155,7 +155,57 @@
       "seasonalContext": "monsoon"
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours.",
+      "summary": "Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "source": "NDMA SACHET (IMD-Mumbai)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (IMD-Mumbai)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786769916242029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786769916242029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-15T04:39:43.000Z",
+      "lastUpdated": "2026-08-15T04:39:43.000Z",
+      "sourceCheckedAt": "2026-08-15T05:27:41.524Z",
+      "lastVerifiedAt": "2026-08-15T05:27:41.524Z",
+      "intelligenceGeneratedAt": "2026-08-15T05:27:55.816Z",
+      "expiresAt": "2026-08-15T07:30:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Mumbai, Mumbai Suburban, Pune, Raigad, Ratnagiri, Satara, Thane districts of Maharashtra",
+      "upstreamId": "IN-1786769916242029_46",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Alert",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "incidents": [
     {
       "id": "flood-developing-pmc-to-raise-1-167-crore-for-infra-projects-in-merged-villages-2026-08-15",
@@ -181,9 +231,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-15T02:37:00.000Z",
       "lastUpdated": "2026-08-15T02:37:00.000Z",
-      "sourceCheckedAt": "2026-08-15T04:47:58.343Z",
-      "lastVerifiedAt": "2026-08-15T04:47:58.343Z",
-      "intelligenceGeneratedAt": "2026-08-15T04:48:12.567Z",
+      "sourceCheckedAt": "2026-08-15T05:27:41.524Z",
+      "lastVerifiedAt": "2026-08-15T05:27:41.524Z",
+      "intelligenceGeneratedAt": "2026-08-15T05:27:55.816Z",
       "expiresAt": "2026-08-15T14:37:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -230,9 +280,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-15T02:34:20.000Z",
       "lastUpdated": "2026-08-15T02:34:20.000Z",
-      "sourceCheckedAt": "2026-08-15T04:47:58.343Z",
-      "lastVerifiedAt": "2026-08-15T04:47:58.343Z",
-      "intelligenceGeneratedAt": "2026-08-15T04:48:12.567Z",
+      "sourceCheckedAt": "2026-08-15T05:27:41.524Z",
+      "lastVerifiedAt": "2026-08-15T05:27:41.524Z",
+      "intelligenceGeneratedAt": "2026-08-15T05:27:55.816Z",
       "expiresAt": "2026-08-16T02:34:20.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -254,7 +304,40 @@
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
-    },
+    }
+  ],
+  "journeyContext": {
+    "activeRiskEvents": [
+      {
+        "id": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
+        "category": "heavy_rain",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "This event may affect local awareness or movement."
+      },
+      {
+        "id": "flood-developing-pmc-to-raise-1-167-crore-for-infra-projects-in-merged-villages-2026-08-15",
+        "category": "flood",
+        "severity": "warning",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "This event may affect local awareness or movement."
+      },
+      {
+        "id": "accident-developing-mact-awards-64-37-lakh-to-family-of-man-killed-in-msrtc-bus-accident-2",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      }
+    ]
+  },
+  "expiredEvents": [
     {
       "id": "structural-collapse-developing-moshi-building-collapse-victim-s-wife-dies-by-suicide-a-mon",
       "eventKind": "incident",
@@ -289,11 +372,11 @@
       "operationalZones": [],
       "publishedAt": "2026-08-13T17:21:00.000Z",
       "lastUpdated": "2026-08-13T17:21:00.000Z",
-      "sourceCheckedAt": "2026-08-15T04:47:58.343Z",
-      "lastVerifiedAt": "2026-08-15T04:47:58.343Z",
-      "intelligenceGeneratedAt": "2026-08-15T04:48:12.567Z",
+      "sourceCheckedAt": "2026-08-15T05:27:41.524Z",
+      "lastVerifiedAt": "2026-08-15T05:27:41.524Z",
+      "intelligenceGeneratedAt": "2026-08-15T05:27:55.816Z",
       "expiresAt": "2026-08-15T05:21:00.000Z",
-      "lifecycle": "developing",
+      "lifecycle": "expired",
       "confidence": "Medium",
       "confidenceScore": 75,
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
@@ -304,7 +387,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-15T04:47:58.343Z",
+      "discoveredAt": "2026-08-15T05:27:41.524Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -317,209 +400,21 @@
       "corroboratedByIndependentSources": true
     }
   ],
-  "journeyContext": {
-    "activeRiskEvents": [
-      {
-        "id": "flood-developing-pmc-to-raise-1-167-crore-for-infra-projects-in-merged-villages-2026-08-15",
-        "category": "flood",
-        "severity": "warning",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "This event may affect local awareness or movement."
-      },
-      {
-        "id": "accident-developing-mact-awards-64-37-lakh-to-family-of-man-killed-in-msrtc-bus-accident-2",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "structural-collapse-developing-moshi-building-collapse-victim-s-wife-dies-by-suicide-a-mon",
-        "category": "structural_collapse",
-        "severity": "warning",
-        "localities": [
-          "Moshi"
-        ],
-        "talukas": [
-          "pcmc"
-        ],
-        "operationalZones": [],
-        "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
-      }
-    ]
-  },
-  "expiredEvents": [
-    {
-      "id": "accident-developing-two-killed-in-four-vehicle-crash-on-pune-ahilyanagar-highway-in-shirur",
-      "eventKind": "incident",
-      "sourceId": "indian_express_pune",
-      "title": "Developing: Two killed in four vehicle crash on Pune-Ahilyanagar Highway in Shirur",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Indian Express Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY1FDcU8yLU9XeDZFdzUxWk90eW5hT2pFVDRiQ2JuV3p6V21XRy13Nklsb1o2ckJpd1R6MXo5MWZPVnZFZlpxY1NJRDV6d0ZtMk1ybkxjNjlSbHJKakhaSEJJZ20zU29IUG5SX3dDRE8xd3VzNks1YjNteGV4Vy1saUViNi1USWVhUEdBU2l2T0VGTjBNLU05LVdMQ0pZcm1pQ2NROVdfZzRDX2dBaURxeUxMcm9PXzBHRlHSAcABQVVfeXFMUE5pb0RMc2psRFN0TVRnMm1TUGt1NGxMOVlGSXhCTEZxNDJBQjNiTWJUSW93Y3FVRWk3d0VPeXFlVHl6TU1Vd3FEOE1sNDVoRW5kbUZ4eVEyd3ZDRjZtZG5lRlIzQ2p2a0JVSXJLeC1UZmlDemF5eEZuN0YzSllUWEdRV0t1dFBlcFM1S2Uya0pSNTNBWVU2RnFOOGl4bW5oZ1NMekViQmJ4dUU3N1lZU2xfRmxnb09SdVRKY0pkS3lN?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY1FDcU8yLU9XeDZFdzUxWk90eW5hT2pFVDRiQ2JuV3p6V21XRy13Nklsb1o2ckJpd1R6MXo5MWZPVnZFZlpxY1NJRDV6d0ZtMk1ybkxjNjlSbHJKakhaSEJJZ20zU29IUG5SX3dDRE8xd3VzNks1YjNteGV4Vy1saUViNi1USWVhUEdBU2l2T0VGTjBNLU05LVdMQ0pZcm1pQ2NROVdfZzRDX2dBaURxeUxMcm9PXzBHRlHSAcABQVVfeXFMUE5pb0RMc2psRFN0TVRnMm1TUGt1NGxMOVlGSXhCTEZxNDJBQjNiTWJUSW93Y3FVRWk3d0VPeXFlVHl6TU1Vd3FEOE1sNDVoRW5kbUZ4eVEyd3ZDRjZtZG5lRlIzQ2p2a0JVSXJLeC1UZmlDemF5eEZuN0YzSllUWEdRV0t1dFBlcFM1S2Uya0pSNTNBWVU2RnFOOGl4bW5oZ1NMekViQmJ4dUU3N1lZU2xfRmxnb09SdVRKY0pkS3lN?oc=5",
-      "talukas": [
-        "shirur"
-      ],
-      "localities": [
-        "Shirur"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-08-12T15:02:17.000Z",
-      "lastUpdated": "2026-08-12T15:02:17.000Z",
-      "sourceCheckedAt": "2026-08-15T04:47:58.343Z",
-      "lastVerifiedAt": "2026-08-15T04:47:58.343Z",
-      "intelligenceGeneratedAt": "2026-08-15T04:48:12.567Z",
-      "expiresAt": "2026-08-14T15:02:17.000Z",
-      "lifecycle": "expired",
-      "confidence": "Medium",
-      "confidenceScore": 55,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Shirur",
-      "upstreamId": "google-news-855207b2",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-08-15T04:47:58.343Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "transport-disruption-developing-delhi-pune-spicejet-flight-cancelled-as-ac-snag-leaves-fly",
-      "eventKind": "incident",
-      "sourceId": "indian_express_pune",
-      "title": "Developing: Delhi-Pune SpiceJet flight cancelled as AC snag leaves flyers ‘suffocating’",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "transport_disruption",
-      "severity": "advisory",
-      "source": "Indian Express Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWHhKZTNqaFdvUFg0RGVqOVNITDNsT1RkS25rOWlYdnJ4VGxmMThzaEdULVdUY3R6d19sZjNuQUVyaWdGMW1SeTUwRUUyOU1NQXlCUHRhbURtTnBjQ1RqYWsySVhVSEZ0SkJORFJMdHFWTDlmcnU3QWhVYnJ1RWkxSUJmZmdLaWdhSE1EbFdnT1RkS0U1bmlsUklCNzRMNzhxMTg0MEl1UEtqZ9IBsAFBVV95cUxNNHF2a0d6RzhCcHZ1TGlyTUd0YllBOUxad1BQcVQ2UFN2aXdOUmF6ems1SmlJdTVjV3EyMVFlWVNpNkN2aHdUcExEdXdZRWlpTFI5b05YWl9rUG00cndYMUgwU1dmWU40N1ZFN19zSXJUOEZrOWJzS1hhYkotVUswU21CcnBsVHRsSzI0NzRWdnpNcVR5YTBsTGFtV0hHOW5zd3h2ZUZQanY1OEs4dFhWag?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWHhKZTNqaFdvUFg0RGVqOVNITDNsT1RkS25rOWlYdnJ4VGxmMThzaEdULVdUY3R6d19sZjNuQUVyaWdGMW1SeTUwRUUyOU1NQXlCUHRhbURtTnBjQ1RqYWsySVhVSEZ0SkJORFJMdHFWTDlmcnU3QWhVYnJ1RWkxSUJmZmdLaWdhSE1EbFdnT1RkS0U1bmlsUklCNzRMNzhxMTg0MEl1UEtqZ9IBsAFBVV95cUxNNHF2a0d6RzhCcHZ1TGlyTUd0YllBOUxad1BQcVQ2UFN2aXdOUmF6ems1SmlJdTVjV3EyMVFlWVNpNkN2aHdUcExEdXdZRWlpTFI5b05YWl9rUG00cndYMUgwU1dmWU40N1ZFN19zSXJUOEZrOWJzS1hhYkotVUswU21CcnBsVHRsSzI0NzRWdnpNcVR5YTBsTGFtV0hHOW5zd3h2ZUZQanY1OEs4dFhWag?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-12T08:06:12.000Z",
-      "lastUpdated": "2026-08-12T08:06:12.000Z",
-      "sourceCheckedAt": "2026-08-15T04:47:58.343Z",
-      "lastVerifiedAt": "2026-08-15T04:47:58.343Z",
-      "intelligenceGeneratedAt": "2026-08-15T04:48:12.567Z",
-      "expiresAt": "2026-08-13T08:06:12.000Z",
-      "lifecycle": "expired",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Public transport journeys may be cancelled or delayed.",
-      "recommendedAction": "Confirm service status and keep an alternative journey available.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-b13dfc0f",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-08-15T04:47:58.343Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-i-had-asked-him-not-to-go-pune-friends-mahabaleshwar-trip-ends-in-trag",
-      "eventKind": "incident",
-      "sourceId": "indian_express_pune",
-      "title": "Developing: ‘I had asked him not to go’: Pune friends’ Mahabaleshwar trip ends in tragedy as 4 killed in Satara accident",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Indian Express Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUUM0cFNiX3NXSHdFVWRZTUNIS0hOdHdVRUJQOE9uSm9Fb0dlVEhrNUlXeWp2SWprSk5rN3h2Nng1NDdlaWY3elN6ZkFqb2NIQ09kaFBwV0tBWVMtQklqZnllaGZwQU01SG81ZDNRNHp2djRQMUpyaGFVYzlfYVp6czBBYVNfcldXRmpJSTB3eGkwbkt2VzFNNUYxckJWcDJWakZRajhpekRuRm9qVHpRd2hSY2psZF9zMXRVZkdNdkFYU1Bt0gHLAUFVX3lxTE5nTFdmcGhHQ1EwdE5sc1ZRcVpOc3AxeEFjS2pIUTVNYXNrZ3BEMDJuZU5Pb0dNaGdlVlNmblNQaWNfMURsaTVXUnpRQUJ2Q1Rlc29LWjB5OE1SZFplQWN0ZmJSTWRmX1JxTGpFd2kwdEZUOWQ3dTVwMlNPOUhkekd1c2t6b0pORVM1WnIxbXBjVUhweXNGbi1OVVl5RmE4WEx1TXJ2Y0NDelBudE0tdUtydURnQ2JlTFY5c3UzdUliOElQbkpQZzlfaG9B?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUUM0cFNiX3NXSHdFVWRZTUNIS0hOdHdVRUJQOE9uSm9Fb0dlVEhrNUlXeWp2SWprSk5rN3h2Nng1NDdlaWY3elN6ZkFqb2NIQ09kaFBwV0tBWVMtQklqZnllaGZwQU01SG81ZDNRNHp2djRQMUpyaGFVYzlfYVp6czBBYVNfcldXRmpJSTB3eGkwbkt2VzFNNUYxckJWcDJWakZRajhpekRuRm9qVHpRd2hSY2psZF9zMXRVZkdNdkFYU1Bt0gHLAUFVX3lxTE5nTFdmcGhHQ1EwdE5sc1ZRcVpOc3AxeEFjS2pIUTVNYXNrZ3BEMDJuZU5Pb0dNaGdlVlNmblNQaWNfMURsaTVXUnpRQUJ2Q1Rlc29LWjB5OE1SZFplQWN0ZmJSTWRmX1JxTGpFd2kwdEZUOWQ3dTVwMlNPOUhkekd1c2t6b0pORVM1WnIxbXBjVUhweXNGbi1OVVl5RmE4WEx1TXJ2Y0NDelBudE0tdUtydURnQ2JlTFY5c3UzdUliOElQbkpQZzlfaG9B?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-12T09:22:20.000Z",
-      "lastUpdated": "2026-08-12T09:22:20.000Z",
-      "sourceCheckedAt": "2026-08-15T04:47:58.343Z",
-      "lastVerifiedAt": "2026-08-15T04:47:58.343Z",
-      "intelligenceGeneratedAt": "2026-08-15T04:48:12.567Z",
-      "expiresAt": "2026-08-14T09:22:20.000Z",
-      "lifecycle": "expired",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-f4b4b29c",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-08-15T04:47:58.343Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-15T04:47:58.343Z",
-      "lastSuccessfulAt": "2026-08-15T04:47:58.343Z",
+      "sourceCheckedAt": "2026-08-15T05:27:41.524Z",
+      "lastSuccessfulAt": "2026-08-15T05:27:41.524Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-15T04:48:12.652Z",
+      "generatedAt": "2026-08-15T05:27:55.894Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -532,7 +427,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-15T04:48:12.651Z",
+      "generatedAt": "2026-08-15T05:27:55.893Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -613,7 +508,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-15T04:48:12.652Z",
+      "generatedAt": "2026-08-15T05:27:55.894Z",
       "mode": "on-demand",
       "relevantDomains": [
         "bridges",
@@ -659,7 +554,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-15T04:48:12.706Z",
+        "generatedAt": "2026-08-15T05:27:55.956Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -797,7 +692,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-15T04:48:12.707Z",
+        "generatedAt": "2026-08-15T05:27:55.957Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -827,18 +722,27 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "reasons": [
+              "Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours. may have minor impact on travel."
+            ],
+            "penalties": [
+              {
+                "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
+                "category": "heavy_rain",
+                "penalty": 15,
+                "title": "Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours."
+              }
+            ]
           },
-          "estimatedTimeMin": 95,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 103,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours. may have minor impact on travel."
         },
         "routes": [
           {
@@ -870,18 +774,27 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
-              "penalties": []
+              "score": 85,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+              "reasons": [
+                "Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours. may have minor impact on travel."
+              ],
+              "penalties": [
+                {
+                  "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
+                  "category": "heavy_rain",
+                  "penalty": 15,
+                  "title": "Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours."
+                }
+              ]
             },
-            "estimatedTimeMin": 95,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 103,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Official: Light to moderate spells of rain very likely to occur at isolated places over Mumbai, Mumbai Suburban, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Thane in next 3 hours. may have minor impact on travel."
           }
         ]
       },
@@ -890,7 +803,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-15T04:48:12.707Z",
+        "generatedAt": "2026-08-15T05:27:55.957Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
