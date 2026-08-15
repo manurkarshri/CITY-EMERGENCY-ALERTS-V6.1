@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-15T13:52:43.913Z",
+  "generatedAt": "2026-08-15T14:25:58.913Z",
   "status": "stale",
   "situation": {
     "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-08-15T13:52:43.969Z",
+      "generatedAt": "2026-08-15T14:25:58.971Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-15T13:52:44.259Z",
+      "generatedAt": "2026-08-15T14:25:59.006Z",
       "riskLevel": "Normal",
       "impacts": [
         "1 active transport-related event(s) may affect travel."
@@ -155,57 +155,7 @@
       "seasonalContext": "monsoon"
     }
   },
-  "alerts": [
-    {
-      "id": "heavy-rain-official-light-rain-is-very-likely-to-occur-at-isolated-places-over-ahilyanagar",
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "title": "Official: Light Rain is very likely to occur at isolated places over Ahilyanagar, Ghat areas of Kolhapur, Nashik, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Sindhudurg, Thane in next 3 hours.",
-      "summary": "Light Rain is very likely to occur at isolated places over Ahilyanagar, Ghat areas of Kolhapur, Nashik, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Sindhudurg, Thane in next 3 hours.",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "source": "NDMA SACHET (IMD-Mumbai)",
-      "sourceTrust": "A+",
-      "sources": [
-        {
-          "name": "NDMA SACHET (IMD-Mumbai)",
-          "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786800706467029",
-          "origin": ""
-        }
-      ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786800706467029",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-15T13:31:04.000Z",
-      "lastUpdated": "2026-08-15T13:31:04.000Z",
-      "sourceCheckedAt": "2026-08-15T13:52:29.013Z",
-      "lastVerifiedAt": "2026-08-15T13:52:29.013Z",
-      "intelligenceGeneratedAt": "2026-08-15T13:52:43.913Z",
-      "expiresAt": "2026-08-15T16:30:00.000Z",
-      "lifecycle": "active",
-      "confidence": "Medium",
-      "confidenceScore": 65,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Ahilyanagar, Kolhapur, Nashik, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Thane districts of Maharashtra",
-      "upstreamId": "IN-1786800706467029_46",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "Alert",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
+  "alerts": [],
   "incidents": [
     {
       "id": "flood-developing-pmc-to-raise-1-167-crore-for-infra-projects-in-merged-villages-2026-08-15",
@@ -231,9 +181,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-15T02:37:00.000Z",
       "lastUpdated": "2026-08-15T02:37:00.000Z",
-      "sourceCheckedAt": "2026-08-15T13:52:29.013Z",
-      "lastVerifiedAt": "2026-08-15T13:52:29.013Z",
-      "intelligenceGeneratedAt": "2026-08-15T13:52:43.913Z",
+      "sourceCheckedAt": "2026-08-15T14:25:43.815Z",
+      "lastVerifiedAt": "2026-08-15T14:25:43.815Z",
+      "intelligenceGeneratedAt": "2026-08-15T14:25:58.913Z",
       "expiresAt": "2026-08-15T14:37:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -280,9 +230,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-15T02:34:20.000Z",
       "lastUpdated": "2026-08-15T02:34:20.000Z",
-      "sourceCheckedAt": "2026-08-15T13:52:29.013Z",
-      "lastVerifiedAt": "2026-08-15T13:52:29.013Z",
-      "intelligenceGeneratedAt": "2026-08-15T13:52:43.913Z",
+      "sourceCheckedAt": "2026-08-15T14:25:43.815Z",
+      "lastVerifiedAt": "2026-08-15T14:25:43.815Z",
+      "intelligenceGeneratedAt": "2026-08-15T14:25:58.913Z",
       "expiresAt": "2026-08-16T02:34:20.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -308,15 +258,6 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
-      {
-        "id": "heavy-rain-official-light-rain-is-very-likely-to-occur-at-isolated-places-over-ahilyanagar",
-        "category": "heavy_rain",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "This event may affect local awareness or movement."
-      },
       {
         "id": "flood-developing-pmc-to-raise-1-167-crore-for-infra-projects-in-merged-villages-2026-08-15",
         "category": "flood",
@@ -362,9 +303,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-13T10:34:00.000Z",
       "lastUpdated": "2026-08-13T10:34:00.000Z",
-      "sourceCheckedAt": "2026-08-15T13:52:29.013Z",
-      "lastVerifiedAt": "2026-08-15T13:52:29.013Z",
-      "intelligenceGeneratedAt": "2026-08-15T13:52:43.913Z",
+      "sourceCheckedAt": "2026-08-15T14:25:43.815Z",
+      "lastVerifiedAt": "2026-08-15T14:25:43.815Z",
+      "intelligenceGeneratedAt": "2026-08-15T14:25:58.913Z",
       "expiresAt": "2026-08-14T22:34:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -377,7 +318,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-15T13:52:29.013Z",
+      "discoveredAt": "2026-08-15T14:25:43.815Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -415,9 +356,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-12T15:02:17.000Z",
       "lastUpdated": "2026-08-12T15:02:17.000Z",
-      "sourceCheckedAt": "2026-08-15T13:52:29.013Z",
-      "lastVerifiedAt": "2026-08-15T13:52:29.013Z",
-      "intelligenceGeneratedAt": "2026-08-15T13:52:43.913Z",
+      "sourceCheckedAt": "2026-08-15T14:25:43.815Z",
+      "lastVerifiedAt": "2026-08-15T14:25:43.815Z",
+      "intelligenceGeneratedAt": "2026-08-15T14:25:58.913Z",
       "expiresAt": "2026-08-14T15:02:17.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -430,7 +371,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-15T13:52:29.013Z",
+      "discoveredAt": "2026-08-15T14:25:43.815Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -474,9 +415,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-13T16:49:24.000Z",
       "lastUpdated": "2026-08-13T16:49:24.000Z",
-      "sourceCheckedAt": "2026-08-15T13:52:29.013Z",
-      "lastVerifiedAt": "2026-08-15T13:52:29.013Z",
-      "intelligenceGeneratedAt": "2026-08-15T13:52:43.913Z",
+      "sourceCheckedAt": "2026-08-15T14:25:43.815Z",
+      "lastVerifiedAt": "2026-08-15T14:25:43.815Z",
+      "intelligenceGeneratedAt": "2026-08-15T14:25:58.913Z",
       "expiresAt": "2026-08-15T04:49:24.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -489,7 +430,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-15T13:52:29.013Z",
+      "discoveredAt": "2026-08-15T14:25:43.815Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -508,15 +449,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-15T13:52:29.013Z",
-      "lastSuccessfulAt": "2026-08-15T13:52:29.013Z",
+      "sourceCheckedAt": "2026-08-15T14:25:43.815Z",
+      "lastSuccessfulAt": "2026-08-15T14:25:43.815Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-15T13:52:44.259Z",
+      "generatedAt": "2026-08-15T14:25:59.006Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -529,7 +470,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-15T13:52:44.258Z",
+      "generatedAt": "2026-08-15T14:25:59.005Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -610,7 +551,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-15T13:52:44.259Z",
+      "generatedAt": "2026-08-15T14:25:59.006Z",
       "mode": "on-demand",
       "relevantDomains": [
         "bridges",
@@ -656,33 +597,36 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-15T13:52:44.314Z",
+        "generatedAt": "2026-08-15T14:25:59.068Z",
         "bestRoute": {
-          "id": "kharadi-hinjawadi-pashan",
-          "label": "Kharadi to Hinjawadi via Pashan",
+          "id": "kharadi-hinjawadi-nh48",
+          "label": "Kharadi to Hinjawadi via NH48",
           "fromAliases": [
             "Kharadi",
-            "EON"
+            "EON",
+            "World Trade Center"
           ],
           "toAliases": [
             "Hinjawadi",
-            "Hinjewadi"
+            "Hinjewadi",
+            "Rajiv Gandhi Infotech Park"
           ],
           "via": [
             "Kharadi",
-            "Yerwada",
-            "Aundh",
-            "Pashan",
-            "Mahalunge",
+            "Viman Nagar",
+            "Shivajinagar",
+            "Baner",
+            "Wakad",
             "Hinjawadi"
           ],
           "operationalZones": [
-            "Pashan Road",
+            "Pune-Ahmednagar Highway",
+            "NH48",
             "IT Corridor"
           ],
-          "distanceKm": 36,
-          "baseTimeMin": 72,
-          "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
+          "distanceKm": 33,
+          "baseTimeMin": 65,
+          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
             "score": 70,
@@ -693,14 +637,60 @@
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 87,
+          "estimatedTimeMin": 80,
           "estimatedDelayMin": 15,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
+          {
+            "id": "kharadi-hinjawadi-nh48",
+            "label": "Kharadi to Hinjawadi via NH48",
+            "fromAliases": [
+              "Kharadi",
+              "EON",
+              "World Trade Center"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi",
+              "Rajiv Gandhi Infotech Park"
+            ],
+            "via": [
+              "Kharadi",
+              "Viman Nagar",
+              "Shivajinagar",
+              "Baner",
+              "Wakad",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pune-Ahmednagar Highway",
+              "NH48",
+              "IT Corridor"
+            ],
+            "distanceKm": 33,
+            "baseTimeMin": 65,
+            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 70,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
+              "reasons": [
+                "Low visibility may make driving unsafe."
+              ],
+              "penalties": []
+            },
+            "estimatedTimeMin": 80,
+            "estimatedDelayMin": 15,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          },
           {
             "id": "kharadi-hinjawadi-pashan",
             "label": "Kharadi to Hinjawadi via Pashan",
@@ -740,63 +730,9 @@
             "estimatedTimeMin": 87,
             "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
-            "rank": 1,
-            "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
-          },
-          {
-            "id": "kharadi-hinjawadi-nh48",
-            "label": "Kharadi to Hinjawadi via NH48",
-            "fromAliases": [
-              "Kharadi",
-              "EON",
-              "World Trade Center"
-            ],
-            "toAliases": [
-              "Hinjawadi",
-              "Hinjewadi",
-              "Rajiv Gandhi Infotech Park"
-            ],
-            "via": [
-              "Kharadi",
-              "Viman Nagar",
-              "Shivajinagar",
-              "Baner",
-              "Wakad",
-              "Hinjawadi"
-            ],
-            "operationalZones": [
-              "Pune-Ahmednagar Highway",
-              "NH48",
-              "IT Corridor"
-            ],
-            "distanceKm": 33,
-            "baseTimeMin": 65,
-            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 55,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
-              "reasons": [
-                "Official: Light Rain is very likely to occur at isolated places over Ahilyanagar, Ghat areas of Kolhapur, Nashik, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Sindhudurg, Thane in next 3 hours. may have minor impact on travel.",
-                "Low visibility may make driving unsafe."
-              ],
-              "penalties": [
-                {
-                  "eventId": "heavy-rain-official-light-rain-is-very-likely-to-occur-at-isolated-places-over-ahilyanagar",
-                  "category": "heavy_rain",
-                  "penalty": 15,
-                  "title": "Official: Light Rain is very likely to occur at isolated places over Ahilyanagar, Ghat areas of Kolhapur, Nashik, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Sindhudurg, Thane in next 3 hours."
-                }
-              ]
-            },
-            "estimatedTimeMin": 90,
-            "estimatedDelayMin": 25,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (55/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Official: Light Rain is very likely to occur at isolated places over Ahilyanagar, Ghat areas of Kolhapur, Nashik, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Sindhudurg, Thane in next 3 hours. may have minor impact on travel."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -805,7 +741,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-15T13:52:44.314Z",
+        "generatedAt": "2026-08-15T14:25:59.068Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -902,7 +838,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-15T13:52:44.314Z",
+        "generatedAt": "2026-08-15T14:25:59.068Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",

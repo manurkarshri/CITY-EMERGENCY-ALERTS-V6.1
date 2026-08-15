@@ -1,56 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-15T13:52:43.913Z",
+  "generatedAt": "2026-08-15T14:25:58.913Z",
   "sourceStatus": "stale",
-  "items": [
-    {
-      "id": "heavy-rain-official-light-rain-is-very-likely-to-occur-at-isolated-places-over-ahilyanagar",
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "title": "Official: Light Rain is very likely to occur at isolated places over Ahilyanagar, Ghat areas of Kolhapur, Nashik, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Sindhudurg, Thane in next 3 hours.",
-      "summary": "Light Rain is very likely to occur at isolated places over Ahilyanagar, Ghat areas of Kolhapur, Nashik, Ghat areas of Pune, Raigad, Ratnagiri, Ghat areas of Satara, Sindhudurg, Thane in next 3 hours.",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "source": "NDMA SACHET (IMD-Mumbai)",
-      "sourceTrust": "A+",
-      "sources": [
-        {
-          "name": "NDMA SACHET (IMD-Mumbai)",
-          "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786800706467029",
-          "origin": ""
-        }
-      ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1786800706467029",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-15T13:31:04.000Z",
-      "lastUpdated": "2026-08-15T13:31:04.000Z",
-      "sourceCheckedAt": "2026-08-15T13:52:29.013Z",
-      "lastVerifiedAt": "2026-08-15T13:52:29.013Z",
-      "intelligenceGeneratedAt": "2026-08-15T13:52:43.913Z",
-      "expiresAt": "2026-08-15T16:30:00.000Z",
-      "lifecycle": "active",
-      "confidence": "Medium",
-      "confidenceScore": 65,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Ahilyanagar, Kolhapur, Nashik, Pune, Raigad, Ratnagiri, Satara, Sindhudurg, Thane districts of Maharashtra",
-      "upstreamId": "IN-1786800706467029_46",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "Alert",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ]
+  "items": []
 }
