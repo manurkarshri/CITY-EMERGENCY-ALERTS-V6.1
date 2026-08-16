@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-08-16T14:00:25.776Z",
-  "lastSuccessfulAt": "2026-08-16T14:00:25.776Z",
+  "sourceCheckedAt": "2026-08-16T14:33:00.078Z",
+  "lastSuccessfulAt": "2026-08-16T14:33:00.078Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-16T14:00:25.776Z",
-      "lastSuccessfulAt": "2026-08-16T14:00:25.776Z",
+      "sourceCheckedAt": "2026-08-16T14:33:00.078Z",
+      "lastSuccessfulAt": "2026-08-16T14:33:00.078Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,8 +23,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-16T14:00:25.776Z",
-      "lastSuccessfulAt": "2026-08-16T14:00:25.776Z",
+      "sourceCheckedAt": "2026-08-16T14:33:00.078Z",
+      "lastSuccessfulAt": "2026-08-16T14:33:00.078Z",
       "error": null,
       "etag": "W/\"8417-1786887407348\"",
       "itemsCollected": 0
@@ -33,7 +33,7 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-16T14:00:25.776Z",
+      "sourceCheckedAt": "2026-08-16T14:33:00.078Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-16T14:00:25.776Z",
-      "lastSuccessfulAt": "2026-08-16T14:00:25.776Z",
+      "sourceCheckedAt": "2026-08-16T14:33:00.078Z",
+      "lastSuccessfulAt": "2026-08-16T14:33:00.078Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-16T14:00:25.776Z",
-      "lastSuccessfulAt": "2026-08-16T14:00:25.776Z",
+      "sourceCheckedAt": "2026-08-16T14:33:00.078Z",
+      "lastSuccessfulAt": "2026-08-16T14:33:00.078Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-16T14:00:25.776Z",
+      "sourceCheckedAt": "2026-08-16T14:33:00.078Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,8 +69,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-16T14:00:25.776Z",
-      "lastSuccessfulAt": "2026-08-16T13:33:55.666Z",
+      "sourceCheckedAt": "2026-08-16T14:33:00.078Z",
+      "lastSuccessfulAt": "2026-08-16T14:33:00.078Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -79,12 +79,44 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-16T14:00:25.776Z",
-      "lastSuccessfulAt": "2026-08-16T14:00:25.776Z",
+      "sourceCheckedAt": "2026-08-16T14:33:00.078Z",
+      "lastSuccessfulAt": "2026-08-16T14:33:00.078Z",
       "error": null,
-      "itemsCollected": 0,
-      "itemsQualified": 0
+      "itemsCollected": 1,
+      "itemsQualified": 1
     }
   ],
-  "items": []
+  "items": [
+    {
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "collectionSourceId": "google_news_discovery",
+      "upstreamId": "google-news-536c19eb",
+      "title": "Developing: Moshi building collapse victim’s wife dies by suicide a month later; family alleges in-law harassment",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQal9yMk0zek9CWGRQaTRyNllhbmVkbHlDbExncDJlRlFQZ2Q2djJOUDQwZ2RDR05ueUFiQmR5b0FhVWNaWGxRQ2NKU2hPNHFTZ05LYndsYS1FRjV4RFR2MEdFN0VzUEk4Nm5nOXFzdXlYQ1otZFJ3N2RxTXRtZ0FiMWU3b1A2M3VKcnczNGVob1hsUE1hX1JGc1oxX0wtZjUtandNbGk2dDdhamltdmRjM29LLWVyc1VDTDNCUmNLUnlhWFFWbE0xRTFyOHJGZDlUN1k5bzRNWk9pY3Fmd3hvVlI3WW5DUHdMQ2hYNkwwRDl1TXYtUUpmekVCeHlEYVg50gGGAkFVX3lxTE5lUnZCX3Rvc0Y1SG9CeWRucXR0MDY2cDBPNDJyTGlYTWVRX01qbHIycnI5dWhuZzhzTlBvVnVfSVVNSHBTaHhqNGlQWjJxbWVkRzdKMXdqUmE2bXJHekZXYm9EWnNGMmxSOW9MODN3NXdZaFd0d2ZpX0FKa0tFRTFwZTJlLUJ4bDdSa2hqWFJXWjBFb0Q1VVFDTlJMZDJWNTEyMDQ0MFBNSzZtbDE1NlFHMDBsdnBmMWhTeld2a05xRHhtcnRNeEVsd3NuWEdjbjJ2b2dMTkljendkVEZpTU10U0xNOEJVVC1MWFQyWjIwZ25WOVktOFlmNTNmUjdLRUh4WkJOTVE?oc=5",
+      "sourceOrigin": "",
+      "publishedAt": "2026-08-13T17:21:00.000Z",
+      "discoveredAt": "2026-08-16T14:33:00.078Z",
+      "lastUpdated": "2026-08-13T17:21:00.000Z",
+      "sourceCheckedAt": "2026-08-16T14:33:00.078Z",
+      "lastVerifiedAt": "2026-08-16T14:33:00.078Z",
+      "expiresAt": "2026-08-15T05:21:00.000Z",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "geographicScope": "local",
+      "affectedArea": "Moshi",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Moshi"
+      ]
+    }
+  ]
 }
