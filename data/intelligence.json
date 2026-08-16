@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-16T17:01:01.197Z",
+  "generatedAt": "2026-08-16T17:34:17.475Z",
   "status": "stale",
   "situation": {
     "snapshot": "No major environmental disruption indicated from current data.",
     "weather": {
-      "generatedAt": "2026-08-16T17:01:01.252Z",
+      "generatedAt": "2026-08-16T17:34:17.528Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,13 +13,13 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-16T17:00:37.130Z",
-          "observedAt": "2026-08-16T22:30:00+05:30",
-          "temp": 22.9,
+          "sourceCheckedAt": "2026-08-16T17:34:01.484Z",
+          "observedAt": "2026-08-16T23:00:00+05:30",
+          "temp": 22.8,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 3.9,
-          "precipitationProbability": 91,
+          "precipitationProbability": 89,
           "wind": 25.9,
           "gust": 25.9,
           "humidity": 89,
@@ -40,16 +40,16 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-16T17:00:37.130Z",
-          "observedAt": "2026-08-16T22:30:00+05:30",
+          "sourceCheckedAt": "2026-08-16T17:34:01.484Z",
+          "observedAt": "2026-08-16T23:00:00+05:30",
           "temp": 22.7,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 4.3,
-          "precipitationProbability": 91,
-          "wind": 22,
-          "gust": 22,
-          "humidity": 90,
+          "precipitationProbability": 87,
+          "wind": 22.7,
+          "gust": 22.7,
+          "humidity": 91,
           "visibility": 6.3,
           "weatherCode": 3,
           "rainRisk": "Low",
@@ -67,13 +67,13 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-16T17:00:37.130Z",
-          "observedAt": "2026-08-16T22:30:00+05:30",
-          "temp": 22.9,
+          "sourceCheckedAt": "2026-08-16T17:34:01.484Z",
+          "observedAt": "2026-08-16T23:00:00+05:30",
+          "temp": 22.8,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 3.9,
-          "precipitationProbability": 91,
+          "precipitationProbability": 89,
           "wind": 25.9,
           "gust": 25.9,
           "humidity": 89,
@@ -94,15 +94,15 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-16T17:00:37.130Z",
-          "observedAt": "2026-08-16T22:30:00+05:30",
-          "temp": 21.7,
+          "sourceCheckedAt": "2026-08-16T17:34:01.484Z",
+          "observedAt": "2026-08-16T23:00:00+05:30",
+          "temp": 21.6,
           "currentRain": 0.1,
           "rain6h": 2.4,
           "rain24h": 16.4,
           "precipitationProbability": 100,
-          "wind": 25.6,
-          "gust": 25.6,
+          "wind": 26.6,
+          "gust": 26.6,
           "humidity": 100,
           "visibility": 0.2,
           "weatherCode": 51,
@@ -121,18 +121,18 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-16T17:00:37.130Z",
-          "observedAt": "2026-08-16T22:30:00+05:30",
-          "temp": 21.1,
+          "sourceCheckedAt": "2026-08-16T17:34:01.484Z",
+          "observedAt": "2026-08-16T23:00:00+05:30",
+          "temp": 21,
           "currentRain": 0.1,
           "rain6h": 3.3,
           "rain24h": 14.9,
           "precipitationProbability": 100,
           "wind": 25.2,
           "gust": 25.2,
-          "humidity": 99,
+          "humidity": 100,
           "visibility": 0.2,
-          "weatherCode": 51,
+          "weatherCode": 53,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-16T17:01:01.294Z",
+      "generatedAt": "2026-08-16T17:34:17.544Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
@@ -158,76 +158,22 @@
   "journeyContext": {
     "activeRiskEvents": []
   },
-  "expiredEvents": [
-    {
-      "id": "structural-collapse-developing-moshi-building-collapse-victim-s-wife-dies-by-suicide-a-mon",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: Moshi building collapse victim’s wife dies by suicide a month later; family alleges in-law harassment",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "structural_collapse",
-      "severity": "warning",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQal9yMk0zek9CWGRQaTRyNllhbmVkbHlDbExncDJlRlFQZ2Q2djJOUDQwZ2RDR05ueUFiQmR5b0FhVWNaWGxRQ2NKU2hPNHFTZ05LYndsYS1FRjV4RFR2MEdFN0VzUEk4Nm5nOXFzdXlYQ1otZFJ3N2RxTXRtZ0FiMWU3b1A2M3VKcnczNGVob1hsUE1hX1JGc1oxX0wtZjUtandNbGk2dDdhamltdmRjM29LLWVyc1VDTDNCUmNLUnlhWFFWbE0xRTFyOHJGZDlUN1k5bzRNWk9pY3Fmd3hvVlI3WW5DUHdMQ2hYNkwwRDl1TXYtUUpmekVCeHlEYVg50gGGAkFVX3lxTE5lUnZCX3Rvc0Y1SG9CeWRucXR0MDY2cDBPNDJyTGlYTWVRX01qbHIycnI5dWhuZzhzTlBvVnVfSVVNSHBTaHhqNGlQWjJxbWVkRzdKMXdqUmE2bXJHekZXYm9EWnNGMmxSOW9MODN3NXdZaFd0d2ZpX0FKa0tFRTFwZTJlLUJ4bDdSa2hqWFJXWjBFb0Q1VVFDTlJMZDJWNTEyMDQ0MFBNSzZtbDE1NlFHMDBsdnBmMWhTeld2a05xRHhtcnRNeEVsd3NuWEdjbjJ2b2dMTkljendkVEZpTU10U0xNOEJVVC1MWFQyWjIwZ25WOVktOFlmNTNmUjdLRUh4WkJOTVE?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQal9yMk0zek9CWGRQaTRyNllhbmVkbHlDbExncDJlRlFQZ2Q2djJOUDQwZ2RDR05ueUFiQmR5b0FhVWNaWGxRQ2NKU2hPNHFTZ05LYndsYS1FRjV4RFR2MEdFN0VzUEk4Nm5nOXFzdXlYQ1otZFJ3N2RxTXRtZ0FiMWU3b1A2M3VKcnczNGVob1hsUE1hX1JGc1oxX0wtZjUtandNbGk2dDdhamltdmRjM29LLWVyc1VDTDNCUmNLUnlhWFFWbE0xRTFyOHJGZDlUN1k5bzRNWk9pY3Fmd3hvVlI3WW5DUHdMQ2hYNkwwRDl1TXYtUUpmekVCeHlEYVg50gGGAkFVX3lxTE5lUnZCX3Rvc0Y1SG9CeWRucXR0MDY2cDBPNDJyTGlYTWVRX01qbHIycnI5dWhuZzhzTlBvVnVfSVVNSHBTaHhqNGlQWjJxbWVkRzdKMXdqUmE2bXJHekZXYm9EWnNGMmxSOW9MODN3NXdZaFd0d2ZpX0FKa0tFRTFwZTJlLUJ4bDdSa2hqWFJXWjBFb0Q1VVFDTlJMZDJWNTEyMDQ0MFBNSzZtbDE1NlFHMDBsdnBmMWhTeld2a05xRHhtcnRNeEVsd3NuWEdjbjJ2b2dMTkljendkVEZpTU10U0xNOEJVVC1MWFQyWjIwZ25WOVktOFlmNTNmUjdLRUh4WkJOTVE?oc=5",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Moshi"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-08-13T17:21:00.000Z",
-      "lastUpdated": "2026-08-13T17:21:00.000Z",
-      "sourceCheckedAt": "2026-08-16T17:00:42.308Z",
-      "lastVerifiedAt": "2026-08-16T17:00:42.308Z",
-      "intelligenceGeneratedAt": "2026-08-16T17:01:01.197Z",
-      "expiresAt": "2026-08-15T05:21:00.000Z",
-      "lifecycle": "expired",
-      "confidence": "Medium",
-      "confidenceScore": 55,
-      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
-      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
-      "affectedArea": "Moshi",
-      "upstreamId": "google-news-536c19eb",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-08-16T17:00:42.308Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
+  "expiredEvents": [],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-16T17:00:42.308Z",
-      "lastSuccessfulAt": "2026-08-16T17:00:42.308Z",
+      "sourceCheckedAt": "2026-08-16T17:34:02.036Z",
+      "lastSuccessfulAt": "2026-08-16T17:34:02.036Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-16T17:01:01.294Z",
+      "generatedAt": "2026-08-16T17:34:17.544Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -240,7 +186,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-16T17:01:01.294Z",
+      "generatedAt": "2026-08-16T17:34:17.544Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -321,7 +267,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-16T17:01:01.294Z",
+      "generatedAt": "2026-08-16T17:34:17.544Z",
       "mode": "on-demand",
       "relevantDomains": [],
       "infrastructure": {
@@ -364,7 +310,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-16T17:01:01.348Z",
+        "generatedAt": "2026-08-16T17:34:17.596Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -508,7 +454,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-16T17:01:01.348Z",
+        "generatedAt": "2026-08-16T17:34:17.596Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -605,7 +551,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-16T17:01:01.349Z",
+        "generatedAt": "2026-08-16T17:34:17.596Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
