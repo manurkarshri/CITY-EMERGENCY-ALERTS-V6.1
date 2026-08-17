@@ -1,10 +1,10 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-17T19:54:27.840Z",
+  "generatedAt": "2026-08-17T20:30:29.448Z",
   "weatherSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-08-17T19:54:13.044Z",
-    "lastSuccessfulAt": "2026-08-17T19:54:13.044Z",
+    "sourceCheckedAt": "2026-08-17T20:30:13.085Z",
+    "lastSuccessfulAt": "2026-08-17T20:30:13.085Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
@@ -14,12 +14,12 @@
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-08-17T19:54:16.663Z",
-    "lastSuccessfulAt": "2026-08-17T19:54:16.663Z",
+    "sourceCheckedAt": "2026-08-17T20:30:17.818Z",
+    "lastSuccessfulAt": "2026-08-17T20:30:17.818Z",
     "error": "Pravah: fetch failed"
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-08-17T19:54:27.807Z",
+    "generatedAt": "2026-08-17T20:30:29.435Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -27,15 +27,15 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-08-17T19:54:13.044Z",
-        "observedAt": "2026-08-18T01:15:00+05:30",
+        "sourceCheckedAt": "2026-08-17T20:30:13.085Z",
+        "observedAt": "2026-08-18T02:00:00+05:30",
         "temp": 22.8,
         "currentRain": 0.1,
         "rain6h": 1.1,
         "rain24h": 3.1,
         "precipitationProbability": 96,
-        "wind": 31.7,
-        "gust": 31.7,
+        "wind": 33.5,
+        "gust": 33.5,
         "humidity": 90,
         "visibility": 6.3,
         "weatherCode": 51,
@@ -54,18 +54,18 @@
         "longitude": 73.76471,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-08-17T19:54:13.044Z",
-        "observedAt": "2026-08-18T01:15:00+05:30",
+        "sourceCheckedAt": "2026-08-17T20:30:13.085Z",
+        "observedAt": "2026-08-18T02:00:00+05:30",
         "temp": 22.8,
-        "currentRain": 0.3,
+        "currentRain": 0.1,
         "rain6h": 1,
         "rain24h": 2.2,
         "precipitationProbability": 100,
-        "wind": 31,
-        "gust": 31,
-        "humidity": 91,
+        "wind": 31.3,
+        "gust": 31.3,
+        "humidity": 92,
         "visibility": 2.3,
-        "weatherCode": 55,
+        "weatherCode": 51,
         "rainRisk": "Low",
         "windRisk": "Low",
         "visibilityRisk": "Low",
@@ -81,15 +81,15 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-08-17T19:54:13.044Z",
-        "observedAt": "2026-08-18T01:15:00+05:30",
+        "sourceCheckedAt": "2026-08-17T20:30:13.085Z",
+        "observedAt": "2026-08-18T02:00:00+05:30",
         "temp": 22.8,
         "currentRain": 0.1,
         "rain6h": 1.1,
         "rain24h": 3.1,
         "precipitationProbability": 96,
-        "wind": 31.7,
-        "gust": 31.7,
+        "wind": 33.5,
+        "gust": 33.5,
         "humidity": 90,
         "visibility": 6.3,
         "weatherCode": 51,
@@ -108,18 +108,18 @@
         "longitude": 73.51617,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-08-17T19:54:13.044Z",
-        "observedAt": "2026-08-18T01:15:00+05:30",
-        "temp": 21.9,
-        "currentRain": 0.1,
+        "sourceCheckedAt": "2026-08-17T20:30:13.085Z",
+        "observedAt": "2026-08-18T02:00:00+05:30",
+        "temp": 22,
+        "currentRain": 0,
         "rain6h": 2.8,
         "rain24h": 15.1,
         "precipitationProbability": 100,
-        "wind": 31,
-        "gust": 31,
+        "wind": 34.9,
+        "gust": 34.9,
         "humidity": 100,
         "visibility": 0.2,
-        "weatherCode": 51,
+        "weatherCode": 3,
         "rainRisk": "Low",
         "windRisk": "Low",
         "visibilityRisk": "High",
@@ -135,16 +135,16 @@
         "longitude": 73.451324,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-08-17T19:54:13.044Z",
-        "observedAt": "2026-08-18T01:15:00+05:30",
-        "temp": 21.5,
-        "currentRain": 0.1,
+        "sourceCheckedAt": "2026-08-17T20:30:13.085Z",
+        "observedAt": "2026-08-18T02:00:00+05:30",
+        "temp": 21.4,
+        "currentRain": 0,
         "rain6h": 4,
         "rain24h": 20.8,
         "precipitationProbability": 100,
         "wind": 31.3,
         "gust": 31.3,
-        "humidity": 100,
+        "humidity": 99,
         "visibility": 0.2,
         "weatherCode": 51,
         "rainRisk": "Low",
@@ -160,7 +160,7 @@
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-08-17T19:54:27.839Z",
+    "generatedAt": "2026-08-17T20:30:29.448Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -173,7 +173,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-08-17T19:54:27.839Z",
+    "generatedAt": "2026-08-17T20:30:29.448Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -254,7 +254,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-08-17T19:54:27.840Z",
+    "generatedAt": "2026-08-17T20:30:29.448Z",
     "mode": "on-demand",
     "relevantDomains": [
       "highways"
@@ -292,7 +292,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-08-17T19:54:27.840Z",
+    "generatedAt": "2026-08-17T20:30:29.448Z",
     "riskLevel": "Normal",
     "impacts": [
       "1 active transport-related event(s) may affect travel."
@@ -300,5 +300,5 @@
     "citizenSummary": "1 active transport-related event(s) may affect travel.",
     "seasonalContext": "monsoon"
   },
-  "story": "1 important alert require attention."
+  "story": "2 important alerts require attention."
 }
