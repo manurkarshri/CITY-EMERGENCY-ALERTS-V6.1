@@ -1,10 +1,41 @@
 {
   "schemaVersion": "6.1.0",
   "provider": "Google News RSS",
-  "sourceCheckedAt": "2026-08-17T14:30:39.295Z",
+  "sourceCheckedAt": "2026-08-17T16:46:10.645Z",
   "status": "healthy",
   "error": null,
-  "items": [],
-  "collectedItems": 0,
-  "qualifiedItems": 0
+  "items": [
+    {
+      "id": "google-news-a19277b3",
+      "publisherId": "indian_express_pune",
+      "publisher": "Indian Express Pune",
+      "title": "Pune sweet shop lost Rs 8.5 lakh, awarded Rs 5 lakh after food safety raid",
+      "category": "food_safety",
+      "severity": "warning",
+      "publishedAt": "2026-08-17T09:05:14.000Z",
+      "discoveredAt": "2026-08-17T16:46:10.645Z",
+      "reportedAuthority": "",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYmFRckdjVkVsbXlrTWs5Zkc2UE9zYnB2Z29pejJkMVM5N3dtZkMwRjdQX1gySUU3b1I2a2hjNVpKSTFlQlgySmhmYklxV2dnRG9lSjVvYTN1LUFwMXk3Z3BrQVB5d0dzZmZVVXc5OEhZNGJNS0M4V2ZqNVJxa3BBVVNHYXlfQkdFMThKa1ZrZENxTnQwbHdjRjN1VU44T0NQZnNFU2YyZGI4amZtcEJkVjUyRXNmRkt3c2J6NjJqRFdwaHZQYXJ5QnNZVjhaNk5BMU1wV0phMmxmZzJi0gHjAUFVX3lxTFB6dWVIWHJ1RGM4aE1FWmY0cGpUY0I4YmNLYm1yU0tTVFVJaE4yMFJzR0pEWURtWDA3R1BITWpyVHJZY1M0U09OaHJFNjlYcUM1M0RranUwNGNXSHNqRllOTU9QQi15dmMxLU94SmlpenpNLVZrUnNheEVKeFJLTnRiNEYxaS1oeDZkZVNHMU1BUS13dl9DaTNZZ0d2WjdBSS1tRWdWVF9id3pueUpIaGxVRHJmUnoxVDlCZWpQYTV2YldRZWRDTzZRR0kzSVJTREwwTjZnQ3VwcDdObi16ZjhvaENV?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "awaiting_direct_article",
+      "verifiedEventIds": []
+    },
+    {
+      "id": "google-news-a9fed886",
+      "publisherId": "ndtv",
+      "publisher": "NDTV",
+      "title": "Rs 5 Lakh Fine For 'Torturing Citizens': Bombay HC Slams FDA Over Pune Sweet Shop Closure",
+      "category": "food_safety",
+      "severity": "warning",
+      "publishedAt": "2026-08-17T16:06:29.000Z",
+      "discoveredAt": "2026-08-17T16:46:10.645Z",
+      "reportedAuthority": "",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZDd0VmhManlTOG9ZUjNoNG1HTWZ3Mkwtc0pvMmlwbFN2UTJzNXB2cURiVXROLWpoVTRCbWZmUllzbnFkeFBSa3ZVZ08xUnBod3l3Rk84TGM4dzY5WWRpX1pNSXIwYW4zajdiNFhjWXoxLUtWZ0w1NmVSRDIxaXJObVJRaXhKX2dtVWNzQnhOdHNhSC02Uk9Qek8xZWxYMENraUFieVdIb3k1UUNFeUtDTEFycnFoNUpib015YTVaNTRCMEF6VlNj0gHPAUFVX3lxTE1Rbk9SNTdSajZuMm9LRzlxQmV5WkptSDh3c2Q2SGdwLWdNU09Cems2OFBuQXN0WElkWmhtZlhRcG1ITFVYNWxFRm5Yc2NuYTduVXY0XzRzZDBEYkdDamxuQllrX1RJVFJyOFdHQjZRX1BoMkg5TUxBSV9YeWRzOUc5ZEFWdG1GZ3ZPMHFvXzJjVGtBSlp4TFlJemZDdlJQenVPOExMM0RyZVRLNkdlR3dnMDFOdW9BV1poZDFjbFJfdDZKdHlFNE53ZXV3SVZIMA?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "awaiting_direct_article",
+      "verifiedEventIds": []
+    }
+  ],
+  "collectedItems": 2,
+  "qualifiedItems": 2
 }
