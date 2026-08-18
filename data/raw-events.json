@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-08-18T04:17:51.160Z",
-  "lastSuccessfulAt": "2026-08-18T04:17:51.160Z",
+  "sourceCheckedAt": "2026-08-18T05:02:51.115Z",
+  "lastSuccessfulAt": "2026-08-18T05:02:51.115Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-18T04:17:51.160Z",
-      "lastSuccessfulAt": "2026-08-18T04:17:51.160Z",
+      "sourceCheckedAt": "2026-08-18T05:02:51.115Z",
+      "lastSuccessfulAt": "2026-08-18T05:02:51.115Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,17 +23,17 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-18T04:17:51.160Z",
-      "lastSuccessfulAt": "2026-08-18T04:17:51.160Z",
+      "sourceCheckedAt": "2026-08-18T05:02:51.115Z",
+      "lastSuccessfulAt": "2026-08-18T05:02:51.115Z",
       "error": null,
-      "etag": "W/\"8532-1786974239675\"",
+      "etag": "W/\"8529-1787027284673\"",
       "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-18T04:17:51.160Z",
+      "sourceCheckedAt": "2026-08-18T05:02:51.115Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-18T04:17:51.160Z",
-      "lastSuccessfulAt": "2026-08-18T04:17:51.160Z",
+      "sourceCheckedAt": "2026-08-18T05:02:51.115Z",
+      "lastSuccessfulAt": "2026-08-18T05:02:51.115Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-18T04:17:51.160Z",
-      "lastSuccessfulAt": "2026-08-18T04:17:51.160Z",
+      "sourceCheckedAt": "2026-08-18T05:02:51.115Z",
+      "lastSuccessfulAt": "2026-08-18T05:02:51.115Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-18T04:17:51.160Z",
+      "sourceCheckedAt": "2026-08-18T05:02:51.115Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,43 +69,24 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-18T04:17:51.160Z",
-      "lastSuccessfulAt": "2026-08-18T04:17:51.160Z",
+      "sourceCheckedAt": "2026-08-18T05:02:51.115Z",
+      "lastSuccessfulAt": "2026-08-18T05:02:51.115Z",
       "error": null,
       "etag": null,
-      "itemsCollected": 1
+      "itemsCollected": 0
     },
     {
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
-      "status": "healthy",
-      "sourceCheckedAt": "2026-08-18T04:17:51.160Z",
+      "status": "stale",
+      "sourceCheckedAt": "2026-08-18T05:02:51.115Z",
       "lastSuccessfulAt": "2026-08-18T04:17:51.160Z",
-      "error": null,
-      "itemsCollected": 3,
+      "error": "Google News RSS request failed with HTTP 503",
+      "itemsCollected": 0,
       "itemsQualified": 3
     }
   ],
   "items": [
-    {
-      "sourceId": "ndtv",
-      "collectionSourceId": "newsdata_io",
-      "upstreamId": "7c731425221d7e3cb680f93fbdfb5a83",
-      "title": "Developing: Rs 5 Lakh Fine For 'Torturing Citizens': Bombay HC Slams FDA Over Pune Sweet Shop Closure",
-      "summary": "The High Court's rebuke came while hearing a challenge filed by Gurunanak Dairy and Sweets against the suspension of its food licence.",
-      "category": "food_safety",
-      "severity": "warning",
-      "source": "NDTV",
-      "sourceTrust": "B",
-      "link": "https://www.ndtvprofit.com/india/rs-5-lakh-fine-for-torturing-citizens-bombay-hc-slams-fda-over-pune-sweet-shop-closure-11922217",
-      "publishedAt": "2026-08-17T15:58:53.000Z",
-      "lastUpdated": "2026-08-17T15:58:53.000Z",
-      "sourceCheckedAt": "2026-08-18T04:17:51.160Z",
-      "lastVerifiedAt": "2026-08-18T04:17:51.160Z",
-      "expiresAt": "2026-08-20T15:58:53.000Z",
-      "collectionProvider": "NewsData.io",
-      "sourceOrigin": ""
-    },
     {
       "eventKind": "incident",
       "sourceId": "times_of_india",
