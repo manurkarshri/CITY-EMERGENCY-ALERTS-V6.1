@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-18T19:59:15.845Z",
+  "generatedAt": "2026-08-18T20:33:56.286Z",
   "status": "stale",
   "situation": {
-    "snapshot": "1 important alert require attention.",
+    "snapshot": "2 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-08-18T19:59:15.900Z",
+      "generatedAt": "2026-08-18T20:33:56.345Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,16 +13,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-18T19:58:58.999Z",
-          "observedAt": "2026-08-19T01:15:00+05:30",
-          "temp": 23.1,
+          "sourceCheckedAt": "2026-08-18T20:33:40.859Z",
+          "observedAt": "2026-08-19T02:00:00+05:30",
+          "temp": 23,
           "currentRain": 0,
           "rain6h": 0.5,
           "rain24h": 1.6,
           "precipitationProbability": 78,
-          "wind": 34.2,
-          "gust": 34.2,
-          "humidity": 91,
+          "wind": 33.5,
+          "gust": 33.5,
+          "humidity": 92,
           "visibility": 8.9,
           "weatherCode": 3,
           "rainRisk": "Minimal",
@@ -40,15 +40,15 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-18T19:58:58.999Z",
-          "observedAt": "2026-08-19T01:15:00+05:30",
+          "sourceCheckedAt": "2026-08-18T20:33:40.859Z",
+          "observedAt": "2026-08-19T02:00:00+05:30",
           "temp": 23,
           "currentRain": 0,
           "rain6h": 0.6,
           "rain24h": 3.1,
           "precipitationProbability": 88,
-          "wind": 29.9,
-          "gust": 29.9,
+          "wind": 28.4,
+          "gust": 28.4,
           "humidity": 93,
           "visibility": 7.8,
           "weatherCode": 3,
@@ -67,16 +67,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-18T19:58:58.999Z",
-          "observedAt": "2026-08-19T01:15:00+05:30",
-          "temp": 23.1,
+          "sourceCheckedAt": "2026-08-18T20:33:40.859Z",
+          "observedAt": "2026-08-19T02:00:00+05:30",
+          "temp": 23,
           "currentRain": 0,
           "rain6h": 0.5,
           "rain24h": 1.6,
           "precipitationProbability": 78,
-          "wind": 34.2,
-          "gust": 34.2,
-          "humidity": 91,
+          "wind": 33.5,
+          "gust": 33.5,
+          "humidity": 92,
           "visibility": 8.9,
           "weatherCode": 3,
           "rainRisk": "Minimal",
@@ -94,15 +94,15 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-18T19:58:58.999Z",
-          "observedAt": "2026-08-19T01:15:00+05:30",
-          "temp": 22.2,
+          "sourceCheckedAt": "2026-08-18T20:33:40.859Z",
+          "observedAt": "2026-08-19T02:00:00+05:30",
+          "temp": 22.1,
           "currentRain": 0.1,
           "rain6h": 3.7,
           "rain24h": 19.9,
           "precipitationProbability": 100,
-          "wind": 35.6,
-          "gust": 35.6,
+          "wind": 33.5,
+          "gust": 33.5,
           "humidity": 100,
           "visibility": 0.4,
           "weatherCode": 51,
@@ -121,18 +121,18 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-18T19:58:58.999Z",
-          "observedAt": "2026-08-19T01:15:00+05:30",
+          "sourceCheckedAt": "2026-08-18T20:33:40.859Z",
+          "observedAt": "2026-08-19T02:00:00+05:30",
           "temp": 22,
-          "currentRain": 0,
+          "currentRain": 0.1,
           "rain6h": 7.3,
           "rain24h": 24.3,
           "precipitationProbability": 100,
-          "wind": 31.7,
-          "gust": 31.7,
+          "wind": 32.8,
+          "gust": 32.8,
           "humidity": 99,
           "visibility": 0.2,
-          "weatherCode": 51,
+          "weatherCode": 53,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-18T19:59:15.927Z",
+      "generatedAt": "2026-08-18T20:33:56.384Z",
       "riskLevel": "Normal",
       "impacts": [
         "2 active transport-related event(s) may affect travel."
@@ -157,6 +157,66 @@
   },
   "alerts": [],
   "incidents": [
+    {
+      "id": "flood-developing-citizens-group-launches-flood-survey-to-document-waterlogging-in-pune-and",
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "title": "Developing: Citizens’ group launches flood survey to document waterlogging in Pune and Pimpri Chinchwad",
+      "summary": "Citizens’ group launches flood survey to document waterlogging in Pune and Pimpri Chinchwad",
+      "category": "flood",
+      "severity": "warning",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://timesofindia.indiatimes.com/city/pune/citizens-group-launches-flood-survey-to-document-waterlogging-in-pune-and-pimpri-chinchwad/articleshow/133316459.cms",
+          "origin": ""
+        },
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSXRDNGNGX1VXNXBhYkY0akY0WEFuMDdab1l4SmFOb3BmRE5mN2NjRFZDX2NQemQ5Y0FCRzFOaGxmeGFXVHA1VVNOMEFxRXVPTTkxZkk4X2ktSW9aRWpLaUVWNHhmMmdlZzRFVVlyRjdEMXk0QXpyM1NVeElOR2k5U3E4UVhuVzBEMzliYkNxRnNqeHZfbWpFaV9lWXh4YXRVemtxTWRhU3h2djktTlZ4RmdNUTJoelZ1Z2EwakpiXzZoU054cmZ0clljYm1ZaTNJbHY3UnE4cjZJajZZczU0ZzhGeWhOeVYwb0FRdXlsS3pHVVNR0gH6AUFVX3lxTE9vUnBOX05JZ3lBb0ZvbGdwMkw5bEpsbm0xX2lwZ0M0dThrZ055THpMVTdtTzF6ci1BV1o5SGk0QU03MkdrcDllOW9mQ1BvaGdRbnZna19zQWhNNUxmQThPVGNyeHM4NWlxVEhLUWhsamJOUUFEcGVnOFNuY242RnVHWm92aWNYdC02c2V6X2k0blpnTnJfWmpRMGtMejVURk5EU1J0c0xpbURsVkhpMVdMaklrdE5GdHNURE85TXU2X3lhSVNKQVlidExLbU96WXpJenAwQVBvSGtSUjRGT2VhWG5HQ3ZEMjNYbFkzNGJhLWZCRjVOaWJqZkE?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://timesofindia.indiatimes.com/city/pune/citizens-group-launches-flood-survey-to-document-waterlogging-in-pune-and-pimpri-chinchwad/articleshow/133316459.cms",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Pimpri",
+        "Chinchwad"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-08-18T08:26:47.000Z",
+      "lastUpdated": "2026-08-18T08:26:47.000Z",
+      "sourceCheckedAt": "2026-08-18T20:33:41.402Z",
+      "lastVerifiedAt": "2026-08-18T20:33:41.402Z",
+      "intelligenceGeneratedAt": "2026-08-18T20:33:56.286Z",
+      "expiresAt": "2026-08-20T08:26:47.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "",
+      "upstreamId": "81bc4242b4f2e91c503855afa994087f",
+      "collectionProvider": "NewsData.io",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
     {
       "id": "accident-developing-pune-boy-riding-pillion-with-father-killed-in-accident-locals-blame-ba",
       "eventKind": "incident",
@@ -187,9 +247,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-18T09:50:03.000Z",
       "lastUpdated": "2026-08-18T09:50:03.000Z",
-      "sourceCheckedAt": "2026-08-18T19:58:59.685Z",
-      "lastVerifiedAt": "2026-08-18T19:58:59.685Z",
-      "intelligenceGeneratedAt": "2026-08-18T19:59:15.845Z",
+      "sourceCheckedAt": "2026-08-18T20:33:41.402Z",
+      "lastVerifiedAt": "2026-08-18T20:33:41.402Z",
+      "intelligenceGeneratedAt": "2026-08-18T20:33:56.286Z",
       "expiresAt": "2026-08-20T09:50:03.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -202,7 +262,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-18T19:58:59.685Z",
+      "discoveredAt": "2026-08-18T20:33:41.402Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -238,9 +298,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-17T19:05:00.000Z",
       "lastUpdated": "2026-08-17T19:05:00.000Z",
-      "sourceCheckedAt": "2026-08-18T19:58:59.685Z",
-      "lastVerifiedAt": "2026-08-18T19:58:59.685Z",
-      "intelligenceGeneratedAt": "2026-08-18T19:59:15.845Z",
+      "sourceCheckedAt": "2026-08-18T20:33:41.402Z",
+      "lastVerifiedAt": "2026-08-18T20:33:41.402Z",
+      "intelligenceGeneratedAt": "2026-08-18T20:33:56.286Z",
       "expiresAt": "2026-08-19T19:05:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -253,7 +313,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-18T19:58:59.685Z",
+      "discoveredAt": "2026-08-18T20:33:41.402Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -264,55 +324,50 @@
       "corroboratedByIndependentSources": false
     },
     {
-      "id": "flood-developing-citizens-group-launches-flood-survey-to-document-waterlogging-in-pune-and",
+      "id": "food-safety-developing-pune-sweet-shop-lost-rs-8-5-lakh-awarded-rs-5-lakh-after-food-safet",
       "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: Citizens’ group launches flood survey to document waterlogging in Pune and Pimpri Chinchwad",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Pune sweet shop lost Rs 8.5 lakh, awarded Rs 5 lakh after food safety raid",
       "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "flood",
+      "category": "food_safety",
       "severity": "warning",
-      "source": "Times of India",
+      "source": "Indian Express Pune",
       "sourceTrust": "B",
       "sources": [
         {
-          "name": "Times of India",
+          "name": "Indian Express Pune",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSXRDNGNGX1VXNXBhYkY0akY0WEFuMDdab1l4SmFOb3BmRE5mN2NjRFZDX2NQemQ5Y0FCRzFOaGxmeGFXVHA1VVNOMEFxRXVPTTkxZkk4X2ktSW9aRWpLaUVWNHhmMmdlZzRFVVlyRjdEMXk0QXpyM1NVeElOR2k5U3E4UVhuVzBEMzliYkNxRnNqeHZfbWpFaV9lWXh4YXRVemtxTWRhU3h2djktTlZ4RmdNUTJoelZ1Z2EwakpiXzZoU054cmZ0clljYm1ZaTNJbHY3UnE4cjZJajZZczU0ZzhGeWhOeVYwb0FRdXlsS3pHVVNR0gH6AUFVX3lxTE9vUnBOX05JZ3lBb0ZvbGdwMkw5bEpsbm0xX2lwZ0M0dThrZ055THpMVTdtTzF6ci1BV1o5SGk0QU03MkdrcDllOW9mQ1BvaGdRbnZna19zQWhNNUxmQThPVGNyeHM4NWlxVEhLUWhsamJOUUFEcGVnOFNuY242RnVHWm92aWNYdC02c2V6X2k0blpnTnJfWmpRMGtMejVURk5EU1J0c0xpbURsVkhpMVdMaklrdE5GdHNURE85TXU2X3lhSVNKQVlidExLbU96WXpJenAwQVBvSGtSUjRGT2VhWG5HQ3ZEMjNYbFkzNGJhLWZCRjVOaWJqZkE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYmFRckdjVkVsbXlrTWs5Zkc2UE9zYnB2Z29pejJkMVM5N3dtZkMwRjdQX1gySUU3b1I2a2hjNVpKSTFlQlgySmhmYklxV2dnRG9lSjVvYTN1LUFwMXk3Z3BrQVB5d0dzZmZVVXc5OEhZNGJNS0M4V2ZqNVJxa3BBVVNHYXlfQkdFMThKa1ZrZENxTnQwbHdjRjN1VU44T0NQZnNFU2YyZGI4amZtcEJkVjUyRXNmRkt3c2J6NjJqRFdwaHZQYXJ5QnNZVjhaNk5BMU1wV0phMmxmZzJi0gHjAUFVX3lxTFB6dWVIWHJ1RGM4aE1FWmY0cGpUY0I4YmNLYm1yU0tTVFVJaE4yMFJzR0pEWURtWDA3R1BITWpyVHJZY1M0U09OaHJFNjlYcUM1M0RranUwNGNXSHNqRllOTU9QQi15dmMxLU94SmlpenpNLVZrUnNheEVKeFJLTnRiNEYxaS1oeDZkZVNHMU1BUS13dl9DaTNZZ0d2WjdBSS1tRWdWVF9id3pueUpIaGxVRHJmUnoxVDlCZWpQYTV2YldRZWRDTzZRR0kzSVJTREwwTjZnQ3VwcDdObi16ZjhvaENV?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSXRDNGNGX1VXNXBhYkY0akY0WEFuMDdab1l4SmFOb3BmRE5mN2NjRFZDX2NQemQ5Y0FCRzFOaGxmeGFXVHA1VVNOMEFxRXVPTTkxZkk4X2ktSW9aRWpLaUVWNHhmMmdlZzRFVVlyRjdEMXk0QXpyM1NVeElOR2k5U3E4UVhuVzBEMzliYkNxRnNqeHZfbWpFaV9lWXh4YXRVemtxTWRhU3h2djktTlZ4RmdNUTJoelZ1Z2EwakpiXzZoU054cmZ0clljYm1ZaTNJbHY3UnE4cjZJajZZczU0ZzhGeWhOeVYwb0FRdXlsS3pHVVNR0gH6AUFVX3lxTE9vUnBOX05JZ3lBb0ZvbGdwMkw5bEpsbm0xX2lwZ0M0dThrZ055THpMVTdtTzF6ci1BV1o5SGk0QU03MkdrcDllOW9mQ1BvaGdRbnZna19zQWhNNUxmQThPVGNyeHM4NWlxVEhLUWhsamJOUUFEcGVnOFNuY242RnVHWm92aWNYdC02c2V6X2k0blpnTnJfWmpRMGtMejVURk5EU1J0c0xpbURsVkhpMVdMaklrdE5GdHNURE85TXU2X3lhSVNKQVlidExLbU96WXpJenAwQVBvSGtSUjRGT2VhWG5HQ3ZEMjNYbFkzNGJhLWZCRjVOaWJqZkE?oc=5",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Pimpri",
-        "Chinchwad"
-      ],
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYmFRckdjVkVsbXlrTWs5Zkc2UE9zYnB2Z29pejJkMVM5N3dtZkMwRjdQX1gySUU3b1I2a2hjNVpKSTFlQlgySmhmYklxV2dnRG9lSjVvYTN1LUFwMXk3Z3BrQVB5d0dzZmZVVXc5OEhZNGJNS0M4V2ZqNVJxa3BBVVNHYXlfQkdFMThKa1ZrZENxTnQwbHdjRjN1VU44T0NQZnNFU2YyZGI4amZtcEJkVjUyRXNmRkt3c2J6NjJqRFdwaHZQYXJ5QnNZVjhaNk5BMU1wV0phMmxmZzJi0gHjAUFVX3lxTFB6dWVIWHJ1RGM4aE1FWmY0cGpUY0I4YmNLYm1yU0tTVFVJaE4yMFJzR0pEWURtWDA3R1BITWpyVHJZY1M0U09OaHJFNjlYcUM1M0RranUwNGNXSHNqRllOTU9QQi15dmMxLU94SmlpenpNLVZrUnNheEVKeFJLTnRiNEYxaS1oeDZkZVNHMU1BUS13dl9DaTNZZ0d2WjdBSS1tRWdWVF9id3pueUpIaGxVRHJmUnoxVDlCZWpQYTV2YldRZWRDTzZRR0kzSVJTREwwTjZnQ3VwcDdObi16ZjhvaENV?oc=5",
+      "talukas": [],
+      "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-08-18T08:22:00.000Z",
-      "lastUpdated": "2026-08-18T08:22:00.000Z",
-      "sourceCheckedAt": "2026-08-18T19:58:59.685Z",
-      "lastVerifiedAt": "2026-08-18T19:58:59.685Z",
-      "intelligenceGeneratedAt": "2026-08-18T19:59:15.845Z",
-      "expiresAt": "2026-08-20T08:22:00.000Z",
+      "publishedAt": "2026-08-17T09:05:14.000Z",
+      "lastUpdated": "2026-08-17T09:05:14.000Z",
+      "sourceCheckedAt": "2026-08-18T20:33:41.402Z",
+      "lastVerifiedAt": "2026-08-18T20:33:41.402Z",
+      "intelligenceGeneratedAt": "2026-08-18T20:33:56.286Z",
+      "expiresAt": "2026-08-20T09:05:14.000Z",
       "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Pimpri, Chinchwad",
-      "upstreamId": "google-news-41d51556",
+      "confidence": "Low",
+      "confidenceScore": 35,
+      "impact": "Unsafe or contaminated food may affect people who consumed the reported product or visited the location.",
+      "recommendedAction": "Avoid the suspected item or outlet, follow recall or health guidance, and seek medical help if symptoms develop.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-a19277b3",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-18T19:58:59.685Z",
+      "discoveredAt": "2026-08-18T20:33:41.402Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "local",
+      "geographicScope": "pune_district",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
@@ -320,6 +375,20 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
+      {
+        "id": "flood-developing-citizens-group-launches-flood-survey-to-document-waterlogging-in-pune-and",
+        "category": "flood",
+        "severity": "warning",
+        "localities": [
+          "Pimpri",
+          "Chinchwad"
+        ],
+        "talukas": [
+          "pcmc"
+        ],
+        "operationalZones": [],
+        "impact": "This event may affect local awareness or movement."
+      },
       {
         "id": "accident-developing-pune-boy-riding-pillion-with-father-killed-in-accident-locals-blame-ba",
         "category": "accident",
@@ -339,18 +408,13 @@
         "impact": "Traffic delays are likely near the incident location."
       },
       {
-        "id": "flood-developing-citizens-group-launches-flood-survey-to-document-waterlogging-in-pune-and",
-        "category": "flood",
+        "id": "food-safety-developing-pune-sweet-shop-lost-rs-8-5-lakh-awarded-rs-5-lakh-after-food-safet",
+        "category": "food_safety",
         "severity": "warning",
-        "localities": [
-          "Pimpri",
-          "Chinchwad"
-        ],
-        "talukas": [
-          "pcmc"
-        ],
+        "localities": [],
+        "talukas": [],
         "operationalZones": [],
-        "impact": "This event may affect local awareness or movement."
+        "impact": "Unsafe or contaminated food may affect people who consumed the reported product or visited the location."
       }
     ]
   },
@@ -361,15 +425,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-18T19:58:59.685Z",
-      "lastSuccessfulAt": "2026-08-18T19:58:59.685Z",
+      "sourceCheckedAt": "2026-08-18T20:33:41.402Z",
+      "lastSuccessfulAt": "2026-08-18T20:33:41.402Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-18T19:59:15.927Z",
+      "generatedAt": "2026-08-18T20:33:56.384Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -382,7 +446,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-18T19:59:15.927Z",
+      "generatedAt": "2026-08-18T20:33:56.384Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -463,11 +527,11 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-18T19:59:15.927Z",
+      "generatedAt": "2026-08-18T20:33:56.384Z",
       "mode": "on-demand",
       "relevantDomains": [
-        "highways",
-        "bridges"
+        "bridges",
+        "highways"
       ],
       "infrastructure": {
         "highways": [
@@ -509,7 +573,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-18T19:59:15.989Z",
+        "generatedAt": "2026-08-18T20:33:56.443Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -653,7 +717,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-18T19:59:15.990Z",
+        "generatedAt": "2026-08-18T20:33:56.443Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -750,7 +814,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-18T19:59:15.990Z",
+        "generatedAt": "2026-08-18T20:33:56.443Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
