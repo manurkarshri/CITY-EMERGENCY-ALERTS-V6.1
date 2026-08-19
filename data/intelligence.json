@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-19T13:58:29.526Z",
+  "generatedAt": "2026-08-19T14:42:56.023Z",
   "status": "stale",
   "situation": {
-    "snapshot": "3 important alerts require attention.",
+    "snapshot": "2 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-08-19T13:58:29.579Z",
+      "generatedAt": "2026-08-19T14:42:56.081Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,16 +13,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-19T13:58:11.740Z",
-          "observedAt": "2026-08-19T19:15:00+05:30",
-          "temp": 23.6,
+          "sourceCheckedAt": "2026-08-19T14:42:33.575Z",
+          "observedAt": "2026-08-19T20:00:00+05:30",
+          "temp": 23.3,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 2.5,
           "precipitationProbability": 84,
-          "wind": 32.8,
-          "gust": 32.8,
-          "humidity": 87,
+          "wind": 31,
+          "gust": 31,
+          "humidity": 89,
           "visibility": 14.7,
           "weatherCode": 3,
           "rainRisk": "Low",
@@ -40,16 +40,16 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-19T13:58:11.740Z",
-          "observedAt": "2026-08-19T19:15:00+05:30",
-          "temp": 23.6,
+          "sourceCheckedAt": "2026-08-19T14:42:33.575Z",
+          "observedAt": "2026-08-19T20:00:00+05:30",
+          "temp": 23.4,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 3.4,
           "precipitationProbability": 78,
-          "wind": 33.1,
-          "gust": 33.1,
-          "humidity": 87,
+          "wind": 30.6,
+          "gust": 30.6,
+          "humidity": 90,
           "visibility": 11.6,
           "weatherCode": 3,
           "rainRisk": "Minimal",
@@ -67,16 +67,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-19T13:58:11.740Z",
-          "observedAt": "2026-08-19T19:15:00+05:30",
-          "temp": 23.6,
+          "sourceCheckedAt": "2026-08-19T14:42:33.575Z",
+          "observedAt": "2026-08-19T20:00:00+05:30",
+          "temp": 23.3,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 2.5,
           "precipitationProbability": 84,
-          "wind": 32.8,
-          "gust": 32.8,
-          "humidity": 87,
+          "wind": 31,
+          "gust": 31,
+          "humidity": 89,
           "visibility": 14.7,
           "weatherCode": 3,
           "rainRisk": "Low",
@@ -94,15 +94,15 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-19T13:58:11.740Z",
-          "observedAt": "2026-08-19T19:15:00+05:30",
+          "sourceCheckedAt": "2026-08-19T14:42:33.575Z",
+          "observedAt": "2026-08-19T20:00:00+05:30",
           "temp": 22.3,
           "currentRain": 0.1,
           "rain6h": 1.8,
           "rain24h": 13.5,
           "precipitationProbability": 100,
-          "wind": 31.7,
-          "gust": 31.7,
+          "wind": 29.9,
+          "gust": 29.9,
           "humidity": 100,
           "visibility": 0.2,
           "weatherCode": 51,
@@ -121,18 +121,18 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-19T13:58:11.740Z",
-          "observedAt": "2026-08-19T19:15:00+05:30",
+          "sourceCheckedAt": "2026-08-19T14:42:33.575Z",
+          "observedAt": "2026-08-19T20:00:00+05:30",
           "temp": 22,
           "currentRain": 0.1,
           "rain6h": 2.7,
           "rain24h": 16.5,
           "precipitationProbability": 100,
-          "wind": 31,
-          "gust": 31,
+          "wind": 29.5,
+          "gust": 29.5,
           "humidity": 100,
           "visibility": 0.1,
-          "weatherCode": 53,
+          "weatherCode": 51,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-19T13:58:29.596Z",
+      "generatedAt": "2026-08-19T14:42:56.127Z",
       "riskLevel": "Normal",
       "impacts": [
         "3 active transport-related event(s) may affect travel."
@@ -157,55 +157,6 @@
   },
   "alerts": [],
   "incidents": [
-    {
-      "id": "environmental-hazard-developing-22-major-drains-discharge-sewage-into-mula-mutha-pmc-under",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny",
-      "summary": "The disclosure has raised questions over the civic body’s monitoring and enforcement despite regulations prohibiting untreated sewage discharge",
-      "category": "environmental_hazard",
-      "severity": "warning",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/22-major-drains-discharge-sewage-into-mula-mutha-pmc-under-scrutiny-101787077507506.html",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.hindustantimes.com/cities/pune-news/22-major-drains-discharge-sewage-into-mula-mutha-pmc-under-scrutiny-101787077507506.html",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-19T02:41:30.000Z",
-      "lastUpdated": "2026-08-19T02:41:30.000Z",
-      "sourceCheckedAt": "2026-08-19T13:58:12.464Z",
-      "lastVerifiedAt": "2026-08-19T13:58:12.464Z",
-      "intelligenceGeneratedAt": "2026-08-19T13:58:29.526Z",
-      "expiresAt": "2026-08-19T14:41:30.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
-      "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces.",
-      "recommendedAction": "Avoid exposure and follow civic, pollution-control or health-authority guidance.",
-      "affectedArea": "",
-      "upstreamId": "",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "broader_area",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
     {
       "id": "accident-developing-10-year-old-boy-killed-after-truck-hits-bike-on-mhalunge-road-driver-f",
       "eventKind": "incident",
@@ -230,9 +181,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-19T02:33:30.000Z",
       "lastUpdated": "2026-08-19T02:33:30.000Z",
-      "sourceCheckedAt": "2026-08-19T13:58:12.464Z",
-      "lastVerifiedAt": "2026-08-19T13:58:12.464Z",
-      "intelligenceGeneratedAt": "2026-08-19T13:58:29.526Z",
+      "sourceCheckedAt": "2026-08-19T14:42:34.793Z",
+      "lastVerifiedAt": "2026-08-19T14:42:34.793Z",
+      "intelligenceGeneratedAt": "2026-08-19T14:42:56.023Z",
       "expiresAt": "2026-08-20T02:33:30.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -254,6 +205,63 @@
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-pune-boy-riding-pillion-with-father-killed-in-accident-locals-blame-ba",
+      "eventKind": "incident",
+      "sourceId": "the_print",
+      "title": "Developing: Pune boy, riding pillion with father, killed in accident; locals blame bad roads",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "ThePrint",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "ThePrint",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOGUxWGZpV2s5a3RnZDdYZ0hXc1F3NmRvNUcwWk1yTTVwTG40R0NtdE5HVmwybHk4VmF3WTZZNVY5Ul9FNTdoTWFwMWFrYllQeU5CVEw0UUJsZjBrVWo5VFJnZmEwdEZ1V1pOMUxQNzZ3anRfYlVOWmR5YjlzcXVIejQ2UElyNW1mTEFDN0k5NUxVd2c3dmNaczZxd2ZUVmZ3QXR3Tkk3Tnk3Q1dWYnZGYmtB0gG3AUFVX3lxTFAwZzY4M2lUYVlKQS10T0xHYVRjS3NCSS1xQ0ZSM2hCUnRmTEtVeTZEeDdGNE1pY01mS1ZJTXpjb0RuWmFoQndzNHQyOG1NZnJodjFGbEpDcEJCcDZ0aktmWTlKZFhnVWpuWS1QcFBsYlVwVnVuaTVBNVdfUkFaNVBGX21XbFhtalZUcXA5Sml1YzV2M0hleEd4SGh3MWw0T2VxUl96QWlNZGVEdzZ5VlFQTWNhdWd5Yw?oc=5",
+          "origin": ""
+        },
+        {
+          "name": "Mid-day",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNOUNUVkZiUHR4ZlBhdVVjUDNqVG1uMU1DQXZpb3RCSy14UnVIUk45dFJiSERUYkdvdVo3Z1hMQVpEYkVIVlNoelcxVGVPTi1DNXpfN2VaZk5lcjd4MGhka3h2WDU3YjY4MWJ6VHFVWTRmNXJkUDFENFpMMUw1ZmJYMUZXLWtoVVIxT0cxTGpYVmF6UDVEVFduNGJZbW9DdEwtWDhYT29XaUdjLTBNLWFUblUyYUt6NVBUUk81OUMxRlAzTko1alJXMUV1OFRVY3ByXzZWS0lkVGdBMWRZZThMcjJJRFZWbFVqNUZySHV2bkN1anVPZDdFa3NOUl9td9IB_gFBVV95cUxNOUNUVkZiUHR4ZlBhdVVjUDNqVG1uMU1DQXZpb3RCSy14UnVIUk45dFJiSERUYkdvdVo3Z1hMQVpEYkVIVlNoelcxVGVPTi1DNXpfN2VaZk5lcjd4MGhka3h2WDU3YjY4MWJ6VHFVWTRmNXJkUDFENFpMMUw1ZmJYMUZXLWtoVVIxT0cxTGpYVmF6UDVEVFduNGJZbW9DdEwtWDhYT29XaUdjLTBNLWFUblUyYUt6NVBUUk81OUMxRlAzTko1alJXMUV1OFRVY3ByXzZWS0lkVGdBMWRZZThMcjJJRFZWbFVqNUZySHV2bkN1anVPZDdFa3NOUl9tdw?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOGUxWGZpV2s5a3RnZDdYZ0hXc1F3NmRvNUcwWk1yTTVwTG40R0NtdE5HVmwybHk4VmF3WTZZNVY5Ul9FNTdoTWFwMWFrYllQeU5CVEw0UUJsZjBrVWo5VFJnZmEwdEZ1V1pOMUxQNzZ3anRfYlVOWmR5YjlzcXVIejQ2UElyNW1mTEFDN0k5NUxVd2c3dmNaczZxd2ZUVmZ3QXR3Tkk3Tnk3Q1dWYnZGYmtB0gG3AUFVX3lxTFAwZzY4M2lUYVlKQS10T0xHYVRjS3NCSS1xQ0ZSM2hCUnRmTEtVeTZEeDdGNE1pY01mS1ZJTXpjb0RuWmFoQndzNHQyOG1NZnJodjFGbEpDcEJCcDZ0aktmWTlKZFhnVWpuWS1QcFBsYlVwVnVuaTVBNVdfUkFaNVBGX21XbFhtalZUcXA5Sml1YzV2M0hleEd4SGh3MWw0T2VxUl96QWlNZGVEdzZ5VlFQTWNhdWd5Yw?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-18T09:50:03.000Z",
+      "lastUpdated": "2026-08-18T09:50:03.000Z",
+      "sourceCheckedAt": "2026-08-19T14:42:34.793Z",
+      "lastVerifiedAt": "2026-08-19T14:42:34.793Z",
+      "intelligenceGeneratedAt": "2026-08-19T14:42:56.023Z",
+      "expiresAt": "2026-08-20T09:50:03.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 55,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-4ed9a3c9",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-08-19T14:42:34.793Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [
+        "accident-developing-maharashtra-11-year-old-boy-killed-after-accident-in-pune-locals-blame"
+      ],
+      "independentSourceCount": 2,
+      "corroboratedByIndependentSources": true
     },
     {
       "id": "food-safety-developing-pune-sweet-shop-lost-rs-8-5-lakh-awarded-rs-5-lakh-after-food-safet",
@@ -279,9 +287,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-17T09:05:14.000Z",
       "lastUpdated": "2026-08-17T09:05:14.000Z",
-      "sourceCheckedAt": "2026-08-19T13:58:12.464Z",
-      "lastVerifiedAt": "2026-08-19T13:58:12.464Z",
-      "intelligenceGeneratedAt": "2026-08-19T13:58:29.526Z",
+      "sourceCheckedAt": "2026-08-19T14:42:34.793Z",
+      "lastVerifiedAt": "2026-08-19T14:42:34.793Z",
+      "intelligenceGeneratedAt": "2026-08-19T14:42:56.023Z",
       "expiresAt": "2026-08-20T09:05:14.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -294,7 +302,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-19T13:58:12.464Z",
+      "discoveredAt": "2026-08-19T14:42:34.793Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -333,9 +341,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-18T08:22:00.000Z",
       "lastUpdated": "2026-08-18T08:22:00.000Z",
-      "sourceCheckedAt": "2026-08-19T13:58:12.464Z",
-      "lastVerifiedAt": "2026-08-19T13:58:12.464Z",
-      "intelligenceGeneratedAt": "2026-08-19T13:58:29.526Z",
+      "sourceCheckedAt": "2026-08-19T14:42:34.793Z",
+      "lastVerifiedAt": "2026-08-19T14:42:34.793Z",
+      "intelligenceGeneratedAt": "2026-08-19T14:42:56.023Z",
       "expiresAt": "2026-08-20T08:22:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -348,7 +356,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-19T13:58:12.464Z",
+      "discoveredAt": "2026-08-19T14:42:34.793Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -357,63 +365,6 @@
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-pune-boy-riding-pillion-with-father-killed-in-accident-locals-blame-ba",
-      "eventKind": "incident",
-      "sourceId": "the_print",
-      "title": "Developing: Pune boy, riding pillion with father, killed in accident; locals blame bad roads",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "ThePrint",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "ThePrint",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOGUxWGZpV2s5a3RnZDdYZ0hXc1F3NmRvNUcwWk1yTTVwTG40R0NtdE5HVmwybHk4VmF3WTZZNVY5Ul9FNTdoTWFwMWFrYllQeU5CVEw0UUJsZjBrVWo5VFJnZmEwdEZ1V1pOMUxQNzZ3anRfYlVOWmR5YjlzcXVIejQ2UElyNW1mTEFDN0k5NUxVd2c3dmNaczZxd2ZUVmZ3QXR3Tkk3Tnk3Q1dWYnZGYmtB0gG3AUFVX3lxTFAwZzY4M2lUYVlKQS10T0xHYVRjS3NCSS1xQ0ZSM2hCUnRmTEtVeTZEeDdGNE1pY01mS1ZJTXpjb0RuWmFoQndzNHQyOG1NZnJodjFGbEpDcEJCcDZ0aktmWTlKZFhnVWpuWS1QcFBsYlVwVnVuaTVBNVdfUkFaNVBGX21XbFhtalZUcXA5Sml1YzV2M0hleEd4SGh3MWw0T2VxUl96QWlNZGVEdzZ5VlFQTWNhdWd5Yw?oc=5",
-          "origin": ""
-        },
-        {
-          "name": "Mid-day",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNOUNUVkZiUHR4ZlBhdVVjUDNqVG1uMU1DQXZpb3RCSy14UnVIUk45dFJiSERUYkdvdVo3Z1hMQVpEYkVIVlNoelcxVGVPTi1DNXpfN2VaZk5lcjd4MGhka3h2WDU3YjY4MWJ6VHFVWTRmNXJkUDFENFpMMUw1ZmJYMUZXLWtoVVIxT0cxTGpYVmF6UDVEVFduNGJZbW9DdEwtWDhYT29XaUdjLTBNLWFUblUyYUt6NVBUUk81OUMxRlAzTko1alJXMUV1OFRVY3ByXzZWS0lkVGdBMWRZZThMcjJJRFZWbFVqNUZySHV2bkN1anVPZDdFa3NOUl9td9IB_gFBVV95cUxNOUNUVkZiUHR4ZlBhdVVjUDNqVG1uMU1DQXZpb3RCSy14UnVIUk45dFJiSERUYkdvdVo3Z1hMQVpEYkVIVlNoelcxVGVPTi1DNXpfN2VaZk5lcjd4MGhka3h2WDU3YjY4MWJ6VHFVWTRmNXJkUDFENFpMMUw1ZmJYMUZXLWtoVVIxT0cxTGpYVmF6UDVEVFduNGJZbW9DdEwtWDhYT29XaUdjLTBNLWFUblUyYUt6NVBUUk81OUMxRlAzTko1alJXMUV1OFRVY3ByXzZWS0lkVGdBMWRZZThMcjJJRFZWbFVqNUZySHV2bkN1anVPZDdFa3NOUl9tdw?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOGUxWGZpV2s5a3RnZDdYZ0hXc1F3NmRvNUcwWk1yTTVwTG40R0NtdE5HVmwybHk4VmF3WTZZNVY5Ul9FNTdoTWFwMWFrYllQeU5CVEw0UUJsZjBrVWo5VFJnZmEwdEZ1V1pOMUxQNzZ3anRfYlVOWmR5YjlzcXVIejQ2UElyNW1mTEFDN0k5NUxVd2c3dmNaczZxd2ZUVmZ3QXR3Tkk3Tnk3Q1dWYnZGYmtB0gG3AUFVX3lxTFAwZzY4M2lUYVlKQS10T0xHYVRjS3NCSS1xQ0ZSM2hCUnRmTEtVeTZEeDdGNE1pY01mS1ZJTXpjb0RuWmFoQndzNHQyOG1NZnJodjFGbEpDcEJCcDZ0aktmWTlKZFhnVWpuWS1QcFBsYlVwVnVuaTVBNVdfUkFaNVBGX21XbFhtalZUcXA5Sml1YzV2M0hleEd4SGh3MWw0T2VxUl96QWlNZGVEdzZ5VlFQTWNhdWd5Yw?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-08-18T09:50:03.000Z",
-      "lastUpdated": "2026-08-18T09:50:03.000Z",
-      "sourceCheckedAt": "2026-08-19T13:58:12.464Z",
-      "lastVerifiedAt": "2026-08-19T13:58:12.464Z",
-      "intelligenceGeneratedAt": "2026-08-19T13:58:29.526Z",
-      "expiresAt": "2026-08-20T09:50:03.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 55,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-4ed9a3c9",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-08-19T13:58:12.464Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [
-        "accident-developing-maharashtra-11-year-old-boy-killed-after-accident-in-pune-locals-blame"
-      ],
-      "independentSourceCount": 2,
-      "corroboratedByIndependentSources": true
     },
     {
       "id": "accident-developing-latur-teen-injured-in-accident-dies-near-pune-while-heading-for-surger",
@@ -439,9 +390,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-17T19:05:00.000Z",
       "lastUpdated": "2026-08-17T19:05:00.000Z",
-      "sourceCheckedAt": "2026-08-19T13:58:12.464Z",
-      "lastVerifiedAt": "2026-08-19T13:58:12.464Z",
-      "intelligenceGeneratedAt": "2026-08-19T13:58:29.526Z",
+      "sourceCheckedAt": "2026-08-19T14:42:34.793Z",
+      "lastVerifiedAt": "2026-08-19T14:42:34.793Z",
+      "intelligenceGeneratedAt": "2026-08-19T14:42:56.023Z",
       "expiresAt": "2026-08-19T19:05:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -454,7 +405,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-19T13:58:12.464Z",
+      "discoveredAt": "2026-08-19T14:42:34.793Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -468,16 +419,16 @@
   "journeyContext": {
     "activeRiskEvents": [
       {
-        "id": "environmental-hazard-developing-22-major-drains-discharge-sewage-into-mula-mutha-pmc-under",
-        "category": "environmental_hazard",
-        "severity": "warning",
+        "id": "accident-developing-10-year-old-boy-killed-after-truck-hits-bike-on-mhalunge-road-driver-f",
+        "category": "accident",
+        "severity": "watch",
         "localities": [],
         "talukas": [],
         "operationalZones": [],
-        "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces."
+        "impact": "Traffic delays are likely near the incident location."
       },
       {
-        "id": "accident-developing-10-year-old-boy-killed-after-truck-hits-bike-on-mhalunge-road-driver-f",
+        "id": "accident-developing-pune-boy-riding-pillion-with-father-killed-in-accident-locals-blame-ba",
         "category": "accident",
         "severity": "watch",
         "localities": [],
@@ -509,15 +460,6 @@
         "impact": "This event may affect local awareness or movement."
       },
       {
-        "id": "accident-developing-pune-boy-riding-pillion-with-father-killed-in-accident-locals-blame-ba",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      },
-      {
         "id": "accident-developing-latur-teen-injured-in-accident-dies-near-pune-while-heading-for-surger",
         "category": "accident",
         "severity": "watch",
@@ -528,22 +470,72 @@
       }
     ]
   },
-  "expiredEvents": [],
+  "expiredEvents": [
+    {
+      "id": "environmental-hazard-developing-22-major-drains-discharge-sewage-into-mula-mutha-pmc-under",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny",
+      "summary": "The disclosure has raised questions over the civic body’s monitoring and enforcement despite regulations prohibiting untreated sewage discharge",
+      "category": "environmental_hazard",
+      "severity": "warning",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/22-major-drains-discharge-sewage-into-mula-mutha-pmc-under-scrutiny-101787077507506.html",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/22-major-drains-discharge-sewage-into-mula-mutha-pmc-under-scrutiny-101787077507506.html",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-19T02:41:30.000Z",
+      "lastUpdated": "2026-08-19T02:41:30.000Z",
+      "sourceCheckedAt": "2026-08-19T14:42:34.793Z",
+      "lastVerifiedAt": "2026-08-19T14:42:34.793Z",
+      "intelligenceGeneratedAt": "2026-08-19T14:42:56.023Z",
+      "expiresAt": "2026-08-19T14:41:30.000Z",
+      "lifecycle": "expired",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces.",
+      "recommendedAction": "Avoid exposure and follow civic, pollution-control or health-authority guidance.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-19T13:58:12.464Z",
-      "lastSuccessfulAt": "2026-08-19T13:58:12.464Z",
+      "sourceCheckedAt": "2026-08-19T14:42:34.793Z",
+      "lastSuccessfulAt": "2026-08-19T14:42:34.793Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-19T13:58:29.596Z",
+      "generatedAt": "2026-08-19T14:42:56.127Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -556,7 +548,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-19T13:58:29.595Z",
+      "generatedAt": "2026-08-19T14:42:56.127Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -637,7 +629,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-19T13:58:29.596Z",
+      "generatedAt": "2026-08-19T14:42:56.127Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways",
@@ -683,7 +675,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-19T13:58:29.656Z",
+        "generatedAt": "2026-08-19T14:42:56.185Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -827,7 +819,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-19T13:58:29.657Z",
+        "generatedAt": "2026-08-19T14:42:56.185Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -924,7 +916,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-19T13:58:29.657Z",
+        "generatedAt": "2026-08-19T14:42:56.185Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -953,21 +945,14 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 30,
-            "label": "Avoid if Possible",
-            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
-              "Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny may cause delays or safety concerns.",
               "Developing: 10-year-old boy killed after truck hits bike on Mhalunge road; driver flees may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
-              {
-                "eventId": "environmental-hazard-developing-22-major-drains-discharge-sewage-into-mula-mutha-pmc-under",
-                "category": "environmental_hazard",
-                "penalty": 20,
-                "title": "Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny"
-              },
               {
                 "eventId": "accident-developing-10-year-old-boy-killed-after-truck-hits-bike-on-mhalunge-road-driver-f",
                 "category": "accident",
@@ -976,12 +961,12 @@
               }
             ]
           },
-          "estimatedTimeMin": 80,
-          "estimatedDelayMin": 45,
+          "estimatedTimeMin": 60,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Developing: 10-year-old boy killed after truck hits bike on Mhalunge road; driver flees may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -1012,21 +997,14 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 30,
-              "label": "Avoid if Possible",
-              "recommendation": "Avoid this route if possible unless travel is essential.",
+              "score": 50,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
-                "Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny may cause delays or safety concerns.",
                 "Developing: 10-year-old boy killed after truck hits bike on Mhalunge road; driver flees may cause delays or safety concerns.",
                 "Low visibility may make driving unsafe."
               ],
               "penalties": [
-                {
-                  "eventId": "environmental-hazard-developing-22-major-drains-discharge-sewage-into-mula-mutha-pmc-under",
-                  "category": "environmental_hazard",
-                  "penalty": 20,
-                  "title": "Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny"
-                },
                 {
                   "eventId": "accident-developing-10-year-old-boy-killed-after-truck-hits-bike-on-mhalunge-road-driver-f",
                   "category": "accident",
@@ -1035,12 +1013,12 @@
                 }
               ]
             },
-            "estimatedTimeMin": 80,
-            "estimatedDelayMin": 45,
+            "estimatedTimeMin": 60,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny may cause delays or safety concerns."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Developing: 10-year-old boy killed after truck hits bike on Mhalunge road; driver flees may cause delays or safety concerns."
           }
         ]
       }
