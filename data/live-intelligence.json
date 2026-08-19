@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-19T01:47:07.896Z",
+  "generatedAt": "2026-08-19T03:00:01.063Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-19T01:46:52.306Z",
-        "lastSuccessfulAt": "2026-08-19T01:46:52.306Z",
+        "sourceCheckedAt": "2026-08-19T02:59:46.214Z",
+        "lastSuccessfulAt": "2026-08-19T02:59:46.214Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-08-19T01:46:56.297Z",
-        "lastSuccessfulAt": "2026-08-19T01:46:56.297Z",
+        "sourceCheckedAt": "2026-08-19T02:59:49.752Z",
+        "lastSuccessfulAt": "2026-08-19T02:59:49.752Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-08-19T01:46:56.297Z",
-        "lastSuccessfulAt": "2026-08-18T23:59:16.377Z",
+        "sourceCheckedAt": "2026-08-19T02:59:49.752Z",
+        "lastSuccessfulAt": "2026-08-19T01:46:56.297Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-08-19T01:46:53.065Z",
-        "lastSuccessfulAt": "2026-08-19T01:46:53.065Z",
+        "sourceCheckedAt": "2026-08-19T02:59:46.731Z",
+        "lastSuccessfulAt": "2026-08-19T02:59:46.731Z",
         "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-19T01:46:53.065Z",
-        "lastSuccessfulAt": "2026-08-19T01:46:53.065Z",
+        "sourceCheckedAt": "2026-08-19T02:59:46.731Z",
+        "lastSuccessfulAt": "2026-08-19T02:59:46.731Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,8 +62,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-19T01:46:53.065Z",
-        "lastSuccessfulAt": "2026-08-19T01:46:53.065Z",
+        "sourceCheckedAt": "2026-08-19T02:59:46.731Z",
+        "lastSuccessfulAt": "2026-08-19T02:59:46.731Z",
         "error": null,
         "etag": "W/\"8455-1787059918002\"",
         "itemsCollected": 0,
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-08-19T01:46:53.065Z",
+        "sourceCheckedAt": "2026-08-19T02:59:46.731Z",
         "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,19 +82,19 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-19T01:46:53.065Z",
-        "lastSuccessfulAt": "2026-08-19T01:46:53.065Z",
+        "sourceCheckedAt": "2026-08-19T02:59:46.731Z",
+        "lastSuccessfulAt": "2026-08-19T02:59:46.731Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 0,
+        "itemsCollected": 2,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-19T01:46:53.065Z",
-        "lastSuccessfulAt": "2026-08-19T01:46:53.065Z",
+        "sourceCheckedAt": "2026-08-19T02:59:46.731Z",
+        "lastSuccessfulAt": "2026-08-19T02:59:46.731Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -104,7 +104,7 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-08-19T01:46:53.065Z",
+        "sourceCheckedAt": "2026-08-19T02:59:46.731Z",
         "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
         "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}",
         "type": "incidents"
@@ -113,8 +113,8 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-19T01:46:53.065Z",
-        "lastSuccessfulAt": "2026-08-19T01:46:53.065Z",
+        "sourceCheckedAt": "2026-08-19T02:59:46.731Z",
+        "lastSuccessfulAt": "2026-08-19T02:59:46.731Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -124,11 +124,11 @@
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-08-19T01:46:53.065Z",
-        "lastSuccessfulAt": "2026-08-19T01:46:53.065Z",
+        "sourceCheckedAt": "2026-08-19T02:59:46.731Z",
+        "lastSuccessfulAt": "2026-08-19T02:59:46.731Z",
         "error": null,
-        "itemsCollected": 4,
-        "itemsQualified": 4,
+        "itemsCollected": 5,
+        "itemsQualified": 5,
         "type": "incidents"
       },
       {
@@ -136,8 +136,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-08-19T01:46:56.297Z",
-        "lastSuccessfulAt": "2026-08-19T01:46:56.297Z",
+        "sourceCheckedAt": "2026-08-19T02:59:49.752Z",
+        "lastSuccessfulAt": "2026-08-19T02:59:49.752Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -500,19 +500,37 @@
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
     "alertsAvailable": 0,
-    "incidentsAvailable": 3,
+    "incidentsAvailable": 6,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
   "developingSituations": [
     {
-      "id": "accident-developing-pune-boy-riding-pillion-with-father-killed-in-accident-locals-blame-ba",
-      "title": "Developing: Pune boy, riding pillion with father, killed in accident; locals blame bad roads",
+      "id": "environmental-hazard-developing-22-major-drains-discharge-sewage-into-mula-mutha-pmc-under",
+      "title": "Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "ThePrint",
+      "source": "Hindustan Times Pune",
       "trust": "B",
-      "updatedAt": "2026-08-18T09:50:03.000Z"
+      "updatedAt": "2026-08-19T02:41:30.000Z"
+    },
+    {
+      "id": "accident-developing-10-year-old-boy-killed-after-truck-hits-bike-on-mhalunge-road-driver-f",
+      "title": "Developing: 10-year-old boy killed after truck hits bike on Mhalunge road; driver flees",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Hindustan Times Pune",
+      "trust": "B",
+      "updatedAt": "2026-08-19T02:33:30.000Z"
+    },
+    {
+      "id": "food-safety-developing-pune-sweet-shop-lost-rs-8-5-lakh-awarded-rs-5-lakh-after-food-safet",
+      "title": "Developing: Pune sweet shop lost Rs 8.5 lakh, awarded Rs 5 lakh after food safety raid",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Indian Express Pune",
+      "trust": "B",
+      "updatedAt": "2026-08-17T09:05:14.000Z"
     },
     {
       "id": "flood-developing-citizens-group-launches-flood-survey-to-document-waterlogging-in-pune-and",
@@ -522,6 +540,15 @@
       "source": "Times of India",
       "trust": "B",
       "updatedAt": "2026-08-18T08:22:00.000Z"
+    },
+    {
+      "id": "accident-developing-pune-boy-riding-pillion-with-father-killed-in-accident-locals-blame-ba",
+      "title": "Developing: Pune boy, riding pillion with father, killed in accident; locals blame bad roads",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "ThePrint",
+      "trust": "B",
+      "updatedAt": "2026-08-18T09:50:03.000Z"
     },
     {
       "id": "accident-developing-latur-teen-injured-in-accident-dies-near-pune-while-heading-for-surger",

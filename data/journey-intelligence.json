@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-19T01:47:07.851Z",
+  "generatedAt": "2026-08-19T03:00:01.015Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-19T01:47:07.851Z",
+      "generatedAt": "2026-08-19T03:00:01.014Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -152,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-19T01:47:07.851Z",
+      "generatedAt": "2026-08-19T03:00:01.015Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -249,7 +249,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-19T01:47:07.851Z",
+      "generatedAt": "2026-08-19T03:00:01.015Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -278,20 +278,35 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 70,
-          "label": "Proceed with Caution",
-          "recommendation": "Proceed with caution and allow extra travel time.",
+          "score": 30,
+          "label": "Avoid if Possible",
+          "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
+            "Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny may cause delays or safety concerns.",
+            "Developing: 10-year-old boy killed after truck hits bike on Mhalunge road; driver flees may cause delays or safety concerns.",
             "Low visibility may make driving unsafe."
           ],
-          "penalties": []
+          "penalties": [
+            {
+              "eventId": "environmental-hazard-developing-22-major-drains-discharge-sewage-into-mula-mutha-pmc-under",
+              "category": "environmental_hazard",
+              "penalty": 20,
+              "title": "Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny"
+            },
+            {
+              "eventId": "accident-developing-10-year-old-boy-killed-after-truck-hits-bike-on-mhalunge-road-driver-f",
+              "category": "accident",
+              "penalty": 20,
+              "title": "Developing: 10-year-old boy killed after truck hits bike on Mhalunge road; driver flees"
+            }
+          ]
         },
-        "estimatedTimeMin": 50,
-        "estimatedDelayMin": 15,
+        "estimatedTimeMin": 80,
+        "estimatedDelayMin": 45,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -322,20 +337,35 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 30,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
+              "Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny may cause delays or safety concerns.",
+              "Developing: 10-year-old boy killed after truck hits bike on Mhalunge road; driver flees may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": []
+            "penalties": [
+              {
+                "eventId": "environmental-hazard-developing-22-major-drains-discharge-sewage-into-mula-mutha-pmc-under",
+                "category": "environmental_hazard",
+                "penalty": 20,
+                "title": "Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny"
+              },
+              {
+                "eventId": "accident-developing-10-year-old-boy-killed-after-truck-hits-bike-on-mhalunge-road-driver-f",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: 10-year-old boy killed after truck hits bike on Mhalunge road; driver flees"
+              }
+            ]
           },
-          "estimatedTimeMin": 50,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 80 minutes including around 45 minutes delay. Main reason: Developing: 22 major drains discharge sewage into Mula-Mutha, PMC under scrutiny may cause delays or safety concerns."
         }
       ]
     }
