@@ -1,8 +1,17 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-22T14:50:05.358Z",
+  "generatedAt": "2026-08-22T15:24:14.090Z",
   "routes": [],
   "risks": [
+    {
+      "id": "flood-developing-pune-news-राहुल-गांधींच्या-कार्यक्रमाला-संपूर्ण-वंदे-मातरम्-मधून-उत्तर-n1",
+      "category": "flood",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
     {
       "id": "road-closure-developing-thousands-expected-at-rahul-gandhi-s-pune-event-no-road-closures-t",
       "category": "road_closure",
@@ -11,15 +20,6 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Route may be blocked or diverted."
-    },
-    {
-      "id": "accident-developing-pune-mact-awards-rs-1-18-crore-to-widow-and-mother-of-tax-consultant-k",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
     }
   ]
 }
