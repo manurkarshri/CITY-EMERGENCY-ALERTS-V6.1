@@ -1,6 +1,56 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-22T02:56:50.936Z",
+  "generatedAt": "2026-08-22T03:48:18.489Z",
   "sourceStatus": "stale",
-  "items": []
+  "items": [
+    {
+      "id": "road-closure-developing-thousands-expected-at-rahul-gandhi-s-pune-event-no-road-closures-t",
+      "eventKind": "alert",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Thousands expected at Rahul Gandhi’s Pune event; no road closures, traffic police to monitor",
+      "summary": "A current trusted-media report relevant to Pune District. Indian Express Pune attributes this alert to Pune Police. The original official feed was not available to the app at collection time.",
+      "category": "road_closure",
+      "severity": "warning",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObGdpVkxuOXZqQTJpdU1kejViM2toY0V3UFEtVXUxTzNfSW1oWjhGZnVCdFJyeHhNNzEtaDhTZWZBYmtoRC1zWkphTHZGU3BSUUpVU3luVTNLcHJranFXMFlrLW5DX1J4R3lIVjNqcUFZX0lpUndHcmh5dHpsQXJlSEI1SWVaV2R2YklaT1FmQ1JiUnpudmdMMkhLMFo3V2pqY1ZjbWROMk1GYWVyQU16RWxMZXJndTh0RWI4MHZ4SUt4YVhpN0xGTNIBzwFBVV95cUxNd25JRC1YaHN0bkxncU9CMVpLWEZpWlNBQ1B6N2F4T1RHNGo2YmF6UllRWUFQNDFiQzV3YzRJdEQycjVzbnFFZEcxbkJyNzZ3RzJSUmVMdEo2RjJya2s3Q3pNWVAwajliZEVwU0toQ3ZYNzdOOUZvZW5iSzYtdkR2cUFQYmFjclVlM2h5djdmaktyZFA1SThjVElzOW5zblJhQmRoZjZmV3JvcG9kdDl6NHhVY0pSNmVSSXlfQjlGWVN0VTc5bE1fR1FsN1JpTGs?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObGdpVkxuOXZqQTJpdU1kejViM2toY0V3UFEtVXUxTzNfSW1oWjhGZnVCdFJyeHhNNzEtaDhTZWZBYmtoRC1zWkphTHZGU3BSUUpVU3luVTNLcHJranFXMFlrLW5DX1J4R3lIVjNqcUFZX0lpUndHcmh5dHpsQXJlSEI1SWVaV2R2YklaT1FmQ1JiUnpudmdMMkhLMFo3V2pqY1ZjbWROMk1GYWVyQU16RWxMZXJndTh0RWI4MHZ4SUt4YVhpN0xGTNIBzwFBVV95cUxNd25JRC1YaHN0bkxncU9CMVpLWEZpWlNBQ1B6N2F4T1RHNGo2YmF6UllRWUFQNDFiQzV3YzRJdEQycjVzbnFFZEcxbkJyNzZ3RzJSUmVMdEo2RjJya2s3Q3pNWVAwajliZEVwU0toQ3ZYNzdOOUZvZW5iSzYtdkR2cUFQYmFjclVlM2h5djdmaktyZFA1SThjVElzOW5zblJhQmRoZjZmV3JvcG9kdDl6NHhVY0pSNmVSSXlfQjlGWVN0VTc5bE1fR1FsN1JpTGs?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-08-22T03:30:34.000Z",
+      "lastUpdated": "2026-08-22T03:30:34.000Z",
+      "sourceCheckedAt": "2026-08-22T03:48:03.642Z",
+      "lastVerifiedAt": "2026-08-22T03:48:03.642Z",
+      "intelligenceGeneratedAt": "2026-08-22T03:48:18.489Z",
+      "expiresAt": "2026-08-24T03:30:34.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "Route may be blocked or diverted.",
+      "recommendedAction": "Use an alternate route and check official updates.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-93399f98",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "Pune Police",
+      "alertBasis": "trusted_media_attributed_official",
+      "discoveredAt": "2026-08-22T03:48:03.642Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
