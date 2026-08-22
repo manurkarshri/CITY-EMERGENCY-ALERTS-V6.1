@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-22T19:36:29.750Z",
+  "generatedAt": "2026-08-22T19:57:47.524Z",
   "sourceStatus": "stale",
   "items": [
     {
@@ -29,7 +29,7 @@
       "lastUpdated": "2026-08-22T07:30:46.000Z",
       "sourceCheckedAt": "2026-08-22T19:36:14.629Z",
       "lastVerifiedAt": "2026-08-22T19:36:14.629Z",
-      "intelligenceGeneratedAt": "2026-08-22T19:36:29.750Z",
+      "intelligenceGeneratedAt": "2026-08-22T19:57:47.524Z",
       "expiresAt": "2026-08-24T07:30:46.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -48,6 +48,59 @@
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-four-bus-passengers-injured-after-msrtc-bus-hits-stationary-private-bu",
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "title": "Developing: Four bus passengers injured after MSRTC bus hits stationary private bus near Chakan",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNb3RPYkd4VW9JQ0tKbTNOVnJrdmNtMlA0QXpzSjBlWm5IdG81ekxyb1BrLVZVdjRjMVgtOGsyNm8yc1dfYTdjQk4tVk5sVUQwNk9ub29PYmc0dVpmNDByNGYwSnFWRGNuX2d6YndvMGJsb1lkNjA0VDBLMXZmQm44bVFQQ0hnOWZQWXJQX2RZODJXdTFXS2pSYl9YNFd0aTdWLTFfV1JiS19LbDVvTHJCQS1VZXo1dVZ6eXRJamloTEpDZG9BeFJvS01VSG0xWlpsb09ENkg1N0s5M2RQNlZLMnBYd1djb0hEbERN0gHwAUFVX3lxTE42UXFlLTZsenZIZlJfeWRtblplY2wyc3NyYmFNZlN6UE5JWFJVUjNVSGM5X1JpWnliUVhGVjI4YVZNbDdiNm1sQ1lUQ0h1Rk9yd1FjS0EteUFJWXpUdG1hUW9MVWMtcjJWNGFqM203N01QaFpLeXdNM2lVcjhLVUdoUUlhMFVRZS13ejBWdzlOM0Z2eWQ1RzRXVy04S3pCUmxHMk1oVkpQTkVhaG02TnFRNDd1VlBvU29CWGs1QnZ5Q2NkUVJWTEFKV0RXaks0dkU3dlh6RUM0aHcwSWJyM0ZpOFc5c2FyRm1pNjBmTWN0Uw?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNb3RPYkd4VW9JQ0tKbTNOVnJrdmNtMlA0QXpzSjBlWm5IdG81ekxyb1BrLVZVdjRjMVgtOGsyNm8yc1dfYTdjQk4tVk5sVUQwNk9ub29PYmc0dVpmNDByNGYwSnFWRGNuX2d6YndvMGJsb1lkNjA0VDBLMXZmQm44bVFQQ0hnOWZQWXJQX2RZODJXdTFXS2pSYl9YNFd0aTdWLTFfV1JiS19LbDVvTHJCQS1VZXo1dVZ6eXRJamloTEpDZG9BeFJvS01VSG0xWlpsb09ENkg1N0s5M2RQNlZLMnBYd1djb0hEbERN0gHwAUFVX3lxTE42UXFlLTZsenZIZlJfeWRtblplY2wyc3NyYmFNZlN6UE5JWFJVUjNVSGM5X1JpWnliUVhGVjI4YVZNbDdiNm1sQ1lUQ0h1Rk9yd1FjS0EteUFJWXpUdG1hUW9MVWMtcjJWNGFqM203N01QaFpLeXdNM2lVcjhLVUdoUUlhMFVRZS13ejBWdzlOM0Z2eWQ1RzRXVy04S3pCUmxHMk1oVkpQTkVhaG02TnFRNDd1VlBvU29CWGs1QnZ5Q2NkUVJWTEFKV0RXaks0dkU3dlh6RUM0aHcwSWJyM0ZpOFc5c2FyRm1pNjBmTWN0Uw?oc=5",
+      "talukas": [
+        "khed"
+      ],
+      "localities": [
+        "Chakan"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-08-22T19:33:00.000Z",
+      "lastUpdated": "2026-08-22T19:33:00.000Z",
+      "sourceCheckedAt": "2026-08-22T19:57:32.825Z",
+      "lastVerifiedAt": "2026-08-22T19:57:32.825Z",
+      "intelligenceGeneratedAt": "2026-08-22T19:57:47.524Z",
+      "expiresAt": "2026-08-24T19:33:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 70,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Chakan",
+      "upstreamId": "google-news-6a9e3beb",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-08-22T19:57:32.825Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
