@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-25T06:53:22.663Z",
+  "generatedAt": "2026-08-25T07:47:16.814Z",
   "status": "stale",
   "situation": {
-    "snapshot": "4 active transport-related event(s) may affect travel.",
+    "snapshot": "3 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-08-25T06:53:22.720Z",
+      "generatedAt": "2026-08-25T07:47:16.870Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,19 +13,19 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-25T06:53:07.904Z",
-          "observedAt": "2026-08-25T12:15:00+05:30",
-          "temp": 27.4,
-          "currentRain": 0.1,
-          "rain6h": 0.6,
-          "rain24h": 1.4,
+          "sourceCheckedAt": "2026-08-25T07:46:53.867Z",
+          "observedAt": "2026-08-25T13:15:00+05:30",
+          "temp": 27.8,
+          "currentRain": 0,
+          "rain6h": 0.5,
+          "rain24h": 1.7,
           "precipitationProbability": 51,
-          "wind": 41.4,
-          "gust": 41.4,
-          "humidity": 68,
+          "wind": 44.3,
+          "gust": 44.3,
+          "humidity": 66,
           "visibility": 7.1,
-          "weatherCode": 51,
-          "rainRisk": "Low",
+          "weatherCode": 3,
+          "rainRisk": "Minimal",
           "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
@@ -40,19 +40,19 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-25T06:53:07.904Z",
-          "observedAt": "2026-08-25T12:15:00+05:30",
-          "temp": 27.1,
-          "currentRain": 0,
-          "rain6h": 0.4,
-          "rain24h": 0.8,
+          "sourceCheckedAt": "2026-08-25T07:46:53.867Z",
+          "observedAt": "2026-08-25T13:15:00+05:30",
+          "temp": 27.7,
+          "currentRain": 0.1,
+          "rain6h": 0.2,
+          "rain24h": 0.7,
           "precipitationProbability": 55,
-          "wind": 38.9,
-          "gust": 38.9,
-          "humidity": 71,
+          "wind": 39.6,
+          "gust": 39.6,
+          "humidity": 68,
           "visibility": 11.7,
           "weatherCode": 51,
-          "rainRisk": "Minimal",
+          "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
@@ -67,19 +67,19 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-25T06:53:07.904Z",
-          "observedAt": "2026-08-25T12:15:00+05:30",
-          "temp": 27.4,
-          "currentRain": 0.1,
-          "rain6h": 0.6,
-          "rain24h": 1.4,
+          "sourceCheckedAt": "2026-08-25T07:46:53.867Z",
+          "observedAt": "2026-08-25T13:15:00+05:30",
+          "temp": 27.8,
+          "currentRain": 0,
+          "rain6h": 0.5,
+          "rain24h": 1.7,
           "precipitationProbability": 51,
-          "wind": 41.4,
-          "gust": 41.4,
-          "humidity": 68,
+          "wind": 44.3,
+          "gust": 44.3,
+          "humidity": 66,
           "visibility": 7.1,
-          "weatherCode": 51,
-          "rainRisk": "Low",
+          "weatherCode": 3,
+          "rainRisk": "Minimal",
           "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
@@ -94,25 +94,25 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-25T06:53:07.904Z",
-          "observedAt": "2026-08-25T12:15:00+05:30",
-          "temp": 24.1,
-          "currentRain": 0.2,
-          "rain6h": 4.2,
-          "rain24h": 12.8,
+          "sourceCheckedAt": "2026-08-25T07:46:53.867Z",
+          "observedAt": "2026-08-25T13:15:00+05:30",
+          "temp": 24.8,
+          "currentRain": 0,
+          "rain6h": 4.1,
+          "rain24h": 12.9,
           "precipitationProbability": 100,
-          "wind": 35.3,
-          "gust": 35.3,
-          "humidity": 90,
-          "visibility": 1.2,
-          "weatherCode": 55,
+          "wind": 39.6,
+          "gust": 39.6,
+          "humidity": 87,
+          "visibility": 0.3,
+          "weatherCode": 51,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "Medium",
+          "visibilityRisk": "High",
           "heatRisk": "Normal",
-          "travelImpact": "Low",
+          "travelImpact": "High",
           "advice": [
-            "No major weather-related disruption indicated."
+            "Low visibility may make driving unsafe."
           ]
         },
         "maval": {
@@ -121,37 +121,37 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-08-25T06:53:07.904Z",
-          "observedAt": "2026-08-25T12:15:00+05:30",
-          "temp": 23.8,
-          "currentRain": 0.2,
-          "rain6h": 4.8,
-          "rain24h": 19,
+          "sourceCheckedAt": "2026-08-25T07:46:53.867Z",
+          "observedAt": "2026-08-25T13:15:00+05:30",
+          "temp": 24.7,
+          "currentRain": 0.1,
+          "rain6h": 3.9,
+          "rain24h": 17.9,
           "precipitationProbability": 100,
-          "wind": 33.8,
-          "gust": 33.8,
-          "humidity": 91,
-          "visibility": 3.2,
-          "weatherCode": 80,
+          "wind": 37.4,
+          "gust": 37.4,
+          "humidity": 85,
+          "visibility": 0.9,
+          "weatherCode": 55,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "Low",
+          "visibilityRisk": "High",
           "heatRisk": "Normal",
-          "travelImpact": "Low",
+          "travelImpact": "High",
           "advice": [
-            "No major weather-related disruption indicated."
+            "Low visibility may make driving unsafe."
           ]
         }
       }
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-25T06:53:22.737Z",
+      "generatedAt": "2026-08-25T07:47:16.887Z",
       "riskLevel": "Normal",
       "impacts": [
-        "4 active transport-related event(s) may affect travel."
+        "3 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "4 active transport-related event(s) may affect travel.",
+      "citizenSummary": "3 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
@@ -181,9 +181,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-25T02:32:00.000Z",
       "lastUpdated": "2026-08-25T02:32:00.000Z",
-      "sourceCheckedAt": "2026-08-25T06:53:08.428Z",
-      "lastVerifiedAt": "2026-08-25T06:53:08.428Z",
-      "intelligenceGeneratedAt": "2026-08-25T06:53:22.663Z",
+      "sourceCheckedAt": "2026-08-25T07:46:54.488Z",
+      "lastVerifiedAt": "2026-08-25T07:46:54.488Z",
+      "intelligenceGeneratedAt": "2026-08-25T07:47:16.814Z",
       "expiresAt": "2026-08-26T02:32:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -202,59 +202,6 @@
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "broader_area",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-iit-bhu-grad-from-rajasthan-pursuing-mtech-in-pune-falls-from-bus-run-",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus",
-      "summary": "Pune: 25-year-old DIAT MTech student Kanchan Khadda died after falling from a crowded PMPML bus and being crushed by a school bus on Sinhagad Road.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://timesofindia.indiatimes.com/city/pune/iit-bhu-grad-from-rajasthan-pursuing-mtech-in-pune-falls-from-bus-run-over-by-school-bus/articleshow/133475995.cms",
-          "origin": ""
-        }
-      ],
-      "link": "https://timesofindia.indiatimes.com/city/pune/iit-bhu-grad-from-rajasthan-pursuing-mtech-in-pune-falls-from-bus-run-over-by-school-bus/articleshow/133475995.cms",
-      "talukas": [
-        "pune_city"
-      ],
-      "localities": [
-        "Sinhagad Road"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-08-24T18:08:53.000Z",
-      "lastUpdated": "2026-08-24T18:08:53.000Z",
-      "sourceCheckedAt": "2026-08-25T06:53:08.428Z",
-      "lastVerifiedAt": "2026-08-25T06:53:08.428Z",
-      "intelligenceGeneratedAt": "2026-08-25T06:53:22.663Z",
-      "expiresAt": "2026-08-26T18:08:53.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "",
-      "upstreamId": "fc7679b348dbc42337aba525436edc92",
-      "collectionProvider": "NewsData.io",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
@@ -289,13 +236,13 @@
       "operationalZones": [],
       "publishedAt": "2026-08-24T07:29:24.000Z",
       "lastUpdated": "2026-08-24T07:29:24.000Z",
-      "sourceCheckedAt": "2026-08-25T06:53:08.428Z",
-      "lastVerifiedAt": "2026-08-25T06:53:08.428Z",
-      "intelligenceGeneratedAt": "2026-08-25T06:53:22.663Z",
+      "sourceCheckedAt": "2026-08-25T07:46:54.488Z",
+      "lastVerifiedAt": "2026-08-25T07:46:54.488Z",
+      "intelligenceGeneratedAt": "2026-08-25T07:47:16.814Z",
       "expiresAt": "2026-08-26T07:29:24.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 63,
+      "confidenceScore": 55,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
@@ -304,7 +251,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-25T06:53:08.428Z",
+      "discoveredAt": "2026-08-25T07:46:54.488Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -340,9 +287,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-23T15:30:14.000Z",
       "lastUpdated": "2026-08-23T15:30:14.000Z",
-      "sourceCheckedAt": "2026-08-25T06:53:08.428Z",
-      "lastVerifiedAt": "2026-08-25T06:53:08.428Z",
-      "intelligenceGeneratedAt": "2026-08-25T06:53:22.663Z",
+      "sourceCheckedAt": "2026-08-25T07:46:54.488Z",
+      "lastVerifiedAt": "2026-08-25T07:46:54.488Z",
+      "intelligenceGeneratedAt": "2026-08-25T07:47:16.814Z",
       "expiresAt": "2026-08-25T15:30:14.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -355,7 +302,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "Pune Municipal Corporation",
       "alertBasis": "",
-      "discoveredAt": "2026-08-25T06:53:08.428Z",
+      "discoveredAt": "2026-08-25T07:46:54.488Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -374,19 +321,6 @@
         "severity": "watch",
         "localities": [],
         "talukas": [],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "accident-developing-iit-bhu-grad-from-rajasthan-pursuing-mtech-in-pune-falls-from-bus-run-",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [
-          "Sinhagad Road"
-        ],
-        "talukas": [
-          "pune_city"
-        ],
         "operationalZones": [],
         "impact": "Traffic delays are likely near the incident location."
       },
@@ -439,9 +373,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-22T19:33:00.000Z",
       "lastUpdated": "2026-08-22T19:33:00.000Z",
-      "sourceCheckedAt": "2026-08-25T06:53:08.428Z",
-      "lastVerifiedAt": "2026-08-25T06:53:08.428Z",
-      "intelligenceGeneratedAt": "2026-08-25T06:53:22.663Z",
+      "sourceCheckedAt": "2026-08-25T07:46:54.488Z",
+      "lastVerifiedAt": "2026-08-25T07:46:54.488Z",
+      "intelligenceGeneratedAt": "2026-08-25T07:47:16.814Z",
       "expiresAt": "2026-08-24T19:33:00.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -454,7 +388,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-25T06:53:08.428Z",
+      "discoveredAt": "2026-08-25T07:46:54.488Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -471,15 +405,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-25T06:53:08.428Z",
-      "lastSuccessfulAt": "2026-08-25T06:53:08.428Z",
-      "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
+      "sourceCheckedAt": "2026-08-25T07:46:54.488Z",
+      "lastSuccessfulAt": "2026-08-25T07:46:54.488Z",
+      "error": "imd_nowcast: fetch failed; indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-25T06:53:22.737Z",
+      "generatedAt": "2026-08-25T07:47:16.887Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -492,7 +426,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-25T06:53:22.737Z",
+      "generatedAt": "2026-08-25T07:47:16.887Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -573,7 +507,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-25T06:53:22.737Z",
+      "generatedAt": "2026-08-25T07:47:16.887Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -618,7 +552,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-25T06:53:22.794Z",
+        "generatedAt": "2026-08-25T07:47:16.948Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -650,18 +584,20 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
+            "score": 70,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
+            "reasons": [
+              "Low visibility may make driving unsafe."
+            ],
             "penalties": []
           },
-          "estimatedTimeMin": 65,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -695,18 +631,20 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
+              "score": 70,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
+              "reasons": [
+                "Low visibility may make driving unsafe."
+              ],
               "penalties": []
             },
-            "estimatedTimeMin": 65,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 80,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           },
           {
             "id": "kharadi-hinjawadi-pashan",
@@ -736,18 +674,20 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
+              "score": 70,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
+              "reasons": [
+                "Low visibility may make driving unsafe."
+              ],
               "penalties": []
             },
-            "estimatedTimeMin": 72,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 87,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -756,7 +696,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-25T06:53:22.794Z",
+        "generatedAt": "2026-08-25T07:47:16.949Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -786,18 +726,20 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
+            "score": 70,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
+            "reasons": [
+              "Low visibility may make driving unsafe."
+            ],
             "penalties": []
           },
-          "estimatedTimeMin": 95,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -829,18 +771,20 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
+              "score": 70,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
+              "reasons": [
+                "Low visibility may make driving unsafe."
+              ],
               "penalties": []
             },
-            "estimatedTimeMin": 95,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 110,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -849,7 +793,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-25T06:53:22.794Z",
+        "generatedAt": "2026-08-25T07:47:16.949Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -878,27 +822,20 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 80,
-            "label": "Good to Go",
-            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "score": 70,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus may cause delays or safety concerns."
+              "Low visibility may make driving unsafe."
             ],
-            "penalties": [
-              {
-                "eventId": "accident-developing-iit-bhu-grad-from-rajasthan-pursuing-mtech-in-pune-falls-from-bus-run-",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus"
-              }
-            ]
+            "penalties": []
           },
-          "estimatedTimeMin": 43,
-          "estimatedDelayMin": 8,
+          "estimatedTimeMin": 50,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -929,27 +866,20 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 80,
-              "label": "Good to Go",
-              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+              "score": 70,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus may cause delays or safety concerns."
+                "Low visibility may make driving unsafe."
               ],
-              "penalties": [
-                {
-                  "eventId": "accident-developing-iit-bhu-grad-from-rajasthan-pursuing-mtech-in-pune-falls-from-bus-run-",
-                  "category": "accident",
-                  "penalty": 20,
-                  "title": "Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus"
-                }
-              ]
+              "penalties": []
             },
-            "estimatedTimeMin": 43,
-            "estimatedDelayMin": 8,
+            "estimatedTimeMin": 50,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus may cause delays or safety concerns."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       }
