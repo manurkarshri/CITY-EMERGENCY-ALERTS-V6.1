@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-08-25T16:56:37.045Z",
+  "generatedAt": "2026-08-25T17:36:42.157Z",
   "status": "stale",
   "situation": {
     "snapshot": "2 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-08-25T16:56:37.096Z",
+      "generatedAt": "2026-08-25T17:36:42.212Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-08-25T16:56:37.140Z",
+      "generatedAt": "2026-08-25T17:36:42.246Z",
       "riskLevel": "Normal",
       "impacts": [
         "2 active transport-related event(s) may affect travel."
@@ -187,9 +187,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-25T02:32:00.000Z",
       "lastUpdated": "2026-08-25T02:32:00.000Z",
-      "sourceCheckedAt": "2026-08-25T16:56:14.154Z",
-      "lastVerifiedAt": "2026-08-25T16:56:14.154Z",
-      "intelligenceGeneratedAt": "2026-08-25T16:56:37.045Z",
+      "sourceCheckedAt": "2026-08-25T17:36:24.640Z",
+      "lastVerifiedAt": "2026-08-25T17:36:24.640Z",
+      "intelligenceGeneratedAt": "2026-08-25T17:36:42.157Z",
       "expiresAt": "2026-08-26T02:32:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -242,9 +242,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-24T19:01:00.000Z",
       "lastUpdated": "2026-08-24T19:01:00.000Z",
-      "sourceCheckedAt": "2026-08-25T16:56:14.154Z",
-      "lastVerifiedAt": "2026-08-25T16:56:14.154Z",
-      "intelligenceGeneratedAt": "2026-08-25T16:56:37.045Z",
+      "sourceCheckedAt": "2026-08-25T17:36:24.640Z",
+      "lastVerifiedAt": "2026-08-25T17:36:24.640Z",
+      "intelligenceGeneratedAt": "2026-08-25T17:36:42.157Z",
       "expiresAt": "2026-08-26T19:01:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -257,7 +257,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-25T16:56:14.154Z",
+      "discoveredAt": "2026-08-25T17:36:24.640Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -321,9 +321,9 @@
       "operationalZones": [],
       "publishedAt": "2026-08-22T19:33:00.000Z",
       "lastUpdated": "2026-08-22T19:33:00.000Z",
-      "sourceCheckedAt": "2026-08-25T16:56:14.154Z",
-      "lastVerifiedAt": "2026-08-25T16:56:14.154Z",
-      "intelligenceGeneratedAt": "2026-08-25T16:56:37.045Z",
+      "sourceCheckedAt": "2026-08-25T17:36:24.640Z",
+      "lastVerifiedAt": "2026-08-25T17:36:24.640Z",
+      "intelligenceGeneratedAt": "2026-08-25T17:36:42.157Z",
       "expiresAt": "2026-08-24T19:33:00.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -336,7 +336,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-08-25T16:56:14.154Z",
+      "discoveredAt": "2026-08-25T17:36:24.640Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -353,15 +353,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-08-25T16:56:14.154Z",
-      "lastSuccessfulAt": "2026-08-25T16:56:14.154Z",
-      "error": "imd_nowcast: fetch failed; indian_express_pune: Indian Express RSS request failed with HTTP 403"
+      "sourceCheckedAt": "2026-08-25T17:36:24.640Z",
+      "lastSuccessfulAt": "2026-08-25T17:36:24.640Z",
+      "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-08-25T16:56:37.140Z",
+      "generatedAt": "2026-08-25T17:36:42.246Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -374,7 +374,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-08-25T16:56:37.139Z",
+      "generatedAt": "2026-08-25T17:36:42.246Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -455,7 +455,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-08-25T16:56:37.140Z",
+      "generatedAt": "2026-08-25T17:36:42.246Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -500,7 +500,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-08-25T16:56:37.194Z",
+        "generatedAt": "2026-08-25T17:36:42.301Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -644,7 +644,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-08-25T16:56:37.194Z",
+        "generatedAt": "2026-08-25T17:36:42.301Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -741,7 +741,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-08-25T16:56:37.194Z",
+        "generatedAt": "2026-08-25T17:36:42.301Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
