@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-25T05:48:44.764Z",
+  "generatedAt": "2026-08-25T06:53:22.794Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-08-25T05:48:44.764Z",
+      "generatedAt": "2026-08-25T06:53:22.794Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -146,7 +146,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-08-25T05:48:44.764Z",
+      "generatedAt": "2026-08-25T06:53:22.794Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -239,7 +239,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-08-25T05:48:44.764Z",
+      "generatedAt": "2026-08-25T06:53:22.794Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -268,18 +268,27 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 100,
-          "label": "Excellent",
-          "recommendation": "Travel conditions look suitable.",
-          "reasons": [],
-          "penalties": []
+          "score": 80,
+          "label": "Good to Go",
+          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+          "reasons": [
+            "Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus may cause delays or safety concerns."
+          ],
+          "penalties": [
+            {
+              "eventId": "accident-developing-iit-bhu-grad-from-rajasthan-pursuing-mtech-in-pune-falls-from-bus-run-",
+              "category": "accident",
+              "penalty": 20,
+              "title": "Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus"
+            }
+          ]
         },
-        "estimatedTimeMin": 35,
-        "estimatedDelayMin": 0,
+        "estimatedTimeMin": 43,
+        "estimatedDelayMin": 8,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -310,18 +319,27 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "reasons": [
+              "Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus may cause delays or safety concerns."
+            ],
+            "penalties": [
+              {
+                "eventId": "accident-developing-iit-bhu-grad-from-rajasthan-pursuing-mtech-in-pune-falls-from-bus-run-",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus"
+              }
+            ]
           },
-          "estimatedTimeMin": 35,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 43,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: IIT-BHU grad from Rajasthan pursuing MTech in Pune falls from bus, run over by school bus may cause delays or safety concerns."
         }
       ]
     }

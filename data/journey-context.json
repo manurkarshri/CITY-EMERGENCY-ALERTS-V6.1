@@ -1,14 +1,27 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-08-25T05:48:43.631Z",
+  "generatedAt": "2026-08-25T06:53:22.663Z",
   "routes": [],
   "risks": [
     {
-      "id": "accident-developing-mtech-student-dies-after-falling-from-public-bus-run-over-by-school-bu",
+      "id": "accident-developing-mtech-student-dies-after-falling-off-public-bus-run-over-by-school-bus",
       "category": "accident",
       "severity": "watch",
       "localities": [],
       "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-iit-bhu-grad-from-rajasthan-pursuing-mtech-in-pune-falls-from-bus-run-",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Sinhagad Road"
+      ],
+      "talukas": [
+        "pune_city"
+      ],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
     },
