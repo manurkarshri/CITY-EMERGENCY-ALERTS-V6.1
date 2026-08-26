@@ -4,7 +4,7 @@
     "version": "6.1.0-production-user-testing",
     "milestone": "Production User Testing Release",
     "status": "partial",
-    "buildTime": "2026-08-26T05:18:03.016Z",
+    "buildTime": "2026-08-26T06:00:20.315Z",
     "note": "The application built successfully, but one or more live data sources are stale, unavailable, or not connected.",
     "alerts": 0,
     "incidents": 1,
@@ -15,9 +15,9 @@
     "trustedMediaSourcesConfigured": 28,
     "sourceSummary": {
       "total": 13,
-      "healthy": 8,
+      "healthy": 7,
       "stale": 3,
-      "unavailable": 2,
+      "unavailable": 3,
       "unverified": 0
     }
   }
