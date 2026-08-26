@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-08-26T01:27:46.282Z",
-  "lastSuccessfulAt": "2026-08-26T01:27:46.282Z",
+  "sourceCheckedAt": "2026-08-26T02:50:07.708Z",
+  "lastSuccessfulAt": "2026-08-26T02:50:07.708Z",
   "error": "imd_nowcast: fetch failed; indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,7 +13,7 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-26T01:27:46.282Z",
+      "sourceCheckedAt": "2026-08-26T02:50:07.708Z",
       "lastSuccessfulAt": "2026-08-25T23:50:48.576Z",
       "error": "fetch failed"
     },
@@ -21,8 +21,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-26T01:27:46.282Z",
-      "lastSuccessfulAt": "2026-08-26T01:27:46.282Z",
+      "sourceCheckedAt": "2026-08-26T02:50:07.708Z",
+      "lastSuccessfulAt": "2026-08-26T02:50:07.708Z",
       "error": null,
       "etag": "W/\"8795-1787579139548\"",
       "itemsCollected": 0
@@ -31,7 +31,7 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-26T01:27:46.282Z",
+      "sourceCheckedAt": "2026-08-26T02:50:07.708Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -39,18 +39,18 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-26T01:27:46.282Z",
-      "lastSuccessfulAt": "2026-08-26T01:27:46.282Z",
+      "sourceCheckedAt": "2026-08-26T02:50:07.708Z",
+      "lastSuccessfulAt": "2026-08-26T02:50:07.708Z",
       "error": null,
       "etag": null,
-      "itemsCollected": 1
+      "itemsCollected": 0
     },
     {
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-26T01:27:46.282Z",
-      "lastSuccessfulAt": "2026-08-26T01:27:46.282Z",
+      "sourceCheckedAt": "2026-08-26T02:50:07.708Z",
+      "lastSuccessfulAt": "2026-08-26T02:50:07.708Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -59,7 +59,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-26T01:27:46.282Z",
+      "sourceCheckedAt": "2026-08-26T02:50:07.708Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -67,8 +67,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-26T01:27:46.282Z",
-      "lastSuccessfulAt": "2026-08-26T01:27:46.282Z",
+      "sourceCheckedAt": "2026-08-26T02:50:07.708Z",
+      "lastSuccessfulAt": "2026-08-26T02:50:07.708Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -76,30 +76,15 @@
     {
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
-      "status": "healthy",
-      "sourceCheckedAt": "2026-08-26T01:27:46.282Z",
+      "status": "stale",
+      "sourceCheckedAt": "2026-08-26T02:50:07.708Z",
       "lastSuccessfulAt": "2026-08-26T01:27:46.282Z",
-      "error": null,
-      "itemsCollected": 2,
+      "error": "Google News RSS request failed with HTTP 503",
+      "itemsCollected": 0,
       "itemsQualified": 2
     }
   ],
   "items": [
-    {
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: MTech student dies after falling off public bus, run over by school bus in Pune",
-      "summary": "The school bus was travelling alongside the public transport bus on its left when Khadda fell and came under its front wheels.&nbsp;",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "link": "https://www.hindustantimes.com/cities/pune-news/mtech-student-dies-after-falling-from-pmpml-bus-run-over-by-school-bus-101787593781651.html",
-      "publishedAt": "2026-08-25T02:32:00.000Z",
-      "lastUpdated": "2026-08-25T02:32:00.000Z",
-      "sourceCheckedAt": "2026-08-26T01:27:46.282Z",
-      "lastVerifiedAt": "2026-08-26T01:27:46.282Z",
-      "expiresAt": "2026-08-26T02:32:00.000Z"
-    },
     {
       "eventKind": "incident",
       "sourceId": "times_of_india",
