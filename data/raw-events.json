@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-08-30T00:44:06.348Z",
-  "lastSuccessfulAt": "2026-08-30T00:44:06.348Z",
+  "sourceCheckedAt": "2026-08-30T05:54:48.145Z",
+  "lastSuccessfulAt": "2026-08-30T05:54:48.145Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-30T00:44:06.348Z",
-      "lastSuccessfulAt": "2026-08-30T00:44:06.348Z",
+      "sourceCheckedAt": "2026-08-30T05:54:48.145Z",
+      "lastSuccessfulAt": "2026-08-30T05:54:48.145Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,8 +23,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-30T00:44:06.348Z",
-      "lastSuccessfulAt": "2026-08-30T00:44:06.348Z",
+      "sourceCheckedAt": "2026-08-30T05:54:48.145Z",
+      "lastSuccessfulAt": "2026-08-30T05:54:48.145Z",
       "error": null,
       "etag": "W/\"8698-1787915460864\"",
       "itemsCollected": 0
@@ -33,7 +33,7 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-30T00:44:06.348Z",
+      "sourceCheckedAt": "2026-08-30T05:54:48.145Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,18 +41,18 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-30T00:44:06.348Z",
-      "lastSuccessfulAt": "2026-08-30T00:44:06.348Z",
+      "sourceCheckedAt": "2026-08-30T05:54:48.145Z",
+      "lastSuccessfulAt": "2026-08-30T05:54:48.145Z",
       "error": null,
       "etag": null,
-      "itemsCollected": 1
+      "itemsCollected": 0
     },
     {
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-30T00:44:06.348Z",
-      "lastSuccessfulAt": "2026-08-30T00:44:06.348Z",
+      "sourceCheckedAt": "2026-08-30T05:54:48.145Z",
+      "lastSuccessfulAt": "2026-08-30T05:54:48.145Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-08-30T00:44:06.348Z",
+      "sourceCheckedAt": "2026-08-30T05:54:48.145Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,8 +69,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-30T00:44:06.348Z",
-      "lastSuccessfulAt": "2026-08-30T00:44:06.348Z",
+      "sourceCheckedAt": "2026-08-30T05:54:48.145Z",
+      "lastSuccessfulAt": "2026-08-30T05:54:48.145Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -79,29 +79,14 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-08-30T00:44:06.348Z",
-      "lastSuccessfulAt": "2026-08-30T00:44:06.348Z",
+      "sourceCheckedAt": "2026-08-30T05:54:48.145Z",
+      "lastSuccessfulAt": "2026-08-30T05:54:48.145Z",
       "error": null,
       "itemsCollected": 1,
       "itemsQualified": 1
     }
   ],
   "items": [
-    {
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: 11 Nashik college students escape Nepal flood by two hours, stranded in Kathmandu",
-      "summary": "The students, from Peth taluka in rural Nashik, crossed the bridge around 9 am on August 26 after visiting Manakamana temple on their way back to Kathmandu. They later learnt that the bridge had collapsed after the river surged.",
-      "category": "flood",
-      "severity": "warning",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "link": "https://www.hindustantimes.com/cities/pune-news/11-nashik-college-students-escape-nepal-flood-by-two-hours-stranded-in-kathmandu-101787941959719.html",
-      "publishedAt": "2026-08-29T02:44:10.000Z",
-      "lastUpdated": "2026-08-29T02:44:10.000Z",
-      "sourceCheckedAt": "2026-08-30T00:44:06.348Z",
-      "lastVerifiedAt": "2026-08-30T00:44:06.348Z",
-      "expiresAt": "2026-08-29T14:44:10.000Z"
-    },
     {
       "eventKind": "incident",
       "sourceId": "times_of_india",
@@ -116,10 +101,10 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVUhQTmh4Q01xZ0RxOFVIZTZTRW1YSFBubGQxdlprZkF0NFFOZ1JUZ2NkS0RnYU1lWm1nSXRhSi10QW5yeHZoSFhCSXNJTmpiYy1ZWDRmWldYdXVhb25fZkR0S1dmWDF5ekE4VVdsU2NfYXhnU3llVjZZMVBxTmIzTnpSTmt2c3BKQXNZb2lVQ3NMMGdGYjlITUItYTVBQ3BZQ2FOSVNWOHc5M3o3Mzd0Nl9ZOG9WYkxoVXpGcG5pZGPSAcYBQVVfeXFMTzI3cUQ5WUdvUWNzQnhVbGJmYjJmRHJfelRPbmFfWlpEV2FlVkYtS1FGeUpYYUVlYUhtdUtUSjRjRkdHeWhrUnNWN3VCR2g1c09GSFJUMFdJeFhaQ0dFTUdTYmU2OVlFblp1c29VUkp1aXQzOWlGNlkzaXJ6VDRfQVNEbXRRd203NFkwV2hUZzZyMW5ZU0ROeTd2bGFVQWE4NTk3NjFnajFKeG44WnFUemszWXJYZkhRSXQyTERJRUJGNkJibkZB?oc=5",
       "sourceOrigin": "",
       "publishedAt": "2026-08-28T10:04:00.000Z",
-      "discoveredAt": "2026-08-30T00:44:06.348Z",
+      "discoveredAt": "2026-08-30T05:54:48.145Z",
       "lastUpdated": "2026-08-28T10:04:00.000Z",
-      "sourceCheckedAt": "2026-08-30T00:44:06.348Z",
-      "lastVerifiedAt": "2026-08-30T00:44:06.348Z",
+      "sourceCheckedAt": "2026-08-30T05:54:48.145Z",
+      "lastVerifiedAt": "2026-08-30T05:54:48.145Z",
       "expiresAt": "2026-08-30T10:04:00.000Z",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
