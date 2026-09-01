@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-09-01T17:13:25.117Z",
-  "lastSuccessfulAt": "2026-09-01T17:13:25.117Z",
+  "sourceCheckedAt": "2026-09-01T19:57:26.704Z",
+  "lastSuccessfulAt": "2026-09-01T19:57:26.704Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-01T17:13:25.117Z",
-      "lastSuccessfulAt": "2026-09-01T17:13:25.117Z",
+      "sourceCheckedAt": "2026-09-01T19:57:26.704Z",
+      "lastSuccessfulAt": "2026-09-01T19:57:26.704Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,8 +23,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-01T17:13:25.117Z",
-      "lastSuccessfulAt": "2026-09-01T17:13:25.117Z",
+      "sourceCheckedAt": "2026-09-01T19:57:26.704Z",
+      "lastSuccessfulAt": "2026-09-01T19:57:26.704Z",
       "error": null,
       "etag": "W/\"8618-1788273948164\"",
       "itemsCollected": 0
@@ -33,7 +33,7 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-09-01T17:13:25.117Z",
+      "sourceCheckedAt": "2026-09-01T19:57:26.704Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-01T17:13:25.117Z",
-      "lastSuccessfulAt": "2026-09-01T17:13:25.117Z",
+      "sourceCheckedAt": "2026-09-01T19:57:26.704Z",
+      "lastSuccessfulAt": "2026-09-01T19:57:26.704Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-01T17:13:25.117Z",
-      "lastSuccessfulAt": "2026-09-01T17:13:25.117Z",
+      "sourceCheckedAt": "2026-09-01T19:57:26.704Z",
+      "lastSuccessfulAt": "2026-09-01T19:57:26.704Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-09-01T17:13:25.117Z",
+      "sourceCheckedAt": "2026-09-01T19:57:26.704Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,42 +69,22 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-01T17:13:25.117Z",
-      "lastSuccessfulAt": "2026-09-01T17:13:25.117Z",
+      "sourceCheckedAt": "2026-09-01T19:57:26.704Z",
+      "lastSuccessfulAt": "2026-09-01T19:57:26.704Z",
       "error": null,
       "etag": null,
-      "itemsCollected": 1
+      "itemsCollected": 0
     },
     {
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-01T17:13:25.117Z",
-      "lastSuccessfulAt": "2026-09-01T17:13:25.117Z",
+      "sourceCheckedAt": "2026-09-01T19:57:26.704Z",
+      "lastSuccessfulAt": "2026-09-01T19:57:26.704Z",
       "error": null,
       "itemsCollected": 0,
       "itemsQualified": 0
     }
   ],
-  "items": [
-    {
-      "sourceId": "esakal",
-      "collectionSourceId": "newsdata_io",
-      "upstreamId": "af161faddfc1859b0ce10d7597db0d14",
-      "title": "Developing: Pune MIDC: पवन मावळात होणार नवीन एमआयडीसी! जमीन मोजणी पूर्ण; बऊर, करूंज, ब्राह्मणवाडी येथे ११०० एकरावर प्रस्तावित",
-      "summary": "पुणे पवन मावळ MIDC: बऊर, करंज, ब्राह्मणवाडी येथे ११०० एकरांवर नवे औद्योगिक क्षेत्र; जमिनीची मोजणी पूर्ण, भूसंपादन प्रस्ताव शासनाकडे, चाकणवरील वाहतूक व पायाभूत ताण कमी करण्याची तयारी. Pune Pawan Maval MIDC: New 1,100-acre industrial estate proposed at Baur, Karanj, Brahmanwadi to ease Chakan traffic and infra load; land survey done, acquisition proposal sent to state government.",
-      "category": "flood",
-      "severity": "warning",
-      "source": "eSakal Pune",
-      "sourceTrust": "B",
-      "link": "https://www.esakal.com/pune/new-midc-proposed-in-pawan-maval-land-survey-complete-across-1100-acres-in-baur-karunj-and-brahmanwadi-villages-sdj87",
-      "publishedAt": "2026-09-01T05:09:49.000Z",
-      "lastUpdated": "2026-09-01T05:09:49.000Z",
-      "sourceCheckedAt": "2026-09-01T17:13:25.117Z",
-      "lastVerifiedAt": "2026-09-01T17:13:25.117Z",
-      "expiresAt": "2026-09-03T05:09:49.000Z",
-      "collectionProvider": "NewsData.io",
-      "sourceOrigin": ""
-    }
-  ]
+  "items": []
 }
