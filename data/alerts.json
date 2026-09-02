@@ -1,6 +1,56 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-02T00:33:42.985Z",
+  "generatedAt": "2026-09-02T05:06:58.799Z",
   "sourceStatus": "stale",
-  "items": []
+  "items": [
+    {
+      "id": "heavy-rain-official-light-spells-of-rain-very-likely-to-occur-at-isolated-places-2026-09-0",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Light spells of rain very likely to occur at isolated places.",
+      "summary": "Light spells of rain very likely to occur at isolated places.",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "source": "NDMA SACHET (IMD-Mumbai)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (IMD-Mumbai)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1788324764787029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1788324764787029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-09-02T04:52:12.000Z",
+      "lastUpdated": "2026-09-02T04:52:12.000Z",
+      "sourceCheckedAt": "2026-09-02T05:06:42.614Z",
+      "lastVerifiedAt": "2026-09-02T05:06:42.614Z",
+      "intelligenceGeneratedAt": "2026-09-02T05:06:58.799Z",
+      "expiresAt": "2026-09-02T07:30:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Kolhapur, Pune, Raigad, Ratnagiri, Satara, Thane districts of Maharashtra",
+      "upstreamId": "IN-1788324764787029_46",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Alert",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
