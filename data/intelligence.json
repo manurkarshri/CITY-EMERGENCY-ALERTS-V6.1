@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-05T08:37:42.565Z",
+  "generatedAt": "2026-09-05T12:06:54.688Z",
   "status": "stale",
   "situation": {
-    "snapshot": "1 important alert require attention.",
+    "snapshot": "3 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-09-05T08:37:42.603Z",
+      "generatedAt": "2026-09-05T12:06:54.745Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,21 +13,21 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-05T08:37:26.817Z",
-          "observedAt": "2026-09-05T14:00:00+05:30",
-          "temp": 28,
-          "currentRain": 0.1,
-          "rain6h": 1.1,
-          "rain24h": 2.8,
+          "sourceCheckedAt": "2026-09-05T12:06:39.330Z",
+          "observedAt": "2026-09-05T17:30:00+05:30",
+          "temp": 25.5,
+          "currentRain": 0,
+          "rain6h": 0,
+          "rain24h": 3.2,
           "precipitationProbability": 100,
-          "wind": 45.4,
-          "gust": 45.4,
-          "humidity": 62,
-          "visibility": 4.9,
-          "weatherCode": 51,
+          "wind": 41.8,
+          "gust": 41.8,
+          "humidity": 74,
+          "visibility": 14.6,
+          "weatherCode": 0,
           "rainRisk": "Low",
           "windRisk": "Medium",
-          "visibilityRisk": "Low",
+          "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
           "advice": [
@@ -40,18 +40,18 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-05T08:37:26.817Z",
-          "observedAt": "2026-09-05T14:00:00+05:30",
-          "temp": 27,
-          "currentRain": 0.2,
-          "rain6h": 0.9,
-          "rain24h": 2.2,
+          "sourceCheckedAt": "2026-09-05T12:06:39.330Z",
+          "observedAt": "2026-09-05T17:30:00+05:30",
+          "temp": 24.8,
+          "currentRain": 0,
+          "rain6h": 0,
+          "rain24h": 2.7,
           "precipitationProbability": 100,
-          "wind": 43.6,
-          "gust": 43.6,
-          "humidity": 70,
-          "visibility": 9.4,
-          "weatherCode": 53,
+          "wind": 40,
+          "gust": 40,
+          "humidity": 81,
+          "visibility": 13.4,
+          "weatherCode": 1,
           "rainRisk": "Low",
           "windRisk": "Medium",
           "visibilityRisk": "Minimal",
@@ -67,21 +67,21 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-05T08:37:26.817Z",
-          "observedAt": "2026-09-05T14:00:00+05:30",
-          "temp": 28,
-          "currentRain": 0.1,
-          "rain6h": 1.1,
-          "rain24h": 2.8,
+          "sourceCheckedAt": "2026-09-05T12:06:39.330Z",
+          "observedAt": "2026-09-05T17:30:00+05:30",
+          "temp": 25.5,
+          "currentRain": 0,
+          "rain6h": 0,
+          "rain24h": 3.2,
           "precipitationProbability": 100,
-          "wind": 45.4,
-          "gust": 45.4,
-          "humidity": 62,
-          "visibility": 4.9,
-          "weatherCode": 51,
+          "wind": 41.8,
+          "gust": 41.8,
+          "humidity": 74,
+          "visibility": 14.6,
+          "weatherCode": 0,
           "rainRisk": "Low",
           "windRisk": "Medium",
-          "visibilityRisk": "Low",
+          "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
           "advice": [
@@ -94,25 +94,25 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-05T08:37:26.817Z",
-          "observedAt": "2026-09-05T14:00:00+05:30",
-          "temp": 23.7,
-          "currentRain": 0.2,
-          "rain6h": 3.5,
-          "rain24h": 6.7,
+          "sourceCheckedAt": "2026-09-05T12:06:39.330Z",
+          "observedAt": "2026-09-05T17:30:00+05:30",
+          "temp": 22.4,
+          "currentRain": 0.1,
+          "rain6h": 0.8,
+          "rain24h": 5.9,
           "precipitationProbability": 100,
-          "wind": 38.9,
-          "gust": 38.9,
-          "humidity": 93,
-          "visibility": 1.4,
-          "weatherCode": 55,
+          "wind": 31.7,
+          "gust": 31.7,
+          "humidity": 97,
+          "visibility": 0.2,
+          "weatherCode": 51,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "Medium",
+          "visibilityRisk": "High",
           "heatRisk": "Normal",
-          "travelImpact": "Low",
+          "travelImpact": "High",
           "advice": [
-            "No major weather-related disruption indicated."
+            "Low visibility may make driving unsafe."
           ]
         },
         "maval": {
@@ -121,42 +121,199 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-05T08:37:26.817Z",
-          "observedAt": "2026-09-05T14:00:00+05:30",
-          "temp": 23.1,
-          "currentRain": 0.2,
-          "rain6h": 6.2,
-          "rain24h": 13.1,
+          "sourceCheckedAt": "2026-09-05T12:06:39.330Z",
+          "observedAt": "2026-09-05T17:30:00+05:30",
+          "temp": 21.5,
+          "currentRain": 0.1,
+          "rain6h": 1.8,
+          "rain24h": 10.3,
           "precipitationProbability": 100,
-          "wind": 39.6,
-          "gust": 39.6,
-          "humidity": 95,
-          "visibility": 2.3,
-          "weatherCode": 80,
+          "wind": 28.4,
+          "gust": 28.4,
+          "humidity": 99,
+          "visibility": 0.4,
+          "weatherCode": 53,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "Low",
+          "visibilityRisk": "High",
           "heatRisk": "Normal",
-          "travelImpact": "Low",
+          "travelImpact": "High",
           "advice": [
-            "No major weather-related disruption indicated."
+            "Low visibility may make driving unsafe."
           ]
         }
       }
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-09-05T08:37:43.005Z",
+      "generatedAt": "2026-09-05T12:06:54.788Z",
       "riskLevel": "Normal",
       "impacts": [
-        "1 active transport-related event(s) may affect travel."
+        "2 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "1 active transport-related event(s) may affect travel.",
+      "citizenSummary": "2 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
   "alerts": [],
   "incidents": [
+    {
+      "id": "structural-collapse-developing-pune-woman-dies-after-iron-structure-collapses-during-disma",
+      "eventKind": "incident",
+      "sourceId": "ani",
+      "title": "Developing: Pune woman dies after iron structure collapses during dismantling after Dahi Handi celebration",
+      "summary": "A 45-year-old woman died after a portion of an iron structure assembled for a Dahi Handi celebration collapsed on her while it was being dismantled in Pune's Old Sangvi area, police said on Saturday.",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "ANI",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "ANI",
+          "trust": "B",
+          "link": "https://www.aninews.in/news/national/general-news/pune-woman-dies-after-iron-structure-collapses-during-dismantling-after-dahi-handi-celebration20260905144507/",
+          "origin": "ani"
+        }
+      ],
+      "link": "https://www.aninews.in/news/national/general-news/pune-woman-dies-after-iron-structure-collapses-during-dismantling-after-dahi-handi-celebration20260905144507/",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Sangvi"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "lastUpdated": "2026-09-05T00:00:00.000Z",
+      "sourceCheckedAt": "2026-09-05T12:06:39.523Z",
+      "lastVerifiedAt": "2026-09-05T12:06:39.523Z",
+      "intelligenceGeneratedAt": "2026-09-05T12:06:54.688Z",
+      "expiresAt": "2026-09-06T12:00:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
+      "affectedArea": "",
+      "upstreamId": "4ba42555e3ab95ee2b89993f91658eb0",
+      "collectionProvider": "NewsData.io",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "structural-collapse-developing-dahi-handi-2026-pune-woman-crushed-to-death-as-temporary-ir",
+      "eventKind": "incident",
+      "sourceId": "mid_day",
+      "title": "Developing: Dahi Handi 2026: Pune woman crushed to death as temporary iron structure collapses; 32 govindas injured in Mumbai",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "Mid-day",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Mid-day",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcTRWalB4cHJTcHNfaWVKRldkRTMxZDJEYWRJZk5ENkU4bGljV21DSFNNODlyeFhyVWwtMjY1MkdNU2Y5SW1uMjltVUFLTW9yYU9LRjRfdkdKQjJUUnkyNlM4Ul9aZHotLW1ZMTlic1MyeXREVXpLUmhxRWFTT0VGaERYaVV6eVNmelVZLWo4U093bUxXOHVtUEhPajVGZk5TTl83dXRPSnJpWHhmN2ZYTVdyanZVRXQ2RUZwbEFyS25EWm9IVlNiR1FCbzVpbzBCdGF3ZVJ2RdIB3AFBVV95cUxQNmJaSnc3TmdaZ1c5cV9pQXR4bUp6WmFQU0gyUHpodjVrRlJuN3BQaDNZZmpxa0hGY0ZDVDhMQktQRmlkU0J1VW4tVlo4aW9fLW1udHdmUXJlaVpXdDR1N1plcnBVTmplSTh5Uk5EX2NlTXNWVzl5ZWNpbmg5TFNrLUh5dE9CdzZESnZnZmRpTkNaR1E0ZnRNZkcxd1lCYmJxeXhoeXhKcEpzNFZLV2R5VjFqc1VZWm9uZjh0UXA0WWxiR29WSlh4cGx0UUVOQTRxTFVsdFBlWHVzN2N1?oc=5",
+          "origin": ""
+        },
+        {
+          "name": "Mid-day",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNmJaSnc3TmdaZ1c5cV9pQXR4bUp6WmFQU0gyUHpodjVrRlJuN3BQaDNZZmpxa0hGY0ZDVDhMQktQRmlkU0J1VW4tVlo4aW9fLW1udHdmUXJlaVpXdDR1N1plcnBVTmplSTh5Uk5EX2NlTXNWVzl5ZWNpbmg5TFNrLUh5dE9CdzZESnZnZmRpTkNaR1E0ZnRNZkcxd1lCYmJxeXhoeXhKcEpzNFZLV2R5VjFqc1VZWm9uZjh0UXA0WWxiR29WSlh4cGx0UUVOQTRxTFVsdFBlWHVzN2N10gHcAUFVX3lxTFA2YlpKdzdOZ1pnVzlxX2lBdHhtSnpaYVBTSDJQemh2NWtGUm43cFBoM1lmanFrSEZjRkNUOExCS1BGaWRTQnVVbi1WWjhpb18tbW50d2ZRcmVpWld0NHU3WmVycFVOamVJOHlSTkRfY2VNc1ZXOXllY2luaDlMU2stSHl0T0J3NkRKdmdmZGlOQ1pHUTRmdE1mRzF3WUJiYnF5eGh5eEpwSnM0VktXZHlWMWpzVVlab25mOHRRcDRZbGJHb1ZKWHhwbHRRRU5BNHFMVWx0UGVYdXM3Y3U?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcTRWalB4cHJTcHNfaWVKRldkRTMxZDJEYWRJZk5ENkU4bGljV21DSFNNODlyeFhyVWwtMjY1MkdNU2Y5SW1uMjltVUFLTW9yYU9LRjRfdkdKQjJUUnkyNlM4Ul9aZHotLW1ZMTlic1MyeXREVXpLUmhxRWFTT0VGaERYaVV6eVNmelVZLWo4U093bUxXOHVtUEhPajVGZk5TTl83dXRPSnJpWHhmN2ZYTVdyanZVRXQ2RUZwbEFyS25EWm9IVlNiR1FCbzVpbzBCdGF3ZVJ2RdIB3AFBVV95cUxQNmJaSnc3TmdaZ1c5cV9pQXR4bUp6WmFQU0gyUHpodjVrRlJuN3BQaDNZZmpxa0hGY0ZDVDhMQktQRmlkU0J1VW4tVlo4aW9fLW1udHdmUXJlaVpXdDR1N1plcnBVTmplSTh5Uk5EX2NlTXNWVzl5ZWNpbmg5TFNrLUh5dE9CdzZESnZnZmRpTkNaR1E0ZnRNZkcxd1lCYmJxeXhoeXhKcEpzNFZLV2R5VjFqc1VZWm9uZjh0UXA0WWxiR29WSlh4cGx0UUVOQTRxTFVsdFBlWHVzN2N1?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-09-05T11:10:00.000Z",
+      "lastUpdated": "2026-09-05T11:10:00.000Z",
+      "sourceCheckedAt": "2026-09-05T12:06:39.523Z",
+      "lastVerifiedAt": "2026-09-05T12:06:39.523Z",
+      "intelligenceGeneratedAt": "2026-09-05T12:06:54.688Z",
+      "expiresAt": "2026-09-06T23:10:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-bb77773a",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-09-05T12:06:39.523Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-pune-porsche-crash-parents-of-techie-killed-seek-lowering-of-juvenile-",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Pune Porsche crash: Parents of techie killed seek lowering of juvenile age to 16 | Hindustan Times",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNmVHY0tmOEMzX0oxSjBtRTFLZ3hmaXlDUFItR2RPdDI3UktiTGFrTEhSLVNJdlYycGM4V19hSmxuZktoWjhMNi1tc01pSUptWldXU1NSZENqT3RqbHBSMHh4OXp4alFpSGZ4UzRLcS1SaG9GbWZweHpieTRHTTRDZEpZczdOMWNqVmxaZkJRbm81MjRPQk1rOXhubzVTQ1FGYXJQMmswc2pUZ05MRjN5ZzJXc3lNWnNNMHBpNjNaWmVzMjhJNmo5Y1BHWVhqZ3NHQ01ZSXdyUW5GZG12T1gyUGZn0gHnAUFVX3lxTE1wNFVKSWY4T2pWdlJORVpnMXF2czVRdTRWejl5OHN2RGNrWDRiXzdwN1JUVzFER3NKTU9NYklhaVh1RTNCLWNnZE5hZUhUeG9SWC1VNlZ6X1k0aGpkLVdMWGJOamRQbWJwOTBvQ24yWGk3SGs3QlFjY2d0aHlmQ290d1FSbDNhSzdYb2s3cE4zLW1qaHFfa0xQcTNuN0l2b3BPT0tqTjI3ZXJuM1c3NTRtbkFHS01oTVI1MVMxMHFDU09FaDV5NEptZGVyZ2RVZklhZHBMT0c5aWJtUEJUd0FZX3FFckJ5SQ?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNmVHY0tmOEMzX0oxSjBtRTFLZ3hmaXlDUFItR2RPdDI3UktiTGFrTEhSLVNJdlYycGM4V19hSmxuZktoWjhMNi1tc01pSUptWldXU1NSZENqT3RqbHBSMHh4OXp4alFpSGZ4UzRLcS1SaG9GbWZweHpieTRHTTRDZEpZczdOMWNqVmxaZkJRbm81MjRPQk1rOXhubzVTQ1FGYXJQMmswc2pUZ05MRjN5ZzJXc3lNWnNNMHBpNjNaWmVzMjhJNmo5Y1BHWVhqZ3NHQ01ZSXdyUW5GZG12T1gyUGZn0gHnAUFVX3lxTE1wNFVKSWY4T2pWdlJORVpnMXF2czVRdTRWejl5OHN2RGNrWDRiXzdwN1JUVzFER3NKTU9NYklhaVh1RTNCLWNnZE5hZUhUeG9SWC1VNlZ6X1k0aGpkLVdMWGJOamRQbWJwOTBvQ24yWGk3SGs3QlFjY2d0aHlmQ290d1FSbDNhSzdYb2s3cE4zLW1qaHFfa0xQcTNuN0l2b3BPT0tqTjI3ZXJuM1c3NTRtbkFHS01oTVI1MVMxMHFDU09FaDV5NEptZGVyZ2RVZklhZHBMT0c5aWJtUEJUd0FZX3FFckJ5SQ?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-09-04T02:15:20.000Z",
+      "lastUpdated": "2026-09-04T02:15:20.000Z",
+      "sourceCheckedAt": "2026-09-05T12:06:39.523Z",
+      "lastVerifiedAt": "2026-09-05T12:06:39.523Z",
+      "intelligenceGeneratedAt": "2026-09-05T12:06:54.688Z",
+      "expiresAt": "2026-09-06T02:15:20.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 35,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-6cb1ba85",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-09-05T12:06:39.523Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
     {
       "id": "road-closure-developing-pune-traffic-update-police-issue-advisory-for-janmashtami-and-dahi",
       "eventKind": "incident",
@@ -181,9 +338,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-04T03:50:23.000Z",
       "lastUpdated": "2026-09-04T03:50:23.000Z",
-      "sourceCheckedAt": "2026-09-05T08:37:27.550Z",
-      "lastVerifiedAt": "2026-09-05T08:37:27.550Z",
-      "intelligenceGeneratedAt": "2026-09-05T08:37:42.565Z",
+      "sourceCheckedAt": "2026-09-05T12:06:39.523Z",
+      "lastVerifiedAt": "2026-09-05T12:06:39.523Z",
+      "intelligenceGeneratedAt": "2026-09-05T12:06:54.688Z",
       "expiresAt": "2026-09-06T03:50:23.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -196,7 +353,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-05T08:37:27.550Z",
+      "discoveredAt": "2026-09-05T12:06:39.523Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -209,6 +366,37 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
+      {
+        "id": "structural-collapse-developing-pune-woman-dies-after-iron-structure-collapses-during-disma",
+        "category": "structural_collapse",
+        "severity": "warning",
+        "localities": [
+          "Sangvi"
+        ],
+        "talukas": [
+          "pcmc"
+        ],
+        "operationalZones": [],
+        "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+      },
+      {
+        "id": "structural-collapse-developing-dahi-handi-2026-pune-woman-crushed-to-death-as-temporary-ir",
+        "category": "structural_collapse",
+        "severity": "warning",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+      },
+      {
+        "id": "accident-developing-pune-porsche-crash-parents-of-techie-killed-seek-lowering-of-juvenile-",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
       {
         "id": "road-closure-developing-pune-traffic-update-police-issue-advisory-for-janmashtami-and-dahi",
         "category": "road_closure",
@@ -227,15 +415,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-09-05T08:37:27.550Z",
-      "lastSuccessfulAt": "2026-09-05T08:37:27.550Z",
+      "sourceCheckedAt": "2026-09-05T12:06:39.523Z",
+      "lastSuccessfulAt": "2026-09-05T12:06:39.523Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-09-05T08:37:43.005Z",
+      "generatedAt": "2026-09-05T12:06:54.787Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -248,7 +436,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-09-05T08:37:43.004Z",
+      "generatedAt": "2026-09-05T12:06:54.787Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -329,7 +517,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-09-05T08:37:43.005Z",
+      "generatedAt": "2026-09-05T12:06:54.788Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -374,7 +562,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-09-05T08:37:43.043Z",
+        "generatedAt": "2026-09-05T12:06:54.842Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -406,18 +594,20 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
+            "score": 70,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
+            "reasons": [
+              "Low visibility may make driving unsafe."
+            ],
             "penalties": []
           },
-          "estimatedTimeMin": 65,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -451,18 +641,20 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
+              "score": 70,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
+              "reasons": [
+                "Low visibility may make driving unsafe."
+              ],
               "penalties": []
             },
-            "estimatedTimeMin": 65,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 80,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           },
           {
             "id": "kharadi-hinjawadi-pashan",
@@ -492,18 +684,20 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
+              "score": 70,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
+              "reasons": [
+                "Low visibility may make driving unsafe."
+              ],
               "penalties": []
             },
-            "estimatedTimeMin": 72,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 87,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -512,7 +706,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-09-05T08:37:43.043Z",
+        "generatedAt": "2026-09-05T12:06:54.842Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -542,18 +736,28 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
+            "reasons": [
+              "Developing: Dahi Handi 2026: Pune woman crushed to death as temporary iron structure collapses; 32 govindas injured in Mumbai may cause delays or safety concerns.",
+              "Low visibility may make driving unsafe."
+            ],
+            "penalties": [
+              {
+                "eventId": "structural-collapse-developing-dahi-handi-2026-pune-woman-crushed-to-death-as-temporary-ir",
+                "category": "structural_collapse",
+                "penalty": 20,
+                "title": "Developing: Dahi Handi 2026: Pune woman crushed to death as temporary iron structure collapses; 32 govindas injured in Mumbai"
+              }
+            ]
           },
-          "estimatedTimeMin": 95,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 120,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Dahi Handi 2026: Pune woman crushed to death as temporary iron structure collapses; 32 govindas injured in Mumbai may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -585,18 +789,28 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
-              "penalties": []
+              "score": 50,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
+              "reasons": [
+                "Developing: Dahi Handi 2026: Pune woman crushed to death as temporary iron structure collapses; 32 govindas injured in Mumbai may cause delays or safety concerns.",
+                "Low visibility may make driving unsafe."
+              ],
+              "penalties": [
+                {
+                  "eventId": "structural-collapse-developing-dahi-handi-2026-pune-woman-crushed-to-death-as-temporary-ir",
+                  "category": "structural_collapse",
+                  "penalty": 20,
+                  "title": "Developing: Dahi Handi 2026: Pune woman crushed to death as temporary iron structure collapses; 32 govindas injured in Mumbai"
+                }
+              ]
             },
-            "estimatedTimeMin": 95,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 120,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Dahi Handi 2026: Pune woman crushed to death as temporary iron structure collapses; 32 govindas injured in Mumbai may cause delays or safety concerns."
           }
         ]
       },
@@ -605,7 +819,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-09-05T08:37:43.044Z",
+        "generatedAt": "2026-09-05T12:06:54.842Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -634,18 +848,20 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
+            "score": 70,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
+            "reasons": [
+              "Low visibility may make driving unsafe."
+            ],
             "penalties": []
           },
-          "estimatedTimeMin": 35,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 50,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -676,18 +892,20 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
+              "score": 70,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
+              "reasons": [
+                "Low visibility may make driving unsafe."
+              ],
               "penalties": []
             },
-            "estimatedTimeMin": 35,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 50,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       }
