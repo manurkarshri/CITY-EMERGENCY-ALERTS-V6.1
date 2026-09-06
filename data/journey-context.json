@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-06T17:16:29.013Z",
+  "generatedAt": "2026-09-06T19:25:20.060Z",
   "routes": [],
   "risks": [
     {
@@ -11,20 +11,6 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
-    },
-    {
-      "id": "explosion-developing-pimpri-chinchwad-power-cut-after-substation-blast-fire-brought-under-",
-      "category": "explosion",
-      "severity": "emergency",
-      "localities": [
-        "Pimpri",
-        "Chinchwad"
-      ],
-      "talukas": [
-        "pcmc"
-      ],
-      "operationalZones": [],
-      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
     },
     {
       "id": "fire-developing-fire-breaks-out-at-msetcl-chinchwad-substation-power-supply-hit-across-pim",
@@ -39,6 +25,20 @@
       ],
       "operationalZones": [],
       "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "explosion-developing-pimpri-chinchwad-power-cut-after-substation-blast-fire-brought-under-",
+      "category": "explosion",
+      "severity": "emergency",
+      "localities": [
+        "Pimpri",
+        "Chinchwad"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
     }
   ]
 }
