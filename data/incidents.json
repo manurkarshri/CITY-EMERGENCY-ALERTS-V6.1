@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-06T06:22:57.131Z",
+  "generatedAt": "2026-09-06T11:15:44.109Z",
   "sourceStatus": "stale",
   "items": [
     {
@@ -27,13 +27,13 @@
       "operationalZones": [],
       "publishedAt": "2026-09-06T02:07:00.000Z",
       "lastUpdated": "2026-09-06T02:07:00.000Z",
-      "sourceCheckedAt": "2026-09-06T06:22:42.721Z",
-      "lastVerifiedAt": "2026-09-06T06:22:42.721Z",
-      "intelligenceGeneratedAt": "2026-09-06T06:22:57.131Z",
+      "sourceCheckedAt": "2026-09-06T11:15:27.602Z",
+      "lastVerifiedAt": "2026-09-06T11:15:27.602Z",
+      "intelligenceGeneratedAt": "2026-09-06T11:15:44.109Z",
       "expiresAt": "2026-09-06T14:07:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
       "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
       "affectedArea": "",
@@ -70,12 +70,6 @@
           "origin": ""
         },
         {
-          "name": "NDTV",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUV5cjl6eDhHdE01dHZ0clN0dktaZzVScThDZXIzaFdMR0ZyamFTSUhqV3BVeXBBckNGTzNsdW5NTHZFc3dJc3M3eDV6aERFSV9HRmRfcTJwZlZmdjZDa09OVDJSWG9wRzZTQklXTnhsVHEtUURTUm1hakczQTA0dEdDalcwTGtoQ2JkVW9jNHVyc3NvZEpDZEo2dEpmUGlBUHVQQUVZMzlQM05fN25xVGhJcTNUZmNCOEN2YnByOHo1dw?oc=5",
-          "origin": ""
-        },
-        {
           "name": "Mid-day",
           "trust": "B",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcTRWalB4cHJTcHNfaWVKRldkRTMxZDJEYWRJZk5ENkU4bGljV21DSFNNODlyeFhyVWwtMjY1MkdNU2Y5SW1uMjltVUFLTW9yYU9LRjRfdkdKQjJUUnkyNlM4Ul9aZHotLW1ZMTlic1MyeXREVXpLUmhxRWFTT0VGaERYaVV6eVNmelVZLWo4U093bUxXOHVtUEhPajVGZk5TTl83dXRPSnJpWHhmN2ZYTVdyanZVRXQ2RUZwbEFyS25EWm9IVlNiR1FCbzVpbzBCdGF3ZVJ2RdIB3AFBVV95cUxQNmJaSnc3TmdaZ1c5cV9pQXR4bUp6WmFQU0gyUHpodjVrRlJuN3BQaDNZZmpxa0hGY0ZDVDhMQktQRmlkU0J1VW4tVlo4aW9fLW1udHdmUXJlaVpXdDR1N1plcnBVTmplSTh5Uk5EX2NlTXNWVzl5ZWNpbmg5TFNrLUh5dE9CdzZESnZnZmRpTkNaR1E0ZnRNZkcxd1lCYmJxeXhoeXhKcEpzNFZLV2R5VjFqc1VZWm9uZjh0UXA0WWxiR29WSlh4cGx0UUVOQTRxTFVsdFBlWHVzN2N1?oc=5",
@@ -88,9 +82,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-05T16:55:45.000Z",
       "lastUpdated": "2026-09-05T16:55:45.000Z",
-      "sourceCheckedAt": "2026-09-06T06:22:42.721Z",
-      "lastVerifiedAt": "2026-09-06T06:22:42.721Z",
-      "intelligenceGeneratedAt": "2026-09-06T06:22:57.131Z",
+      "sourceCheckedAt": "2026-09-06T11:15:27.602Z",
+      "lastVerifiedAt": "2026-09-06T11:15:27.602Z",
+      "intelligenceGeneratedAt": "2026-09-06T11:15:44.109Z",
       "expiresAt": "2026-09-07T04:55:45.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -103,18 +97,71 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-06T06:22:42.721Z",
+      "discoveredAt": "2026-09-06T11:15:27.602Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
       "relatedEventIds": [
-        "structural-collapse-developing-maharashtra-news-dahi-handi-structure-collapses-on-woman-s-",
         "structural-collapse-developing-dahi-handi-2026-pune-woman-crushed-to-death-as-temporary-ir"
       ],
       "independentSourceCount": 2,
       "corroboratedByIndependentSources": true
+    },
+    {
+      "id": "fire-developing-fire-breaks-out-at-msetcl-chinchwad-substation-power-supply-hit-across-pim",
+      "eventKind": "incident",
+      "sourceId": "mid_day",
+      "title": "Developing: Fire breaks out at MSETCL Chinchwad substation, power supply hit across Pimpri-Chinchwad",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "fire",
+      "severity": "warning",
+      "source": "Mid-day",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Mid-day",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObXdJY2FXSkF6R1FoeUc1azZrTzJCWWV1MzNYZzJxbGxTX3E3akYtdVhlZVgtNHZZemJ0NHZ0bzQ0Ym9QZDFJMnRYVmlCSGItT3o0MWJ6YmFsekI2UnFEUXo4X1Z3NFNjeGc5YzY2VG80ODFQUnVJdFdRSl9KQ0R5dExPLWRndnM5ZGEyZVpvdlFJRF9jakhNMXZpbFBhNlJCWWFHNFB6QTRyaThtVE5rMXdCZl9KdmZYVEpXdmhjTlFhV3pWSVZ5dFZFMVBRaHpDNlpsUGVrR1RTdTlo0gHiAUFVX3lxTE1ia0wtS2kxdUEwWk1VN1N5WGRGYUttNnhvZm1ZcHctcVpCaHVOSUxvT1FuUjdCYXZTNlQ0TGpYZnZ6VThDX3dtbFlNb3hMNWxCdWg4TVRxSGZXQUVHSElvV0NwXzBCT3FQRnMzODZjRmlyc193RkhyM3RFWkpFNjZGeXZaMWJSY3l4SW5fSWtVYk9pMEk5WGZGMHBKUm5LR3FneHhtTVhSMG5QaGJiWFJBMmZnX1d3akh3V1ZhX0FuWGZ6Xy1DWTN1T2FNT2U3UlZYZWJUQUhsSVFzRjNhczFJeHc?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObXdJY2FXSkF6R1FoeUc1azZrTzJCWWV1MzNYZzJxbGxTX3E3akYtdVhlZVgtNHZZemJ0NHZ0bzQ0Ym9QZDFJMnRYVmlCSGItT3o0MWJ6YmFsekI2UnFEUXo4X1Z3NFNjeGc5YzY2VG80ODFQUnVJdFdRSl9KQ0R5dExPLWRndnM5ZGEyZVpvdlFJRF9jakhNMXZpbFBhNlJCWWFHNFB6QTRyaThtVE5rMXdCZl9KdmZYVEpXdmhjTlFhV3pWSVZ5dFZFMVBRaHpDNlpsUGVrR1RTdTlo0gHiAUFVX3lxTE1ia0wtS2kxdUEwWk1VN1N5WGRGYUttNnhvZm1ZcHctcVpCaHVOSUxvT1FuUjdCYXZTNlQ0TGpYZnZ6VThDX3dtbFlNb3hMNWxCdWg4TVRxSGZXQUVHSElvV0NwXzBCT3FQRnMzODZjRmlyc193RkhyM3RFWkpFNjZGeXZaMWJSY3l4SW5fSWtVYk9pMEk5WGZGMHBKUm5LR3FneHhtTVhSMG5QaGJiWFJBMmZnX1d3akh3V1ZhX0FuWGZ6Xy1DWTN1T2FNT2U3UlZYZWJUQUhsSVFzRjNhczFJeHc?oc=5",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Pimpri",
+        "Chinchwad"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-09-06T09:21:00.000Z",
+      "lastUpdated": "2026-09-06T09:21:00.000Z",
+      "sourceCheckedAt": "2026-09-06T11:15:27.602Z",
+      "lastVerifiedAt": "2026-09-06T11:15:27.602Z",
+      "intelligenceGeneratedAt": "2026-09-06T11:15:44.109Z",
+      "expiresAt": "2026-09-08T09:21:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 70,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Pimpri, Chinchwad",
+      "upstreamId": "google-news-37801456",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-09-06T11:15:27.602Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
     }
   ]
 }

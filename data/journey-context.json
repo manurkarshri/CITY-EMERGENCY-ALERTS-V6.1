@@ -1,17 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-06T06:22:57.131Z",
+  "generatedAt": "2026-09-06T11:15:44.109Z",
   "routes": [],
   "risks": [
-    {
-      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
-    },
     {
       "id": "structural-collapse-developing-woman-killed-as-iron-structure-collapses-during-dismantling",
       "category": "structural_collapse",
@@ -29,6 +20,20 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+    },
+    {
+      "id": "fire-developing-fire-breaks-out-at-msetcl-chinchwad-substation-power-supply-hit-across-pim",
+      "category": "fire",
+      "severity": "warning",
+      "localities": [
+        "Pimpri",
+        "Chinchwad"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
     }
   ]
 }
