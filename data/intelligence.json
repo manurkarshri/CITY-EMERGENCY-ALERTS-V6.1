@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-07T21:20:14.479Z",
+  "generatedAt": "2026-09-07T23:40:27.521Z",
   "status": "stale",
   "situation": {
     "snapshot": "2 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-09-07T21:20:14.535Z",
+      "generatedAt": "2026-09-07T23:40:27.580Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-09-07T21:20:14.906Z",
+      "generatedAt": "2026-09-07T23:40:27.611Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
@@ -179,9 +179,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-07T01:27:37.000Z",
       "lastUpdated": "2026-09-07T01:27:37.000Z",
-      "sourceCheckedAt": "2026-09-07T21:19:51.504Z",
-      "lastVerifiedAt": "2026-09-07T21:19:51.504Z",
-      "intelligenceGeneratedAt": "2026-09-07T21:20:14.479Z",
+      "sourceCheckedAt": "2026-09-07T23:40:13.636Z",
+      "lastVerifiedAt": "2026-09-07T23:40:13.636Z",
+      "intelligenceGeneratedAt": "2026-09-07T23:40:27.521Z",
       "expiresAt": "2026-09-08T13:27:37.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -194,7 +194,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-07T21:19:51.504Z",
+      "discoveredAt": "2026-09-07T23:40:13.636Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -205,36 +205,24 @@
       "corroboratedByIndependentSources": false
     },
     {
-      "id": "fire-developing-power-outage-hits-pimpri-chinchwad-parts-of-pune-after-fire-breaks-out-at-",
+      "id": "fire-developing-fire-breaks-out-at-msetcl-chinchwad-substation-power-supply-hit-across-pim",
       "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Power outage hits Pimpri-Chinchwad, parts of Pune after fire breaks out at MSETCL substation | Hindustan Times",
+      "sourceId": "mid_day",
+      "title": "Developing: Fire breaks out at MSETCL Chinchwad substation, power supply hit across Pimpri-Chinchwad",
       "summary": "A current trusted-media report relevant to Pune District.",
       "category": "fire",
       "severity": "warning",
-      "source": "Hindustan Times Pune",
+      "source": "Mid-day",
       "sourceTrust": "B",
       "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPM2syS0hIaEVVbmJ0MUJKd1BURHI2Y0JiNjhjcDBHeGVWSVluZTNWU3ZTNGl1ajdVMUltVGVRWVBsU3RDVkotRFdjY0lOUnR3dFdwVmNzS3VPbGhXa2xSYTNhWjhGWEE3U0VtaWctdjczR2l1cUZfVHZFMzN4VkoyTXNGdmExNEFQWndFdnBSTFRYY0VGRlVuelhpeVRvUkRPazNPSnhLVlF0NEQyalBBQjNEUk85a3IzazQ0NmJxeE1jRW02cHR0Rm16ZEZNS1VENW1HUkxXY0pMTWo2a1ZLd0tIMzFSZklHVXl6QzFzMHNHd9IB9wFBVV95cUxQUHJUY1BfZVoydk50YlJ2SG9odDBvRzFMblltZ0Y4QjJsUjZVTkRYOWoxb0ZES3E2TnVpcnBNNHFROHcyazdTVFhLT1BYM1RjYWFXbXBLaHloTmtRVmE3WGVKZjZlNjVjckN1bVdMS2FRYzZLMURoeTVyT3JFd01IZ0ZycUNCX1ZYVTluQVFybnk0SWsxTzNJOU1ZYTFnMjU0Y1NIWTJNS01hRWxnQy0wb2xWaGNCRGw2a0NvMEJueko2OHdqUkYweXNaZDItYUxoRkd6emc5eWxNMF93YlYzazVxTWFmUDZQb01KcDBXWW9qQTlpandj?oc=5",
-          "origin": ""
-        },
         {
           "name": "Mid-day",
           "trust": "B",
           "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObXdJY2FXSkF6R1FoeUc1azZrTzJCWWV1MzNYZzJxbGxTX3E3akYtdVhlZVgtNHZZemJ0NHZ0bzQ0Ym9QZDFJMnRYVmlCSGItT3o0MWJ6YmFsekI2UnFEUXo4X1Z3NFNjeGc5YzY2VG80ODFQUnVJdFdRSl9KQ0R5dExPLWRndnM5ZGEyZVpvdlFJRF9jakhNMXZpbFBhNlJCWWFHNFB6QTRyaThtVE5rMXdCZl9KdmZYVEpXdmhjTlFhV3pWSVZ5dFZFMVBRaHpDNlpsUGVrR1RTdTlo0gHiAUFVX3lxTE1ia0wtS2kxdUEwWk1VN1N5WGRGYUttNnhvZm1ZcHctcVpCaHVOSUxvT1FuUjdCYXZTNlQ0TGpYZnZ6VThDX3dtbFlNb3hMNWxCdWg4TVRxSGZXQUVHSElvV0NwXzBCT3FQRnMzODZjRmlyc193RkhyM3RFWkpFNjZGeXZaMWJSY3l4SW5fSWtVYk9pMEk5WGZGMHBKUm5LR3FneHhtTVhSMG5QaGJiWFJBMmZnX1d3akh3V1ZhX0FuWGZ6Xy1DWTN1T2FNT2U3UlZYZWJUQUhsSVFzRjNhczFJeHc?oc=5",
           "origin": ""
-        },
-        {
-          "name": "Pune Pulse",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaXkwUmxSVk4teW40WVNVNDhYZWxmY3BfeEFyUGRoc2swT0lwaW94blFxQkNzMTNmV1drc1llWUp0U3kwV1RDSUplSEh4VXhjNUtxTzZzdXZMcmpJdEN4dThPaElVU3MtbVE1dV9hY1h1cFhoVng1U2hPMGx1TW95ZER5Q2FpdUZBcHc2Y3R2U0tGUXMwbkMyT0hMdWxZWDFYaklaaFFuNUI2Ml9iV3dCaE1JdnFyOE5i?oc=5",
-          "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPM2syS0hIaEVVbmJ0MUJKd1BURHI2Y0JiNjhjcDBHeGVWSVluZTNWU3ZTNGl1ajdVMUltVGVRWVBsU3RDVkotRFdjY0lOUnR3dFdwVmNzS3VPbGhXa2xSYTNhWjhGWEE3U0VtaWctdjczR2l1cUZfVHZFMzN4VkoyTXNGdmExNEFQWndFdnBSTFRYY0VGRlVuelhpeVRvUkRPazNPSnhLVlF0NEQyalBBQjNEUk85a3IzazQ0NmJxeE1jRW02cHR0Rm16ZEZNS1VENW1HUkxXY0pMTWo2a1ZLd0tIMzFSZklHVXl6QzFzMHNHd9IB9wFBVV95cUxQUHJUY1BfZVoydk50YlJ2SG9odDBvRzFMblltZ0Y4QjJsUjZVTkRYOWoxb0ZES3E2TnVpcnBNNHFROHcyazdTVFhLT1BYM1RjYWFXbXBLaHloTmtRVmE3WGVKZjZlNjVjckN1bVdMS2FRYzZLMURoeTVyT3JFd01IZ0ZycUNCX1ZYVTluQVFybnk0SWsxTzNJOU1ZYTFnMjU0Y1NIWTJNS01hRWxnQy0wb2xWaGNCRGw2a0NvMEJueko2OHdqUkYweXNaZDItYUxoRkd6emc5eWxNMF93YlYzazVxTWFmUDZQb01KcDBXWW9qQTlpandj?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObXdJY2FXSkF6R1FoeUc1azZrTzJCWWV1MzNYZzJxbGxTX3E3akYtdVhlZVgtNHZZemJ0NHZ0bzQ0Ym9QZDFJMnRYVmlCSGItT3o0MWJ6YmFsekI2UnFEUXo4X1Z3NFNjeGc5YzY2VG80ODFQUnVJdFdRSl9KQ0R5dExPLWRndnM5ZGEyZVpvdlFJRF9jakhNMXZpbFBhNlJCWWFHNFB6QTRyaThtVE5rMXdCZl9KdmZYVEpXdmhjTlFhV3pWSVZ5dFZFMVBRaHpDNlpsUGVrR1RTdTlo0gHiAUFVX3lxTE1ia0wtS2kxdUEwWk1VN1N5WGRGYUttNnhvZm1ZcHctcVpCaHVOSUxvT1FuUjdCYXZTNlQ0TGpYZnZ6VThDX3dtbFlNb3hMNWxCdWg4TVRxSGZXQUVHSElvV0NwXzBCT3FQRnMzODZjRmlyc193RkhyM3RFWkpFNjZGeXZaMWJSY3l4SW5fSWtVYk9pMEk5WGZGMHBKUm5LR3FneHhtTVhSMG5QaGJiWFJBMmZnX1d3akh3V1ZhX0FuWGZ6Xy1DWTN1T2FNT2U3UlZYZWJUQUhsSVFzRjNhczFJeHc?oc=5",
       "talukas": [
         "pcmc"
       ],
@@ -243,36 +231,35 @@
         "Chinchwad"
       ],
       "operationalZones": [],
-      "publishedAt": "2026-09-07T02:02:00.000Z",
-      "lastUpdated": "2026-09-07T02:02:00.000Z",
-      "sourceCheckedAt": "2026-09-07T21:19:51.504Z",
-      "lastVerifiedAt": "2026-09-07T21:19:51.504Z",
-      "intelligenceGeneratedAt": "2026-09-07T21:20:14.479Z",
-      "expiresAt": "2026-09-09T02:02:00.000Z",
+      "publishedAt": "2026-09-06T09:21:00.000Z",
+      "lastUpdated": "2026-09-06T09:21:00.000Z",
+      "sourceCheckedAt": "2026-09-07T23:40:13.636Z",
+      "lastVerifiedAt": "2026-09-07T23:40:13.636Z",
+      "intelligenceGeneratedAt": "2026-09-07T23:40:27.521Z",
+      "expiresAt": "2026-09-08T09:21:00.000Z",
       "lifecycle": "developing",
-      "confidence": "High",
-      "confidenceScore": 91,
+      "confidence": "Medium",
+      "confidenceScore": 55,
       "impact": "This event may affect local awareness or movement.",
       "recommendedAction": "Monitor updates and verify through official sources where needed.",
       "affectedArea": "Pimpri, Chinchwad",
-      "upstreamId": "google-news-b49becf6",
+      "upstreamId": "google-news-37801456",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-07T21:19:51.504Z",
+      "discoveredAt": "2026-09-07T23:40:13.636Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "local",
       "relatedEventIds": [
-        "fire-developing-fire-breaks-out-at-msetcl-chinchwad-substation-power-supply-hit-across-pim",
-        "fire-developing-pune-fire-breaks-out-at-msetcl-s-220-kv-chinchwad-substation-power-supply-",
-        "explosion-developing-power-outage-hits-pimpri-chinchwad-parts-of-pune-after-fire-breaks-ou"
+        "explosion-developing-power-outage-hits-pimpri-chinchwad-parts-of-pune-after-fire-breaks-ou",
+        "explosion-developing-pimpri-chinchwad-power-cut-after-substation-blast-fire-brought-under-"
       ],
-      "independentSourceCount": 3,
-      "corroboratedByIndependentSources": true
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
     }
   ],
   "journeyContext": {
@@ -287,7 +274,7 @@
         "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
       },
       {
-        "id": "fire-developing-power-outage-hits-pimpri-chinchwad-parts-of-pune-after-fire-breaks-out-at-",
+        "id": "fire-developing-fire-breaks-out-at-msetcl-chinchwad-substation-power-supply-hit-across-pim",
         "category": "fire",
         "severity": "warning",
         "localities": [
@@ -332,9 +319,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-07T02:02:00.000Z",
       "lastUpdated": "2026-09-07T02:02:00.000Z",
-      "sourceCheckedAt": "2026-09-07T21:19:51.504Z",
-      "lastVerifiedAt": "2026-09-07T21:19:51.504Z",
-      "intelligenceGeneratedAt": "2026-09-07T21:20:14.479Z",
+      "sourceCheckedAt": "2026-09-07T23:40:13.636Z",
+      "lastVerifiedAt": "2026-09-07T23:40:13.636Z",
+      "intelligenceGeneratedAt": "2026-09-07T23:40:27.521Z",
       "expiresAt": "2026-09-07T14:02:00.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -354,7 +341,8 @@
       "roadNumbers": [],
       "geographicScope": "local",
       "relatedEventIds": [
-        "fire-developing-power-outage-hits-pimpri-chinchwad-parts-of-pune-after-fire-breaks-out-at-"
+        "fire-developing-fire-breaks-out-at-msetcl-chinchwad-substation-power-supply-hit-across-pim",
+        "explosion-developing-pimpri-chinchwad-power-cut-after-substation-blast-fire-brought-under-"
       ],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
@@ -383,9 +371,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-05T11:10:00.000Z",
       "lastUpdated": "2026-09-05T11:10:00.000Z",
-      "sourceCheckedAt": "2026-09-07T21:19:51.504Z",
-      "lastVerifiedAt": "2026-09-07T21:19:51.504Z",
-      "intelligenceGeneratedAt": "2026-09-07T21:20:14.479Z",
+      "sourceCheckedAt": "2026-09-07T23:40:13.636Z",
+      "lastVerifiedAt": "2026-09-07T23:40:13.636Z",
+      "intelligenceGeneratedAt": "2026-09-07T23:40:27.521Z",
       "expiresAt": "2026-09-06T23:10:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -398,13 +386,70 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-07T21:19:51.504Z",
+      "discoveredAt": "2026-09-07T23:40:13.636Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
       "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "explosion-developing-pimpri-chinchwad-power-cut-after-substation-blast-fire-brought-under-",
+      "eventKind": "incident",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: Pimpri-Chinchwad power cut after substation blast, fire brought under control",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "explosion",
+      "severity": "emergency",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZlowU1ZIUkM2UnVOZS1zcmNEQmoyaXo5RXRhcXdwc0d2ZUVMNUl3UVFKMF9wQmhLamtNZGdJTlhwQTgyV2U1VWlEVmxNbGJiNHgxamJnYmhteXoxcEtFbno2WGp2bFlGenh0WEdzbVBkWnNVZldZR1hNY2VwTi0zS0lEQWZnNjlPQzNZVEdFazVaa0JfeklweEhGLUtfQ3R0U3cyamhqZHFiQzI4VUFUVE5pWFlsODd6SXc2T1VrQ3dwODNUems1V2wteFlvZHJPNW1n0gHTAUFVX3lxTE9mWjBTVkhSQzZSdU5lLXNyY0RCajJpejlFdGFxd3BzR3ZlRUw1SXdRUUowX3BCaEtqa01kZ0lOWHBBODJXZTVVaURWbE1sYmI0eDFqYmdiaG15ejFwS0VuejZYanZsWUZ6eHRYR3NtUGRac1VmV1lHWE1jZXBOLTNLSURBZmc2OU9DM1lUR0VrNVprQl96SXB4SEYtS19DdHRTdzJqaGpkcWJDMjhVQVRUTmlYWWw4N3pJdzZPVWtDd3A4M1R6azVXbC14WW9kck81bWc?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZlowU1ZIUkM2UnVOZS1zcmNEQmoyaXo5RXRhcXdwc0d2ZUVMNUl3UVFKMF9wQmhLamtNZGdJTlhwQTgyV2U1VWlEVmxNbGJiNHgxamJnYmhteXoxcEtFbno2WGp2bFlGenh0WEdzbVBkWnNVZldZR1hNY2VwTi0zS0lEQWZnNjlPQzNZVEdFazVaa0JfeklweEhGLUtfQ3R0U3cyamhqZHFiQzI4VUFUVE5pWFlsODd6SXc2T1VrQ3dwODNUems1V2wteFlvZHJPNW1n0gHTAUFVX3lxTE9mWjBTVkhSQzZSdU5lLXNyY0RCajJpejlFdGFxd3BzR3ZlRUw1SXdRUUowX3BCaEtqa01kZ0lOWHBBODJXZTVVaURWbE1sYmI0eDFqYmdiaG15ejFwS0VuejZYanZsWUZ6eHRYR3NtUGRac1VmV1lHWE1jZXBOLTNLSURBZmc2OU9DM1lUR0VrNVprQl96SXB4SEYtS19DdHRTdzJqaGpkcWJDMjhVQVRUTmlYWWw4N3pJdzZPVWtDd3A4M1R6azVXbC14WW9kck81bWc?oc=5",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Pimpri",
+        "Chinchwad"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-09-06T11:28:30.000Z",
+      "lastUpdated": "2026-09-06T11:28:30.000Z",
+      "sourceCheckedAt": "2026-09-07T23:40:13.636Z",
+      "lastVerifiedAt": "2026-09-07T23:40:13.636Z",
+      "intelligenceGeneratedAt": "2026-09-07T23:40:27.521Z",
+      "expiresAt": "2026-09-07T23:28:30.000Z",
+      "lifecycle": "expired",
+      "confidence": "Medium",
+      "confidenceScore": 55,
+      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required.",
+      "recommendedAction": "Move away from the area and follow emergency-service instructions immediately.",
+      "affectedArea": "Pimpri, Chinchwad",
+      "upstreamId": "google-news-16069648",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-09-07T23:40:13.636Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [
+        "explosion-developing-power-outage-hits-pimpri-chinchwad-parts-of-pune-after-fire-breaks-ou",
+        "fire-developing-fire-breaks-out-at-msetcl-chinchwad-substation-power-supply-hit-across-pim"
+      ],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
     }
@@ -415,15 +460,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-09-07T21:19:51.504Z",
-      "lastSuccessfulAt": "2026-09-07T21:19:51.504Z",
-      "error": "imd_nowcast: fetch failed; indian_express_pune: Indian Express RSS request failed with HTTP 403"
+      "sourceCheckedAt": "2026-09-07T23:40:13.636Z",
+      "lastSuccessfulAt": "2026-09-07T23:40:13.636Z",
+      "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-09-07T21:20:14.906Z",
+      "generatedAt": "2026-09-07T23:40:27.611Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -436,7 +481,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-09-07T21:20:14.905Z",
+      "generatedAt": "2026-09-07T23:40:27.611Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -517,7 +562,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-09-07T21:20:14.906Z",
+      "generatedAt": "2026-09-07T23:40:27.611Z",
       "mode": "on-demand",
       "relevantDomains": [
         "emergencyServices"
@@ -562,7 +607,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-09-07T21:20:14.961Z",
+        "generatedAt": "2026-09-07T23:40:27.666Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -706,7 +751,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-09-07T21:20:14.961Z",
+        "generatedAt": "2026-09-07T23:40:27.666Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -803,7 +848,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-09-07T21:20:14.962Z",
+        "generatedAt": "2026-09-07T23:40:27.666Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",

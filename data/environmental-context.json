@@ -1,25 +1,25 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-07T21:20:14.906Z",
+  "generatedAt": "2026-09-07T23:40:27.611Z",
   "weatherSource": {
-    "status": "current",
-    "sourceCheckedAt": "2026-09-07T21:19:50.664Z",
+    "status": "stale",
+    "sourceCheckedAt": "2026-09-07T23:40:13.445Z",
     "lastSuccessfulAt": "2026-09-07T21:19:50.664Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
       "url": "https://open-meteo.com/"
     },
-    "error": null
+    "error": "Weather provider could not be reached during the latest check."
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-09-07T21:20:02.892Z",
-    "lastSuccessfulAt": "2026-09-07T21:20:02.892Z",
+    "sourceCheckedAt": "2026-09-07T23:40:16.434Z",
+    "lastSuccessfulAt": "2026-09-07T23:40:16.434Z",
     "error": "Pravah: fetch failed"
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-09-07T21:20:14.535Z",
+    "generatedAt": "2026-09-07T23:40:27.580Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -160,7 +160,7 @@
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-09-07T21:20:14.906Z",
+    "generatedAt": "2026-09-07T23:40:27.611Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -173,7 +173,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-09-07T21:20:14.905Z",
+    "generatedAt": "2026-09-07T23:40:27.611Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -254,7 +254,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-09-07T21:20:14.906Z",
+    "generatedAt": "2026-09-07T23:40:27.611Z",
     "mode": "on-demand",
     "relevantDomains": [
       "emergencyServices"
@@ -292,7 +292,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-09-07T21:20:14.906Z",
+    "generatedAt": "2026-09-07T23:40:27.611Z",
     "riskLevel": "Normal",
     "impacts": [],
     "citizenSummary": "No major environmental disruption indicated from current data.",
