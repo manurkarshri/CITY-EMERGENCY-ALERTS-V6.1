@@ -1,22 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-08T18:53:51.880Z",
+  "generatedAt": "2026-09-08T21:41:25.587Z",
   "routes": [],
   "risks": [
-    {
-      "id": "fire-developing-power-outage-hits-pimpri-chinchwad-parts-of-pune-after-fire-breaks-out-at-",
-      "category": "fire",
-      "severity": "warning",
-      "localities": [
-        "Pimpri",
-        "Chinchwad"
-      ],
-      "talukas": [
-        "pcmc"
-      ],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
-    },
     {
       "id": "accident-developing-pune-16-year-old-girl-killed-after-container-truck-hits-two-wheeler-on",
       "category": "accident",
@@ -30,6 +16,20 @@
       ],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "fire-developing-power-outage-hits-pimpri-chinchwad-parts-of-pune-after-fire-breaks-out-at-",
+      "category": "fire",
+      "severity": "warning",
+      "localities": [
+        "Pimpri",
+        "Chinchwad"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
     }
   ]
 }
