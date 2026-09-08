@@ -1,14 +1,19 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-08T15:20:17.633Z",
+  "generatedAt": "2026-09-08T18:53:51.880Z",
   "routes": [],
   "risks": [
     {
-      "id": "flood-developing-पुणे-कॅन्टोन्मेंटमधील-दोन-भूखंडांवर-निवासी-बांधकामांना-परवानगी-उच्च-न्याय",
-      "category": "flood",
+      "id": "fire-developing-power-outage-hits-pimpri-chinchwad-parts-of-pune-after-fire-breaks-out-at-",
+      "category": "fire",
       "severity": "warning",
-      "localities": [],
-      "talukas": [],
+      "localities": [
+        "Pimpri",
+        "Chinchwad"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
       "operationalZones": [],
       "impact": "This event may affect local awareness or movement."
     },
