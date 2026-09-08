@@ -1,17 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-08T06:23:08.178Z",
+  "generatedAt": "2026-09-08T11:38:14.470Z",
   "routes": [],
   "risks": [
-    {
-      "id": "explosion-developing-3-1-lakh-without-power-in-pune-after-explosion-fire-at-electricity-su",
-      "category": "explosion",
-      "severity": "emergency",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
-    },
     {
       "id": "fire-developing-power-outage-hits-pimpri-chinchwad-parts-of-pune-after-fire-breaks-out-at-",
       "category": "fire",
@@ -25,6 +16,15 @@
       ],
       "operationalZones": [],
       "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "explosion-developing-3-1-lakh-without-power-in-pune-after-explosion-fire-at-electricity-su",
+      "category": "explosion",
+      "severity": "emergency",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
     }
   ]
 }
