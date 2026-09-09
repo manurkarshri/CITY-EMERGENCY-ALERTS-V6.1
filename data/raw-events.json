@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-09-08T23:40:49.666Z",
-  "lastSuccessfulAt": "2026-09-08T23:40:49.666Z",
+  "sourceCheckedAt": "2026-09-09T01:35:01.953Z",
+  "lastSuccessfulAt": "2026-09-09T01:35:01.953Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-08T23:40:49.666Z",
-      "lastSuccessfulAt": "2026-09-08T23:40:49.666Z",
+      "sourceCheckedAt": "2026-09-09T01:35:01.953Z",
+      "lastSuccessfulAt": "2026-09-09T01:35:01.953Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,8 +23,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-08T23:40:49.666Z",
-      "lastSuccessfulAt": "2026-09-08T23:40:49.666Z",
+      "sourceCheckedAt": "2026-09-09T01:35:01.953Z",
+      "lastSuccessfulAt": "2026-09-09T01:35:01.953Z",
       "error": null,
       "etag": "W/\"7790-1788767799054\"",
       "itemsCollected": 0
@@ -33,7 +33,7 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-09-08T23:40:49.666Z",
+      "sourceCheckedAt": "2026-09-09T01:35:01.953Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-08T23:40:49.666Z",
-      "lastSuccessfulAt": "2026-09-08T23:40:49.666Z",
+      "sourceCheckedAt": "2026-09-09T01:35:01.953Z",
+      "lastSuccessfulAt": "2026-09-09T01:35:01.953Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-08T23:40:49.666Z",
-      "lastSuccessfulAt": "2026-09-08T23:40:49.666Z",
+      "sourceCheckedAt": "2026-09-09T01:35:01.953Z",
+      "lastSuccessfulAt": "2026-09-09T01:35:01.953Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-09-08T23:40:49.666Z",
+      "sourceCheckedAt": "2026-09-09T01:35:01.953Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,8 +69,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-08T23:40:49.666Z",
-      "lastSuccessfulAt": "2026-09-08T23:40:49.666Z",
+      "sourceCheckedAt": "2026-09-09T01:35:01.953Z",
+      "lastSuccessfulAt": "2026-09-09T01:35:01.953Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -78,12 +78,12 @@
     {
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
-      "status": "healthy",
-      "sourceCheckedAt": "2026-09-08T23:40:49.666Z",
+      "status": "stale",
+      "sourceCheckedAt": "2026-09-09T01:35:01.953Z",
       "lastSuccessfulAt": "2026-09-08T23:40:49.666Z",
-      "error": null,
-      "itemsCollected": 3,
-      "itemsQualified": 3
+      "error": "Google News RSS request failed with HTTP 503",
+      "itemsCollected": 0,
+      "itemsQualified": 1
     }
   ],
   "items": [
@@ -117,65 +117,6 @@
       "localities": [
         "Katraj",
         "Kondhwa"
-      ]
-    },
-    {
-      "eventKind": "incident",
-      "sourceId": "india_today",
-      "collectionSourceId": "google_news_discovery",
-      "upstreamId": "google-news-6cd188b1",
-      "title": "Developing: 3.1 lakh without power in Pune after explosion, fire at electricity substation",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "explosion",
-      "severity": "emergency",
-      "source": "India Today",
-      "sourceTrust": "B",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOFVwOE5BWkRISmhhZEZMZ3I2U0U1Y3QtRmw0Zmd1SzNjMkgtd2I1bE5zUzkyMHNFS3AxU3NHOHNObDh3dTZTRDZCeXZvUDZWLWhvNmd4em1MTl9fNjY5N0N0RW1lTlRYQ2pkOEJsN3k1RXN1TC1MWi1PbWlERU9nWlkzVjdiTC12NmRaX000N25qU0ZaOFJsc3hqMjg1NjAyRjViQmk4YmhETkNSRUxDaTQxV0xQLXVaUDd3M01jX0tzaHpoNUNqU1EwbTNDMDBFTGV5LdIB2gFBVV95cUxQMTRVT0F5MHBXZXlHcnFNY2JxZjgxOGdWVHdaZE9wMnFtTDYwQUp6SnpnUHRiME82ZzRRajJXYlF4cVdzOExxMmQ3MkR4Rk5xSU9UNHVXU2FRUVBvd0hjcmJRYzNGYjBRWnI0a2VXNEVSRDBGR0Q5a3B2clRib21DR19ldEVIZFlBaDJkTks1MkV0ZnZPUnZ3V0lhaVhJNllhNEg3dG1ldkFxalc2VGpHWDF4eHhjWlo5dWhtdWdQQU5hd19JOF96QXFXYWJyOE93bnZtZkxwYlNzQQ?oc=5",
-      "sourceOrigin": "",
-      "publishedAt": "2026-09-07T01:27:37.000Z",
-      "discoveredAt": "2026-09-08T23:40:49.666Z",
-      "lastUpdated": "2026-09-07T01:27:37.000Z",
-      "sourceCheckedAt": "2026-09-08T23:40:49.666Z",
-      "lastVerifiedAt": "2026-09-08T23:40:49.666Z",
-      "expiresAt": "2026-09-08T13:27:37.000Z",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "geographicScope": "pune_district",
-      "affectedArea": "Pune District",
-      "talukas": [],
-      "localities": []
-    },
-    {
-      "eventKind": "incident",
-      "sourceId": "indian_express_pune",
-      "collectionSourceId": "google_news_discovery",
-      "upstreamId": "google-news-16069648",
-      "title": "Developing: Pimpri-Chinchwad power cut after substation blast, fire brought under control",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "explosion",
-      "severity": "emergency",
-      "source": "Indian Express Pune",
-      "sourceTrust": "B",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZlowU1ZIUkM2UnVOZS1zcmNEQmoyaXo5RXRhcXdwc0d2ZUVMNUl3UVFKMF9wQmhLamtNZGdJTlhwQTgyV2U1VWlEVmxNbGJiNHgxamJnYmhteXoxcEtFbno2WGp2bFlGenh0WEdzbVBkWnNVZldZR1hNY2VwTi0zS0lEQWZnNjlPQzNZVEdFazVaa0JfeklweEhGLUtfQ3R0U3cyamhqZHFiQzI4VUFUVE5pWFlsODd6SXc2T1VrQ3dwODNUems1V2wteFlvZHJPNW1n0gHTAUFVX3lxTE9mWjBTVkhSQzZSdU5lLXNyY0RCajJpejlFdGFxd3BzR3ZlRUw1SXdRUUowX3BCaEtqa01kZ0lOWHBBODJXZTVVaURWbE1sYmI0eDFqYmdiaG15ejFwS0VuejZYanZsWUZ6eHRYR3NtUGRac1VmV1lHWE1jZXBOLTNLSURBZmc2OU9DM1lUR0VrNVprQl96SXB4SEYtS19DdHRTdzJqaGpkcWJDMjhVQVRUTmlYWWw4N3pJdzZPVWtDd3A4M1R6azVXbC14WW9kck81bWc?oc=5",
-      "sourceOrigin": "",
-      "publishedAt": "2026-09-06T11:28:30.000Z",
-      "discoveredAt": "2026-09-08T23:40:49.666Z",
-      "lastUpdated": "2026-09-06T11:28:30.000Z",
-      "sourceCheckedAt": "2026-09-08T23:40:49.666Z",
-      "lastVerifiedAt": "2026-09-08T23:40:49.666Z",
-      "expiresAt": "2026-09-07T23:28:30.000Z",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "geographicScope": "local",
-      "affectedArea": "Pimpri, Chinchwad",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Pimpri",
-        "Chinchwad"
       ]
     }
   ]
