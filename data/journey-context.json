@@ -1,8 +1,17 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-10T08:47:39.762Z",
+  "generatedAt": "2026-09-10T13:24:56.436Z",
   "routes": [],
   "risks": [
+    {
+      "id": "accident-developing-3-injured-as-truck-hits-vehicle-towing-ganesh-idol-on-mumbai-pune-high",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
     {
       "id": "fire-developing-caught-on-cctv-three-men-set-shop-on-fire-in-pune-s-manjari-blaze-sparks-p",
       "category": "fire",
@@ -15,29 +24,6 @@
       ],
       "operationalZones": [],
       "impact": "This event may affect local awareness or movement."
-    },
-    {
-      "id": "accident-developing-3-injured-as-truck-hits-vehicle-towing-ganesh-idol-on-mumbai-pune-high",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "accident-developing-pune-16-year-old-girl-killed-after-container-truck-hits-two-wheeler-on",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [
-        "Katraj",
-        "Kondhwa"
-      ],
-      "talukas": [
-        "pune_city"
-      ],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
     }
   ]
 }
