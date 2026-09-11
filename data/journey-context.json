@@ -1,17 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-11T09:02:22.666Z",
+  "generatedAt": "2026-09-11T13:35:47.289Z",
   "routes": [],
   "risks": [
-    {
-      "id": "accident-developing-3-injured-as-truck-hits-vehicle-towing-ganesh-idol-on-mumbai-pune-high",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
     {
       "id": "fire-developing-caught-on-cctv-three-men-set-shop-on-fire-in-pune-s-manjari-blaze-sparks-p",
       "category": "fire",
@@ -24,6 +15,15 @@
       ],
       "operationalZones": [],
       "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "accident-developing-3-injured-as-truck-hits-vehicle-towing-ganesh-idol-on-mumbai-pune-high",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
     }
   ]
 }
