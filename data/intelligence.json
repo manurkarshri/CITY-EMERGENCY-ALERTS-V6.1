@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-11T17:16:37.744Z",
+  "generatedAt": "2026-09-11T19:57:02.711Z",
   "status": "stale",
   "situation": {
-    "snapshot": "2 important alerts require attention.",
+    "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-09-11T17:16:37.801Z",
+      "generatedAt": "2026-09-11T19:57:02.757Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,21 +13,21 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-11T17:16:23.049Z",
-          "observedAt": "2026-09-11T22:45:00+05:30",
-          "temp": 22.9,
+          "sourceCheckedAt": "2026-09-11T19:56:47.924Z",
+          "observedAt": "2026-09-12T01:15:00+05:30",
+          "temp": 22.3,
           "currentRain": 0,
           "rain6h": 0,
-          "rain24h": 4,
+          "rain24h": 2.2,
           "precipitationProbability": 93,
-          "wind": 19.1,
-          "gust": 19.1,
-          "humidity": 90,
-          "visibility": 1.2,
+          "wind": 21.6,
+          "gust": 21.6,
+          "humidity": 93,
+          "visibility": 15.5,
           "weatherCode": 3,
           "rainRisk": "Low",
-          "windRisk": "Minimal",
-          "visibilityRisk": "Medium",
+          "windRisk": "Low",
+          "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
           "advice": [
@@ -40,25 +40,25 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-11T17:16:23.049Z",
-          "observedAt": "2026-09-11T22:45:00+05:30",
-          "temp": 22.6,
+          "sourceCheckedAt": "2026-09-11T19:56:47.924Z",
+          "observedAt": "2026-09-12T01:15:00+05:30",
+          "temp": 22.3,
           "currentRain": 0,
           "rain6h": 0,
-          "rain24h": 3,
+          "rain24h": 2.7,
           "precipitationProbability": 74,
-          "wind": 14,
-          "gust": 14,
+          "wind": 17.3,
+          "gust": 17.3,
           "humidity": 93,
-          "visibility": 0.5,
+          "visibility": 2.7,
           "weatherCode": 3,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
-          "visibilityRisk": "High",
+          "visibilityRisk": "Low",
           "heatRisk": "Normal",
-          "travelImpact": "High",
+          "travelImpact": "Low",
           "advice": [
-            "Low visibility may make driving unsafe."
+            "No major weather-related disruption indicated."
           ]
         },
         "pune_district": {
@@ -67,21 +67,21 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-11T17:16:23.049Z",
-          "observedAt": "2026-09-11T22:45:00+05:30",
-          "temp": 22.9,
+          "sourceCheckedAt": "2026-09-11T19:56:47.924Z",
+          "observedAt": "2026-09-12T01:15:00+05:30",
+          "temp": 22.3,
           "currentRain": 0,
           "rain6h": 0,
-          "rain24h": 4,
+          "rain24h": 2.2,
           "precipitationProbability": 93,
-          "wind": 19.1,
-          "gust": 19.1,
-          "humidity": 90,
-          "visibility": 1.2,
+          "wind": 21.6,
+          "gust": 21.6,
+          "humidity": 93,
+          "visibility": 15.5,
           "weatherCode": 3,
           "rainRisk": "Low",
-          "windRisk": "Minimal",
-          "visibilityRisk": "Medium",
+          "windRisk": "Low",
+          "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
           "advice": [
@@ -94,17 +94,17 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-11T17:16:23.049Z",
-          "observedAt": "2026-09-11T22:45:00+05:30",
-          "temp": 21.6,
+          "sourceCheckedAt": "2026-09-11T19:56:47.924Z",
+          "observedAt": "2026-09-12T01:15:00+05:30",
+          "temp": 21.9,
           "currentRain": 0,
           "rain6h": 0,
-          "rain24h": 7.1,
+          "rain24h": 3,
           "precipitationProbability": 100,
-          "wind": 11.5,
-          "gust": 11.5,
-          "humidity": 100,
-          "visibility": 0.1,
+          "wind": 13.3,
+          "gust": 13.3,
+          "humidity": 99,
+          "visibility": 0.2,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Minimal",
@@ -121,93 +121,39 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-11T17:16:23.049Z",
-          "observedAt": "2026-09-11T22:45:00+05:30",
-          "temp": 21.9,
+          "sourceCheckedAt": "2026-09-11T19:56:47.924Z",
+          "observedAt": "2026-09-12T01:15:00+05:30",
+          "temp": 21.2,
           "currentRain": 0,
-          "rain6h": 0.1,
-          "rain24h": 21,
+          "rain6h": 0,
+          "rain24h": 8,
           "precipitationProbability": 100,
-          "wind": 14,
-          "gust": 14,
-          "humidity": 99,
-          "visibility": 1,
+          "wind": 10.4,
+          "gust": 10.4,
+          "humidity": 98,
+          "visibility": 1.5,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Minimal",
-          "visibilityRisk": "High",
+          "visibilityRisk": "Medium",
           "heatRisk": "Normal",
-          "travelImpact": "High",
+          "travelImpact": "Low",
           "advice": [
-            "Low visibility may make driving unsafe."
+            "No major weather-related disruption indicated."
           ]
         }
       }
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-09-11T17:16:37.856Z",
+      "generatedAt": "2026-09-11T19:57:03.217Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
       "seasonalContext": "monsoon"
     }
   },
-  "alerts": [
-    {
-      "id": "food-safety-developing-pune-fda-raid-at-budhwar-peth-पनीर-खवा-निकृष्ट-बुधवार-पेठेत-fdaची-म",
-      "eventKind": "alert",
-      "sourceId": "news18marathi",
-      "title": "Developing: Pune FDA Raid at Budhwar Peth | पनीर-खवा निकृष्ट? बुधवार पेठेत FDAची मोठी कारवाई!",
-      "summary": "पुण्यातील बुधवार पेठेत FDAच्या पथकाने धाड टाकून पनीर आणि खव्याच्या साठ्याची तपासणी सुरू केली आहे. दुसऱ्या राज्यातून आणण्यात आलेल्या या पनीर आणि खव्याची गुणवत्ता संशयास्पद असल्याने FDAकडून पुढील तपासणी केली जात आहे.FDA officials conducted a raid in Budhwar Peth, Pune, and began inspecting stocks of paneer and khoya. The products were brought from another state, and their quality is suspected to be questionable, prompting further inspection by the FDA. news live, news18 marathi, marathi batmya, marathi news, mumbai monsoon, mumbai rain, maharashtra rain, weather today live, parth pawar case, mundhwa land case, ajit pawar accident, cm devendra fadnavis, ganesh chaturthi 2026, ganeshotsav, pankaja munde, brics summit 2026, rohit pawar mpsc, nagpur marbat festival, manoj jarange patil, maratha reservationWatch News18 Marathi for- marathi news, marathi batmya, latest marathi, news, international news in marathi, live batmya, news in marathi language, news marathi latest, tajya batmya.News18 Marathi is one of the leading YouTube News channels which delivers news from across Maharashtra, India and the world 24x7 in Marathi. Stay updated on all the current events shaping Maharashtra's political landscape, with a special focus on key figures such as PM Narendra Modi, Amit Shah, Devendra Fadnavis, Ajit Pawar, Sharad Pawar, Eknath Shinde, Uddhav Thackeray, CMO Maharashtra, Aaditya Thackeray, Raj Thackeray, Manoj Jarange Patil, Prakash Ambedkar, and more.We cover interesting stories from across the world as well.Join us as we delve into the heart of Maharashtra Politics, providing comprehensive coverage and unbiased reporting on News18 Marathi's platform. Don't miss out on the action, subscribe now for all the latest news, debates, and more.Follow Every Breaking Story LIVE 🔴Watch News18 LIVE 24x7: https://youtube.com/live/L-tPyWhPpzgDownload our News18 Mobile App - https://onelink.to/desc-youtubeID_PM",
-      "category": "food_safety",
-      "severity": "warning",
-      "source": "News18marathi",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "News18marathi",
-          "trust": "B",
-          "link": "https://news18marathi.com/videos/maharashtra/pune-fda-raid-at-budhwar-peth-fda-1778823.html",
-          "origin": ""
-        }
-      ],
-      "link": "https://news18marathi.com/videos/maharashtra/pune-fda-raid-at-budhwar-peth-fda-1778823.html",
-      "talukas": [
-        "pune_city"
-      ],
-      "localities": [
-        "Mundhwa"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-09-11T05:11:41.000Z",
-      "lastUpdated": "2026-09-11T05:11:41.000Z",
-      "sourceCheckedAt": "2026-09-11T17:16:23.563Z",
-      "lastVerifiedAt": "2026-09-11T17:16:23.563Z",
-      "intelligenceGeneratedAt": "2026-09-11T17:16:37.744Z",
-      "expiresAt": "2026-09-14T05:11:41.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "Unsafe or contaminated food may affect people who consumed the reported product or visited the location.",
-      "recommendedAction": "Avoid the suspected item or outlet, follow recall or health guidance, and seek medical help if symptoms develop.",
-      "affectedArea": "",
-      "upstreamId": "63801c2d8fcf41100f6fbfcd389a7021",
-      "collectionProvider": "NewsData.io",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
+  "alerts": [],
   "incidents": [
     {
       "id": "fire-developing-caught-on-cctv-three-men-set-shop-on-fire-in-pune-s-manjari-blaze-sparks-p",
@@ -237,9 +183,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-10T04:05:48.000Z",
       "lastUpdated": "2026-09-10T04:05:48.000Z",
-      "sourceCheckedAt": "2026-09-11T17:16:23.563Z",
-      "lastVerifiedAt": "2026-09-11T17:16:23.563Z",
-      "intelligenceGeneratedAt": "2026-09-11T17:16:37.744Z",
+      "sourceCheckedAt": "2026-09-11T19:56:48.106Z",
+      "lastVerifiedAt": "2026-09-11T19:56:48.106Z",
+      "intelligenceGeneratedAt": "2026-09-11T19:57:02.711Z",
       "expiresAt": "2026-09-12T04:05:48.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -252,7 +198,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-11T17:16:23.563Z",
+      "discoveredAt": "2026-09-11T19:56:48.106Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -265,19 +211,6 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
-      {
-        "id": "food-safety-developing-pune-fda-raid-at-budhwar-peth-पनीर-खवा-निकृष्ट-बुधवार-पेठेत-fdaची-म",
-        "category": "food_safety",
-        "severity": "warning",
-        "localities": [
-          "Mundhwa"
-        ],
-        "talukas": [
-          "pune_city"
-        ],
-        "operationalZones": [],
-        "impact": "Unsafe or contaminated food may affect people who consumed the reported product or visited the location."
-      },
       {
         "id": "fire-developing-caught-on-cctv-three-men-set-shop-on-fire-in-pune-s-manjari-blaze-sparks-p",
         "category": "fire",
@@ -300,15 +233,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-09-11T17:16:23.563Z",
-      "lastSuccessfulAt": "2026-09-11T17:16:23.563Z",
+      "sourceCheckedAt": "2026-09-11T19:56:48.106Z",
+      "lastSuccessfulAt": "2026-09-11T19:56:48.106Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-09-11T17:16:37.856Z",
+      "generatedAt": "2026-09-11T19:57:03.217Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -321,7 +254,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-09-11T17:16:37.856Z",
+      "generatedAt": "2026-09-11T19:57:03.216Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -402,7 +335,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-09-11T17:16:37.856Z",
+      "generatedAt": "2026-09-11T19:57:03.217Z",
       "mode": "on-demand",
       "relevantDomains": [
         "emergencyServices"
@@ -447,7 +380,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-09-11T17:16:37.916Z",
+        "generatedAt": "2026-09-11T19:57:03.261Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -479,20 +412,20 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 55,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
               "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 90,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 73,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Good to Go (85/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -526,20 +459,20 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 55,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 85,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
                 "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 90,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 73,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Good to Go (85/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           },
           {
             "id": "kharadi-hinjawadi-pashan",
@@ -569,20 +502,20 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 55,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 85,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
                 "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 97,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 80,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Consider Delaying (55/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Good to Go (85/100). Estimated travel time is about 80 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -591,7 +524,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-09-11T17:16:37.916Z",
+        "generatedAt": "2026-09-11T19:57:03.261Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -621,20 +554,20 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 55,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
               "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 120,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 103,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -666,20 +599,20 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 55,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 85,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
                 "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 120,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 103,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -688,7 +621,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-09-11T17:16:37.917Z",
+        "generatedAt": "2026-09-11T19:57:03.261Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -717,20 +650,20 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 55,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
               "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 60,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 43,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -761,20 +694,20 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 55,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 85,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
                 "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 60,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 43,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       }
