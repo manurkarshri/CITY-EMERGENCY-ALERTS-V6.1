@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-13T17:43:10.861Z",
+  "generatedAt": "2026-09-13T19:51:57.610Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,116 +8,59 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-09-13T17:43:10.861Z",
+      "generatedAt": "2026-09-13T19:51:57.610Z",
       "bestRoute": {
-        "id": "kharadi-hinjawadi-nh48",
-        "label": "Kharadi to Hinjawadi via NH48",
+        "id": "kharadi-hinjawadi-pashan",
+        "label": "Kharadi to Hinjawadi via Pashan",
         "fromAliases": [
           "Kharadi",
-          "EON",
-          "World Trade Center"
+          "EON"
         ],
         "toAliases": [
           "Hinjawadi",
-          "Hinjewadi",
-          "Rajiv Gandhi Infotech Park"
+          "Hinjewadi"
         ],
         "via": [
           "Kharadi",
-          "Viman Nagar",
-          "Shivajinagar",
-          "Baner",
-          "Wakad",
+          "Yerwada",
+          "Aundh",
+          "Pashan",
+          "Mahalunge",
           "Hinjawadi"
         ],
         "operationalZones": [
-          "Pune-Ahmednagar Highway",
-          "NH48",
+          "Pashan Road",
           "IT Corridor"
         ],
-        "distanceKm": 33,
-        "baseTimeMin": 65,
-        "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+        "distanceKm": 36,
+        "baseTimeMin": 72,
+        "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
         "routeType": "known-corridor",
         "journeySuitability": {
           "score": 50,
           "label": "Consider Delaying",
           "recommendation": "Consider delaying or checking alternate routes.",
           "reasons": [
-            "Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru Highway may cause delays or safety concerns.",
+            "Developing: Pedestrian killed after being hit by car may cause delays or safety concerns.",
             "Low visibility may make driving unsafe."
           ],
           "penalties": [
             {
-              "eventId": "accident-developing-2-killed-12-injured-in-multi-vehicle-crash-on-pune-bengaluru-highway-2",
+              "eventId": "accident-developing-pedestrian-killed-after-being-hit-by-car-2026-09-13t02-14-00-000z",
               "category": "accident",
               "penalty": 20,
-              "title": "Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru Highway"
+              "title": "Developing: Pedestrian killed after being hit by car"
             }
           ]
         },
-        "estimatedTimeMin": 90,
+        "estimatedTimeMin": 97,
         "estimatedDelayMin": 25,
-        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru Highway may cause delays or safety concerns."
+        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Developing: Pedestrian killed after being hit by car may cause delays or safety concerns."
       },
       "routes": [
-        {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
-          "fromAliases": [
-            "Kharadi",
-            "EON",
-            "World Trade Center"
-          ],
-          "toAliases": [
-            "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
-          ],
-          "via": [
-            "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
-            "Hinjawadi"
-          ],
-          "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
-            "IT Corridor"
-          ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-          "routeType": "known-corridor",
-          "journeySuitability": {
-            "score": 50,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
-            "reasons": [
-              "Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru Highway may cause delays or safety concerns.",
-              "Low visibility may make driving unsafe."
-            ],
-            "penalties": [
-              {
-                "eventId": "accident-developing-2-killed-12-injured-in-multi-vehicle-crash-on-pune-bengaluru-highway-2",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru Highway"
-              }
-            ]
-          },
-          "estimatedTimeMin": 90,
-          "estimatedDelayMin": 25,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-          "rank": 1,
-          "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru Highway may cause delays or safety concerns."
-        },
         {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -165,9 +108,70 @@
           "estimatedTimeMin": 97,
           "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Developing: Pedestrian killed after being hit by car may cause delays or safety concerns."
+        },
+        {
+          "id": "kharadi-hinjawadi-nh48",
+          "label": "Kharadi to Hinjawadi via NH48",
+          "fromAliases": [
+            "Kharadi",
+            "EON",
+            "World Trade Center"
+          ],
+          "toAliases": [
+            "Hinjawadi",
+            "Hinjewadi",
+            "Rajiv Gandhi Infotech Park"
+          ],
+          "via": [
+            "Kharadi",
+            "Viman Nagar",
+            "Shivajinagar",
+            "Baner",
+            "Wakad",
+            "Hinjawadi"
+          ],
+          "operationalZones": [
+            "Pune-Ahmednagar Highway",
+            "NH48",
+            "IT Corridor"
+          ],
+          "distanceKm": 33,
+          "baseTimeMin": 65,
+          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 30,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
+            "reasons": [
+              "Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru highway | India News may cause delays or safety concerns.",
+              "Developing: Two killed, 12 injured after truck hits tempo on Pune-Bengaluru highway near Jambhulwadi may cause delays or safety concerns.",
+              "Low visibility may make driving unsafe."
+            ],
+            "penalties": [
+              {
+                "eventId": "accident-developing-2-killed-12-injured-in-multi-vehicle-crash-on-pune-bengaluru-highway-i",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru highway | India News"
+              },
+              {
+                "eventId": "accident-developing-two-killed-12-injured-after-truck-hits-tempo-on-pune-bengaluru-highway",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Two killed, 12 injured after truck hits tempo on Pune-Bengaluru highway near Jambhulwadi"
+              }
+            ]
+          },
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 45,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Developing: Pedestrian killed after being hit by car may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (30/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru highway | India News may cause delays or safety concerns."
         }
       ]
     },
@@ -176,7 +180,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-09-13T17:43:10.861Z",
+      "generatedAt": "2026-09-13T19:51:57.610Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -273,7 +277,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-09-13T17:43:10.861Z",
+      "generatedAt": "2026-09-13T19:51:57.610Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
