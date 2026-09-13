@@ -1,8 +1,17 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-13T05:45:23.939Z",
+  "generatedAt": "2026-09-13T10:38:39.854Z",
   "routes": [],
   "risks": [
+    {
+      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-very-likely-to-occur-at-isolated-plac",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
     {
       "id": "public-safety-developing-five-held-after-firing-incident-in-ambegaon-2026-09-13t02-28-00-0",
       "category": "public_safety",
@@ -31,6 +40,15 @@
       "talukas": [
         "pune_city"
       ],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-2-killed-12-injured-in-multi-vehicle-crash-on-pune-bengaluru-highway-2",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
     },
