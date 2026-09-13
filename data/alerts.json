@@ -1,56 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-12T22:57:22.470Z",
+  "generatedAt": "2026-09-13T00:48:23.668Z",
   "sourceStatus": "stale",
-  "items": [
-    {
-      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-is-very-likely-to-occur-at-isolated-p",
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "title": "Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours.",
-      "summary": "Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours.",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "source": "NDMA SACHET (IMD-Mumbai)",
-      "sourceTrust": "A+",
-      "sources": [
-        {
-          "name": "NDMA SACHET (IMD-Mumbai)",
-          "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1789252526191029",
-          "origin": ""
-        }
-      ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1789252526191029",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-09-12T22:34:20.000Z",
-      "lastUpdated": "2026-09-12T22:34:20.000Z",
-      "sourceCheckedAt": "2026-09-12T22:57:06.260Z",
-      "lastVerifiedAt": "2026-09-12T22:57:06.260Z",
-      "intelligenceGeneratedAt": "2026-09-12T22:57:22.470Z",
-      "expiresAt": "2026-09-13T01:33:00.000Z",
-      "lifecycle": "active",
-      "confidence": "Medium",
-      "confidenceScore": 65,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane districts of Maharashtra",
-      "upstreamId": "IN-1789252526191029_46",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "Alert",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ]
+  "items": []
 }

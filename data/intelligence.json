@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-12T22:57:22.470Z",
+  "generatedAt": "2026-09-13T00:48:23.668Z",
   "status": "stale",
   "situation": {
     "snapshot": "2 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-09-12T22:57:22.525Z",
+      "generatedAt": "2026-09-13T00:48:23.713Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,17 +13,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-12T22:57:05.935Z",
-          "observedAt": "2026-09-13T04:15:00+05:30",
-          "temp": 22.8,
+          "sourceCheckedAt": "2026-09-13T00:48:05.783Z",
+          "observedAt": "2026-09-13T06:15:00+05:30",
+          "temp": 22.7,
           "currentRain": 0,
-          "rain6h": 0.1,
-          "rain24h": 0.4,
-          "precipitationProbability": 90,
-          "wind": 23,
-          "gust": 23,
-          "humidity": 87,
-          "visibility": 8.5,
+          "rain6h": 0,
+          "rain24h": 0.2,
+          "precipitationProbability": 84,
+          "wind": 24.5,
+          "gust": 24.5,
+          "humidity": 88,
+          "visibility": 12.8,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -40,20 +40,20 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-12T22:57:05.935Z",
-          "observedAt": "2026-09-13T04:15:00+05:30",
+          "sourceCheckedAt": "2026-09-13T00:48:05.783Z",
+          "observedAt": "2026-09-13T06:15:00+05:30",
           "temp": 22.7,
           "currentRain": 0,
-          "rain6h": 0.1,
-          "rain24h": 1.1,
-          "precipitationProbability": 93,
-          "wind": 18.7,
-          "gust": 18.7,
-          "humidity": 89,
-          "visibility": 11.8,
+          "rain6h": 0,
+          "rain24h": 0.3,
+          "precipitationProbability": 92,
+          "wind": 23,
+          "gust": 23,
+          "humidity": 88,
+          "visibility": 16.5,
           "weatherCode": 3,
           "rainRisk": "Low",
-          "windRisk": "Minimal",
+          "windRisk": "Low",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -67,17 +67,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-12T22:57:05.935Z",
-          "observedAt": "2026-09-13T04:15:00+05:30",
-          "temp": 22.8,
+          "sourceCheckedAt": "2026-09-13T00:48:05.783Z",
+          "observedAt": "2026-09-13T06:15:00+05:30",
+          "temp": 22.7,
           "currentRain": 0,
-          "rain6h": 0.1,
-          "rain24h": 0.4,
-          "precipitationProbability": 90,
-          "wind": 23,
-          "gust": 23,
-          "humidity": 87,
-          "visibility": 8.5,
+          "rain6h": 0,
+          "rain24h": 0.2,
+          "precipitationProbability": 84,
+          "wind": 24.5,
+          "gust": 24.5,
+          "humidity": 88,
+          "visibility": 12.8,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -94,25 +94,25 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-12T22:57:05.935Z",
-          "observedAt": "2026-09-13T04:15:00+05:30",
-          "temp": 21.8,
-          "currentRain": 0.1,
-          "rain6h": 1,
-          "rain24h": 6.3,
+          "sourceCheckedAt": "2026-09-13T00:48:05.783Z",
+          "observedAt": "2026-09-13T06:15:00+05:30",
+          "temp": 21.6,
+          "currentRain": 0,
+          "rain6h": 2,
+          "rain24h": 6.8,
           "precipitationProbability": 100,
-          "wind": 24.8,
-          "gust": 24.8,
-          "humidity": 99,
-          "visibility": 1.4,
-          "weatherCode": 51,
+          "wind": 31.7,
+          "gust": 31.7,
+          "humidity": 100,
+          "visibility": 1,
+          "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "Medium",
+          "visibilityRisk": "High",
           "heatRisk": "Normal",
-          "travelImpact": "Low",
+          "travelImpact": "High",
           "advice": [
-            "No major weather-related disruption indicated."
+            "Low visibility may make driving unsafe."
           ]
         },
         "maval": {
@@ -121,17 +121,17 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-12T22:57:05.935Z",
-          "observedAt": "2026-09-13T04:15:00+05:30",
+          "sourceCheckedAt": "2026-09-13T00:48:05.783Z",
+          "observedAt": "2026-09-13T06:15:00+05:30",
           "temp": 21.3,
           "currentRain": 0.1,
-          "rain6h": 2.4,
-          "rain24h": 12.6,
+          "rain6h": 4.2,
+          "rain24h": 9.4,
           "precipitationProbability": 100,
-          "wind": 23.4,
-          "gust": 23.4,
+          "wind": 27.7,
+          "gust": 27.7,
           "humidity": 100,
-          "visibility": 0.4,
+          "visibility": 0.3,
           "weatherCode": 53,
           "rainRisk": "Low",
           "windRisk": "Low",
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-09-12T22:57:22.541Z",
+      "generatedAt": "2026-09-13T00:48:23.740Z",
       "riskLevel": "Normal",
       "impacts": [
         "2 active transport-related event(s) may affect travel."
@@ -155,57 +155,7 @@
       "seasonalContext": "monsoon"
     }
   },
-  "alerts": [
-    {
-      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-is-very-likely-to-occur-at-isolated-p",
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "title": "Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours.",
-      "summary": "Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours.",
-      "category": "heavy_rain",
-      "severity": "watch",
-      "source": "NDMA SACHET (IMD-Mumbai)",
-      "sourceTrust": "A+",
-      "sources": [
-        {
-          "name": "NDMA SACHET (IMD-Mumbai)",
-          "trust": "A+",
-          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1789252526191029",
-          "origin": ""
-        }
-      ],
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1789252526191029",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-09-12T22:34:20.000Z",
-      "lastUpdated": "2026-09-12T22:34:20.000Z",
-      "sourceCheckedAt": "2026-09-12T22:57:06.260Z",
-      "lastVerifiedAt": "2026-09-12T22:57:06.260Z",
-      "intelligenceGeneratedAt": "2026-09-12T22:57:22.470Z",
-      "expiresAt": "2026-09-13T01:33:00.000Z",
-      "lifecycle": "active",
-      "confidence": "Medium",
-      "confidenceScore": 65,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane districts of Maharashtra",
-      "upstreamId": "IN-1789252526191029_46",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "Alert",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
+  "alerts": [],
   "incidents": [
     {
       "id": "accident-developing-pune-mact-awards-86l-to-family-of-woman-killed-in-2023-truck-accident-",
@@ -231,9 +181,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-12T19:06:00.000Z",
       "lastUpdated": "2026-09-12T19:06:00.000Z",
-      "sourceCheckedAt": "2026-09-12T22:57:06.260Z",
-      "lastVerifiedAt": "2026-09-12T22:57:06.260Z",
-      "intelligenceGeneratedAt": "2026-09-12T22:57:22.470Z",
+      "sourceCheckedAt": "2026-09-13T00:48:06.467Z",
+      "lastVerifiedAt": "2026-09-13T00:48:06.467Z",
+      "intelligenceGeneratedAt": "2026-09-13T00:48:23.668Z",
       "expiresAt": "2026-09-14T19:06:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -246,7 +196,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-12T22:57:06.260Z",
+      "discoveredAt": "2026-09-13T00:48:06.467Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -284,13 +234,13 @@
       "operationalZones": [],
       "publishedAt": "2026-09-12T17:38:00.000Z",
       "lastUpdated": "2026-09-12T17:38:00.000Z",
-      "sourceCheckedAt": "2026-09-12T22:57:06.260Z",
-      "lastVerifiedAt": "2026-09-12T22:57:06.260Z",
-      "intelligenceGeneratedAt": "2026-09-12T22:57:22.470Z",
+      "sourceCheckedAt": "2026-09-13T00:48:06.467Z",
+      "lastVerifiedAt": "2026-09-13T00:48:06.467Z",
+      "intelligenceGeneratedAt": "2026-09-13T00:48:23.668Z",
       "expiresAt": "2026-09-14T17:38:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 70,
+      "confidenceScore": 63,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pashan",
@@ -299,7 +249,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-12T22:57:06.260Z",
+      "discoveredAt": "2026-09-13T00:48:06.467Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -312,15 +262,6 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
-      {
-        "id": "heavy-rain-official-light-to-moderate-spells-of-rain-is-very-likely-to-occur-at-isolated-p",
-        "category": "heavy_rain",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "This event may affect local awareness or movement."
-      },
       {
         "id": "accident-developing-pune-mact-awards-86l-to-family-of-woman-killed-in-2023-truck-accident-",
         "category": "accident",
@@ -376,9 +317,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-12T02:26:00.000Z",
       "lastUpdated": "2026-09-12T02:26:00.000Z",
-      "sourceCheckedAt": "2026-09-12T22:57:06.260Z",
-      "lastVerifiedAt": "2026-09-12T22:57:06.260Z",
-      "intelligenceGeneratedAt": "2026-09-12T22:57:22.470Z",
+      "sourceCheckedAt": "2026-09-13T00:48:06.467Z",
+      "lastVerifiedAt": "2026-09-13T00:48:06.467Z",
+      "intelligenceGeneratedAt": "2026-09-13T00:48:23.668Z",
       "expiresAt": "2026-09-12T14:26:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -431,9 +372,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-10T04:05:48.000Z",
       "lastUpdated": "2026-09-10T04:05:48.000Z",
-      "sourceCheckedAt": "2026-09-12T22:57:06.260Z",
-      "lastVerifiedAt": "2026-09-12T22:57:06.260Z",
-      "intelligenceGeneratedAt": "2026-09-12T22:57:22.470Z",
+      "sourceCheckedAt": "2026-09-13T00:48:06.467Z",
+      "lastVerifiedAt": "2026-09-13T00:48:06.467Z",
+      "intelligenceGeneratedAt": "2026-09-13T00:48:23.668Z",
       "expiresAt": "2026-09-12T04:05:48.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -446,7 +387,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-12T22:57:06.260Z",
+      "discoveredAt": "2026-09-13T00:48:06.467Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -463,15 +404,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-09-12T22:57:06.260Z",
-      "lastSuccessfulAt": "2026-09-12T22:57:06.260Z",
+      "sourceCheckedAt": "2026-09-13T00:48:06.467Z",
+      "lastSuccessfulAt": "2026-09-13T00:48:06.467Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-09-12T22:57:22.541Z",
+      "generatedAt": "2026-09-13T00:48:23.740Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -484,7 +425,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-09-12T22:57:22.541Z",
+      "generatedAt": "2026-09-13T00:48:23.740Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -565,7 +506,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-09-12T22:57:22.541Z",
+      "generatedAt": "2026-09-13T00:48:23.740Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -610,7 +551,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-09-12T22:57:22.602Z",
+        "generatedAt": "2026-09-13T00:48:23.783Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -646,24 +587,16 @@
             "label": "Proceed with Caution",
             "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours. may have minor impact on travel.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": [
-              {
-                "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-is-very-likely-to-occur-at-isolated-p",
-                "category": "heavy_rain",
-                "penalty": 15,
-                "title": "Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours."
-              }
-            ]
+            "penalties": []
           },
           "estimatedTimeMin": 80,
           "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours. may have minor impact on travel."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -701,24 +634,16 @@
               "label": "Proceed with Caution",
               "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours. may have minor impact on travel.",
                 "Low visibility may make driving unsafe."
               ],
-              "penalties": [
-                {
-                  "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-is-very-likely-to-occur-at-isolated-p",
-                  "category": "heavy_rain",
-                  "penalty": 15,
-                  "title": "Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours."
-                }
-              ]
+              "penalties": []
             },
             "estimatedTimeMin": 80,
             "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours. may have minor impact on travel."
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           },
           {
             "id": "kharadi-hinjawadi-pashan",
@@ -748,9 +673,9 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 65,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 50,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
                 "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns.",
                 "Low visibility may make driving unsafe."
@@ -764,12 +689,12 @@
                 }
               ]
             },
-            "estimatedTimeMin": 87,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 97,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
           }
         ]
       },
@@ -778,7 +703,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-09-12T22:57:22.602Z",
+        "generatedAt": "2026-09-13T00:48:23.783Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -812,24 +737,16 @@
             "label": "Proceed with Caution",
             "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours. may have minor impact on travel.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": [
-              {
-                "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-is-very-likely-to-occur-at-isolated-p",
-                "category": "heavy_rain",
-                "penalty": 15,
-                "title": "Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours."
-              }
-            ]
+            "penalties": []
           },
           "estimatedTimeMin": 110,
           "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours. may have minor impact on travel."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -865,24 +782,16 @@
               "label": "Proceed with Caution",
               "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours. may have minor impact on travel.",
                 "Low visibility may make driving unsafe."
               ],
-              "penalties": [
-                {
-                  "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-is-very-likely-to-occur-at-isolated-p",
-                  "category": "heavy_rain",
-                  "penalty": 15,
-                  "title": "Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours."
-                }
-              ]
+              "penalties": []
             },
             "estimatedTimeMin": 110,
             "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Official: Light to moderate spells of Rain is very likely to occur at isolated places over Ahilyanagar, Mumbai, Mumbai Suburban, Nashik, Palghar, Pune, Raigad, Ratnagiri, Satara, Thane in next 3 hours. may have minor impact on travel."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -891,7 +800,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-09-12T22:57:22.603Z",
+        "generatedAt": "2026-09-13T00:48:23.783Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -920,9 +829,9 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 65,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 50,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
               "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
@@ -936,12 +845,12 @@
               }
             ]
           },
-          "estimatedTimeMin": 50,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 60,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -972,9 +881,9 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 65,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 50,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
                 "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns.",
                 "Low visibility may make driving unsafe."
@@ -988,12 +897,12 @@
                 }
               ]
             },
-            "estimatedTimeMin": 50,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 60,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
           }
         ]
       }
