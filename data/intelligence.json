@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-13T00:48:23.668Z",
+  "generatedAt": "2026-09-13T05:45:23.939Z",
   "status": "stale",
   "situation": {
-    "snapshot": "2 active transport-related event(s) may affect travel.",
+    "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-09-13T00:48:23.713Z",
+      "generatedAt": "2026-09-13T05:45:23.986Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,20 +13,20 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-13T00:48:05.783Z",
-          "observedAt": "2026-09-13T06:15:00+05:30",
-          "temp": 22.7,
+          "sourceCheckedAt": "2026-09-13T05:45:03.341Z",
+          "observedAt": "2026-09-13T11:15:00+05:30",
+          "temp": 26.5,
           "currentRain": 0,
-          "rain6h": 0,
-          "rain24h": 0.2,
-          "precipitationProbability": 84,
-          "wind": 24.5,
-          "gust": 24.5,
-          "humidity": 88,
-          "visibility": 12.8,
+          "rain6h": 0.2,
+          "rain24h": 0.9,
+          "precipitationProbability": 73,
+          "wind": 42.8,
+          "gust": 42.8,
+          "humidity": 67,
+          "visibility": 9.3,
           "weatherCode": 3,
-          "rainRisk": "Low",
-          "windRisk": "Low",
+          "rainRisk": "Minimal",
+          "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -40,20 +40,20 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-13T00:48:05.783Z",
-          "observedAt": "2026-09-13T06:15:00+05:30",
-          "temp": 22.7,
+          "sourceCheckedAt": "2026-09-13T05:45:03.341Z",
+          "observedAt": "2026-09-13T11:15:00+05:30",
+          "temp": 25.4,
           "currentRain": 0,
-          "rain6h": 0,
-          "rain24h": 0.3,
-          "precipitationProbability": 92,
-          "wind": 23,
-          "gust": 23,
-          "humidity": 88,
-          "visibility": 16.5,
+          "rain6h": 0.3,
+          "rain24h": 0.8,
+          "precipitationProbability": 90,
+          "wind": 40.7,
+          "gust": 40.7,
+          "humidity": 75,
+          "visibility": 9,
           "weatherCode": 3,
           "rainRisk": "Low",
-          "windRisk": "Low",
+          "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -67,20 +67,20 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-13T00:48:05.783Z",
-          "observedAt": "2026-09-13T06:15:00+05:30",
-          "temp": 22.7,
+          "sourceCheckedAt": "2026-09-13T05:45:03.341Z",
+          "observedAt": "2026-09-13T11:15:00+05:30",
+          "temp": 26.5,
           "currentRain": 0,
-          "rain6h": 0,
-          "rain24h": 0.2,
-          "precipitationProbability": 84,
-          "wind": 24.5,
-          "gust": 24.5,
-          "humidity": 88,
-          "visibility": 12.8,
+          "rain6h": 0.2,
+          "rain24h": 0.9,
+          "precipitationProbability": 73,
+          "wind": 42.8,
+          "gust": 42.8,
+          "humidity": 67,
+          "visibility": 9.3,
           "weatherCode": 3,
-          "rainRisk": "Low",
-          "windRisk": "Low",
+          "rainRisk": "Minimal",
+          "windRisk": "Medium",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -94,25 +94,25 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-13T00:48:05.783Z",
-          "observedAt": "2026-09-13T06:15:00+05:30",
-          "temp": 21.6,
+          "sourceCheckedAt": "2026-09-13T05:45:03.341Z",
+          "observedAt": "2026-09-13T11:15:00+05:30",
+          "temp": 23,
           "currentRain": 0,
-          "rain6h": 2,
-          "rain24h": 6.8,
+          "rain6h": 3,
+          "rain24h": 7.3,
           "precipitationProbability": 100,
-          "wind": 31.7,
-          "gust": 31.7,
-          "humidity": 100,
-          "visibility": 1,
-          "weatherCode": 3,
+          "wind": 34.9,
+          "gust": 34.9,
+          "humidity": 93,
+          "visibility": 2.3,
+          "weatherCode": 51,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "High",
+          "visibilityRisk": "Low",
           "heatRisk": "Normal",
-          "travelImpact": "High",
+          "travelImpact": "Low",
           "advice": [
-            "Low visibility may make driving unsafe."
+            "No major weather-related disruption indicated."
           ]
         },
         "maval": {
@@ -121,18 +121,18 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-13T00:48:05.783Z",
-          "observedAt": "2026-09-13T06:15:00+05:30",
-          "temp": 21.3,
-          "currentRain": 0.1,
+          "sourceCheckedAt": "2026-09-13T05:45:03.341Z",
+          "observedAt": "2026-09-13T11:15:00+05:30",
+          "temp": 22.1,
+          "currentRain": 0,
           "rain6h": 4.2,
-          "rain24h": 9.4,
+          "rain24h": 8.2,
           "precipitationProbability": 100,
-          "wind": 27.7,
-          "gust": 27.7,
-          "humidity": 100,
-          "visibility": 0.3,
-          "weatherCode": 53,
+          "wind": 31.3,
+          "gust": 31.3,
+          "humidity": 99,
+          "visibility": 0.4,
+          "weatherCode": 51,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "High",
@@ -146,17 +146,184 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-09-13T00:48:23.740Z",
+      "generatedAt": "2026-09-13T05:45:24.342Z",
       "riskLevel": "Normal",
       "impacts": [
-        "2 active transport-related event(s) may affect travel."
+        "3 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "2 active transport-related event(s) may affect travel.",
+      "citizenSummary": "3 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
   "alerts": [],
   "incidents": [
+    {
+      "id": "public-safety-developing-five-held-after-firing-incident-in-ambegaon-2026-09-13t02-28-00-0",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Five held after firing incident in Ambegaon",
+      "summary": "Ambegaon police have arrested five men and seized three country-made pistols and four live cartridges in connection with a firing incident in the area on September 5",
+      "category": "public_safety",
+      "severity": "warning",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/five-held-after-firing-incident-in-ambegaon-101789244494747.html",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/five-held-after-firing-incident-in-ambegaon-101789244494747.html",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-09-13T02:28:00.000Z",
+      "lastUpdated": "2026-09-13T02:28:00.000Z",
+      "sourceCheckedAt": "2026-09-13T05:45:04.029Z",
+      "lastVerifiedAt": "2026-09-13T05:45:04.029Z",
+      "intelligenceGeneratedAt": "2026-09-13T05:45:23.939Z",
+      "expiresAt": "2026-09-13T14:28:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "The incident may create an immediate safety risk in the affected area.",
+      "recommendedAction": "Avoid the area and follow police or emergency-service instructions.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-pune-tribunal-awards-85-9-lakh-to-family-of-woman-killed-in-accident-b",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Pune tribunal awards ₹85.9 lakh to family of woman killed in accident by truck",
+      "summary": "The tribunal held the truck driver responsible for the accident and rejected the respondents’ contention that the two-wheeler rider had contributed to it.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/pune-mact-awards-85-98-lakh-to-family-of-woman-killed-in-accident-101789244193748.html",
+          "origin": ""
+        },
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb0tCMWQ2REJBOUpsZUF4TDM0eHVVLVlVenhNNjk3MWl4cTBDY2JMRjVCMVJPM1lxLW1obll4Q3NoOGF2cklJV0N6RXRxTEtWSGtWTTczMTZxZmJwQmIyRG54cVZtZnUtMW1fbTBnWXVaYUxaZEZuSEZ5M3FsRGU5aVE0blhURjJjTmhPeG9NVWFDUU1KRkdpN3hjWm1ycUJNakVfWVp3cVFWYTBmM2VZZlN1Uld5TE1LdXIyVFplTGk3TUJnMEdPS3lfbWRZU1nSAdQBQVVfeXFMTkwwbngzN2pSeVhqZHBSRnZhcTVOQVZTb1ZIRFZQSVVObHY4MVprVXlxNjR5YlgzeTI5Z1ktLWY5emRyT1p0YkpmMFRPSjZwcFFTdnlVcXd5cnRJZm5XY1hVR0xjME8wM09nOFY2Q184X21HNXQxWVk0ZFBEcFNMWlNUTmlTWUQ3OFBqdWoxWmpYZnVlZGRpNWI2THhNQTdBZmEtSWlqTHVhbkE1M29LVFRWc0VNU3Yycjl0V0tDOEhkU0hyNUZaeHJCQ2phTE43QnNCNW4?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/pune-mact-awards-85-98-lakh-to-family-of-woman-killed-in-accident-101789244193748.html",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-09-13T02:27:20.000Z",
+      "lastUpdated": "2026-09-13T02:27:20.000Z",
+      "sourceCheckedAt": "2026-09-13T05:45:04.029Z",
+      "lastVerifiedAt": "2026-09-13T05:45:04.029Z",
+      "intelligenceGeneratedAt": "2026-09-13T05:45:23.939Z",
+      "expiresAt": "2026-09-14T02:27:20.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [
+        "accident-developing-pune-mact-awards-85-98-lakh-to-family-of-woman-killed-in-accident-hind"
+      ],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-pedestrian-killed-after-being-hit-by-car-2026-09-13t02-14-00-000z",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Pedestrian killed after being hit by car",
+      "summary": "A 48-year-old pedestrian was killed after being hit by a speeding car on DRDO Road near the Hanuman temple in Pashan on Saturday morning",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/pedestrian-killed-after-being-hit-by-car-101789237412306.html",
+          "origin": ""
+        },
+        {
+          "name": "ANI",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORFBZcHo1cDctRzRJeDBuVmNXZGZpZFFXN2ZDSHdqTDNoV0Voemdsd2tSNHJuMlJDaHZzckVJc0tobjAtS2RNQ2ltM1lWVDNoZFp3XzdIU3NYcDQtWjRncHNPX015ekdvcDdJNGZxVGpLdzhQalFVMmNMN25Nd3FEVlMtT0F3Rm94NDc4bEhtU29SeC1HS3hHWHg2WktFLXlRT3pZb1k2TGdnczJqX0hKLUJWSVg3SWRFcHdMcE1xNFY5RTh1Z2ZUTGtZOTMwVVNWLWlaS3E3RUpHZjJwQ0RsWDJlWlJRS0Q4RmZKY09QN3M?oc=5",
+          "origin": "ani"
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/pedestrian-killed-after-being-hit-by-car-101789237412306.html",
+      "talukas": [
+        "pune_city"
+      ],
+      "localities": [
+        "Pashan"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-09-13T02:14:00.000Z",
+      "lastUpdated": "2026-09-13T02:14:00.000Z",
+      "sourceCheckedAt": "2026-09-13T05:45:04.029Z",
+      "lastVerifiedAt": "2026-09-13T05:45:04.029Z",
+      "intelligenceGeneratedAt": "2026-09-13T05:45:23.939Z",
+      "expiresAt": "2026-09-14T02:14:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "High",
+      "confidenceScore": 90,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [
+        "accident-developing-pune-48-year-old-man-killed-by-speeding-car-during-morning-walk-in-pas"
+      ],
+      "independentSourceCount": 2,
+      "corroboratedByIndependentSources": true
+    },
     {
       "id": "accident-developing-pune-mact-awards-86l-to-family-of-woman-killed-in-2023-truck-accident-",
       "eventKind": "incident",
@@ -181,13 +348,13 @@
       "operationalZones": [],
       "publishedAt": "2026-09-12T19:06:00.000Z",
       "lastUpdated": "2026-09-12T19:06:00.000Z",
-      "sourceCheckedAt": "2026-09-13T00:48:06.467Z",
-      "lastVerifiedAt": "2026-09-13T00:48:06.467Z",
-      "intelligenceGeneratedAt": "2026-09-13T00:48:23.668Z",
+      "sourceCheckedAt": "2026-09-13T05:45:04.029Z",
+      "lastVerifiedAt": "2026-09-13T05:45:04.029Z",
+      "intelligenceGeneratedAt": "2026-09-13T05:45:23.939Z",
       "expiresAt": "2026-09-14T19:06:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
@@ -196,7 +363,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-13T00:48:06.467Z",
+      "discoveredAt": "2026-09-13T05:45:04.029Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -205,65 +372,21 @@
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-pune-48-year-old-man-killed-by-speeding-car-during-morning-walk-in-pas",
-      "eventKind": "incident",
-      "sourceId": "ani",
-      "title": "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "ANI",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "ANI",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORFBZcHo1cDctRzRJeDBuVmNXZGZpZFFXN2ZDSHdqTDNoV0Voemdsd2tSNHJuMlJDaHZzckVJc0tobjAtS2RNQ2ltM1lWVDNoZFp3XzdIU3NYcDQtWjRncHNPX015ekdvcDdJNGZxVGpLdzhQalFVMmNMN25Nd3FEVlMtT0F3Rm94NDc4bEhtU29SeC1HS3hHWHg2WktFLXlRT3pZb1k2TGdnczJqX0hKLUJWSVg3SWRFcHdMcE1xNFY5RTh1Z2ZUTGtZOTMwVVNWLWlaS3E3RUpHZjJwQ0RsWDJlWlJRS0Q4RmZKY09QN3M?oc=5",
-          "origin": "ani"
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORFBZcHo1cDctRzRJeDBuVmNXZGZpZFFXN2ZDSHdqTDNoV0Voemdsd2tSNHJuMlJDaHZzckVJc0tobjAtS2RNQ2ltM1lWVDNoZFp3XzdIU3NYcDQtWjRncHNPX015ekdvcDdJNGZxVGpLdzhQalFVMmNMN25Nd3FEVlMtT0F3Rm94NDc4bEhtU29SeC1HS3hHWHg2WktFLXlRT3pZb1k2TGdnczJqX0hKLUJWSVg3SWRFcHdMcE1xNFY5RTh1Z2ZUTGtZOTMwVVNWLWlaS3E3RUpHZjJwQ0RsWDJlWlJRS0Q4RmZKY09QN3M?oc=5",
-      "talukas": [
-        "pune_city"
-      ],
-      "localities": [
-        "Pashan"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-09-12T17:38:00.000Z",
-      "lastUpdated": "2026-09-12T17:38:00.000Z",
-      "sourceCheckedAt": "2026-09-13T00:48:06.467Z",
-      "lastVerifiedAt": "2026-09-13T00:48:06.467Z",
-      "intelligenceGeneratedAt": "2026-09-13T00:48:23.668Z",
-      "expiresAt": "2026-09-14T17:38:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pashan",
-      "upstreamId": "google-news-6af6d0fa",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-09-13T00:48:06.467Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
     }
   ],
   "journeyContext": {
     "activeRiskEvents": [
       {
-        "id": "accident-developing-pune-mact-awards-86l-to-family-of-woman-killed-in-2023-truck-accident-",
+        "id": "public-safety-developing-five-held-after-firing-incident-in-ambegaon-2026-09-13t02-28-00-0",
+        "category": "public_safety",
+        "severity": "warning",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "The incident may create an immediate safety risk in the affected area."
+      },
+      {
+        "id": "accident-developing-pune-tribunal-awards-85-9-lakh-to-family-of-woman-killed-in-accident-b",
         "category": "accident",
         "severity": "watch",
         "localities": [],
@@ -272,7 +395,7 @@
         "impact": "Traffic delays are likely near the incident location."
       },
       {
-        "id": "accident-developing-pune-48-year-old-man-killed-by-speeding-car-during-morning-walk-in-pas",
+        "id": "accident-developing-pedestrian-killed-after-being-hit-by-car-2026-09-13t02-14-00-000z",
         "category": "accident",
         "severity": "watch",
         "localities": [
@@ -283,16 +406,25 @@
         ],
         "operationalZones": [],
         "impact": "Traffic delays are likely near the incident location."
+      },
+      {
+        "id": "accident-developing-pune-mact-awards-86l-to-family-of-woman-killed-in-2023-truck-accident-",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
       }
     ]
   },
   "expiredEvents": [
     {
-      "id": "transport-disruption-developing-delhi-pune-flight-cancelled-after-hours-of-delay-2026-09-1",
+      "id": "transport-disruption-developing-delhi-pune-flight-cancelled-after-hours-of-delay-hindustan",
       "eventKind": "incident",
       "sourceId": "hindustan_times_pune",
-      "title": "Developing: Delhi-Pune flight cancelled after hours of delay",
-      "summary": "According to the passengers, they had completed check-in, received their boarding passes and handed over their checked-in baggage before the cancellation was announced",
+      "title": "Developing: Delhi-Pune flight cancelled after hours of delay | Hindustan Times",
+      "summary": "A current trusted-media report relevant to Pune District.",
       "category": "transport_disruption",
       "severity": "advisory",
       "source": "Hindustan Times Pune",
@@ -301,98 +433,37 @@
         {
           "name": "Hindustan Times Pune",
           "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/delhipune-flight-cancelled-after-hours-of-delay-101789155016673.html",
-          "origin": ""
-        },
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0VrcDJaQklkVDZNYmNfVlM1MURPeXdIOFB4Y2QybWJzYUpQSEtjTEpuaG80RWtNTVRNLWlrTjZ2ZVZxV3BUbnd2Nks5Z1phMkREVEJxempBVDZUQ05BR2JEM2FPYnlMOXNiSlpfWUJDb0RxSkZsQlFqUVdoZmphS2JsQ0Fsby1YQUZUV090bXF1d2t4ekZha1l1REpfVmFIZWw0TFJiR2NkU1pRS2tQbWpQVVRvQWvSAbwBQVVfeXFMT0ZSSml4b0xhdWdGYTJVdllNMm9GQ1h3cThSaDBZRTJMaWRTaFlPSy1kX216dW83TWdGUWJpNUh3Qlg3OWMyY3NSNTEtYVdmZnFQeVdtaFFmbTBKWHdtUnlicDlidmgxOGJnN1ZqNWptOXA3Zzg5cjV0S1FaTFFkRkZhUnNfbDdmZnVGNFBIbU9RRXFzdjQtY1pfT3VhdDRkQ29SZHN6dnNzMVdJMncxX2d5VVAxTXlvQ3V4c1I?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://www.hindustantimes.com/cities/pune-news/delhipune-flight-cancelled-after-hours-of-delay-101789155016673.html",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0VrcDJaQklkVDZNYmNfVlM1MURPeXdIOFB4Y2QybWJzYUpQSEtjTEpuaG80RWtNTVRNLWlrTjZ2ZVZxV3BUbnd2Nks5Z1phMkREVEJxempBVDZUQ05BR2JEM2FPYnlMOXNiSlpfWUJDb0RxSkZsQlFqUVdoZmphS2JsQ0Fsby1YQUZUV090bXF1d2t4ekZha1l1REpfVmFIZWw0TFJiR2NkU1pRS2tQbWpQVVRvQWvSAbwBQVVfeXFMT0ZSSml4b0xhdWdGYTJVdllNMm9GQ1h3cThSaDBZRTJMaWRTaFlPSy1kX216dW83TWdGUWJpNUh3Qlg3OWMyY3NSNTEtYVdmZnFQeVdtaFFmbTBKWHdtUnlicDlidmgxOGJnN1ZqNWptOXA3Zzg5cjV0S1FaTFFkRkZhUnNfbDdmZnVGNFBIbU9RRXFzdjQtY1pfT3VhdDRkQ29SZHN6dnNzMVdJMncxX2d5VVAxTXlvQ3V4c1I?oc=5",
       "talukas": [],
       "localities": [],
       "operationalZones": [],
       "publishedAt": "2026-09-12T02:26:00.000Z",
       "lastUpdated": "2026-09-12T02:26:00.000Z",
-      "sourceCheckedAt": "2026-09-13T00:48:06.467Z",
-      "lastVerifiedAt": "2026-09-13T00:48:06.467Z",
-      "intelligenceGeneratedAt": "2026-09-13T00:48:23.668Z",
-      "expiresAt": "2026-09-12T14:26:00.000Z",
+      "sourceCheckedAt": "2026-09-13T05:45:04.029Z",
+      "lastVerifiedAt": "2026-09-13T05:45:04.029Z",
+      "intelligenceGeneratedAt": "2026-09-13T05:45:23.939Z",
+      "expiresAt": "2026-09-13T02:26:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
-      "confidenceScore": 43,
+      "confidenceScore": 35,
       "impact": "Public transport journeys may be cancelled or delayed.",
       "recommendedAction": "Confirm service status and keep an alternative journey available.",
-      "affectedArea": "",
-      "upstreamId": "",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "broader_area",
-      "relatedEventIds": [
-        "transport-disruption-developing-delhi-pune-flight-cancelled-after-hours-of-delay-hindustan"
-      ],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "fire-developing-caught-on-cctv-three-men-set-shop-on-fire-in-pune-s-manjari-blaze-sparks-p",
-      "eventKind": "incident",
-      "sourceId": "ndtv",
-      "title": "Developing: Caught On CCTV: Three Men Set Shop On Fire In Pune's Manjari, Blaze Sparks Panic",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "fire",
-      "severity": "warning",
-      "source": "NDTV",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "NDTV",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMWlvc2luOVVZcVl2V0FOLWs1N2t4bTAyRjZLdFBxUjYzOFJyejRzQUZDeENGcmY1MDd5aGxySGtwbzlFLUszWHUxeXRJQTI1RERYMmRsUVBvZFd1dzk2TmNhRk01ZkFuTTMtT2k0WmdoUUt3TTM4LXAxLV82Zjc2ZTVRb2JfU21JdzNsR2pwUTJHVTMwMkdlZHFzY281b2s4eFZ3Sm1jMVJySHZVNHJ3ZFRTWdIBuwFBVV95cUxPVmp2ckd0RUEwaGlMWm9RNXlDS1U0ZTU2OEdqczNMb3M4UzZ1VXF5bGtfMlc1LWVkOXptcWpibnByTVF4UWItaVhRUjcwYkRiZGNidHZhRG9EQWN3VGJmd0doS2RHNWpGaDl5TFNEUF9lUmFDQnZjZjd1YVhubWEyWjZhTTMyTU9UZWdZSmtoUm5kdHJnbHBYODJsM0djclJOcEtoQ01vTFljaUg4elk4UHVaTExiQlJKdXVj?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMWlvc2luOVVZcVl2V0FOLWs1N2t4bTAyRjZLdFBxUjYzOFJyejRzQUZDeENGcmY1MDd5aGxySGtwbzlFLUszWHUxeXRJQTI1RERYMmRsUVBvZFd1dzk2TmNhRk01ZkFuTTMtT2k0WmdoUUt3TTM4LXAxLV82Zjc2ZTVRb2JfU21JdzNsR2pwUTJHVTMwMkdlZHFzY281b2s4eFZ3Sm1jMVJySHZVNHJ3ZFRTWdIBuwFBVV95cUxPVmp2ckd0RUEwaGlMWm9RNXlDS1U0ZTU2OEdqczNMb3M4UzZ1VXF5bGtfMlc1LWVkOXptcWpibnByTVF4UWItaVhRUjcwYkRiZGNidHZhRG9EQWN3VGJmd0doS2RHNWpGaDl5TFNEUF9lUmFDQnZjZjd1YVhubWEyWjZhTTMyTU9UZWdZSmtoUm5kdHJnbHBYODJsM0djclJOcEtoQ01vTFljaUg4elk4UHVaTExiQlJKdXVj?oc=5",
-      "talukas": [
-        "haveli"
-      ],
-      "localities": [
-        "Manjari"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-09-10T04:05:48.000Z",
-      "lastUpdated": "2026-09-10T04:05:48.000Z",
-      "sourceCheckedAt": "2026-09-13T00:48:06.467Z",
-      "lastVerifiedAt": "2026-09-13T00:48:06.467Z",
-      "intelligenceGeneratedAt": "2026-09-13T00:48:23.668Z",
-      "expiresAt": "2026-09-12T04:05:48.000Z",
-      "lifecycle": "expired",
-      "confidence": "Medium",
-      "confidenceScore": 55,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Manjari",
-      "upstreamId": "google-news-23b25084",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-b37714f8",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-13T00:48:06.467Z",
+      "discoveredAt": "2026-09-13T05:45:04.029Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "local",
+      "geographicScope": "pune_district",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
@@ -404,15 +475,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-09-13T00:48:06.467Z",
-      "lastSuccessfulAt": "2026-09-13T00:48:06.467Z",
+      "sourceCheckedAt": "2026-09-13T05:45:04.029Z",
+      "lastSuccessfulAt": "2026-09-13T05:45:04.029Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-09-13T00:48:23.740Z",
+      "generatedAt": "2026-09-13T05:45:24.342Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -425,7 +496,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-09-13T00:48:23.740Z",
+      "generatedAt": "2026-09-13T05:45:24.341Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -506,7 +577,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-09-13T00:48:23.740Z",
+      "generatedAt": "2026-09-13T05:45:24.342Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -551,7 +622,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-09-13T00:48:23.783Z",
+        "generatedAt": "2026-09-13T05:45:24.386Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -583,20 +654,20 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
               "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 80,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 73,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Good to Go (85/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -630,20 +701,20 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 85,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
                 "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 80,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 73,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Good to Go (85/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           },
           {
             "id": "kharadi-hinjawadi-pashan",
@@ -673,28 +744,28 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 50,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 65,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns.",
+                "Developing: Pedestrian killed after being hit by car may cause delays or safety concerns.",
                 "Low visibility may make driving unsafe."
               ],
               "penalties": [
                 {
-                  "eventId": "accident-developing-pune-48-year-old-man-killed-by-speeding-car-during-morning-walk-in-pas",
+                  "eventId": "accident-developing-pedestrian-killed-after-being-hit-by-car-2026-09-13t02-14-00-000z",
                   "category": "accident",
                   "penalty": 20,
-                  "title": "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded"
+                  "title": "Developing: Pedestrian killed after being hit by car"
                 }
               ]
             },
-            "estimatedTimeMin": 97,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 87,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Consider Delaying (50/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Developing: Pedestrian killed after being hit by car may cause delays or safety concerns."
           }
         ]
       },
@@ -703,7 +774,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-09-13T00:48:23.783Z",
+        "generatedAt": "2026-09-13T05:45:24.386Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -733,20 +804,20 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
               "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 103,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -778,20 +849,20 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 85,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
                 "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 110,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 103,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -800,7 +871,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-09-13T00:48:23.783Z",
+        "generatedAt": "2026-09-13T05:45:24.386Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -829,28 +900,20 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 50,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": [
-              {
-                "eventId": "accident-developing-pune-48-year-old-man-killed-by-speeding-car-during-morning-walk-in-pas",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded"
-              }
-            ]
+            "penalties": []
           },
-          "estimatedTimeMin": 60,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 43,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -881,28 +944,20 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 50,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
+              "score": 85,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
-                "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns.",
                 "Low visibility may make driving unsafe."
               ],
-              "penalties": [
-                {
-                  "eventId": "accident-developing-pune-48-year-old-man-killed-by-speeding-car-during-morning-walk-in-pas",
-                  "category": "accident",
-                  "penalty": 20,
-                  "title": "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded"
-                }
-              ]
+              "penalties": []
             },
-            "estimatedTimeMin": 60,
-            "estimatedDelayMin": 25,
+            "estimatedTimeMin": 43,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (50/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       }
