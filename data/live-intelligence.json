@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-14T00:15:43.862Z",
+  "generatedAt": "2026-09-14T05:19:29.528Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-14T00:15:27.021Z",
-        "lastSuccessfulAt": "2026-09-14T00:15:27.021Z",
+        "sourceCheckedAt": "2026-09-14T05:19:12.199Z",
+        "lastSuccessfulAt": "2026-09-14T05:19:12.199Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-09-14T00:15:32.255Z",
-        "lastSuccessfulAt": "2026-09-14T00:15:32.255Z",
+        "sourceCheckedAt": "2026-09-14T05:19:17.594Z",
+        "lastSuccessfulAt": "2026-09-14T05:19:17.594Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-09-14T00:15:32.255Z",
-        "lastSuccessfulAt": "2026-09-13T22:13:42.860Z",
+        "sourceCheckedAt": "2026-09-14T05:19:17.594Z",
+        "lastSuccessfulAt": "2026-09-14T00:15:32.255Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-09-14T00:15:27.715Z",
-        "lastSuccessfulAt": "2026-09-14T00:15:27.715Z",
+        "sourceCheckedAt": "2026-09-14T05:19:12.476Z",
+        "lastSuccessfulAt": "2026-09-14T05:19:12.476Z",
         "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-14T00:15:27.715Z",
-        "lastSuccessfulAt": "2026-09-14T00:15:27.715Z",
+        "sourceCheckedAt": "2026-09-14T05:19:12.476Z",
+        "lastSuccessfulAt": "2026-09-14T05:19:12.476Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,10 +62,10 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-14T00:15:27.715Z",
-        "lastSuccessfulAt": "2026-09-14T00:15:27.715Z",
+        "sourceCheckedAt": "2026-09-14T05:19:12.476Z",
+        "lastSuccessfulAt": "2026-09-14T05:19:12.476Z",
         "error": null,
-        "etag": "W/\"8290-1789339822188\"",
+        "etag": "W/\"8708-1789362455427\"",
         "itemsCollected": 0,
         "type": "alerts"
       },
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-09-14T00:15:27.715Z",
+        "sourceCheckedAt": "2026-09-14T05:19:12.476Z",
         "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,19 +82,19 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-14T00:15:27.715Z",
-        "lastSuccessfulAt": "2026-09-14T00:15:27.715Z",
+        "sourceCheckedAt": "2026-09-14T05:19:12.476Z",
+        "lastSuccessfulAt": "2026-09-14T05:19:12.476Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 3,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-14T00:15:27.715Z",
-        "lastSuccessfulAt": "2026-09-14T00:15:27.715Z",
+        "sourceCheckedAt": "2026-09-14T05:19:12.476Z",
+        "lastSuccessfulAt": "2026-09-14T05:19:12.476Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -104,7 +104,7 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-09-14T00:15:27.715Z",
+        "sourceCheckedAt": "2026-09-14T05:19:12.476Z",
         "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
         "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}",
         "type": "incidents"
@@ -113,8 +113,8 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-14T00:15:27.715Z",
-        "lastSuccessfulAt": "2026-09-14T00:15:27.715Z",
+        "sourceCheckedAt": "2026-09-14T05:19:12.476Z",
+        "lastSuccessfulAt": "2026-09-14T05:19:12.476Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -124,11 +124,11 @@
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-14T00:15:27.715Z",
-        "lastSuccessfulAt": "2026-09-14T00:15:27.715Z",
+        "sourceCheckedAt": "2026-09-14T05:19:12.476Z",
+        "lastSuccessfulAt": "2026-09-14T05:19:12.476Z",
         "error": null,
-        "itemsCollected": 5,
-        "itemsQualified": 5,
+        "itemsCollected": 8,
+        "itemsQualified": 8,
         "type": "incidents"
       },
       {
@@ -136,8 +136,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-09-14T00:15:32.255Z",
-        "lastSuccessfulAt": "2026-09-14T00:15:32.255Z",
+        "sourceCheckedAt": "2026-09-14T05:19:17.594Z",
+        "lastSuccessfulAt": "2026-09-14T05:19:17.594Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -500,14 +500,32 @@
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
     "alertsAvailable": 0,
-    "incidentsAvailable": 4,
+    "incidentsAvailable": 5,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
   "developingSituations": [
     {
+      "id": "accident-developing-2-killed-12-hurt-after-truck-rams-truck-setting-off-multi-vehicle-coll",
+      "title": "Developing: 2 killed, 12 hurt after truck rams truck, setting off multi-vehicle collision on Pune-Bengaluru highway",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Hindustan Times Pune",
+      "trust": "B",
+      "updatedAt": "2026-09-14T02:10:20.000Z"
+    },
+    {
+      "id": "accident-developing-2-killed-12-injured-in-multi-vehicle-crash-on-pune-bengaluru-highway-2",
+      "title": "Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru Highway",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Times of India",
+      "trust": "B",
+      "updatedAt": "2026-09-13T09:34:00.000Z"
+    },
+    {
       "id": "accident-developing-pune-tribunal-awards-85-9-lakh-to-family-of-woman-killed-in-accident-b",
-      "title": "Developing: Pune tribunal awards ₹85.9 lakh to family of woman killed in accident by truck",
+      "title": "Developing: Pune tribunal awards ₹85.9 lakh to family of woman killed in accident by truck | Hindustan Times",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
       "source": "Hindustan Times Pune",
@@ -515,31 +533,22 @@
       "updatedAt": "2026-09-13T02:27:20.000Z"
     },
     {
-      "id": "accident-developing-pedestrian-killed-after-being-hit-by-car-2026-09-13t02-14-00-000z",
-      "title": "Developing: Pedestrian killed after being hit by car",
+      "id": "accident-developing-two-dead-12-injured-as-truck-hits-tempo-other-vehicles-on-pune-bengalu",
+      "title": "Developing: Two dead, 12 injured as truck hits tempo, other vehicles on Pune-Bengaluru highway",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Hindustan Times Pune",
+      "source": "ANI",
       "trust": "B",
-      "updatedAt": "2026-09-13T02:14:00.000Z"
+      "updatedAt": "2026-09-14T04:14:30.000Z"
     },
     {
-      "id": "accident-developing-2-killed-12-injured-in-multi-vehicle-crash-on-pune-bengaluru-highway-i",
-      "title": "Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru highway | India News",
+      "id": "accident-developing-pune-48-year-old-man-killed-by-speeding-car-during-morning-walk-in-pas",
+      "title": "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Hindustan Times Pune",
+      "source": "ANI",
       "trust": "B",
-      "updatedAt": "2026-09-13T06:28:44.000Z"
-    },
-    {
-      "id": "accident-developing-two-killed-12-injured-after-truck-hits-tempo-on-pune-bengaluru-highway",
-      "title": "Developing: Two killed, 12 injured after truck hits tempo on Pune-Bengaluru highway near Jambhulwadi",
-      "status": "developing",
-      "confirmation": "Awaiting official confirmation",
-      "source": "Mid-day",
-      "trust": "B",
-      "updatedAt": "2026-09-13T12:58:00.000Z"
+      "updatedAt": "2026-09-12T17:38:00.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."
