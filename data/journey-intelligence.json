@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-14T16:51:02.655Z",
+  "generatedAt": "2026-09-14T20:47:12.662Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-09-14T16:51:02.655Z",
+      "generatedAt": "2026-09-14T20:47:12.662Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -37,28 +37,20 @@
         "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 65,
-          "label": "Proceed with Caution",
-          "recommendation": "Proceed with caution and allow extra travel time.",
+          "score": 85,
+          "label": "Good to Go",
+          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
           "reasons": [
-            "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns.",
             "Low visibility may make driving unsafe."
           ],
-          "penalties": [
-            {
-              "eventId": "accident-developing-pune-48-year-old-man-killed-by-speeding-car-during-morning-walk-in-pas",
-              "category": "accident",
-              "penalty": 20,
-              "title": "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded"
-            }
-          ]
+          "penalties": []
         },
-        "estimatedTimeMin": 87,
-        "estimatedDelayMin": 15,
+        "estimatedTimeMin": 80,
+        "estimatedDelayMin": 8,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
+        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Good to Go (85/100). Estimated travel time is about 80 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
       },
       "routes": [
         {
@@ -89,28 +81,20 @@
           "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 65,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": [
-              {
-                "eventId": "accident-developing-pune-48-year-old-man-killed-by-speeding-car-during-morning-walk-in-pas",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded"
-              }
-            ]
+            "penalties": []
           },
-          "estimatedTimeMin": 87,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Good to Go (85/100). Estimated travel time is about 80 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         {
           "id": "kharadi-hinjawadi-nh48",
@@ -143,11 +127,12 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 45,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 25,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: 2 killed, 12 hurt after truck rams truck, setting off multi-vehicle collision on Pune-Bengaluru highway may cause delays or safety concerns.",
+              "Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru Highway may cause delays or safety concerns.",
               "Developing: Two dead, 12 injured as truck hits tempo, other vehicles on Pune-Bengaluru highway may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
@@ -159,6 +144,12 @@
                 "title": "Developing: 2 killed, 12 hurt after truck rams truck, setting off multi-vehicle collision on Pune-Bengaluru highway"
               },
               {
+                "eventId": "accident-developing-2-killed-12-injured-in-multi-vehicle-crash-on-pune-bengaluru-highway-2",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru Highway"
+              },
+              {
                 "eventId": "accident-developing-two-dead-12-injured-as-truck-hits-tempo-other-vehicles-on-pune-bengalu",
                 "category": "accident",
                 "penalty": 20,
@@ -166,12 +157,12 @@
               }
             ]
           },
-          "estimatedTimeMin": 90,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (45/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: 2 killed, 12 hurt after truck rams truck, setting off multi-vehicle collision on Pune-Bengaluru highway may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (25/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: 2 killed, 12 hurt after truck rams truck, setting off multi-vehicle collision on Pune-Bengaluru highway may cause delays or safety concerns."
         }
       ]
     },
@@ -180,7 +171,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-09-14T16:51:02.655Z",
+      "generatedAt": "2026-09-14T20:47:12.662Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -277,7 +268,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-09-14T16:51:02.655Z",
+      "generatedAt": "2026-09-14T20:47:12.662Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -306,28 +297,20 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 65,
-          "label": "Proceed with Caution",
-          "recommendation": "Proceed with caution and allow extra travel time.",
+          "score": 85,
+          "label": "Good to Go",
+          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
           "reasons": [
-            "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns.",
             "Low visibility may make driving unsafe."
           ],
-          "penalties": [
-            {
-              "eventId": "accident-developing-pune-48-year-old-man-killed-by-speeding-car-during-morning-walk-in-pas",
-              "category": "accident",
-              "penalty": 20,
-              "title": "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded"
-            }
-          ]
+          "penalties": []
         },
-        "estimatedTimeMin": 50,
-        "estimatedDelayMin": 15,
+        "estimatedTimeMin": 43,
+        "estimatedDelayMin": 8,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
       },
       "routes": [
         {
@@ -358,28 +341,20 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 65,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
-            "penalties": [
-              {
-                "eventId": "accident-developing-pune-48-year-old-man-killed-by-speeding-car-during-morning-walk-in-pas",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded"
-              }
-            ]
+            "penalties": []
           },
-          "estimatedTimeMin": 50,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 43,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Developing: Pune: 48-year-old man killed by speeding car during morning walk in Pashan area; driver absconded may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         }
       ]
     }
