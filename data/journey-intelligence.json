@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-14T23:44:05.347Z",
+  "generatedAt": "2026-09-15T01:55:51.871Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-09-14T23:44:05.347Z",
+      "generatedAt": "2026-09-15T01:55:51.870Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -123,12 +123,11 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 40,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 60,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
               "Developing: 2 killed, 12 hurt after truck rams truck, setting off multi-vehicle collision on Pune-Bengaluru highway may cause delays or safety concerns.",
-              "Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru Highway may cause delays or safety concerns.",
               "Developing: Two dead, 12 injured as truck hits tempo, other vehicles on Pune-Bengaluru highway may cause delays or safety concerns."
             ],
             "penalties": [
@@ -139,12 +138,6 @@
                 "title": "Developing: 2 killed, 12 hurt after truck rams truck, setting off multi-vehicle collision on Pune-Bengaluru highway"
               },
               {
-                "eventId": "accident-developing-2-killed-12-injured-in-multi-vehicle-crash-on-pune-bengaluru-highway-2",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: 2 killed, 12 injured in multi-vehicle crash on Pune-Bengaluru Highway"
-              },
-              {
                 "eventId": "accident-developing-two-dead-12-injured-as-truck-hits-tempo-other-vehicles-on-pune-bengalu",
                 "category": "accident",
                 "penalty": 20,
@@ -152,12 +145,12 @@
               }
             ]
           },
-          "estimatedTimeMin": 90,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (40/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: 2 killed, 12 hurt after truck rams truck, setting off multi-vehicle collision on Pune-Bengaluru highway may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Developing: 2 killed, 12 hurt after truck rams truck, setting off multi-vehicle collision on Pune-Bengaluru highway may cause delays or safety concerns."
         }
       ]
     },
@@ -166,7 +159,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-09-14T23:44:05.347Z",
+      "generatedAt": "2026-09-15T01:55:51.871Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -259,7 +252,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-09-14T23:44:05.347Z",
+      "generatedAt": "2026-09-15T01:55:51.871Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
