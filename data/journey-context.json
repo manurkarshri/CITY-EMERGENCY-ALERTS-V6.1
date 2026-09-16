@@ -1,8 +1,24 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-16T01:27:17.376Z",
+  "generatedAt": "2026-09-16T06:37:26.949Z",
   "routes": [],
   "risks": [
+    {
+      "id": "environmental-hazard-developing-with-central-funds-unavailable-ngt-seeks-pcmc-plan-for-pav",
+      "category": "environmental_hazard",
+      "severity": "warning",
+      "localities": [
+        "Pimpri",
+        "Chinchwad"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [
+        "Pavana River"
+      ],
+      "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces."
+    },
     {
       "id": "accident-developing-5-year-old-girl-dies-after-garbage-vehicle-hits-motorcycle-runs-over-h",
       "category": "accident",
@@ -13,15 +29,6 @@
       "talukas": [
         "pcmc"
       ],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "accident-developing-two-dead-12-injured-as-truck-hits-tempo-other-vehicles-on-pune-bengalu",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-16T01:27:17.522Z",
+  "generatedAt": "2026-09-16T06:37:27.109Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,33 +8,36 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-09-16T01:27:17.522Z",
+      "generatedAt": "2026-09-16T06:37:27.109Z",
       "bestRoute": {
-        "id": "kharadi-hinjawadi-pashan",
-        "label": "Kharadi to Hinjawadi via Pashan",
+        "id": "kharadi-hinjawadi-nh48",
+        "label": "Kharadi to Hinjawadi via NH48",
         "fromAliases": [
           "Kharadi",
-          "EON"
+          "EON",
+          "World Trade Center"
         ],
         "toAliases": [
           "Hinjawadi",
-          "Hinjewadi"
+          "Hinjewadi",
+          "Rajiv Gandhi Infotech Park"
         ],
         "via": [
           "Kharadi",
-          "Yerwada",
-          "Aundh",
-          "Pashan",
-          "Mahalunge",
+          "Viman Nagar",
+          "Shivajinagar",
+          "Baner",
+          "Wakad",
           "Hinjawadi"
         ],
         "operationalZones": [
-          "Pashan Road",
+          "Pune-Ahmednagar Highway",
+          "NH48",
           "IT Corridor"
         ],
-        "distanceKm": 36,
-        "baseTimeMin": 72,
-        "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
+        "distanceKm": 33,
+        "baseTimeMin": 65,
+        "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
         "routeType": "known-corridor",
         "journeySuitability": {
           "score": 100,
@@ -43,14 +46,58 @@
           "reasons": [],
           "penalties": []
         },
-        "estimatedTimeMin": 72,
+        "estimatedTimeMin": 65,
         "estimatedDelayMin": 0,
-        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
       },
       "routes": [
+        {
+          "id": "kharadi-hinjawadi-nh48",
+          "label": "Kharadi to Hinjawadi via NH48",
+          "fromAliases": [
+            "Kharadi",
+            "EON",
+            "World Trade Center"
+          ],
+          "toAliases": [
+            "Hinjawadi",
+            "Hinjewadi",
+            "Rajiv Gandhi Infotech Park"
+          ],
+          "via": [
+            "Kharadi",
+            "Viman Nagar",
+            "Shivajinagar",
+            "Baner",
+            "Wakad",
+            "Hinjawadi"
+          ],
+          "operationalZones": [
+            "Pune-Ahmednagar Highway",
+            "NH48",
+            "IT Corridor"
+          ],
+          "distanceKm": 33,
+          "baseTimeMin": 65,
+          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
+            "penalties": []
+          },
+          "estimatedTimeMin": 65,
+          "estimatedDelayMin": 0,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+        },
         {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -88,62 +135,9 @@
           "estimatedTimeMin": 72,
           "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
-          "rank": 1,
-          "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
-        },
-        {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
-          "fromAliases": [
-            "Kharadi",
-            "EON",
-            "World Trade Center"
-          ],
-          "toAliases": [
-            "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
-          ],
-          "via": [
-            "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
-            "Hinjawadi"
-          ],
-          "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
-            "IT Corridor"
-          ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-          "routeType": "known-corridor",
-          "journeySuitability": {
-            "score": 80,
-            "label": "Good to Go",
-            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-            "reasons": [
-              "Developing: Two dead, 12 injured as truck hits tempo, other vehicles on Pune-Bengaluru highway may cause delays or safety concerns."
-            ],
-            "penalties": [
-              {
-                "eventId": "accident-developing-two-dead-12-injured-as-truck-hits-tempo-other-vehicles-on-pune-bengalu",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Two dead, 12 injured as truck hits tempo, other vehicles on Pune-Bengaluru highway"
-              }
-            ]
-          },
-          "estimatedTimeMin": 73,
-          "estimatedDelayMin": 8,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Good to Go (80/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Developing: Two dead, 12 injured as truck hits tempo, other vehicles on Pune-Bengaluru highway may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
         }
       ]
     },
@@ -152,7 +146,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-09-16T01:27:17.522Z",
+      "generatedAt": "2026-09-16T06:37:27.109Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -245,7 +239,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-09-16T01:27:17.522Z",
+      "generatedAt": "2026-09-16T06:37:27.109Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -274,18 +268,27 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 100,
-          "label": "Excellent",
-          "recommendation": "Travel conditions look suitable.",
-          "reasons": [],
-          "penalties": []
+          "score": 80,
+          "label": "Good to Go",
+          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+          "reasons": [
+            "Developing: With central funds unavailable, NGT seeks PCMC plan for Pavana River project may cause delays or safety concerns."
+          ],
+          "penalties": [
+            {
+              "eventId": "environmental-hazard-developing-with-central-funds-unavailable-ngt-seeks-pcmc-plan-for-pav",
+              "category": "environmental_hazard",
+              "penalty": 20,
+              "title": "Developing: With central funds unavailable, NGT seeks PCMC plan for Pavana River project"
+            }
+          ]
         },
-        "estimatedTimeMin": 35,
-        "estimatedDelayMin": 0,
+        "estimatedTimeMin": 43,
+        "estimatedDelayMin": 8,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: With central funds unavailable, NGT seeks PCMC plan for Pavana River project may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -316,18 +319,27 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "reasons": [
+              "Developing: With central funds unavailable, NGT seeks PCMC plan for Pavana River project may cause delays or safety concerns."
+            ],
+            "penalties": [
+              {
+                "eventId": "environmental-hazard-developing-with-central-funds-unavailable-ngt-seeks-pcmc-plan-for-pav",
+                "category": "environmental_hazard",
+                "penalty": 20,
+                "title": "Developing: With central funds unavailable, NGT seeks PCMC plan for Pavana River project"
+              }
+            ]
           },
-          "estimatedTimeMin": 35,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 43,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: With central funds unavailable, NGT seeks PCMC plan for Pavana River project may cause delays or safety concerns."
         }
       ]
     }
