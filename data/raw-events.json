@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
-  "lastSuccessfulAt": "2026-09-17T19:18:27.096Z",
+  "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+  "lastSuccessfulAt": "2026-09-17T22:22:01.174Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403; pune_metro: This operation was aborted",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
-      "lastSuccessfulAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+      "lastSuccessfulAt": "2026-09-17T22:22:01.174Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,17 +23,17 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
-      "lastSuccessfulAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+      "lastSuccessfulAt": "2026-09-17T22:22:01.174Z",
       "error": null,
-      "etag": "W/\"8862-1789664679147\"",
+      "etag": "W/\"8578-1789678425943\"",
       "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
-      "lastSuccessfulAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+      "lastSuccessfulAt": "2026-09-17T22:22:01.174Z",
       "error": null,
       "etag": null,
       "itemsCollected": 2
@@ -51,7 +51,7 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
       "lastSuccessfulAt": "2026-09-17T15:41:01.821Z",
       "error": "This operation was aborted"
     },
@@ -59,7 +59,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -67,8 +67,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
-      "lastSuccessfulAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+      "lastSuccessfulAt": "2026-09-17T22:22:01.174Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -77,11 +77,11 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
-      "lastSuccessfulAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+      "lastSuccessfulAt": "2026-09-17T22:22:01.174Z",
       "error": null,
-      "itemsCollected": 4,
-      "itemsQualified": 4
+      "itemsCollected": 3,
+      "itemsQualified": 3
     }
   ],
   "items": [
@@ -96,8 +96,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/mact-pune-awards-59-45-lakh-to-parents-of-junior-college-teacher-killed-in-2017-road-accident-101789582813646.html",
       "publishedAt": "2026-09-17T02:15:20.000Z",
       "lastUpdated": "2026-09-17T02:15:20.000Z",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
-      "lastVerifiedAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+      "lastVerifiedAt": "2026-09-17T22:22:01.174Z",
       "expiresAt": "2026-09-18T02:15:20.000Z"
     },
     {
@@ -111,8 +111,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/st-bus-with-schoolchildren-overturns-in-ghat-7-injured-101789582273491.html",
       "publishedAt": "2026-09-17T02:12:30.000Z",
       "lastUpdated": "2026-09-17T02:12:30.000Z",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
-      "lastVerifiedAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+      "lastVerifiedAt": "2026-09-17T22:22:01.174Z",
       "expiresAt": "2026-09-18T02:12:30.000Z"
     },
     {
@@ -129,10 +129,10 @@
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbEFFOWRuV2h4Rng3MmpGLTR1RFE1UFlsam9ad0RlTGt5Y2VrNHlYbHFZUjhTdlhlcFZiZ3lpdVVFZDhvcUgwcFloLXBuR3dmdUZPVndOYTdUVl9na1BjOWdjUy02RFBXd243czR1VDJzeHB5cTZzblVRWGhfeTZyTllxX0h6cVdfSVljdjV3WElvRmRnYnB6eXIyX0N0U3VYYkJrVzA2aU1oOUpSa2N0cXgwR3ZCQUNlUlJjY1BZeDB1Umg5VVF0bEoycHpIVElvVThBZ3FVV21XYV9jcEhHZUdqUUJaLWZHSDN3S09yWUl3dUc40gH6AUFVX3lxTE44R01CYzhzcHEyWWIyX0s1TDUyTDJCMTAwR1NnY3BiV0I2Znd2SDFsS2pPbnRrOGl4SmNUZVhiQnNzdENUM21VZnRXZC05QVN2cmVGTXNheU01UWd6QTROMmxMLUk2bVFBZkY3Um93ekRobW8xWE9GZk9VclVDeklKTkZpVFNBOXNLOG1kUnA2MFJ2YTZUNlgydGs3ZkZCSVNQZUEtZUszMUw1a2tUSHYwdzM3cFNIR1lRUnliLUpKU3NRc21qdWpBa1ZXUVp0ejczWnZ2cFc2azA1SFk5U0kzdjhPcUZicThJWFlRRU9sR2xXdzBrZDNac3c?oc=5",
       "sourceOrigin": "",
       "publishedAt": "2026-09-17T02:15:20.000Z",
-      "discoveredAt": "2026-09-17T19:18:27.096Z",
+      "discoveredAt": "2026-09-17T22:22:01.174Z",
       "lastUpdated": "2026-09-17T02:15:20.000Z",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
-      "lastVerifiedAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+      "lastVerifiedAt": "2026-09-17T22:22:01.174Z",
       "expiresAt": "2026-09-19T02:15:20.000Z",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
@@ -156,10 +156,10 @@
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQR0Y4LXItUGNQakVXZDg2bVBLX3FDZWF1Yk9CTXpGZDF2VUhVeDBiNEtlMmJPLWFRUmxTcUZDbldpV1RpX1dzclNyMmZnblFRRlZlZWdpamRzbEtoU0l0aTQ3SjF6Zm9UbmRoemxIdHI3X3Znclp5YmVDTDFkQ2pvZno5WTg2MkZZQjl4bHZxNWV0SlR0U3FVVlZVNklvamFlTTdZQ3NKdVNyMFlLallDSlRNVE85ektjMjRpa3g0bVFGVTdoRlhaWnZMR3c3VzU0V0hZMkd2NU5yM2J4OVlj0gHkAUFVX3lxTFA4NEhaOGkxeTNGQjRXa3FZSnhMM051R2s2VmRXV2tDcGo5c2ZLRXBQMi14QVlrdTFMT3lLeXpHMXVZNjUwT2RLczZRN3NEYy1DcDhyY3cwaWdYRGpHWmtaRWtKdURfYktNSjYxeDExWE9uMnB0eWJabVNBVzRFaDMwQnB6M0dILUZSMVFtTUM3a3Y2a1k0aVNZR0NaTy1KSW5xcVpJcGNpRE5Jb1FGdFZBeGhhRnJsaVI4OVJlbXctc1lGVm4xZVo5aWRLMlZ5dXdkenVvUUtDMlhOM1E2YnlHSThLbw?oc=5",
       "sourceOrigin": "",
       "publishedAt": "2026-09-16T18:57:00.000Z",
-      "discoveredAt": "2026-09-17T19:18:27.096Z",
+      "discoveredAt": "2026-09-17T22:22:01.174Z",
       "lastUpdated": "2026-09-16T18:57:00.000Z",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
-      "lastVerifiedAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+      "lastVerifiedAt": "2026-09-17T22:22:01.174Z",
       "expiresAt": "2026-09-18T18:57:00.000Z",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
@@ -183,10 +183,10 @@
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOHo3ZjhSMUViSmZDRjVGUzcxd2k4Tm9DOXFsc1FQbEgtODk4RFBHeXFSTUhzN3d1LTY1dVdQcUhzUGh5UktYczBkX3locDJVZWRqRldOcTZGdWxqdkU5OGF5djRFZWRZOF90aW43YWs1MUc4ZWROMGNCSEZXWDNQVVZnSl9CdEpvTGp1U1lTLWtuU0lJNjhMMlpGZGFlM2JKMDVrOdIBqgFBVV95cUxObjV2azR6LVBVdlRMWHpNd2hNcVg4SkMtWm5IaTlhSms0djdIMFRsTTZCUDlELTdrbHpRWmRYbkpIWXNtUUxxemdTcXJVbmllOGsyOEEzazBtRWk0a2NCS2lCNHRTRG9tbXUyRXlXSk9fRGpXTHNlUTV1MUxiZWxGMTlrczdDVk53RUI0UndJc192TUt6UWlvWHdZVDdhaGE0N2JSYXdKdTNCUQ?oc=5",
       "sourceOrigin": "",
       "publishedAt": "2026-09-16T06:48:33.000Z",
-      "discoveredAt": "2026-09-17T19:18:27.096Z",
+      "discoveredAt": "2026-09-17T22:22:01.174Z",
       "lastUpdated": "2026-09-16T06:48:33.000Z",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
-      "lastVerifiedAt": "2026-09-17T19:18:27.096Z",
+      "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+      "lastVerifiedAt": "2026-09-17T22:22:01.174Z",
       "expiresAt": "2026-09-18T06:48:33.000Z",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
@@ -195,37 +195,6 @@
       "affectedArea": "Pune District",
       "talukas": [],
       "localities": []
-    },
-    {
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "collectionSourceId": "google_news_discovery",
-      "upstreamId": "google-news-274349a6",
-      "title": "Developing: 5-year-old girl dies after garbage vehicle hits motorcycle, runs over her in Pune’s Nigdi",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdmZvU1NDTkY4UmdpN3FmOUNvS3BfZ3o2ODM5a0VNNnNQdTBCTFVQUUR0NHotVHgycTFjNGhLNEhNNXBsNUxVNlJCbUZVMExsVERrOUo1RGNtcDBfYjhTRFd2ZHg3NlgxNzdKSnlaSWxZMm1QT1NaN2RacENmLVAyNm5KSjg1SHd6MHVidFl2UHQ4YjU2LTB0MF81VEFIWmZMNm1WbUZCTl9VMW1mM2xzQzZ5dzEtbzRZZmE2encycFI0MnpxU1JqS09ZLUk0cG96UVpqV3FfZEVIS3ZVbUdoUnFTSE1uTTNYNEw2RUozbk3SAfYBQVVfeXFMTV9Wdml2QVpHbV9WcW0teFdoYk1xd1JMLTM3MTUxVC1YTkxtUFNIWl9DRmZsbUV0M0VXWXFNTzBoMjVobGRHd21PSUZwMmFySnpuUG5yQ1Z6WlNtbjF6cjZOanZPNzZuUGgwU0FhSElRM3lmdFJZS01WMmgyR3lnRVNhVXk3UmQxRHgwVFdhak5nc3hSUlBXVHdxVjhNSzBCR095Z3EtYWtZMXQ4cDNnSzJMUUNSLVEtSGkzZjkzNnE2VWxWWlNvaHNqY2pNQTdHckFXdUMxOWpDdjJiUVRQeVZ3X2xMZU5saDdvazhoUldqWmt2SHd3?oc=5",
-      "sourceOrigin": "",
-      "publishedAt": "2026-09-14T19:33:00.000Z",
-      "discoveredAt": "2026-09-17T19:18:27.096Z",
-      "lastUpdated": "2026-09-14T19:33:00.000Z",
-      "sourceCheckedAt": "2026-09-17T19:18:27.096Z",
-      "lastVerifiedAt": "2026-09-17T19:18:27.096Z",
-      "expiresAt": "2026-09-16T19:33:00.000Z",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "geographicScope": "local",
-      "affectedArea": "Nigdi",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Nigdi"
-      ]
     }
   ]
 }
