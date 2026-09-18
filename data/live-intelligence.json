@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-17T22:22:33.845Z",
+  "generatedAt": "2026-09-18T00:40:59.494Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-17T22:22:00.454Z",
-        "lastSuccessfulAt": "2026-09-17T22:22:00.454Z",
+        "sourceCheckedAt": "2026-09-18T00:40:43.086Z",
+        "lastSuccessfulAt": "2026-09-18T00:40:43.086Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-09-17T22:22:22.122Z",
-        "lastSuccessfulAt": "2026-09-17T22:22:22.122Z",
+        "sourceCheckedAt": "2026-09-18T00:40:47.863Z",
+        "lastSuccessfulAt": "2026-09-18T00:40:47.863Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-09-17T22:22:22.122Z",
-        "lastSuccessfulAt": "2026-09-17T19:18:47.910Z",
+        "sourceCheckedAt": "2026-09-18T00:40:47.863Z",
+        "lastSuccessfulAt": "2026-09-17T22:22:22.122Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
-        "lastSuccessfulAt": "2026-09-17T22:22:01.174Z",
-        "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403; pune_metro: This operation was aborted"
+        "sourceCheckedAt": "2026-09-18T00:40:43.774Z",
+        "lastSuccessfulAt": "2026-09-18T00:40:43.774Z",
+        "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
-        "lastSuccessfulAt": "2026-09-17T22:22:01.174Z",
+        "sourceCheckedAt": "2026-09-18T00:40:43.774Z",
+        "lastSuccessfulAt": "2026-09-18T00:40:43.774Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,10 +62,10 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
-        "lastSuccessfulAt": "2026-09-17T22:22:01.174Z",
+        "sourceCheckedAt": "2026-09-18T00:40:43.774Z",
+        "lastSuccessfulAt": "2026-09-18T00:40:43.774Z",
         "error": null,
-        "etag": "W/\"8578-1789678425943\"",
+        "etag": "W/\"9047-1789685953796\"",
         "itemsCollected": 0,
         "type": "alerts"
       },
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+        "sourceCheckedAt": "2026-09-18T00:40:43.774Z",
         "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,8 +82,8 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
-        "lastSuccessfulAt": "2026-09-17T22:22:01.174Z",
+        "sourceCheckedAt": "2026-09-18T00:40:43.774Z",
+        "lastSuccessfulAt": "2026-09-18T00:40:43.774Z",
         "error": null,
         "etag": null,
         "itemsCollected": 2,
@@ -92,17 +92,19 @@
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
-        "status": "unavailable",
-        "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
-        "lastSuccessfulAt": "2026-09-17T15:41:01.821Z",
-        "error": "This operation was aborted",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-09-18T00:40:43.774Z",
+        "lastSuccessfulAt": "2026-09-18T00:40:43.774Z",
+        "error": null,
+        "etag": null,
+        "itemsCollected": 0,
         "type": "incidents"
       },
       {
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
+        "sourceCheckedAt": "2026-09-18T00:40:43.774Z",
         "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
         "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}",
         "type": "incidents"
@@ -111,22 +113,22 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
-        "lastSuccessfulAt": "2026-09-17T22:22:01.174Z",
+        "sourceCheckedAt": "2026-09-18T00:40:43.774Z",
+        "lastSuccessfulAt": "2026-09-18T00:40:43.774Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 0,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-17T22:22:01.174Z",
-        "lastSuccessfulAt": "2026-09-17T22:22:01.174Z",
+        "sourceCheckedAt": "2026-09-18T00:40:43.774Z",
+        "lastSuccessfulAt": "2026-09-18T00:40:43.774Z",
         "error": null,
-        "itemsCollected": 3,
-        "itemsQualified": 3,
+        "itemsCollected": 2,
+        "itemsQualified": 2,
         "type": "incidents"
       },
       {
@@ -134,8 +136,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-09-17T22:22:22.122Z",
-        "lastSuccessfulAt": "2026-09-17T22:22:22.122Z",
+        "sourceCheckedAt": "2026-09-18T00:40:47.863Z",
+        "lastSuccessfulAt": "2026-09-18T00:40:47.863Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -498,7 +500,7 @@
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
     "alertsAvailable": 0,
-    "incidentsAvailable": 4,
+    "incidentsAvailable": 5,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
@@ -520,6 +522,15 @@
       "source": "Hindustan Times Pune",
       "trust": "B",
       "updatedAt": "2026-09-17T02:12:30.000Z"
+    },
+    {
+      "id": "flood-developing-बीडमध्ये-चहा-आणि-दुपारचं-जेवण-पुण्यात-नवीन-रेल्वेचं-संपूर्ण-वेळपत्रक-थांब",
+      "title": "Developing: बीडमध्ये चहा आणि दुपारचं जेवण पुण्यात! नवीन रेल्वेचं संपूर्ण वेळपत्रक, थांबे आणि A to Z माहिती",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "News18marathi",
+      "trust": "B",
+      "updatedAt": "2026-09-17T12:27:03.000Z"
     },
     {
       "id": "accident-developing-mact-awards-rs59-45-lakh-to-family-of-pune-teacher-killed-in-2017-acci",
