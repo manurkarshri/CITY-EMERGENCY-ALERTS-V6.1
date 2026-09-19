@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-18T22:50:46.025Z",
+  "generatedAt": "2026-09-19T01:02:00.473Z",
   "status": "stale",
   "situation": {
-    "snapshot": "No major environmental disruption indicated from current data.",
+    "snapshot": "1 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-09-18T22:50:46.081Z",
+      "generatedAt": "2026-09-19T01:02:00.515Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,18 +13,18 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-18T22:50:12.472Z",
-          "observedAt": "2026-09-19T04:15:00+05:30",
+          "sourceCheckedAt": "2026-09-19T01:01:27.744Z",
+          "observedAt": "2026-09-19T06:30:00+05:30",
           "temp": 23,
           "currentRain": 0,
           "rain6h": 0.3,
           "rain24h": 4.1,
           "precipitationProbability": 100,
-          "wind": 15.8,
-          "gust": 15.8,
+          "wind": 14.8,
+          "gust": 14.8,
           "humidity": 89,
           "visibility": 8.6,
-          "weatherCode": 3,
+          "weatherCode": 2,
           "rainRisk": "Low",
           "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
@@ -40,16 +40,16 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-18T22:50:12.472Z",
-          "observedAt": "2026-09-19T04:15:00+05:30",
+          "sourceCheckedAt": "2026-09-19T01:01:27.744Z",
+          "observedAt": "2026-09-19T06:30:00+05:30",
           "temp": 22.7,
           "currentRain": 0,
-          "rain6h": 0.1,
+          "rain6h": 0.2,
           "rain24h": 2.8,
           "precipitationProbability": 84,
-          "wind": 7.6,
-          "gust": 7.6,
-          "humidity": 93,
+          "wind": 8.6,
+          "gust": 8.6,
+          "humidity": 92,
           "visibility": 8.2,
           "weatherCode": 3,
           "rainRisk": "Low",
@@ -67,18 +67,18 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-18T22:50:12.472Z",
-          "observedAt": "2026-09-19T04:15:00+05:30",
+          "sourceCheckedAt": "2026-09-19T01:01:27.744Z",
+          "observedAt": "2026-09-19T06:30:00+05:30",
           "temp": 23,
           "currentRain": 0,
           "rain6h": 0.3,
           "rain24h": 4.1,
           "precipitationProbability": 100,
-          "wind": 15.8,
-          "gust": 15.8,
+          "wind": 14.8,
+          "gust": 14.8,
           "humidity": 89,
           "visibility": 8.6,
-          "weatherCode": 3,
+          "weatherCode": 2,
           "rainRisk": "Low",
           "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
@@ -94,25 +94,25 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-18T22:50:12.472Z",
-          "observedAt": "2026-09-19T04:15:00+05:30",
-          "temp": 22.3,
+          "sourceCheckedAt": "2026-09-19T01:01:27.744Z",
+          "observedAt": "2026-09-19T06:30:00+05:30",
+          "temp": 22.1,
           "currentRain": 0,
           "rain6h": 0.6,
-          "rain24h": 10.8,
+          "rain24h": 10.6,
           "precipitationProbability": 100,
-          "wind": 18,
-          "gust": 18,
+          "wind": 16.6,
+          "gust": 16.6,
           "humidity": 98,
-          "visibility": 0.9,
+          "visibility": 1.6,
           "weatherCode": 3,
           "rainRisk": "Low",
           "windRisk": "Minimal",
-          "visibilityRisk": "High",
+          "visibilityRisk": "Medium",
           "heatRisk": "Normal",
-          "travelImpact": "High",
+          "travelImpact": "Low",
           "advice": [
-            "Low visibility may make driving unsafe."
+            "No major weather-related disruption indicated."
           ]
         },
         "maval": {
@@ -121,42 +121,112 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-18T22:50:12.472Z",
-          "observedAt": "2026-09-19T04:15:00+05:30",
-          "temp": 21.7,
+          "sourceCheckedAt": "2026-09-19T01:01:27.744Z",
+          "observedAt": "2026-09-19T06:30:00+05:30",
+          "temp": 21.1,
           "currentRain": 0.2,
-          "rain6h": 1.8,
-          "rain24h": 12.4,
+          "rain6h": 1,
+          "rain24h": 11.3,
           "precipitationProbability": 94,
-          "wind": 14,
-          "gust": 14,
-          "humidity": 99,
-          "visibility": 0.4,
+          "wind": 16.9,
+          "gust": 16.9,
+          "humidity": 100,
+          "visibility": 2.2,
           "weatherCode": 53,
           "rainRisk": "Low",
           "windRisk": "Minimal",
-          "visibilityRisk": "High",
+          "visibilityRisk": "Low",
           "heatRisk": "Normal",
-          "travelImpact": "High",
+          "travelImpact": "Low",
           "advice": [
-            "Low visibility may make driving unsafe."
+            "No major weather-related disruption indicated."
           ]
         }
       }
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-09-18T22:50:46.129Z",
+      "generatedAt": "2026-09-19T01:02:00.546Z",
       "riskLevel": "Normal",
-      "impacts": [],
-      "citizenSummary": "No major environmental disruption indicated from current data.",
+      "impacts": [
+        "1 active transport-related event(s) may affect travel."
+      ],
+      "citizenSummary": "1 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
   "alerts": [],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "accident-developing-mact-pune-awards-59-45-lakh-to-parents-of-junior-college-teacher-kille",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: MACT Pune awards ₹59.45 lakh to parents of junior college teacher killed in 2017 road accident | Hindustan Times",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbEFFOWRuV2h4Rng3MmpGLTR1RFE1UFlsam9ad0RlTGt5Y2VrNHlYbHFZUjhTdlhlcFZiZ3lpdVVFZDhvcUgwcFloLXBuR3dmdUZPVndOYTdUVl9na1BjOWdjUy02RFBXd243czR1VDJzeHB5cTZzblVRWGhfeTZyTllxX0h6cVdfSVljdjV3WElvRmRnYnB6eXIyX0N0U3VYYkJrVzA2aU1oOUpSa2N0cXgwR3ZCQUNlUlJjY1BZeDB1Umg5VVF0bEoycHpIVElvVThBZ3FVV21XYV9jcEhHZUdqUUJaLWZHSDN3S09yWUl3dUc40gH6AUFVX3lxTE44R01CYzhzcHEyWWIyX0s1TDUyTDJCMTAwR1NnY3BiV0I2Znd2SDFsS2pPbnRrOGl4SmNUZVhiQnNzdENUM21VZnRXZC05QVN2cmVGTXNheU01UWd6QTROMmxMLUk2bVFBZkY3Um93ekRobW8xWE9GZk9VclVDeklKTkZpVFNBOXNLOG1kUnA2MFJ2YTZUNlgydGs3ZkZCSVNQZUEtZUszMUw1a2tUSHYwdzM3cFNIR1lRUnliLUpKU3NRc21qdWpBa1ZXUVp0ejczWnZ2cFc2azA1SFk5U0kzdjhPcUZicThJWFlRRU9sR2xXdzBrZDNac3c?oc=5",
+          "origin": ""
+        },
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQR0Y4LXItUGNQakVXZDg2bVBLX3FDZWF1Yk9CTXpGZDF2VUhVeDBiNEtlMmJPLWFRUmxTcUZDbldpV1RpX1dzclNyMmZnblFRRlZlZWdpamRzbEtoU0l0aTQ3SjF6Zm9UbmRoemxIdHI3X3Znclp5YmVDTDFkQ2pvZno5WTg2MkZZQjl4bHZxNWV0SlR0U3FVVlZVNklvamFlTTdZQ3NKdVNyMFlLallDSlRNVE85ektjMjRpa3g0bVFGVTdoRlhaWnZMR3c3VzU0V0hZMkd2NU5yM2J4OVlj0gHkAUFVX3lxTFA4NEhaOGkxeTNGQjRXa3FZSnhMM051R2s2VmRXV2tDcGo5c2ZLRXBQMi14QVlrdTFMT3lLeXpHMXVZNjUwT2RLczZRN3NEYy1DcDhyY3cwaWdYRGpHWmtaRWtKdURfYktNSjYxeDExWE9uMnB0eWJabVNBVzRFaDMwQnB6M0dILUZSMVFtTUM3a3Y2a1k0aVNZR0NaTy1KSW5xcVpJcGNpRE5Jb1FGdFZBeGhhRnJsaVI4OVJlbXctc1lGVm4xZVo5aWRLMlZ5dXdkenVvUUtDMlhOM1E2YnlHSThLbw?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbEFFOWRuV2h4Rng3MmpGLTR1RFE1UFlsam9ad0RlTGt5Y2VrNHlYbHFZUjhTdlhlcFZiZ3lpdVVFZDhvcUgwcFloLXBuR3dmdUZPVndOYTdUVl9na1BjOWdjUy02RFBXd243czR1VDJzeHB5cTZzblVRWGhfeTZyTllxX0h6cVdfSVljdjV3WElvRmRnYnB6eXIyX0N0U3VYYkJrVzA2aU1oOUpSa2N0cXgwR3ZCQUNlUlJjY1BZeDB1Umg5VVF0bEoycHpIVElvVThBZ3FVV21XYV9jcEhHZUdqUUJaLWZHSDN3S09yWUl3dUc40gH6AUFVX3lxTE44R01CYzhzcHEyWWIyX0s1TDUyTDJCMTAwR1NnY3BiV0I2Znd2SDFsS2pPbnRrOGl4SmNUZVhiQnNzdENUM21VZnRXZC05QVN2cmVGTXNheU01UWd6QTROMmxMLUk2bVFBZkY3Um93ekRobW8xWE9GZk9VclVDeklKTkZpVFNBOXNLOG1kUnA2MFJ2YTZUNlgydGs3ZkZCSVNQZUEtZUszMUw1a2tUSHYwdzM3cFNIR1lRUnliLUpKU3NRc21qdWpBa1ZXUVp0ejczWnZ2cFc2azA1SFk5U0kzdjhPcUZicThJWFlRRU9sR2xXdzBrZDNac3c?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-09-17T02:15:20.000Z",
+      "lastUpdated": "2026-09-17T02:15:20.000Z",
+      "sourceCheckedAt": "2026-09-19T01:01:28.541Z",
+      "lastVerifiedAt": "2026-09-19T01:01:28.541Z",
+      "intelligenceGeneratedAt": "2026-09-19T01:02:00.473Z",
+      "expiresAt": "2026-09-19T02:15:20.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 55,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-f3fa01df",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-09-19T01:01:28.541Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [
+        "accident-developing-mact-awards-rs59-45-lakh-to-family-of-pune-teacher-killed-in-2017-acci"
+      ],
+      "independentSourceCount": 2,
+      "corroboratedByIndependentSources": true
+    }
+  ],
   "journeyContext": {
-    "activeRiskEvents": []
+    "activeRiskEvents": [
+      {
+        "id": "accident-developing-mact-pune-awards-59-45-lakh-to-parents-of-junior-college-teacher-kille",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      }
+    ]
   },
   "expiredEvents": [
     {
@@ -183,9 +253,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-16T06:48:33.000Z",
       "lastUpdated": "2026-09-16T06:48:33.000Z",
-      "sourceCheckedAt": "2026-09-18T22:50:13.369Z",
-      "lastVerifiedAt": "2026-09-18T22:50:13.369Z",
-      "intelligenceGeneratedAt": "2026-09-18T22:50:46.025Z",
+      "sourceCheckedAt": "2026-09-19T01:01:28.541Z",
+      "lastVerifiedAt": "2026-09-19T01:01:28.541Z",
+      "intelligenceGeneratedAt": "2026-09-19T01:02:00.473Z",
       "expiresAt": "2026-09-18T06:48:33.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -198,56 +268,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-18T22:50:13.369Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-mact-awards-rs59-45-lakh-to-family-of-pune-teacher-killed-in-2017-acci",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: MACT awards Rs59.45 lakh to family of Pune teacher killed in 2017 accident",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQR0Y4LXItUGNQakVXZDg2bVBLX3FDZWF1Yk9CTXpGZDF2VUhVeDBiNEtlMmJPLWFRUmxTcUZDbldpV1RpX1dzclNyMmZnblFRRlZlZWdpamRzbEtoU0l0aTQ3SjF6Zm9UbmRoemxIdHI3X3Znclp5YmVDTDFkQ2pvZno5WTg2MkZZQjl4bHZxNWV0SlR0U3FVVlZVNklvamFlTTdZQ3NKdVNyMFlLallDSlRNVE85ektjMjRpa3g0bVFGVTdoRlhaWnZMR3c3VzU0V0hZMkd2NU5yM2J4OVlj0gHkAUFVX3lxTFA4NEhaOGkxeTNGQjRXa3FZSnhMM051R2s2VmRXV2tDcGo5c2ZLRXBQMi14QVlrdTFMT3lLeXpHMXVZNjUwT2RLczZRN3NEYy1DcDhyY3cwaWdYRGpHWmtaRWtKdURfYktNSjYxeDExWE9uMnB0eWJabVNBVzRFaDMwQnB6M0dILUZSMVFtTUM3a3Y2a1k0aVNZR0NaTy1KSW5xcVpJcGNpRE5Jb1FGdFZBeGhhRnJsaVI4OVJlbXctc1lGVm4xZVo5aWRLMlZ5dXdkenVvUUtDMlhOM1E2YnlHSThLbw?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQR0Y4LXItUGNQakVXZDg2bVBLX3FDZWF1Yk9CTXpGZDF2VUhVeDBiNEtlMmJPLWFRUmxTcUZDbldpV1RpX1dzclNyMmZnblFRRlZlZWdpamRzbEtoU0l0aTQ3SjF6Zm9UbmRoemxIdHI3X3Znclp5YmVDTDFkQ2pvZno5WTg2MkZZQjl4bHZxNWV0SlR0U3FVVlZVNklvamFlTTdZQ3NKdVNyMFlLallDSlRNVE85ektjMjRpa3g0bVFGVTdoRlhaWnZMR3c3VzU0V0hZMkd2NU5yM2J4OVlj0gHkAUFVX3lxTFA4NEhaOGkxeTNGQjRXa3FZSnhMM051R2s2VmRXV2tDcGo5c2ZLRXBQMi14QVlrdTFMT3lLeXpHMXVZNjUwT2RLczZRN3NEYy1DcDhyY3cwaWdYRGpHWmtaRWtKdURfYktNSjYxeDExWE9uMnB0eWJabVNBVzRFaDMwQnB6M0dILUZSMVFtTUM3a3Y2a1k0aVNZR0NaTy1KSW5xcVpJcGNpRE5Jb1FGdFZBeGhhRnJsaVI4OVJlbXctc1lGVm4xZVo5aWRLMlZ5dXdkenVvUUtDMlhOM1E2YnlHSThLbw?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-09-16T18:57:00.000Z",
-      "lastUpdated": "2026-09-16T18:57:00.000Z",
-      "sourceCheckedAt": "2026-09-18T22:50:13.369Z",
-      "lastVerifiedAt": "2026-09-18T22:50:13.369Z",
-      "intelligenceGeneratedAt": "2026-09-18T22:50:46.025Z",
-      "expiresAt": "2026-09-18T18:57:00.000Z",
-      "lifecycle": "expired",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-9ffdf730",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-09-18T22:50:13.369Z",
+      "discoveredAt": "2026-09-19T01:01:28.541Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -264,15 +285,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-09-18T22:50:13.369Z",
-      "lastSuccessfulAt": "2026-09-18T22:50:13.369Z",
+      "sourceCheckedAt": "2026-09-19T01:01:28.541Z",
+      "lastSuccessfulAt": "2026-09-19T01:01:28.541Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403; pune_metro: This operation was aborted"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-09-18T22:50:46.129Z",
+      "generatedAt": "2026-09-19T01:02:00.546Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -285,7 +306,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-09-18T22:50:46.129Z",
+      "generatedAt": "2026-09-19T01:02:00.546Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -366,9 +387,11 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-09-18T22:50:46.129Z",
+      "generatedAt": "2026-09-19T01:02:00.546Z",
       "mode": "on-demand",
-      "relevantDomains": [],
+      "relevantDomains": [
+        "highways"
+      ],
       "infrastructure": {
         "highways": [
           "Mumbai-Pune Expressway",
@@ -409,7 +432,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-09-18T22:50:46.183Z",
+        "generatedAt": "2026-09-19T01:02:00.590Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -441,20 +464,18 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
-            "reasons": [
-              "Low visibility may make driving unsafe."
-            ],
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
             "penalties": []
           },
-          "estimatedTimeMin": 80,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 65,
+          "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
         },
         "routes": [
           {
@@ -488,20 +509,18 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
-              "reasons": [
-                "Low visibility may make driving unsafe."
-              ],
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
               "penalties": []
             },
-            "estimatedTimeMin": 80,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 65,
+            "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
           },
           {
             "id": "kharadi-hinjawadi-pashan",
@@ -531,20 +550,18 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
-              "reasons": [
-                "Low visibility may make driving unsafe."
-              ],
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
               "penalties": []
             },
-            "estimatedTimeMin": 87,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 72,
+            "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
           }
         ]
       },
@@ -553,7 +570,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-09-18T22:50:46.183Z",
+        "generatedAt": "2026-09-19T01:02:00.590Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -583,20 +600,18 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
-            "reasons": [
-              "Low visibility may make driving unsafe."
-            ],
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
             "penalties": []
           },
-          "estimatedTimeMin": 110,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 95,
+          "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
         },
         "routes": [
           {
@@ -628,20 +643,18 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
-              "reasons": [
-                "Low visibility may make driving unsafe."
-              ],
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
               "penalties": []
             },
-            "estimatedTimeMin": 110,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 95,
+            "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 110 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
           }
         ]
       },
@@ -650,7 +663,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-09-18T22:50:46.183Z",
+        "generatedAt": "2026-09-19T01:02:00.590Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -679,20 +692,18 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
-            "reasons": [
-              "Low visibility may make driving unsafe."
-            ],
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
             "penalties": []
           },
-          "estimatedTimeMin": 50,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 35,
+          "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
         },
         "routes": [
           {
@@ -723,20 +734,18 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 70,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
-              "reasons": [
-                "Low visibility may make driving unsafe."
-              ],
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
               "penalties": []
             },
-            "estimatedTimeMin": 50,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 35,
+            "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
           }
         ]
       }
