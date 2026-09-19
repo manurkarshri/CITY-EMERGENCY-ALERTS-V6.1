@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-19T05:55:22.869Z",
+  "generatedAt": "2026-09-19T10:33:02.486Z",
   "status": "stale",
   "situation": {
-    "snapshot": "Moderate rainfall may slow travel in some areas. 1 important alert require attention.",
+    "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-09-19T05:55:22.909Z",
+      "generatedAt": "2026-09-19T10:33:02.536Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,21 +13,21 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-19T05:55:02.844Z",
-          "observedAt": "2026-09-19T11:15:00+05:30",
-          "temp": 29.4,
+          "sourceCheckedAt": "2026-09-19T10:32:45.487Z",
+          "observedAt": "2026-09-19T16:00:00+05:30",
+          "temp": 27.7,
           "currentRain": 0,
-          "rain6h": 4.4,
-          "rain24h": 4.6,
+          "rain6h": 0.6,
+          "rain24h": 1.1,
           "precipitationProbability": 100,
-          "wind": 25.2,
-          "gust": 25.2,
-          "humidity": 59,
-          "visibility": 3.1,
-          "weatherCode": 3,
+          "wind": 31,
+          "gust": 31,
+          "humidity": 69,
+          "visibility": 5.2,
+          "weatherCode": 1,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "Low",
+          "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
           "advice": [
@@ -40,18 +40,18 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-19T05:55:02.844Z",
-          "observedAt": "2026-09-19T11:15:00+05:30",
-          "temp": 28.5,
+          "sourceCheckedAt": "2026-09-19T10:32:45.487Z",
+          "observedAt": "2026-09-19T16:00:00+05:30",
+          "temp": 26.7,
           "currentRain": 0,
-          "rain6h": 7.5,
-          "rain24h": 8.7,
+          "rain6h": 3.4,
+          "rain24h": 4.7,
           "precipitationProbability": 100,
-          "wind": 22.3,
-          "gust": 22.3,
-          "humidity": 68,
-          "visibility": 2.8,
-          "weatherCode": 3,
+          "wind": 30.6,
+          "gust": 30.6,
+          "humidity": 80,
+          "visibility": 2.5,
+          "weatherCode": 80,
           "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "Low",
@@ -67,21 +67,21 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-19T05:55:02.844Z",
-          "observedAt": "2026-09-19T11:15:00+05:30",
-          "temp": 29.4,
+          "sourceCheckedAt": "2026-09-19T10:32:45.487Z",
+          "observedAt": "2026-09-19T16:00:00+05:30",
+          "temp": 27.7,
           "currentRain": 0,
-          "rain6h": 4.4,
-          "rain24h": 4.6,
+          "rain6h": 0.6,
+          "rain24h": 1.1,
           "precipitationProbability": 100,
-          "wind": 25.2,
-          "gust": 25.2,
-          "humidity": 59,
-          "visibility": 3.1,
-          "weatherCode": 3,
+          "wind": 31,
+          "gust": 31,
+          "humidity": 69,
+          "visibility": 5.2,
+          "weatherCode": 1,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "Low",
+          "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
           "advice": [
@@ -94,25 +94,25 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-19T05:55:02.844Z",
-          "observedAt": "2026-09-19T11:15:00+05:30",
-          "temp": 26.7,
-          "currentRain": 0,
-          "rain6h": 10.9,
-          "rain24h": 11.4,
+          "sourceCheckedAt": "2026-09-19T10:32:45.487Z",
+          "observedAt": "2026-09-19T16:00:00+05:30",
+          "temp": 24.2,
+          "currentRain": 0.2,
+          "rain6h": 3.6,
+          "rain24h": 7.3,
           "precipitationProbability": 100,
-          "wind": 22.7,
-          "gust": 22.7,
-          "humidity": 79,
-          "visibility": 1.4,
-          "weatherCode": 3,
+          "wind": 21.6,
+          "gust": 21.6,
+          "humidity": 90,
+          "visibility": 0.7,
+          "weatherCode": 95,
           "rainRisk": "Low",
           "windRisk": "Low",
-          "visibilityRisk": "Medium",
+          "visibilityRisk": "High",
           "heatRisk": "Normal",
-          "travelImpact": "Low",
+          "travelImpact": "High",
           "advice": [
-            "No major weather-related disruption indicated."
+            "Low visibility may make driving unsafe."
           ]
         },
         "maval": {
@@ -121,41 +121,140 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-19T05:55:02.844Z",
-          "observedAt": "2026-09-19T11:15:00+05:30",
-          "temp": 24.3,
-          "currentRain": 0,
-          "rain6h": 19.1,
-          "rain24h": 20.5,
+          "sourceCheckedAt": "2026-09-19T10:32:45.487Z",
+          "observedAt": "2026-09-19T16:00:00+05:30",
+          "temp": 23.2,
+          "currentRain": 0.3,
+          "rain6h": 2.2,
+          "rain24h": 5.1,
           "precipitationProbability": 100,
-          "wind": 23.8,
-          "gust": 23.8,
-          "humidity": 89,
-          "visibility": 1.8,
-          "weatherCode": 95,
-          "rainRisk": "Medium",
+          "wind": 27,
+          "gust": 27,
+          "humidity": 94,
+          "visibility": 1.4,
+          "weatherCode": 55,
+          "rainRisk": "Low",
           "windRisk": "Low",
           "visibilityRisk": "Medium",
           "heatRisk": "Normal",
-          "travelImpact": "Medium",
+          "travelImpact": "Low",
           "advice": [
-            "Moderate rainfall may slow travel in low-lying areas."
+            "No major weather-related disruption indicated."
           ]
         }
       }
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-09-19T05:55:23.703Z",
-      "riskLevel": "Elevated",
+      "generatedAt": "2026-09-19T10:33:02.578Z",
+      "riskLevel": "Normal",
       "impacts": [
-        "1 area(s) have elevated rain-related travel impact."
+        "2 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "1 area(s) have elevated rain-related travel impact.",
+      "citizenSummary": "2 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-with-possibility-of-thunder-lightning",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Light to moderate spells of rain with possibility of thunder/lightning very likely to occur at isolated places over Nanded, Pune, Raigad, Ratnagiri in next 3 hours.",
+      "summary": "Light to moderate spells of rain with possibility of thunder/lightning very likely to occur at isolated places over Nanded, Pune, Raigad, Ratnagiri in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "source": "NDMA SACHET (IMD-Mumbai)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (IMD-Mumbai)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1789813830529029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1789813830529029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-09-19T10:29:49.000Z",
+      "lastUpdated": "2026-09-19T10:29:49.000Z",
+      "sourceCheckedAt": "2026-09-19T10:32:46.215Z",
+      "lastVerifiedAt": "2026-09-19T10:32:46.215Z",
+      "intelligenceGeneratedAt": "2026-09-19T10:33:02.486Z",
+      "expiresAt": "2026-09-19T13:30:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Nanded, Pune, Raigad, Ratnagiri districts of Maharashtra",
+      "upstreamId": "IN-1789813830529029_46",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Alert",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "thunderstorm-official-thunderstorm-accompanied-with-lightning-and-light-to-moderate-spells",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Thunderstorm accompanied with lightning and light to moderate spells of rain with gusty winds reaching 30-40 kmph very likely to occur at isolated places over Pune, Satara in next 3 hours.",
+      "summary": "Thunderstorm accompanied with lightning and light to moderate spells of rain with gusty winds reaching 30-40 kmph very likely to occur at isolated places over Pune, Satara in next 3 hours.",
+      "category": "thunderstorm",
+      "severity": "watch",
+      "source": "NDMA SACHET (Maharashtra-SDMA)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (Maharashtra-SDMA)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1789806479964029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1789806479964029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-09-19T08:31:31.000Z",
+      "lastUpdated": "2026-09-19T08:31:31.000Z",
+      "sourceCheckedAt": "2026-09-19T10:32:46.215Z",
+      "lastVerifiedAt": "2026-09-19T10:32:46.215Z",
+      "intelligenceGeneratedAt": "2026-09-19T10:33:02.486Z",
+      "expiresAt": "2026-09-19T11:26:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Pune,Satara districts of Maharashtra",
+      "upstreamId": "IN-1789806479964029_29",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Update",
+      "capReferences": "IMD-Mumbai,IN-1789806479964029_46,2026-09-19T13:56:53+05:30",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "incidents": [
     {
       "id": "weather-hazard-developing-parts-of-marathwada-receive-rain-after-dry-spell-five-killed-in-",
@@ -181,13 +280,13 @@
       "operationalZones": [],
       "publishedAt": "2026-09-19T02:21:30.000Z",
       "lastUpdated": "2026-09-19T02:21:30.000Z",
-      "sourceCheckedAt": "2026-09-19T05:55:03.799Z",
-      "lastVerifiedAt": "2026-09-19T05:55:03.799Z",
-      "intelligenceGeneratedAt": "2026-09-19T05:55:22.869Z",
+      "sourceCheckedAt": "2026-09-19T10:32:46.215Z",
+      "lastVerifiedAt": "2026-09-19T10:32:46.215Z",
+      "intelligenceGeneratedAt": "2026-09-19T10:33:02.486Z",
       "expiresAt": "2026-09-19T14:21:30.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "Severe local weather may affect outdoor safety, visibility, power or travel.",
       "recommendedAction": "Move indoors where appropriate and follow weather and emergency-service guidance.",
       "affectedArea": "",
@@ -205,62 +304,47 @@
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
-    }
-  ],
-  "journeyContext": {
-    "activeRiskEvents": [
-      {
-        "id": "weather-hazard-developing-parts-of-marathwada-receive-rain-after-dry-spell-five-killed-in-",
-        "category": "weather_hazard",
-        "severity": "warning",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Severe local weather may affect outdoor safety, visibility, power or travel."
-      }
-    ]
-  },
-  "expiredEvents": [
+    },
     {
-      "id": "accident-developing-four-schoolchildren-injured-as-msrtc-bus-overturns-in-pune-district-20",
+      "id": "accident-developing-pune-worker-killed-5-injured-after-container-truck-hits-vehicles-on-hi",
       "eventKind": "incident",
-      "sourceId": "the_print",
-      "title": "Developing: Four schoolchildren injured as MSRTC bus overturns in Pune district",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Pune: Worker killed, 5 injured after container truck hits vehicles on highway | India News",
       "summary": "A current trusted-media report relevant to Pune District.",
       "category": "accident",
       "severity": "watch",
-      "source": "ThePrint",
+      "source": "Hindustan Times Pune",
       "sourceTrust": "B",
       "sources": [
         {
-          "name": "ThePrint",
+          "name": "Hindustan Times Pune",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObjV2azR6LVBVdlRMWHpNd2hNcVg4SkMtWm5IaTlhSms0djdIMFRsTTZCUDlELTdrbHpRWmRYbkpIWXNtUUxxemdTcXJVbmllOGsyOEEzazBtRWk0a2NCS2lCNHRTRG9tbXUyRXlXSk9fRGpXTHNlUTV1MUxiZWxGMTlrczdDVk53RUI0UndJc192TUt6UWlvWHdZVDdhaGE0N2JSYXdKdTNCUdIBqgFBVV95cUxObjV2azR6LVBVdlRMWHpNd2hNcVg4SkMtWm5IaTlhSms0djdIMFRsTTZCUDlELTdrbHpRWmRYbkpIWXNtUUxxemdTcXJVbmllOGsyOEEzazBtRWk0a2NCS2lCNHRTRG9tbXUyRXlXSk9fRGpXTHNlUTV1MUxiZWxGMTlrczdDVk53RUI0UndJc192TUt6UWlvWHdZVDdhaGE0N2JSYXdKdTNCUQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZEFvdXNPc1dkaHNLWC1kTXdRb0tJa0xwUTBSeHZlNktiUjJCSDhWRy00a3hkZEpkZlBMQ0tkSUlSMVpCS3pWQ0NrZml3Z3hPSTdHd093VUl4WXBFYVlrWm5pM0xLTDlCYmR2MmZNRlgyTUpnVUZkUnVSeENscVdDUjdYTnFKWGZCbldUT2dkSDBCTFRzZWR0Z25NUWozakJLdWN4NDJnaUhlZkFvNEpJYmV6OGNrUjg1RjhWQXJyVVNiTGJ1TW1QakZaWm1aa2tZbG5Pa9IB2gFBVV95cUxQczBwZE5ZMS01Nl8tWnNpTTVTczZhWU9nN0dlVWVmVkNzZ25IbmgxZFRaaEx4eHJaa0YxSXR1RzJtMGxNNGhVYjlpT28zYlVPd2MxMFA1RS1FYkpzamRvLVZxcEc0dklEN1YyZW9UOV9QbEpXVlJkd0VvOUgwMURlaFVZX3dXRm5qTWJmbnN1VWVwOUxVRG5ZVkowbHg5ZTVEWVphdzl5ZEZ0TVBLdFV2QUtDeDFWNF9rcUowNEI2YUt1cjVyWnJCclpNcGFJdEVzeUlvUHJHV2Vidw?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObjV2azR6LVBVdlRMWHpNd2hNcVg4SkMtWm5IaTlhSms0djdIMFRsTTZCUDlELTdrbHpRWmRYbkpIWXNtUUxxemdTcXJVbmllOGsyOEEzazBtRWk0a2NCS2lCNHRTRG9tbXUyRXlXSk9fRGpXTHNlUTV1MUxiZWxGMTlrczdDVk53RUI0UndJc192TUt6UWlvWHdZVDdhaGE0N2JSYXdKdTNCUdIBqgFBVV95cUxObjV2azR6LVBVdlRMWHpNd2hNcVg4SkMtWm5IaTlhSms0djdIMFRsTTZCUDlELTdrbHpRWmRYbkpIWXNtUUxxemdTcXJVbmllOGsyOEEzazBtRWk0a2NCS2lCNHRTRG9tbXUyRXlXSk9fRGpXTHNlUTV1MUxiZWxGMTlrczdDVk53RUI0UndJc192TUt6UWlvWHdZVDdhaGE0N2JSYXdKdTNCUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZEFvdXNPc1dkaHNLWC1kTXdRb0tJa0xwUTBSeHZlNktiUjJCSDhWRy00a3hkZEpkZlBMQ0tkSUlSMVpCS3pWQ0NrZml3Z3hPSTdHd093VUl4WXBFYVlrWm5pM0xLTDlCYmR2MmZNRlgyTUpnVUZkUnVSeENscVdDUjdYTnFKWGZCbldUT2dkSDBCTFRzZWR0Z25NUWozakJLdWN4NDJnaUhlZkFvNEpJYmV6OGNrUjg1RjhWQXJyVVNiTGJ1TW1QakZaWm1aa2tZbG5Pa9IB2gFBVV95cUxQczBwZE5ZMS01Nl8tWnNpTTVTczZhWU9nN0dlVWVmVkNzZ25IbmgxZFRaaEx4eHJaa0YxSXR1RzJtMGxNNGhVYjlpT28zYlVPd2MxMFA1RS1FYkpzamRvLVZxcEc0dklEN1YyZW9UOV9QbEpXVlJkd0VvOUgwMURlaFVZX3dXRm5qTWJmbnN1VWVwOUxVRG5ZVkowbHg5ZTVEWVphdzl5ZEZ0TVBLdFV2QUtDeDFWNF9rcUowNEI2YUt1cjVyWnJCclpNcGFJdEVzeUlvUHJHV2Vidw?oc=5",
       "talukas": [],
       "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-09-16T06:48:33.000Z",
-      "lastUpdated": "2026-09-16T06:48:33.000Z",
-      "sourceCheckedAt": "2026-09-19T05:55:03.799Z",
-      "lastVerifiedAt": "2026-09-19T05:55:03.799Z",
-      "intelligenceGeneratedAt": "2026-09-19T05:55:22.869Z",
-      "expiresAt": "2026-09-18T06:48:33.000Z",
-      "lifecycle": "expired",
+      "publishedAt": "2026-09-19T05:38:02.000Z",
+      "lastUpdated": "2026-09-19T05:38:02.000Z",
+      "sourceCheckedAt": "2026-09-19T10:32:46.215Z",
+      "lastVerifiedAt": "2026-09-19T10:32:46.215Z",
+      "intelligenceGeneratedAt": "2026-09-19T10:33:02.486Z",
+      "expiresAt": "2026-09-21T05:38:02.000Z",
+      "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 35,
+      "confidenceScore": 50,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
-      "upstreamId": "google-news-b889d73a",
+      "upstreamId": "google-news-3caa6b44",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-19T05:55:03.799Z",
+      "discoveredAt": "2026-09-19T10:32:46.215Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -271,45 +355,45 @@
       "corroboratedByIndependentSources": false
     },
     {
-      "id": "accident-developing-mact-awards-rs59-45-lakh-to-family-of-pune-teacher-killed-in-2017-acci",
+      "id": "accident-developing-1-killed-6-injured-as-container-truck-rams-multiple-vehicles-in-pune-2",
       "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: MACT awards Rs59.45 lakh to family of Pune teacher killed in 2017 accident",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: 1 killed, 6 injured as container truck rams multiple vehicles in Pune",
       "summary": "A current trusted-media report relevant to Pune District.",
       "category": "accident",
       "severity": "watch",
-      "source": "Times of India",
+      "source": "Indian Express Pune",
       "sourceTrust": "B",
       "sources": [
         {
-          "name": "Times of India",
+          "name": "Indian Express Pune",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQR0Y4LXItUGNQakVXZDg2bVBLX3FDZWF1Yk9CTXpGZDF2VUhVeDBiNEtlMmJPLWFRUmxTcUZDbldpV1RpX1dzclNyMmZnblFRRlZlZWdpamRzbEtoU0l0aTQ3SjF6Zm9UbmRoemxIdHI3X3Znclp5YmVDTDFkQ2pvZno5WTg2MkZZQjl4bHZxNWV0SlR0U3FVVlZVNklvamFlTTdZQ3NKdVNyMFlLallDSlRNVE85ektjMjRpa3g0bVFGVTdoRlhaWnZMR3c3VzU0V0hZMkd2NU5yM2J4OVlj0gHkAUFVX3lxTFA4NEhaOGkxeTNGQjRXa3FZSnhMM051R2s2VmRXV2tDcGo5c2ZLRXBQMi14QVlrdTFMT3lLeXpHMXVZNjUwT2RLczZRN3NEYy1DcDhyY3cwaWdYRGpHWmtaRWtKdURfYktNSjYxeDExWE9uMnB0eWJabVNBVzRFaDMwQnB6M0dILUZSMVFtTUM3a3Y2a1k0aVNZR0NaTy1KSW5xcVpJcGNpRE5Jb1FGdFZBeGhhRnJsaVI4OVJlbXctc1lGVm4xZVo5aWRLMlZ5dXdkenVvUUtDMlhOM1E2YnlHSThLbw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX0tSODViY0MtZVY5Sk5LYWJBZDJkdG9COGJ2dFJIQXEtQ0lVdFgzWmxiM0hDNnh4c1FCcXBuZUoyMzFkLTN1bHJ3T01PcWp1QUw5a0c1Ujg1cTA1TWVnV1dZT1AzWFlTbmRLN1BHZGNhZ1BtRGJBeUsweFBwVFplaTlZN1ljNFd1MWk2V3B3RnlHWGlveUtMM2NfTUVOSVhhd1JvWXZtdjVCYUdi0gGzAUFVX3lxTE5tN2RFNEhVbjFqcGtzNDgya1I3MUJpM1FqS01uYklSWGFQODZiZUl3R2RyYnhCUWpORXBBdVNJVXJhc00tOHZiMnhxdndZeVJZeVBORTVQMFRrdFpaRW9VN3k5Y0hvdFd2bkEzNHlRLVdRcTVTZDFpOXlvbWhIMXFxeXltOE8zQXh6WWp1UGsxbVNyQVdsUXlNaWtpeVhFa2Q5R3hCZ0dxZjVQeS1Wb1RNTXVj?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQR0Y4LXItUGNQakVXZDg2bVBLX3FDZWF1Yk9CTXpGZDF2VUhVeDBiNEtlMmJPLWFRUmxTcUZDbldpV1RpX1dzclNyMmZnblFRRlZlZWdpamRzbEtoU0l0aTQ3SjF6Zm9UbmRoemxIdHI3X3Znclp5YmVDTDFkQ2pvZno5WTg2MkZZQjl4bHZxNWV0SlR0U3FVVlZVNklvamFlTTdZQ3NKdVNyMFlLallDSlRNVE85ektjMjRpa3g0bVFGVTdoRlhaWnZMR3c3VzU0V0hZMkd2NU5yM2J4OVlj0gHkAUFVX3lxTFA4NEhaOGkxeTNGQjRXa3FZSnhMM051R2s2VmRXV2tDcGo5c2ZLRXBQMi14QVlrdTFMT3lLeXpHMXVZNjUwT2RLczZRN3NEYy1DcDhyY3cwaWdYRGpHWmtaRWtKdURfYktNSjYxeDExWE9uMnB0eWJabVNBVzRFaDMwQnB6M0dILUZSMVFtTUM3a3Y2a1k0aVNZR0NaTy1KSW5xcVpJcGNpRE5Jb1FGdFZBeGhhRnJsaVI4OVJlbXctc1lGVm4xZVo5aWRLMlZ5dXdkenVvUUtDMlhOM1E2YnlHSThLbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX0tSODViY0MtZVY5Sk5LYWJBZDJkdG9COGJ2dFJIQXEtQ0lVdFgzWmxiM0hDNnh4c1FCcXBuZUoyMzFkLTN1bHJ3T01PcWp1QUw5a0c1Ujg1cTA1TWVnV1dZT1AzWFlTbmRLN1BHZGNhZ1BtRGJBeUsweFBwVFplaTlZN1ljNFd1MWk2V3B3RnlHWGlveUtMM2NfTUVOSVhhd1JvWXZtdjVCYUdi0gGzAUFVX3lxTE5tN2RFNEhVbjFqcGtzNDgya1I3MUJpM1FqS01uYklSWGFQODZiZUl3R2RyYnhCUWpORXBBdVNJVXJhc00tOHZiMnhxdndZeVJZeVBORTVQMFRrdFpaRW9VN3k5Y0hvdFd2bkEzNHlRLVdRcTVTZDFpOXlvbWhIMXFxeXltOE8zQXh6WWp1UGsxbVNyQVdsUXlNaWtpeVhFa2Q5R3hCZ0dxZjVQeS1Wb1RNTXVj?oc=5",
       "talukas": [],
       "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-09-16T18:57:00.000Z",
-      "lastUpdated": "2026-09-16T18:57:00.000Z",
-      "sourceCheckedAt": "2026-09-19T05:55:03.799Z",
-      "lastVerifiedAt": "2026-09-19T05:55:03.799Z",
-      "intelligenceGeneratedAt": "2026-09-19T05:55:22.869Z",
-      "expiresAt": "2026-09-18T18:57:00.000Z",
-      "lifecycle": "expired",
+      "publishedAt": "2026-09-19T06:19:26.000Z",
+      "lastUpdated": "2026-09-19T06:19:26.000Z",
+      "sourceCheckedAt": "2026-09-19T10:32:46.215Z",
+      "lastVerifiedAt": "2026-09-19T10:32:46.215Z",
+      "intelligenceGeneratedAt": "2026-09-19T10:33:02.486Z",
+      "expiresAt": "2026-09-21T06:19:26.000Z",
+      "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 35,
+      "confidenceScore": 50,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
-      "upstreamId": "google-news-9ffdf730",
+      "upstreamId": "google-news-1e0e06bb",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-19T05:55:03.799Z",
+      "discoveredAt": "2026-09-19T10:32:46.215Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -320,21 +404,129 @@
       "corroboratedByIndependentSources": false
     }
   ],
+  "journeyContext": {
+    "activeRiskEvents": [
+      {
+        "id": "heavy-rain-official-light-to-moderate-spells-of-rain-with-possibility-of-thunder-lightning",
+        "category": "heavy_rain",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "This event may affect local awareness or movement."
+      },
+      {
+        "id": "thunderstorm-official-thunderstorm-accompanied-with-lightning-and-light-to-moderate-spells",
+        "category": "thunderstorm",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "This event may affect local awareness or movement."
+      },
+      {
+        "id": "weather-hazard-developing-parts-of-marathwada-receive-rain-after-dry-spell-five-killed-in-",
+        "category": "weather_hazard",
+        "severity": "warning",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Severe local weather may affect outdoor safety, visibility, power or travel."
+      },
+      {
+        "id": "accident-developing-pune-worker-killed-5-injured-after-container-truck-hits-vehicles-on-hi",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
+        "id": "accident-developing-1-killed-6-injured-as-container-truck-rams-multiple-vehicles-in-pune-2",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      }
+    ]
+  },
+  "expiredEvents": [
+    {
+      "id": "accident-developing-mact-pune-awards-59-45-lakh-to-parents-of-junior-college-teacher-kille",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: MACT Pune awards ₹59.45 lakh to parents of junior college teacher killed in 2017 road accident | Hindustan Times",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbEFFOWRuV2h4Rng3MmpGLTR1RFE1UFlsam9ad0RlTGt5Y2VrNHlYbHFZUjhTdlhlcFZiZ3lpdVVFZDhvcUgwcFloLXBuR3dmdUZPVndOYTdUVl9na1BjOWdjUy02RFBXd243czR1VDJzeHB5cTZzblVRWGhfeTZyTllxX0h6cVdfSVljdjV3WElvRmRnYnB6eXIyX0N0U3VYYkJrVzA2aU1oOUpSa2N0cXgwR3ZCQUNlUlJjY1BZeDB1Umg5VVF0bEoycHpIVElvVThBZ3FVV21XYV9jcEhHZUdqUUJaLWZHSDN3S09yWUl3dUc40gH6AUFVX3lxTE44R01CYzhzcHEyWWIyX0s1TDUyTDJCMTAwR1NnY3BiV0I2Znd2SDFsS2pPbnRrOGl4SmNUZVhiQnNzdENUM21VZnRXZC05QVN2cmVGTXNheU01UWd6QTROMmxMLUk2bVFBZkY3Um93ekRobW8xWE9GZk9VclVDeklKTkZpVFNBOXNLOG1kUnA2MFJ2YTZUNlgydGs3ZkZCSVNQZUEtZUszMUw1a2tUSHYwdzM3cFNIR1lRUnliLUpKU3NRc21qdWpBa1ZXUVp0ejczWnZ2cFc2azA1SFk5U0kzdjhPcUZicThJWFlRRU9sR2xXdzBrZDNac3c?oc=5",
+          "origin": ""
+        },
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQR0Y4LXItUGNQakVXZDg2bVBLX3FDZWF1Yk9CTXpGZDF2VUhVeDBiNEtlMmJPLWFRUmxTcUZDbldpV1RpX1dzclNyMmZnblFRRlZlZWdpamRzbEtoU0l0aTQ3SjF6Zm9UbmRoemxIdHI3X3Znclp5YmVDTDFkQ2pvZno5WTg2MkZZQjl4bHZxNWV0SlR0U3FVVlZVNklvamFlTTdZQ3NKdVNyMFlLallDSlRNVE85ektjMjRpa3g0bVFGVTdoRlhaWnZMR3c3VzU0V0hZMkd2NU5yM2J4OVlj0gHkAUFVX3lxTFA4NEhaOGkxeTNGQjRXa3FZSnhMM051R2s2VmRXV2tDcGo5c2ZLRXBQMi14QVlrdTFMT3lLeXpHMXVZNjUwT2RLczZRN3NEYy1DcDhyY3cwaWdYRGpHWmtaRWtKdURfYktNSjYxeDExWE9uMnB0eWJabVNBVzRFaDMwQnB6M0dILUZSMVFtTUM3a3Y2a1k0aVNZR0NaTy1KSW5xcVpJcGNpRE5Jb1FGdFZBeGhhRnJsaVI4OVJlbXctc1lGVm4xZVo5aWRLMlZ5dXdkenVvUUtDMlhOM1E2YnlHSThLbw?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbEFFOWRuV2h4Rng3MmpGLTR1RFE1UFlsam9ad0RlTGt5Y2VrNHlYbHFZUjhTdlhlcFZiZ3lpdVVFZDhvcUgwcFloLXBuR3dmdUZPVndOYTdUVl9na1BjOWdjUy02RFBXd243czR1VDJzeHB5cTZzblVRWGhfeTZyTllxX0h6cVdfSVljdjV3WElvRmRnYnB6eXIyX0N0U3VYYkJrVzA2aU1oOUpSa2N0cXgwR3ZCQUNlUlJjY1BZeDB1Umg5VVF0bEoycHpIVElvVThBZ3FVV21XYV9jcEhHZUdqUUJaLWZHSDN3S09yWUl3dUc40gH6AUFVX3lxTE44R01CYzhzcHEyWWIyX0s1TDUyTDJCMTAwR1NnY3BiV0I2Znd2SDFsS2pPbnRrOGl4SmNUZVhiQnNzdENUM21VZnRXZC05QVN2cmVGTXNheU01UWd6QTROMmxMLUk2bVFBZkY3Um93ekRobW8xWE9GZk9VclVDeklKTkZpVFNBOXNLOG1kUnA2MFJ2YTZUNlgydGs3ZkZCSVNQZUEtZUszMUw1a2tUSHYwdzM3cFNIR1lRUnliLUpKU3NRc21qdWpBa1ZXUVp0ejczWnZ2cFc2azA1SFk5U0kzdjhPcUZicThJWFlRRU9sR2xXdzBrZDNac3c?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-09-17T02:15:20.000Z",
+      "lastUpdated": "2026-09-17T02:15:20.000Z",
+      "sourceCheckedAt": "2026-09-19T10:32:46.215Z",
+      "lastVerifiedAt": "2026-09-19T10:32:46.215Z",
+      "intelligenceGeneratedAt": "2026-09-19T10:33:02.486Z",
+      "expiresAt": "2026-09-19T02:15:20.000Z",
+      "lifecycle": "expired",
+      "confidence": "Medium",
+      "confidenceScore": 55,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-f3fa01df",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-09-19T10:32:46.215Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [
+        "accident-developing-mact-awards-rs59-45-lakh-to-family-of-pune-teacher-killed-in-2017-acci"
+      ],
+      "independentSourceCount": 2,
+      "corroboratedByIndependentSources": true
+    }
+  ],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-09-19T05:55:03.799Z",
-      "lastSuccessfulAt": "2026-09-19T05:55:03.799Z",
+      "sourceCheckedAt": "2026-09-19T10:32:46.215Z",
+      "lastSuccessfulAt": "2026-09-19T10:32:46.215Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-09-19T05:55:23.702Z",
+      "generatedAt": "2026-09-19T10:33:02.578Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -347,7 +539,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-09-19T05:55:23.702Z",
+      "generatedAt": "2026-09-19T10:33:02.578Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -428,9 +620,11 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-09-19T05:55:23.703Z",
+      "generatedAt": "2026-09-19T10:33:02.578Z",
       "mode": "on-demand",
-      "relevantDomains": [],
+      "relevantDomains": [
+        "highways"
+      ],
       "infrastructure": {
         "highways": [
           "Mumbai-Pune Expressway",
@@ -471,54 +665,94 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-09-19T05:55:23.747Z",
+        "generatedAt": "2026-09-19T10:33:02.632Z",
         "bestRoute": {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
+          "id": "kharadi-hinjawadi-pashan",
+          "label": "Kharadi to Hinjawadi via Pashan",
           "fromAliases": [
             "Kharadi",
-            "EON",
-            "World Trade Center"
+            "EON"
           ],
           "toAliases": [
             "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
+            "Hinjewadi"
           ],
           "via": [
             "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
+            "Yerwada",
+            "Aundh",
+            "Pashan",
+            "Mahalunge",
             "Hinjawadi"
           ],
           "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
+            "Pashan Road",
             "IT Corridor"
           ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "distanceKm": 36,
+          "baseTimeMin": 72,
+          "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 90,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 65,
-          "estimatedDelayMin": 0,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 8,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (90/100). Estimated travel time is about 65 minutes. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Good to Go (85/100). Estimated travel time is about 80 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
+          {
+            "id": "kharadi-hinjawadi-pashan",
+            "label": "Kharadi to Hinjawadi via Pashan",
+            "fromAliases": [
+              "Kharadi",
+              "EON"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi"
+            ],
+            "via": [
+              "Kharadi",
+              "Yerwada",
+              "Aundh",
+              "Pashan",
+              "Mahalunge",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pashan Road",
+              "IT Corridor"
+            ],
+            "distanceKm": 36,
+            "baseTimeMin": 72,
+            "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 85,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+              "reasons": [
+                "Low visibility may make driving unsafe."
+              ],
+              "penalties": []
+            },
+            "estimatedTimeMin": 80,
+            "estimatedDelayMin": 8,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Good to Go (85/100). Estimated travel time is about 80 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
+          },
           {
             "id": "kharadi-hinjawadi-nh48",
             "label": "Kharadi to Hinjawadi via NH48",
@@ -550,63 +784,28 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 90,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
+              "score": 65,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
-                "Moderate rainfall may slow travel."
+                "Developing: Pune: Worker killed, 5 injured after container truck hits vehicles on highway | India News may cause delays or safety concerns.",
+                "Low visibility may make driving unsafe."
               ],
-              "penalties": []
+              "penalties": [
+                {
+                  "eventId": "accident-developing-pune-worker-killed-5-injured-after-container-truck-hits-vehicles-on-hi",
+                  "category": "accident",
+                  "penalty": 20,
+                  "title": "Developing: Pune: Worker killed, 5 injured after container truck hits vehicles on highway | India News"
+                }
+              ]
             },
-            "estimatedTimeMin": 65,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 80,
+            "estimatedDelayMin": 15,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-            "rank": 1,
-            "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (90/100). Estimated travel time is about 65 minutes. Main reason: Moderate rainfall may slow travel."
-          },
-          {
-            "id": "kharadi-hinjawadi-pashan",
-            "label": "Kharadi to Hinjawadi via Pashan",
-            "fromAliases": [
-              "Kharadi",
-              "EON"
-            ],
-            "toAliases": [
-              "Hinjawadi",
-              "Hinjewadi"
-            ],
-            "via": [
-              "Kharadi",
-              "Yerwada",
-              "Aundh",
-              "Pashan",
-              "Mahalunge",
-              "Hinjawadi"
-            ],
-            "operationalZones": [
-              "Pashan Road",
-              "IT Corridor"
-            ],
-            "distanceKm": 36,
-            "baseTimeMin": 72,
-            "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 90,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [
-                "Moderate rainfall may slow travel."
-              ],
-              "penalties": []
-            },
-            "estimatedTimeMin": 72,
-            "estimatedDelayMin": 0,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (90/100). Estimated travel time is about 72 minutes. Main reason: Moderate rainfall may slow travel."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Developing: Pune: Worker killed, 5 injured after container truck hits vehicles on highway | India News may cause delays or safety concerns."
           }
         ]
       },
@@ -615,7 +814,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-09-19T05:55:23.747Z",
+        "generatedAt": "2026-09-19T10:33:02.632Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -645,20 +844,20 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 90,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 95,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 103,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (90/100). Estimated travel time is about 95 minutes. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -690,20 +889,20 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 90,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
+              "score": 85,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
-                "Moderate rainfall may slow travel."
+                "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 95,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 103,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (90/100). Estimated travel time is about 95 minutes. Main reason: Moderate rainfall may slow travel."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -712,7 +911,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-09-19T05:55:23.747Z",
+        "generatedAt": "2026-09-19T10:33:02.632Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -741,20 +940,20 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 90,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
+            "score": 85,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 35,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 43,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (90/100). Estimated travel time is about 35 minutes. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -785,20 +984,20 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 90,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
+              "score": 85,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
-                "Moderate rainfall may slow travel."
+                "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
-            "estimatedTimeMin": 35,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 43,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (90/100). Estimated travel time is about 35 minutes. Main reason: Moderate rainfall may slow travel."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       }

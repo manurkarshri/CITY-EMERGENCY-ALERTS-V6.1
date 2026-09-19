@@ -1,8 +1,26 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-19T05:55:22.869Z",
+  "generatedAt": "2026-09-19T10:33:02.486Z",
   "routes": [],
   "risks": [
+    {
+      "id": "heavy-rain-official-light-to-moderate-spells-of-rain-with-possibility-of-thunder-lightning",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "thunderstorm-official-thunderstorm-accompanied-with-lightning-and-light-to-moderate-spells",
+      "category": "thunderstorm",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
     {
       "id": "weather-hazard-developing-parts-of-marathwada-receive-rain-after-dry-spell-five-killed-in-",
       "category": "weather_hazard",
@@ -11,6 +29,24 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Severe local weather may affect outdoor safety, visibility, power or travel."
+    },
+    {
+      "id": "accident-developing-pune-worker-killed-5-injured-after-container-truck-hits-vehicles-on-hi",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-1-killed-6-injured-as-container-truck-rams-multiple-vehicles-in-pune-2",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
     }
   ]
 }
