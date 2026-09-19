@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-19T19:20:12.847Z",
+  "generatedAt": "2026-09-19T21:38:06.731Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,36 +8,33 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-09-19T19:20:12.846Z",
+      "generatedAt": "2026-09-19T21:38:06.731Z",
       "bestRoute": {
-        "id": "kharadi-hinjawadi-nh48",
-        "label": "Kharadi to Hinjawadi via NH48",
+        "id": "kharadi-hinjawadi-pashan",
+        "label": "Kharadi to Hinjawadi via Pashan",
         "fromAliases": [
           "Kharadi",
-          "EON",
-          "World Trade Center"
+          "EON"
         ],
         "toAliases": [
           "Hinjawadi",
-          "Hinjewadi",
-          "Rajiv Gandhi Infotech Park"
+          "Hinjewadi"
         ],
         "via": [
           "Kharadi",
-          "Viman Nagar",
-          "Shivajinagar",
-          "Baner",
-          "Wakad",
+          "Yerwada",
+          "Aundh",
+          "Pashan",
+          "Mahalunge",
           "Hinjawadi"
         ],
         "operationalZones": [
-          "Pune-Ahmednagar Highway",
-          "NH48",
+          "Pashan Road",
           "IT Corridor"
         ],
-        "distanceKm": 33,
-        "baseTimeMin": 65,
-        "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+        "distanceKm": 36,
+        "baseTimeMin": 72,
+        "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
         "routeType": "known-corridor",
         "journeySuitability": {
           "score": 100,
@@ -46,58 +43,14 @@
           "reasons": [],
           "penalties": []
         },
-        "estimatedTimeMin": 65,
+        "estimatedTimeMin": 72,
         "estimatedDelayMin": 0,
-        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
       },
       "routes": [
-        {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
-          "fromAliases": [
-            "Kharadi",
-            "EON",
-            "World Trade Center"
-          ],
-          "toAliases": [
-            "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
-          ],
-          "via": [
-            "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
-            "Hinjawadi"
-          ],
-          "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
-            "IT Corridor"
-          ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-          "routeType": "known-corridor",
-          "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
-          },
-          "estimatedTimeMin": 65,
-          "estimatedDelayMin": 0,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-          "rank": 1,
-          "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
-        },
         {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -135,9 +88,62 @@
           "estimatedTimeMin": 72,
           "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+        },
+        {
+          "id": "kharadi-hinjawadi-nh48",
+          "label": "Kharadi to Hinjawadi via NH48",
+          "fromAliases": [
+            "Kharadi",
+            "EON",
+            "World Trade Center"
+          ],
+          "toAliases": [
+            "Hinjawadi",
+            "Hinjewadi",
+            "Rajiv Gandhi Infotech Park"
+          ],
+          "via": [
+            "Kharadi",
+            "Viman Nagar",
+            "Shivajinagar",
+            "Baner",
+            "Wakad",
+            "Hinjawadi"
+          ],
+          "operationalZones": [
+            "Pune-Ahmednagar Highway",
+            "NH48",
+            "IT Corridor"
+          ],
+          "distanceKm": 33,
+          "baseTimeMin": 65,
+          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 90,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [
+              "Official: Light spells of rain with possibility of thunder/lightning very likely to occur at isolated places over Ahilyanagar, Pune in next 3 hours. may have minor impact on travel."
+            ],
+            "penalties": [
+              {
+                "eventId": "thunderstorm-official-light-spells-of-rain-with-possibility-of-thunder-lightning-very-like",
+                "category": "thunderstorm",
+                "penalty": 10,
+                "title": "Official: Light spells of rain with possibility of thunder/lightning very likely to occur at isolated places over Ahilyanagar, Pune in next 3 hours."
+              }
+            ]
+          },
+          "estimatedTimeMin": 65,
+          "estimatedDelayMin": 0,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Excellent (90/100). Estimated travel time is about 65 minutes. Main reason: Official: Light spells of rain with possibility of thunder/lightning very likely to occur at isolated places over Ahilyanagar, Pune in next 3 hours. may have minor impact on travel."
         }
       ]
     },
@@ -146,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-09-19T19:20:12.846Z",
+      "generatedAt": "2026-09-19T21:38:06.731Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -239,7 +245,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-09-19T19:20:12.847Z",
+      "generatedAt": "2026-09-19T21:38:06.731Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
