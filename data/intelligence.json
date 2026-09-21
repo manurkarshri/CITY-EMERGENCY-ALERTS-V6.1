@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-21T06:52:58.310Z",
+  "generatedAt": "2026-09-21T13:45:16.592Z",
   "status": "stale",
   "situation": {
-    "snapshot": "Moderate rainfall may slow travel in some areas. 1 important alert require attention.",
+    "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-09-21T06:52:58.369Z",
+      "generatedAt": "2026-09-21T13:45:16.646Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,25 +13,25 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-21T06:52:36.214Z",
-          "observedAt": "2026-09-21T12:15:00+05:30",
-          "temp": 32.2,
-          "currentRain": 0,
-          "rain6h": 16.5,
-          "rain24h": 17.7,
+          "sourceCheckedAt": "2026-09-21T13:45:00.831Z",
+          "observedAt": "2026-09-21T19:15:00+05:30",
+          "temp": 24.3,
+          "currentRain": 0.2,
+          "rain6h": 6.8,
+          "rain24h": 17.3,
           "precipitationProbability": 100,
-          "wind": 20.5,
-          "gust": 20.5,
-          "humidity": 47,
-          "visibility": 2,
-          "weatherCode": 3,
-          "rainRisk": "Medium",
-          "windRisk": "Low",
-          "visibilityRisk": "Medium",
+          "wind": 19.4,
+          "gust": 19.4,
+          "humidity": 91,
+          "visibility": 2.3,
+          "weatherCode": 53,
+          "rainRisk": "Low",
+          "windRisk": "Minimal",
+          "visibilityRisk": "Low",
           "heatRisk": "Normal",
-          "travelImpact": "Medium",
+          "travelImpact": "Low",
           "advice": [
-            "Moderate rainfall may slow travel in low-lying areas."
+            "No major weather-related disruption indicated."
           ]
         },
         "pcmc": {
@@ -40,18 +40,18 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-21T06:52:36.214Z",
-          "observedAt": "2026-09-21T12:15:00+05:30",
-          "temp": 30.2,
+          "sourceCheckedAt": "2026-09-21T13:45:00.831Z",
+          "observedAt": "2026-09-21T19:15:00+05:30",
+          "temp": 24.1,
           "currentRain": 0,
-          "rain6h": 9.9,
-          "rain24h": 11.2,
+          "rain6h": 7.2,
+          "rain24h": 18.1,
           "precipitationProbability": 100,
-          "wind": 19.4,
-          "gust": 19.4,
-          "humidity": 62,
+          "wind": 16.2,
+          "gust": 16.2,
+          "humidity": 92,
           "visibility": 2.1,
-          "weatherCode": 3,
+          "weatherCode": 51,
           "rainRisk": "Low",
           "windRisk": "Minimal",
           "visibilityRisk": "Low",
@@ -67,45 +67,18 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-21T06:52:36.214Z",
-          "observedAt": "2026-09-21T12:15:00+05:30",
-          "temp": 32.2,
-          "currentRain": 0,
-          "rain6h": 16.5,
-          "rain24h": 17.7,
+          "sourceCheckedAt": "2026-09-21T13:45:00.831Z",
+          "observedAt": "2026-09-21T19:15:00+05:30",
+          "temp": 24.3,
+          "currentRain": 0.2,
+          "rain6h": 6.8,
+          "rain24h": 17.3,
           "precipitationProbability": 100,
-          "wind": 20.5,
-          "gust": 20.5,
-          "humidity": 47,
-          "visibility": 2,
-          "weatherCode": 3,
-          "rainRisk": "Medium",
-          "windRisk": "Low",
-          "visibilityRisk": "Medium",
-          "heatRisk": "Normal",
-          "travelImpact": "Medium",
-          "advice": [
-            "Moderate rainfall may slow travel in low-lying areas."
-          ]
-        },
-        "mulshi": {
-          "label": "Mulshi",
-          "latitude": 18.523726,
-          "longitude": 73.51617,
-          "source": "Open-Meteo",
-          "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-21T06:52:36.214Z",
-          "observedAt": "2026-09-21T12:15:00+05:30",
-          "temp": 28.9,
-          "currentRain": 0,
-          "rain6h": 6.4,
-          "rain24h": 7.7,
-          "precipitationProbability": 100,
-          "wind": 15.1,
-          "gust": 15.1,
-          "humidity": 68,
-          "visibility": 2.1,
-          "weatherCode": 3,
+          "wind": 19.4,
+          "gust": 19.4,
+          "humidity": 91,
+          "visibility": 2.3,
+          "weatherCode": 53,
           "rainRisk": "Low",
           "windRisk": "Minimal",
           "visibilityRisk": "Low",
@@ -115,27 +88,54 @@
             "No major weather-related disruption indicated."
           ]
         },
+        "mulshi": {
+          "label": "Mulshi",
+          "latitude": 18.523726,
+          "longitude": 73.51617,
+          "source": "Open-Meteo",
+          "sourceUrl": "https://open-meteo.com/",
+          "sourceCheckedAt": "2026-09-21T13:45:00.831Z",
+          "observedAt": "2026-09-21T19:15:00+05:30",
+          "temp": 22.9,
+          "currentRain": 0,
+          "rain6h": 0.1,
+          "rain24h": 9.4,
+          "precipitationProbability": 100,
+          "wind": 11.5,
+          "gust": 11.5,
+          "humidity": 98,
+          "visibility": 0.3,
+          "weatherCode": 3,
+          "rainRisk": "Low",
+          "windRisk": "Minimal",
+          "visibilityRisk": "High",
+          "heatRisk": "Normal",
+          "travelImpact": "High",
+          "advice": [
+            "Low visibility may make driving unsafe."
+          ]
+        },
         "maval": {
           "label": "Maval / Lonavala",
           "latitude": 18.80492,
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-09-21T06:52:36.214Z",
-          "observedAt": "2026-09-21T12:15:00+05:30",
-          "temp": 25.4,
-          "currentRain": 0,
-          "rain6h": 5.5,
-          "rain24h": 7.9,
+          "sourceCheckedAt": "2026-09-21T13:45:00.831Z",
+          "observedAt": "2026-09-21T19:15:00+05:30",
+          "temp": 22.6,
+          "currentRain": 0.1,
+          "rain6h": 0.1,
+          "rain24h": 20.9,
           "precipitationProbability": 100,
-          "wind": 20.9,
-          "gust": 20.9,
-          "humidity": 84,
-          "visibility": 2.4,
-          "weatherCode": 95,
+          "wind": 6.8,
+          "gust": 6.8,
+          "humidity": 98,
+          "visibility": 7.2,
+          "weatherCode": 51,
           "rainRisk": "Low",
-          "windRisk": "Low",
-          "visibilityRisk": "Low",
+          "windRisk": "Minimal",
+          "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
           "advice": [
@@ -146,13 +146,12 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-09-21T06:52:58.855Z",
-      "riskLevel": "Elevated",
+      "generatedAt": "2026-09-21T13:45:16.682Z",
+      "riskLevel": "Normal",
       "impacts": [
-        "2 area(s) have elevated rain-related travel impact.",
         "1 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "2 area(s) have elevated rain-related travel impact. 1 active transport-related event(s) may affect travel.",
+      "citizenSummary": "1 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
@@ -182,13 +181,13 @@
       "operationalZones": [],
       "publishedAt": "2026-09-21T02:21:00.000Z",
       "lastUpdated": "2026-09-21T02:21:00.000Z",
-      "sourceCheckedAt": "2026-09-21T06:52:36.411Z",
-      "lastVerifiedAt": "2026-09-21T06:52:36.411Z",
-      "intelligenceGeneratedAt": "2026-09-21T06:52:58.310Z",
+      "sourceCheckedAt": "2026-09-21T13:45:01.416Z",
+      "lastVerifiedAt": "2026-09-21T13:45:01.416Z",
+      "intelligenceGeneratedAt": "2026-09-21T13:45:16.592Z",
       "expiresAt": "2026-09-21T14:21:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
       "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
       "affectedArea": "",
@@ -237,13 +236,13 @@
       ],
       "publishedAt": "2026-09-21T02:12:00.000Z",
       "lastUpdated": "2026-09-21T02:12:00.000Z",
-      "sourceCheckedAt": "2026-09-21T06:52:36.411Z",
-      "lastVerifiedAt": "2026-09-21T06:52:36.411Z",
-      "intelligenceGeneratedAt": "2026-09-21T06:52:58.310Z",
+      "sourceCheckedAt": "2026-09-21T13:45:01.416Z",
+      "lastVerifiedAt": "2026-09-21T13:45:01.416Z",
+      "intelligenceGeneratedAt": "2026-09-21T13:45:16.592Z",
       "expiresAt": "2026-09-22T02:12:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 70,
+      "confidenceScore": 63,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "",
@@ -316,9 +315,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-19T06:19:26.000Z",
       "lastUpdated": "2026-09-19T06:19:26.000Z",
-      "sourceCheckedAt": "2026-09-21T06:52:36.411Z",
-      "lastVerifiedAt": "2026-09-21T06:52:36.411Z",
-      "intelligenceGeneratedAt": "2026-09-21T06:52:58.310Z",
+      "sourceCheckedAt": "2026-09-21T13:45:01.416Z",
+      "lastVerifiedAt": "2026-09-21T13:45:01.416Z",
+      "intelligenceGeneratedAt": "2026-09-21T13:45:16.592Z",
       "expiresAt": "2026-09-21T06:19:26.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -331,7 +330,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-21T06:52:36.411Z",
+      "discoveredAt": "2026-09-21T13:45:01.416Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -365,9 +364,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-19T05:38:02.000Z",
       "lastUpdated": "2026-09-19T05:38:02.000Z",
-      "sourceCheckedAt": "2026-09-21T06:52:36.411Z",
-      "lastVerifiedAt": "2026-09-21T06:52:36.411Z",
-      "intelligenceGeneratedAt": "2026-09-21T06:52:58.310Z",
+      "sourceCheckedAt": "2026-09-21T13:45:01.416Z",
+      "lastVerifiedAt": "2026-09-21T13:45:01.416Z",
+      "intelligenceGeneratedAt": "2026-09-21T13:45:16.592Z",
       "expiresAt": "2026-09-21T05:38:02.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -380,7 +379,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-21T06:52:36.411Z",
+      "discoveredAt": "2026-09-21T13:45:01.416Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -397,15 +396,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-09-21T06:52:36.411Z",
-      "lastSuccessfulAt": "2026-09-21T06:52:36.411Z",
-      "error": "imd_nowcast: fetch failed; indian_express_pune: Indian Express RSS request failed with HTTP 403"
+      "sourceCheckedAt": "2026-09-21T13:45:01.416Z",
+      "lastSuccessfulAt": "2026-09-21T13:45:01.416Z",
+      "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-09-21T06:52:58.855Z",
+      "generatedAt": "2026-09-21T13:45:16.681Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -418,7 +417,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-09-21T06:52:58.854Z",
+      "generatedAt": "2026-09-21T13:45:16.681Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -499,7 +498,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-09-21T06:52:58.855Z",
+      "generatedAt": "2026-09-21T13:45:16.682Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -544,7 +543,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-09-21T06:52:58.909Z",
+        "generatedAt": "2026-09-21T13:45:16.735Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -576,11 +575,11 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 80,
+            "score": 85,
             "label": "Good to Go",
             "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
@@ -589,7 +588,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Good to Go (80/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Good to Go (85/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -623,11 +622,11 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 80,
+              "score": 85,
               "label": "Good to Go",
               "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
-                "Moderate rainfall may slow travel."
+                "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
@@ -636,7 +635,7 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Good to Go (80/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Moderate rainfall may slow travel."
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Good to Go (85/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           },
           {
             "id": "kharadi-hinjawadi-pashan",
@@ -666,11 +665,11 @@
             "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 80,
+              "score": 85,
               "label": "Good to Go",
               "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
-                "Moderate rainfall may slow travel."
+                "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
@@ -679,7 +678,7 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Good to Go (80/100). Estimated travel time is about 80 minutes including around 8 minutes delay. Main reason: Moderate rainfall may slow travel."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Good to Go (85/100). Estimated travel time is about 80 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -688,7 +687,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-09-21T06:52:58.909Z",
+        "generatedAt": "2026-09-21T13:45:16.735Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -718,11 +717,11 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 80,
+            "score": 85,
             "label": "Good to Go",
             "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
@@ -731,7 +730,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -763,11 +762,11 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 80,
+              "score": 85,
               "label": "Good to Go",
               "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
-                "Moderate rainfall may slow travel."
+                "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
@@ -776,7 +775,7 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Moderate rainfall may slow travel."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (85/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       },
@@ -785,7 +784,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-09-21T06:52:58.909Z",
+        "generatedAt": "2026-09-21T13:45:16.735Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -814,11 +813,11 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 80,
+            "score": 85,
             "label": "Good to Go",
             "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Moderate rainfall may slow travel."
+              "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
@@ -827,7 +826,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Moderate rainfall may slow travel."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         "routes": [
           {
@@ -858,11 +857,11 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 80,
+              "score": 85,
               "label": "Good to Go",
               "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
-                "Moderate rainfall may slow travel."
+                "Low visibility may make driving unsafe."
               ],
               "penalties": []
             },
@@ -871,7 +870,7 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Moderate rainfall may slow travel."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (85/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Low visibility may make driving unsafe."
           }
         ]
       }
