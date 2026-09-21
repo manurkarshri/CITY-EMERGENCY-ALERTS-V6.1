@@ -1,28 +1,30 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-21T01:25:36.519Z",
+  "generatedAt": "2026-09-21T06:52:58.310Z",
   "routes": [],
   "risks": [
     {
-      "id": "accident-developing-1-killed-7-injured-after-truck-rams-multiple-vehicles-on-mumbai-bengal",
+      "id": "structural-collapse-developing-navale-bridge-crash-puts-pending-gradient-correction-back-i",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+    },
+    {
+      "id": "accident-developing-woman-run-over-by-car-after-objecting-to-drinking-in-balewadi-2026-09-",
       "category": "accident",
       "severity": "watch",
       "localities": [
-        "Narhe"
+        "Balewadi"
       ],
       "talukas": [
         "pune_city"
       ],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "accident-developing-1-killed-6-injured-as-container-truck-rams-multiple-vehicles-in-pune-2",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
+      "operationalZones": [
+        "Balewadi"
+      ],
       "impact": "Traffic delays are likely near the incident location."
     }
   ]
