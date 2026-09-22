@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-09-22T11:57:45.477Z",
-  "lastSuccessfulAt": "2026-09-22T11:57:45.477Z",
+  "sourceCheckedAt": "2026-09-22T16:47:38.529Z",
+  "lastSuccessfulAt": "2026-09-22T16:47:38.529Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-22T11:57:45.477Z",
-      "lastSuccessfulAt": "2026-09-22T11:57:45.477Z",
+      "sourceCheckedAt": "2026-09-22T16:47:38.529Z",
+      "lastSuccessfulAt": "2026-09-22T16:47:38.529Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,17 +23,17 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-22T11:57:45.477Z",
-      "lastSuccessfulAt": "2026-09-22T11:57:45.477Z",
+      "sourceCheckedAt": "2026-09-22T16:47:38.529Z",
+      "lastSuccessfulAt": "2026-09-22T16:47:38.529Z",
       "error": null,
-      "etag": "W/\"9264-1790075859466\"",
+      "etag": "W/\"9285-1790085095022\"",
       "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-09-22T11:57:45.477Z",
+      "sourceCheckedAt": "2026-09-22T16:47:38.529Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-22T11:57:45.477Z",
-      "lastSuccessfulAt": "2026-09-22T11:57:45.477Z",
+      "sourceCheckedAt": "2026-09-22T16:47:38.529Z",
+      "lastSuccessfulAt": "2026-09-22T16:47:38.529Z",
       "error": null,
       "etag": null,
       "itemsCollected": 1
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-22T11:57:45.477Z",
-      "lastSuccessfulAt": "2026-09-22T11:57:45.477Z",
+      "sourceCheckedAt": "2026-09-22T16:47:38.529Z",
+      "lastSuccessfulAt": "2026-09-22T16:47:38.529Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-09-22T11:57:45.477Z",
+      "sourceCheckedAt": "2026-09-22T16:47:38.529Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,18 +69,18 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-22T11:57:45.477Z",
-      "lastSuccessfulAt": "2026-09-22T11:57:45.477Z",
+      "sourceCheckedAt": "2026-09-22T16:47:38.529Z",
+      "lastSuccessfulAt": "2026-09-22T16:47:38.529Z",
       "error": null,
       "etag": null,
-      "itemsCollected": 0
+      "itemsCollected": 1
     },
     {
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-22T11:57:45.477Z",
-      "lastSuccessfulAt": "2026-09-22T11:57:45.477Z",
+      "sourceCheckedAt": "2026-09-22T16:47:38.529Z",
+      "lastSuccessfulAt": "2026-09-22T16:47:38.529Z",
       "error": null,
       "itemsCollected": 0,
       "itemsQualified": 0
@@ -98,9 +98,28 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/dumper-hits-motorcycle-in-mohammadwadi-leaving-one-dead-101790015682636.html",
       "publishedAt": "2026-09-22T02:13:10.000Z",
       "lastUpdated": "2026-09-22T02:13:10.000Z",
-      "sourceCheckedAt": "2026-09-22T11:57:45.477Z",
-      "lastVerifiedAt": "2026-09-22T11:57:45.477Z",
+      "sourceCheckedAt": "2026-09-22T16:47:38.529Z",
+      "lastVerifiedAt": "2026-09-22T16:47:38.529Z",
       "expiresAt": "2026-09-23T02:13:10.000Z"
+    },
+    {
+      "sourceId": "esakal",
+      "collectionSourceId": "newsdata_io",
+      "upstreamId": "aee4a6647138e6a54b5f0a61b0301abe",
+      "title": "Developing: Pune News: गणेशोत्सवातील गर्दीने पुणेकर धास्तावले; ‘दुर्घटना होण्याची वाट बघायची का?’ प्रशासनासह नागरिकांनाही सवाल",
+      "summary": "Pune Ganeshotsav crowd news: पुण्यातील गणेशोत्सवात मध्यवर्ती पेठांमध्ये प्रचंड गर्दी, बंदिस्त देखावे आणि ढिसाळ नियोजनामुळे चेंगराचेंगरीसदृश परिस्थिती; नागरिकांचा सवाल – दुर्घटना होण्याची वाट बघायची का, प्रशासन-पोलिस-मंडळे व नागरिकांनी समन्वयाने उपाययोजना कराव्यात. Pune Ganeshotsav crowd management: Poor planning, sudden road closures and selfie craze spark near-stampede fears as citizens demand coordinated safety measures from authorities and mandals.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "eSakal Pune",
+      "sourceTrust": "B",
+      "link": "https://www.esakal.com/pune/pune-ganeshotsav-crowd-raises-safety-concerns-as-citizens-question-poor-planning-and-lack-of-self-discipline-sdj87",
+      "publishedAt": "2026-09-22T04:35:00.000Z",
+      "lastUpdated": "2026-09-22T04:35:00.000Z",
+      "sourceCheckedAt": "2026-09-22T16:47:38.529Z",
+      "lastVerifiedAt": "2026-09-22T16:47:38.529Z",
+      "expiresAt": "2026-09-24T04:35:00.000Z",
+      "collectionProvider": "NewsData.io",
+      "sourceOrigin": ""
     }
   ]
 }
