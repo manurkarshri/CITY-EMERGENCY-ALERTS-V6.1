@@ -2,9 +2,9 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-09-23T01:24:23.716Z",
-  "lastSuccessfulAt": "2026-09-23T01:24:23.716Z",
-  "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
+  "sourceCheckedAt": "2026-09-23T06:27:06.706Z",
+  "lastSuccessfulAt": "2026-09-23T06:27:06.706Z",
+  "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403; pune_metro: This operation was aborted",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
   ],
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-23T01:24:23.716Z",
-      "lastSuccessfulAt": "2026-09-23T01:24:23.716Z",
+      "sourceCheckedAt": "2026-09-23T06:27:06.706Z",
+      "lastSuccessfulAt": "2026-09-23T06:27:06.706Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,17 +23,17 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-23T01:24:23.716Z",
-      "lastSuccessfulAt": "2026-09-23T01:24:23.716Z",
+      "sourceCheckedAt": "2026-09-23T06:27:06.706Z",
+      "lastSuccessfulAt": "2026-09-23T06:27:06.706Z",
       "error": null,
-      "etag": "W/\"9230-1790119370942\"",
+      "etag": "W/\"9253-1790139437593\"",
       "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-09-23T01:24:23.716Z",
+      "sourceCheckedAt": "2026-09-23T06:27:06.706Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,27 +41,25 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-23T01:24:23.716Z",
-      "lastSuccessfulAt": "2026-09-23T01:24:23.716Z",
-      "error": null,
-      "etag": null,
-      "itemsCollected": 1
-    },
-    {
-      "id": "pune_metro",
-      "name": "Pune Metro Official Updates",
-      "status": "healthy",
-      "sourceCheckedAt": "2026-09-23T01:24:23.716Z",
-      "lastSuccessfulAt": "2026-09-23T01:24:23.716Z",
+      "sourceCheckedAt": "2026-09-23T06:27:06.706Z",
+      "lastSuccessfulAt": "2026-09-23T06:27:06.706Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
     },
     {
+      "id": "pune_metro",
+      "name": "Pune Metro Official Updates",
+      "status": "unavailable",
+      "sourceCheckedAt": "2026-09-23T06:27:06.706Z",
+      "lastSuccessfulAt": "2026-09-23T01:24:23.716Z",
+      "error": "This operation was aborted"
+    },
+    {
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-09-23T01:24:23.716Z",
+      "sourceCheckedAt": "2026-09-23T06:27:06.706Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,8 +67,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-23T01:24:23.716Z",
-      "lastSuccessfulAt": "2026-09-23T01:24:23.716Z",
+      "sourceCheckedAt": "2026-09-23T06:27:06.706Z",
+      "lastSuccessfulAt": "2026-09-23T06:27:06.706Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -79,28 +77,40 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-09-23T01:24:23.716Z",
-      "lastSuccessfulAt": "2026-09-23T01:24:23.716Z",
+      "sourceCheckedAt": "2026-09-23T06:27:06.706Z",
+      "lastSuccessfulAt": "2026-09-23T06:27:06.706Z",
       "error": null,
-      "itemsCollected": 0,
-      "itemsQualified": 0
+      "itemsCollected": 1,
+      "itemsQualified": 1
     }
   ],
   "items": [
     {
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Dumper hits motorcycle in Mohammadwadi, leaving one dead",
-      "summary": "The accident occurred around 5 pm near the Shiv Shambhu Mahadev temple on the road connecting Lavanya Hotel to Raheja Vista Chowk",
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "collectionSourceId": "google_news_discovery",
+      "upstreamId": "google-news-290204d9",
+      "title": "Developing: Heavy vehicle norms only on paper, say residents of Pune’s Mohammedwadi after another fatal crash",
+      "summary": "A current trusted-media report relevant to Pune District.",
       "category": "accident",
       "severity": "watch",
-      "source": "Hindustan Times Pune",
+      "source": "Times of India",
       "sourceTrust": "B",
-      "link": "https://www.hindustantimes.com/cities/pune-news/dumper-hits-motorcycle-in-mohammadwadi-leaving-one-dead-101790015682636.html",
-      "publishedAt": "2026-09-22T02:13:10.000Z",
-      "lastUpdated": "2026-09-22T02:13:10.000Z",
-      "sourceCheckedAt": "2026-09-23T01:24:23.716Z",
-      "lastVerifiedAt": "2026-09-23T01:24:23.716Z",
-      "expiresAt": "2026-09-23T02:13:10.000Z"
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOcThra0d4UkcxUHJaQnhVRUQ2WnZ3cDN3MkdsX3lvcER6R1IyMTRBM0xNbXdDSUZ1RkkzemU4UTR4WXM4OElDWFRhcDdfOEVieGl0TkVUU0NsTEJnd3hUMVJEVnktYjdtNkgxUHIyNjVjZFlDRENfLTExZ1lqQkpUbWw1OHJwR1ZGUnhnOTBaZlFkVE1RZVlrOTIzTE45U1NHNXBOWHlLZ1BlMnl2dDNwNi1FaDcyRGRWdTNFNy1WbmNlT1g1bHBoRnlRVmlZNVMzZGE1dlhON2VRMy1mU1g4OWtwWlMxcm1UVlozZEEwYTJpVUd1Ql9Bbkloa9IBgAJBVV95cUxNVElna291dTJXZTNMS0kyc1ZrTjhsWUVtV2NWZ2NPcFQzYmYzb3drc2U2R253QXlmeVFQTU9HRzRrLVpzRmRnNHJFcEttendpWXBMZXUtbUtyb1lkd05NTmRpZThPRC1FOHVabDA3d2NMM2lyRzNFazlJcl82WXJrMHg2RVliS09qa2pFYkpLblptZTFOWVpZVG9va0FfTkh4Y1JkNVU4dW5iTC16eFpkY05DeGxjc0p1d2QyazJ6Y1F5LXlURGxuMTc1SzgtTGFyOGNUYmZOemRibjFRNFp4dzdHM21NSXZRczhCblREdjNpTklNTjBqMlFXY3JISnp4?oc=5",
+      "sourceOrigin": "",
+      "publishedAt": "2026-09-22T19:42:00.000Z",
+      "discoveredAt": "2026-09-23T06:27:06.706Z",
+      "lastUpdated": "2026-09-22T19:42:00.000Z",
+      "sourceCheckedAt": "2026-09-23T06:27:06.706Z",
+      "lastVerifiedAt": "2026-09-23T06:27:06.706Z",
+      "expiresAt": "2026-09-24T19:42:00.000Z",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "geographicScope": "pune_district",
+      "affectedArea": "Pune District",
+      "talukas": [],
+      "localities": []
     }
   ]
 }
