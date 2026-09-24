@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-24T17:19:02.510Z",
+  "generatedAt": "2026-09-24T20:40:47.447Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-09-24T17:19:02.510Z",
+      "generatedAt": "2026-09-24T20:40:47.447Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -40,20 +40,20 @@
         "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 70,
-          "label": "Proceed with Caution",
-          "recommendation": "Proceed with caution and allow extra travel time.",
+          "score": 55,
+          "label": "Consider Delaying",
+          "recommendation": "Consider delaying or checking alternate routes.",
           "reasons": [
             "Low visibility may make driving unsafe."
           ],
           "penalties": []
         },
-        "estimatedTimeMin": 80,
-        "estimatedDelayMin": 15,
+        "estimatedTimeMin": 90,
+        "estimatedDelayMin": 25,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
       },
       "routes": [
         {
@@ -87,20 +87,20 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 55,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
               "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 80,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 90,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
         },
         {
           "id": "kharadi-hinjawadi-pashan",
@@ -130,20 +130,20 @@
           "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 55,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
               "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 87,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 97,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 87 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Consider Delaying (55/100). Estimated travel time is about 97 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
         }
       ]
     },
@@ -152,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-09-24T17:19:02.510Z",
+      "generatedAt": "2026-09-24T20:40:47.447Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -182,12 +182,11 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 10,
+          "score": 15,
           "label": "Avoid if Possible",
           "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
             "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns.",
-            "Developing: Watch: Massive Blaze Engulfs Bus On Mumbai-Pune Expressway, Passengers Escape | HT India | Videos may cause delays or safety concerns.",
             "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt may cause delays or safety concerns.",
             "Low visibility may make driving unsafe."
           ],
@@ -197,12 +196,6 @@
               "category": "accident",
               "penalty": 20,
               "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway"
-            },
-            {
-              "eventId": "fire-developing-watch-massive-blaze-engulfs-bus-on-mumbai-pune-expressway-passengers-escap",
-              "category": "fire",
-              "penalty": 20,
-              "title": "Developing: Watch: Massive Blaze Engulfs Bus On Mumbai-Pune Expressway, Passengers Escape | HT India | Videos"
             },
             {
               "eventId": "accident-developing-company-manager-killed-in-hit-and-run-on-mumbai-pune-expressway-3-coll",
@@ -217,7 +210,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (10/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (15/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -249,12 +242,11 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 10,
+            "score": 15,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns.",
-              "Developing: Watch: Massive Blaze Engulfs Bus On Mumbai-Pune Expressway, Passengers Escape | HT India | Videos may cause delays or safety concerns.",
               "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
@@ -264,12 +256,6 @@
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway"
-              },
-              {
-                "eventId": "fire-developing-watch-massive-blaze-engulfs-bus-on-mumbai-pune-expressway-passengers-escap",
-                "category": "fire",
-                "penalty": 20,
-                "title": "Developing: Watch: Massive Blaze Engulfs Bus On Mumbai-Pune Expressway, Passengers Escape | HT India | Videos"
               },
               {
                 "eventId": "accident-developing-company-manager-killed-in-hit-and-run-on-mumbai-pune-expressway-3-coll",
@@ -284,7 +270,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (10/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (15/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns."
         }
       ]
     },
@@ -293,7 +279,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-09-24T17:19:02.510Z",
+      "generatedAt": "2026-09-24T20:40:47.447Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -322,20 +308,20 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 70,
-          "label": "Proceed with Caution",
-          "recommendation": "Proceed with caution and allow extra travel time.",
+          "score": 55,
+          "label": "Consider Delaying",
+          "recommendation": "Consider delaying or checking alternate routes.",
           "reasons": [
             "Low visibility may make driving unsafe."
           ],
           "penalties": []
         },
-        "estimatedTimeMin": 50,
-        "estimatedDelayMin": 15,
+        "estimatedTimeMin": 60,
+        "estimatedDelayMin": 25,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
       },
       "routes": [
         {
@@ -366,20 +352,20 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 70,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 55,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
               "Low visibility may make driving unsafe."
             ],
             "penalties": []
           },
-          "estimatedTimeMin": 50,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 60,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (70/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Low visibility may make driving unsafe."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Consider Delaying (55/100). Estimated travel time is about 60 minutes including around 25 minutes delay. Main reason: Low visibility may make driving unsafe."
         }
       ]
     }
