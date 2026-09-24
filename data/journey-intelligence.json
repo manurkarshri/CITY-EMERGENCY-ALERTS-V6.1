@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-24T20:40:47.447Z",
+  "generatedAt": "2026-09-24T23:30:16.719Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-09-24T20:40:47.447Z",
+      "generatedAt": "2026-09-24T23:30:16.718Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -152,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-09-24T20:40:47.447Z",
+      "generatedAt": "2026-09-24T23:30:16.719Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -182,12 +182,14 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 15,
+          "score": 0,
           "label": "Avoid if Possible",
           "recommendation": "Avoid this route if possible unless travel is essential.",
           "reasons": [
             "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns.",
+            "Developing: Four from Pune killed in Bengaluru-Chennai Expressway crash may cause delays or safety concerns.",
             "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt may cause delays or safety concerns.",
+            "Developing: Watch: Massive Blaze Engulfs Bus On Mumbai-Pune Expressway, Passengers Escape | HT India | Videos may cause delays or safety concerns.",
             "Low visibility may make driving unsafe."
           ],
           "penalties": [
@@ -198,10 +200,22 @@
               "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway"
             },
             {
+              "eventId": "accident-developing-four-from-pune-killed-in-bengaluru-chennai-expressway-crash-2026-09-24",
+              "category": "accident",
+              "penalty": 20,
+              "title": "Developing: Four from Pune killed in Bengaluru-Chennai Expressway crash"
+            },
+            {
               "eventId": "accident-developing-company-manager-killed-in-hit-and-run-on-mumbai-pune-expressway-3-coll",
               "category": "accident",
               "penalty": 20,
               "title": "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt"
+            },
+            {
+              "eventId": "fire-developing-watch-massive-blaze-engulfs-bus-on-mumbai-pune-expressway-passengers-escap",
+              "category": "fire",
+              "penalty": 20,
+              "title": "Developing: Watch: Massive Blaze Engulfs Bus On Mumbai-Pune Expressway, Passengers Escape | HT India | Videos"
             }
           ]
         },
@@ -210,7 +224,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (15/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -242,12 +256,14 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 15,
+            "score": 0,
             "label": "Avoid if Possible",
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns.",
+              "Developing: Four from Pune killed in Bengaluru-Chennai Expressway crash may cause delays or safety concerns.",
               "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt may cause delays or safety concerns.",
+              "Developing: Watch: Massive Blaze Engulfs Bus On Mumbai-Pune Expressway, Passengers Escape | HT India | Videos may cause delays or safety concerns.",
               "Low visibility may make driving unsafe."
             ],
             "penalties": [
@@ -258,10 +274,22 @@
                 "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway"
               },
               {
+                "eventId": "accident-developing-four-from-pune-killed-in-bengaluru-chennai-expressway-crash-2026-09-24",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Four from Pune killed in Bengaluru-Chennai Expressway crash"
+              },
+              {
                 "eventId": "accident-developing-company-manager-killed-in-hit-and-run-on-mumbai-pune-expressway-3-coll",
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt"
+              },
+              {
+                "eventId": "fire-developing-watch-massive-blaze-engulfs-bus-on-mumbai-pune-expressway-passengers-escap",
+                "category": "fire",
+                "penalty": 20,
+                "title": "Developing: Watch: Massive Blaze Engulfs Bus On Mumbai-Pune Expressway, Passengers Escape | HT India | Videos"
               }
             ]
           },
@@ -270,7 +298,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (15/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Avoid if Possible (0/100). Estimated travel time is about 140 minutes including around 45 minutes delay. Main reason: Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns."
         }
       ]
     },
@@ -279,7 +307,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-09-24T20:40:47.447Z",
+      "generatedAt": "2026-09-24T23:30:16.719Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",

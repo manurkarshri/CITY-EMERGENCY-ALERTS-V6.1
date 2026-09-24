@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-24T20:40:47.280Z",
+  "generatedAt": "2026-09-24T23:30:16.198Z",
   "routes": [],
   "risks": [
     {
@@ -22,6 +22,15 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
+      "id": "accident-developing-four-from-pune-killed-in-bengaluru-chennai-expressway-crash-2026-09-24",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
       "id": "accident-developing-company-manager-killed-in-hit-and-run-on-mumbai-pune-expressway-3-coll",
       "category": "accident",
       "severity": "watch",
@@ -33,6 +42,19 @@
         "Mumbai-Pune Expressway"
       ],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "fire-developing-watch-massive-blaze-engulfs-bus-on-mumbai-pune-expressway-passengers-escap",
+      "category": "fire",
+      "severity": "warning",
+      "localities": [
+        "Mumbai-Pune Expressway"
+      ],
+      "talukas": [],
+      "operationalZones": [
+        "Mumbai-Pune Expressway"
+      ],
+      "impact": "This event may affect local awareness or movement."
     }
   ]
 }
