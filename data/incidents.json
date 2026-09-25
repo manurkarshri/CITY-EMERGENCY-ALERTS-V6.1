@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-25T17:49:35.154Z",
+  "generatedAt": "2026-09-25T21:16:22.977Z",
   "sourceStatus": "stale",
   "items": [
     {
@@ -27,9 +27,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-24T22:11:03.000Z",
       "lastUpdated": "2026-09-24T22:11:03.000Z",
-      "sourceCheckedAt": "2026-09-25T17:49:18.925Z",
-      "lastVerifiedAt": "2026-09-25T17:49:18.925Z",
-      "intelligenceGeneratedAt": "2026-09-25T17:49:35.154Z",
+      "sourceCheckedAt": "2026-09-25T21:16:08.125Z",
+      "lastVerifiedAt": "2026-09-25T21:16:08.125Z",
+      "intelligenceGeneratedAt": "2026-09-25T21:16:22.977Z",
       "expiresAt": "2026-09-26T22:11:03.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -42,12 +42,65 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-25T17:49:18.925Z",
+      "discoveredAt": "2026-09-25T21:16:08.125Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-company-manager-killed-in-hit-and-run-on-mumbai-pune-expressway-3-coll",
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "title": "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPYnE2NC1DRkNXblhKSDZwNWRoTGpTOXpLSldMQkpUNjVZYlVya2FicXZjMERZWjNUdUFBUE9jWG9GdWx0UUVybkI1ZDNfbUZqVlRlVmQ4X3FRS3hQaGFqd3poaW5FWGdjYUhGd3dWUTRtRTBwbW5mTXdiR1RzWWQtLTRmQTh2REhkSVhZcmI3cTlTVFlvbW5ZeWhsTFVTT2pxSG1ZNkdvYm5hbWJ3SU1NV2RtUHU1Mks0WUIzcENCNGl0bVcwZnk5RmgzNE12YUQzU2F5Q3QzVUpWdDYtaTQ5djA0UmVkbnJCVDA4WXFsb1lKZFVNN0dv0gH8AUFVX3lxTE11LXZyM2RRSVl0QW1WNHpBNzU2YXlfWXh5X2dPbUx0LXhsVW95X1FTdE00RkNZNnFkT3EyUTBRV2lHWVpCc1ZfRVVpLWhEZ1puR3d6RkJYazJ0el9qM0NVVmphd0NwVGJvLUsxVWo0ZjZCTHFGZTJUSVZ3eHB3UU9OVk1pNmN3TWQtaUxxRFFBTWZVamZCcGhTSERLQ1ZMMUQzWjdUelE0VmY5Y3VtV2ZEczl0WF9IeW1pRWlvOWhKVDh0eUtRWExVSDdJNWxaVnh0dmlQMl9Fay1VMEVzQ1BfZThDVklwUTAtVlFmZWZiLXpnMjBaYjFkTWFLeg?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPYnE2NC1DRkNXblhKSDZwNWRoTGpTOXpLSldMQkpUNjVZYlVya2FicXZjMERZWjNUdUFBUE9jWG9GdWx0UUVybkI1ZDNfbUZqVlRlVmQ4X3FRS3hQaGFqd3poaW5FWGdjYUhGd3dWUTRtRTBwbW5mTXdiR1RzWWQtLTRmQTh2REhkSVhZcmI3cTlTVFlvbW5ZeWhsTFVTT2pxSG1ZNkdvYm5hbWJ3SU1NV2RtUHU1Mks0WUIzcENCNGl0bVcwZnk5RmgzNE12YUQzU2F5Q3QzVUpWdDYtaTQ5djA0UmVkbnJCVDA4WXFsb1lKZFVNN0dv0gH8AUFVX3lxTE11LXZyM2RRSVl0QW1WNHpBNzU2YXlfWXh5X2dPbUx0LXhsVW95X1FTdE00RkNZNnFkT3EyUTBRV2lHWVpCc1ZfRVVpLWhEZ1puR3d6RkJYazJ0el9qM0NVVmphd0NwVGJvLUsxVWo0ZjZCTHFGZTJUSVZ3eHB3UU9OVk1pNmN3TWQtaUxxRFFBTWZVamZCcGhTSERLQ1ZMMUQzWjdUelE0VmY5Y3VtV2ZEczl0WF9IeW1pRWlvOWhKVDh0eUtRWExVSDdJNWxaVnh0dmlQMl9Fay1VMEVzQ1BfZThDVklwUTAtVlFmZWZiLXpnMjBaYjFkTWFLeg?oc=5",
+      "talukas": [],
+      "localities": [
+        "Mumbai-Pune Expressway"
+      ],
+      "operationalZones": [
+        "Mumbai-Pune Expressway"
+      ],
+      "publishedAt": "2026-09-24T17:06:00.000Z",
+      "lastUpdated": "2026-09-24T17:06:00.000Z",
+      "sourceCheckedAt": "2026-09-25T21:16:08.125Z",
+      "lastVerifiedAt": "2026-09-25T21:16:08.125Z",
+      "intelligenceGeneratedAt": "2026-09-25T21:16:22.977Z",
+      "expiresAt": "2026-09-26T17:06:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 47,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Mumbai-Pune Expressway",
+      "upstreamId": "google-news-8b38d20f",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-09-25T21:16:08.125Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
