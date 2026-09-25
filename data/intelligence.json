@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-25T07:20:24.044Z",
+  "generatedAt": "2026-09-25T12:53:40.708Z",
   "status": "stale",
   "situation": {
-    "snapshot": "1 important alert require attention.",
+    "snapshot": "3 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-09-25T07:20:24.091Z",
+      "generatedAt": "2026-09-25T12:53:40.769Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -146,16 +146,66 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-09-25T07:20:24.131Z",
+      "generatedAt": "2026-09-25T12:53:40.819Z",
       "riskLevel": "Normal",
       "impacts": [
-        "4 active transport-related event(s) may affect travel."
+        "3 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "4 active transport-related event(s) may affect travel.",
+      "citizenSummary": "3 active transport-related event(s) may affect travel.",
       "seasonalContext": "monsoon"
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "id": "thunderstorm-official-light-spells-of-rain-with-possibility-of-thunder-lightning-in-some-a",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Light spells of rain with possibility of thunder/ lightning in some areas very likely to occur at isolated places over Ahilyanagar, Dharashiv, Latur, Nanded, Pune, Raigad, Ratnagiri, Solapur in next 3 hours.",
+      "summary": "Light spells of rain with possibility of thunder/ lightning in some areas very likely to occur at isolated places over Ahilyanagar, Dharashiv, Latur, Nanded, Pune, Raigad, Ratnagiri, Solapur in next 3 hours.",
+      "category": "thunderstorm",
+      "severity": "watch",
+      "source": "NDMA SACHET (IMD-Mumbai)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (IMD-Mumbai)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1790333544076029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1790333544076029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-09-25T10:51:34.000Z",
+      "lastUpdated": "2026-09-25T10:51:34.000Z",
+      "sourceCheckedAt": "2026-09-25T12:53:26.162Z",
+      "lastVerifiedAt": "2026-09-25T12:53:26.162Z",
+      "intelligenceGeneratedAt": "2026-09-25T12:53:40.708Z",
+      "expiresAt": "2026-09-25T13:30:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Ahilyanagar, Dharashiv, Latur, Nanded, Pune, Raigad, Ratnagiri, Solapur districts of Maharashtra",
+      "upstreamId": "IN-1790333544076029_46",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Alert",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "incidents": [
     {
       "id": "accident-developing-four-from-pune-killed-in-bengaluru-chennai-expressway-crash-2026-09-24",
@@ -181,9 +231,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-24T22:11:03.000Z",
       "lastUpdated": "2026-09-24T22:11:03.000Z",
-      "sourceCheckedAt": "2026-09-25T07:20:08.900Z",
-      "lastVerifiedAt": "2026-09-25T07:20:08.900Z",
-      "intelligenceGeneratedAt": "2026-09-25T07:20:24.044Z",
+      "sourceCheckedAt": "2026-09-25T12:53:26.162Z",
+      "lastVerifiedAt": "2026-09-25T12:53:26.162Z",
+      "intelligenceGeneratedAt": "2026-09-25T12:53:40.708Z",
       "expiresAt": "2026-09-26T22:11:03.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -196,105 +246,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-25T07:20:08.900Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "road-closure-developing-space-taken-by-ganesh-pandals-road-closures-leave-pune-s-peth-resi",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: Space taken by Ganesh pandals, road closures leave Pune’s Peth residents battling mobility and access woe",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "road_closure",
-      "severity": "warning",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQZFhCOGd0ZzBVWks5YXVwb1N4OVFTTllEZTRKU0Rsc295OUt6X2dCekFGOFBqYk1pSnNyR2JHd1lNZ2V0Rm9VNC1BcFppTlNOTHllR3JENVVWbFdSZGFESFdvN2NuNHlDb0pXdFhKeHVJcXhlSkJ1Z0x1ZG9tMFNtSmhuOHZWY0V1bEpJTWZtWk55SkJOX3VibTdsaFdVY1p0dWVveWVMYlp5LUp4WmxFYUxYaWRzaFM4MVlUemdIVDhwd1kxYlVDS3hDSWx3dm80YlR3YUh3RjFheXpkSkxPQnh0WlZSb094VWxLS3FVTHI2emVLbzNVdkdZOTJkcWVPSFp1bEFJY9IBjAJBVV95cUxNT09sMzdxeXRqTWhZN094VmxQdTNrY09BSHJraE5NRm9vLUdlUWJNUXBaN1liU1h4QmR0RkxrS1FfZWMyYlE5bE1nOFFsRUptWEhnS3VuVW83VGItUm96RzFfNThxMUc3QWN3aEM4eDh3WTBBZ0tzWkE0cllXNlVRSHBpU1luWkNaRk0wZzNpdHlON0lEbGxpeDBVVFhFZkE2ZnU3OFROSzNBLXZZS0g2R29BNm9BeTRQMTJkOHlyS3VzckpXRV9IcFl3NWI4bzBEcExmb1lHUlV2MEI0RXlBWkdOUlVjWlMtTGxFZ2p4cGRGLVdFRTZIN1plTGRjSXZVZXNJbW43SVduamJ6?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQZFhCOGd0ZzBVWks5YXVwb1N4OVFTTllEZTRKU0Rsc295OUt6X2dCekFGOFBqYk1pSnNyR2JHd1lNZ2V0Rm9VNC1BcFppTlNOTHllR3JENVVWbFdSZGFESFdvN2NuNHlDb0pXdFhKeHVJcXhlSkJ1Z0x1ZG9tMFNtSmhuOHZWY0V1bEpJTWZtWk55SkJOX3VibTdsaFdVY1p0dWVveWVMYlp5LUp4WmxFYUxYaWRzaFM4MVlUemdIVDhwd1kxYlVDS3hDSWx3dm80YlR3YUh3RjFheXpkSkxPQnh0WlZSb094VWxLS3FVTHI2emVLbzNVdkdZOTJkcWVPSFp1bEFJY9IBjAJBVV95cUxNT09sMzdxeXRqTWhZN094VmxQdTNrY09BSHJraE5NRm9vLUdlUWJNUXBaN1liU1h4QmR0RkxrS1FfZWMyYlE5bE1nOFFsRUptWEhnS3VuVW83VGItUm96RzFfNThxMUc3QWN3aEM4eDh3WTBBZ0tzWkE0cllXNlVRSHBpU1luWkNaRk0wZzNpdHlON0lEbGxpeDBVVFhFZkE2ZnU3OFROSzNBLXZZS0g2R29BNm9BeTRQMTJkOHlyS3VzckpXRV9IcFl3NWI4bzBEcExmb1lHUlV2MEI0RXlBWkdOUlVjWlMtTGxFZ2p4cGRGLVdFRTZIN1plTGRjSXZVZXNJbW43SVduamJ6?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-09-23T18:39:00.000Z",
-      "lastUpdated": "2026-09-23T18:39:00.000Z",
-      "sourceCheckedAt": "2026-09-25T07:20:08.900Z",
-      "lastVerifiedAt": "2026-09-25T07:20:08.900Z",
-      "intelligenceGeneratedAt": "2026-09-25T07:20:24.044Z",
-      "expiresAt": "2026-09-25T18:39:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Route may be blocked or diverted.",
-      "recommendedAction": "Use an alternate route and check official updates.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-9367bd1a",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-09-25T07:20:08.900Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWWkwVDd1TC12Nl9KMThIMmVTOTd0Q0hKTDRtUnpYMnpnMEJJSkxjOVl3ODhWX3BkVnlCQVA2OFZiM2t6U2JFcTM0d0VpNDcwcXlJSlRHdWRHbkNqclBsTmNLUmpfTi05dGsxN2xKX1pxUS1ncVBfaEV6dkZLU19NMXlEcEotaF9fRlhLWkpEbXVRTjNmdkRqSDdGb1JDdXo0YkRDMTlfVHZSUlZDNGE0TjhNY0t0empraUdEeVFwcl85QjIyVDJaR0VZeUtQd0lweHp2U1dkazHSAd4BQVVfeXFMTjY5SGd4V043OWRiM1RLcjM0VVdqYTlTcGZjYW1tbVY1czB4aU5VLTF1a1lFV1o5V01NSWo1QXR1dEl4czExcm9wWWk4UFh1VXg0SjN0SE9kZm5KaEJtMGVUcXByTG4xM05CSk1KWEhENHI1YlUwLUZPTDVpVnZNVGl0empwZ0NGNDFxM0RieTA1aUxVNzMzZUlCc1Rpb1Z3ck9TVVA0QkpVWDhxNFhRZU5HNHVQWE5zN1VLaDNLRXV3ZmduUkNBb0pBd0o1ODBnMUFkZ3B1RGJKMjI0ODFn?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWWkwVDd1TC12Nl9KMThIMmVTOTd0Q0hKTDRtUnpYMnpnMEJJSkxjOVl3ODhWX3BkVnlCQVA2OFZiM2t6U2JFcTM0d0VpNDcwcXlJSlRHdWRHbkNqclBsTmNLUmpfTi05dGsxN2xKX1pxUS1ncVBfaEV6dkZLU19NMXlEcEotaF9fRlhLWkpEbXVRTjNmdkRqSDdGb1JDdXo0YkRDMTlfVHZSUlZDNGE0TjhNY0t0empraUdEeVFwcl85QjIyVDJaR0VZeUtQd0lweHp2U1dkazHSAd4BQVVfeXFMTjY5SGd4V043OWRiM1RLcjM0VVdqYTlTcGZjYW1tbVY1czB4aU5VLTF1a1lFV1o5V01NSWo1QXR1dEl4czExcm9wWWk4UFh1VXg0SjN0SE9kZm5KaEJtMGVUcXByTG4xM05CSk1KWEhENHI1YlUwLUZPTDVpVnZNVGl0empwZ0NGNDFxM0RieTA1aUxVNzMzZUlCc1Rpb1Z3ck9TVVA0QkpVWDhxNFhRZU5HNHVQWE5zN1VLaDNLRXV3ZmduUkNBb0pBd0o1ODBnMUFkZ3B1RGJKMjI0ODFn?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-09-23T19:14:00.000Z",
-      "lastUpdated": "2026-09-23T19:14:00.000Z",
-      "sourceCheckedAt": "2026-09-25T07:20:08.900Z",
-      "lastVerifiedAt": "2026-09-25T07:20:08.900Z",
-      "intelligenceGeneratedAt": "2026-09-25T07:20:24.044Z",
-      "expiresAt": "2026-09-25T19:14:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-8637927b",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-09-25T07:20:08.900Z",
+      "discoveredAt": "2026-09-25T12:53:26.162Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -332,9 +284,9 @@
       ],
       "publishedAt": "2026-09-24T17:06:00.000Z",
       "lastUpdated": "2026-09-24T17:06:00.000Z",
-      "sourceCheckedAt": "2026-09-25T07:20:08.900Z",
-      "lastVerifiedAt": "2026-09-25T07:20:08.900Z",
-      "intelligenceGeneratedAt": "2026-09-25T07:20:24.044Z",
+      "sourceCheckedAt": "2026-09-25T12:53:26.162Z",
+      "lastVerifiedAt": "2026-09-25T12:53:26.162Z",
+      "intelligenceGeneratedAt": "2026-09-25T12:53:40.708Z",
       "expiresAt": "2026-09-26T17:06:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -347,7 +299,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-25T07:20:08.900Z",
+      "discoveredAt": "2026-09-25T12:53:26.162Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -356,30 +308,70 @@
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWWkwVDd1TC12Nl9KMThIMmVTOTd0Q0hKTDRtUnpYMnpnMEJJSkxjOVl3ODhWX3BkVnlCQVA2OFZiM2t6U2JFcTM0d0VpNDcwcXlJSlRHdWRHbkNqclBsTmNLUmpfTi05dGsxN2xKX1pxUS1ncVBfaEV6dkZLU19NMXlEcEotaF9fRlhLWkpEbXVRTjNmdkRqSDdGb1JDdXo0YkRDMTlfVHZSUlZDNGE0TjhNY0t0empraUdEeVFwcl85QjIyVDJaR0VZeUtQd0lweHp2U1dkazHSAd4BQVVfeXFMTjY5SGd4V043OWRiM1RLcjM0VVdqYTlTcGZjYW1tbVY1czB4aU5VLTF1a1lFV1o5V01NSWo1QXR1dEl4czExcm9wWWk4UFh1VXg0SjN0SE9kZm5KaEJtMGVUcXByTG4xM05CSk1KWEhENHI1YlUwLUZPTDVpVnZNVGl0empwZ0NGNDFxM0RieTA1aUxVNzMzZUlCc1Rpb1Z3ck9TVVA0QkpVWDhxNFhRZU5HNHVQWE5zN1VLaDNLRXV3ZmduUkNBb0pBd0o1ODBnMUFkZ3B1RGJKMjI0ODFn?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWWkwVDd1TC12Nl9KMThIMmVTOTd0Q0hKTDRtUnpYMnpnMEJJSkxjOVl3ODhWX3BkVnlCQVA2OFZiM2t6U2JFcTM0d0VpNDcwcXlJSlRHdWRHbkNqclBsTmNLUmpfTi05dGsxN2xKX1pxUS1ncVBfaEV6dkZLU19NMXlEcEotaF9fRlhLWkpEbXVRTjNmdkRqSDdGb1JDdXo0YkRDMTlfVHZSUlZDNGE0TjhNY0t0empraUdEeVFwcl85QjIyVDJaR0VZeUtQd0lweHp2U1dkazHSAd4BQVVfeXFMTjY5SGd4V043OWRiM1RLcjM0VVdqYTlTcGZjYW1tbVY1czB4aU5VLTF1a1lFV1o5V01NSWo1QXR1dEl4czExcm9wWWk4UFh1VXg0SjN0SE9kZm5KaEJtMGVUcXByTG4xM05CSk1KWEhENHI1YlUwLUZPTDVpVnZNVGl0empwZ0NGNDFxM0RieTA1aUxVNzMzZUlCc1Rpb1Z3ck9TVVA0QkpVWDhxNFhRZU5HNHVQWE5zN1VLaDNLRXV3ZmduUkNBb0pBd0o1ODBnMUFkZ3B1RGJKMjI0ODFn?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-09-23T19:14:00.000Z",
+      "lastUpdated": "2026-09-23T19:14:00.000Z",
+      "sourceCheckedAt": "2026-09-25T12:53:26.162Z",
+      "lastVerifiedAt": "2026-09-25T12:53:26.162Z",
+      "intelligenceGeneratedAt": "2026-09-25T12:53:40.708Z",
+      "expiresAt": "2026-09-25T19:14:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 35,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-8637927b",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-09-25T12:53:26.162Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
     }
   ],
   "journeyContext": {
     "activeRiskEvents": [
       {
-        "id": "accident-developing-four-from-pune-killed-in-bengaluru-chennai-expressway-crash-2026-09-24",
-        "category": "accident",
+        "id": "thunderstorm-official-light-spells-of-rain-with-possibility-of-thunder-lightning-in-some-a",
+        "category": "thunderstorm",
         "severity": "watch",
         "localities": [],
         "talukas": [],
         "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
+        "impact": "This event may affect local awareness or movement."
       },
       {
-        "id": "road-closure-developing-space-taken-by-ganesh-pandals-road-closures-leave-pune-s-peth-resi",
-        "category": "road_closure",
-        "severity": "warning",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Route may be blocked or diverted."
-      },
-      {
-        "id": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
+        "id": "accident-developing-four-from-pune-killed-in-bengaluru-chennai-expressway-crash-2026-09-24",
         "category": "accident",
         "severity": "watch",
         "localities": [],
@@ -398,6 +390,15 @@
         "operationalZones": [
           "Mumbai-Pune Expressway"
         ],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
+        "id": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
         "impact": "Traffic delays are likely near the incident location."
       }
     ]
@@ -427,9 +428,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-22T19:42:00.000Z",
       "lastUpdated": "2026-09-22T19:42:00.000Z",
-      "sourceCheckedAt": "2026-09-25T07:20:08.900Z",
-      "lastVerifiedAt": "2026-09-25T07:20:08.900Z",
-      "intelligenceGeneratedAt": "2026-09-25T07:20:24.044Z",
+      "sourceCheckedAt": "2026-09-25T12:53:26.162Z",
+      "lastVerifiedAt": "2026-09-25T12:53:26.162Z",
+      "intelligenceGeneratedAt": "2026-09-25T12:53:40.708Z",
       "expiresAt": "2026-09-24T19:42:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -442,7 +443,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-25T07:20:08.900Z",
+      "discoveredAt": "2026-09-25T12:53:26.162Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -459,15 +460,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-09-25T07:20:08.900Z",
-      "lastSuccessfulAt": "2026-09-25T07:20:08.900Z",
+      "sourceCheckedAt": "2026-09-25T12:53:26.162Z",
+      "lastSuccessfulAt": "2026-09-25T12:53:26.162Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-09-25T07:20:24.131Z",
+      "generatedAt": "2026-09-25T12:53:40.819Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -480,7 +481,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-09-25T07:20:24.131Z",
+      "generatedAt": "2026-09-25T12:53:40.818Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -561,7 +562,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-09-25T07:20:24.131Z",
+      "generatedAt": "2026-09-25T12:53:40.819Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -606,36 +607,33 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-09-25T07:20:24.178Z",
+        "generatedAt": "2026-09-25T12:53:40.885Z",
         "bestRoute": {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
+          "id": "kharadi-hinjawadi-pashan",
+          "label": "Kharadi to Hinjawadi via Pashan",
           "fromAliases": [
             "Kharadi",
-            "EON",
-            "World Trade Center"
+            "EON"
           ],
           "toAliases": [
             "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
+            "Hinjewadi"
           ],
           "via": [
             "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
+            "Yerwada",
+            "Aundh",
+            "Pashan",
+            "Mahalunge",
             "Hinjawadi"
           ],
           "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
+            "Pashan Road",
             "IT Corridor"
           ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "distanceKm": 36,
+          "baseTimeMin": 72,
+          "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
             "score": 100,
@@ -644,58 +642,14 @@
             "reasons": [],
             "penalties": []
           },
-          "estimatedTimeMin": 65,
+          "estimatedTimeMin": 72,
           "estimatedDelayMin": 0,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
         },
         "routes": [
-          {
-            "id": "kharadi-hinjawadi-nh48",
-            "label": "Kharadi to Hinjawadi via NH48",
-            "fromAliases": [
-              "Kharadi",
-              "EON",
-              "World Trade Center"
-            ],
-            "toAliases": [
-              "Hinjawadi",
-              "Hinjewadi",
-              "Rajiv Gandhi Infotech Park"
-            ],
-            "via": [
-              "Kharadi",
-              "Viman Nagar",
-              "Shivajinagar",
-              "Baner",
-              "Wakad",
-              "Hinjawadi"
-            ],
-            "operationalZones": [
-              "Pune-Ahmednagar Highway",
-              "NH48",
-              "IT Corridor"
-            ],
-            "distanceKm": 33,
-            "baseTimeMin": 65,
-            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
-              "penalties": []
-            },
-            "estimatedTimeMin": 65,
-            "estimatedDelayMin": 0,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-            "rank": 1,
-            "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
-          },
           {
             "id": "kharadi-hinjawadi-pashan",
             "label": "Kharadi to Hinjawadi via Pashan",
@@ -733,9 +687,62 @@
             "estimatedTimeMin": 72,
             "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+          },
+          {
+            "id": "kharadi-hinjawadi-nh48",
+            "label": "Kharadi to Hinjawadi via NH48",
+            "fromAliases": [
+              "Kharadi",
+              "EON",
+              "World Trade Center"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi",
+              "Rajiv Gandhi Infotech Park"
+            ],
+            "via": [
+              "Kharadi",
+              "Viman Nagar",
+              "Shivajinagar",
+              "Baner",
+              "Wakad",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pune-Ahmednagar Highway",
+              "NH48",
+              "IT Corridor"
+            ],
+            "distanceKm": 33,
+            "baseTimeMin": 65,
+            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 90,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [
+                "Official: Light spells of rain with possibility of thunder/ lightning in some areas very likely to occur at isolated places over Ahilyanagar, Dharashiv, Latur, Nanded, Pune, Raigad, Ratnagiri, Solapur in next 3 hours. may have minor impact on travel."
+              ],
+              "penalties": [
+                {
+                  "eventId": "thunderstorm-official-light-spells-of-rain-with-possibility-of-thunder-lightning-in-some-a",
+                  "category": "thunderstorm",
+                  "penalty": 10,
+                  "title": "Official: Light spells of rain with possibility of thunder/ lightning in some areas very likely to occur at isolated places over Ahilyanagar, Dharashiv, Latur, Nanded, Pune, Raigad, Ratnagiri, Solapur in next 3 hours."
+                }
+              ]
+            },
+            "estimatedTimeMin": 65,
+            "estimatedDelayMin": 0,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Excellent (90/100). Estimated travel time is about 65 minutes. Main reason: Official: Light spells of rain with possibility of thunder/ lightning in some areas very likely to occur at isolated places over Ahilyanagar, Dharashiv, Latur, Nanded, Pune, Raigad, Ratnagiri, Solapur in next 3 hours. may have minor impact on travel."
           }
         ]
       },
@@ -744,7 +751,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-09-25T07:20:24.179Z",
+        "generatedAt": "2026-09-25T12:53:40.885Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -779,8 +786,8 @@
             "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
               "Developing: Four from Pune killed in Bengaluru-Chennai Expressway crash may cause delays or safety concerns.",
-              "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns.",
-              "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt may cause delays or safety concerns."
+              "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt may cause delays or safety concerns.",
+              "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns."
             ],
             "penalties": [
               {
@@ -790,16 +797,16 @@
                 "title": "Developing: Four from Pune killed in Bengaluru-Chennai Expressway crash"
               },
               {
-                "eventId": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway"
-              },
-              {
                 "eventId": "accident-developing-company-manager-killed-in-hit-and-run-on-mumbai-pune-expressway-3-coll",
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt"
+              },
+              {
+                "eventId": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway"
               }
             ]
           },
@@ -845,8 +852,8 @@
               "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
                 "Developing: Four from Pune killed in Bengaluru-Chennai Expressway crash may cause delays or safety concerns.",
-                "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns.",
-                "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt may cause delays or safety concerns."
+                "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt may cause delays or safety concerns.",
+                "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns."
               ],
               "penalties": [
                 {
@@ -856,16 +863,16 @@
                   "title": "Developing: Four from Pune killed in Bengaluru-Chennai Expressway crash"
                 },
                 {
-                  "eventId": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
-                  "category": "accident",
-                  "penalty": 20,
-                  "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway"
-                },
-                {
                   "eventId": "accident-developing-company-manager-killed-in-hit-and-run-on-mumbai-pune-expressway-3-coll",
                   "category": "accident",
                   "penalty": 20,
                   "title": "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt"
+                },
+                {
+                  "eventId": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
+                  "category": "accident",
+                  "penalty": 20,
+                  "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway"
                 }
               ]
             },
@@ -883,7 +890,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-09-25T07:20:24.179Z",
+        "generatedAt": "2026-09-25T12:53:40.885Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",

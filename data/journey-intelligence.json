@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-25T07:20:24.179Z",
+  "generatedAt": "2026-09-25T12:53:40.885Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,36 +8,33 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-09-25T07:20:24.178Z",
+      "generatedAt": "2026-09-25T12:53:40.885Z",
       "bestRoute": {
-        "id": "kharadi-hinjawadi-nh48",
-        "label": "Kharadi to Hinjawadi via NH48",
+        "id": "kharadi-hinjawadi-pashan",
+        "label": "Kharadi to Hinjawadi via Pashan",
         "fromAliases": [
           "Kharadi",
-          "EON",
-          "World Trade Center"
+          "EON"
         ],
         "toAliases": [
           "Hinjawadi",
-          "Hinjewadi",
-          "Rajiv Gandhi Infotech Park"
+          "Hinjewadi"
         ],
         "via": [
           "Kharadi",
-          "Viman Nagar",
-          "Shivajinagar",
-          "Baner",
-          "Wakad",
+          "Yerwada",
+          "Aundh",
+          "Pashan",
+          "Mahalunge",
           "Hinjawadi"
         ],
         "operationalZones": [
-          "Pune-Ahmednagar Highway",
-          "NH48",
+          "Pashan Road",
           "IT Corridor"
         ],
-        "distanceKm": 33,
-        "baseTimeMin": 65,
-        "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+        "distanceKm": 36,
+        "baseTimeMin": 72,
+        "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
         "routeType": "known-corridor",
         "journeySuitability": {
           "score": 100,
@@ -46,58 +43,14 @@
           "reasons": [],
           "penalties": []
         },
-        "estimatedTimeMin": 65,
+        "estimatedTimeMin": 72,
         "estimatedDelayMin": 0,
-        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
       },
       "routes": [
-        {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
-          "fromAliases": [
-            "Kharadi",
-            "EON",
-            "World Trade Center"
-          ],
-          "toAliases": [
-            "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
-          ],
-          "via": [
-            "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
-            "Hinjawadi"
-          ],
-          "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
-            "IT Corridor"
-          ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-          "routeType": "known-corridor",
-          "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
-          },
-          "estimatedTimeMin": 65,
-          "estimatedDelayMin": 0,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-          "rank": 1,
-          "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
-        },
         {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -135,9 +88,62 @@
           "estimatedTimeMin": 72,
           "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+        },
+        {
+          "id": "kharadi-hinjawadi-nh48",
+          "label": "Kharadi to Hinjawadi via NH48",
+          "fromAliases": [
+            "Kharadi",
+            "EON",
+            "World Trade Center"
+          ],
+          "toAliases": [
+            "Hinjawadi",
+            "Hinjewadi",
+            "Rajiv Gandhi Infotech Park"
+          ],
+          "via": [
+            "Kharadi",
+            "Viman Nagar",
+            "Shivajinagar",
+            "Baner",
+            "Wakad",
+            "Hinjawadi"
+          ],
+          "operationalZones": [
+            "Pune-Ahmednagar Highway",
+            "NH48",
+            "IT Corridor"
+          ],
+          "distanceKm": 33,
+          "baseTimeMin": 65,
+          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 90,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [
+              "Official: Light spells of rain with possibility of thunder/ lightning in some areas very likely to occur at isolated places over Ahilyanagar, Dharashiv, Latur, Nanded, Pune, Raigad, Ratnagiri, Solapur in next 3 hours. may have minor impact on travel."
+            ],
+            "penalties": [
+              {
+                "eventId": "thunderstorm-official-light-spells-of-rain-with-possibility-of-thunder-lightning-in-some-a",
+                "category": "thunderstorm",
+                "penalty": 10,
+                "title": "Official: Light spells of rain with possibility of thunder/ lightning in some areas very likely to occur at isolated places over Ahilyanagar, Dharashiv, Latur, Nanded, Pune, Raigad, Ratnagiri, Solapur in next 3 hours."
+              }
+            ]
+          },
+          "estimatedTimeMin": 65,
+          "estimatedDelayMin": 0,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Excellent (90/100). Estimated travel time is about 65 minutes. Main reason: Official: Light spells of rain with possibility of thunder/ lightning in some areas very likely to occur at isolated places over Ahilyanagar, Dharashiv, Latur, Nanded, Pune, Raigad, Ratnagiri, Solapur in next 3 hours. may have minor impact on travel."
         }
       ]
     },
@@ -146,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-09-25T07:20:24.179Z",
+      "generatedAt": "2026-09-25T12:53:40.885Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -181,8 +187,8 @@
           "recommendation": "Consider delaying or checking alternate routes.",
           "reasons": [
             "Developing: Four from Pune killed in Bengaluru-Chennai Expressway crash may cause delays or safety concerns.",
-            "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns.",
-            "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt may cause delays or safety concerns."
+            "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt may cause delays or safety concerns.",
+            "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns."
           ],
           "penalties": [
             {
@@ -192,16 +198,16 @@
               "title": "Developing: Four from Pune killed in Bengaluru-Chennai Expressway crash"
             },
             {
-              "eventId": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
-              "category": "accident",
-              "penalty": 20,
-              "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway"
-            },
-            {
               "eventId": "accident-developing-company-manager-killed-in-hit-and-run-on-mumbai-pune-expressway-3-coll",
               "category": "accident",
               "penalty": 20,
               "title": "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt"
+            },
+            {
+              "eventId": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
+              "category": "accident",
+              "penalty": 20,
+              "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway"
             }
           ]
         },
@@ -247,8 +253,8 @@
             "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
               "Developing: Four from Pune killed in Bengaluru-Chennai Expressway crash may cause delays or safety concerns.",
-              "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns.",
-              "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt may cause delays or safety concerns."
+              "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt may cause delays or safety concerns.",
+              "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway may cause delays or safety concerns."
             ],
             "penalties": [
               {
@@ -258,16 +264,16 @@
                 "title": "Developing: Four from Pune killed in Bengaluru-Chennai Expressway crash"
               },
               {
-                "eventId": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway"
-              },
-              {
                 "eventId": "accident-developing-company-manager-killed-in-hit-and-run-on-mumbai-pune-expressway-3-coll",
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: Company manager killed in hit-and-run on Mumbai-Pune Expressway, 3 colleagues escape unhurt"
+              },
+              {
+                "eventId": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway"
               }
             ]
           },
@@ -285,7 +291,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-09-25T07:20:24.179Z",
+      "generatedAt": "2026-09-25T12:53:40.885Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
