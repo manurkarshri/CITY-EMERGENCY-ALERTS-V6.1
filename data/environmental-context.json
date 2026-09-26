@@ -1,25 +1,25 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-26T17:47:15.719Z",
+  "generatedAt": "2026-09-26T20:48:48.503Z",
   "weatherSource": {
-    "status": "current",
-    "sourceCheckedAt": "2026-09-26T17:46:59.895Z",
+    "status": "stale",
+    "sourceCheckedAt": "2026-09-26T20:48:18.697Z",
     "lastSuccessfulAt": "2026-09-26T17:46:59.895Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
       "url": "https://open-meteo.com/"
     },
-    "error": null
+    "error": "Weather provider could not be reached during the latest check."
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-09-26T17:47:04.092Z",
-    "lastSuccessfulAt": "2026-09-26T17:47:04.092Z",
+    "sourceCheckedAt": "2026-09-26T20:48:36.808Z",
+    "lastSuccessfulAt": "2026-09-26T20:48:36.808Z",
     "error": "Pravah: fetch failed"
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-09-26T17:47:15.682Z",
+    "generatedAt": "2026-09-26T20:48:48.462Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -160,7 +160,7 @@
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-09-26T17:47:15.719Z",
+    "generatedAt": "2026-09-26T20:48:48.502Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -173,7 +173,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-09-26T17:47:15.718Z",
+    "generatedAt": "2026-09-26T20:48:48.502Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -254,7 +254,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-09-26T17:47:15.719Z",
+    "generatedAt": "2026-09-26T20:48:48.503Z",
     "mode": "on-demand",
     "relevantDomains": [
       "highways"
@@ -292,7 +292,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-09-26T17:47:15.719Z",
+    "generatedAt": "2026-09-26T20:48:48.503Z",
     "riskLevel": "Normal",
     "impacts": [
       "1 active transport-related event(s) may affect travel."

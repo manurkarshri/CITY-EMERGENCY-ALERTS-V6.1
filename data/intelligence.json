@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-26T17:47:15.643Z",
+  "generatedAt": "2026-09-26T20:48:48.400Z",
   "status": "stale",
   "situation": {
     "snapshot": "1 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-09-26T17:47:15.682Z",
+      "generatedAt": "2026-09-26T20:48:48.462Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-09-26T17:47:15.719Z",
+      "generatedAt": "2026-09-26T20:48:48.503Z",
       "riskLevel": "Normal",
       "impacts": [
         "1 active transport-related event(s) may affect travel."
@@ -181,9 +181,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-24T22:11:03.000Z",
       "lastUpdated": "2026-09-24T22:11:03.000Z",
-      "sourceCheckedAt": "2026-09-26T17:47:00.601Z",
-      "lastVerifiedAt": "2026-09-26T17:47:00.601Z",
-      "intelligenceGeneratedAt": "2026-09-26T17:47:15.643Z",
+      "sourceCheckedAt": "2026-09-26T20:48:33.814Z",
+      "lastVerifiedAt": "2026-09-26T20:48:33.814Z",
+      "intelligenceGeneratedAt": "2026-09-26T20:48:48.400Z",
       "expiresAt": "2026-09-26T22:11:03.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -196,7 +196,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-26T17:47:00.601Z",
+      "discoveredAt": "2026-09-26T20:48:33.814Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -221,110 +221,6 @@
     ]
   },
   "expiredEvents": [
-    {
-      "id": "fire-developing-watch-massive-blaze-engulfs-bus-on-mumbai-pune-expressway-passengers-escap",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Watch: Massive Blaze Engulfs Bus On Mumbai-Pune Expressway, Passengers Escape | HT India | Videos",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "fire",
-      "severity": "warning",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZy11Z0VzX05JSlJUN25pS051SUY4bXg3dVRSVDk3bjg2WEtQUGdZcmxSbjEweDlSenV3enJvWWJueXZWZjhFaHFtSXZlclBuQnlENTFkdENUb3NjdlAzNWdGS01fYTNQUlVUeDhJS2RFRlY3MmZrNUhZRmt0N0Q3X1ZJd3hiZE4tNFFhQ1V2cDhZamZGZWxlTEJYcm5FRGNuTVcyZFR6NVNFTG5ZUWdJWTVuZjJkUkJUc19Bc3VOQVQ0LUs3aWFZWFJtT0JZWWdlWG5aUDlROUt1cDDSAeABQVVfeXFMUHQydHdMTDFvTTA5R0R5M3BUa2FMM1Z2dG1VcDdidXB4eHI1THhTZ3poMk9VNkV4RVpUVWFrN19lVlR5aUlwMG1QeDFjUnVLUjVzWUx3NEUxUUpyTWt0NTktSTVyUVNpNVFxUTRmdXpBRzVZcGk3NjJySEVrRDQzUzB5UU1pWVVfdHoyTE9USUZoZzRuZGdJV2FYdHdkUzdVWTJ1b2U0RVpJRF92WnJPX2JZSnQzdW1vZ255V3JCZFE5LXNyVkZZMmpPZUVqRUlyRUpzSTU0VENwZ0w4NzJIRVQ?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZy11Z0VzX05JSlJUN25pS051SUY4bXg3dVRSVDk3bjg2WEtQUGdZcmxSbjEweDlSenV3enJvWWJueXZWZjhFaHFtSXZlclBuQnlENTFkdENUb3NjdlAzNWdGS01fYTNQUlVUeDhJS2RFRlY3MmZrNUhZRmt0N0Q3X1ZJd3hiZE4tNFFhQ1V2cDhZamZGZWxlTEJYcm5FRGNuTVcyZFR6NVNFTG5ZUWdJWTVuZjJkUkJUc19Bc3VOQVQ0LUs3aWFZWFJtT0JZWWdlWG5aUDlROUt1cDDSAeABQVVfeXFMUHQydHdMTDFvTTA5R0R5M3BUa2FMM1Z2dG1VcDdidXB4eHI1THhTZ3poMk9VNkV4RVpUVWFrN19lVlR5aUlwMG1QeDFjUnVLUjVzWUx3NEUxUUpyTWt0NTktSTVyUVNpNVFxUTRmdXpBRzVZcGk3NjJySEVrRDQzUzB5UU1pWVVfdHoyTE9USUZoZzRuZGdJV2FYdHdkUzdVWTJ1b2U0RVpJRF92WnJPX2JZSnQzdW1vZ255V3JCZFE5LXNyVkZZMmpPZUVqRUlyRUpzSTU0VENwZ0w4NzJIRVQ?oc=5",
-      "talukas": [],
-      "localities": [
-        "Mumbai-Pune Expressway"
-      ],
-      "operationalZones": [
-        "Mumbai-Pune Expressway"
-      ],
-      "publishedAt": "2026-09-24T11:05:39.000Z",
-      "lastUpdated": "2026-09-24T11:05:39.000Z",
-      "sourceCheckedAt": "2026-09-26T17:47:00.601Z",
-      "lastVerifiedAt": "2026-09-26T17:47:00.601Z",
-      "intelligenceGeneratedAt": "2026-09-26T17:47:15.643Z",
-      "expiresAt": "2026-09-26T11:05:39.000Z",
-      "lifecycle": "expired",
-      "confidence": "Low",
-      "confidenceScore": 47,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Mumbai-Pune Expressway",
-      "upstreamId": "google-news-d37fbda3",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-09-26T17:47:00.601Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [
-        "accident-developing-company-manager-killed-in-hit-and-run-on-mumbai-pune-expressway-3-coll"
-      ],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-woman-injured-after-car-hits-halted-vehicle-on-pune-mumbai-expressway-",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: Woman injured after car hits halted vehicle on Pune-Mumbai Expressway",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWWkwVDd1TC12Nl9KMThIMmVTOTd0Q0hKTDRtUnpYMnpnMEJJSkxjOVl3ODhWX3BkVnlCQVA2OFZiM2t6U2JFcTM0d0VpNDcwcXlJSlRHdWRHbkNqclBsTmNLUmpfTi05dGsxN2xKX1pxUS1ncVBfaEV6dkZLU19NMXlEcEotaF9fRlhLWkpEbXVRTjNmdkRqSDdGb1JDdXo0YkRDMTlfVHZSUlZDNGE0TjhNY0t0empraUdEeVFwcl85QjIyVDJaR0VZeUtQd0lweHp2U1dkazHSAd4BQVVfeXFMTjY5SGd4V043OWRiM1RLcjM0VVdqYTlTcGZjYW1tbVY1czB4aU5VLTF1a1lFV1o5V01NSWo1QXR1dEl4czExcm9wWWk4UFh1VXg0SjN0SE9kZm5KaEJtMGVUcXByTG4xM05CSk1KWEhENHI1YlUwLUZPTDVpVnZNVGl0empwZ0NGNDFxM0RieTA1aUxVNzMzZUlCc1Rpb1Z3ck9TVVA0QkpVWDhxNFhRZU5HNHVQWE5zN1VLaDNLRXV3ZmduUkNBb0pBd0o1ODBnMUFkZ3B1RGJKMjI0ODFn?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWWkwVDd1TC12Nl9KMThIMmVTOTd0Q0hKTDRtUnpYMnpnMEJJSkxjOVl3ODhWX3BkVnlCQVA2OFZiM2t6U2JFcTM0d0VpNDcwcXlJSlRHdWRHbkNqclBsTmNLUmpfTi05dGsxN2xKX1pxUS1ncVBfaEV6dkZLU19NMXlEcEotaF9fRlhLWkpEbXVRTjNmdkRqSDdGb1JDdXo0YkRDMTlfVHZSUlZDNGE0TjhNY0t0empraUdEeVFwcl85QjIyVDJaR0VZeUtQd0lweHp2U1dkazHSAd4BQVVfeXFMTjY5SGd4V043OWRiM1RLcjM0VVdqYTlTcGZjYW1tbVY1czB4aU5VLTF1a1lFV1o5V01NSWo1QXR1dEl4czExcm9wWWk4UFh1VXg0SjN0SE9kZm5KaEJtMGVUcXByTG4xM05CSk1KWEhENHI1YlUwLUZPTDVpVnZNVGl0empwZ0NGNDFxM0RieTA1aUxVNzMzZUlCc1Rpb1Z3ck9TVVA0QkpVWDhxNFhRZU5HNHVQWE5zN1VLaDNLRXV3ZmduUkNBb0pBd0o1ODBnMUFkZ3B1RGJKMjI0ODFn?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-09-23T19:14:00.000Z",
-      "lastUpdated": "2026-09-23T19:14:00.000Z",
-      "sourceCheckedAt": "2026-09-26T17:47:00.601Z",
-      "lastVerifiedAt": "2026-09-26T17:47:00.601Z",
-      "intelligenceGeneratedAt": "2026-09-26T17:47:15.643Z",
-      "expiresAt": "2026-09-25T19:14:00.000Z",
-      "lifecycle": "expired",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-8637927b",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-09-26T17:47:00.601Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
     {
       "id": "accident-developing-company-manager-killed-in-hit-and-run-on-mumbai-pune-expressway-3-coll",
       "eventKind": "incident",
@@ -353,9 +249,9 @@
       ],
       "publishedAt": "2026-09-24T17:06:00.000Z",
       "lastUpdated": "2026-09-24T17:06:00.000Z",
-      "sourceCheckedAt": "2026-09-26T17:47:00.601Z",
-      "lastVerifiedAt": "2026-09-26T17:47:00.601Z",
-      "intelligenceGeneratedAt": "2026-09-26T17:47:15.643Z",
+      "sourceCheckedAt": "2026-09-26T20:48:33.814Z",
+      "lastVerifiedAt": "2026-09-26T20:48:33.814Z",
+      "intelligenceGeneratedAt": "2026-09-26T20:48:48.400Z",
       "expiresAt": "2026-09-26T17:06:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -368,15 +264,13 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-09-26T17:47:00.601Z",
+      "discoveredAt": "2026-09-26T20:48:33.814Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "local",
-      "relatedEventIds": [
-        "fire-developing-watch-massive-blaze-engulfs-bus-on-mumbai-pune-expressway-passengers-escap"
-      ],
+      "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
     }
@@ -387,15 +281,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-09-26T17:47:00.601Z",
-      "lastSuccessfulAt": "2026-09-26T17:47:00.601Z",
+      "sourceCheckedAt": "2026-09-26T20:48:33.814Z",
+      "lastSuccessfulAt": "2026-09-26T20:48:33.814Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-09-26T17:47:15.719Z",
+      "generatedAt": "2026-09-26T20:48:48.502Z",
       "activeSeason": "monsoon",
       "priorityHazards": [
         "flood",
@@ -408,7 +302,7 @@
       "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-09-26T17:47:15.718Z",
+      "generatedAt": "2026-09-26T20:48:48.502Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -489,7 +383,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-09-26T17:47:15.719Z",
+      "generatedAt": "2026-09-26T20:48:48.503Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -534,7 +428,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-09-26T17:47:15.764Z",
+        "generatedAt": "2026-09-26T20:48:48.563Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -678,7 +572,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-09-26T17:47:15.764Z",
+        "generatedAt": "2026-09-26T20:48:48.563Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -791,7 +685,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-09-26T17:47:15.764Z",
+        "generatedAt": "2026-09-26T20:48:48.563Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
