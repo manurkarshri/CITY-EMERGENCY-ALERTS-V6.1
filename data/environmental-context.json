@@ -1,10 +1,10 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-27T13:03:20.582Z",
+  "generatedAt": "2026-09-27T17:45:15.867Z",
   "weatherSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-09-27T13:03:04.178Z",
-    "lastSuccessfulAt": "2026-09-27T13:03:04.178Z",
+    "sourceCheckedAt": "2026-09-27T17:45:01.414Z",
+    "lastSuccessfulAt": "2026-09-27T17:45:01.414Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
@@ -14,12 +14,12 @@
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-09-27T13:03:07.887Z",
-    "lastSuccessfulAt": "2026-09-27T13:03:07.887Z",
+    "sourceCheckedAt": "2026-09-27T17:45:04.681Z",
+    "lastSuccessfulAt": "2026-09-27T17:45:04.681Z",
     "error": "Pravah: fetch failed"
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-09-27T13:03:20.540Z",
+    "generatedAt": "2026-09-27T17:45:15.827Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -27,25 +27,25 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-09-27T13:03:04.178Z",
-        "observedAt": "2026-09-27T18:30:00+05:30",
-        "temp": 25.6,
+        "sourceCheckedAt": "2026-09-27T17:45:01.414Z",
+        "observedAt": "2026-09-27T23:15:00+05:30",
+        "temp": 22.4,
         "currentRain": 0,
         "rain6h": 0,
         "rain24h": 2.2,
-        "precipitationProbability": 100,
-        "wind": 28.8,
-        "gust": 28.8,
-        "humidity": 71,
-        "visibility": 10.4,
+        "precipitationProbability": 94,
+        "wind": 16.2,
+        "gust": 16.2,
+        "humidity": 91,
+        "visibility": 0.8,
         "weatherCode": 0,
         "rainRisk": "Low",
-        "windRisk": "Low",
-        "visibilityRisk": "Minimal",
+        "windRisk": "Minimal",
+        "visibilityRisk": "High",
         "heatRisk": "Normal",
-        "travelImpact": "Low",
+        "travelImpact": "High",
         "advice": [
-          "No major weather-related disruption indicated."
+          "Low visibility may make driving unsafe."
         ]
       },
       "pcmc": {
@@ -54,25 +54,25 @@
         "longitude": 73.76471,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-09-27T13:03:04.178Z",
-        "observedAt": "2026-09-27T18:30:00+05:30",
-        "temp": 25,
+        "sourceCheckedAt": "2026-09-27T17:45:01.414Z",
+        "observedAt": "2026-09-27T23:15:00+05:30",
+        "temp": 21.9,
         "currentRain": 0,
         "rain6h": 0,
         "rain24h": 2.8,
         "precipitationProbability": 96,
-        "wind": 25.6,
-        "gust": 25.6,
-        "humidity": 76,
-        "visibility": 7.1,
+        "wind": 10.1,
+        "gust": 10.1,
+        "humidity": 96,
+        "visibility": 0.1,
         "weatherCode": 0,
         "rainRisk": "Low",
-        "windRisk": "Low",
-        "visibilityRisk": "Minimal",
+        "windRisk": "Minimal",
+        "visibilityRisk": "High",
         "heatRisk": "Normal",
-        "travelImpact": "Low",
+        "travelImpact": "High",
         "advice": [
-          "No major weather-related disruption indicated."
+          "Low visibility may make driving unsafe."
         ]
       },
       "pune_district": {
@@ -81,25 +81,25 @@
         "longitude": 73.86876,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-09-27T13:03:04.178Z",
-        "observedAt": "2026-09-27T18:30:00+05:30",
-        "temp": 25.6,
+        "sourceCheckedAt": "2026-09-27T17:45:01.414Z",
+        "observedAt": "2026-09-27T23:15:00+05:30",
+        "temp": 22.4,
         "currentRain": 0,
         "rain6h": 0,
         "rain24h": 2.2,
-        "precipitationProbability": 100,
-        "wind": 28.8,
-        "gust": 28.8,
-        "humidity": 71,
-        "visibility": 10.4,
+        "precipitationProbability": 94,
+        "wind": 16.2,
+        "gust": 16.2,
+        "humidity": 91,
+        "visibility": 0.8,
         "weatherCode": 0,
         "rainRisk": "Low",
-        "windRisk": "Low",
-        "visibilityRisk": "Minimal",
+        "windRisk": "Minimal",
+        "visibilityRisk": "High",
         "heatRisk": "Normal",
-        "travelImpact": "Low",
+        "travelImpact": "High",
         "advice": [
-          "No major weather-related disruption indicated."
+          "Low visibility may make driving unsafe."
         ]
       },
       "mulshi": {
@@ -108,25 +108,25 @@
         "longitude": 73.51617,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-09-27T13:03:04.178Z",
-        "observedAt": "2026-09-27T18:30:00+05:30",
-        "temp": 23.1,
+        "sourceCheckedAt": "2026-09-27T17:45:01.414Z",
+        "observedAt": "2026-09-27T23:15:00+05:30",
+        "temp": 21.7,
         "currentRain": 0,
         "rain6h": 0,
         "rain24h": 2.9,
         "precipitationProbability": 100,
-        "wind": 20.9,
-        "gust": 20.9,
-        "humidity": 92,
-        "visibility": 7.8,
-        "weatherCode": 1,
+        "wind": 9.7,
+        "gust": 9.7,
+        "humidity": 98,
+        "visibility": 0.1,
+        "weatherCode": 0,
         "rainRisk": "Low",
-        "windRisk": "Low",
-        "visibilityRisk": "Minimal",
+        "windRisk": "Minimal",
+        "visibilityRisk": "High",
         "heatRisk": "Normal",
-        "travelImpact": "Low",
+        "travelImpact": "High",
         "advice": [
-          "No major weather-related disruption indicated."
+          "Low visibility may make driving unsafe."
         ]
       },
       "maval": {
@@ -135,32 +135,32 @@
         "longitude": 73.451324,
         "source": "Open-Meteo",
         "sourceUrl": "https://open-meteo.com/",
-        "sourceCheckedAt": "2026-09-27T13:03:04.178Z",
-        "observedAt": "2026-09-27T18:30:00+05:30",
-        "temp": 23.2,
+        "sourceCheckedAt": "2026-09-27T17:45:01.414Z",
+        "observedAt": "2026-09-27T23:15:00+05:30",
+        "temp": 21.7,
         "currentRain": 0,
-        "rain6h": 0.1,
-        "rain24h": 5.4,
+        "rain6h": 0,
+        "rain24h": 5.3,
         "precipitationProbability": 100,
-        "wind": 20.9,
-        "gust": 20.9,
-        "humidity": 89,
-        "visibility": 6.9,
-        "weatherCode": 1,
+        "wind": 3.6,
+        "gust": 3.6,
+        "humidity": 99,
+        "visibility": 0.1,
+        "weatherCode": 0,
         "rainRisk": "Low",
-        "windRisk": "Low",
-        "visibilityRisk": "Minimal",
+        "windRisk": "Minimal",
+        "visibilityRisk": "High",
         "heatRisk": "Normal",
-        "travelImpact": "Low",
+        "travelImpact": "High",
         "advice": [
-          "No major weather-related disruption indicated."
+          "Low visibility may make driving unsafe."
         ]
       }
     }
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-09-27T13:03:20.581Z",
+    "generatedAt": "2026-09-27T17:45:15.866Z",
     "activeSeason": "monsoon",
     "priorityHazards": [
       "flood",
@@ -173,7 +173,7 @@
     "advice": "Monitor rainfall, dam releases, waterlogging and ghat conditions."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-09-27T13:03:20.581Z",
+    "generatedAt": "2026-09-27T17:45:15.866Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -254,7 +254,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-09-27T13:03:20.581Z",
+    "generatedAt": "2026-09-27T17:45:15.866Z",
     "mode": "on-demand",
     "relevantDomains": [
       "highways"
@@ -292,7 +292,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-09-27T13:03:20.582Z",
+    "generatedAt": "2026-09-27T17:45:15.866Z",
     "riskLevel": "Normal",
     "impacts": [
       "1 active transport-related event(s) may affect travel."
