@@ -1,6 +1,56 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-28T08:25:38.406Z",
+  "generatedAt": "2026-09-28T16:57:00.489Z",
   "sourceStatus": "stale",
-  "items": []
+  "items": [
+    {
+      "id": "thunderstorm-official-thunderstorm-accompanied-with-lightning-and-light-spells-of-rain-wit",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Thunderstorm accompanied with lightning and light spells of rain with gusty winds reaching 30-40 kmph very likely to occur at isolated places over Ahilyanagar, Pune in next 3 hours.",
+      "summary": "Thunderstorm accompanied with lightning and light spells of rain with gusty winds reaching 30-40 kmph very likely to occur at isolated places over Ahilyanagar, Pune in next 3 hours.",
+      "category": "thunderstorm",
+      "severity": "watch",
+      "source": "NDMA SACHET (Maharashtra-SDMA)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (Maharashtra-SDMA)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1790612514299029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1790612514299029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-09-28T16:47:15.000Z",
+      "lastUpdated": "2026-09-28T16:47:15.000Z",
+      "sourceCheckedAt": "2026-09-28T16:56:44.849Z",
+      "lastVerifiedAt": "2026-09-28T16:56:44.849Z",
+      "intelligenceGeneratedAt": "2026-09-28T16:57:00.489Z",
+      "expiresAt": "2026-09-28T19:30:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Ahilyanagar,Pune districts of Maharashtra",
+      "upstreamId": "IN-1790612514299029_29",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Update",
+      "capReferences": "IMD-Mumbai,IN-1790612514299029_46,2026-09-28T21:51:33+05:30",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
