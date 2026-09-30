@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-09-30T02:25:34.656Z",
+  "generatedAt": "2026-09-30T08:54:28.987Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-30T02:25:18.561Z",
-        "lastSuccessfulAt": "2026-09-30T02:25:18.561Z",
+        "sourceCheckedAt": "2026-09-30T08:54:13.918Z",
+        "lastSuccessfulAt": "2026-09-30T08:54:13.918Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-09-30T02:25:22.878Z",
-        "lastSuccessfulAt": "2026-09-30T02:25:22.878Z",
+        "sourceCheckedAt": "2026-09-30T08:54:17.687Z",
+        "lastSuccessfulAt": "2026-09-30T08:54:17.687Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-09-30T02:25:22.878Z",
-        "lastSuccessfulAt": "2026-09-29T23:38:35.470Z",
+        "sourceCheckedAt": "2026-09-30T08:54:17.687Z",
+        "lastSuccessfulAt": "2026-09-30T02:25:22.878Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-09-30T02:25:19.309Z",
-        "lastSuccessfulAt": "2026-09-30T02:25:19.309Z",
+        "sourceCheckedAt": "2026-09-30T08:54:14.589Z",
+        "lastSuccessfulAt": "2026-09-30T08:54:14.589Z",
         "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-30T02:25:19.309Z",
-        "lastSuccessfulAt": "2026-09-30T02:25:19.309Z",
+        "sourceCheckedAt": "2026-09-30T08:54:14.589Z",
+        "lastSuccessfulAt": "2026-09-30T08:54:14.589Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,10 +62,10 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-30T02:25:19.309Z",
-        "lastSuccessfulAt": "2026-09-30T02:25:19.309Z",
+        "sourceCheckedAt": "2026-09-30T08:54:14.589Z",
+        "lastSuccessfulAt": "2026-09-30T08:54:14.589Z",
         "error": null,
-        "etag": "W/\"9262-1790690193579\"",
+        "etag": "W/\"9269-1790754107652\"",
         "itemsCollected": 0,
         "type": "alerts"
       },
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-09-30T02:25:19.309Z",
+        "sourceCheckedAt": "2026-09-30T08:54:14.589Z",
         "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,19 +82,19 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-30T02:25:19.309Z",
-        "lastSuccessfulAt": "2026-09-30T02:25:19.309Z",
+        "sourceCheckedAt": "2026-09-30T08:54:14.589Z",
+        "lastSuccessfulAt": "2026-09-30T08:54:14.589Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 0,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-30T02:25:19.309Z",
-        "lastSuccessfulAt": "2026-09-30T02:25:19.309Z",
+        "sourceCheckedAt": "2026-09-30T08:54:14.589Z",
+        "lastSuccessfulAt": "2026-09-30T08:54:14.589Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -104,7 +104,7 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-09-30T02:25:19.309Z",
+        "sourceCheckedAt": "2026-09-30T08:54:14.589Z",
         "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
         "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}",
         "type": "incidents"
@@ -113,19 +113,19 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-30T02:25:19.309Z",
-        "lastSuccessfulAt": "2026-09-30T02:25:19.309Z",
+        "sourceCheckedAt": "2026-09-30T08:54:14.589Z",
+        "lastSuccessfulAt": "2026-09-30T08:54:14.589Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 1,
+        "itemsCollected": 0,
         "type": "incidents"
       },
       {
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-09-30T02:25:19.309Z",
-        "lastSuccessfulAt": "2026-09-30T02:25:19.309Z",
+        "sourceCheckedAt": "2026-09-30T08:54:14.589Z",
+        "lastSuccessfulAt": "2026-09-30T08:54:14.589Z",
         "error": null,
         "itemsCollected": 5,
         "itemsQualified": 5,
@@ -136,8 +136,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-09-30T02:25:22.878Z",
-        "lastSuccessfulAt": "2026-09-30T02:25:22.878Z",
+        "sourceCheckedAt": "2026-09-30T08:54:17.687Z",
+        "lastSuccessfulAt": "2026-09-30T08:54:17.687Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -506,13 +506,13 @@
   },
   "developingSituations": [
     {
-      "id": "fire-developing-pune-bank-blaze-पुण्यात-लक्ष्मी-रस्त्यावर-बँक-ऑफ-इंडिया-च्या-इमारतीला-भीषण",
-      "title": "Developing: Pune Bank Blaze: पुण्यात लक्ष्मी रस्त्यावर ‘बँक ऑफ इंडिया’च्या इमारतीला भीषण आग",
+      "id": "fire-developing-fire-breaks-out-at-bank-of-india-building-on-laxmi-road-2026-09-30t02-28-3",
+      "title": "Developing: Fire breaks out at Bank of India building on Laxmi Road",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "eSakal Pune",
+      "source": "Hindustan Times Pune",
       "trust": "B",
-      "updatedAt": "2026-09-29T14:08:09.000Z"
+      "updatedAt": "2026-09-30T02:28:30.000Z"
     },
     {
       "id": "fire-developing-fire-breaks-out-at-bank-of-india-building-in-pune-no-injuries-reported-202",
