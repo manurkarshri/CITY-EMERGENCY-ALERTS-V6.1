@@ -1,17 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-09-30T20:20:02.760Z",
+  "generatedAt": "2026-10-01T00:05:47.713Z",
   "routes": [],
   "risks": [
-    {
-      "id": "fire-developing-fire-breaks-out-at-bank-of-india-building-in-pune-no-injuries-reported-202",
-      "category": "fire",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
-    },
     {
       "id": "accident-developing-scooter-riding-siblings-injured-after-school-bus-hits-them-in-pune-202",
       "category": "accident",
@@ -20,6 +11,15 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "fire-developing-fire-breaks-out-at-bank-of-india-building-in-pune-no-injuries-reported-202",
+      "category": "fire",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
     }
   ]
 }
