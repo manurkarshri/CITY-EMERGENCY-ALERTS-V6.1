@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-01T05:57:48.654Z",
+  "generatedAt": "2026-10-01T13:00:12.558Z",
   "sourceStatus": "stale",
   "items": [
     {
@@ -27,9 +27,9 @@
       "operationalZones": [],
       "publishedAt": "2026-09-30T18:47:00.000Z",
       "lastUpdated": "2026-09-30T18:47:00.000Z",
-      "sourceCheckedAt": "2026-10-01T05:57:34.094Z",
-      "lastVerifiedAt": "2026-10-01T05:57:34.094Z",
-      "intelligenceGeneratedAt": "2026-10-01T05:57:48.654Z",
+      "sourceCheckedAt": "2026-10-01T12:59:56.099Z",
+      "lastVerifiedAt": "2026-10-01T12:59:56.099Z",
+      "intelligenceGeneratedAt": "2026-10-01T13:00:12.558Z",
       "expiresAt": "2026-10-02T18:47:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -42,7 +42,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-10-01T05:57:34.094Z",
+      "discoveredAt": "2026-10-01T12:59:56.099Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -76,13 +76,13 @@
       "operationalZones": [],
       "publishedAt": "2026-10-01T04:40:03.000Z",
       "lastUpdated": "2026-10-01T04:40:03.000Z",
-      "sourceCheckedAt": "2026-10-01T05:57:34.094Z",
-      "lastVerifiedAt": "2026-10-01T05:57:34.094Z",
-      "intelligenceGeneratedAt": "2026-10-01T05:57:48.654Z",
+      "sourceCheckedAt": "2026-10-01T12:59:56.099Z",
+      "lastVerifiedAt": "2026-10-01T12:59:56.099Z",
+      "intelligenceGeneratedAt": "2026-10-01T13:00:12.558Z",
       "expiresAt": "2026-10-02T16:40:03.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "Hazardous fumes or a chemical release may affect nearby people and travel routes.",
       "recommendedAction": "Avoid the area, do not approach the source, and follow official safety instructions.",
       "affectedArea": "Pune District",
@@ -91,7 +91,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-10-01T05:57:34.094Z",
+      "discoveredAt": "2026-10-01T12:59:56.099Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -100,77 +100,6 @@
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "fire-developing-fire-breaks-out-at-bank-of-india-building-in-pune-no-injuries-reported-202",
-      "eventKind": "incident",
-      "sourceId": "indian_express_pune",
-      "title": "Developing: Fire breaks out at Bank of India building in Pune; no injuries reported",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "fire",
-      "severity": "warning",
-      "source": "Indian Express Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRDFaSXd0c3RhcXI5U29VY3lET0F4Z2I3ZUx0Yk10Vy1TSy1yODZ3ZEQtWHhmWHhMZTlYeVZxbWRUaHJaZ0NKVWR2S2xibV80Z3ZkSEhDd1VjZGE2SkNUazNHM3EyWGN6RHpMY21TRTVqVkpCRkw2S1RHcmlqdGt0TElXM3dlOWlBRGkyMmlZOFhWZVB3aWxtYlBvaU1jcWlHeno1Zmx30gGsAUFVX3lxTE9LSlFWLU9URlB4cElObFlGQVZhWVZHcmJVQ0dPajZENUs1aEc3ZWZmYTZjaUl4eGhKVUFIaVpJWWg4UUt0RlZWcmdqMlVmVHRmZmJMczVyTDVQN0dFWWZJTnowSG91bV9kY2RRZlhzcTBqRzlwMzJLMk0xRFY5cy1fY2JZZjNBV3lyQmduVUZ3TEhiMFdCVFhwakJkUTRKX2NfbTZXMnh3TzhBOFg?oc=5",
-          "origin": ""
-        },
-        {
-          "name": "Mid-day",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOGNMNjNhZzVqUWd0cmNQR1NlUk54T2RwTzdpRUZLNVRQR3N6RVlLcmI4MnNINnBnYWRjZnpDSWw5WnBjVWRFYko3NWxZQVlUSWxlRFRTTHJzS2d1MFBvYXhDNTJRaDRhYTRxV3p5OUpiZ3lmSUcwbTNybUxvQVV0czdvUEtyYjNROEc4MFdxMUV4dUZuckFkb1ZfMFBPZHFOUHE0SzgzaUM4bTNJc2R2SVNidmplT1lfODJsQmNjY19FXy15MGNyNFVsUTd4OTFo0gHWAUFVX3lxTE5MOGFocE1raGl6SUtINkNpVkFWNlZDM05zXzBsdjBnQS1fcjdrelozTzBiTm1MSEZvZXhmaGZmX2RzR25uY3hTNjJpX3ZlZnhUZmxhYjNvSWNJVS16eklZb2RCNXJ5cWFNUXBHTjNuZVctcUxiV2I1MUZfbG5vUHVrQktua1IyUjZwamtIa19LUlRwZ3V1UzlrQ3dzaERNSkhkQ3Y0SGVubjVsSHVWYVFIR0V0QUFTTXhPNDhwMnJ0c0tBblVzalNZckR1ZWh0ZEZvQ2lnWGc?oc=5",
-          "origin": ""
-        },
-        {
-          "name": "NDTV",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcHdaSzVpeHA2TmtkMTE5M181SWc1VU8xSGRIaEJGcUNmUE5WTldOc2xzcHljNXUxaEh2RDBBU0d3ZUF0bUdRTTlrR2cxR0l3a040MjZtYThPUUN4TXZnM0RxU0pxTkxodGkydzh4NEMwMmsyVG10N25FT1NENFFrSmQyRzlKVDNlWUFxczYwY3ZtRWUtdlkzWG13VVhMU1XSAZ8BQVVfeXFMTnB3Wks1aXhwNk5rZDExOTNfNUlnNVVPMUhkSGhCRnFDZlBOVk5XTnNsc3B5YzV1MWhIdkQwQVNHd2VBdG1HUU05a0dnMUdJd2tONDI2bWE4T1FDeE12ZzNEcVNKcU5MaHRpMnc4eDRDMDJrMlRtdDduRU9TRDRRa0pkMkc5SlQzZVlBcXM2MGN2bUVlLXZZM1htd1VYTFNV?oc=5",
-          "origin": ""
-        },
-        {
-          "name": "Moneycontrol",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPek5BY1NEb3docGhOaFBEbk00b0E5U0pHX3RNTnp0aENvcWJmV0hpalJWRXZUeGFBMDFST2dyM3VCNnUxdXFDUFY1SFhyeHBGaklEMTVpSTA3eTVlVHJJbEttZ3V3cGVSWVUzeW5nZ0tydDNPa3RQbXhPOGtwal9Wc0g0MElKdTg0Z0lFSzN2M0hrOFFiRm93aDBYMVhUYWFzWmp3VENrX0N1VFo2cU1tQkRMZzI3V0h4dkQ3bFZUMFBmMDR4LU1HdF8wZ9IB0AFBVV95cUxPdXZhNDdLTVRRanp5LWNrbWVsRDhDZHAzYW9GbW95SERMRDVvb04ySjJZOGlhbDFfeG5OeHY0bG5uV290RmVLWVZCMk5YQXd3Mkw1aFlWQlZhSkJERkd4NnFXbmh6Q0dLLU1CT0hEQ3FSRERUemUtNmVVTTdHR0JBZjg5a3NtZnpGMVhyZ3BlR2NsVWV4c3JPZ05hYmw0N3lOaUlGLS1zM0RFekhkWF94bWY4SlUxXzBDVWV3cjJMeE53NUpicDhhcjNiYjRxenlI?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRDFaSXd0c3RhcXI5U29VY3lET0F4Z2I3ZUx0Yk10Vy1TSy1yODZ3ZEQtWHhmWHhMZTlYeVZxbWRUaHJaZ0NKVWR2S2xibV80Z3ZkSEhDd1VjZGE2SkNUazNHM3EyWGN6RHpMY21TRTVqVkpCRkw2S1RHcmlqdGt0TElXM3dlOWlBRGkyMmlZOFhWZVB3aWxtYlBvaU1jcWlHeno1Zmx30gGsAUFVX3lxTE9LSlFWLU9URlB4cElObFlGQVZhWVZHcmJVQ0dPajZENUs1aEc3ZWZmYTZjaUl4eGhKVUFIaVpJWWg4UUt0RlZWcmdqMlVmVHRmZmJMczVyTDVQN0dFWWZJTnowSG91bV9kY2RRZlhzcTBqRzlwMzJLMk0xRFY5cy1fY2JZZjNBV3lyQmduVUZ3TEhiMFdCVFhwakJkUTRKX2NfbTZXMnh3TzhBOFg?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-09-29T09:24:48.000Z",
-      "lastUpdated": "2026-09-29T09:24:48.000Z",
-      "sourceCheckedAt": "2026-10-01T05:57:34.094Z",
-      "lastVerifiedAt": "2026-10-01T05:57:34.094Z",
-      "intelligenceGeneratedAt": "2026-10-01T05:57:48.654Z",
-      "expiresAt": "2026-10-01T09:24:48.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 67,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-a50cb0d9",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-10-01T05:57:34.094Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [
-        "fire-developing-pune-fire-breaks-out-at-bank-of-india-building-on-busy-laxmi-road-2026-09-",
-        "fire-developing-pune-fire-breaks-out-at-bank-of-india-office-in-laxmi-road-watch-video-202",
-        "fire-developing-fire-breaks-out-at-bank-of-india-office-in-pune-seven-fire-tenders-deploye"
-      ],
-      "independentSourceCount": 4,
-      "corroboratedByIndependentSources": true
     }
   ]
 }
