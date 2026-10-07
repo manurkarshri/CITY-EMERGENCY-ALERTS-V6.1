@@ -1,21 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-07T14:31:55.004Z",
+  "generatedAt": "2026-10-07T20:10:49.541Z",
   "routes": [],
   "risks": [
-    {
-      "id": "accident-developing-at-least-six-injured-after-container-private-bus-collide-on-mumbai-pun",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [
-        "Mumbai-Pune Expressway"
-      ],
-      "talukas": [],
-      "operationalZones": [
-        "Mumbai-Pune Expressway"
-      ],
-      "impact": "Traffic delays are likely near the incident location."
-    },
     {
       "id": "accident-developing-five-suffer-injuries-after-truck-hits-private-luxury-bus-on-connecting",
       "category": "accident",
@@ -32,6 +19,19 @@
       "localities": [],
       "talukas": [],
       "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-at-least-six-injured-after-container-private-bus-collide-on-mumbai-pun",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Mumbai-Pune Expressway"
+      ],
+      "talukas": [],
+      "operationalZones": [
+        "Mumbai-Pune Expressway"
+      ],
       "impact": "Traffic delays are likely near the incident location."
     }
   ]
