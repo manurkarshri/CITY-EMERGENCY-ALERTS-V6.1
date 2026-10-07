@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-07T07:07:13.057Z",
+  "generatedAt": "2026-10-07T14:31:55.178Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-10-07T07:07:13.056Z",
+      "generatedAt": "2026-10-07T14:31:55.177Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -146,7 +146,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-10-07T07:07:13.056Z",
+      "generatedAt": "2026-10-07T14:31:55.178Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -180,11 +180,17 @@
           "label": "Consider Delaying",
           "recommendation": "Consider delaying or checking alternate routes.",
           "reasons": [
+            "Developing: At least six injured after container-private bus collide on Mumbai-Pune Expressway connecting link; traffic hit may cause delays or safety concerns.",
             "Developing: Five suffer injuries after truck hits private luxury bus on Connecting Link of Pune-Mumbai expressway may cause delays or safety concerns.",
-            "Developing: 5 injured in accident on Pune-Mumbai Expressway’s Missing Link; traffic diverted briefly may cause delays or safety concerns.",
-            "Developing: At least six injured after container-private bus collide on Mumbai-Pune Expressway connecting link; traffic hit may cause delays or safety concerns."
+            "Developing: 5 injured in accident on Pune-Mumbai Expressway’s Missing Link; traffic diverted briefly may cause delays or safety concerns."
           ],
           "penalties": [
+            {
+              "eventId": "accident-developing-at-least-six-injured-after-container-private-bus-collide-on-mumbai-pun",
+              "category": "accident",
+              "penalty": 20,
+              "title": "Developing: At least six injured after container-private bus collide on Mumbai-Pune Expressway connecting link; traffic hit"
+            },
             {
               "eventId": "accident-developing-five-suffer-injuries-after-truck-hits-private-luxury-bus-on-connecting",
               "category": "accident",
@@ -196,12 +202,6 @@
               "category": "accident",
               "penalty": 20,
               "title": "Developing: 5 injured in accident on Pune-Mumbai Expressway’s Missing Link; traffic diverted briefly"
-            },
-            {
-              "eventId": "accident-developing-at-least-six-injured-after-container-private-bus-collide-on-mumbai-pun",
-              "category": "accident",
-              "penalty": 20,
-              "title": "Developing: At least six injured after container-private bus collide on Mumbai-Pune Expressway connecting link; traffic hit"
             }
           ]
         },
@@ -210,7 +210,7 @@
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (40/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Five suffer injuries after truck hits private luxury bus on Connecting Link of Pune-Mumbai expressway may cause delays or safety concerns."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (40/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: At least six injured after container-private bus collide on Mumbai-Pune Expressway connecting link; traffic hit may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -246,11 +246,17 @@
             "label": "Consider Delaying",
             "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
+              "Developing: At least six injured after container-private bus collide on Mumbai-Pune Expressway connecting link; traffic hit may cause delays or safety concerns.",
               "Developing: Five suffer injuries after truck hits private luxury bus on Connecting Link of Pune-Mumbai expressway may cause delays or safety concerns.",
-              "Developing: 5 injured in accident on Pune-Mumbai Expressway’s Missing Link; traffic diverted briefly may cause delays or safety concerns.",
-              "Developing: At least six injured after container-private bus collide on Mumbai-Pune Expressway connecting link; traffic hit may cause delays or safety concerns."
+              "Developing: 5 injured in accident on Pune-Mumbai Expressway’s Missing Link; traffic diverted briefly may cause delays or safety concerns."
             ],
             "penalties": [
+              {
+                "eventId": "accident-developing-at-least-six-injured-after-container-private-bus-collide-on-mumbai-pun",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: At least six injured after container-private bus collide on Mumbai-Pune Expressway connecting link; traffic hit"
+              },
               {
                 "eventId": "accident-developing-five-suffer-injuries-after-truck-hits-private-luxury-bus-on-connecting",
                 "category": "accident",
@@ -262,12 +268,6 @@
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: 5 injured in accident on Pune-Mumbai Expressway’s Missing Link; traffic diverted briefly"
-              },
-              {
-                "eventId": "accident-developing-at-least-six-injured-after-container-private-bus-collide-on-mumbai-pun",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: At least six injured after container-private bus collide on Mumbai-Pune Expressway connecting link; traffic hit"
               }
             ]
           },
@@ -276,7 +276,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (40/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: Five suffer injuries after truck hits private luxury bus on Connecting Link of Pune-Mumbai expressway may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Consider Delaying (40/100). Estimated travel time is about 120 minutes including around 25 minutes delay. Main reason: Developing: At least six injured after container-private bus collide on Mumbai-Pune Expressway connecting link; traffic hit may cause delays or safety concerns."
         }
       ]
     },
@@ -285,7 +285,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-10-07T07:07:13.057Z",
+      "generatedAt": "2026-10-07T14:31:55.178Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",

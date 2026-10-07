@@ -1,16 +1,20 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-07T07:07:12.879Z",
+  "generatedAt": "2026-10-07T14:31:55.004Z",
   "routes": [],
   "risks": [
     {
-      "id": "public-safety-developing-property-dispute-man-held-for-grandson-s-murder-in-lonavla-2026-1",
-      "category": "public_safety",
-      "severity": "warning",
-      "localities": [],
+      "id": "accident-developing-at-least-six-injured-after-container-private-bus-collide-on-mumbai-pun",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Mumbai-Pune Expressway"
+      ],
       "talukas": [],
-      "operationalZones": [],
-      "impact": "The incident may create an immediate safety risk in the affected area."
+      "operationalZones": [
+        "Mumbai-Pune Expressway"
+      ],
+      "impact": "Traffic delays are likely near the incident location."
     },
     {
       "id": "accident-developing-five-suffer-injuries-after-truck-hits-private-luxury-bus-on-connecting",
@@ -28,19 +32,6 @@
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "accident-developing-at-least-six-injured-after-container-private-bus-collide-on-mumbai-pun",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [
-        "Mumbai-Pune Expressway"
-      ],
-      "talukas": [],
-      "operationalZones": [
-        "Mumbai-Pune Expressway"
-      ],
       "impact": "Traffic delays are likely near the incident location."
     }
   ]
