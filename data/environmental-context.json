@@ -1,25 +1,25 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-14T15:24:31.960Z",
+  "generatedAt": "2026-10-14T19:37:20.251Z",
   "weatherSource": {
-    "status": "current",
-    "sourceCheckedAt": "2026-10-14T15:24:15.837Z",
+    "status": "stale",
+    "sourceCheckedAt": "2026-10-14T19:36:47.117Z",
     "lastSuccessfulAt": "2026-10-14T15:24:15.837Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
       "url": "https://open-meteo.com/"
     },
-    "error": null
+    "error": "Weather provider could not be reached during the latest check."
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-10-14T15:24:20.125Z",
-    "lastSuccessfulAt": "2026-10-14T15:24:20.125Z",
+    "sourceCheckedAt": "2026-10-14T19:37:07.095Z",
+    "lastSuccessfulAt": "2026-10-14T19:37:07.095Z",
     "error": "Pravah: fetch failed"
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-10-14T15:24:31.924Z",
+    "generatedAt": "2026-10-14T19:37:20.218Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -160,13 +160,13 @@
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-10-14T15:24:31.959Z",
+    "generatedAt": "2026-10-14T19:37:20.251Z",
     "activeSeason": "normal",
     "priorityHazards": [],
     "advice": "Monitor current alerts and local incidents."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-10-14T15:24:31.959Z",
+    "generatedAt": "2026-10-14T19:37:20.251Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -247,10 +247,11 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-10-14T15:24:31.960Z",
+    "generatedAt": "2026-10-14T19:37:20.251Z",
     "mode": "on-demand",
     "relevantDomains": [
-      "highways"
+      "highways",
+      "bridges"
     ],
     "infrastructure": {
       "highways": [
@@ -285,7 +286,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-10-14T15:24:31.960Z",
+    "generatedAt": "2026-10-14T19:37:20.251Z",
     "riskLevel": "Normal",
     "impacts": [
       "3 active transport-related event(s) may affect travel."
@@ -293,5 +294,5 @@
     "citizenSummary": "3 active transport-related event(s) may affect travel.",
     "seasonalContext": "normal"
   },
-  "story": "2 important alerts require attention."
+  "story": "3 important alerts require attention."
 }
