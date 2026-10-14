@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-14T00:30:08.445Z",
+  "generatedAt": "2026-10-14T05:18:32.615Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-10-14T00:30:08.444Z",
+      "generatedAt": "2026-10-14T05:18:32.615Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -123,13 +123,20 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 65,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 45,
+            "label": "Consider Delaying",
+            "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
+              "Developing: MSRTC plans air ambulance service on three highways may cause delays or safety concerns.",
               "Developing: Pune-Bengaluru highway blocked by sugarcane farmers may significantly affect this route."
             ],
             "penalties": [
+              {
+                "eventId": "accident-developing-msrtc-plans-air-ambulance-service-on-three-highways-2026-10-14t02-12-3",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: MSRTC plans air ambulance service on three highways"
+              },
               {
                 "eventId": "road-closure-developing-pune-bengaluru-highway-blocked-by-sugarcane-farmers-2026-10-13t09-",
                 "category": "road_closure",
@@ -138,12 +145,12 @@
               }
             ]
           },
-          "estimatedTimeMin": 80,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 90,
+          "estimatedDelayMin": 25,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Developing: Pune-Bengaluru highway blocked by sugarcane farmers may significantly affect this route."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (45/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: MSRTC plans air ambulance service on three highways may cause delays or safety concerns."
         }
       ]
     },
@@ -152,7 +159,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-10-14T00:30:08.444Z",
+      "generatedAt": "2026-10-14T05:18:32.615Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -245,7 +252,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-10-14T00:30:08.445Z",
+      "generatedAt": "2026-10-14T05:18:32.615Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
