@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-14T22:40:08.824Z",
+  "generatedAt": "2026-10-15T00:55:38.125Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-10-14T22:40:08.823Z",
+      "generatedAt": "2026-10-15T00:55:38.125Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -128,8 +128,8 @@
             "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: MSRTC plans air ambulance service on three highways may cause delays or safety concerns.",
-              "Developing: Traffic along Pune-Benglauru highway near Belagavi blocked for second consecutive day as farmers' protest continues may significantly affect this route.",
-              "Developing: Pune-Bengaluru highway blocked by sugarcane farmers may significantly affect this route."
+              "Developing: Pune-Bengaluru highway blocked by sugarcane farmers may significantly affect this route.",
+              "Developing: Traffic along Pune-Benglauru highway near Belagavi blocked for second consecutive day as farmers' protest continues may significantly affect this route."
             ],
             "penalties": [
               {
@@ -139,16 +139,16 @@
                 "title": "Developing: MSRTC plans air ambulance service on three highways"
               },
               {
-                "eventId": "road-closure-developing-traffic-along-pune-benglauru-highway-near-belagavi-blocked-for-sec",
-                "category": "road_closure",
-                "penalty": 35,
-                "title": "Developing: Traffic along Pune-Benglauru highway near Belagavi blocked for second consecutive day as farmers' protest continues"
-              },
-              {
                 "eventId": "road-closure-developing-pune-bengaluru-highway-blocked-by-sugarcane-farmers-2026-10-13t09-",
                 "category": "road_closure",
                 "penalty": 35,
                 "title": "Developing: Pune-Bengaluru highway blocked by sugarcane farmers"
+              },
+              {
+                "eventId": "road-closure-developing-traffic-along-pune-benglauru-highway-near-belagavi-blocked-for-sec",
+                "category": "road_closure",
+                "penalty": 35,
+                "title": "Developing: Traffic along Pune-Benglauru highway near Belagavi blocked for second consecutive day as farmers' protest continues"
               }
             ]
           },
@@ -166,7 +166,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-10-14T22:40:08.823Z",
+      "generatedAt": "2026-10-15T00:55:38.125Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -259,7 +259,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-10-14T22:40:08.824Z",
+      "generatedAt": "2026-10-15T00:55:38.125Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",

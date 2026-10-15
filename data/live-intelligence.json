@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-14T22:40:08.874Z",
+  "generatedAt": "2026-10-15T00:55:38.176Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-14T22:39:52.303Z",
-        "lastSuccessfulAt": "2026-10-14T22:39:52.303Z",
+        "sourceCheckedAt": "2026-10-15T00:55:17.420Z",
+        "lastSuccessfulAt": "2026-10-15T00:55:17.420Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-10-14T22:39:57.552Z",
-        "lastSuccessfulAt": "2026-10-14T22:39:57.552Z",
+        "sourceCheckedAt": "2026-10-15T00:55:25.315Z",
+        "lastSuccessfulAt": "2026-10-15T00:55:25.315Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-10-14T22:39:57.552Z",
-        "lastSuccessfulAt": "2026-10-14T19:37:07.095Z",
+        "sourceCheckedAt": "2026-10-15T00:55:25.315Z",
+        "lastSuccessfulAt": "2026-10-14T22:39:57.552Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-10-14T22:39:52.832Z",
-        "lastSuccessfulAt": "2026-10-14T22:39:52.832Z",
+        "sourceCheckedAt": "2026-10-15T00:55:20.327Z",
+        "lastSuccessfulAt": "2026-10-15T00:55:20.327Z",
         "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-14T22:39:52.832Z",
-        "lastSuccessfulAt": "2026-10-14T22:39:52.832Z",
+        "sourceCheckedAt": "2026-10-15T00:55:20.327Z",
+        "lastSuccessfulAt": "2026-10-15T00:55:20.327Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,8 +62,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-14T22:39:52.832Z",
-        "lastSuccessfulAt": "2026-10-14T22:39:52.832Z",
+        "sourceCheckedAt": "2026-10-15T00:55:20.327Z",
+        "lastSuccessfulAt": "2026-10-15T00:55:20.327Z",
         "error": null,
         "etag": "W/\"9084-1791208078340\"",
         "itemsCollected": 0,
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-10-14T22:39:52.832Z",
+        "sourceCheckedAt": "2026-10-15T00:55:20.327Z",
         "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,8 +82,8 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-14T22:39:52.832Z",
-        "lastSuccessfulAt": "2026-10-14T22:39:52.832Z",
+        "sourceCheckedAt": "2026-10-15T00:55:20.327Z",
+        "lastSuccessfulAt": "2026-10-15T00:55:20.327Z",
         "error": null,
         "etag": null,
         "itemsCollected": 1,
@@ -93,8 +93,8 @@
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-14T22:39:52.832Z",
-        "lastSuccessfulAt": "2026-10-14T22:39:52.832Z",
+        "sourceCheckedAt": "2026-10-15T00:55:20.327Z",
+        "lastSuccessfulAt": "2026-10-15T00:55:20.327Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -104,7 +104,7 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-10-14T22:39:52.832Z",
+        "sourceCheckedAt": "2026-10-15T00:55:20.327Z",
         "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
         "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}",
         "type": "incidents"
@@ -113,8 +113,8 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-14T22:39:52.832Z",
-        "lastSuccessfulAt": "2026-10-14T22:39:52.832Z",
+        "sourceCheckedAt": "2026-10-15T00:55:20.327Z",
+        "lastSuccessfulAt": "2026-10-15T00:55:20.327Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -124,8 +124,8 @@
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-14T22:39:52.832Z",
-        "lastSuccessfulAt": "2026-10-14T22:39:52.832Z",
+        "sourceCheckedAt": "2026-10-15T00:55:20.327Z",
+        "lastSuccessfulAt": "2026-10-15T00:55:20.327Z",
         "error": null,
         "itemsCollected": 2,
         "itemsQualified": 2,
@@ -136,8 +136,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-10-14T22:39:57.552Z",
-        "lastSuccessfulAt": "2026-10-14T22:39:57.552Z",
+        "sourceCheckedAt": "2026-10-15T00:55:25.315Z",
+        "lastSuccessfulAt": "2026-10-15T00:55:25.315Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -515,15 +515,6 @@
       "updatedAt": "2026-10-14T02:12:30.000Z"
     },
     {
-      "id": "road-closure-developing-traffic-along-pune-benglauru-highway-near-belagavi-blocked-for-sec",
-      "title": "Developing: Traffic along Pune-Benglauru highway near Belagavi blocked for second consecutive day as farmers' protest continues",
-      "status": "developing",
-      "confirmation": "Awaiting official confirmation",
-      "source": "Deccan Herald",
-      "trust": "B",
-      "updatedAt": "2026-10-14T07:05:19.000Z"
-    },
-    {
       "id": "road-closure-developing-pune-bengaluru-highway-blocked-by-sugarcane-farmers-2026-10-13t09-",
       "title": "Developing: Pune-Bengaluru highway blocked by sugarcane farmers",
       "status": "developing",
@@ -531,6 +522,15 @@
       "source": "The Hindu",
       "trust": "B",
       "updatedAt": "2026-10-13T09:23:09.000Z"
+    },
+    {
+      "id": "road-closure-developing-traffic-along-pune-benglauru-highway-near-belagavi-blocked-for-sec",
+      "title": "Developing: Traffic along Pune-Benglauru highway near Belagavi blocked for second consecutive day as farmers' protest continues",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Deccan Herald",
+      "trust": "B",
+      "updatedAt": "2026-10-14T07:05:19.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."
