@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-15T15:15:29.496Z",
+  "generatedAt": "2026-10-15T19:19:23.755Z",
   "status": "stale",
   "situation": {
     "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-10-15T15:15:29.561Z",
+      "generatedAt": "2026-10-15T19:19:24.154Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,18 +13,18 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-15T15:15:14.184Z",
-          "observedAt": "2026-10-15T20:45:00+05:30",
-          "temp": 28.5,
+          "sourceCheckedAt": "2026-10-15T19:19:00.677Z",
+          "observedAt": "2026-10-16T00:45:00+05:30",
+          "temp": 25.4,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 13,
-          "gust": 13,
-          "humidity": 38,
-          "visibility": 13.2,
-          "weatherCode": 1,
+          "wind": 11.2,
+          "gust": 11.2,
+          "humidity": 61,
+          "visibility": 11.7,
+          "weatherCode": 0,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
@@ -40,18 +40,18 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-15T15:15:14.184Z",
-          "observedAt": "2026-10-15T20:45:00+05:30",
-          "temp": 27.2,
+          "sourceCheckedAt": "2026-10-15T19:19:00.677Z",
+          "observedAt": "2026-10-16T00:45:00+05:30",
+          "temp": 23.9,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
           "wind": 7.9,
           "gust": 7.9,
-          "humidity": 54,
-          "visibility": 13.2,
-          "weatherCode": 2,
+          "humidity": 74,
+          "visibility": 8.7,
+          "weatherCode": 0,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
@@ -67,18 +67,18 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-15T15:15:14.184Z",
-          "observedAt": "2026-10-15T20:45:00+05:30",
-          "temp": 28.5,
+          "sourceCheckedAt": "2026-10-15T19:19:00.677Z",
+          "observedAt": "2026-10-16T00:45:00+05:30",
+          "temp": 25.4,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 13,
-          "gust": 13,
-          "humidity": 38,
-          "visibility": 13.2,
-          "weatherCode": 1,
+          "wind": 11.2,
+          "gust": 11.2,
+          "humidity": 61,
+          "visibility": 11.7,
+          "weatherCode": 0,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
@@ -94,17 +94,17 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-15T15:15:14.184Z",
-          "observedAt": "2026-10-15T20:45:00+05:30",
-          "temp": 24.2,
+          "sourceCheckedAt": "2026-10-15T19:19:00.677Z",
+          "observedAt": "2026-10-16T00:45:00+05:30",
+          "temp": 22.9,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 3.6,
-          "gust": 3.6,
-          "humidity": 72,
-          "visibility": 12.6,
+          "wind": 2.9,
+          "gust": 2.9,
+          "humidity": 86,
+          "visibility": 12.5,
           "weatherCode": 1,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
@@ -121,18 +121,18 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-15T15:15:14.184Z",
-          "observedAt": "2026-10-15T20:45:00+05:30",
-          "temp": 25.7,
+          "sourceCheckedAt": "2026-10-15T19:19:00.677Z",
+          "observedAt": "2026-10-16T00:45:00+05:30",
+          "temp": 23.1,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 5,
-          "gust": 5,
-          "humidity": 66,
+          "wind": 9.4,
+          "gust": 9.4,
+          "humidity": 78,
           "visibility": 12.1,
-          "weatherCode": 1,
+          "weatherCode": 0,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
@@ -146,17 +146,66 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-10-15T15:15:29.606Z",
+      "generatedAt": "2026-10-15T19:19:24.186Z",
       "riskLevel": "Normal",
       "impacts": [
-        "1 active transport-related event(s) may affect travel."
+        "2 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "1 active transport-related event(s) may affect travel.",
+      "citizenSummary": "2 active transport-related event(s) may affect travel.",
       "seasonalContext": "normal"
     }
   },
   "alerts": [],
   "incidents": [
+    {
+      "id": "accident-developing-driver-dies-of-heart-attack-at-wheel-car-hits-pole-in-pune-2-women-inj",
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "title": "Developing: Driver dies of heart attack at wheel, car hits pole in Pune; 2 women injured",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTE1Dbjc3bkFsV2FPMWdCSlI5WEw5ZFJGVUVsNGllZ2twSEFlYmNxT3gtWUs2S1Q0eXI1c1NEbHlGWElub0dhclB6RXFPVWktck1nN1NBVzVZcVc5VmpzMnRKZWtWQnhTUHl6X3ltZWw5NGx3T3g5a1lUTnAzSlcxNVd1S0llUzZXTm16X2I1RVBXaDE2U3BCM2RpSTRJaG1GTDJfSUNpX3d2NlQ5Nm5MY3FTbVQyT0pFWjQteVE3NHZZV2FDcldZVk5VeDNOWDAtR0wtNUVKUHlvUk1lbHo40gHkAUFVX3lxTFA3d0RJQ1pYQi1mQzloUFJoamRDMmhULVFUZzVmelJURUpjZU96OTVNVDVjc25HUVVzNFViN1k0Q3l6QjFidUdDMERqUlFXb1lZR090VW91b19EY2M2SUxxaU9hZ09sQUYxay0zQXJPM08wODE1WUtBWGZ5WU1DcTRVTnMyUjBJaWxYVWJrZmJjdy1IT21GU3BqOERmRXJqbk90TkUycXZFYVNoVkg0MXBOQngwTmpNRzBnY1RMVy1pUnhSa0k0RFd5OUpiZEtQYjJDNGs0cDB4VVlqUndCeDRscFNJXw?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTE1Dbjc3bkFsV2FPMWdCSlI5WEw5ZFJGVUVsNGllZ2twSEFlYmNxT3gtWUs2S1Q0eXI1c1NEbHlGWElub0dhclB6RXFPVWktck1nN1NBVzVZcVc5VmpzMnRKZWtWQnhTUHl6X3ltZWw5NGx3T3g5a1lUTnAzSlcxNVd1S0llUzZXTm16X2I1RVBXaDE2U3BCM2RpSTRJaG1GTDJfSUNpX3d2NlQ5Nm5MY3FTbVQyT0pFWjQteVE3NHZZV2FDcldZVk5VeDNOWDAtR0wtNUVKUHlvUk1lbHo40gHkAUFVX3lxTFA3d0RJQ1pYQi1mQzloUFJoamRDMmhULVFUZzVmelJURUpjZU96OTVNVDVjc25HUVVzNFViN1k0Q3l6QjFidUdDMERqUlFXb1lZR090VW91b19EY2M2SUxxaU9hZ09sQUYxay0zQXJPM08wODE1WUtBWGZ5WU1DcTRVTnMyUjBJaWxYVWJrZmJjdy1IT21GU3BqOERmRXJqbk90TkUycXZFYVNoVkg0MXBOQngwTmpNRzBnY1RMVy1pUnhSa0k0RFd5OUpiZEtQYjJDNGs0cDB4VVlqUndCeDRscFNJXw?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-10-15T18:55:00.000Z",
+      "lastUpdated": "2026-10-15T18:55:00.000Z",
+      "sourceCheckedAt": "2026-10-15T19:19:01.448Z",
+      "lastVerifiedAt": "2026-10-15T19:19:01.448Z",
+      "intelligenceGeneratedAt": "2026-10-15T19:19:23.755Z",
+      "expiresAt": "2026-10-17T18:55:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-27a148ce",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-10-15T19:19:01.448Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
     {
       "id": "road-closure-developing-traffic-along-pune-benglauru-highway-near-belagavi-blocked-for-sec",
       "eventKind": "incident",
@@ -181,9 +230,9 @@
       "operationalZones": [],
       "publishedAt": "2026-10-14T07:05:19.000Z",
       "lastUpdated": "2026-10-14T07:05:19.000Z",
-      "sourceCheckedAt": "2026-10-15T15:15:14.728Z",
-      "lastVerifiedAt": "2026-10-15T15:15:14.728Z",
-      "intelligenceGeneratedAt": "2026-10-15T15:15:29.496Z",
+      "sourceCheckedAt": "2026-10-15T19:19:01.448Z",
+      "lastVerifiedAt": "2026-10-15T19:19:01.448Z",
+      "intelligenceGeneratedAt": "2026-10-15T19:19:23.755Z",
       "expiresAt": "2026-10-16T07:05:19.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -196,7 +245,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-10-15T15:15:14.728Z",
+      "discoveredAt": "2026-10-15T19:19:01.448Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -209,6 +258,15 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
+      {
+        "id": "accident-developing-driver-dies-of-heart-attack-at-wheel-car-hits-pole-in-pune-2-women-inj",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
       {
         "id": "road-closure-developing-traffic-along-pune-benglauru-highway-near-belagavi-blocked-for-sec",
         "category": "road_closure",
@@ -245,9 +303,9 @@
       "operationalZones": [],
       "publishedAt": "2026-10-13T09:23:09.000Z",
       "lastUpdated": "2026-10-13T09:23:09.000Z",
-      "sourceCheckedAt": "2026-10-15T15:15:14.728Z",
-      "lastVerifiedAt": "2026-10-15T15:15:14.728Z",
-      "intelligenceGeneratedAt": "2026-10-15T15:15:29.496Z",
+      "sourceCheckedAt": "2026-10-15T19:19:01.448Z",
+      "lastVerifiedAt": "2026-10-15T19:19:01.448Z",
+      "intelligenceGeneratedAt": "2026-10-15T19:19:23.755Z",
       "expiresAt": "2026-10-15T09:23:09.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -260,7 +318,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-10-15T15:15:14.728Z",
+      "discoveredAt": "2026-10-15T19:19:01.448Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -277,21 +335,21 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-10-15T15:15:14.728Z",
-      "lastSuccessfulAt": "2026-10-15T15:15:14.728Z",
+      "sourceCheckedAt": "2026-10-15T19:19:01.448Z",
+      "lastSuccessfulAt": "2026-10-15T19:19:01.448Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-10-15T15:15:29.605Z",
+      "generatedAt": "2026-10-15T19:19:24.186Z",
       "activeSeason": "normal",
       "priorityHazards": [],
       "advice": "Monitor current alerts and local incidents."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-10-15T15:15:29.605Z",
+      "generatedAt": "2026-10-15T19:19:24.186Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -372,7 +430,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-10-15T15:15:29.606Z",
+      "generatedAt": "2026-10-15T19:19:24.186Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -417,7 +475,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-10-15T15:15:29.668Z",
+        "generatedAt": "2026-10-15T19:19:24.566Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -561,7 +619,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-10-15T15:15:29.668Z",
+        "generatedAt": "2026-10-15T19:19:24.566Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -654,7 +712,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-10-15T15:15:29.668Z",
+        "generatedAt": "2026-10-15T19:19:24.566Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -683,18 +741,27 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "reasons": [
+              "Developing: Driver dies of heart attack at wheel, car hits pole in Pune; 2 women injured may cause delays or safety concerns."
+            ],
+            "penalties": [
+              {
+                "eventId": "accident-developing-driver-dies-of-heart-attack-at-wheel-car-hits-pole-in-pune-2-women-inj",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Driver dies of heart attack at wheel, car hits pole in Pune; 2 women injured"
+              }
+            ]
           },
-          "estimatedTimeMin": 35,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 43,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: Driver dies of heart attack at wheel, car hits pole in Pune; 2 women injured may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -725,18 +792,27 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
-              "penalties": []
+              "score": 80,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+              "reasons": [
+                "Developing: Driver dies of heart attack at wheel, car hits pole in Pune; 2 women injured may cause delays or safety concerns."
+              ],
+              "penalties": [
+                {
+                  "eventId": "accident-developing-driver-dies-of-heart-attack-at-wheel-car-hits-pole-in-pune-2-women-inj",
+                  "category": "accident",
+                  "penalty": 20,
+                  "title": "Developing: Driver dies of heart attack at wheel, car hits pole in Pune; 2 women injured"
+                }
+              ]
             },
-            "estimatedTimeMin": 35,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 43,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: Driver dies of heart attack at wheel, car hits pole in Pune; 2 women injured may cause delays or safety concerns."
           }
         ]
       }
