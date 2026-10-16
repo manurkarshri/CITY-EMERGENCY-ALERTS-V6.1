@@ -1,17 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-16T00:47:30.069Z",
+  "generatedAt": "2026-10-16T05:36:03.232Z",
   "routes": [],
   "risks": [
-    {
-      "id": "accident-developing-driver-dies-of-heart-attack-at-wheel-car-hits-pole-in-pune-2-women-inj",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
     {
       "id": "road-closure-developing-traffic-along-pune-benglauru-highway-near-belagavi-blocked-for-sec",
       "category": "road_closure",
@@ -20,6 +11,15 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Route may be blocked or diverted."
+    },
+    {
+      "id": "accident-developing-driver-dies-of-heart-attack-at-wheel-car-hits-pole-in-pune-2-women-inj",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
     }
   ]
 }
