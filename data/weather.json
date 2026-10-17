@@ -1,9 +1,9 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-17T08:28:11.958Z",
-  "sourceCheckedAt": "2026-10-17T08:28:11.958Z",
+  "generatedAt": "2026-10-17T12:21:24.229Z",
+  "sourceCheckedAt": "2026-10-17T12:21:24.229Z",
   "lastSuccessfulAt": "2026-10-17T08:28:11.958Z",
-  "status": "current",
+  "status": "stale",
   "staleAfterMinutes": 60,
   "attribution": {
     "name": "Open-Meteo",
@@ -110,5 +110,6 @@
       "source": "Open-Meteo",
       "sourceUrl": "https://open-meteo.com/"
     }
-  }
+  },
+  "error": "Weather provider could not be reached during the latest check."
 }
