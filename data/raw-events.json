@@ -2,9 +2,9 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-10-17T03:57:34.039Z",
-  "lastSuccessfulAt": "2026-10-17T03:57:34.039Z",
-  "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403; pune_metro: This operation was aborted",
+  "sourceCheckedAt": "2026-10-17T08:28:12.326Z",
+  "lastSuccessfulAt": "2026-10-17T08:28:12.326Z",
+  "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
   ],
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-17T03:57:34.039Z",
-      "lastSuccessfulAt": "2026-10-17T03:57:34.039Z",
+      "sourceCheckedAt": "2026-10-17T08:28:12.326Z",
+      "lastSuccessfulAt": "2026-10-17T08:28:12.326Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,17 +23,17 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-17T03:57:34.039Z",
-      "lastSuccessfulAt": "2026-10-17T03:57:34.039Z",
+      "sourceCheckedAt": "2026-10-17T08:28:12.326Z",
+      "lastSuccessfulAt": "2026-10-17T08:28:12.326Z",
       "error": null,
-      "etag": "W/\"9124-1792190063891\"",
+      "etag": "W/\"9097-1792223609027\"",
       "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-10-17T03:57:34.039Z",
+      "sourceCheckedAt": "2026-10-17T08:28:12.326Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-17T03:57:34.039Z",
-      "lastSuccessfulAt": "2026-10-17T03:57:34.039Z",
+      "sourceCheckedAt": "2026-10-17T08:28:12.326Z",
+      "lastSuccessfulAt": "2026-10-17T08:28:12.326Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -50,16 +50,18 @@
     {
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
-      "status": "unavailable",
-      "sourceCheckedAt": "2026-10-17T03:57:34.039Z",
-      "lastSuccessfulAt": "2026-10-16T21:43:38.232Z",
-      "error": "This operation was aborted"
+      "status": "healthy",
+      "sourceCheckedAt": "2026-10-17T08:28:12.326Z",
+      "lastSuccessfulAt": "2026-10-17T08:28:12.326Z",
+      "error": null,
+      "etag": null,
+      "itemsCollected": 0
     },
     {
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-10-17T03:57:34.039Z",
+      "sourceCheckedAt": "2026-10-17T08:28:12.326Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -67,8 +69,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-17T03:57:34.039Z",
-      "lastSuccessfulAt": "2026-10-17T03:57:34.039Z",
+      "sourceCheckedAt": "2026-10-17T08:28:12.326Z",
+      "lastSuccessfulAt": "2026-10-17T08:28:12.326Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -77,40 +79,12 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-17T03:57:34.039Z",
-      "lastSuccessfulAt": "2026-10-17T03:57:34.039Z",
+      "sourceCheckedAt": "2026-10-17T08:28:12.326Z",
+      "lastSuccessfulAt": "2026-10-17T08:28:12.326Z",
       "error": null,
-      "itemsCollected": 1,
-      "itemsQualified": 1
+      "itemsCollected": 0,
+      "itemsQualified": 0
     }
   ],
-  "items": [
-    {
-      "eventKind": "incident",
-      "sourceId": "deccan_herald",
-      "collectionSourceId": "google_news_discovery",
-      "upstreamId": "google-news-dcb5ab1d",
-      "title": "Developing: Traffic along Pune-Benglauru highway near Belagavi blocked for second consecutive day as farmers' protest continues",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "road_closure",
-      "severity": "warning",
-      "source": "Deccan Herald",
-      "sourceTrust": "B",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOR3lycGVYSnoyMEp4eGViZjFoZXBtLXNPU3VRSXpaMzVSOU04UGNubm9YMEt6cVhGQ1ZLMmU3REMteEY5d1R0R3dmUW5JMXdLTzRkcWRtanROMlRmYWgxNF9LMkI3U0d0SU11MHN3elJNWWZmYWZrVjBkSTBTaUJjcThsQVk2N1pic0xISzNBMVVERmNwNVZqME1rZ21pMUlXWEdfdVN0ZjE3X0I0RGlTN3VoZXFscnVacVNsWC1ibmxNM2k1YVBWbTh0aG9hQllBMTctTGt2d0xqUWNGbVozLXVwa3dvNTBlQ1VLMmJQd0J0dTJXWGVfQTZERQ?oc=5",
-      "sourceOrigin": "",
-      "publishedAt": "2026-10-14T07:05:19.000Z",
-      "discoveredAt": "2026-10-17T03:57:34.039Z",
-      "lastUpdated": "2026-10-14T07:05:19.000Z",
-      "sourceCheckedAt": "2026-10-17T03:57:34.039Z",
-      "lastVerifiedAt": "2026-10-17T03:57:34.039Z",
-      "expiresAt": "2026-10-16T07:05:19.000Z",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "geographicScope": "pune_district",
-      "affectedArea": "Pune District",
-      "talukas": [],
-      "localities": []
-    }
-  ]
+  "items": []
 }
