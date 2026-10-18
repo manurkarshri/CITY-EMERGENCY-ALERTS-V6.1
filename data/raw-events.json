@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-10-18T13:49:52.340Z",
-  "lastSuccessfulAt": "2026-10-18T13:49:52.340Z",
+  "sourceCheckedAt": "2026-10-18T17:09:14.252Z",
+  "lastSuccessfulAt": "2026-10-18T17:09:14.252Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-18T13:49:52.340Z",
-      "lastSuccessfulAt": "2026-10-18T13:49:52.340Z",
+      "sourceCheckedAt": "2026-10-18T17:09:14.252Z",
+      "lastSuccessfulAt": "2026-10-18T17:09:14.252Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,8 +23,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-18T13:49:52.340Z",
-      "lastSuccessfulAt": "2026-10-18T13:49:52.340Z",
+      "sourceCheckedAt": "2026-10-18T17:09:14.252Z",
+      "lastSuccessfulAt": "2026-10-18T17:09:14.252Z",
       "error": null,
       "etag": "W/\"9258-1792255749952\"",
       "itemsCollected": 0
@@ -33,7 +33,7 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-10-18T13:49:52.340Z",
+      "sourceCheckedAt": "2026-10-18T17:09:14.252Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-18T13:49:52.340Z",
-      "lastSuccessfulAt": "2026-10-18T13:49:52.340Z",
+      "sourceCheckedAt": "2026-10-18T17:09:14.252Z",
+      "lastSuccessfulAt": "2026-10-18T17:09:14.252Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-18T13:49:52.340Z",
-      "lastSuccessfulAt": "2026-10-18T13:49:52.340Z",
+      "sourceCheckedAt": "2026-10-18T17:09:14.252Z",
+      "lastSuccessfulAt": "2026-10-18T17:09:14.252Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-10-18T13:49:52.340Z",
+      "sourceCheckedAt": "2026-10-18T17:09:14.252Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,8 +69,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-18T13:49:52.340Z",
-      "lastSuccessfulAt": "2026-10-18T13:49:52.340Z",
+      "sourceCheckedAt": "2026-10-18T17:09:14.252Z",
+      "lastSuccessfulAt": "2026-10-18T17:09:14.252Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -79,12 +79,44 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-18T13:49:52.340Z",
-      "lastSuccessfulAt": "2026-10-18T13:49:52.340Z",
+      "sourceCheckedAt": "2026-10-18T17:09:14.252Z",
+      "lastSuccessfulAt": "2026-10-18T17:09:14.252Z",
       "error": null,
-      "itemsCollected": 0,
-      "itemsQualified": 0
+      "itemsCollected": 1,
+      "itemsQualified": 1
     }
   ],
-  "items": []
+  "items": [
+    {
+      "eventKind": "incident",
+      "sourceId": "deccan_herald",
+      "collectionSourceId": "google_news_discovery",
+      "upstreamId": "google-news-40e4eaa2",
+      "title": "Developing: Businessman shot at near Baramati Airport in Pune district",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "public_safety",
+      "severity": "warning",
+      "source": "Deccan Herald",
+      "sourceTrust": "B",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOejZPbE9LdzFSNWxwa25UWUpWZ0VnbzFrRHFNQ0U5alRGaXZnT2RwQW93d3hSYzVjMTYzR0tKQXFpSTVDUmo4a2dxOXRTYXpGMjUyVm9aTkNHbFAxRTg5RU9qTnhKVzhEcmgxRUkwWFpyWFdKQlBuUGs1TjJ5aGtqTjRjbEFINk5UYXpzQVlFRmxISURsamR1Y0tCV3BmSkdhNmQ3UGpoMnNwQkpxYzJlNjduYw?oc=5",
+      "sourceOrigin": "",
+      "publishedAt": "2026-10-18T16:55:18.000Z",
+      "discoveredAt": "2026-10-18T17:09:14.252Z",
+      "lastUpdated": "2026-10-18T16:55:18.000Z",
+      "sourceCheckedAt": "2026-10-18T17:09:14.252Z",
+      "lastVerifiedAt": "2026-10-18T17:09:14.252Z",
+      "expiresAt": "2026-10-20T04:55:18.000Z",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "geographicScope": "local",
+      "affectedArea": "Baramati",
+      "talukas": [
+        "baramati"
+      ],
+      "localities": [
+        "Baramati"
+      ]
+    }
+  ]
 }

@@ -1,10 +1,26 @@
 {
   "schemaVersion": "6.1.0",
   "provider": "Google News RSS",
-  "sourceCheckedAt": "2026-10-18T13:49:52.340Z",
+  "sourceCheckedAt": "2026-10-18T17:09:14.252Z",
   "status": "healthy",
   "error": null,
-  "items": [],
-  "collectedItems": 0,
-  "qualifiedItems": 0
+  "items": [
+    {
+      "id": "google-news-40e4eaa2",
+      "publisherId": "deccan_herald",
+      "publisher": "Deccan Herald",
+      "title": "Businessman shot at near Baramati Airport in Pune district",
+      "category": "public_safety",
+      "severity": "warning",
+      "publishedAt": "2026-10-18T16:55:18.000Z",
+      "discoveredAt": "2026-10-18T17:09:14.252Z",
+      "reportedAuthority": "",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOejZPbE9LdzFSNWxwa25UWUpWZ0VnbzFrRHFNQ0U5alRGaXZnT2RwQW93d3hSYzVjMTYzR0tKQXFpSTVDUmo4a2dxOXRTYXpGMjUyVm9aTkNHbFAxRTg5RU9qTnhKVzhEcmgxRUkwWFpyWFdKQlBuUGs1TjJ5aGtqTjRjbEFINk5UYXpzQVlFRmxISURsamR1Y0tCV3BmSkdhNmQ3UGpoMnNwQkpxYzJlNjduYw?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "awaiting_direct_article",
+      "verifiedEventIds": []
+    }
+  ],
+  "collectedItems": 1,
+  "qualifiedItems": 1
 }
