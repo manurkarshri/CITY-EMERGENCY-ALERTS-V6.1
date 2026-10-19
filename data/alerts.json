@@ -1,6 +1,56 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-19T07:29:21.564Z",
+  "generatedAt": "2026-10-19T14:55:53.122Z",
   "sourceStatus": "stale",
-  "items": []
+  "items": [
+    {
+      "id": "thunderstorm-official-thunderstorm-accompanied-with-lightning-light-spells-of-rain-with-gu",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Thunderstorm accompanied with lightning, Light spells of rain with gusty winds reaching 30-40 kmph very likely to occur at isolated places over Pune, Raigad, Ratnagiri in next 3 hours.",
+      "summary": "Thunderstorm accompanied with lightning, Light spells of rain with gusty winds reaching 30-40 kmph very likely to occur at isolated places over Pune, Raigad, Ratnagiri in next 3 hours.",
+      "category": "thunderstorm",
+      "severity": "watch",
+      "source": "NDMA SACHET (Maharashtra-SDMA)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (Maharashtra-SDMA)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1792417452591029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1792417452591029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-10-19T14:12:00.000Z",
+      "lastUpdated": "2026-10-19T14:12:00.000Z",
+      "sourceCheckedAt": "2026-10-19T14:55:31.701Z",
+      "lastVerifiedAt": "2026-10-19T14:55:31.701Z",
+      "intelligenceGeneratedAt": "2026-10-19T14:55:53.122Z",
+      "expiresAt": "2026-10-19T16:30:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Pune,Raigad,Ratnagiri districts of Maharashtra",
+      "upstreamId": "IN-1792417452591029_29",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Update",
+      "capReferences": "IMD-Mumbai,IN-1792417452591029_46,2026-10-19T19:13:32+05:30",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
