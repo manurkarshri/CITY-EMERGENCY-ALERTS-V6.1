@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
-  "lastSuccessfulAt": "2026-10-20T14:26:43.602Z",
+  "sourceCheckedAt": "2026-10-20T18:38:54.489Z",
+  "lastSuccessfulAt": "2026-10-20T18:38:54.489Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
-      "lastSuccessfulAt": "2026-10-20T14:26:43.602Z",
+      "sourceCheckedAt": "2026-10-20T18:38:54.489Z",
+      "lastSuccessfulAt": "2026-10-20T18:38:54.489Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,17 +23,17 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
-      "lastSuccessfulAt": "2026-10-20T14:26:43.602Z",
+      "sourceCheckedAt": "2026-10-20T18:38:54.489Z",
+      "lastSuccessfulAt": "2026-10-20T18:38:54.489Z",
       "error": null,
       "etag": "W/\"9222-1792503217741\"",
-      "itemsCollected": 1
+      "itemsCollected": 0
     },
     {
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
+      "sourceCheckedAt": "2026-10-20T18:38:54.489Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
-      "lastSuccessfulAt": "2026-10-20T14:26:43.602Z",
+      "sourceCheckedAt": "2026-10-20T18:38:54.489Z",
+      "lastSuccessfulAt": "2026-10-20T18:38:54.489Z",
       "error": null,
       "etag": null,
       "itemsCollected": 2
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
-      "lastSuccessfulAt": "2026-10-20T14:26:43.602Z",
+      "sourceCheckedAt": "2026-10-20T18:38:54.489Z",
+      "lastSuccessfulAt": "2026-10-20T18:38:54.489Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
+      "sourceCheckedAt": "2026-10-20T18:38:54.489Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,8 +69,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
-      "lastSuccessfulAt": "2026-10-20T14:26:43.602Z",
+      "sourceCheckedAt": "2026-10-20T18:38:54.489Z",
+      "lastSuccessfulAt": "2026-10-20T18:38:54.489Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -79,37 +79,14 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
-      "lastSuccessfulAt": "2026-10-20T14:26:43.602Z",
+      "sourceCheckedAt": "2026-10-20T18:38:54.489Z",
+      "lastSuccessfulAt": "2026-10-20T18:38:54.489Z",
       "error": null,
       "itemsCollected": 1,
       "itemsQualified": 1
     }
   ],
   "items": [
-    {
-      "eventKind": "alert",
-      "sourceId": "ndma_sachet",
-      "upstreamId": "IN-1792503029041029_29",
-      "title": "Official: Thunderstorm accompanied with lightning and light spells of rain with gusty winds reaching 30-40 kmph very likely to occur at isolated places over Pune, Raigad.",
-      "summary": "Thunderstorm accompanied with lightning and light spells of rain with gusty winds reaching 30-40 kmph very likely to occur at isolated places over Pune, Raigad.",
-      "category": "thunderstorm",
-      "severity": "watch",
-      "source": "NDMA SACHET (Maharashtra-SDMA)",
-      "sourceTrust": "A+",
-      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1792503029041029",
-      "publishedAt": "2026-10-20T13:33:35.000Z",
-      "lastUpdated": "2026-10-20T13:33:35.000Z",
-      "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
-      "lastVerifiedAt": "2026-10-20T14:26:43.602Z",
-      "expiresAt": "2026-10-20T16:30:00.000Z",
-      "recommendedAction": "Please follow SDMA guidelines.",
-      "talukas": [],
-      "localities": [],
-      "affectedArea": "Pune,Raigad districts of Maharashtra",
-      "capMessageType": "Update",
-      "capReferences": "IMD-Mumbai,IN-1792503029041029_46,2026-10-20T19:00:01+05:30"
-    },
     {
       "sourceId": "hindustan_times_pune",
       "title": "Developing: Road accidents, electrocution kill over 150 wild animals in western ghats in nine months",
@@ -121,8 +98,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/road-accidents-electrocution-kill-over-150-wild-animals-in-western-ghats-in-nine-months-101792437982491.html",
       "publishedAt": "2026-10-20T02:19:20.000Z",
       "lastUpdated": "2026-10-20T02:19:20.000Z",
-      "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
-      "lastVerifiedAt": "2026-10-20T14:26:43.602Z",
+      "sourceCheckedAt": "2026-10-20T18:38:54.489Z",
+      "lastVerifiedAt": "2026-10-20T18:38:54.489Z",
       "expiresAt": "2026-10-20T14:19:20.000Z"
     },
     {
@@ -136,8 +113,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/antirabies-vaccine-unavailable-at-126-govt-hospitals-rig-at-375-101792436305379.html",
       "publishedAt": "2026-10-20T02:13:10.000Z",
       "lastUpdated": "2026-10-20T02:13:10.000Z",
-      "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
-      "lastVerifiedAt": "2026-10-20T14:26:43.602Z",
+      "sourceCheckedAt": "2026-10-20T18:38:54.489Z",
+      "lastVerifiedAt": "2026-10-20T18:38:54.489Z",
       "expiresAt": "2026-10-20T14:13:10.000Z"
     },
     {
@@ -154,10 +131,10 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOejZPbE9LdzFSNWxwa25UWUpWZ0VnbzFrRHFNQ0U5alRGaXZnT2RwQW93d3hSYzVjMTYzR0tKQXFpSTVDUmo4a2dxOXRTYXpGMjUyVm9aTkNHbFAxRTg5RU9qTnhKVzhEcmgxRUkwWFpyWFdKQlBuUGs1TjJ5aGtqTjRjbEFINk5UYXpzQVlFRmxISURsamR1Y0tCV3BmSkdhNmQ3UGpoMnNwQkpxYzJlNjduYw?oc=5",
       "sourceOrigin": "",
       "publishedAt": "2026-10-18T16:55:18.000Z",
-      "discoveredAt": "2026-10-20T14:26:43.602Z",
+      "discoveredAt": "2026-10-20T18:38:54.489Z",
       "lastUpdated": "2026-10-18T16:55:18.000Z",
-      "sourceCheckedAt": "2026-10-20T14:26:43.602Z",
-      "lastVerifiedAt": "2026-10-20T14:26:43.602Z",
+      "sourceCheckedAt": "2026-10-20T18:38:54.489Z",
+      "lastVerifiedAt": "2026-10-20T18:38:54.489Z",
       "expiresAt": "2026-10-20T04:55:18.000Z",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
