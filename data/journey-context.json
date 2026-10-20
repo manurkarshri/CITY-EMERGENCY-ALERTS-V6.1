@@ -1,16 +1,25 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-19T23:54:16.749Z",
+  "generatedAt": "2026-10-20T04:05:23.930Z",
   "routes": [],
   "risks": [
     {
-      "id": "accident-developing-5-killed-as-car-crashes-into-state-transport-bus-in-maharashtra-s-beed",
-      "category": "accident",
-      "severity": "watch",
+      "id": "electrical-hazard-developing-road-accidents-electrocution-kill-over-150-wild-animals-in-we",
+      "category": "electrical_hazard",
+      "severity": "warning",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
+      "impact": "Live electrical equipment or fallen wires may create a serious shock risk."
+    },
+    {
+      "id": "medical-advisory-developing-anti-rabies-vaccine-unavailable-at-126-govt-hospitals-rig-at-3",
+      "category": "medical_advisory",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "A medicine, hospital-service or medical-supply issue may affect access to safe care."
     },
     {
       "id": "public-safety-developing-businessman-shot-at-near-baramati-airport-in-pune-district-2026-1",
