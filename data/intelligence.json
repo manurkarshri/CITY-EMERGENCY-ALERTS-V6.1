@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-21T15:20:18.079Z",
+  "generatedAt": "2026-10-21T19:29:33.747Z",
   "status": "stale",
   "situation": {
-    "snapshot": "No major environmental disruption indicated from current data.",
+    "snapshot": "3 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-10-21T15:20:18.137Z",
+      "generatedAt": "2026-10-21T19:29:33.791Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,17 +13,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-21T15:19:49.625Z",
-          "observedAt": "2026-10-21T20:45:00+05:30",
-          "temp": 28.6,
+          "sourceCheckedAt": "2026-10-21T19:29:16.712Z",
+          "observedAt": "2026-10-22T00:45:00+05:30",
+          "temp": 25.5,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 11.2,
-          "gust": 11.2,
-          "humidity": 43,
-          "visibility": 14,
+          "wind": 3.6,
+          "gust": 3.6,
+          "humidity": 55,
+          "visibility": 13.9,
           "weatherCode": 0,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
@@ -40,18 +40,18 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-21T15:19:49.625Z",
-          "observedAt": "2026-10-21T20:45:00+05:30",
-          "temp": 27.9,
+          "sourceCheckedAt": "2026-10-21T19:29:16.712Z",
+          "observedAt": "2026-10-22T00:45:00+05:30",
+          "temp": 23.8,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 5.4,
-          "gust": 5.4,
-          "humidity": 50,
+          "wind": 2.9,
+          "gust": 2.9,
+          "humidity": 71,
           "visibility": 11.3,
-          "weatherCode": 0,
+          "weatherCode": 1,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
@@ -67,17 +67,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-21T15:19:49.625Z",
-          "observedAt": "2026-10-21T20:45:00+05:30",
-          "temp": 28.6,
+          "sourceCheckedAt": "2026-10-21T19:29:16.712Z",
+          "observedAt": "2026-10-22T00:45:00+05:30",
+          "temp": 25.5,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 11.2,
-          "gust": 11.2,
-          "humidity": 43,
-          "visibility": 14,
+          "wind": 3.6,
+          "gust": 3.6,
+          "humidity": 55,
+          "visibility": 13.9,
           "weatherCode": 0,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
@@ -94,18 +94,18 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-21T15:19:49.625Z",
-          "observedAt": "2026-10-21T20:45:00+05:30",
-          "temp": 24.9,
+          "sourceCheckedAt": "2026-10-21T19:29:16.712Z",
+          "observedAt": "2026-10-22T00:45:00+05:30",
+          "temp": 23.5,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 9,
-          "gust": 9,
-          "humidity": 67,
+          "wind": 4,
+          "gust": 4,
+          "humidity": 75,
           "visibility": 12.1,
-          "weatherCode": 0,
+          "weatherCode": 1,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
@@ -121,18 +121,18 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-21T15:19:49.625Z",
-          "observedAt": "2026-10-21T20:45:00+05:30",
-          "temp": 25,
+          "sourceCheckedAt": "2026-10-21T19:29:16.712Z",
+          "observedAt": "2026-10-22T00:45:00+05:30",
+          "temp": 23.9,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 11.2,
-          "gust": 11.2,
-          "humidity": 72,
-          "visibility": 11.6,
-          "weatherCode": 0,
+          "wind": 6.8,
+          "gust": 6.8,
+          "humidity": 74,
+          "visibility": 10,
+          "weatherCode": 1,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
@@ -146,17 +146,195 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-10-21T15:20:18.172Z",
+      "generatedAt": "2026-10-21T19:29:33.819Z",
       "riskLevel": "Normal",
-      "impacts": [],
-      "citizenSummary": "No major environmental disruption indicated from current data.",
+      "impacts": [
+        "3 active transport-related event(s) may affect travel."
+      ],
+      "citizenSummary": "3 active transport-related event(s) may affect travel.",
       "seasonalContext": "normal"
     }
   },
   "alerts": [],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "accident-developing-sop-lapses-under-scrutiny-after-schaeffler-india-ceo-taken-into-custod",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: SOP lapses under scrutiny after Schaeffler India CEO taken into custody over fatal accident",
+      "summary": "The accident occurred on June 9, 2026, while workers were replacing old carbon dioxide (CO2) cylinders in a fire suppression system at the company’s facility. Two workers lost their lives",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/sop-lapses-under-scrutiny-after-schaeffler-india-ceo-taken-into-custody-over-fatal-accident-101792602956069.html",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/sop-lapses-under-scrutiny-after-schaeffler-india-ceo-taken-into-custody-over-fatal-accident-101792602956069.html",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-10-21T17:15:55.000Z",
+      "lastUpdated": "2026-10-21T17:15:55.000Z",
+      "sourceCheckedAt": "2026-10-21T19:29:17.371Z",
+      "lastVerifiedAt": "2026-10-21T19:29:17.371Z",
+      "intelligenceGeneratedAt": "2026-10-21T19:29:33.747Z",
+      "expiresAt": "2026-10-22T17:15:55.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-4-killed-as-suv-crashes-into-truck-tempo-on-pune-bangalore-highway-202",
+      "eventKind": "incident",
+      "sourceId": "indian_express_pune",
+      "title": "Developing: 4 killed as SUV crashes into truck, tempo on Pune-Bangalore highway",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQSFlnWThvT0ZLZFRDcUVNUjRNUGRDUHFtcUhyWHNkMi14VjAtNzNzeVdITjhnejRuWUVQLVVOWkwtLU1makY5bENDNmROWE00ZEw0c01Ga2lyN2ZZWmc2VEFWQ3dNY3B0NEZodHVtUUhGU3N1MDZ2cEhaVHdxMEJTc2N3RmxCWVVkVEs3S21jMENQSjJlLW5kRDdOeW9qbjU1SmR3cV9mWGx4azBzbmd3TnpOY3JxMTNoOWJqOTdkSXZZSGs0Q2dNcU5GVnpqdy1lV1ItckE5UXBiTlnSAeIBQVVfeXFMUFJqV3RYTTY2d0c2UUd2emk3VklTOW5faWNTZllua254UUs1RlFhd0RIaGtoSTBrVlBjN0N1SHRmV0UwNmRSWEcxY1hvejBzQllFUW0xTHV0bTFsOWRXT1ltT2Zfa1l5dmVwX2h3cFF3MlZINFEtNmhmTkFIZ3pqRzJ4dy1OcDFkRFUtWlJrZXVVeTVXMVkxQkVDbDNHUkxTYmkwN0VaUThCQVlpc2xZNTJ4N1NKNnY2S3lTNTV5cFZTQi1kNUVJRUI4MmxRT2lhc2g1M1pGYm5kWG9zVEpsTXFwdw?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQSFlnWThvT0ZLZFRDcUVNUjRNUGRDUHFtcUhyWHNkMi14VjAtNzNzeVdITjhnejRuWUVQLVVOWkwtLU1makY5bENDNmROWE00ZEw0c01Ga2lyN2ZZWmc2VEFWQ3dNY3B0NEZodHVtUUhGU3N1MDZ2cEhaVHdxMEJTc2N3RmxCWVVkVEs3S21jMENQSjJlLW5kRDdOeW9qbjU1SmR3cV9mWGx4azBzbmd3TnpOY3JxMTNoOWJqOTdkSXZZSGs0Q2dNcU5GVnpqdy1lV1ItckE5UXBiTlnSAeIBQVVfeXFMUFJqV3RYTTY2d0c2UUd2emk3VklTOW5faWNTZllua254UUs1RlFhd0RIaGtoSTBrVlBjN0N1SHRmV0UwNmRSWEcxY1hvejBzQllFUW0xTHV0bTFsOWRXT1ltT2Zfa1l5dmVwX2h3cFF3MlZINFEtNmhmTkFIZ3pqRzJ4dy1OcDFkRFUtWlJrZXVVeTVXMVkxQkVDbDNHUkxTYmkwN0VaUThCQVlpc2xZNTJ4N1NKNnY2S3lTNTV5cFZTQi1kNUVJRUI4MmxRT2lhc2g1M1pGYm5kWG9zVEpsTXFwdw?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-10-21T15:00:13.000Z",
+      "lastUpdated": "2026-10-21T15:00:13.000Z",
+      "sourceCheckedAt": "2026-10-21T19:29:17.371Z",
+      "lastVerifiedAt": "2026-10-21T19:29:17.371Z",
+      "intelligenceGeneratedAt": "2026-10-21T19:29:33.747Z",
+      "expiresAt": "2026-10-23T15:00:13.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-1d8ad238",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-10-21T19:29:17.371Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-4-friends-die-in-first-fatal-crash-on-karad-s-new-flyover-on-pune-beng",
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "title": "Developing: 4 friends die in first fatal crash on Karad’s new flyover on Pune-Bengaluru highway",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSFRCcy0tX1ZOODhaRVNxUlZiUXpmYW9mMzV0MHlrOTBtTGRHbndqUERVQzNnNHJJUnBoM3RhOWdvRTBQbHFDQ3BHTU91b3FuV3JYZ0ZvZTNQMkZBeFNwMDFpcV9QaklGSUllZXp3ekZtZjRtdE5fa3hFNFhZZkZITjNJNERVMGhGTFdBYlowYkZhQU5ZbWRaTHpPX1B1WWZucWVBNmNJZ3J3Q0RMV0toQWxBU1NZcVBpLUlvX0F1UFpLdE9hdGI2TkpiVlZnQW53MGxkOXNodmVOSjdSck1PdEluekh1UnR6eEtnNDc2ONIB9AFBVV95cUxPaHN4VVdreEk5MWM1d29TX2VTSVFWRW02Y01rbFppeTJ5Q3FXbWtCMGM4RHdZdllTSm13VUJLaWJNQ3d1RXRNY1Nqc2Q1ZU40bnNWdVpZVlZxcGlIb1dCZWtqdGRjV0s5WmZlZ3FYUkVxUG8ydFRVVVNLOV9NemZfd1pQTXJWTHEyZU44VGppR09mZlZPNWxiWHRMazAyalVNNTJ5UXlEZWExMHNlb1dySTJ3ejNnV1RROW1La0VId2NuVWhTMm9tdTY4OXRYSHNsbmxyZXQ5a1o1VDRBYnJVUWk0c0hBbFk1bVRQN0d2X2xzUWhr?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSFRCcy0tX1ZOODhaRVNxUlZiUXpmYW9mMzV0MHlrOTBtTGRHbndqUERVQzNnNHJJUnBoM3RhOWdvRTBQbHFDQ3BHTU91b3FuV3JYZ0ZvZTNQMkZBeFNwMDFpcV9QaklGSUllZXp3ekZtZjRtdE5fa3hFNFhZZkZITjNJNERVMGhGTFdBYlowYkZhQU5ZbWRaTHpPX1B1WWZucWVBNmNJZ3J3Q0RMV0toQWxBU1NZcVBpLUlvX0F1UFpLdE9hdGI2TkpiVlZnQW53MGxkOXNodmVOSjdSck1PdEluekh1UnR6eEtnNDc2ONIB9AFBVV95cUxPaHN4VVdreEk5MWM1d29TX2VTSVFWRW02Y01rbFppeTJ5Q3FXbWtCMGM4RHdZdllTSm13VUJLaWJNQ3d1RXRNY1Nqc2Q1ZU40bnNWdVpZVlZxcGlIb1dCZWtqdGRjV0s5WmZlZ3FYUkVxUG8ydFRVVVNLOV9NemZfd1pQTXJWTHEyZU44VGppR09mZlZPNWxiWHRMazAyalVNNTJ5UXlEZWExMHNlb1dySTJ3ejNnV1RROW1La0VId2NuVWhTMm9tdTY4OXRYSHNsbmxyZXQ5a1o1VDRBYnJVUWk0c0hBbFk1bVRQN0d2X2xzUWhr?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-10-21T18:25:00.000Z",
+      "lastUpdated": "2026-10-21T18:25:00.000Z",
+      "sourceCheckedAt": "2026-10-21T19:29:17.371Z",
+      "lastVerifiedAt": "2026-10-21T19:29:17.371Z",
+      "intelligenceGeneratedAt": "2026-10-21T19:29:33.747Z",
+      "expiresAt": "2026-10-23T18:25:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-7470cb81",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-10-21T19:29:17.371Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "journeyContext": {
-    "activeRiskEvents": []
+    "activeRiskEvents": [
+      {
+        "id": "accident-developing-sop-lapses-under-scrutiny-after-schaeffler-india-ceo-taken-into-custod",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
+        "id": "accident-developing-4-killed-as-suv-crashes-into-truck-tempo-on-pune-bangalore-highway-202",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
+        "id": "accident-developing-4-friends-die-in-first-fatal-crash-on-karad-s-new-flyover-on-pune-beng",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      }
+    ]
   },
   "expiredEvents": [],
   "sourceHealth": {
@@ -165,21 +343,21 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-10-21T15:19:50.422Z",
-      "lastSuccessfulAt": "2026-10-21T15:19:50.422Z",
+      "sourceCheckedAt": "2026-10-21T19:29:17.371Z",
+      "lastSuccessfulAt": "2026-10-21T19:29:17.371Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-10-21T15:20:18.172Z",
+      "generatedAt": "2026-10-21T19:29:33.819Z",
       "activeSeason": "normal",
       "priorityHazards": [],
       "advice": "Monitor current alerts and local incidents."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-10-21T15:20:18.172Z",
+      "generatedAt": "2026-10-21T19:29:33.818Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -260,9 +438,11 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-10-21T15:20:18.172Z",
+      "generatedAt": "2026-10-21T19:29:33.819Z",
       "mode": "on-demand",
-      "relevantDomains": [],
+      "relevantDomains": [
+        "highways"
+      ],
       "infrastructure": {
         "highways": [
           "Mumbai-Pune Expressway",
@@ -303,36 +483,33 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-10-21T15:20:18.235Z",
+        "generatedAt": "2026-10-21T19:29:33.865Z",
         "bestRoute": {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
+          "id": "kharadi-hinjawadi-pashan",
+          "label": "Kharadi to Hinjawadi via Pashan",
           "fromAliases": [
             "Kharadi",
-            "EON",
-            "World Trade Center"
+            "EON"
           ],
           "toAliases": [
             "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
+            "Hinjewadi"
           ],
           "via": [
             "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
+            "Yerwada",
+            "Aundh",
+            "Pashan",
+            "Mahalunge",
             "Hinjawadi"
           ],
           "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
+            "Pashan Road",
             "IT Corridor"
           ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "distanceKm": 36,
+          "baseTimeMin": 72,
+          "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
             "score": 100,
@@ -341,58 +518,14 @@
             "reasons": [],
             "penalties": []
           },
-          "estimatedTimeMin": 65,
+          "estimatedTimeMin": 72,
           "estimatedDelayMin": 0,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
         },
         "routes": [
-          {
-            "id": "kharadi-hinjawadi-nh48",
-            "label": "Kharadi to Hinjawadi via NH48",
-            "fromAliases": [
-              "Kharadi",
-              "EON",
-              "World Trade Center"
-            ],
-            "toAliases": [
-              "Hinjawadi",
-              "Hinjewadi",
-              "Rajiv Gandhi Infotech Park"
-            ],
-            "via": [
-              "Kharadi",
-              "Viman Nagar",
-              "Shivajinagar",
-              "Baner",
-              "Wakad",
-              "Hinjawadi"
-            ],
-            "operationalZones": [
-              "Pune-Ahmednagar Highway",
-              "NH48",
-              "IT Corridor"
-            ],
-            "distanceKm": 33,
-            "baseTimeMin": 65,
-            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
-              "penalties": []
-            },
-            "estimatedTimeMin": 65,
-            "estimatedDelayMin": 0,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-            "rank": 1,
-            "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
-          },
           {
             "id": "kharadi-hinjawadi-pashan",
             "label": "Kharadi to Hinjawadi via Pashan",
@@ -430,9 +563,69 @@
             "estimatedTimeMin": 72,
             "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+          },
+          {
+            "id": "kharadi-hinjawadi-nh48",
+            "label": "Kharadi to Hinjawadi via NH48",
+            "fromAliases": [
+              "Kharadi",
+              "EON",
+              "World Trade Center"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi",
+              "Rajiv Gandhi Infotech Park"
+            ],
+            "via": [
+              "Kharadi",
+              "Viman Nagar",
+              "Shivajinagar",
+              "Baner",
+              "Wakad",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pune-Ahmednagar Highway",
+              "NH48",
+              "IT Corridor"
+            ],
+            "distanceKm": 33,
+            "baseTimeMin": 65,
+            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 60,
+              "label": "Proceed with Caution",
+              "recommendation": "Proceed with caution and allow extra travel time.",
+              "reasons": [
+                "Developing: 4 killed as SUV crashes into truck, tempo on Pune-Bangalore highway may cause delays or safety concerns.",
+                "Developing: 4 friends die in first fatal crash on Karad’s new flyover on Pune-Bengaluru highway may cause delays or safety concerns."
+              ],
+              "penalties": [
+                {
+                  "eventId": "accident-developing-4-killed-as-suv-crashes-into-truck-tempo-on-pune-bangalore-highway-202",
+                  "category": "accident",
+                  "penalty": 20,
+                  "title": "Developing: 4 killed as SUV crashes into truck, tempo on Pune-Bangalore highway"
+                },
+                {
+                  "eventId": "accident-developing-4-friends-die-in-first-fatal-crash-on-karad-s-new-flyover-on-pune-beng",
+                  "category": "accident",
+                  "penalty": 20,
+                  "title": "Developing: 4 friends die in first fatal crash on Karad’s new flyover on Pune-Bengaluru highway"
+                }
+              ]
+            },
+            "estimatedTimeMin": 80,
+            "estimatedDelayMin": 15,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Developing: 4 killed as SUV crashes into truck, tempo on Pune-Bangalore highway may cause delays or safety concerns."
           }
         ]
       },
@@ -441,7 +634,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-10-21T15:20:18.235Z",
+        "generatedAt": "2026-10-21T19:29:33.865Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -534,7 +727,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-10-21T15:20:18.235Z",
+        "generatedAt": "2026-10-21T19:29:33.865Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
