@@ -1,26 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-23T12:09:43.546Z",
+  "generatedAt": "2026-10-23T17:10:23.460Z",
   "routes": [],
   "risks": [
-    {
-      "id": "water-rescue-developing-2016-drowning-of-14-students-at-murud-beach-hc-strikes-down-fir-ag",
-      "category": "water_rescue",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Water conditions may be dangerous near the affected location."
-    },
-    {
-      "id": "water-rescue-developing-five-booked-over-drowning-deaths-of-eight-students-at-diveagar-bea",
-      "category": "water_rescue",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Water conditions may be dangerous near the affected location."
-    },
     {
       "id": "water-rescue-developing-2016-murud-beach-drowning-case-bombay-high-court-quashes-fir-again",
       "category": "water_rescue",
@@ -31,13 +13,26 @@
       "impact": "Water conditions may be dangerous near the affected location."
     },
     {
-      "id": "accident-developing-4-killed-as-suv-crashes-into-truck-tempo-on-pune-bangalore-highway-202",
-      "category": "accident",
-      "severity": "watch",
+      "id": "fire-developing-pune-fire-breaks-out-in-tinsel-county-e-wing-meter-room-days-after-new-met",
+      "category": "fire",
+      "severity": "warning",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "chemical-hazard-developing-pune-schaeffler-india-md-harsha-kadam-granted-bail-in-talegaon-",
+      "category": "chemical_hazard",
+      "severity": "emergency",
+      "localities": [
+        "Talegaon"
+      ],
+      "talukas": [
+        "maval"
+      ],
+      "operationalZones": [],
+      "impact": "Hazardous fumes or a chemical release may affect nearby people and travel routes."
     }
   ]
 }
