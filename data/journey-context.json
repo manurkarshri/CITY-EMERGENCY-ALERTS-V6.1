@@ -1,25 +1,34 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-23T01:34:45.950Z",
+  "generatedAt": "2026-10-23T06:31:59.909Z",
   "routes": [],
   "risks": [
     {
-      "id": "accident-developing-4-friends-killed-3-injured-in-karad-accident-2026-10-22t02-01-20-000z",
-      "category": "accident",
-      "severity": "watch",
+      "id": "water-rescue-developing-2016-drowning-of-14-students-at-murud-beach-hc-strikes-down-fir-ag",
+      "category": "water_rescue",
+      "severity": "warning",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
+      "impact": "Water conditions may be dangerous near the affected location."
     },
     {
-      "id": "accident-developing-4-killed-as-suv-crashes-into-truck-tempo-on-pune-bangalore-highway-202",
-      "category": "accident",
-      "severity": "watch",
+      "id": "water-rescue-developing-five-booked-over-drowning-deaths-of-eight-students-at-diveagar-bea",
+      "category": "water_rescue",
+      "severity": "warning",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
+      "impact": "Water conditions may be dangerous near the affected location."
+    },
+    {
+      "id": "transport-disruption-developing-pune-news-रेल्वेतील-खाद्यपदार्थांचे-आता-थर्ड-पार्टी-ऑडिट-ग",
+      "category": "transport_disruption",
+      "severity": "advisory",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Public transport journeys may be cancelled or delayed."
     },
     {
       "id": "water-rescue-developing-2016-murud-beach-drowning-case-bombay-high-court-quashes-fir-again",
@@ -31,11 +40,24 @@
       "impact": "Water conditions may be dangerous near the affected location."
     },
     {
-      "id": "accident-developing-4-friends-die-in-first-fatal-crash-on-karad-s-new-flyover-on-pune-beng",
+      "id": "accident-developing-4-killed-as-suv-crashes-into-truck-tempo-on-pune-bangalore-highway-202",
       "category": "accident",
       "severity": "watch",
       "localities": [],
       "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-pune-schaeffler-india-ceo-taken-into-custody-over-june-factory-acciden",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Talegaon"
+      ],
+      "talukas": [
+        "maval"
+      ],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-23T01:34:46.142Z",
+  "generatedAt": "2026-10-23T06:32:00.343Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-10-23T01:34:46.142Z",
+      "generatedAt": "2026-10-23T06:32:00.343Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -123,12 +123,11 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 60,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Developing: 4 killed as SUV crashes into truck, tempo on Pune-Bangalore highway may cause delays or safety concerns.",
-              "Developing: 4 friends die in first fatal crash on Karad’s new flyover on Pune-Bengaluru highway may cause delays or safety concerns."
+              "Developing: 4 killed as SUV crashes into truck, tempo on Pune-Bangalore highway may cause delays or safety concerns."
             ],
             "penalties": [
               {
@@ -136,21 +135,15 @@
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: 4 killed as SUV crashes into truck, tempo on Pune-Bangalore highway"
-              },
-              {
-                "eventId": "accident-developing-4-friends-die-in-first-fatal-crash-on-karad-s-new-flyover-on-pune-beng",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: 4 friends die in first fatal crash on Karad’s new flyover on Pune-Bengaluru highway"
               }
             ]
           },
-          "estimatedTimeMin": 80,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 73,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Developing: 4 killed as SUV crashes into truck, tempo on Pune-Bangalore highway may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Good to Go (80/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Developing: 4 killed as SUV crashes into truck, tempo on Pune-Bangalore highway may cause delays or safety concerns."
         }
       ]
     },
@@ -159,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-10-23T01:34:46.142Z",
+      "generatedAt": "2026-10-23T06:32:00.343Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -189,18 +182,27 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 100,
-          "label": "Excellent",
-          "recommendation": "Travel conditions look suitable.",
-          "reasons": [],
-          "penalties": []
+          "score": 80,
+          "label": "Good to Go",
+          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+          "reasons": [
+            "Developing: Pune: Schaeffler India CEO Taken Into Custody Over June Factory Accident at Talegaon MIDC Plant That Killed Two Workers may cause delays or safety concerns."
+          ],
+          "penalties": [
+            {
+              "eventId": "accident-developing-pune-schaeffler-india-ceo-taken-into-custody-over-june-factory-acciden",
+              "category": "accident",
+              "penalty": 20,
+              "title": "Developing: Pune: Schaeffler India CEO Taken Into Custody Over June Factory Accident at Talegaon MIDC Plant That Killed Two Workers"
+            }
+          ]
         },
-        "estimatedTimeMin": 95,
-        "estimatedDelayMin": 0,
+        "estimatedTimeMin": 103,
+        "estimatedDelayMin": 8,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: Pune: Schaeffler India CEO Taken Into Custody Over June Factory Accident at Talegaon MIDC Plant That Killed Two Workers may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -232,18 +234,27 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "reasons": [
+              "Developing: Pune: Schaeffler India CEO Taken Into Custody Over June Factory Accident at Talegaon MIDC Plant That Killed Two Workers may cause delays or safety concerns."
+            ],
+            "penalties": [
+              {
+                "eventId": "accident-developing-pune-schaeffler-india-ceo-taken-into-custody-over-june-factory-acciden",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Pune: Schaeffler India CEO Taken Into Custody Over June Factory Accident at Talegaon MIDC Plant That Killed Two Workers"
+              }
+            ]
           },
-          "estimatedTimeMin": 95,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 103,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: Pune: Schaeffler India CEO Taken Into Custody Over June Factory Accident at Talegaon MIDC Plant That Killed Two Workers may cause delays or safety concerns."
         }
       ]
     },
@@ -252,7 +263,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-10-23T01:34:46.142Z",
+      "generatedAt": "2026-10-23T06:32:00.343Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",

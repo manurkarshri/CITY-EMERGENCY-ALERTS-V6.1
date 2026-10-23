@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-23T01:34:46.184Z",
+  "generatedAt": "2026-10-23T06:32:00.397Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-23T01:34:22.813Z",
-        "lastSuccessfulAt": "2026-10-23T01:34:22.813Z",
+        "sourceCheckedAt": "2026-10-23T06:31:26.863Z",
+        "lastSuccessfulAt": "2026-10-23T06:31:26.863Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-10-23T01:34:33.792Z",
-        "lastSuccessfulAt": "2026-10-23T01:34:33.792Z",
+        "sourceCheckedAt": "2026-10-23T06:31:48.807Z",
+        "lastSuccessfulAt": "2026-10-23T06:31:48.807Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-10-23T01:34:33.792Z",
-        "lastSuccessfulAt": "2026-10-22T23:12:46.663Z",
+        "sourceCheckedAt": "2026-10-23T06:31:48.807Z",
+        "lastSuccessfulAt": "2026-10-23T01:34:33.792Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-10-23T01:34:23.540Z",
-        "lastSuccessfulAt": "2026-10-23T01:34:23.540Z",
-        "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
+        "sourceCheckedAt": "2026-10-23T06:31:27.684Z",
+        "lastSuccessfulAt": "2026-10-23T06:31:27.684Z",
+        "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403; pune_metro: This operation was aborted"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-23T01:34:23.540Z",
-        "lastSuccessfulAt": "2026-10-23T01:34:23.540Z",
+        "sourceCheckedAt": "2026-10-23T06:31:27.684Z",
+        "lastSuccessfulAt": "2026-10-23T06:31:27.684Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,8 +62,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-23T01:34:23.540Z",
-        "lastSuccessfulAt": "2026-10-23T01:34:23.540Z",
+        "sourceCheckedAt": "2026-10-23T06:31:27.684Z",
+        "lastSuccessfulAt": "2026-10-23T06:31:27.684Z",
         "error": null,
         "etag": "W/\"9222-1792503217741\"",
         "itemsCollected": 0,
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-10-23T01:34:23.540Z",
+        "sourceCheckedAt": "2026-10-23T06:31:27.684Z",
         "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,29 +82,27 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-23T01:34:23.540Z",
-        "lastSuccessfulAt": "2026-10-23T01:34:23.540Z",
+        "sourceCheckedAt": "2026-10-23T06:31:27.684Z",
+        "lastSuccessfulAt": "2026-10-23T06:31:27.684Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 1,
+        "itemsCollected": 2,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
-        "status": "healthy",
-        "sourceCheckedAt": "2026-10-23T01:34:23.540Z",
+        "status": "unavailable",
+        "sourceCheckedAt": "2026-10-23T06:31:27.684Z",
         "lastSuccessfulAt": "2026-10-23T01:34:23.540Z",
-        "error": null,
-        "etag": null,
-        "itemsCollected": 0,
+        "error": "This operation was aborted",
         "type": "incidents"
       },
       {
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-10-23T01:34:23.540Z",
+        "sourceCheckedAt": "2026-10-23T06:31:27.684Z",
         "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
         "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}",
         "type": "incidents"
@@ -113,22 +111,22 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-23T01:34:23.540Z",
-        "lastSuccessfulAt": "2026-10-23T01:34:23.540Z",
+        "sourceCheckedAt": "2026-10-23T06:31:27.684Z",
+        "lastSuccessfulAt": "2026-10-23T06:31:27.684Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 0,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-10-23T01:34:23.540Z",
-        "lastSuccessfulAt": "2026-10-23T01:34:23.540Z",
+        "sourceCheckedAt": "2026-10-23T06:31:27.684Z",
+        "lastSuccessfulAt": "2026-10-23T06:31:27.684Z",
         "error": null,
-        "itemsCollected": 3,
-        "itemsQualified": 3,
+        "itemsCollected": 5,
+        "itemsQualified": 5,
         "type": "incidents"
       },
       {
@@ -136,8 +134,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-10-23T01:34:33.792Z",
-        "lastSuccessfulAt": "2026-10-23T01:34:33.792Z",
+        "sourceCheckedAt": "2026-10-23T06:31:48.807Z",
+        "lastSuccessfulAt": "2026-10-23T06:31:48.807Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -500,28 +498,37 @@
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
     "alertsAvailable": 0,
-    "incidentsAvailable": 4,
+    "incidentsAvailable": 6,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
   "developingSituations": [
     {
-      "id": "accident-developing-4-friends-killed-3-injured-in-karad-accident-2026-10-22t02-01-20-000z",
-      "title": "Developing: 4 friends killed, 3 injured in Karad accident",
+      "id": "water-rescue-developing-2016-drowning-of-14-students-at-murud-beach-hc-strikes-down-fir-ag",
+      "title": "Developing: 2016 drowning of 14 students at Murud beach: HC strikes down FIR against 17 people",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
       "source": "Hindustan Times Pune",
       "trust": "B",
-      "updatedAt": "2026-10-22T02:01:20.000Z"
+      "updatedAt": "2026-10-23T02:06:30.000Z"
     },
     {
-      "id": "accident-developing-4-killed-as-suv-crashes-into-truck-tempo-on-pune-bangalore-highway-202",
-      "title": "Developing: 4 killed as SUV crashes into truck, tempo on Pune-Bangalore highway",
+      "id": "water-rescue-developing-five-booked-over-drowning-deaths-of-eight-students-at-diveagar-bea",
+      "title": "Developing: Five booked over drowning deaths of eight students at Diveagar beach",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Indian Express Pune",
+      "source": "Hindustan Times Pune",
       "trust": "B",
-      "updatedAt": "2026-10-21T15:00:13.000Z"
+      "updatedAt": "2026-10-23T02:06:00.000Z"
+    },
+    {
+      "id": "transport-disruption-developing-pune-news-रेल्वेतील-खाद्यपदार्थांचे-आता-थर्ड-पार्टी-ऑडिट-ग",
+      "title": "Developing: Pune News : रेल्वेतील खाद्यपदार्थांचे आता ‘थर्ड पार्टी ऑडिट’; गुणवत्ता व स्वच्छतेत त्रुटी आढळल्यास कंत्राटदारांचा परवाना होणार रद्द",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "eSakal Pune",
+      "trust": "B",
+      "updatedAt": "2026-10-22T17:59:05.000Z"
     },
     {
       "id": "water-rescue-developing-2016-murud-beach-drowning-case-bombay-high-court-quashes-fir-again",
@@ -533,13 +540,22 @@
       "updatedAt": "2026-10-22T15:43:01.000Z"
     },
     {
-      "id": "accident-developing-4-friends-die-in-first-fatal-crash-on-karad-s-new-flyover-on-pune-beng",
-      "title": "Developing: 4 friends die in first fatal crash on Karad’s new flyover on Pune-Bengaluru highway",
+      "id": "accident-developing-4-killed-as-suv-crashes-into-truck-tempo-on-pune-bangalore-highway-202",
+      "title": "Developing: 4 killed as SUV crashes into truck, tempo on Pune-Bangalore highway",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Times of India",
+      "source": "Indian Express Pune",
       "trust": "B",
-      "updatedAt": "2026-10-21T18:25:00.000Z"
+      "updatedAt": "2026-10-21T15:00:13.000Z"
+    },
+    {
+      "id": "accident-developing-pune-schaeffler-india-ceo-taken-into-custody-over-june-factory-acciden",
+      "title": "Developing: Pune: Schaeffler India CEO Taken Into Custody Over June Factory Accident at Talegaon MIDC Plant That Killed Two Workers",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Punekar News",
+      "trust": "B",
+      "updatedAt": "2026-10-21T07:25:24.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."
