@@ -1,16 +1,29 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-25T01:27:45.915Z",
+  "generatedAt": "2026-10-25T06:41:58.592Z",
   "routes": [],
   "risks": [
     {
-      "id": "accident-developing-mact-awards-35-47-lakh-to-family-of-man-killed-in-road-accident-2026-1",
-      "category": "accident",
-      "severity": "watch",
+      "id": "flood-developing-pmc-wb-discuss-1-290-crore-water-flood-mitigation-projects-2026-10-25t02-",
+      "category": "flood",
+      "severity": "warning",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "medical-advisory-developing-manchar-hospital-ot-closed-over-safety-laps-after-urination-in",
+      "category": "medical_advisory",
+      "severity": "warning",
+      "localities": [
+        "Manchar"
+      ],
+      "talukas": [
+        "ambegaon"
+      ],
+      "operationalZones": [],
+      "impact": "A medicine, hospital-service or medical-supply issue may affect access to safe care."
     },
     {
       "id": "explosion-developing-pune-airport-conducts-annual-bomb-threat-drill-tests-coordination-amo",
@@ -29,6 +42,15 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "health-emergency-developing-indoor-mosquito-breeding-driving-pune-s-dengue-surge-hindustan",
+      "category": "health_emergency",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "A reported outbreak or contamination incident may affect public health in the area."
     }
   ]
 }
