@@ -1,6 +1,109 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-29T02:19:57.600Z",
+  "generatedAt": "2026-10-29T08:47:14.795Z",
   "sourceStatus": "stale",
-  "items": []
+  "items": [
+    {
+      "id": "accident-developing-2-killed-4-injured-as-car-plunges-200-ft-into-gorge-at-pokhari-ghat-20",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: 2 killed, 4 injured as car plunges 200 ft into gorge at Pokhari ghat",
+      "summary": "Two people were killed and four others injured after a car travelling from Dimbhe to Bhimashankar plunged nearly 150 to 200 feet into a gorge before turning turtle at Pokhari ghat on Wednesday",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/2-killed-4-injured-as-car-plunges-200-ft-into-gorge-at-pokhari-ghat-101793213539574.html",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/2-killed-4-injured-as-car-plunges-200-ft-into-gorge-at-pokhari-ghat-101793213539574.html",
+      "talukas": [
+        "khed"
+      ],
+      "localities": [
+        "Bhimashankar"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-10-29T02:15:40.000Z",
+      "lastUpdated": "2026-10-29T02:15:40.000Z",
+      "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
+      "lastVerifiedAt": "2026-10-29T08:46:50.706Z",
+      "intelligenceGeneratedAt": "2026-10-29T08:47:14.795Z",
+      "expiresAt": "2026-10-30T02:15:40.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-jay-pawar-seeks-time-bound-probe-into-ajit-pawar-plane-crash-2026-10-2",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Jay Pawar seeks time-bound probe into Ajit Pawar plane crash",
+      "summary": "NCP leader Jay Pawar on Wednesday met CID officials in Pune to review the investigation into the plane crash that killed his father and former Maharashtra deputy chief minister Ajit Pawar",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/jay-pawar-seeks-time-bound-probe-into-ajit-pawar-plane-crash-101793211860179.html",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/jay-pawar-seeks-time-bound-probe-into-ajit-pawar-plane-crash-101793211860179.html",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-10-29T02:09:00.000Z",
+      "lastUpdated": "2026-10-29T02:09:00.000Z",
+      "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
+      "lastVerifiedAt": "2026-10-29T08:46:50.706Z",
+      "intelligenceGeneratedAt": "2026-10-29T08:47:14.795Z",
+      "expiresAt": "2026-10-30T02:09:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }

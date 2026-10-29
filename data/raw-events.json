@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-10-29T02:19:41.853Z",
-  "lastSuccessfulAt": "2026-10-29T02:19:41.853Z",
+  "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
+  "lastSuccessfulAt": "2026-10-29T08:46:50.706Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-29T02:19:41.853Z",
-      "lastSuccessfulAt": "2026-10-29T02:19:41.853Z",
+      "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
+      "lastSuccessfulAt": "2026-10-29T08:46:50.706Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,8 +23,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-29T02:19:41.853Z",
-      "lastSuccessfulAt": "2026-10-29T02:19:41.853Z",
+      "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
+      "lastSuccessfulAt": "2026-10-29T08:46:50.706Z",
       "error": null,
       "etag": "W/\"9074-1793185301018\"",
       "itemsCollected": 0
@@ -33,7 +33,7 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-10-29T02:19:41.853Z",
+      "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,18 +41,18 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-29T02:19:41.853Z",
-      "lastSuccessfulAt": "2026-10-29T02:19:41.853Z",
+      "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
+      "lastSuccessfulAt": "2026-10-29T08:46:50.706Z",
       "error": null,
       "etag": null,
-      "itemsCollected": 0
+      "itemsCollected": 2
     },
     {
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-29T02:19:41.853Z",
-      "lastSuccessfulAt": "2026-10-29T02:19:41.853Z",
+      "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
+      "lastSuccessfulAt": "2026-10-29T08:46:50.706Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-10-29T02:19:41.853Z",
+      "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,8 +69,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-29T02:19:41.853Z",
-      "lastSuccessfulAt": "2026-10-29T02:19:41.853Z",
+      "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
+      "lastSuccessfulAt": "2026-10-29T08:46:50.706Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -78,41 +78,44 @@
     {
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
-      "status": "healthy",
-      "sourceCheckedAt": "2026-10-29T02:19:41.853Z",
+      "status": "unavailable",
+      "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
       "lastSuccessfulAt": "2026-10-29T02:19:41.853Z",
-      "error": null,
-      "itemsCollected": 1,
-      "itemsQualified": 1
+      "error": "Google News RSS request failed with HTTP 503",
+      "itemsCollected": 0,
+      "itemsQualified": 0
     }
   ],
   "items": [
     {
-      "eventKind": "incident",
-      "sourceId": "the_print",
-      "collectionSourceId": "google_news_discovery",
-      "upstreamId": "google-news-bd67617e",
-      "title": "Developing: ‘Shivai’ e-bus catches fire in Pune, all 20 passengers escape unhurt; blaze doused",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "fire",
-      "severity": "warning",
-      "source": "ThePrint",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: 2 killed, 4 injured as car plunges 200 ft into gorge at Pokhari ghat",
+      "summary": "Two people were killed and four others injured after a car travelling from Dimbhe to Bhimashankar plunged nearly 150 to 200 feet into a gorge before turning turtle at Pokhari ghat on Wednesday",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
       "sourceTrust": "B",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLWhPbFRKeEFlTkstcVFJNXAySF80a3Z0QVFsZ0FYUGQtMjIxUDZ4ZlF3SmZRalJicnVsbFM5OFhscFg1VWp1djBzMXlJb3oyY0VhZzhIYWdjUno2TFJMZ0pOTlFYcWVSQjJrbDVDa19FYnM0NkM1aUltR1RKUDZrT1dObHJfX3NlbkhHNlFzdzZ0UzY5eWFvTU9yaUs2RnF6S2VfbU5oVW1CZzlCWHY0ZENuTDItbWkx0gG4AUFVX3lxTE8taE9sVEp4QWVOSy1xUUk1cDJIXzRrdnRBUWxnQVhQZC0yMjFQNnhmUXdKZlFqUmJydWxsUzk4WGxwWDVVanV2MHMxeUlvejJjRWFnOEhhZ2NSejZMUkxnSk5OUVhxZVJCMmtsNUNrX0ViczQ2QzVpSW1HVEpQNmtPV05scl9fc2VuSEc2UXN3NnRTNjl5YW9NT3JpSzZGcXpLZV9tTmhVbUJnOUJYdjRkQ25MMi1taTE?oc=5",
-      "sourceOrigin": "",
-      "publishedAt": "2026-10-26T08:49:07.000Z",
-      "discoveredAt": "2026-10-29T02:19:41.853Z",
-      "lastUpdated": "2026-10-26T08:49:07.000Z",
-      "sourceCheckedAt": "2026-10-29T02:19:41.853Z",
-      "lastVerifiedAt": "2026-10-29T02:19:41.853Z",
-      "expiresAt": "2026-10-28T08:49:07.000Z",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "geographicScope": "pune_district",
-      "affectedArea": "Pune District",
-      "talukas": [],
-      "localities": []
+      "link": "https://www.hindustantimes.com/cities/pune-news/2-killed-4-injured-as-car-plunges-200-ft-into-gorge-at-pokhari-ghat-101793213539574.html",
+      "publishedAt": "2026-10-29T02:15:40.000Z",
+      "lastUpdated": "2026-10-29T02:15:40.000Z",
+      "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
+      "lastVerifiedAt": "2026-10-29T08:46:50.706Z",
+      "expiresAt": "2026-10-30T02:15:40.000Z"
+    },
+    {
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Jay Pawar seeks time-bound probe into Ajit Pawar plane crash",
+      "summary": "NCP leader Jay Pawar on Wednesday met CID officials in Pune to review the investigation into the plane crash that killed his father and former Maharashtra deputy chief minister Ajit Pawar",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "link": "https://www.hindustantimes.com/cities/pune-news/jay-pawar-seeks-time-bound-probe-into-ajit-pawar-plane-crash-101793211860179.html",
+      "publishedAt": "2026-10-29T02:09:00.000Z",
+      "lastUpdated": "2026-10-29T02:09:00.000Z",
+      "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
+      "lastVerifiedAt": "2026-10-29T08:46:50.706Z",
+      "expiresAt": "2026-10-30T02:09:00.000Z"
     }
   ]
 }

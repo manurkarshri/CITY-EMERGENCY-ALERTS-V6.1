@@ -1,26 +1,8 @@
 {
   "schemaVersion": "6.1.0",
   "provider": "Google News RSS",
-  "sourceCheckedAt": "2026-10-29T02:19:41.853Z",
-  "status": "healthy",
-  "error": null,
-  "items": [
-    {
-      "id": "google-news-bd67617e",
-      "publisherId": "the_print",
-      "publisher": "ThePrint",
-      "title": "‘Shivai’ e-bus catches fire in Pune, all 20 passengers escape unhurt; blaze doused",
-      "category": "fire",
-      "severity": "warning",
-      "publishedAt": "2026-10-26T08:49:07.000Z",
-      "discoveredAt": "2026-10-29T02:19:41.853Z",
-      "reportedAuthority": "",
-      "discoveryLink": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLWhPbFRKeEFlTkstcVFJNXAySF80a3Z0QVFsZ0FYUGQtMjIxUDZ4ZlF3SmZRalJicnVsbFM5OFhscFg1VWp1djBzMXlJb3oyY0VhZzhIYWdjUno2TFJMZ0pOTlFYcWVSQjJrbDVDa19FYnM0NkM1aUltR1RKUDZrT1dObHJfX3NlbkhHNlFzdzZ0UzY5eWFvTU9yaUs2RnF6S2VfbU5oVW1CZzlCWHY0ZENuTDItbWkx0gG4AUFVX3lxTE8taE9sVEp4QWVOSy1xUUk1cDJIXzRrdnRBUWxnQVhQZC0yMjFQNnhmUXdKZlFqUmJydWxsUzk4WGxwWDVVanV2MHMxeUlvejJjRWFnOEhhZ2NSejZMUkxnSk5OUVhxZVJCMmtsNUNrX0ViczQ2QzVpSW1HVEpQNmtPV05scl9fc2VuSEc2UXN3NnRTNjl5YW9NT3JpSzZGcXpLZV9tTmhVbUJnOUJYdjRkQ25MMi1taTE?oc=5",
-      "discoveryProvider": "Google News RSS",
-      "verificationStatus": "awaiting_direct_article",
-      "verifiedEventIds": []
-    }
-  ],
-  "collectedItems": 1,
-  "qualifiedItems": 1
+  "sourceCheckedAt": "2026-10-29T08:46:50.706Z",
+  "status": "unavailable",
+  "error": "Google News RSS request failed with HTTP 503",
+  "items": []
 }
