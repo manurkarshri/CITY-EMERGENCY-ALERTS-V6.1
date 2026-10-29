@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-29T15:56:23.808Z",
+  "generatedAt": "2026-10-29T20:58:24.178Z",
   "routes": [],
   "risks": [
     {
@@ -22,6 +22,19 @@
       "severity": "watch",
       "localities": [],
       "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-pune-17-year-old-student-killed-in-motorcycle-crash-on-bhimashankar-ro",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Bhimashankar"
+      ],
+      "talukas": [
+        "khed"
+      ],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
     }

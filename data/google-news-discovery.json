@@ -1,10 +1,26 @@
 {
   "schemaVersion": "6.1.0",
   "provider": "Google News RSS",
-  "sourceCheckedAt": "2026-10-29T15:56:08.102Z",
+  "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
   "status": "healthy",
   "error": null,
-  "items": [],
-  "collectedItems": 0,
-  "qualifiedItems": 0
+  "items": [
+    {
+      "id": "google-news-e63e19db",
+      "publisherId": "punekar_news",
+      "publisher": "Punekar News",
+      "title": "Pune: 17-Year-Old Student Killed in Motorcycle Crash on Bhimashankar Road, CCTV Captures Accident",
+      "category": "accident",
+      "severity": "watch",
+      "publishedAt": "2026-10-29T17:01:31.000Z",
+      "discoveredAt": "2026-10-29T20:58:05.720Z",
+      "reportedAuthority": "",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZDI4U0lfWkExQjcyZ0YtM0oyYTNRR1ZjdEZReDF5dHlDX2ZYYVI1NW9qcmhmeEZ0ZTBIZUNSM0hZN25GYW8weTh3WEppVkdWdmxIMWs1dWY4X1lFQmVXV2p4RUFxLTJzSXFtelVJeVFGTHJXOUhUbkgxS1ZJWDd4VVR0UXZWZVRsQ19ZaFF4SXNlNmRCY1liclZCZjM3c3B6WGpfa2JKbjd4VGl5N1J4OWlOY0stQ1l3aWUzVFFUYmI?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "awaiting_direct_article",
+      "verifiedEventIds": []
+    }
+  ],
+  "collectedItems": 1,
+  "qualifiedItems": 1
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-29T15:56:23.808Z",
+  "generatedAt": "2026-10-29T20:58:24.178Z",
   "sourceStatus": "stale",
   "items": [
     {
@@ -31,9 +31,9 @@
       "operationalZones": [],
       "publishedAt": "2026-10-29T02:15:40.000Z",
       "lastUpdated": "2026-10-29T02:15:40.000Z",
-      "sourceCheckedAt": "2026-10-29T15:56:08.102Z",
-      "lastVerifiedAt": "2026-10-29T15:56:08.102Z",
-      "intelligenceGeneratedAt": "2026-10-29T15:56:23.808Z",
+      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
+      "lastVerifiedAt": "2026-10-29T20:58:05.720Z",
+      "intelligenceGeneratedAt": "2026-10-29T20:58:24.178Z",
       "expiresAt": "2026-10-30T02:15:40.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -52,7 +52,9 @@
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "local",
-      "relatedEventIds": [],
+      "relatedEventIds": [
+        "accident-developing-pune-17-year-old-student-killed-in-motorcycle-crash-on-bhimashankar-ro"
+      ],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
     },
@@ -80,9 +82,9 @@
       "operationalZones": [],
       "publishedAt": "2026-10-29T02:09:00.000Z",
       "lastUpdated": "2026-10-29T02:09:00.000Z",
-      "sourceCheckedAt": "2026-10-29T15:56:08.102Z",
-      "lastVerifiedAt": "2026-10-29T15:56:08.102Z",
-      "intelligenceGeneratedAt": "2026-10-29T15:56:23.808Z",
+      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
+      "lastVerifiedAt": "2026-10-29T20:58:05.720Z",
+      "intelligenceGeneratedAt": "2026-10-29T20:58:24.178Z",
       "expiresAt": "2026-10-30T02:09:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -102,6 +104,61 @@
       "roadNumbers": [],
       "geographicScope": "broader_area",
       "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-pune-17-year-old-student-killed-in-motorcycle-crash-on-bhimashankar-ro",
+      "eventKind": "incident",
+      "sourceId": "punekar_news",
+      "title": "Developing: Pune: 17-Year-Old Student Killed in Motorcycle Crash on Bhimashankar Road, CCTV Captures Accident",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Punekar News",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Punekar News",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZDI4U0lfWkExQjcyZ0YtM0oyYTNRR1ZjdEZReDF5dHlDX2ZYYVI1NW9qcmhmeEZ0ZTBIZUNSM0hZN25GYW8weTh3WEppVkdWdmxIMWs1dWY4X1lFQmVXV2p4RUFxLTJzSXFtelVJeVFGTHJXOUhUbkgxS1ZJWDd4VVR0UXZWZVRsQ19ZaFF4SXNlNmRCY1liclZCZjM3c3B6WGpfa2JKbjd4VGl5N1J4OWlOY0stQ1l3aWUzVFFUYmI?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZDI4U0lfWkExQjcyZ0YtM0oyYTNRR1ZjdEZReDF5dHlDX2ZYYVI1NW9qcmhmeEZ0ZTBIZUNSM0hZN25GYW8weTh3WEppVkdWdmxIMWs1dWY4X1lFQmVXV2p4RUFxLTJzSXFtelVJeVFGTHJXOUhUbkgxS1ZJWDd4VVR0UXZWZVRsQ19ZaFF4SXNlNmRCY1liclZCZjM3c3B6WGpfa2JKbjd4VGl5N1J4OWlOY0stQ1l3aWUzVFFUYmI?oc=5",
+      "talukas": [
+        "khed"
+      ],
+      "localities": [
+        "Bhimashankar"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-10-29T17:01:31.000Z",
+      "lastUpdated": "2026-10-29T17:01:31.000Z",
+      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
+      "lastVerifiedAt": "2026-10-29T20:58:05.720Z",
+      "intelligenceGeneratedAt": "2026-10-29T20:58:24.178Z",
+      "expiresAt": "2026-10-31T17:01:31.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 70,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Bhimashankar",
+      "upstreamId": "google-news-e63e19db",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-10-29T20:58:05.720Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [
+        "accident-developing-2-killed-4-injured-as-car-plunges-200-ft-into-gorge-at-pokhari-ghat-20"
+      ],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
     }
