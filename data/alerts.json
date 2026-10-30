@@ -1,6 +1,56 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-30T13:54:49.341Z",
+  "generatedAt": "2026-10-30T19:04:09.482Z",
   "sourceStatus": "stale",
-  "items": []
+  "items": [
+    {
+      "id": "heavy-rain-official-light-spells-of-rain-with-possibility-of-thunder-lightning-in-some-are",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Light spells of rain with possibility of thunder/ lightning in some areas very likely to occur at isolated places over Pune, Thane in next 3 hours.",
+      "summary": "Light spells of rain with possibility of thunder/ lightning in some areas very likely to occur at isolated places over Pune, Thane in next 3 hours.",
+      "category": "heavy_rain",
+      "severity": "watch",
+      "source": "NDMA SACHET (Maharashtra-SDMA)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (Maharashtra-SDMA)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1793378353889029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1793378353889029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-10-30T17:15:53.000Z",
+      "lastUpdated": "2026-10-30T17:15:53.000Z",
+      "sourceCheckedAt": "2026-10-30T19:03:51.479Z",
+      "lastVerifiedAt": "2026-10-30T19:03:51.479Z",
+      "intelligenceGeneratedAt": "2026-10-30T19:04:09.482Z",
+      "expiresAt": "2026-10-30T19:30:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Pune,Thane districts of Maharashtra",
+      "upstreamId": "IN-1793378353889029_29",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Update",
+      "capReferences": "IMD-Mumbai,IN-1793378353889029_46,2026-10-30T22:08:46+05:30",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
