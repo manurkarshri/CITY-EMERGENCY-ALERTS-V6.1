@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-  "lastSuccessfulAt": "2026-10-29T20:58:05.720Z",
+  "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+  "lastSuccessfulAt": "2026-10-30T00:46:49.616Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-      "lastSuccessfulAt": "2026-10-29T20:58:05.720Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastSuccessfulAt": "2026-10-30T00:46:49.616Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,8 +23,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-      "lastSuccessfulAt": "2026-10-29T20:58:05.720Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastSuccessfulAt": "2026-10-30T00:46:49.616Z",
       "error": null,
       "etag": "W/\"8988-1793292379589\"",
       "itemsCollected": 0
@@ -33,7 +33,7 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
       "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-      "lastSuccessfulAt": "2026-10-29T20:58:05.720Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastSuccessfulAt": "2026-10-30T00:46:49.616Z",
       "error": null,
       "etag": null,
       "itemsCollected": 2
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-      "lastSuccessfulAt": "2026-10-29T20:58:05.720Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastSuccessfulAt": "2026-10-30T00:46:49.616Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,8 +69,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-      "lastSuccessfulAt": "2026-10-29T20:58:05.720Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastSuccessfulAt": "2026-10-30T00:46:49.616Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -79,11 +79,11 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-      "lastSuccessfulAt": "2026-10-29T20:58:05.720Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastSuccessfulAt": "2026-10-30T00:46:49.616Z",
       "error": null,
-      "itemsCollected": 1,
-      "itemsQualified": 1
+      "itemsCollected": 2,
+      "itemsQualified": 2
     }
   ],
   "items": [
@@ -98,8 +98,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/2-killed-4-injured-as-car-plunges-200-ft-into-gorge-at-pokhari-ghat-101793213539574.html",
       "publishedAt": "2026-10-29T02:15:40.000Z",
       "lastUpdated": "2026-10-29T02:15:40.000Z",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-      "lastVerifiedAt": "2026-10-29T20:58:05.720Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastVerifiedAt": "2026-10-30T00:46:49.616Z",
       "expiresAt": "2026-10-30T02:15:40.000Z"
     },
     {
@@ -113,8 +113,8 @@
       "link": "https://www.hindustantimes.com/cities/pune-news/jay-pawar-seeks-time-bound-probe-into-ajit-pawar-plane-crash-101793211860179.html",
       "publishedAt": "2026-10-29T02:09:00.000Z",
       "lastUpdated": "2026-10-29T02:09:00.000Z",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-      "lastVerifiedAt": "2026-10-29T20:58:05.720Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastVerifiedAt": "2026-10-30T00:46:49.616Z",
       "expiresAt": "2026-10-30T02:09:00.000Z"
     },
     {
@@ -131,10 +131,10 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZDI4U0lfWkExQjcyZ0YtM0oyYTNRR1ZjdEZReDF5dHlDX2ZYYVI1NW9qcmhmeEZ0ZTBIZUNSM0hZN25GYW8weTh3WEppVkdWdmxIMWs1dWY4X1lFQmVXV2p4RUFxLTJzSXFtelVJeVFGTHJXOUhUbkgxS1ZJWDd4VVR0UXZWZVRsQ19ZaFF4SXNlNmRCY1liclZCZjM3c3B6WGpfa2JKbjd4VGl5N1J4OWlOY0stQ1l3aWUzVFFUYmI?oc=5",
       "sourceOrigin": "",
       "publishedAt": "2026-10-29T17:01:31.000Z",
-      "discoveredAt": "2026-10-29T20:58:05.720Z",
+      "discoveredAt": "2026-10-30T00:46:49.616Z",
       "lastUpdated": "2026-10-29T17:01:31.000Z",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-      "lastVerifiedAt": "2026-10-29T20:58:05.720Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastVerifiedAt": "2026-10-30T00:46:49.616Z",
       "expiresAt": "2026-10-31T17:01:31.000Z",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
@@ -146,6 +146,39 @@
       ],
       "localities": [
         "Bhimashankar"
+      ]
+    },
+    {
+      "eventKind": "incident",
+      "sourceId": "punekar_news",
+      "collectionSourceId": "google_news_discovery",
+      "upstreamId": "google-news-cb8c3ade",
+      "title": "Developing: Pune: Two Dead, Four Seriously Injured As Car Falls Into Gorge on Manchar-Bhimashankar Road",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Punekar News",
+      "sourceTrust": "B",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQUl1UFhKTkYtSnJGNlhhYTBzcmszUncxVEtpZDg3NG9zRGJfeklYX2hiZ2pha2NaaWE2Z2tGdGNaZGJOMHdxSzFvM3JVcDA5TnFHazdJQ2NFaEpGVjdMQ3lKRkFIcVQ3WG5SZUc4WWttZTlaaXBRdlpfNnJDYnM5eWVmWXJiWEh2UFhhSmNVb202RDAtNXBqbTBDQWZnbncycTNSTHd2aXh4MlV6TGpXeEQybVBDZWVn?oc=5",
+      "sourceOrigin": "",
+      "publishedAt": "2026-10-29T07:26:16.000Z",
+      "discoveredAt": "2026-10-30T00:46:49.616Z",
+      "lastUpdated": "2026-10-29T07:26:16.000Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastVerifiedAt": "2026-10-30T00:46:49.616Z",
+      "expiresAt": "2026-10-31T07:26:16.000Z",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "geographicScope": "local",
+      "affectedArea": "Bhimashankar, Manchar",
+      "talukas": [
+        "khed",
+        "ambegaon"
+      ],
+      "localities": [
+        "Bhimashankar",
+        "Manchar"
       ]
     }
   ]

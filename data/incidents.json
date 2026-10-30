@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-29T20:58:24.178Z",
+  "generatedAt": "2026-10-30T00:47:07.149Z",
   "sourceStatus": "stale",
   "items": [
     {
@@ -31,9 +31,9 @@
       "operationalZones": [],
       "publishedAt": "2026-10-29T02:15:40.000Z",
       "lastUpdated": "2026-10-29T02:15:40.000Z",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-      "lastVerifiedAt": "2026-10-29T20:58:05.720Z",
-      "intelligenceGeneratedAt": "2026-10-29T20:58:24.178Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastVerifiedAt": "2026-10-30T00:46:49.616Z",
+      "intelligenceGeneratedAt": "2026-10-30T00:47:07.149Z",
       "expiresAt": "2026-10-30T02:15:40.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -53,7 +53,8 @@
       "roadNumbers": [],
       "geographicScope": "local",
       "relatedEventIds": [
-        "accident-developing-pune-17-year-old-student-killed-in-motorcycle-crash-on-bhimashankar-ro"
+        "accident-developing-pune-17-year-old-student-killed-in-motorcycle-crash-on-bhimashankar-ro",
+        "accident-developing-pune-two-dead-four-seriously-injured-as-car-falls-into-gorge-on-mancha"
       ],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
@@ -82,9 +83,9 @@
       "operationalZones": [],
       "publishedAt": "2026-10-29T02:09:00.000Z",
       "lastUpdated": "2026-10-29T02:09:00.000Z",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-      "lastVerifiedAt": "2026-10-29T20:58:05.720Z",
-      "intelligenceGeneratedAt": "2026-10-29T20:58:24.178Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastVerifiedAt": "2026-10-30T00:46:49.616Z",
+      "intelligenceGeneratedAt": "2026-10-30T00:47:07.149Z",
       "expiresAt": "2026-10-30T02:09:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -135,13 +136,13 @@
       "operationalZones": [],
       "publishedAt": "2026-10-29T17:01:31.000Z",
       "lastUpdated": "2026-10-29T17:01:31.000Z",
-      "sourceCheckedAt": "2026-10-29T20:58:05.720Z",
-      "lastVerifiedAt": "2026-10-29T20:58:05.720Z",
-      "intelligenceGeneratedAt": "2026-10-29T20:58:24.178Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastVerifiedAt": "2026-10-30T00:46:49.616Z",
+      "intelligenceGeneratedAt": "2026-10-30T00:47:07.149Z",
       "expiresAt": "2026-10-31T17:01:31.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 70,
+      "confidenceScore": 63,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Bhimashankar",
@@ -150,14 +151,73 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-10-29T20:58:05.720Z",
+      "discoveredAt": "2026-10-30T00:46:49.616Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "local",
       "relatedEventIds": [
-        "accident-developing-2-killed-4-injured-as-car-plunges-200-ft-into-gorge-at-pokhari-ghat-20"
+        "accident-developing-2-killed-4-injured-as-car-plunges-200-ft-into-gorge-at-pokhari-ghat-20",
+        "accident-developing-pune-two-dead-four-seriously-injured-as-car-falls-into-gorge-on-mancha"
+      ],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-pune-two-dead-four-seriously-injured-as-car-falls-into-gorge-on-mancha",
+      "eventKind": "incident",
+      "sourceId": "punekar_news",
+      "title": "Developing: Pune: Two Dead, Four Seriously Injured As Car Falls Into Gorge on Manchar-Bhimashankar Road",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Punekar News",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Punekar News",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQUl1UFhKTkYtSnJGNlhhYTBzcmszUncxVEtpZDg3NG9zRGJfeklYX2hiZ2pha2NaaWE2Z2tGdGNaZGJOMHdxSzFvM3JVcDA5TnFHazdJQ2NFaEpGVjdMQ3lKRkFIcVQ3WG5SZUc4WWttZTlaaXBRdlpfNnJDYnM5eWVmWXJiWEh2UFhhSmNVb202RDAtNXBqbTBDQWZnbncycTNSTHd2aXh4MlV6TGpXeEQybVBDZWVn?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQUl1UFhKTkYtSnJGNlhhYTBzcmszUncxVEtpZDg3NG9zRGJfeklYX2hiZ2pha2NaaWE2Z2tGdGNaZGJOMHdxSzFvM3JVcDA5TnFHazdJQ2NFaEpGVjdMQ3lKRkFIcVQ3WG5SZUc4WWttZTlaaXBRdlpfNnJDYnM5eWVmWXJiWEh2UFhhSmNVb202RDAtNXBqbTBDQWZnbncycTNSTHd2aXh4MlV6TGpXeEQybVBDZWVn?oc=5",
+      "talukas": [
+        "khed",
+        "ambegaon"
+      ],
+      "localities": [
+        "Bhimashankar",
+        "Manchar"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-10-29T07:26:16.000Z",
+      "lastUpdated": "2026-10-29T07:26:16.000Z",
+      "sourceCheckedAt": "2026-10-30T00:46:49.616Z",
+      "lastVerifiedAt": "2026-10-30T00:46:49.616Z",
+      "intelligenceGeneratedAt": "2026-10-30T00:47:07.149Z",
+      "expiresAt": "2026-10-31T07:26:16.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 63,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Bhimashankar, Manchar",
+      "upstreamId": "google-news-cb8c3ade",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-10-30T00:46:49.616Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [
+        "accident-developing-2-killed-4-injured-as-car-plunges-200-ft-into-gorge-at-pokhari-ghat-20",
+        "accident-developing-pune-17-year-old-student-killed-in-motorcycle-crash-on-bhimashankar-ro"
       ],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
