@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-30T19:04:09.482Z",
+  "generatedAt": "2026-10-30T22:59:17.511Z",
   "routes": [],
   "risks": [
     {
-      "id": "heavy-rain-official-light-spells-of-rain-with-possibility-of-thunder-lightning-in-some-are",
-      "category": "heavy_rain",
+      "id": "thunderstorm-official-light-to-moderate-spells-of-rain-with-possibility-of-thunderstorm-is",
+      "category": "thunderstorm",
       "severity": "watch",
       "localities": [],
       "talukas": [],
@@ -14,15 +14,6 @@
     },
     {
       "id": "accident-developing-man-found-dead-inside-parked-car-in-pune-police-launch-probe-2026-10-3",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "accident-developing-pune-solapur-road-पुणे-सोलपूर-महामार्गावर-पुलाच्या-कामादरम्यान-मोठी-दु",
       "category": "accident",
       "severity": "watch",
       "localities": [],
@@ -57,6 +48,21 @@
       ],
       "talukas": [
         "khed"
+      ],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-pune-two-dead-four-seriously-injured-as-car-falls-into-gorge-on-mancha",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Bhimashankar",
+        "Manchar"
+      ],
+      "talukas": [
+        "khed",
+        "ambegaon"
       ],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
