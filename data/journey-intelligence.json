@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-31T08:31:18.279Z",
+  "generatedAt": "2026-10-31T14:47:09.882Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-10-31T08:31:18.279Z",
+      "generatedAt": "2026-10-31T14:47:09.881Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-nh48",
         "label": "Kharadi to Hinjawadi via NH48",
@@ -146,7 +146,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-10-31T08:31:18.279Z",
+      "generatedAt": "2026-10-31T14:47:09.882Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -257,7 +257,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-10-31T08:31:18.279Z",
+      "generatedAt": "2026-10-31T14:47:09.882Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -286,12 +286,11 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 60,
-          "label": "Proceed with Caution",
-          "recommendation": "Proceed with caution and allow extra travel time.",
+          "score": 80,
+          "label": "Good to Go",
+          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
           "reasons": [
-            "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns.",
-            "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have died two days ago as foul smell started emanating from vehicle may cause delays or safety concerns."
+            "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
           ],
           "penalties": [
             {
@@ -299,21 +298,15 @@
               "category": "accident",
               "penalty": 20,
               "title": "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug"
-            },
-            {
-              "eventId": "accident-developing-missing-for-5-days-25-year-old-man-found-dead-inside-car-near-sarasbau",
-              "category": "accident",
-              "penalty": 20,
-              "title": "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have died two days ago as foul smell started emanating from vehicle"
             }
           ]
         },
-        "estimatedTimeMin": 50,
-        "estimatedDelayMin": 15,
+        "estimatedTimeMin": 43,
+        "estimatedDelayMin": 8,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -344,12 +337,11 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 60,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns.",
-              "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have died two days ago as foul smell started emanating from vehicle may cause delays or safety concerns."
+              "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
             ],
             "penalties": [
               {
@@ -357,21 +349,15 @@
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug"
-              },
-              {
-                "eventId": "accident-developing-missing-for-5-days-25-year-old-man-found-dead-inside-car-near-sarasbau",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have died two days ago as foul smell started emanating from vehicle"
               }
             ]
           },
-          "estimatedTimeMin": 50,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 43,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
         }
       ]
     }
