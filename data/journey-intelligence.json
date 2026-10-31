@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-31T02:14:32.179Z",
+  "generatedAt": "2026-10-31T08:31:18.279Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,33 +8,36 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-10-31T02:14:32.178Z",
+      "generatedAt": "2026-10-31T08:31:18.279Z",
       "bestRoute": {
-        "id": "kharadi-hinjawadi-pashan",
-        "label": "Kharadi to Hinjawadi via Pashan",
+        "id": "kharadi-hinjawadi-nh48",
+        "label": "Kharadi to Hinjawadi via NH48",
         "fromAliases": [
           "Kharadi",
-          "EON"
+          "EON",
+          "World Trade Center"
         ],
         "toAliases": [
           "Hinjawadi",
-          "Hinjewadi"
+          "Hinjewadi",
+          "Rajiv Gandhi Infotech Park"
         ],
         "via": [
           "Kharadi",
-          "Yerwada",
-          "Aundh",
-          "Pashan",
-          "Mahalunge",
+          "Viman Nagar",
+          "Shivajinagar",
+          "Baner",
+          "Wakad",
           "Hinjawadi"
         ],
         "operationalZones": [
-          "Pashan Road",
+          "Pune-Ahmednagar Highway",
+          "NH48",
           "IT Corridor"
         ],
-        "distanceKm": 36,
-        "baseTimeMin": 72,
-        "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
+        "distanceKm": 33,
+        "baseTimeMin": 65,
+        "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
         "routeType": "known-corridor",
         "journeySuitability": {
           "score": 100,
@@ -43,14 +46,58 @@
           "reasons": [],
           "penalties": []
         },
-        "estimatedTimeMin": 72,
+        "estimatedTimeMin": 65,
         "estimatedDelayMin": 0,
-        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
       },
       "routes": [
+        {
+          "id": "kharadi-hinjawadi-nh48",
+          "label": "Kharadi to Hinjawadi via NH48",
+          "fromAliases": [
+            "Kharadi",
+            "EON",
+            "World Trade Center"
+          ],
+          "toAliases": [
+            "Hinjawadi",
+            "Hinjewadi",
+            "Rajiv Gandhi Infotech Park"
+          ],
+          "via": [
+            "Kharadi",
+            "Viman Nagar",
+            "Shivajinagar",
+            "Baner",
+            "Wakad",
+            "Hinjawadi"
+          ],
+          "operationalZones": [
+            "Pune-Ahmednagar Highway",
+            "NH48",
+            "IT Corridor"
+          ],
+          "distanceKm": 33,
+          "baseTimeMin": 65,
+          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "routeType": "known-corridor",
+          "journeySuitability": {
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
+            "penalties": []
+          },
+          "estimatedTimeMin": 65,
+          "estimatedDelayMin": 0,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+          "rank": 1,
+          "recommended": true,
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+        },
         {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -88,62 +135,9 @@
           "estimatedTimeMin": 72,
           "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
-          "rank": 1,
-          "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
-        },
-        {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
-          "fromAliases": [
-            "Kharadi",
-            "EON",
-            "World Trade Center"
-          ],
-          "toAliases": [
-            "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
-          ],
-          "via": [
-            "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
-            "Hinjawadi"
-          ],
-          "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
-            "IT Corridor"
-          ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-          "routeType": "known-corridor",
-          "journeySuitability": {
-            "score": 85,
-            "label": "Good to Go",
-            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-            "reasons": [
-              "Official: Light Rain is very likely to occur at isolated places over Ahilyanagar, Ghats of Pune, Ghats of Satara in next 3 hours. may have minor impact on travel."
-            ],
-            "penalties": [
-              {
-                "eventId": "heavy-rain-official-light-rain-is-very-likely-to-occur-at-isolated-places-over-ahilyanagar",
-                "category": "heavy_rain",
-                "penalty": 15,
-                "title": "Official: Light Rain is very likely to occur at isolated places over Ahilyanagar, Ghats of Pune, Ghats of Satara in next 3 hours."
-              }
-            ]
-          },
-          "estimatedTimeMin": 73,
-          "estimatedDelayMin": 8,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Good to Go (85/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Official: Light Rain is very likely to occur at isolated places over Ahilyanagar, Ghats of Pune, Ghats of Satara in next 3 hours. may have minor impact on travel."
+          "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
         }
       ]
     },
@@ -152,7 +146,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-10-31T02:14:32.179Z",
+      "generatedAt": "2026-10-31T08:31:18.279Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -182,18 +176,27 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 100,
-          "label": "Excellent",
-          "recommendation": "Travel conditions look suitable.",
-          "reasons": [],
-          "penalties": []
+          "score": 80,
+          "label": "Good to Go",
+          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+          "reasons": [
+            "Developing: MACT awards Rs 88.45 lakh to kin of couple killed in Mumbai-Pune E-way crash may cause delays or safety concerns."
+          ],
+          "penalties": [
+            {
+              "eventId": "accident-developing-mact-awards-rs-88-45-lakh-to-kin-of-couple-killed-in-mumbai-pune-e-way",
+              "category": "accident",
+              "penalty": 20,
+              "title": "Developing: MACT awards Rs 88.45 lakh to kin of couple killed in Mumbai-Pune E-way crash"
+            }
+          ]
         },
-        "estimatedTimeMin": 95,
-        "estimatedDelayMin": 0,
+        "estimatedTimeMin": 103,
+        "estimatedDelayMin": 8,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: MACT awards Rs 88.45 lakh to kin of couple killed in Mumbai-Pune E-way crash may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -225,18 +228,27 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "reasons": [
+              "Developing: MACT awards Rs 88.45 lakh to kin of couple killed in Mumbai-Pune E-way crash may cause delays or safety concerns."
+            ],
+            "penalties": [
+              {
+                "eventId": "accident-developing-mact-awards-rs-88-45-lakh-to-kin-of-couple-killed-in-mumbai-pune-e-way",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: MACT awards Rs 88.45 lakh to kin of couple killed in Mumbai-Pune E-way crash"
+              }
+            ]
           },
-          "estimatedTimeMin": 95,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 103,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: MACT awards Rs 88.45 lakh to kin of couple killed in Mumbai-Pune E-way crash may cause delays or safety concerns."
         }
       ]
     },
@@ -245,7 +257,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-10-31T02:14:32.179Z",
+      "generatedAt": "2026-10-31T08:31:18.279Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -274,18 +286,34 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 100,
-          "label": "Excellent",
-          "recommendation": "Travel conditions look suitable.",
-          "reasons": [],
-          "penalties": []
+          "score": 60,
+          "label": "Proceed with Caution",
+          "recommendation": "Proceed with caution and allow extra travel time.",
+          "reasons": [
+            "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns.",
+            "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have died two days ago as foul smell started emanating from vehicle may cause delays or safety concerns."
+          ],
+          "penalties": [
+            {
+              "eventId": "accident-developing-25-year-old-man-missing-for-4-days-found-dead-inside-car-near-sarasbau",
+              "category": "accident",
+              "penalty": 20,
+              "title": "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug"
+            },
+            {
+              "eventId": "accident-developing-missing-for-5-days-25-year-old-man-found-dead-inside-car-near-sarasbau",
+              "category": "accident",
+              "penalty": 20,
+              "title": "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have died two days ago as foul smell started emanating from vehicle"
+            }
+          ]
         },
-        "estimatedTimeMin": 35,
-        "estimatedDelayMin": 0,
+        "estimatedTimeMin": 50,
+        "estimatedDelayMin": 15,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -316,18 +344,34 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "score": 60,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
+            "reasons": [
+              "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns.",
+              "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have died two days ago as foul smell started emanating from vehicle may cause delays or safety concerns."
+            ],
+            "penalties": [
+              {
+                "eventId": "accident-developing-25-year-old-man-missing-for-4-days-found-dead-inside-car-near-sarasbau",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug"
+              },
+              {
+                "eventId": "accident-developing-missing-for-5-days-25-year-old-man-found-dead-inside-car-near-sarasbau",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have died two days ago as foul smell started emanating from vehicle"
+              }
+            ]
           },
-          "estimatedTimeMin": 35,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 50,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
         }
       ]
     }

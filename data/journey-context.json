@@ -1,19 +1,45 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-10-31T02:14:32.046Z",
+  "generatedAt": "2026-10-31T08:31:18.132Z",
   "routes": [],
   "risks": [
     {
-      "id": "heavy-rain-official-light-rain-is-very-likely-to-occur-at-isolated-places-over-ahilyanagar",
-      "category": "heavy_rain",
+      "id": "accident-developing-three-of-family-killed-in-hit-and-run-in-shirur-taluka-2026-10-31t02-0",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Shirur"
+      ],
+      "talukas": [
+        "shirur"
+      ],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-25-year-old-man-missing-for-4-days-found-dead-inside-car-near-sarasbau",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Loni Kalbhor"
+      ],
+      "talukas": [
+        "loni_kalbhor"
+      ],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-man-found-dead-inside-parked-car-in-pune-police-launch-probe-2026-10-3",
+      "category": "accident",
       "severity": "watch",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
+      "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "accident-developing-man-found-dead-inside-parked-car-in-pune-police-launch-probe-2026-10-3",
+      "id": "accident-developing-missing-for-5-days-25-year-old-man-found-dead-inside-car-near-sarasbau",
       "category": "accident",
       "severity": "watch",
       "localities": [],
@@ -38,6 +64,17 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
+    },
+    {
+      "id": "accident-developing-mact-awards-rs-88-45-lakh-to-kin-of-couple-killed-in-mumbai-pune-e-way",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Mumbai-Pune Expressway"
+      ],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
     },
     {
       "id": "accident-developing-pune-17-year-old-student-killed-in-motorcycle-crash-on-bhimashankar-ro",
