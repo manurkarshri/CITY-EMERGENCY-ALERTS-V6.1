@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-10-31T19:09:39.118Z",
+  "generatedAt": "2026-10-31T22:30:26.770Z",
   "status": "stale",
   "situation": {
-    "snapshot": "2 important alerts require attention.",
+    "snapshot": "4 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-10-31T19:09:39.177Z",
+      "generatedAt": "2026-10-31T22:30:26.824Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,18 +13,18 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-31T19:09:13.684Z",
-          "observedAt": "2026-11-01T00:30:00+05:30",
-          "temp": 23.4,
+          "sourceCheckedAt": "2026-10-31T22:29:50.476Z",
+          "observedAt": "2026-11-01T03:45:00+05:30",
+          "temp": 21.9,
           "currentRain": 0,
-          "rain6h": 0,
+          "rain6h": 0.1,
           "rain24h": 2.8,
           "precipitationProbability": 86,
-          "wind": 8.6,
-          "gust": 8.6,
-          "humidity": 83,
-          "visibility": 6.5,
-          "weatherCode": 1,
+          "wind": 14,
+          "gust": 14,
+          "humidity": 86,
+          "visibility": 5.3,
+          "weatherCode": 2,
           "rainRisk": "Low",
           "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
@@ -40,18 +40,18 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-31T19:09:13.684Z",
-          "observedAt": "2026-11-01T00:30:00+05:30",
-          "temp": 23,
+          "sourceCheckedAt": "2026-10-31T22:29:50.476Z",
+          "observedAt": "2026-11-01T03:45:00+05:30",
+          "temp": 22,
           "currentRain": 0,
           "rain6h": 0.1,
           "rain24h": 1.7,
           "precipitationProbability": 75,
-          "wind": 9,
-          "gust": 9,
-          "humidity": 91,
+          "wind": 12.2,
+          "gust": 12.2,
+          "humidity": 87,
           "visibility": 5.4,
-          "weatherCode": 3,
+          "weatherCode": 2,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
@@ -67,18 +67,18 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-31T19:09:13.684Z",
-          "observedAt": "2026-11-01T00:30:00+05:30",
-          "temp": 23.4,
+          "sourceCheckedAt": "2026-10-31T22:29:50.476Z",
+          "observedAt": "2026-11-01T03:45:00+05:30",
+          "temp": 21.9,
           "currentRain": 0,
-          "rain6h": 0,
+          "rain6h": 0.1,
           "rain24h": 2.8,
           "precipitationProbability": 86,
-          "wind": 8.6,
-          "gust": 8.6,
-          "humidity": 83,
-          "visibility": 6.5,
-          "weatherCode": 1,
+          "wind": 14,
+          "gust": 14,
+          "humidity": 86,
+          "visibility": 5.3,
+          "weatherCode": 2,
           "rainRisk": "Low",
           "windRisk": "Minimal",
           "visibilityRisk": "Minimal",
@@ -94,20 +94,20 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-31T19:09:13.684Z",
-          "observedAt": "2026-11-01T00:30:00+05:30",
-          "temp": 21.7,
+          "sourceCheckedAt": "2026-10-31T22:29:50.476Z",
+          "observedAt": "2026-11-01T03:45:00+05:30",
+          "temp": 21.5,
           "currentRain": 0,
           "rain6h": 0.1,
           "rain24h": 1.4,
           "precipitationProbability": 90,
-          "wind": 15.5,
-          "gust": 15.5,
-          "humidity": 90,
+          "wind": 22.7,
+          "gust": 22.7,
+          "humidity": 92,
           "visibility": 4.9,
-          "weatherCode": 2,
+          "weatherCode": 3,
           "rainRisk": "Low",
-          "windRisk": "Minimal",
+          "windRisk": "Low",
           "visibilityRisk": "Low",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -121,20 +121,20 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-10-31T19:09:13.684Z",
-          "observedAt": "2026-11-01T00:30:00+05:30",
-          "temp": 21.8,
+          "sourceCheckedAt": "2026-10-31T22:29:50.476Z",
+          "observedAt": "2026-11-01T03:45:00+05:30",
+          "temp": 22.7,
           "currentRain": 0,
-          "rain6h": 0.1,
-          "rain24h": 1.7,
+          "rain6h": 0,
+          "rain24h": 1.6,
           "precipitationProbability": 90,
-          "wind": 19.1,
-          "gust": 19.1,
-          "humidity": 95,
-          "visibility": 5.3,
+          "wind": 27.7,
+          "gust": 27.7,
+          "humidity": 78,
+          "visibility": 7.5,
           "weatherCode": 3,
           "rainRisk": "Low",
-          "windRisk": "Minimal",
+          "windRisk": "Low",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -146,12 +146,12 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-10-31T19:09:39.237Z",
+      "generatedAt": "2026-10-31T22:30:26.840Z",
       "riskLevel": "Normal",
       "impacts": [
-        "5 active transport-related event(s) may affect travel."
+        "4 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "5 active transport-related event(s) may affect travel.",
+      "citizenSummary": "4 active transport-related event(s) may affect travel.",
       "seasonalContext": "normal"
     }
   },
@@ -191,9 +191,9 @@
       "operationalZones": [],
       "publishedAt": "2026-10-31T02:07:40.000Z",
       "lastUpdated": "2026-10-31T02:07:40.000Z",
-      "sourceCheckedAt": "2026-10-31T19:09:14.415Z",
-      "lastVerifiedAt": "2026-10-31T19:09:14.415Z",
-      "intelligenceGeneratedAt": "2026-10-31T19:09:39.118Z",
+      "sourceCheckedAt": "2026-10-31T22:29:50.848Z",
+      "lastVerifiedAt": "2026-10-31T22:29:50.848Z",
+      "intelligenceGeneratedAt": "2026-10-31T22:30:26.770Z",
       "expiresAt": "2026-11-01T02:07:40.000Z",
       "lifecycle": "developing",
       "confidence": "High",
@@ -246,9 +246,9 @@
       "operationalZones": [],
       "publishedAt": "2026-10-31T02:07:00.000Z",
       "lastUpdated": "2026-10-31T02:07:00.000Z",
-      "sourceCheckedAt": "2026-10-31T19:09:14.415Z",
-      "lastVerifiedAt": "2026-10-31T19:09:14.415Z",
-      "intelligenceGeneratedAt": "2026-10-31T19:09:39.118Z",
+      "sourceCheckedAt": "2026-10-31T22:29:50.848Z",
+      "lastVerifiedAt": "2026-10-31T22:29:50.848Z",
+      "intelligenceGeneratedAt": "2026-10-31T22:30:26.770Z",
       "expiresAt": "2026-11-01T02:07:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -272,214 +272,61 @@
       "corroboratedByIndependentSources": false
     },
     {
-      "id": "fire-developing-पुणे-नाशिक-महामार्गावर-आळेखिंड-येथे-मालवाहतूक-ट्रकला-भीषण-आग-केबिन-जळून-खा",
+      "id": "accident-developing-25-year-old-man-found-dead-in-parked-car-in-pune-2026-10-30t11-49-43-0",
       "eventKind": "incident",
-      "sourceId": "lokmat",
-      "title": "Developing: पुणे-नाशिक महामार्गावर आळेखिंड येथे मालवाहतूक ट्रकला भीषण आग; केबिन जळून खाक, चालक सुखरूप",
-      "summary": "Junnar Truck Fire A massive fire broke out in a goods truck at Alekhind on the Pune-Nashik highway; The cabin was burnt down, the driver was safe. - Junnar Truck Fire : मालवाहतूक ट्रक पुणे-नाशिक महामार्गावरून जात असताना अचानक वाहनाच्या केबिनमधून धूर येऊ लागला. - Latest Marathi News (मराठी बातम्या). Find Breaking Headlines, Current and Latest pune news in Marathi at Lokmat.com",
-      "category": "fire",
-      "severity": "warning",
-      "source": "Lokmat Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Lokmat Pune",
-          "trust": "B",
-          "link": "https://www.lokmat.com/pune/junnar-truck-fire-a-massive-fire-broke-out-in-a-goods-truck-at-alekhind-on-the-pune-nashik-highway-the-cabin-was-burnt-down-the-driver-was-safe-a1008/",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.lokmat.com/pune/junnar-truck-fire-a-massive-fire-broke-out-in-a-goods-truck-at-alekhind-on-the-pune-nashik-highway-the-cabin-was-burnt-down-the-driver-was-safe-a1008/",
-      "talukas": [
-        "junnar"
-      ],
-      "localities": [
-        "Junnar"
-      ],
-      "operationalZones": [
-        "Pune-Nashik Highway"
-      ],
-      "publishedAt": "2026-10-31T06:59:51.000Z",
-      "lastUpdated": "2026-10-31T06:59:51.000Z",
-      "sourceCheckedAt": "2026-10-31T19:09:14.415Z",
-      "lastVerifiedAt": "2026-10-31T19:09:14.415Z",
-      "intelligenceGeneratedAt": "2026-10-31T19:09:39.118Z",
-      "expiresAt": "2026-11-02T06:59:51.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "",
-      "upstreamId": "3b11a15be57179c1966bd63aaa334327",
-      "collectionProvider": "NewsData.io",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-missing-for-5-days-25-year-old-man-found-dead-inside-car-near-sarasbau",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have",
+      "sourceId": "the_print",
+      "title": "Developing: 25-year-old man found dead in parked car in Pune",
       "summary": "A current trusted-media report relevant to Pune District.",
       "category": "accident",
       "severity": "watch",
-      "source": "Times of India",
+      "source": "ThePrint",
       "sourceTrust": "B",
       "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQRHljZVFDam5jRy1tYldha0JzbHFBLXU4QUM0LVNkUkZDTjJYNm81Z0FwLXdramY0MmQySHVTYVk1eUYtY1BLQXllNUFQMFp0YThwV28zXzdhTEpOWWRHSGlIRHI0RWxHYWRUbXpnUVVNSXFaeGZWSl85TlRaUzlJWFV6RGZnQWtWNDJOWG5RSjEzdGtYdHlGY2JIMDcwTjJoMUV4eGJSVkt5MlR2YUJlTnVzXzcxbFgzUHhibmJickZQd094MHBXaVBBNUlOZmZlbXdLTktzdW0zcEYwLXI3NXdPUGk0NGRqZ3VjQ0FPQzBNUFN1OUhXSmRCSmVqZWJfbG5yMzdUa1l1MkJ3R0JLVVFmYXlrMDREWjMxcGIyRHI2Nm8zSlBEYmFFb1R0U0gyTTk0MG9JazVLTVM1c2dlWXRBOFFaR0htemwzR2JncDZtcGFVbEsyMdIB3gJBVV95cUxNSDhSMHVfX2RRSGZxeGFqY1NmYkg5RlVnRlJBc1FyUEFQelV0TjQzaDViOUJJSHMwT2J2Q0tXeE1JZnl6MFF2WHpTd1UtRTNwRGdyMWlDWnVZMkVQRGdPY3VFTVZKdmJvS3lVNUJMcnpBQUJqNDMycEM2M0piRWRUYkhVb24tcVlfUGotakNRS1RuUUJUNk9HN0xmY0NjX2sxUDl6TTZXeko3VlNOMEh0c0lKV0ZUSHdoN1NwYW1WSlp3MFlGX2tJcXI4ZXJzZWRrTDhfWmlrN05IVy1uaUlGMzFPeDVJM1I5dVBiNEEyX0pLYVR3SnVNcDZwTzBUQmo1MnIxYjBBeGFPcllIVUN0a0FYM0R5dTRfVjNNdmM2R21BZm9oU0hYQThpZ3pHVlBUN0VaZUhNMmxyOVpkVTNQaG40TEhxYTNCZHRVNTFZOFo4NmliRlp6UTUxT0tvQQ?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQRHljZVFDam5jRy1tYldha0JzbHFBLXU4QUM0LVNkUkZDTjJYNm81Z0FwLXdramY0MmQySHVTYVk1eUYtY1BLQXllNUFQMFp0YThwV28zXzdhTEpOWWRHSGlIRHI0RWxHYWRUbXpnUVVNSXFaeGZWSl85TlRaUzlJWFV6RGZnQWtWNDJOWG5RSjEzdGtYdHlGY2JIMDcwTjJoMUV4eGJSVkt5MlR2YUJlTnVzXzcxbFgzUHhibmJickZQd094MHBXaVBBNUlOZmZlbXdLTktzdW0zcEYwLXI3NXdPUGk0NGRqZ3VjQ0FPQzBNUFN1OUhXSmRCSmVqZWJfbG5yMzdUa1l1MkJ3R0JLVVFmYXlrMDREWjMxcGIyRHI2Nm8zSlBEYmFFb1R0U0gyTTk0MG9JazVLTVM1c2dlWXRBOFFaR0htemwzR2JncDZtcGFVbEsyMdIB3gJBVV95cUxNSDhSMHVfX2RRSGZxeGFqY1NmYkg5RlVnRlJBc1FyUEFQelV0TjQzaDViOUJJSHMwT2J2Q0tXeE1JZnl6MFF2WHpTd1UtRTNwRGdyMWlDWnVZMkVQRGdPY3VFTVZKdmJvS3lVNUJMcnpBQUJqNDMycEM2M0piRWRUYkhVb24tcVlfUGotakNRS1RuUUJUNk9HN0xmY0NjX2sxUDl6TTZXeko3VlNOMEh0c0lKV0ZUSHdoN1NwYW1WSlp3MFlGX2tJcXI4ZXJzZWRrTDhfWmlrN05IVy1uaUlGMzFPeDVJM1I5dVBiNEEyX0pLYVR3SnVNcDZwTzBUQmo1MnIxYjBBeGFPcllIVUN0a0FYM0R5dTRfVjNNdmM2R21BZm9oU0hYQThpZ3pHVlBUN0VaZUhNMmxyOVpkVTNQaG40TEhxYTNCZHRVNTFZOFo4NmliRlp6UTUxT0tvQQ?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-10-30T20:16:00.000Z",
-      "lastUpdated": "2026-10-30T20:16:00.000Z",
-      "sourceCheckedAt": "2026-10-31T19:09:14.415Z",
-      "lastVerifiedAt": "2026-10-31T19:09:14.415Z",
-      "intelligenceGeneratedAt": "2026-10-31T19:09:39.118Z",
-      "expiresAt": "2026-11-01T20:16:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-7ae2354f",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-10-31T19:09:14.415Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-man-found-dead-inside-parked-car-in-pune-police-launch-probe-hindustan",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Man found dead inside parked car in Pune, police launch probe | Hindustan Times",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU09NdXQ5Q0dsU3hFN0xPbGdpNWx3UEJ4ckNGZmJ0d0RydldqaWpVbmd1YVkzY2pmNXU0MHNSalFidlZSeVBvRWFUdXJfQXBFWTJ5MDFwQmQ2cndGNDgydHhHVHBhbVp0ZHpYLTFRSTdIbHZaZTBZc2xlc1hDeDBNZ1ctWVdxMjJFNFFsQ0UxbE51XzBTOUR6NVZ1VHByVWpKTFh5TFR2TGs5WWl3eHItbnY5NHdCc3RUdF9mU2x5eDlOVVo3VzNpQVJqNGNncy1OSDBnZ2FBcjFKNVXSAeABQVVfeXFMT09rbnRlNEZQWFVUQjlxYVFobnNzY29OWmVDTXZ0REliRzRUV2llaERjUlI0eEFEQkNfZk5ybHlnc29zN2Jrbm95U09jMi1McG5uZ1pRaHJaTDRRdERock1yWU9PQmVNRnJ6UWlqSkRNSkQ1dTV1WmV0VGdzdGZYWXJITTR4ZFlqYmpOQ2FHQ19qRVhLVWRxNDN6MkI5TE1nZVpsVVlhWFlNNEVUblhPbGU0ZWF5aU4xOEg2WFRNUTRkQ2RwRTNyNWhQZUYwNEFOUTloWWRuRHp5ZHdCYXc0YTM?oc=5",
-          "origin": ""
-        },
         {
           "name": "ThePrint",
           "trust": "B",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa2dOY0ktMmplckZZaXhGRjd2UmF1OFV2SElsYnY2WGhJaTlHdmduNERsVG1mQVliM2M2X19SQTAwOWdRMGtHcUpXdm9pb3FMNzdETVR6MmlyakQ4M1dEZXh2LXpSTkVJMWxqRzdjX2dFaTFaTHdubHUtVy1fWFU1LWpYM0ltWmhLX0pZ0gGQAUFVX3lxTE5OVFpnNDBNUndhSlo3Y2ZQWlBDUGJaSWZFVlRZRTFTU3FDcUxjeGNVS2x0a3VmbHI3NUVtVVIwN3FPVFBYblNhM1p6QlBYWEhfRWlGWV9JX3daejdKRkZ4ZjJoWWQ2VU9iX081NHJwSzlJUUtvMnY4c0U3d19YN3FHbDNIandBY29hdTF4UTJWNA?oc=5",
           "origin": ""
+        },
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU09NdXQ5Q0dsU3hFN0xPbGdpNWx3UEJ4ckNGZmJ0d0RydldqaWpVbmd1YVkzY2pmNXU0MHNSalFidlZSeVBvRWFUdXJfQXBFWTJ5MDFwQmQ2cndGNDgydHhHVHBhbVp0ZHpYLTFRSTdIbHZaZTBZc2xlc1hDeDBNZ1ctWVdxMjJFNFFsQ0UxbE51XzBTOUR6NVZ1VHByVWpKTFh5TFR2TGs5WWl3eHItbnY5NHdCc3RUdF9mU2x5eDlOVVo3VzNpQVJqNGNncy1OSDBnZ2FBcjFKNVXSAeABQVVfeXFMT09rbnRlNEZQWFVUQjlxYVFobnNzY29OWmVDTXZ0REliRzRUV2llaERjUlI0eEFEQkNfZk5ybHlnc29zN2Jrbm95U09jMi1McG5uZ1pRaHJaTDRRdERock1yWU9PQmVNRnJ6UWlqSkRNSkQ1dTV1WmV0VGdzdGZYWXJITTR4ZFlqYmpOQ2FHQ19qRVhLVWRxNDN6MkI5TE1nZVpsVVlhWFlNNEVUblhPbGU0ZWF5aU4xOEg2WFRNUTRkQ2RwRTNyNWhQZUYwNEFOUTloWWRuRHp5ZHdCYXc0YTM?oc=5",
+          "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU09NdXQ5Q0dsU3hFN0xPbGdpNWx3UEJ4ckNGZmJ0d0RydldqaWpVbmd1YVkzY2pmNXU0MHNSalFidlZSeVBvRWFUdXJfQXBFWTJ5MDFwQmQ2cndGNDgydHhHVHBhbVp0ZHpYLTFRSTdIbHZaZTBZc2xlc1hDeDBNZ1ctWVdxMjJFNFFsQ0UxbE51XzBTOUR6NVZ1VHByVWpKTFh5TFR2TGs5WWl3eHItbnY5NHdCc3RUdF9mU2x5eDlOVVo3VzNpQVJqNGNncy1OSDBnZ2FBcjFKNVXSAeABQVVfeXFMT09rbnRlNEZQWFVUQjlxYVFobnNzY29OWmVDTXZ0REliRzRUV2llaERjUlI0eEFEQkNfZk5ybHlnc29zN2Jrbm95U09jMi1McG5uZ1pRaHJaTDRRdERock1yWU9PQmVNRnJ6UWlqSkRNSkQ1dTV1WmV0VGdzdGZYWXJITTR4ZFlqYmpOQ2FHQ19qRVhLVWRxNDN6MkI5TE1nZVpsVVlhWFlNNEVUblhPbGU0ZWF5aU4xOEg2WFRNUTRkQ2RwRTNyNWhQZUYwNEFOUTloWWRuRHp5ZHdCYXc0YTM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa2dOY0ktMmplckZZaXhGRjd2UmF1OFV2SElsYnY2WGhJaTlHdmduNERsVG1mQVliM2M2X19SQTAwOWdRMGtHcUpXdm9pb3FMNzdETVR6MmlyakQ4M1dEZXh2LXpSTkVJMWxqRzdjX2dFaTFaTHdubHUtVy1fWFU1LWpYM0ltWmhLX0pZ0gGQAUFVX3lxTE5OVFpnNDBNUndhSlo3Y2ZQWlBDUGJaSWZFVlRZRTFTU3FDcUxjeGNVS2x0a3VmbHI3NUVtVVIwN3FPVFBYblNhM1p6QlBYWEhfRWlGWV9JX3daejdKRkZ4ZjJoWWQ2VU9iX081NHJwSzlJUUtvMnY4c0U3d19YN3FHbDNIandBY29hdTF4UTJWNA?oc=5",
       "talukas": [],
       "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-10-30T08:53:58.000Z",
-      "lastUpdated": "2026-10-30T08:53:58.000Z",
-      "sourceCheckedAt": "2026-10-31T19:09:14.415Z",
-      "lastVerifiedAt": "2026-10-31T19:09:14.415Z",
-      "intelligenceGeneratedAt": "2026-10-31T19:09:39.118Z",
-      "expiresAt": "2026-11-01T08:53:58.000Z",
+      "publishedAt": "2026-10-30T11:49:43.000Z",
+      "lastUpdated": "2026-10-30T11:49:43.000Z",
+      "sourceCheckedAt": "2026-10-31T22:29:50.848Z",
+      "lastVerifiedAt": "2026-10-31T22:29:50.848Z",
+      "intelligenceGeneratedAt": "2026-10-31T22:30:26.770Z",
+      "expiresAt": "2026-11-01T11:49:43.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
       "confidenceScore": 55,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
-      "upstreamId": "google-news-4c8c8221",
+      "upstreamId": "google-news-92a448be",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-10-31T19:09:14.415Z",
+      "discoveredAt": "2026-10-31T22:29:50.848Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
       "relatedEventIds": [
-        "accident-developing-25-year-old-man-found-dead-in-parked-car-in-pune-2026-10-30t11-49-43-0"
+        "accident-developing-man-found-dead-inside-parked-car-in-pune-police-launch-probe-hindustan"
       ],
       "independentSourceCount": 2,
       "corroboratedByIndependentSources": true
-    },
-    {
-      "id": "structural-collapse-developing-soil-collapses-on-pune-service-road-during-construction-3-w",
-      "eventKind": "incident",
-      "sourceId": "india_today",
-      "title": "Developing: Soil collapses on Pune service road during construction; 3 workers trapped",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "structural_collapse",
-      "severity": "warning",
-      "source": "India Today",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "India Today",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUlJlNkU1NVdldTBxYWpxMHNwRjlqczNMVFZDTGRTRW5nYmFPV2N1eFVPOUtvZ0lDWWNhT2FyNXNYUHI5U2xsLVJ2RkRNdmE4RGZmYkU2Rm5QNVBZbjNNemlEYklBVUJVZkV3cVJvcG5YMlZvS3Z4OHpKdzhOMVRNVTBvMVRXcmlJTEFXaEItTkM0X0pPYl9Ta3hfMUlFbTUzT1RWNUVlQ2h2WmxabnRyYUNUNVhvVmZjWUVzU1JvTDhKQzBXa0JxVTRLONIB0AFBVV95cUxOc1E0eFZSczBuZjlZUUR0YnpxSlI0NktnTUpnSG9XWTFmUmVOcWl2YUNMMEppd2lyRDhjRVVpank5dW9MZzdhMlc0ZGxFZVVzdExhMXRJaDhLT21IaXNBZldzRWNfWkZZTmdlY2hXR2hhS1UxWnNULURpX0VzQWhINzFJUzdobFNVU3FyVG54T1VYTEV3U2NGNlR5Ry1tcmZaOHVtN2NXUU5UR1RNdHA4c0JpUlBXNkdWaWdXOUJ0NkswUElOdDBLOVN4S3lMLUky?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUlJlNkU1NVdldTBxYWpxMHNwRjlqczNMVFZDTGRTRW5nYmFPV2N1eFVPOUtvZ0lDWWNhT2FyNXNYUHI5U2xsLVJ2RkRNdmE4RGZmYkU2Rm5QNVBZbjNNemlEYklBVUJVZkV3cVJvcG5YMlZvS3Z4OHpKdzhOMVRNVTBvMVRXcmlJTEFXaEItTkM0X0pPYl9Ta3hfMUlFbTUzT1RWNUVlQ2h2WmxabnRyYUNUNVhvVmZjWUVzU1JvTDhKQzBXa0JxVTRLONIB0AFBVV95cUxOc1E0eFZSczBuZjlZUUR0YnpxSlI0NktnTUpnSG9XWTFmUmVOcWl2YUNMMEppd2lyRDhjRVVpank5dW9MZzdhMlc0ZGxFZVVzdExhMXRJaDhLT21IaXNBZldzRWNfWkZZTmdlY2hXR2hhS1UxWnNULURpX0VzQWhINzFJUzdobFNVU3FyVG54T1VYTEV3U2NGNlR5Ry1tcmZaOHVtN2NXUU5UR1RNdHA4c0JpUlBXNkdWaWdXOUJ0NkswUElOdDBLOVN4S3lMLUky?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-10-30T08:01:35.000Z",
-      "lastUpdated": "2026-10-30T08:01:35.000Z",
-      "sourceCheckedAt": "2026-10-31T19:09:14.415Z",
-      "lastVerifiedAt": "2026-10-31T19:09:14.415Z",
-      "intelligenceGeneratedAt": "2026-10-31T19:09:39.118Z",
-      "expiresAt": "2026-10-31T20:01:35.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
-      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-da18d8c3",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-10-31T19:09:14.415Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
     },
     {
       "id": "accident-developing-mact-awards-rs-88-45-lakh-to-kin-of-couple-killed-in-mumbai-pune-e-way",
@@ -513,9 +360,9 @@
       "operationalZones": [],
       "publishedAt": "2026-10-31T06:49:28.000Z",
       "lastUpdated": "2026-10-31T06:49:28.000Z",
-      "sourceCheckedAt": "2026-10-31T19:09:14.415Z",
-      "lastVerifiedAt": "2026-10-31T19:09:14.415Z",
-      "intelligenceGeneratedAt": "2026-10-31T19:09:39.118Z",
+      "sourceCheckedAt": "2026-10-31T22:29:50.848Z",
+      "lastVerifiedAt": "2026-10-31T22:29:50.848Z",
+      "intelligenceGeneratedAt": "2026-10-31T22:30:26.770Z",
       "expiresAt": "2026-11-02T06:49:28.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -528,7 +375,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-10-31T19:09:14.415Z",
+      "discoveredAt": "2026-10-31T22:29:50.848Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -570,46 +417,13 @@
         "impact": "Traffic delays are likely near the incident location."
       },
       {
-        "id": "fire-developing-पुणे-नाशिक-महामार्गावर-आळेखिंड-येथे-मालवाहतूक-ट्रकला-भीषण-आग-केबिन-जळून-खा",
-        "category": "fire",
-        "severity": "warning",
-        "localities": [
-          "Junnar"
-        ],
-        "talukas": [
-          "junnar"
-        ],
-        "operationalZones": [
-          "Pune-Nashik Highway"
-        ],
-        "impact": "This event may affect local awareness or movement."
-      },
-      {
-        "id": "accident-developing-missing-for-5-days-25-year-old-man-found-dead-inside-car-near-sarasbau",
+        "id": "accident-developing-25-year-old-man-found-dead-in-parked-car-in-pune-2026-10-30t11-49-43-0",
         "category": "accident",
         "severity": "watch",
         "localities": [],
         "talukas": [],
         "operationalZones": [],
         "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "accident-developing-man-found-dead-inside-parked-car-in-pune-police-launch-probe-hindustan",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "structural-collapse-developing-soil-collapses-on-pune-service-road-during-construction-3-w",
-        "category": "structural_collapse",
-        "severity": "warning",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "The area may remain hazardous while rescue, recovery or safety checks continue."
       },
       {
         "id": "accident-developing-mact-awards-rs-88-45-lakh-to-kin-of-couple-killed-in-mumbai-pune-e-way",
@@ -625,6 +439,55 @@
     ]
   },
   "expiredEvents": [
+    {
+      "id": "structural-collapse-developing-soil-collapses-on-pune-service-road-during-construction-3-w",
+      "eventKind": "incident",
+      "sourceId": "india_today",
+      "title": "Developing: Soil collapses on Pune service road during construction; 3 workers trapped",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "structural_collapse",
+      "severity": "warning",
+      "source": "India Today",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "India Today",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUlJlNkU1NVdldTBxYWpxMHNwRjlqczNMVFZDTGRTRW5nYmFPV2N1eFVPOUtvZ0lDWWNhT2FyNXNYUHI5U2xsLVJ2RkRNdmE4RGZmYkU2Rm5QNVBZbjNNemlEYklBVUJVZkV3cVJvcG5YMlZvS3Z4OHpKdzhOMVRNVTBvMVRXcmlJTEFXaEItTkM0X0pPYl9Ta3hfMUlFbTUzT1RWNUVlQ2h2WmxabnRyYUNUNVhvVmZjWUVzU1JvTDhKQzBXa0JxVTRLONIB0AFBVV95cUxOc1E0eFZSczBuZjlZUUR0YnpxSlI0NktnTUpnSG9XWTFmUmVOcWl2YUNMMEppd2lyRDhjRVVpank5dW9MZzdhMlc0ZGxFZVVzdExhMXRJaDhLT21IaXNBZldzRWNfWkZZTmdlY2hXR2hhS1UxWnNULURpX0VzQWhINzFJUzdobFNVU3FyVG54T1VYTEV3U2NGNlR5Ry1tcmZaOHVtN2NXUU5UR1RNdHA4c0JpUlBXNkdWaWdXOUJ0NkswUElOdDBLOVN4S3lMLUky?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUlJlNkU1NVdldTBxYWpxMHNwRjlqczNMVFZDTGRTRW5nYmFPV2N1eFVPOUtvZ0lDWWNhT2FyNXNYUHI5U2xsLVJ2RkRNdmE4RGZmYkU2Rm5QNVBZbjNNemlEYklBVUJVZkV3cVJvcG5YMlZvS3Z4OHpKdzhOMVRNVTBvMVRXcmlJTEFXaEItTkM0X0pPYl9Ta3hfMUlFbTUzT1RWNUVlQ2h2WmxabnRyYUNUNVhvVmZjWUVzU1JvTDhKQzBXa0JxVTRLONIB0AFBVV95cUxOc1E0eFZSczBuZjlZUUR0YnpxSlI0NktnTUpnSG9XWTFmUmVOcWl2YUNMMEppd2lyRDhjRVVpank5dW9MZzdhMlc0ZGxFZVVzdExhMXRJaDhLT21IaXNBZldzRWNfWkZZTmdlY2hXR2hhS1UxWnNULURpX0VzQWhINzFJUzdobFNVU3FyVG54T1VYTEV3U2NGNlR5Ry1tcmZaOHVtN2NXUU5UR1RNdHA4c0JpUlBXNkdWaWdXOUJ0NkswUElOdDBLOVN4S3lMLUky?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-10-30T08:01:35.000Z",
+      "lastUpdated": "2026-10-30T08:01:35.000Z",
+      "sourceCheckedAt": "2026-10-31T22:29:50.848Z",
+      "lastVerifiedAt": "2026-10-31T22:29:50.848Z",
+      "intelligenceGeneratedAt": "2026-10-31T22:30:26.770Z",
+      "expiresAt": "2026-10-31T20:01:35.000Z",
+      "lifecycle": "expired",
+      "confidence": "Low",
+      "confidenceScore": 35,
+      "impact": "The area may remain hazardous while rescue, recovery or safety checks continue.",
+      "recommendedAction": "Avoid the immediate area and follow police, fire-service or civic instructions.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-da18d8c3",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-10-31T22:29:50.848Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
     {
       "id": "accident-developing-pune-17-year-old-student-killed-in-motorcycle-crash-on-bhimashankar-ro",
       "eventKind": "incident",
@@ -653,9 +516,9 @@
       "operationalZones": [],
       "publishedAt": "2026-10-29T17:01:31.000Z",
       "lastUpdated": "2026-10-29T17:01:31.000Z",
-      "sourceCheckedAt": "2026-10-31T19:09:14.415Z",
-      "lastVerifiedAt": "2026-10-31T19:09:14.415Z",
-      "intelligenceGeneratedAt": "2026-10-31T19:09:39.118Z",
+      "sourceCheckedAt": "2026-10-31T22:29:50.848Z",
+      "lastVerifiedAt": "2026-10-31T22:29:50.848Z",
+      "intelligenceGeneratedAt": "2026-10-31T22:30:26.770Z",
       "expiresAt": "2026-10-31T17:01:31.000Z",
       "lifecycle": "expired",
       "confidence": "Medium",
@@ -668,7 +531,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-10-31T19:09:14.415Z",
+      "discoveredAt": "2026-10-31T22:29:50.848Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -685,21 +548,21 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-10-31T19:09:14.415Z",
-      "lastSuccessfulAt": "2026-10-31T19:09:14.415Z",
-      "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
+      "sourceCheckedAt": "2026-10-31T22:29:50.848Z",
+      "lastSuccessfulAt": "2026-10-31T22:29:50.848Z",
+      "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403; pune_metro: This operation was aborted"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-10-31T19:09:39.237Z",
+      "generatedAt": "2026-10-31T22:30:26.840Z",
       "activeSeason": "normal",
       "priorityHazards": [],
       "advice": "Monitor current alerts and local incidents."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-10-31T19:09:39.237Z",
+      "generatedAt": "2026-10-31T22:30:26.840Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -780,11 +643,10 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-10-31T19:09:39.237Z",
+      "generatedAt": "2026-10-31T22:30:26.840Z",
       "mode": "on-demand",
       "relevantDomains": [
-        "highways",
-        "emergencyServices"
+        "highways"
       ],
       "infrastructure": {
         "highways": [
@@ -826,33 +688,36 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-10-31T19:09:39.294Z",
+        "generatedAt": "2026-10-31T22:30:26.895Z",
         "bestRoute": {
-          "id": "kharadi-hinjawadi-pashan",
-          "label": "Kharadi to Hinjawadi via Pashan",
+          "id": "kharadi-hinjawadi-nh48",
+          "label": "Kharadi to Hinjawadi via NH48",
           "fromAliases": [
             "Kharadi",
-            "EON"
+            "EON",
+            "World Trade Center"
           ],
           "toAliases": [
             "Hinjawadi",
-            "Hinjewadi"
+            "Hinjewadi",
+            "Rajiv Gandhi Infotech Park"
           ],
           "via": [
             "Kharadi",
-            "Yerwada",
-            "Aundh",
-            "Pashan",
-            "Mahalunge",
+            "Viman Nagar",
+            "Shivajinagar",
+            "Baner",
+            "Wakad",
             "Hinjawadi"
           ],
           "operationalZones": [
-            "Pashan Road",
+            "Pune-Ahmednagar Highway",
+            "NH48",
             "IT Corridor"
           ],
-          "distanceKm": 36,
-          "baseTimeMin": 72,
-          "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
+          "distanceKm": 33,
+          "baseTimeMin": 65,
+          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
             "score": 100,
@@ -861,14 +726,58 @@
             "reasons": [],
             "penalties": []
           },
-          "estimatedTimeMin": 72,
+          "estimatedTimeMin": 65,
           "estimatedDelayMin": 0,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
         },
         "routes": [
+          {
+            "id": "kharadi-hinjawadi-nh48",
+            "label": "Kharadi to Hinjawadi via NH48",
+            "fromAliases": [
+              "Kharadi",
+              "EON",
+              "World Trade Center"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi",
+              "Rajiv Gandhi Infotech Park"
+            ],
+            "via": [
+              "Kharadi",
+              "Viman Nagar",
+              "Shivajinagar",
+              "Baner",
+              "Wakad",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pune-Ahmednagar Highway",
+              "NH48",
+              "IT Corridor"
+            ],
+            "distanceKm": 33,
+            "baseTimeMin": 65,
+            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
+              "penalties": []
+            },
+            "estimatedTimeMin": 65,
+            "estimatedDelayMin": 0,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+          },
           {
             "id": "kharadi-hinjawadi-pashan",
             "label": "Kharadi to Hinjawadi via Pashan",
@@ -906,62 +815,9 @@
             "estimatedTimeMin": 72,
             "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
-            "rank": 1,
-            "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
-          },
-          {
-            "id": "kharadi-hinjawadi-nh48",
-            "label": "Kharadi to Hinjawadi via NH48",
-            "fromAliases": [
-              "Kharadi",
-              "EON",
-              "World Trade Center"
-            ],
-            "toAliases": [
-              "Hinjawadi",
-              "Hinjewadi",
-              "Rajiv Gandhi Infotech Park"
-            ],
-            "via": [
-              "Kharadi",
-              "Viman Nagar",
-              "Shivajinagar",
-              "Baner",
-              "Wakad",
-              "Hinjawadi"
-            ],
-            "operationalZones": [
-              "Pune-Ahmednagar Highway",
-              "NH48",
-              "IT Corridor"
-            ],
-            "distanceKm": 33,
-            "baseTimeMin": 65,
-            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 80,
-              "label": "Good to Go",
-              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-              "reasons": [
-                "Developing: पुणे-नाशिक महामार्गावर आळेखिंड येथे मालवाहतूक ट्रकला भीषण आग; केबिन जळून खाक, चालक सुखरूप may cause delays or safety concerns."
-              ],
-              "penalties": [
-                {
-                  "eventId": "fire-developing-पुणे-नाशिक-महामार्गावर-आळेखिंड-येथे-मालवाहतूक-ट्रकला-भीषण-आग-केबिन-जळून-खा",
-                  "category": "fire",
-                  "penalty": 20,
-                  "title": "Developing: पुणे-नाशिक महामार्गावर आळेखिंड येथे मालवाहतूक ट्रकला भीषण आग; केबिन जळून खाक, चालक सुखरूप"
-                }
-              ]
-            },
-            "estimatedTimeMin": 73,
-            "estimatedDelayMin": 8,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Good to Go (80/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Developing: पुणे-नाशिक महामार्गावर आळेखिंड येथे मालवाहतूक ट्रकला भीषण आग; केबिन जळून खाक, चालक सुखरूप may cause delays or safety concerns."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
           }
         ]
       },
@@ -970,7 +826,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-10-31T19:09:39.295Z",
+        "generatedAt": "2026-10-31T22:30:26.896Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1081,7 +937,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-10-31T19:09:39.295Z",
+        "generatedAt": "2026-10-31T22:30:26.896Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -1110,12 +966,11 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 60,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns.",
-              "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have may cause delays or safety concerns."
+              "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
             ],
             "penalties": [
               {
@@ -1123,21 +978,15 @@
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug"
-              },
-              {
-                "eventId": "accident-developing-missing-for-5-days-25-year-old-man-found-dead-inside-car-near-sarasbau",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have"
               }
             ]
           },
-          "estimatedTimeMin": 50,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 43,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -1168,12 +1017,11 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 60,
-              "label": "Proceed with Caution",
-              "recommendation": "Proceed with caution and allow extra travel time.",
+              "score": 80,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
-                "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns.",
-                "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have may cause delays or safety concerns."
+                "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
               ],
               "penalties": [
                 {
@@ -1181,21 +1029,15 @@
                   "category": "accident",
                   "penalty": 20,
                   "title": "Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug"
-                },
-                {
-                  "eventId": "accident-developing-missing-for-5-days-25-year-old-man-found-dead-inside-car-near-sarasbau",
-                  "category": "accident",
-                  "penalty": 20,
-                  "title": "Developing: Missing for 5 days, 25-year-old man found dead inside car near Sarasbaug in Pune, police say he may have"
                 }
               ]
             },
-            "estimatedTimeMin": 50,
-            "estimatedDelayMin": 15,
+            "estimatedTimeMin": 43,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 50 minutes including around 15 minutes delay. Main reason: Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: 25-year-old man, missing for 4 days, found dead inside car near Sarasbaug may cause delays or safety concerns."
           }
         ]
       }
