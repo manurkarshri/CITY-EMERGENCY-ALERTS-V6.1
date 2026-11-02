@@ -1,17 +1,28 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-01T22:58:55.306Z",
+  "generatedAt": "2026-11-02T02:20:39.483Z",
   "routes": [],
   "risks": [
     {
-      "id": "accident-developing-mact-awards-rs-88-45-lakh-to-kin-of-couple-killed-in-mumbai-pune-e-way",
+      "id": "thunderstorm-official-light-to-moderate-spells-of-rain-with-possibility-of-thunderstorm-li",
+      "category": "thunderstorm",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "accident-developing-mumbai-pune-expressway-crash-mact-awards-rs-1-80-crore-to-heirs-of-cou",
       "category": "accident",
       "severity": "watch",
       "localities": [
         "Mumbai-Pune Expressway"
       ],
       "talukas": [],
-      "operationalZones": [],
+      "operationalZones": [
+        "Mumbai-Pune Expressway"
+      ],
       "impact": "Traffic delays are likely near the incident location."
     }
   ]

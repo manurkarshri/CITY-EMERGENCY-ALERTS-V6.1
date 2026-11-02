@@ -1,6 +1,56 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-01T22:58:55.306Z",
+  "generatedAt": "2026-11-02T02:20:39.483Z",
   "sourceStatus": "stale",
-  "items": []
+  "items": [
+    {
+      "id": "thunderstorm-official-light-to-moderate-spells-of-rain-with-possibility-of-thunderstorm-li",
+      "eventKind": "alert",
+      "sourceId": "ndma_sachet",
+      "title": "Official: Light to Moderate spells of rain with possibility of Thunderstorm, lightning and gusty wind very likely to occur at isolated places over Ahilyanagar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg in next 3 hours.",
+      "summary": "Light to Moderate spells of rain with possibility of Thunderstorm, lightning and gusty wind very likely to occur at isolated places over Ahilyanagar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg in next 3 hours.",
+      "category": "thunderstorm",
+      "severity": "watch",
+      "source": "NDMA SACHET (IMD-Mumbai)",
+      "sourceTrust": "A+",
+      "sources": [
+        {
+          "name": "NDMA SACHET (IMD-Mumbai)",
+          "trust": "A+",
+          "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1793583833119029",
+          "origin": ""
+        }
+      ],
+      "link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1793583833119029",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-11-02T01:42:45.000Z",
+      "lastUpdated": "2026-11-02T01:42:45.000Z",
+      "sourceCheckedAt": "2026-11-02T02:20:07.445Z",
+      "lastVerifiedAt": "2026-11-02T02:20:07.445Z",
+      "intelligenceGeneratedAt": "2026-11-02T02:20:39.483Z",
+      "expiresAt": "2026-11-02T04:30:00.000Z",
+      "lifecycle": "active",
+      "confidence": "Medium",
+      "confidenceScore": 65,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Ahilyanagar, Pune, Raigad, Ratnagiri, Satara, Sindhudurg districts of Maharashtra",
+      "upstreamId": "IN-1793583833119029_46",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "Alert",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
