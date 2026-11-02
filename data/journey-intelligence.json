@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-02T09:50:21.230Z",
+  "generatedAt": "2026-11-02T20:04:10.143Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-11-02T09:50:21.230Z",
+      "generatedAt": "2026-11-02T20:04:10.143Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -123,27 +123,27 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 85,
-            "label": "Good to Go",
-            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "score": 65,
+            "label": "Proceed with Caution",
+            "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
-              "Official: Light to Moderate spells of rain with possibility of Thunderstorm and lightning very likely to occur at isolated places over Ahilyanagar, Pune in next 3 hours. may have minor impact on travel."
+              "Developing: Maharashtra: Shivajinagar court in Pune receives bomb threat email; police evacuate premises may significantly affect this route."
             ],
             "penalties": [
               {
-                "eventId": "heavy-rain-official-light-to-moderate-spells-of-rain-with-possibility-of-thunderstorm-and-",
-                "category": "heavy_rain",
-                "penalty": 15,
-                "title": "Official: Light to Moderate spells of rain with possibility of Thunderstorm and lightning very likely to occur at isolated places over Ahilyanagar, Pune in next 3 hours."
+                "eventId": "explosion-developing-maharashtra-shivajinagar-court-in-pune-receives-bomb-threat-email-pol",
+                "category": "explosion",
+                "penalty": 35,
+                "title": "Developing: Maharashtra: Shivajinagar court in Pune receives bomb threat email; police evacuate premises"
               }
             ]
           },
-          "estimatedTimeMin": 73,
-          "estimatedDelayMin": 8,
+          "estimatedTimeMin": 80,
+          "estimatedDelayMin": 15,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Good to Go (85/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Official: Light to Moderate spells of rain with possibility of Thunderstorm and lightning very likely to occur at isolated places over Ahilyanagar, Pune in next 3 hours. may have minor impact on travel."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Proceed with Caution (65/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Developing: Maharashtra: Shivajinagar court in Pune receives bomb threat email; police evacuate premises may significantly affect this route."
         }
       ]
     },
@@ -152,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-11-02T09:50:21.230Z",
+      "generatedAt": "2026-11-02T20:04:10.143Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -245,7 +245,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-11-02T09:50:21.230Z",
+      "generatedAt": "2026-11-02T20:04:10.143Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
