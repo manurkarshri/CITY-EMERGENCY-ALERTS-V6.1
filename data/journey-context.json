@@ -1,8 +1,17 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-03T17:37:56.445Z",
+  "generatedAt": "2026-11-03T22:33:49.879Z",
   "routes": [],
   "risks": [
+    {
+      "id": "explosion-developing-pmc-tightens-security-after-hoax-bomb-threat-to-mayor-s-office-metro-",
+      "category": "explosion",
+      "severity": "emergency",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
+    },
     {
       "id": "accident-developing-pmpml-bus-rams-into-bus-stop-six-passengers-injured-2026-11-03t02-13-2",
       "category": "accident",
@@ -15,21 +24,6 @@
         "pune_city"
       ],
       "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "accident-developing-pune-doctor-s-27-year-old-daughter-dies-in-tamhini-ghat-accident-frien",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [
-        "Tamhini"
-      ],
-      "talukas": [
-        "mulshi"
-      ],
-      "operationalZones": [
-        "Tamhini Ghat"
-      ],
       "impact": "Traffic delays are likely near the incident location."
     }
   ]
