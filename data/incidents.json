@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-03T22:33:49.879Z",
+  "generatedAt": "2026-11-04T02:44:56.524Z",
   "sourceStatus": "stale",
   "items": [
     {
@@ -27,13 +27,13 @@
       "operationalZones": [],
       "publishedAt": "2026-11-03T17:16:44.000Z",
       "lastUpdated": "2026-11-03T17:16:44.000Z",
-      "sourceCheckedAt": "2026-11-03T22:33:16.180Z",
-      "lastVerifiedAt": "2026-11-03T22:33:16.180Z",
-      "intelligenceGeneratedAt": "2026-11-03T22:33:49.879Z",
+      "sourceCheckedAt": "2026-11-04T02:44:29.078Z",
+      "lastVerifiedAt": "2026-11-04T02:44:29.078Z",
+      "intelligenceGeneratedAt": "2026-11-04T02:44:56.524Z",
       "expiresAt": "2026-11-04T05:16:44.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "There may be an immediate risk to life and a wider safety perimeter may be required.",
       "recommendedAction": "Move away from the area and follow emergency-service instructions immediately.",
       "affectedArea": "",
@@ -48,60 +48,6 @@
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "broader_area",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-pmpml-bus-rams-into-bus-stop-six-passengers-injured-2026-11-03t02-13-2",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: PMPML bus rams into bus stop, six passengers injured",
-      "summary": "According to preliminary information, the bus (MH14 HU 5762), bearing fleet number TT 43, was operating on route 103/7 between Kothrud depot and Katraj and was carrying around 30 to 35 passengers",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/pmpml-bus-rams-into-bus-stop-six-passengers-injured-101793645655758.html",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.hindustantimes.com/cities/pune-news/pmpml-bus-rams-into-bus-stop-six-passengers-injured-101793645655758.html",
-      "talukas": [
-        "pune_city"
-      ],
-      "localities": [
-        "Katraj",
-        "Kothrud"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-11-03T02:13:20.000Z",
-      "lastUpdated": "2026-11-03T02:13:20.000Z",
-      "sourceCheckedAt": "2026-11-03T22:33:16.180Z",
-      "lastVerifiedAt": "2026-11-03T22:33:16.180Z",
-      "intelligenceGeneratedAt": "2026-11-03T22:33:49.879Z",
-      "expiresAt": "2026-11-04T02:13:20.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "",
-      "upstreamId": "",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
