@@ -1,10 +1,26 @@
 {
   "schemaVersion": "6.1.0",
   "provider": "Google News RSS",
-  "sourceCheckedAt": "2026-11-05T19:00:35.861Z",
+  "sourceCheckedAt": "2026-11-06T00:17:42.725Z",
   "status": "healthy",
   "error": null,
-  "items": [],
-  "collectedItems": 0,
-  "qualifiedItems": 0
+  "items": [
+    {
+      "id": "google-news-c782b1",
+      "publisherId": "times_of_india",
+      "publisher": "Times of India",
+      "title": "Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road",
+      "category": "accident",
+      "severity": "watch",
+      "publishedAt": "2026-11-05T19:15:00.000Z",
+      "discoveredAt": "2026-11-06T00:17:42.725Z",
+      "reportedAuthority": "",
+      "discoveryLink": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPakdUQklqVDhYMnFPT2RPckNwTE1wdkMxRmJSMEpmbFBBRkt6ZEhxeWItVHcwLWpQSDRCbWIxRTBub3lFckEzdlptMTNRSnc0OC1rVzdIRVVnNjBISF9SUVo3emlLd3FFMlNPMWJMa1ZCLS12MGRQeFJvU1k2RmI2dWtkZ1dONFNjamcyX1NtUXRtTVNKS2Y4OFktX05oSHUtQlU4UmRJTFViUHhlR1BHaVVGWnp1T1l6M0NSbDFhdDAwcjRVWndXeTNnckhxUUlneEVtTTdERHhITU05aGtqT3RfYw?oc=5",
+      "discoveryProvider": "Google News RSS",
+      "verificationStatus": "awaiting_direct_article",
+      "verifiedEventIds": []
+    }
+  ],
+  "collectedItems": 1,
+  "qualifiedItems": 1
 }

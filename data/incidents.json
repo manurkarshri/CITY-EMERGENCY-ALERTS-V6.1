@@ -1,6 +1,62 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-05T19:00:51.137Z",
+  "generatedAt": "2026-11-06T00:17:57.303Z",
   "sourceStatus": "stale",
-  "items": []
+  "items": [
+    {
+      "id": "accident-developing-truck-driver-killed-two-injured-in-head-on-collision-on-chakan-shikrap",
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "title": "Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPakdUQklqVDhYMnFPT2RPckNwTE1wdkMxRmJSMEpmbFBBRkt6ZEhxeWItVHcwLWpQSDRCbWIxRTBub3lFckEzdlptMTNRSnc0OC1rVzdIRVVnNjBISF9SUVo3emlLd3FFMlNPMWJMa1ZCLS12MGRQeFJvU1k2RmI2dWtkZ1dONFNjamcyX1NtUXRtTVNKS2Y4OFktX05oSHUtQlU4UmRJTFViUHhlR1BHaVVGWnp1T1l6M0NSbDFhdDAwcjRVWndXeTNnckhxUUlneEVtTTdERHhITU05aGtqT3RfYw?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPakdUQklqVDhYMnFPT2RPckNwTE1wdkMxRmJSMEpmbFBBRkt6ZEhxeWItVHcwLWpQSDRCbWIxRTBub3lFckEzdlptMTNRSnc0OC1rVzdIRVVnNjBISF9SUVo3emlLd3FFMlNPMWJMa1ZCLS12MGRQeFJvU1k2RmI2dWtkZ1dONFNjamcyX1NtUXRtTVNKS2Y4OFktX05oSHUtQlU4UmRJTFViUHhlR1BHaVVGWnp1T1l6M0NSbDFhdDAwcjRVWndXeTNnckhxUUlneEVtTTdERHhITU05aGtqT3RfYw?oc=5",
+      "talukas": [
+        "shirur",
+        "khed"
+      ],
+      "localities": [
+        "Shikrapur",
+        "Chakan"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-11-05T19:15:00.000Z",
+      "lastUpdated": "2026-11-05T19:15:00.000Z",
+      "sourceCheckedAt": "2026-11-06T00:17:42.725Z",
+      "lastVerifiedAt": "2026-11-06T00:17:42.725Z",
+      "intelligenceGeneratedAt": "2026-11-06T00:17:57.303Z",
+      "expiresAt": "2026-11-07T19:15:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 70,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Shikrapur, Chakan",
+      "upstreamId": "google-news-c782b1",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-11-06T00:17:42.725Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
