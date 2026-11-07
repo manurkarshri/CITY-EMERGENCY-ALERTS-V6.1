@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-07T18:20:06.447Z",
+  "generatedAt": "2026-11-07T22:13:16.229Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-11-07T18:20:06.447Z",
+      "generatedAt": "2026-11-07T22:13:16.229Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -152,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-11-07T18:20:06.447Z",
+      "generatedAt": "2026-11-07T22:13:16.229Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -182,18 +182,27 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 100,
-          "label": "Excellent",
-          "recommendation": "Travel conditions look suitable.",
-          "reasons": [],
-          "penalties": []
+          "score": 80,
+          "label": "Good to Go",
+          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+          "reasons": [
+            "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category may cause delays or safety concerns."
+          ],
+          "penalties": [
+            {
+              "eventId": "environmental-hazard-developing-pune-pockets-may-see-poor-to-severe-aqi-mumbai-likely-to-s",
+              "category": "environmental_hazard",
+              "penalty": 20,
+              "title": "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category"
+            }
+          ]
         },
-        "estimatedTimeMin": 95,
-        "estimatedDelayMin": 0,
+        "estimatedTimeMin": 103,
+        "estimatedDelayMin": 8,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -225,18 +234,27 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "reasons": [
+              "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category may cause delays or safety concerns."
+            ],
+            "penalties": [
+              {
+                "eventId": "environmental-hazard-developing-pune-pockets-may-see-poor-to-severe-aqi-mumbai-likely-to-s",
+                "category": "environmental_hazard",
+                "penalty": 20,
+                "title": "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category"
+              }
+            ]
           },
-          "estimatedTimeMin": 95,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 103,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category may cause delays or safety concerns."
         }
       ]
     },
@@ -245,7 +263,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-11-07T18:20:06.447Z",
+      "generatedAt": "2026-11-07T22:13:16.229Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -274,27 +292,18 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 80,
-          "label": "Good to Go",
-          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-          "reasons": [
-            "Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road may cause delays or safety concerns."
-          ],
-          "penalties": [
-            {
-              "eventId": "accident-developing-truck-driver-killed-two-injured-in-head-on-collision-on-chakan-shikrap",
-              "category": "accident",
-              "penalty": 20,
-              "title": "Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road"
-            }
-          ]
+          "score": 100,
+          "label": "Excellent",
+          "recommendation": "Travel conditions look suitable.",
+          "reasons": [],
+          "penalties": []
         },
-        "estimatedTimeMin": 43,
-        "estimatedDelayMin": 8,
+        "estimatedTimeMin": 35,
+        "estimatedDelayMin": 0,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road may cause delays or safety concerns."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
       },
       "routes": [
         {
@@ -325,27 +334,18 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 80,
-            "label": "Good to Go",
-            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-            "reasons": [
-              "Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road may cause delays or safety concerns."
-            ],
-            "penalties": [
-              {
-                "eventId": "accident-developing-truck-driver-killed-two-injured-in-head-on-collision-on-chakan-shikrap",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road"
-              }
-            ]
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
+            "penalties": []
           },
-          "estimatedTimeMin": 43,
-          "estimatedDelayMin": 8,
+          "estimatedTimeMin": 35,
+          "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road may cause delays or safety concerns."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
         }
       ]
     }
