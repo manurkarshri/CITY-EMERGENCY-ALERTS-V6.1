@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-07T13:34:51.908Z",
+  "generatedAt": "2026-11-07T18:20:05.998Z",
   "status": "stale",
   "situation": {
-    "snapshot": "No major environmental disruption indicated from current data.",
+    "snapshot": "2 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-11-07T13:34:51.963Z",
+      "generatedAt": "2026-11-07T18:20:06.059Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,16 +13,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-07T13:34:36.922Z",
-          "observedAt": "2026-11-07T19:00:00+05:30",
-          "temp": 26.3,
+          "sourceCheckedAt": "2026-11-07T18:19:50.513Z",
+          "observedAt": "2026-11-07T23:45:00+05:30",
+          "temp": 21.5,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 11.5,
-          "gust": 11.5,
-          "humidity": 44,
+          "wind": 8.6,
+          "gust": 8.6,
+          "humidity": 59,
           "visibility": 12.9,
           "weatherCode": 0,
           "rainRisk": "Minimal",
@@ -40,17 +40,17 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-07T13:34:36.922Z",
-          "observedAt": "2026-11-07T19:00:00+05:30",
-          "temp": 25.6,
+          "sourceCheckedAt": "2026-11-07T18:19:50.513Z",
+          "observedAt": "2026-11-07T23:45:00+05:30",
+          "temp": 21.4,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 7.2,
-          "gust": 7.2,
-          "humidity": 50,
-          "visibility": 12.8,
+          "wind": 6.5,
+          "gust": 6.5,
+          "humidity": 61,
+          "visibility": 11.7,
           "weatherCode": 0,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
@@ -67,16 +67,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-07T13:34:36.922Z",
-          "observedAt": "2026-11-07T19:00:00+05:30",
-          "temp": 26.3,
+          "sourceCheckedAt": "2026-11-07T18:19:50.513Z",
+          "observedAt": "2026-11-07T23:45:00+05:30",
+          "temp": 21.5,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 11.5,
-          "gust": 11.5,
-          "humidity": 44,
+          "wind": 8.6,
+          "gust": 8.6,
+          "humidity": 59,
           "visibility": 12.9,
           "weatherCode": 0,
           "rainRisk": "Minimal",
@@ -94,17 +94,17 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-07T13:34:36.922Z",
-          "observedAt": "2026-11-07T19:00:00+05:30",
-          "temp": 24.2,
+          "sourceCheckedAt": "2026-11-07T18:19:50.513Z",
+          "observedAt": "2026-11-07T23:45:00+05:30",
+          "temp": 20.8,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
           "wind": 14.4,
           "gust": 14.4,
-          "humidity": 52,
-          "visibility": 13.9,
+          "humidity": 63,
+          "visibility": 12.6,
           "weatherCode": 0,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
@@ -121,20 +121,20 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-07T13:34:36.922Z",
-          "observedAt": "2026-11-07T19:00:00+05:30",
-          "temp": 23.6,
+          "sourceCheckedAt": "2026-11-07T18:19:50.513Z",
+          "observedAt": "2026-11-07T23:45:00+05:30",
+          "temp": 20.5,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 11.5,
-          "gust": 11.5,
-          "humidity": 62,
-          "visibility": 11.9,
+          "wind": 20.2,
+          "gust": 20.2,
+          "humidity": 64,
+          "visibility": 10.7,
           "weatherCode": 0,
           "rainRisk": "Minimal",
-          "windRisk": "Minimal",
+          "windRisk": "Low",
           "visibilityRisk": "Minimal",
           "heatRisk": "Normal",
           "travelImpact": "Low",
@@ -146,17 +146,149 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-11-07T13:34:52.003Z",
+      "generatedAt": "2026-11-07T18:20:06.389Z",
       "riskLevel": "Normal",
-      "impacts": [],
-      "citizenSummary": "No major environmental disruption indicated from current data.",
+      "impacts": [
+        "2 active transport-related event(s) may affect travel."
+      ],
+      "citizenSummary": "2 active transport-related event(s) may affect travel.",
       "seasonalContext": "winter"
     }
   },
   "alerts": [],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "accident-developing-four-members-of-kalyan-family-killed-after-car-rams-container-on-solap",
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "title": "Developing: Four members of Kalyan family killed after car rams container on Solapur-Pune highway",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUV9tWVA3YmhrZW43SVVCRzFnUHdXTVJJRjZUN0JXajZ3Y3NZY3pKTUtyWUZvQmFQbFZkS2VZN3drT2VkV3kyRVl5UjNRSEl5UTFnanhpZWMtOU9hNXE1RS1QMjc4cU91eHV1U3BlN1VldWE2RWs3WjBVMVE2MXY3MXBYZkNncDlSSGhVVFM4NkRuc1RlR2kwYjdrSV8zdExmTHY2TVlsaFh3Q0tnWDRYV2ZaXzAxcEVpRlNydHZRbkZlRjR2a195Z1NrejRPNWpJVkJYeWltd19TUFkxQVVQT2Q4MkM2Y3BqRzYxa3NieDluVmPSAfgBQVVfeXFMTWl6anhzRFA1djZwd3NZUWI4TEcyZVYtX213LXlERVVvSG5nalFvVmJOT2Z5WDlnOFFoNTFfNnQ4UUpKNTdWblJ2LTlQeG1VcXd2UTFHMVNPa3BqMGFHT092LV9HelNDajJxdWp5Wk5NZWtmRV9CaDdRLWdvNmthY2h3bTR3aVVRTk9jX2hvT1lVazVwckRYRnZISnU0X3g5bThqaUI4Y1pVMm1ydE5PT1ltcDczamV0TDhyaF9Rd3Exd1JCdmNudUxLeDlUaXFGMzYyME9JWjk5WWlFTHJZNnlkeVZoS1NvakZwWEg2ajZiLTd1NF81bWo?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUV9tWVA3YmhrZW43SVVCRzFnUHdXTVJJRjZUN0JXajZ3Y3NZY3pKTUtyWUZvQmFQbFZkS2VZN3drT2VkV3kyRVl5UjNRSEl5UTFnanhpZWMtOU9hNXE1RS1QMjc4cU91eHV1U3BlN1VldWE2RWs3WjBVMVE2MXY3MXBYZkNncDlSSGhVVFM4NkRuc1RlR2kwYjdrSV8zdExmTHY2TVlsaFh3Q0tnWDRYV2ZaXzAxcEVpRlNydHZRbkZlRjR2a195Z1NrejRPNWpJVkJYeWltd19TUFkxQVVQT2Q4MkM2Y3BqRzYxa3NieDluVmPSAfgBQVVfeXFMTWl6anhzRFA1djZwd3NZUWI4TEcyZVYtX213LXlERVVvSG5nalFvVmJOT2Z5WDlnOFFoNTFfNnQ4UUpKNTdWblJ2LTlQeG1VcXd2UTFHMVNPa3BqMGFHT092LV9HelNDajJxdWp5Wk5NZWtmRV9CaDdRLWdvNmthY2h3bTR3aVVRTk9jX2hvT1lVazVwckRYRnZISnU0X3g5bThqaUI4Y1pVMm1ydE5PT1ltcDczamV0TDhyaF9Rd3Exd1JCdmNudUxLeDlUaXFGMzYyME9JWjk5WWlFTHJZNnlkeVZoS1NvakZwWEg2ajZiLTd1NF81bWo?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-11-07T17:35:00.000Z",
+      "lastUpdated": "2026-11-07T17:35:00.000Z",
+      "sourceCheckedAt": "2026-11-07T18:19:51.148Z",
+      "lastVerifiedAt": "2026-11-07T18:19:51.148Z",
+      "intelligenceGeneratedAt": "2026-11-07T18:20:05.998Z",
+      "expiresAt": "2026-11-09T17:35:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-ee32cffe",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-11-07T18:19:51.148Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-truck-driver-killed-two-injured-in-head-on-collision-on-chakan-shikrap",
+      "eventKind": "incident",
+      "sourceId": "times_of_india",
+      "title": "Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Times of India",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Times of India",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPakdUQklqVDhYMnFPT2RPckNwTE1wdkMxRmJSMEpmbFBBRkt6ZEhxeWItVHcwLWpQSDRCbWIxRTBub3lFckEzdlptMTNRSnc0OC1rVzdIRVVnNjBISF9SUVo3emlLd3FFMlNPMWJMa1ZCLS12MGRQeFJvU1k2RmI2dWtkZ1dONFNjamcyX1NtUXRtTVNKS2Y4OFktX05oSHUtQlU4UmRJTFViUHhlR1BHaVVGWnp1T1l6M0NSbDFhdDAwcjRVWndXeTNnckhxUUlneEVtTTdERHhITU05aGtqT3RfY9IB6AFBVV95cUxPQ05yTVJ6Mk81bHRBV0VzLXh3RHBLNWUwYzBEWGxGVEZ0T1gtVExSN2xqbWIydkRQOFNRSUV6Tk1rSlp6SHAwYm9kbzBnNVNJVGdfSld5WmlMRVotbUpldkY2bmoyUHhCZUxySFJKR2cwWDN1MWNKcnhwbjZBTkMzek9aZ00ySE5LSGhzX1dmaU44TGNVTmstdGxJZmNRR2FKaUlPZUJseWtyakFxMkd3VjlsS05tdEh4UzJQajJRclZQdlh3SXM0US1sX2JrbFFtU1RTeDNtcjlWdlhuaGU0cVRLTnM1WmQt?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPakdUQklqVDhYMnFPT2RPckNwTE1wdkMxRmJSMEpmbFBBRkt6ZEhxeWItVHcwLWpQSDRCbWIxRTBub3lFckEzdlptMTNRSnc0OC1rVzdIRVVnNjBISF9SUVo3emlLd3FFMlNPMWJMa1ZCLS12MGRQeFJvU1k2RmI2dWtkZ1dONFNjamcyX1NtUXRtTVNKS2Y4OFktX05oSHUtQlU4UmRJTFViUHhlR1BHaVVGWnp1T1l6M0NSbDFhdDAwcjRVWndXeTNnckhxUUlneEVtTTdERHhITU05aGtqT3RfY9IB6AFBVV95cUxPQ05yTVJ6Mk81bHRBV0VzLXh3RHBLNWUwYzBEWGxGVEZ0T1gtVExSN2xqbWIydkRQOFNRSUV6Tk1rSlp6SHAwYm9kbzBnNVNJVGdfSld5WmlMRVotbUpldkY2bmoyUHhCZUxySFJKR2cwWDN1MWNKcnhwbjZBTkMzek9aZ00ySE5LSGhzX1dmaU44TGNVTmstdGxJZmNRR2FKaUlPZUJseWtyakFxMkd3VjlsS05tdEh4UzJQajJRclZQdlh3SXM0US1sX2JrbFFtU1RTeDNtcjlWdlhuaGU0cVRLTnM1WmQt?oc=5",
+      "talukas": [
+        "shirur",
+        "khed"
+      ],
+      "localities": [
+        "Shikrapur",
+        "Chakan"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-11-05T19:15:00.000Z",
+      "lastUpdated": "2026-11-05T19:15:00.000Z",
+      "sourceCheckedAt": "2026-11-07T18:19:51.148Z",
+      "lastVerifiedAt": "2026-11-07T18:19:51.148Z",
+      "intelligenceGeneratedAt": "2026-11-07T18:20:05.998Z",
+      "expiresAt": "2026-11-07T19:15:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "Medium",
+      "confidenceScore": 55,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Shikrapur, Chakan",
+      "upstreamId": "google-news-c782b1",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-11-07T18:19:51.148Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "journeyContext": {
-    "activeRiskEvents": []
+    "activeRiskEvents": [
+      {
+        "id": "accident-developing-four-members-of-kalyan-family-killed-after-car-rams-container-on-solap",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
+        "id": "accident-developing-truck-driver-killed-two-injured-in-head-on-collision-on-chakan-shikrap",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [
+          "Shikrapur",
+          "Chakan"
+        ],
+        "talukas": [
+          "shirur",
+          "khed"
+        ],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      }
+    ]
   },
   "expiredEvents": [],
   "sourceHealth": {
@@ -165,15 +297,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-11-07T13:34:37.443Z",
-      "lastSuccessfulAt": "2026-11-07T13:34:37.443Z",
+      "sourceCheckedAt": "2026-11-07T18:19:51.148Z",
+      "lastSuccessfulAt": "2026-11-07T18:19:51.148Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-11-07T13:34:52.003Z",
+      "generatedAt": "2026-11-07T18:20:06.388Z",
       "activeSeason": "winter",
       "priorityHazards": [
         "fog",
@@ -184,7 +316,7 @@
       "advice": "Monitor fog, low visibility, cold wave and air quality."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-11-07T13:34:52.003Z",
+      "generatedAt": "2026-11-07T18:20:06.388Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -265,9 +397,11 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-11-07T13:34:52.003Z",
+      "generatedAt": "2026-11-07T18:20:06.389Z",
       "mode": "on-demand",
-      "relevantDomains": [],
+      "relevantDomains": [
+        "highways"
+      ],
       "infrastructure": {
         "highways": [
           "Mumbai-Pune Expressway",
@@ -308,36 +442,33 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-11-07T13:34:52.056Z",
+        "generatedAt": "2026-11-07T18:20:06.447Z",
         "bestRoute": {
-          "id": "kharadi-hinjawadi-nh48",
-          "label": "Kharadi to Hinjawadi via NH48",
+          "id": "kharadi-hinjawadi-pashan",
+          "label": "Kharadi to Hinjawadi via Pashan",
           "fromAliases": [
             "Kharadi",
-            "EON",
-            "World Trade Center"
+            "EON"
           ],
           "toAliases": [
             "Hinjawadi",
-            "Hinjewadi",
-            "Rajiv Gandhi Infotech Park"
+            "Hinjewadi"
           ],
           "via": [
             "Kharadi",
-            "Viman Nagar",
-            "Shivajinagar",
-            "Baner",
-            "Wakad",
+            "Yerwada",
+            "Aundh",
+            "Pashan",
+            "Mahalunge",
             "Hinjawadi"
           ],
           "operationalZones": [
-            "Pune-Ahmednagar Highway",
-            "NH48",
+            "Pashan Road",
             "IT Corridor"
           ],
-          "distanceKm": 33,
-          "baseTimeMin": 65,
-          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+          "distanceKm": 36,
+          "baseTimeMin": 72,
+          "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
           "routeType": "known-corridor",
           "journeySuitability": {
             "score": 100,
@@ -346,58 +477,14 @@
             "reasons": [],
             "penalties": []
           },
-          "estimatedTimeMin": 65,
+          "estimatedTimeMin": 72,
           "estimatedDelayMin": 0,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
         },
         "routes": [
-          {
-            "id": "kharadi-hinjawadi-nh48",
-            "label": "Kharadi to Hinjawadi via NH48",
-            "fromAliases": [
-              "Kharadi",
-              "EON",
-              "World Trade Center"
-            ],
-            "toAliases": [
-              "Hinjawadi",
-              "Hinjewadi",
-              "Rajiv Gandhi Infotech Park"
-            ],
-            "via": [
-              "Kharadi",
-              "Viman Nagar",
-              "Shivajinagar",
-              "Baner",
-              "Wakad",
-              "Hinjawadi"
-            ],
-            "operationalZones": [
-              "Pune-Ahmednagar Highway",
-              "NH48",
-              "IT Corridor"
-            ],
-            "distanceKm": 33,
-            "baseTimeMin": 65,
-            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
-              "penalties": []
-            },
-            "estimatedTimeMin": 65,
-            "estimatedDelayMin": 0,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
-            "rank": 1,
-            "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
-          },
           {
             "id": "kharadi-hinjawadi-pashan",
             "label": "Kharadi to Hinjawadi via Pashan",
@@ -435,9 +522,62 @@
             "estimatedTimeMin": 72,
             "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+          },
+          {
+            "id": "kharadi-hinjawadi-nh48",
+            "label": "Kharadi to Hinjawadi via NH48",
+            "fromAliases": [
+              "Kharadi",
+              "EON",
+              "World Trade Center"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi",
+              "Rajiv Gandhi Infotech Park"
+            ],
+            "via": [
+              "Kharadi",
+              "Viman Nagar",
+              "Shivajinagar",
+              "Baner",
+              "Wakad",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pune-Ahmednagar Highway",
+              "NH48",
+              "IT Corridor"
+            ],
+            "distanceKm": 33,
+            "baseTimeMin": 65,
+            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 80,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+              "reasons": [
+                "Developing: Four members of Kalyan family killed after car rams container on Solapur-Pune highway may cause delays or safety concerns."
+              ],
+              "penalties": [
+                {
+                  "eventId": "accident-developing-four-members-of-kalyan-family-killed-after-car-rams-container-on-solap",
+                  "category": "accident",
+                  "penalty": 20,
+                  "title": "Developing: Four members of Kalyan family killed after car rams container on Solapur-Pune highway"
+                }
+              ]
+            },
+            "estimatedTimeMin": 73,
+            "estimatedDelayMin": 8,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Good to Go (80/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Developing: Four members of Kalyan family killed after car rams container on Solapur-Pune highway may cause delays or safety concerns."
           }
         ]
       },
@@ -446,7 +586,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-11-07T13:34:52.056Z",
+        "generatedAt": "2026-11-07T18:20:06.447Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -539,7 +679,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-11-07T13:34:52.056Z",
+        "generatedAt": "2026-11-07T18:20:06.447Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
@@ -568,18 +708,27 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "reasons": [
+              "Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road may cause delays or safety concerns."
+            ],
+            "penalties": [
+              {
+                "eventId": "accident-developing-truck-driver-killed-two-injured-in-head-on-collision-on-chakan-shikrap",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road"
+              }
+            ]
           },
-          "estimatedTimeMin": 35,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 43,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road may cause delays or safety concerns."
         },
         "routes": [
           {
@@ -610,18 +759,27 @@
             "mapsQuery": "Swargate to Sinhagad Road Dhayari",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 100,
-              "label": "Excellent",
-              "recommendation": "Travel conditions look suitable.",
-              "reasons": [],
-              "penalties": []
+              "score": 80,
+              "label": "Good to Go",
+              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+              "reasons": [
+                "Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road may cause delays or safety concerns."
+              ],
+              "penalties": [
+                {
+                  "eventId": "accident-developing-truck-driver-killed-two-injured-in-head-on-collision-on-chakan-shikrap",
+                  "category": "accident",
+                  "penalty": 20,
+                  "title": "Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road"
+                }
+              ]
             },
-            "estimatedTimeMin": 35,
-            "estimatedDelayMin": 0,
+            "estimatedTimeMin": 43,
+            "estimatedDelayMin": 8,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+            "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (80/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: Truck driver killed, two injured in head-on collision on Chakan-Shikrapur road may cause delays or safety concerns."
           }
         ]
       }
