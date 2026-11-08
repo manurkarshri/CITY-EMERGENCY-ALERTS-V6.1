@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-08T19:25:14.207Z",
+  "generatedAt": "2026-11-08T23:02:02.313Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-11-08T19:25:14.207Z",
+      "generatedAt": "2026-11-08T23:02:02.313Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -152,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-11-08T19:25:14.207Z",
+      "generatedAt": "2026-11-08T23:02:02.313Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -182,18 +182,27 @@
         "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 100,
-          "label": "Excellent",
-          "recommendation": "Travel conditions look suitable.",
-          "reasons": [],
-          "penalties": []
+          "score": 80,
+          "label": "Good to Go",
+          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+          "reasons": [
+            "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category may cause delays or safety concerns."
+          ],
+          "penalties": [
+            {
+              "eventId": "environmental-hazard-developing-pune-pockets-may-see-poor-to-severe-aqi-mumbai-likely-to-s",
+              "category": "environmental_hazard",
+              "penalty": 20,
+              "title": "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category"
+            }
+          ]
         },
-        "estimatedTimeMin": 95,
-        "estimatedDelayMin": 0,
+        "estimatedTimeMin": 103,
+        "estimatedDelayMin": 8,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -225,18 +234,27 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "reasons": [
+              "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category may cause delays or safety concerns."
+            ],
+            "penalties": [
+              {
+                "eventId": "environmental-hazard-developing-pune-pockets-may-see-poor-to-severe-aqi-mumbai-likely-to-s",
+                "category": "environmental_hazard",
+                "penalty": 20,
+                "title": "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category"
+              }
+            ]
           },
-          "estimatedTimeMin": 95,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 103,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category may cause delays or safety concerns."
         }
       ]
     },
@@ -245,7 +263,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-11-08T19:25:14.207Z",
+      "generatedAt": "2026-11-08T23:02:02.313Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",

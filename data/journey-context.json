@@ -1,20 +1,29 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-08T19:25:14.063Z",
+  "generatedAt": "2026-11-08T23:02:02.195Z",
   "routes": [],
   "risks": [
     {
-      "id": "flood-developing-pune-crime-news-पुण्यात-दिवाळीच्या-पूर्वसंध्येला-रक्तरंजित-थरार-कोथरूडमध्",
-      "category": "flood",
-      "severity": "warning",
+      "id": "accident-developing-pedestrian-dies-another-seriously-injured-as-pmpml-bus-hits-them-in-pu",
+      "category": "accident",
+      "severity": "watch",
       "localities": [
-        "Kothrud"
+        "Katraj"
       ],
       "talukas": [
         "pune_city"
       ],
       "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "environmental-hazard-developing-pune-pockets-may-see-poor-to-severe-aqi-mumbai-likely-to-s",
+      "category": "environmental_hazard",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces."
     },
     {
       "id": "accident-developing-four-members-of-kalyan-family-killed-after-car-rams-container-on-solap",
