@@ -1,16 +1,20 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-08T14:52:17.438Z",
+  "generatedAt": "2026-11-08T19:25:14.063Z",
   "routes": [],
   "risks": [
     {
-      "id": "environmental-hazard-developing-pune-pockets-may-see-poor-to-severe-aqi-mumbai-likely-to-s",
-      "category": "environmental_hazard",
+      "id": "flood-developing-pune-crime-news-पुण्यात-दिवाळीच्या-पूर्वसंध्येला-रक्तरंजित-थरार-कोथरूडमध्",
+      "category": "flood",
       "severity": "warning",
-      "localities": [],
-      "talukas": [],
+      "localities": [
+        "Kothrud"
+      ],
+      "talukas": [
+        "pune_city"
+      ],
       "operationalZones": [],
-      "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces."
+      "impact": "This event may affect local awareness or movement."
     },
     {
       "id": "accident-developing-four-members-of-kalyan-family-killed-after-car-rams-container-on-solap",
