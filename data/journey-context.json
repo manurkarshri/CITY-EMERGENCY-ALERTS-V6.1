@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-09T10:23:51.661Z",
+  "generatedAt": "2026-11-09T20:58:35.370Z",
   "routes": [],
   "risks": [
     {
@@ -26,13 +26,28 @@
       "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces."
     },
     {
-      "id": "accident-developing-four-members-of-kalyan-family-killed-after-car-rams-container-on-solap",
+      "id": "accident-developing-youth-car-driver-killed-in-collision-on-pune-solapur-highway-sister-cr",
       "category": "accident",
       "severity": "watch",
       "localities": [],
       "talukas": [],
-      "operationalZones": [],
+      "operationalZones": [
+        "Pune-Solapur Highway"
+      ],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "explosion-developing-pcmc-cylinder-blast-during-flat-fire-at-pimple-saudagar-s-sai-marigol",
+      "category": "explosion",
+      "severity": "emergency",
+      "localities": [
+        "Pimple Saudagar"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
     }
   ]
 }
