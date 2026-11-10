@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-10T18:51:35.531Z",
+  "generatedAt": "2026-11-10T23:56:33.582Z",
   "status": "stale",
   "situation": {
-    "snapshot": "3 important alerts require attention.",
+    "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-11-10T18:51:35.579Z",
+      "generatedAt": "2026-11-10T23:56:33.642Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,16 +13,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-10T18:51:19.691Z",
-          "observedAt": "2026-11-11T00:15:00+05:30",
-          "temp": 22.1,
+          "sourceCheckedAt": "2026-11-10T23:56:13.933Z",
+          "observedAt": "2026-11-11T05:15:00+05:30",
+          "temp": 19.5,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 1.8,
-          "gust": 1.8,
-          "humidity": 49,
+          "wind": 3.2,
+          "gust": 3.2,
+          "humidity": 59,
           "visibility": 12.7,
           "weatherCode": 0,
           "rainRisk": "Minimal",
@@ -40,16 +40,16 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-10T18:51:19.691Z",
-          "observedAt": "2026-11-11T00:15:00+05:30",
-          "temp": 20.2,
+          "sourceCheckedAt": "2026-11-10T23:56:13.933Z",
+          "observedAt": "2026-11-11T05:15:00+05:30",
+          "temp": 17.6,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 2.5,
-          "gust": 2.5,
-          "humidity": 68,
+          "wind": 3.6,
+          "gust": 3.6,
+          "humidity": 76,
           "visibility": 10.2,
           "weatherCode": 0,
           "rainRisk": "Minimal",
@@ -67,16 +67,16 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-10T18:51:19.691Z",
-          "observedAt": "2026-11-11T00:15:00+05:30",
-          "temp": 22.1,
+          "sourceCheckedAt": "2026-11-10T23:56:13.933Z",
+          "observedAt": "2026-11-11T05:15:00+05:30",
+          "temp": 19.5,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 1.8,
-          "gust": 1.8,
-          "humidity": 49,
+          "wind": 3.2,
+          "gust": 3.2,
+          "humidity": 59,
           "visibility": 12.7,
           "weatherCode": 0,
           "rainRisk": "Minimal",
@@ -94,16 +94,16 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-10T18:51:19.691Z",
-          "observedAt": "2026-11-11T00:15:00+05:30",
-          "temp": 20.5,
+          "sourceCheckedAt": "2026-11-10T23:56:13.933Z",
+          "observedAt": "2026-11-11T05:15:00+05:30",
+          "temp": 19.3,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 11.9,
-          "gust": 11.9,
-          "humidity": 64,
+          "wind": 6.5,
+          "gust": 6.5,
+          "humidity": 70,
           "visibility": 12.4,
           "weatherCode": 0,
           "rainRisk": "Minimal",
@@ -121,16 +121,16 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-10T18:51:19.691Z",
-          "observedAt": "2026-11-11T00:15:00+05:30",
-          "temp": 20.3,
+          "sourceCheckedAt": "2026-11-10T23:56:13.933Z",
+          "observedAt": "2026-11-11T05:15:00+05:30",
+          "temp": 19.8,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 16.9,
-          "gust": 16.9,
-          "humidity": 67,
+          "wind": 13.3,
+          "gust": 13.3,
+          "humidity": 66,
           "visibility": 11.8,
           "weatherCode": 0,
           "rainRisk": "Minimal",
@@ -146,7 +146,7 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-11-10T18:51:35.869Z",
+      "generatedAt": "2026-11-10T23:56:33.687Z",
       "riskLevel": "Normal",
       "impacts": [
         "4 active transport-related event(s) may affect travel."
@@ -155,111 +155,8 @@
       "seasonalContext": "winter"
     }
   },
-  "alerts": [
-    {
-      "id": "explosion-developing-pcmc-cylinder-blast-during-flat-fire-at-pimple-saudagar-s-sai-marigol",
-      "eventKind": "alert",
-      "sourceId": "punekar_news",
-      "title": "Developing: PCMC: Cylinder Blast During Flat Fire at Pimple Saudagar’s Sai Marigold Society",
-      "summary": "A current trusted-media report relevant to Pune District. Punekar News attributes this alert to Pimpri-Chinchwad Municipal Corporation. The original official feed was not available to the app at collection time.",
-      "category": "explosion",
-      "severity": "emergency",
-      "source": "Punekar News",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Punekar News",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN0FMUW9wbVE5R252NHB5SFhleXh3QlBhLXJmUWNMMnVGNzlOcV9aeFZoYm93SG5yMk1Ha2hGeXlvcUszVktMOHJIRDVHMGFlQWZOeEFrVk1UdFo5SEp6bmpISnB0dFFNOEJhZ0tocHRjTFZScXNaZmp4LVVtaVdjTmktdnd1eUxGdjlUcm0wRmg1MXRiRVVpSHBUUlhDSGFTTlF2cW5iM2M?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN0FMUW9wbVE5R252NHB5SFhleXh3QlBhLXJmUWNMMnVGNzlOcV9aeFZoYm93SG5yMk1Ha2hGeXlvcUszVktMOHJIRDVHMGFlQWZOeEFrVk1UdFo5SEp6bmpISnB0dFFNOEJhZ0tocHRjTFZScXNaZmp4LVVtaVdjTmktdnd1eUxGdjlUcm0wRmg1MXRiRVVpSHBUUlhDSGFTTlF2cW5iM2M?oc=5",
-      "talukas": [
-        "pcmc"
-      ],
-      "localities": [
-        "Pimple Saudagar"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-11-09T11:49:04.000Z",
-      "lastUpdated": "2026-11-09T11:49:04.000Z",
-      "sourceCheckedAt": "2026-11-10T18:51:20.075Z",
-      "lastVerifiedAt": "2026-11-10T18:51:20.075Z",
-      "intelligenceGeneratedAt": "2026-11-10T18:51:35.531Z",
-      "expiresAt": "2026-11-10T23:49:04.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 55,
-      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required.",
-      "recommendedAction": "Move away from the area and follow emergency-service instructions immediately.",
-      "affectedArea": "Pimple Saudagar",
-      "upstreamId": "google-news-828d084c",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "Pimpri-Chinchwad Municipal Corporation",
-      "alertBasis": "trusted_media_attributed_official",
-      "discoveredAt": "2026-11-10T18:51:20.075Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
+  "alerts": [],
   "incidents": [
-    {
-      "id": "environmental-hazard-developing-pune-pockets-may-see-poor-to-severe-aqi-mumbai-likely-to-s",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "environmental_hazard",
-      "severity": "warning",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPOXRTdnRZTVYwMTFFaXhDY3FVTXBiZ1ZQNlFBMnlPQUhlWVc4VXlQQW1RRmkzc3lGM2VGYVplY1I2MEduVE1qR0IyLWFiQldZTHBJTHcwOEQtVElQU1U2R1BfQ2tYZU5FbnN2d29hQlBIekg0MUxRVG9qZmF5WUU3T1cxZ1dBRXBkMnV4blRzb1BfOFE3bXUxUnRObkkyUnpDWXdDMzVkUUJDcll6VnpGVmNMZVk0bUlrRFZBcVhfc0ZLUU1wazgybTFnMVdxb2x3NHlxTmpwOW1TdnNEZnlBQWZQcmdhbUtPVHR0enlqREg1cUtqSTUxQtIB_gFBVV95cUxPa0xmN0hJYnRXdkFCMVhQTllCYzNDdmctQy1BaXI0cEVuaHJfTUxZVm0xOVNqUWxlUUdmUVZzdjNLVkNCOHZjUUg4Q3pyLXh5dHVRajlxMUNodkktQ3BYWjltX3V3NUo4R2xWejB4X043b0dReWs5ZURRN2hoVGM3a2xIV05OMFV0QXZrQzJZc1IxNklxRE9wLTdsNHlLamdEc2ZEa1dXbEFuZFlMWHlkcGk4LWMwajZra0VBVTY1R3BFM0w0SEJIWWt4bjYwY3kyV204SVVYNWtQTGoxQVU1cWtTazVTbWJyV05PUTFUX0VNWGEyR1hQZ3M1Y1Zldw?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPOXRTdnRZTVYwMTFFaXhDY3FVTXBiZ1ZQNlFBMnlPQUhlWVc4VXlQQW1RRmkzc3lGM2VGYVplY1I2MEduVE1qR0IyLWFiQldZTHBJTHcwOEQtVElQU1U2R1BfQ2tYZU5FbnN2d29hQlBIekg0MUxRVG9qZmF5WUU3T1cxZ1dBRXBkMnV4blRzb1BfOFE3bXUxUnRObkkyUnpDWXdDMzVkUUJDcll6VnpGVmNMZVk0bUlrRFZBcVhfc0ZLUU1wazgybTFnMVdxb2x3NHlxTmpwOW1TdnNEZnlBQWZQcmdhbUtPVHR0enlqREg1cUtqSTUxQtIB_gFBVV95cUxPa0xmN0hJYnRXdkFCMVhQTllCYzNDdmctQy1BaXI0cEVuaHJfTUxZVm0xOVNqUWxlUUdmUVZzdjNLVkNCOHZjUUg4Q3pyLXh5dHVRajlxMUNodkktQ3BYWjltX3V3NUo4R2xWejB4X043b0dReWs5ZURRN2hoVGM3a2xIV05OMFV0QXZrQzJZc1IxNklxRE9wLTdsNHlLamdEc2ZEa1dXbEFuZFlMWHlkcGk4LWMwajZra0VBVTY1R3BFM0w0SEJIWWt4bjYwY3kyV204SVVYNWtQTGoxQVU1cWtTazVTbWJyV05PUTFUX0VNWGEyR1hQZ3M1Y1Zldw?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-11-07T19:34:00.000Z",
-      "lastUpdated": "2026-11-07T19:34:00.000Z",
-      "sourceCheckedAt": "2026-11-10T18:51:20.075Z",
-      "lastVerifiedAt": "2026-11-10T18:51:20.075Z",
-      "intelligenceGeneratedAt": "2026-11-10T18:51:35.531Z",
-      "expiresAt": "2026-11-10T19:34:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces.",
-      "recommendedAction": "Avoid exposure and follow civic, pollution-control or health-authority guidance.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-6e7a8911",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-11-10T18:51:20.075Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
     {
       "id": "accident-developing-two-dead-teenage-girl-battles-for-life-after-speeding-car-hits-bike-in",
       "eventKind": "incident",
@@ -290,9 +187,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-10T12:22:00.000Z",
       "lastUpdated": "2026-11-10T12:22:00.000Z",
-      "sourceCheckedAt": "2026-11-10T18:51:20.075Z",
-      "lastVerifiedAt": "2026-11-10T18:51:20.075Z",
-      "intelligenceGeneratedAt": "2026-11-10T18:51:35.531Z",
+      "sourceCheckedAt": "2026-11-10T23:56:14.726Z",
+      "lastVerifiedAt": "2026-11-10T23:56:14.726Z",
+      "intelligenceGeneratedAt": "2026-11-10T23:56:33.582Z",
       "expiresAt": "2026-11-12T12:22:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -305,7 +202,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-10T18:51:20.075Z",
+      "discoveredAt": "2026-11-10T23:56:14.726Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -341,13 +238,13 @@
       ],
       "publishedAt": "2026-11-09T19:50:00.000Z",
       "lastUpdated": "2026-11-09T19:50:00.000Z",
-      "sourceCheckedAt": "2026-11-10T18:51:20.075Z",
-      "lastVerifiedAt": "2026-11-10T18:51:20.075Z",
-      "intelligenceGeneratedAt": "2026-11-10T18:51:35.531Z",
+      "sourceCheckedAt": "2026-11-10T23:56:14.726Z",
+      "lastVerifiedAt": "2026-11-10T23:56:14.726Z",
+      "intelligenceGeneratedAt": "2026-11-10T23:56:33.582Z",
       "expiresAt": "2026-11-11T19:50:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 43,
+      "confidenceScore": 35,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
@@ -356,7 +253,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-10T18:51:20.075Z",
+      "discoveredAt": "2026-11-10T23:56:14.726Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -394,9 +291,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-10T12:14:30.000Z",
       "lastUpdated": "2026-11-10T12:14:30.000Z",
-      "sourceCheckedAt": "2026-11-10T18:51:20.075Z",
-      "lastVerifiedAt": "2026-11-10T18:51:20.075Z",
-      "intelligenceGeneratedAt": "2026-11-10T18:51:35.531Z",
+      "sourceCheckedAt": "2026-11-10T23:56:14.726Z",
+      "lastVerifiedAt": "2026-11-10T23:56:14.726Z",
+      "intelligenceGeneratedAt": "2026-11-10T23:56:33.582Z",
       "expiresAt": "2026-11-12T12:14:30.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -409,7 +306,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-10T18:51:20.075Z",
+      "discoveredAt": "2026-11-10T23:56:14.726Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -443,9 +340,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-09T14:20:39.000Z",
       "lastUpdated": "2026-11-09T14:20:39.000Z",
-      "sourceCheckedAt": "2026-11-10T18:51:20.075Z",
-      "lastVerifiedAt": "2026-11-10T18:51:20.075Z",
-      "intelligenceGeneratedAt": "2026-11-10T18:51:35.531Z",
+      "sourceCheckedAt": "2026-11-10T23:56:14.726Z",
+      "lastVerifiedAt": "2026-11-10T23:56:14.726Z",
+      "intelligenceGeneratedAt": "2026-11-10T23:56:33.582Z",
       "expiresAt": "2026-11-11T14:20:39.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -458,7 +355,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-10T18:51:20.075Z",
+      "discoveredAt": "2026-11-10T23:56:14.726Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -492,9 +389,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-10T04:27:57.000Z",
       "lastUpdated": "2026-11-10T04:27:57.000Z",
-      "sourceCheckedAt": "2026-11-10T18:51:20.075Z",
-      "lastVerifiedAt": "2026-11-10T18:51:20.075Z",
-      "intelligenceGeneratedAt": "2026-11-10T18:51:35.531Z",
+      "sourceCheckedAt": "2026-11-10T23:56:14.726Z",
+      "lastVerifiedAt": "2026-11-10T23:56:14.726Z",
+      "intelligenceGeneratedAt": "2026-11-10T23:56:33.582Z",
       "expiresAt": "2026-11-13T04:27:57.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -507,7 +404,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-10T18:51:20.075Z",
+      "discoveredAt": "2026-11-10T23:56:14.726Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -520,15 +417,6 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
-      {
-        "id": "environmental-hazard-developing-pune-pockets-may-see-poor-to-severe-aqi-mumbai-likely-to-s",
-        "category": "environmental_hazard",
-        "severity": "warning",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces."
-      },
       {
         "id": "accident-developing-two-dead-teenage-girl-battles-for-life-after-speeding-car-hits-bike-in",
         "category": "accident",
@@ -579,38 +467,79 @@
         "talukas": [],
         "operationalZones": [],
         "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces."
-      },
-      {
-        "id": "explosion-developing-pcmc-cylinder-blast-during-flat-fire-at-pimple-saudagar-s-sai-marigol",
-        "category": "explosion",
-        "severity": "emergency",
-        "localities": [
-          "Pimple Saudagar"
-        ],
-        "talukas": [
-          "pcmc"
-        ],
-        "operationalZones": [],
-        "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
       }
     ]
   },
-  "expiredEvents": [],
+  "expiredEvents": [
+    {
+      "id": "explosion-developing-pcmc-cylinder-blast-during-flat-fire-at-pimple-saudagar-s-sai-marigol",
+      "eventKind": "alert",
+      "sourceId": "punekar_news",
+      "title": "Developing: PCMC: Cylinder Blast During Flat Fire at Pimple Saudagar’s Sai Marigold Society",
+      "summary": "A current trusted-media report relevant to Pune District. Punekar News attributes this alert to Pimpri-Chinchwad Municipal Corporation. The original official feed was not available to the app at collection time.",
+      "category": "explosion",
+      "severity": "emergency",
+      "source": "Punekar News",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Punekar News",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN0FMUW9wbVE5R252NHB5SFhleXh3QlBhLXJmUWNMMnVGNzlOcV9aeFZoYm93SG5yMk1Ha2hGeXlvcUszVktMOHJIRDVHMGFlQWZOeEFrVk1UdFo5SEp6bmpISnB0dFFNOEJhZ0tocHRjTFZScXNaZmp4LVVtaVdjTmktdnd1eUxGdjlUcm0wRmg1MXRiRVVpSHBUUlhDSGFTTlF2cW5iM2M?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN0FMUW9wbVE5R252NHB5SFhleXh3QlBhLXJmUWNMMnVGNzlOcV9aeFZoYm93SG5yMk1Ha2hGeXlvcUszVktMOHJIRDVHMGFlQWZOeEFrVk1UdFo5SEp6bmpISnB0dFFNOEJhZ0tocHRjTFZScXNaZmp4LVVtaVdjTmktdnd1eUxGdjlUcm0wRmg1MXRiRVVpSHBUUlhDSGFTTlF2cW5iM2M?oc=5",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Pimple Saudagar"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-11-09T11:49:04.000Z",
+      "lastUpdated": "2026-11-09T11:49:04.000Z",
+      "sourceCheckedAt": "2026-11-10T23:56:14.726Z",
+      "lastVerifiedAt": "2026-11-10T23:56:14.726Z",
+      "intelligenceGeneratedAt": "2026-11-10T23:56:33.582Z",
+      "expiresAt": "2026-11-10T23:49:04.000Z",
+      "lifecycle": "expired",
+      "confidence": "Medium",
+      "confidenceScore": 55,
+      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required.",
+      "recommendedAction": "Move away from the area and follow emergency-service instructions immediately.",
+      "affectedArea": "Pimple Saudagar",
+      "upstreamId": "google-news-828d084c",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "Pimpri-Chinchwad Municipal Corporation",
+      "alertBasis": "trusted_media_attributed_official",
+      "discoveredAt": "2026-11-10T23:56:14.726Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-11-10T18:51:20.075Z",
-      "lastSuccessfulAt": "2026-11-10T18:51:20.075Z",
+      "sourceCheckedAt": "2026-11-10T23:56:14.726Z",
+      "lastSuccessfulAt": "2026-11-10T23:56:14.726Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-11-10T18:51:35.869Z",
+      "generatedAt": "2026-11-10T23:56:33.687Z",
       "activeSeason": "winter",
       "priorityHazards": [
         "fog",
@@ -621,7 +550,7 @@
       "advice": "Monitor fog, low visibility, cold wave and air quality."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-11-10T18:51:35.869Z",
+      "generatedAt": "2026-11-10T23:56:33.687Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -702,7 +631,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-11-10T18:51:35.869Z",
+      "generatedAt": "2026-11-10T23:56:33.687Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -747,7 +676,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-11-10T18:51:35.919Z",
+        "generatedAt": "2026-11-10T23:56:33.745Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -891,7 +820,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-11-10T18:51:35.919Z",
+        "generatedAt": "2026-11-10T23:56:33.745Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -921,27 +850,18 @@
           "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 80,
-            "label": "Good to Go",
-            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-            "reasons": [
-              "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category may cause delays or safety concerns."
-            ],
-            "penalties": [
-              {
-                "eventId": "environmental-hazard-developing-pune-pockets-may-see-poor-to-severe-aqi-mumbai-likely-to-s",
-                "category": "environmental_hazard",
-                "penalty": 20,
-                "title": "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category"
-              }
-            ]
+            "score": 100,
+            "label": "Excellent",
+            "recommendation": "Travel conditions look suitable.",
+            "reasons": [],
+            "penalties": []
           },
-          "estimatedTimeMin": 103,
-          "estimatedDelayMin": 8,
+          "estimatedTimeMin": 95,
+          "estimatedDelayMin": 0,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category may cause delays or safety concerns."
+          "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
         },
         "routes": [
           {
@@ -973,27 +893,18 @@
             "mapsQuery": "Pune to Lonavala via Mumbai Pune Expressway",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 80,
-              "label": "Good to Go",
-              "recommendation": "Travel is generally suitable. Allow minor buffer time.",
-              "reasons": [
-                "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category may cause delays or safety concerns."
-              ],
-              "penalties": [
-                {
-                  "eventId": "environmental-hazard-developing-pune-pockets-may-see-poor-to-severe-aqi-mumbai-likely-to-s",
-                  "category": "environmental_hazard",
-                  "penalty": 20,
-                  "title": "Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category"
-                }
-              ]
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
+              "penalties": []
             },
-            "estimatedTimeMin": 103,
-            "estimatedDelayMin": 8,
+            "estimatedTimeMin": 95,
+            "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pune%20to%20Lonavala%20via%20Mumbai%20Pune%20Expressway",
             "rank": 1,
             "recommended": true,
-            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Good to Go (80/100). Estimated travel time is about 103 minutes including around 8 minutes delay. Main reason: Developing: Pune pockets may see poor to severe AQI, Mumbai likely to slip into poor to very poor category may cause delays or safety concerns."
+            "explanation": "Best route: Pune to Lonavala via Mumbai-Pune Expressway. Journey suitability is Excellent (100/100). Estimated travel time is about 95 minutes. No major route-specific disruption detected."
           }
         ]
       },
@@ -1002,7 +913,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-11-10T18:51:35.919Z",
+        "generatedAt": "2026-11-10T23:56:33.745Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
