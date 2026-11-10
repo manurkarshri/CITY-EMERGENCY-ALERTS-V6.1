@@ -1,8 +1,19 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-10T03:24:55.029Z",
+  "generatedAt": "2026-11-10T11:35:26.504Z",
   "routes": [],
   "risks": [
+    {
+      "id": "accident-developing-youth-car-driver-killed-in-collision-on-pune-solapur-highway-sister-cr",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [
+        "Pune-Solapur Highway"
+      ],
+      "impact": "Traffic delays are likely near the incident location."
+    },
     {
       "id": "accident-developing-pedestrian-dies-another-seriously-injured-as-pmpml-bus-hits-them-in-pu",
       "category": "accident",
@@ -26,17 +37,6 @@
       "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces."
     },
     {
-      "id": "accident-developing-youth-car-driver-killed-in-collision-on-pune-solapur-highway-sister-cr",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [
-        "Pune-Solapur Highway"
-      ],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
       "id": "accident-developing-pune-bus-accident-24-year-old-man-killed-18-year-old-seriously-injured",
       "category": "accident",
       "severity": "watch",
@@ -44,6 +44,15 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "environmental-hazard-developing-pune-air-pollution-firecracker-bursts-push-aqi-close-to-30",
+      "category": "environmental_hazard",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces."
     },
     {
       "id": "explosion-developing-pcmc-cylinder-blast-during-flat-fire-at-pimple-saudagar-s-sai-marigol",
