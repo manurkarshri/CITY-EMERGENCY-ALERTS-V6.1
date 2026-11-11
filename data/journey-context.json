@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-10T23:56:33.582Z",
+  "generatedAt": "2026-11-11T05:41:23.418Z",
   "routes": [],
   "risks": [
     {
@@ -24,6 +24,15 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
+      "id": "fire-developing-pune-fire-breaks-out-at-old-bhandari-wada-in-guruwar-peth-after-firecracke",
+      "category": "fire",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
       "id": "accident-developing-pune-youth-dead-another-seriously-injured-as-truck-drags-two-wheeler-f",
       "category": "accident",
       "severity": "watch",
@@ -35,24 +44,6 @@
       ],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "accident-developing-pune-bus-accident-24-year-old-man-killed-18-year-old-seriously-injured",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "environmental-hazard-developing-pune-air-pollution-firecracker-bursts-push-aqi-close-to-30",
-      "category": "environmental_hazard",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Pollution, contaminated water or hazardous waste may affect health and nearby public spaces."
     }
   ]
 }
