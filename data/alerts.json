@@ -1,6 +1,56 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-12T09:29:20.737Z",
+  "generatedAt": "2026-11-12T17:43:04.803Z",
   "sourceStatus": "stale",
-  "items": []
+  "items": [
+    {
+      "id": "explosion-developing-bomb-threat-to-pune-pmc-fire-brigade-bomb-detection-squad-reach-headq",
+      "eventKind": "alert",
+      "sourceId": "punekar_news",
+      "title": "Developing: Bomb Threat to Pune PMC: Fire Brigade, Bomb Detection Squad Reach Headquarters",
+      "summary": "A current trusted-media report relevant to Pune District. Punekar News attributes this alert to Pune Municipal Corporation. The original official feed was not available to the app at collection time.",
+      "category": "explosion",
+      "severity": "emergency",
+      "source": "Punekar News",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Punekar News",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUVhuVVB6VS16RWdFeDVrMEZPMFN1cjJfMWYyY2drZmJOZ0E2V1pWWHpfaXlER0dEWFhNc2s1UjhqMHZhaG1KdjVLdUxGb0RrLWNWaHpVbkNyMkdncWdjTjRvY3JQWlFUblpEU0tyY1BlZHQzNVdJNzI0RnNXcTVsSGx6SDhubzdYdW9fdERBbWY4ZXk4NU51NDJDMFJvS2RBMkNfcDY5cw?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUVhuVVB6VS16RWdFeDVrMEZPMFN1cjJfMWYyY2drZmJOZ0E2V1pWWHpfaXlER0dEWFhNc2s1UjhqMHZhaG1KdjVLdUxGb0RrLWNWaHpVbkNyMkdncWdjTjRvY3JQWlFUblpEU0tyY1BlZHQzNVdJNzI0RnNXcTVsSGx6SDhubzdYdW9fdERBbWY4ZXk4NU51NDJDMFJvS2RBMkNfcDY5cw?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-11-12T12:08:41.000Z",
+      "lastUpdated": "2026-11-12T12:08:41.000Z",
+      "sourceCheckedAt": "2026-11-12T17:42:49.554Z",
+      "lastVerifiedAt": "2026-11-12T17:42:49.554Z",
+      "intelligenceGeneratedAt": "2026-11-12T17:43:04.803Z",
+      "expiresAt": "2026-11-14T00:08:41.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required.",
+      "recommendedAction": "Move away from the area and follow emergency-service instructions immediately.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-db118e36",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "Pune Municipal Corporation",
+      "alertBasis": "trusted_media_attributed_official",
+      "discoveredAt": "2026-11-12T17:42:49.554Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ]
 }
