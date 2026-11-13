@@ -1,25 +1,25 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-13T18:40:39.144Z",
+  "generatedAt": "2026-11-13T23:54:40.595Z",
   "weatherSource": {
-    "status": "current",
-    "sourceCheckedAt": "2026-11-13T18:40:24.210Z",
+    "status": "stale",
+    "sourceCheckedAt": "2026-11-13T23:54:15.182Z",
     "lastSuccessfulAt": "2026-11-13T18:40:24.210Z",
     "staleAfterMinutes": 60,
     "attribution": {
       "name": "Open-Meteo",
       "url": "https://open-meteo.com/"
     },
-    "error": null
+    "error": "Weather provider could not be reached during the latest check."
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-11-13T18:40:27.441Z",
-    "lastSuccessfulAt": "2026-11-13T18:40:27.441Z",
+    "sourceCheckedAt": "2026-11-13T23:54:28.952Z",
+    "lastSuccessfulAt": "2026-11-13T23:54:28.952Z",
     "error": "Pravah: fetch failed"
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-11-13T18:40:39.101Z",
+    "generatedAt": "2026-11-13T23:54:40.569Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -160,7 +160,7 @@
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-11-13T18:40:39.144Z",
+    "generatedAt": "2026-11-13T23:54:40.595Z",
     "activeSeason": "winter",
     "priorityHazards": [
       "fog",
@@ -171,7 +171,7 @@
     "advice": "Monitor fog, low visibility, cold wave and air quality."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-11-13T18:40:39.143Z",
+    "generatedAt": "2026-11-13T23:54:40.595Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -252,7 +252,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-11-13T18:40:39.144Z",
+    "generatedAt": "2026-11-13T23:54:40.595Z",
     "mode": "on-demand",
     "relevantDomains": [
       "highways"
@@ -290,7 +290,7 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-11-13T18:40:39.144Z",
+    "generatedAt": "2026-11-13T23:54:40.595Z",
     "riskLevel": "Normal",
     "impacts": [
       "3 active transport-related event(s) may affect travel."
@@ -298,5 +298,5 @@
     "citizenSummary": "3 active transport-related event(s) may affect travel.",
     "seasonalContext": "winter"
   },
-  "story": "3 important alerts require attention."
+  "story": "2 important alerts require attention."
 }
