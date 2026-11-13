@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-13T03:15:55.862Z",
+  "generatedAt": "2026-11-13T11:25:29.200Z",
   "status": "stale",
   "situation": {
-    "snapshot": "5 important alerts require attention.",
+    "snapshot": "3 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-11-13T03:15:55.925Z",
+      "generatedAt": "2026-11-13T11:25:29.249Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -146,12 +146,12 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-11-13T03:15:56.256Z",
+      "generatedAt": "2026-11-13T11:25:29.262Z",
       "riskLevel": "Normal",
       "impacts": [
-        "1 active transport-related event(s) may affect travel."
+        "2 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "1 active transport-related event(s) may affect travel.",
+      "citizenSummary": "2 active transport-related event(s) may affect travel.",
       "seasonalContext": "winter"
     }
   },
@@ -180,9 +180,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-12T12:08:41.000Z",
       "lastUpdated": "2026-11-12T12:08:41.000Z",
-      "sourceCheckedAt": "2026-11-13T03:15:41.354Z",
-      "lastVerifiedAt": "2026-11-13T03:15:41.354Z",
-      "intelligenceGeneratedAt": "2026-11-13T03:15:55.862Z",
+      "sourceCheckedAt": "2026-11-13T11:25:12.797Z",
+      "lastVerifiedAt": "2026-11-13T11:25:12.797Z",
+      "intelligenceGeneratedAt": "2026-11-13T11:25:29.200Z",
       "expiresAt": "2026-11-14T00:08:41.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -195,7 +195,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "Pune Municipal Corporation",
       "alertBasis": "trusted_media_attributed_official",
-      "discoveredAt": "2026-11-13T03:15:41.354Z",
+      "discoveredAt": "2026-11-13T11:25:12.797Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -207,55 +207,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "explosion-developing-security-tightened-after-pmc-receives-third-bomb-threat-in-six-months",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Security tightened after PMC receives third bomb threat in six months",
-      "summary": "The latest threat has raised security concerns at the civic headquarters, which sees a large daily footfall of citizens, elected representatives, contractors and government officials.",
-      "category": "explosion",
-      "severity": "emergency",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/security-tightened-after-pmc-receives-third-bomb-threat-in-six-months-101794502451704.html",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.hindustantimes.com/cities/pune-news/security-tightened-after-pmc-receives-third-bomb-threat-in-six-months-101794502451704.html",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-11-12T16:54:11.000Z",
-      "lastUpdated": "2026-11-12T16:54:11.000Z",
-      "sourceCheckedAt": "2026-11-13T03:15:41.354Z",
-      "lastVerifiedAt": "2026-11-13T03:15:41.354Z",
-      "intelligenceGeneratedAt": "2026-11-13T03:15:55.862Z",
-      "expiresAt": "2026-11-13T04:54:11.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
-      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required.",
-      "recommendedAction": "Move away from the area and follow emergency-service instructions immediately.",
-      "affectedArea": "",
-      "upstreamId": "",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "broader_area",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
     {
       "id": "explosion-developing-bomb-threat-emails-target-bmc-pune-civic-body-pnb-branches-searches-f",
       "eventKind": "incident",
@@ -280,13 +231,13 @@
       "operationalZones": [],
       "publishedAt": "2026-11-12T23:38:00.000Z",
       "lastUpdated": "2026-11-12T23:38:00.000Z",
-      "sourceCheckedAt": "2026-11-13T03:15:41.354Z",
-      "lastVerifiedAt": "2026-11-13T03:15:41.354Z",
-      "intelligenceGeneratedAt": "2026-11-13T03:15:55.862Z",
+      "sourceCheckedAt": "2026-11-13T11:25:12.797Z",
+      "lastVerifiedAt": "2026-11-13T11:25:12.797Z",
+      "intelligenceGeneratedAt": "2026-11-13T11:25:29.200Z",
       "expiresAt": "2026-11-14T11:38:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "There may be an immediate risk to life and a wider safety perimeter may be required.",
       "recommendedAction": "Move away from the area and follow emergency-service instructions immediately.",
       "affectedArea": "Pune District",
@@ -295,7 +246,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-13T03:15:41.354Z",
+      "discoveredAt": "2026-11-13T11:25:12.797Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -329,9 +280,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-12T12:37:29.000Z",
       "lastUpdated": "2026-11-12T12:37:29.000Z",
-      "sourceCheckedAt": "2026-11-13T03:15:41.354Z",
-      "lastVerifiedAt": "2026-11-13T03:15:41.354Z",
-      "intelligenceGeneratedAt": "2026-11-13T03:15:55.862Z",
+      "sourceCheckedAt": "2026-11-13T11:25:12.797Z",
+      "lastVerifiedAt": "2026-11-13T11:25:12.797Z",
+      "intelligenceGeneratedAt": "2026-11-13T11:25:29.200Z",
       "expiresAt": "2026-11-14T00:37:29.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -344,7 +295,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-13T03:15:41.354Z",
+      "discoveredAt": "2026-11-13T11:25:12.797Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -378,9 +329,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-12T11:42:08.000Z",
       "lastUpdated": "2026-11-12T11:42:08.000Z",
-      "sourceCheckedAt": "2026-11-13T03:15:41.354Z",
-      "lastVerifiedAt": "2026-11-13T03:15:41.354Z",
-      "intelligenceGeneratedAt": "2026-11-13T03:15:55.862Z",
+      "sourceCheckedAt": "2026-11-13T11:25:12.797Z",
+      "lastVerifiedAt": "2026-11-13T11:25:12.797Z",
+      "intelligenceGeneratedAt": "2026-11-13T11:25:29.200Z",
       "expiresAt": "2026-11-14T11:42:08.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -393,7 +344,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-13T03:15:41.354Z",
+      "discoveredAt": "2026-11-13T11:25:12.797Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -404,66 +355,69 @@
       "corroboratedByIndependentSources": false
     },
     {
-      "id": "fire-developing-pune-fire-breaks-out-at-old-bhandari-wada-in-guruwar-peth-after-firecracke",
+      "id": "accident-developing-pune-pcmc-to-allot-free-flats-to-kin-of-eight-workers-killed-in-moshi-",
       "eventKind": "incident",
       "sourceId": "punekar_news",
-      "title": "Developing: Pune: Fire Breaks Out at Old Bhandari Wada in Guruwar Peth After Firecracker Falls on Building",
+      "title": "Developing: Pune: PCMC to Allot Free Flats to Kin Of Eight Workers Killed in Moshi Garbage Depot Accident",
       "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "fire",
-      "severity": "warning",
+      "category": "accident",
+      "severity": "watch",
       "source": "Punekar News",
       "sourceTrust": "B",
       "sources": [
         {
           "name": "Punekar News",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU3RGU2dDd1ZoZ3hSWjF3Mzd6OFNYa0RoS2pvNFFwSGdOSl9GVUxGNjY5Z3pTMXdwTU1Hc1Q5c2R4U1pnWF9SeXpHN0p0bHNRQnRldFFCSm9CZ0VISE9maVl5MGxfS1k2eGR6R2d0bEdCN2VtV1psTXh1a3BHajJPTEpHNFd1WktQMGNxNzZYWTR5dWtaRm4yMEM1X0szOFMwcDE5SFZ4UFlnQlRzRlZ3NXVYZFNBcXItN3pDRXhn?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFJhcnVGVmJnSDZzUG9xamRuNmVMdUt0TFZOZS14QkxzVUJpeDJTOE1WTzNFWE5NUFpnamk5UGVUcFdHWE9LV01XUnFaZ1ZlM1NRakU5ZG1KRmFFSm5zTjFiYjJ2U1Z3MjVZYXBEdVh6SlRsYUJtSFE5Yjlrd3ZvYlJOZEs5Rk8xVE02X2ZHLVZ5SUdZZzQxZC0ydTZzeV9IN3QzWno4WFBaZ1Rxck44TE5tYlVkRXBDRm9mMQ?oc=5",
+          "origin": ""
+        },
+        {
+          "name": "Mid-day",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPalF5Sm5zTHZXVTVaaDFtNGNwU1IwTEZYR1kzUWd6VkZrVldtUnVweV9vVE5PVlF4aE5hVG9DMFRfTUUxOUQ0OFVzcUNIQW1ZNFFPRThEOUtIdmtPUmkzRkpEclhVT3luM2ItR3k2ZUN1NUFtYjVmMGpMV3ZueDFFTV95b09BOXVvYmFDSkR2NngxM3RrUmk2VGZsUWdZZ3RaQm1NZWM2bHExaGxZNHhXcmFlM21xdUlWa3dGZmMtRkg0WGtURURYbEwxa0V6bnNqeHNpT0xLZ1lJaF9OZkZISmFGZF9yaVYwVHh5eml4OEo?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU3RGU2dDd1ZoZ3hSWjF3Mzd6OFNYa0RoS2pvNFFwSGdOSl9GVUxGNjY5Z3pTMXdwTU1Hc1Q5c2R4U1pnWF9SeXpHN0p0bHNRQnRldFFCSm9CZ0VISE9maVl5MGxfS1k2eGR6R2d0bEdCN2VtV1psTXh1a3BHajJPTEpHNFd1WktQMGNxNzZYWTR5dWtaRm4yMEM1X0szOFMwcDE5SFZ4UFlnQlRzRlZ3NXVYZFNBcXItN3pDRXhn?oc=5",
-      "talukas": [],
-      "localities": [],
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFJhcnVGVmJnSDZzUG9xamRuNmVMdUt0TFZOZS14QkxzVUJpeDJTOE1WTzNFWE5NUFpnamk5UGVUcFdHWE9LV01XUnFaZ1ZlM1NRakU5ZG1KRmFFSm5zTjFiYjJ2U1Z3MjVZYXBEdVh6SlRsYUJtSFE5Yjlrd3ZvYlJOZEs5Rk8xVE02X2ZHLVZ5SUdZZzQxZC0ydTZzeV9IN3QzWno4WFBaZ1Rxck44TE5tYlVkRXBDRm9mMQ?oc=5",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Moshi"
+      ],
       "operationalZones": [],
-      "publishedAt": "2026-11-11T04:54:50.000Z",
-      "lastUpdated": "2026-11-11T04:54:50.000Z",
-      "sourceCheckedAt": "2026-11-13T03:15:41.354Z",
-      "lastVerifiedAt": "2026-11-13T03:15:41.354Z",
-      "intelligenceGeneratedAt": "2026-11-13T03:15:55.862Z",
-      "expiresAt": "2026-11-13T04:54:50.000Z",
+      "publishedAt": "2026-11-13T06:38:26.000Z",
+      "lastUpdated": "2026-11-13T06:38:26.000Z",
+      "sourceCheckedAt": "2026-11-13T11:25:12.797Z",
+      "lastVerifiedAt": "2026-11-13T11:25:12.797Z",
+      "intelligenceGeneratedAt": "2026-11-13T11:25:29.200Z",
+      "expiresAt": "2026-11-15T06:38:26.000Z",
       "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-3cca6a2a",
+      "confidence": "High",
+      "confidenceScore": 90,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Moshi",
+      "upstreamId": "google-news-1d378e8a",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
-      "reportedAuthority": "",
+      "reportedAuthority": "Pimpri-Chinchwad Municipal Corporation",
       "alertBasis": "",
-      "discoveredAt": "2026-11-13T03:15:41.354Z",
+      "discoveredAt": "2026-11-13T11:25:12.797Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
+      "geographicScope": "local",
+      "relatedEventIds": [
+        "accident-developing-maharashtra-pcmc-to-allot-free-flats-to-families-of-eight-workers-kill"
+      ],
+      "independentSourceCount": 2,
+      "corroboratedByIndependentSources": true
     }
   ],
   "journeyContext": {
     "activeRiskEvents": [
-      {
-        "id": "explosion-developing-security-tightened-after-pmc-receives-third-bomb-threat-in-six-months",
-        "category": "explosion",
-        "severity": "emergency",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
-      },
       {
         "id": "explosion-developing-bomb-threat-emails-target-bmc-pune-civic-body-pnb-branches-searches-f",
         "category": "explosion",
@@ -492,6 +446,19 @@
         "impact": "Traffic delays are likely near the incident location."
       },
       {
+        "id": "accident-developing-pune-pcmc-to-allot-free-flats-to-kin-of-eight-workers-killed-in-moshi-",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [
+          "Moshi"
+        ],
+        "talukas": [
+          "pcmc"
+        ],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
         "id": "explosion-developing-bomb-threat-to-pune-pmc-fire-brigade-bomb-detection-squad-reach-headq",
         "category": "explosion",
         "severity": "emergency",
@@ -499,19 +466,59 @@
         "talukas": [],
         "operationalZones": [],
         "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
-      },
-      {
-        "id": "fire-developing-pune-fire-breaks-out-at-old-bhandari-wada-in-guruwar-peth-after-firecracke",
-        "category": "fire",
-        "severity": "warning",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "This event may affect local awareness or movement."
       }
     ]
   },
   "expiredEvents": [
+    {
+      "id": "explosion-developing-security-tightened-after-pmc-receives-third-bomb-threat-in-six-months",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Security tightened after PMC receives third bomb threat in six months",
+      "summary": "The latest threat has raised security concerns at the civic headquarters, which sees a large daily footfall of citizens, elected representatives, contractors and government officials.",
+      "category": "explosion",
+      "severity": "emergency",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/security-tightened-after-pmc-receives-third-bomb-threat-in-six-months-101794502451704.html",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/security-tightened-after-pmc-receives-third-bomb-threat-in-six-months-101794502451704.html",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-11-12T16:54:11.000Z",
+      "lastUpdated": "2026-11-12T16:54:11.000Z",
+      "sourceCheckedAt": "2026-11-13T11:25:12.797Z",
+      "lastVerifiedAt": "2026-11-13T11:25:12.797Z",
+      "intelligenceGeneratedAt": "2026-11-13T11:25:29.200Z",
+      "expiresAt": "2026-11-13T04:54:11.000Z",
+      "lifecycle": "expired",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required.",
+      "recommendedAction": "Move away from the area and follow emergency-service instructions immediately.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
     {
       "id": "accident-developing-two-dead-teenage-girl-battles-for-life-after-speeding-car-hits-bike-in",
       "eventKind": "incident",
@@ -536,9 +543,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-10T12:26:02.000Z",
       "lastUpdated": "2026-11-10T12:26:02.000Z",
-      "sourceCheckedAt": "2026-11-13T03:15:41.354Z",
-      "lastVerifiedAt": "2026-11-13T03:15:41.354Z",
-      "intelligenceGeneratedAt": "2026-11-13T03:15:55.862Z",
+      "sourceCheckedAt": "2026-11-13T11:25:12.797Z",
+      "lastVerifiedAt": "2026-11-13T11:25:12.797Z",
+      "intelligenceGeneratedAt": "2026-11-13T11:25:29.200Z",
       "expiresAt": "2026-11-12T12:26:02.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -551,7 +558,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-13T03:15:41.354Z",
+      "discoveredAt": "2026-11-13T11:25:12.797Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -568,15 +575,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-11-13T03:15:41.354Z",
-      "lastSuccessfulAt": "2026-11-13T03:15:41.354Z",
+      "sourceCheckedAt": "2026-11-13T11:25:12.797Z",
+      "lastSuccessfulAt": "2026-11-13T11:25:12.797Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-11-13T03:15:56.256Z",
+      "generatedAt": "2026-11-13T11:25:29.262Z",
       "activeSeason": "winter",
       "priorityHazards": [
         "fog",
@@ -587,7 +594,7 @@
       "advice": "Monitor fog, low visibility, cold wave and air quality."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-11-13T03:15:56.255Z",
+      "generatedAt": "2026-11-13T11:25:29.261Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -668,11 +675,10 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-11-13T03:15:56.256Z",
+      "generatedAt": "2026-11-13T11:25:29.262Z",
       "mode": "on-demand",
       "relevantDomains": [
-        "highways",
-        "emergencyServices"
+        "highways"
       ],
       "infrastructure": {
         "highways": [
@@ -714,7 +720,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-11-13T03:15:56.314Z",
+        "generatedAt": "2026-11-13T11:25:29.314Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -858,7 +864,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-11-13T03:15:56.314Z",
+        "generatedAt": "2026-11-13T11:25:29.314Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -983,7 +989,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-11-13T03:15:56.314Z",
+        "generatedAt": "2026-11-13T11:25:29.315Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",

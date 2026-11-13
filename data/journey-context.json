@@ -1,17 +1,8 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-13T03:15:55.862Z",
+  "generatedAt": "2026-11-13T11:25:29.200Z",
   "routes": [],
   "risks": [
-    {
-      "id": "explosion-developing-security-tightened-after-pmc-receives-third-bomb-threat-in-six-months",
-      "category": "explosion",
-      "severity": "emergency",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
-    },
     {
       "id": "explosion-developing-bomb-threat-emails-target-bmc-pune-civic-body-pnb-branches-searches-f",
       "category": "explosion",
@@ -40,6 +31,19 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
+      "id": "accident-developing-pune-pcmc-to-allot-free-flats-to-kin-of-eight-workers-killed-in-moshi-",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Moshi"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
       "id": "explosion-developing-bomb-threat-to-pune-pmc-fire-brigade-bomb-detection-squad-reach-headq",
       "category": "explosion",
       "severity": "emergency",
@@ -47,15 +51,6 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
-    },
-    {
-      "id": "fire-developing-pune-fire-breaks-out-at-old-bhandari-wada-in-guruwar-peth-after-firecracke",
-      "category": "fire",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
     }
   ]
 }
