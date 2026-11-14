@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-14T12:31:58.339Z",
+  "generatedAt": "2026-11-14T18:31:01.439Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-14T12:31:26.012Z",
-        "lastSuccessfulAt": "2026-11-14T12:31:26.012Z",
+        "sourceCheckedAt": "2026-11-14T18:30:20.074Z",
+        "lastSuccessfulAt": "2026-11-14T18:30:20.074Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-14T12:31:29.026Z",
-        "lastSuccessfulAt": "2026-11-14T12:31:29.026Z",
+        "sourceCheckedAt": "2026-11-14T18:30:41.156Z",
+        "lastSuccessfulAt": "2026-11-14T18:30:41.156Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-14T12:31:29.026Z",
-        "lastSuccessfulAt": "2026-11-14T05:36:02.900Z",
+        "sourceCheckedAt": "2026-11-14T18:30:41.156Z",
+        "lastSuccessfulAt": "2026-11-14T12:31:29.026Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-14T12:31:26.174Z",
-        "lastSuccessfulAt": "2026-11-14T12:31:26.174Z",
-        "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
+        "sourceCheckedAt": "2026-11-14T18:30:20.241Z",
+        "lastSuccessfulAt": "2026-11-14T18:30:20.241Z",
+        "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403; pune_metro: This operation was aborted"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-14T12:31:26.174Z",
-        "lastSuccessfulAt": "2026-11-14T12:31:26.174Z",
+        "sourceCheckedAt": "2026-11-14T18:30:20.241Z",
+        "lastSuccessfulAt": "2026-11-14T18:30:20.241Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,8 +62,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-14T12:31:26.174Z",
-        "lastSuccessfulAt": "2026-11-14T12:31:26.174Z",
+        "sourceCheckedAt": "2026-11-14T18:30:20.241Z",
+        "lastSuccessfulAt": "2026-11-14T18:30:20.241Z",
         "error": null,
         "etag": "W/\"9142-1794300858747\"",
         "itemsCollected": 0,
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-11-14T12:31:26.174Z",
+        "sourceCheckedAt": "2026-11-14T18:30:20.241Z",
         "lastSuccessfulAt": "2026-07-31T15:02:02.772Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,8 +82,8 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-14T12:31:26.174Z",
-        "lastSuccessfulAt": "2026-11-14T12:31:26.174Z",
+        "sourceCheckedAt": "2026-11-14T18:30:20.241Z",
+        "lastSuccessfulAt": "2026-11-14T18:30:20.241Z",
         "error": null,
         "etag": null,
         "itemsCollected": 1,
@@ -92,19 +92,17 @@
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
-        "status": "healthy",
-        "sourceCheckedAt": "2026-11-14T12:31:26.174Z",
+        "status": "unavailable",
+        "sourceCheckedAt": "2026-11-14T18:30:20.241Z",
         "lastSuccessfulAt": "2026-11-14T12:31:26.174Z",
-        "error": null,
-        "etag": null,
-        "itemsCollected": 0,
+        "error": "This operation was aborted",
         "type": "incidents"
       },
       {
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-11-14T12:31:26.174Z",
+        "sourceCheckedAt": "2026-11-14T18:30:20.241Z",
         "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
         "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}",
         "type": "incidents"
@@ -113,22 +111,22 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-14T12:31:26.174Z",
-        "lastSuccessfulAt": "2026-11-14T12:31:26.174Z",
+        "sourceCheckedAt": "2026-11-14T18:30:20.241Z",
+        "lastSuccessfulAt": "2026-11-14T18:30:20.241Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 1,
+        "itemsCollected": 0,
         "type": "incidents"
       },
       {
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-14T12:31:26.174Z",
-        "lastSuccessfulAt": "2026-11-14T12:31:26.174Z",
+        "sourceCheckedAt": "2026-11-14T18:30:20.241Z",
+        "lastSuccessfulAt": "2026-11-14T18:30:20.241Z",
         "error": null,
-        "itemsCollected": 8,
-        "itemsQualified": 8,
+        "itemsCollected": 10,
+        "itemsQualified": 10,
         "type": "incidents"
       },
       {
@@ -136,8 +134,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-11-14T12:31:29.026Z",
-        "lastSuccessfulAt": "2026-11-14T12:31:29.026Z",
+        "sourceCheckedAt": "2026-11-14T18:30:41.156Z",
+        "lastSuccessfulAt": "2026-11-14T18:30:41.156Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -500,7 +498,7 @@
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
     "alertsAvailable": 0,
-    "incidentsAvailable": 5,
+    "incidentsAvailable": 6,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
@@ -515,13 +513,22 @@
       "updatedAt": "2026-11-14T05:39:08.000Z"
     },
     {
-      "id": "flood-developing-पुण्यात-मतदारांचे-परस्पर-पत्तेबदल-विधानसभा-निवडणुकीपूर्वीच्या-प्रकाराची-च",
-      "title": "Developing: पुण्यात मतदारांचे परस्पर पत्तेबदल, विधानसभा निवडणुकीपूर्वीच्या प्रकाराची चौकशी; कारवाईचे आदेश",
+      "id": "accident-developing-ahilyanagar-youth-killed-25-injured-after-pune-nagpur-bus-crashes-thro",
+      "title": "Developing: Ahilyanagar youth killed, 25 injured after Pune-Nagpur bus crashes through bridge railing, plunges 20ft i",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Loksatta Pune",
+      "source": "Times of India",
       "trust": "B",
-      "updatedAt": "2026-11-14T00:01:16.000Z"
+      "updatedAt": "2026-11-14T17:21:00.000Z"
+    },
+    {
+      "id": "public-safety-developing-tiger-shroff-resumes-work-on-lag-jaa-gale-wraps-pune-schedule-wit",
+      "title": "Developing: Tiger Shroff resumes work on 'Lag Jaa Gale', wraps Pune schedule with Janhvi Kapoor weeks after firing in",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Times of India",
+      "trust": "B",
+      "updatedAt": "2026-11-14T09:37:00.000Z"
     },
     {
       "id": "accident-developing-1-killed-25-injured-as-pune-nagpur-bus-plunges-into-drain-near-chhatra",
@@ -533,13 +540,13 @@
       "updatedAt": "2026-11-14T07:26:00.000Z"
     },
     {
-      "id": "public-safety-developing-tiger-shroff-resumes-work-on-lag-jaa-gale-wraps-pune-schedule-wit",
-      "title": "Developing: Tiger Shroff resumes work on 'Lag Jaa Gale', wraps Pune schedule with Janhvi Kapoor weeks after firing in",
+      "id": "accident-developing-two-daily-wage-workers-killed-as-bike-hits-parked-container-truck-near",
+      "title": "Developing: Two daily wage workers killed as bike hits parked container truck near Chandni Chowk in Pune",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
       "source": "Times of India",
       "trust": "B",
-      "updatedAt": "2026-11-14T09:37:00.000Z"
+      "updatedAt": "2026-11-12T19:10:00.000Z"
     },
     {
       "id": "accident-developing-pune-pcmc-to-allot-free-flats-to-kin-of-eight-workers-killed-in-moshi-",
