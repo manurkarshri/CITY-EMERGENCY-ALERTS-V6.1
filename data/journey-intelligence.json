@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-15T02:27:40.991Z",
+  "generatedAt": "2026-11-15T09:48:58.121Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-11-15T02:27:40.991Z",
+      "generatedAt": "2026-11-15T09:48:58.120Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -123,12 +123,11 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 60,
-            "label": "Proceed with Caution",
-            "recommendation": "Proceed with caution and allow extra travel time.",
+            "score": 80,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
             "reasons": [
-              "Developing: Ahilyanagar youth killed, 25 injured after Pune-Nagpur bus crashes through bridge railing, plunges 20ft i may cause delays or safety concerns.",
-              "Developing: Chhatrapati Sambhajinagar: Woman Killed, Over 20 Injured As Pune-Nagpur Luxury Bus Plunges Off Flyover may cause delays or safety concerns."
+              "Developing: Ahilyanagar youth killed, 25 injured after Pune-Nagpur bus crashes through bridge railing, plunges 20ft i may cause delays or safety concerns."
             ],
             "penalties": [
               {
@@ -136,21 +135,15 @@
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: Ahilyanagar youth killed, 25 injured after Pune-Nagpur bus crashes through bridge railing, plunges 20ft i"
-              },
-              {
-                "eventId": "accident-developing-chhatrapati-sambhajinagar-woman-killed-over-20-injured-as-pune-nagpur-",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Chhatrapati Sambhajinagar: Woman Killed, Over 20 Injured As Pune-Nagpur Luxury Bus Plunges Off Flyover"
               }
             ]
           },
-          "estimatedTimeMin": 80,
-          "estimatedDelayMin": 15,
+          "estimatedTimeMin": 73,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Proceed with Caution (60/100). Estimated travel time is about 80 minutes including around 15 minutes delay. Main reason: Developing: Ahilyanagar youth killed, 25 injured after Pune-Nagpur bus crashes through bridge railing, plunges 20ft i may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Good to Go (80/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Developing: Ahilyanagar youth killed, 25 injured after Pune-Nagpur bus crashes through bridge railing, plunges 20ft i may cause delays or safety concerns."
         }
       ]
     },
@@ -159,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-11-15T02:27:40.991Z",
+      "generatedAt": "2026-11-15T09:48:58.121Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -252,7 +245,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-11-15T02:27:40.991Z",
+      "generatedAt": "2026-11-15T09:48:58.121Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",

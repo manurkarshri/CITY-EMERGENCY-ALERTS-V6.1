@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-15T02:27:40.291Z",
+  "generatedAt": "2026-11-15T09:48:57.953Z",
   "routes": [],
   "risks": [
     {
@@ -11,6 +11,24 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "road-closure-developing-शहरात-आज-उद्या-वाहतूक-बदल-केंद्रीय-गृहमंत्री-अमित-शाह-पुणे-दौऱ्याव",
+      "category": "road_closure",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Route may be blocked or diverted."
+    },
+    {
+      "id": "public-safety-developing-tiger-shroff-resumes-work-on-lag-jaa-gale-wraps-pune-schedule-wit",
+      "category": "public_safety",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "The incident may create an immediate safety risk in the affected area."
     },
     {
       "id": "accident-developing-woman-killed-over-20-injured-as-pune-nagpur-luxury-bus-plunges-off-fly",
@@ -31,35 +49,13 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "public-safety-developing-tiger-shroff-resumes-work-on-lag-jaa-gale-wraps-pune-schedule-wit",
-      "category": "public_safety",
+      "id": "road-closure-developing-pune-traffic-alert-for-sunday-and-monday-roads-to-close-diversions",
+      "category": "road_closure",
       "severity": "warning",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "The incident may create an immediate safety risk in the affected area."
-    },
-    {
-      "id": "accident-developing-chhatrapati-sambhajinagar-woman-killed-over-20-injured-as-pune-nagpur-",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "accident-developing-pune-pcmc-to-allot-free-flats-to-kin-of-eight-workers-killed-in-moshi-",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [
-        "Moshi"
-      ],
-      "talukas": [
-        "pcmc"
-      ],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
+      "impact": "Route may be blocked or diverted."
     }
   ]
 }
