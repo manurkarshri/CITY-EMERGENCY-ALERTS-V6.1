@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-14T22:45:33.052Z",
+  "generatedAt": "2026-11-15T02:27:40.991Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-11-14T22:45:33.052Z",
+      "generatedAt": "2026-11-15T02:27:40.991Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -128,7 +128,7 @@
             "recommendation": "Proceed with caution and allow extra travel time.",
             "reasons": [
               "Developing: Ahilyanagar youth killed, 25 injured after Pune-Nagpur bus crashes through bridge railing, plunges 20ft i may cause delays or safety concerns.",
-              "Developing: 1 killed, 25 injured as Pune-Nagpur bus plunges into drain near Chhatrapati Sambhajinagar may cause delays or safety concerns."
+              "Developing: Chhatrapati Sambhajinagar: Woman Killed, Over 20 Injured As Pune-Nagpur Luxury Bus Plunges Off Flyover may cause delays or safety concerns."
             ],
             "penalties": [
               {
@@ -138,10 +138,10 @@
                 "title": "Developing: Ahilyanagar youth killed, 25 injured after Pune-Nagpur bus crashes through bridge railing, plunges 20ft i"
               },
               {
-                "eventId": "accident-developing-1-killed-25-injured-as-pune-nagpur-bus-plunges-into-drain-near-chhatra",
+                "eventId": "accident-developing-chhatrapati-sambhajinagar-woman-killed-over-20-injured-as-pune-nagpur-",
                 "category": "accident",
                 "penalty": 20,
-                "title": "Developing: 1 killed, 25 injured as Pune-Nagpur bus plunges into drain near Chhatrapati Sambhajinagar"
+                "title": "Developing: Chhatrapati Sambhajinagar: Woman Killed, Over 20 Injured As Pune-Nagpur Luxury Bus Plunges Off Flyover"
               }
             ]
           },
@@ -159,7 +159,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-11-14T22:45:33.052Z",
+      "generatedAt": "2026-11-15T02:27:40.991Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -252,7 +252,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-11-14T22:45:33.052Z",
+      "generatedAt": "2026-11-15T02:27:40.991Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",

@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-14T22:45:32.940Z",
+  "generatedAt": "2026-11-15T02:27:40.291Z",
   "status": "stale",
   "situation": {
     "snapshot": "1 important alert require attention.",
     "weather": {
-      "generatedAt": "2026-11-14T22:45:32.992Z",
+      "generatedAt": "2026-11-15T02:27:40.352Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -146,17 +146,66 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-11-14T22:45:33.004Z",
+      "generatedAt": "2026-11-15T02:27:40.928Z",
       "riskLevel": "Normal",
       "impacts": [
-        "4 active transport-related event(s) may affect travel."
+        "5 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "4 active transport-related event(s) may affect travel.",
+      "citizenSummary": "5 active transport-related event(s) may affect travel.",
       "seasonalContext": "winter"
     }
   },
   "alerts": [],
   "incidents": [
+    {
+      "id": "accident-developing-one-killed-25-injured-as-private-bus-plunges-off-bridge-near-karmad-20",
+      "eventKind": "incident",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: One killed, 25 injured as private bus plunges off bridge near Karmad",
+      "summary": "According to the local police, the bus broke through the bridge railing before plunging into the drain",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Hindustan Times Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://www.hindustantimes.com/cities/pune-news/one-killed-25-injured-as-private-bus-plunges-off-bridge-near-karmad-101794682218246.html",
+          "origin": ""
+        }
+      ],
+      "link": "https://www.hindustantimes.com/cities/pune-news/one-killed-25-injured-as-private-bus-plunges-off-bridge-near-karmad-101794682218246.html",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-11-15T02:08:40.000Z",
+      "lastUpdated": "2026-11-15T02:08:40.000Z",
+      "sourceCheckedAt": "2026-11-15T02:27:25.949Z",
+      "lastVerifiedAt": "2026-11-15T02:27:25.949Z",
+      "intelligenceGeneratedAt": "2026-11-15T02:27:40.291Z",
+      "expiresAt": "2026-11-16T02:08:40.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 50,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
     {
       "id": "accident-developing-woman-killed-over-20-injured-as-pune-nagpur-luxury-bus-plunges-off-fly",
       "eventKind": "incident",
@@ -187,9 +236,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-14T05:39:08.000Z",
       "lastUpdated": "2026-11-14T05:39:08.000Z",
-      "sourceCheckedAt": "2026-11-14T22:45:11.798Z",
-      "lastVerifiedAt": "2026-11-14T22:45:11.798Z",
-      "intelligenceGeneratedAt": "2026-11-14T22:45:32.940Z",
+      "sourceCheckedAt": "2026-11-15T02:27:25.949Z",
+      "lastVerifiedAt": "2026-11-15T02:27:25.949Z",
+      "intelligenceGeneratedAt": "2026-11-15T02:27:40.291Z",
       "expiresAt": "2026-11-15T05:39:08.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -236,13 +285,13 @@
       "operationalZones": [],
       "publishedAt": "2026-11-14T17:21:00.000Z",
       "lastUpdated": "2026-11-14T17:21:00.000Z",
-      "sourceCheckedAt": "2026-11-14T22:45:11.798Z",
-      "lastVerifiedAt": "2026-11-14T22:45:11.798Z",
-      "intelligenceGeneratedAt": "2026-11-14T22:45:32.940Z",
+      "sourceCheckedAt": "2026-11-15T02:27:25.949Z",
+      "lastVerifiedAt": "2026-11-15T02:27:25.949Z",
+      "intelligenceGeneratedAt": "2026-11-15T02:27:40.291Z",
       "expiresAt": "2026-11-16T17:21:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
@@ -251,7 +300,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-14T22:45:11.798Z",
+      "discoveredAt": "2026-11-15T02:27:25.949Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -285,9 +334,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-14T09:37:00.000Z",
       "lastUpdated": "2026-11-14T09:37:00.000Z",
-      "sourceCheckedAt": "2026-11-14T22:45:11.798Z",
-      "lastVerifiedAt": "2026-11-14T22:45:11.798Z",
-      "intelligenceGeneratedAt": "2026-11-14T22:45:32.940Z",
+      "sourceCheckedAt": "2026-11-15T02:27:25.949Z",
+      "lastVerifiedAt": "2026-11-15T02:27:25.949Z",
+      "intelligenceGeneratedAt": "2026-11-15T02:27:40.291Z",
       "expiresAt": "2026-11-15T21:37:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -300,7 +349,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-14T22:45:11.798Z",
+      "discoveredAt": "2026-11-15T02:27:25.949Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -311,22 +360,16 @@
       "corroboratedByIndependentSources": false
     },
     {
-      "id": "accident-developing-1-killed-25-injured-as-pune-nagpur-bus-plunges-into-drain-near-chhatra",
+      "id": "accident-developing-chhatrapati-sambhajinagar-woman-killed-over-20-injured-as-pune-nagpur-",
       "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: 1 killed, 25 injured as Pune-Nagpur bus plunges into drain near Chhatrapati Sambhajinagar",
+      "sourceId": "pune_pulse",
+      "title": "Developing: Chhatrapati Sambhajinagar: Woman Killed, Over 20 Injured As Pune-Nagpur Luxury Bus Plunges Off Flyover",
       "summary": "A current trusted-media report relevant to Pune District.",
       "category": "accident",
       "severity": "watch",
-      "source": "Times of India",
+      "source": "Pune Pulse",
       "sourceTrust": "B",
       "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQbmUwZGtkZmRDeExSTnlPWVZmLTJ5OExqX0FWa01Pa2VFdWtYbXhlSktscVVUNGRmenJ2LVVCTnpoS1owVUhkZGhFdVVVNjF1Z3pSOWNMSlYzRFZlcF9XQXFBY012NTl2MjlPLXlpc0VSUjJlQThvbDJMTHhJbHV1c1ZvYlQ5MFZnNlBGbDV1WVFfSmF5aFZXUktTVEpJdTZJdkhQNU13NG14N3c0MHRLcVdXWXdlMGVvQVhHck1pSndDUHBOcnhHbzJGYTl2VjlQVGsyLTlxSmNPSHVwamhGQnRpcmpQN0taMHdGai1xNG14SmF1WkRCaERic1lFWmx6azd0eGVyaUVtS2xMSThHNFJFaTdkRFZ6eFItdWpOM0Y1SG5oV2ZyLVUzcEZTRllOYmVVLVhyeFUyUlBSTU5peUZvaEF2VDc3OUHSAf8BQVVfeXFMUDV5TXJROUx0Y2RKVmU2bjFoTlM1Nm9aSnNxYkdpLXNDU2dtMUdYLUMtaVRoRWtHTkRoNGVYWG8zcFZhRmZpQW1qYVJ6Y3ZFY0liX0ctdDM1OVBlbXJiUjNPWFFLWFhGUHN2WDVtbzJ6MGpyZDZaZ3A3RXhBWHRVclpScHRRa05tTm1FLWNsbTdKcGtSTmxYTFp0TEtrWGdKT3RNTW9CX2ItQm1VQmJsNTUyczVSLU9OZWdUaFF5c3BNWHBkUmxvY0dRczFjQUltUlFxRC1Wdy1nOUl6Vk1fX3hxa3VoMTRSQi1ZYkhUemg1ZjdqYUFyMExzRF9sRU1R?oc=5",
-          "origin": ""
-        },
         {
           "name": "Pune Pulse",
           "trust": "B",
@@ -334,38 +377,36 @@
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQbmUwZGtkZmRDeExSTnlPWVZmLTJ5OExqX0FWa01Pa2VFdWtYbXhlSktscVVUNGRmenJ2LVVCTnpoS1owVUhkZGhFdVVVNjF1Z3pSOWNMSlYzRFZlcF9XQXFBY012NTl2MjlPLXlpc0VSUjJlQThvbDJMTHhJbHV1c1ZvYlQ5MFZnNlBGbDV1WVFfSmF5aFZXUktTVEpJdTZJdkhQNU13NG14N3c0MHRLcVdXWXdlMGVvQVhHck1pSndDUHBOcnhHbzJGYTl2VjlQVGsyLTlxSmNPSHVwamhGQnRpcmpQN0taMHdGai1xNG14SmF1WkRCaERic1lFWmx6azd0eGVyaUVtS2xMSThHNFJFaTdkRFZ6eFItdWpOM0Y1SG5oV2ZyLVUzcEZTRllOYmVVLVhyeFUyUlBSTU5peUZvaEF2VDc3OUHSAf8BQVVfeXFMUDV5TXJROUx0Y2RKVmU2bjFoTlM1Nm9aSnNxYkdpLXNDU2dtMUdYLUMtaVRoRWtHTkRoNGVYWG8zcFZhRmZpQW1qYVJ6Y3ZFY0liX0ctdDM1OVBlbXJiUjNPWFFLWFhGUHN2WDVtbzJ6MGpyZDZaZ3A3RXhBWHRVclpScHRRa05tTm1FLWNsbTdKcGtSTmxYTFp0TEtrWGdKT3RNTW9CX2ItQm1VQmJsNTUyczVSLU9OZWdUaFF5c3BNWHBkUmxvY0dRczFjQUltUlFxRC1Wdy1nOUl6Vk1fX3hxa3VoMTRSQi1ZYkhUemg1ZjdqYUFyMExzRF9sRU1R?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZFE4ZERnQnlnSWpsTjdKcWpURHNRSkl6dmdHVTBseFV6WXBSbTdZOHdQaFp5RkFOR1UzR1hFNHA2Zjg2NWlZN2h1b3kyMEY5dVhPbGVtbmktdmdBVEYxdU5wd3Z4eERDYm5uZm1MOUFtb3pEc1FNbVNWRnFGOFRicjk1MV9hVS02SEZibGxSLUgyS2FqUlg5T0RLSVBsLWNMZldxRzkyQkNVSVlYdi0zR05veDFybW1FNFFLVEZiQWNmM1lyMEs3TA?oc=5",
       "talukas": [],
       "localities": [],
       "operationalZones": [],
-      "publishedAt": "2026-11-14T07:26:00.000Z",
-      "lastUpdated": "2026-11-14T07:26:00.000Z",
-      "sourceCheckedAt": "2026-11-14T22:45:11.798Z",
-      "lastVerifiedAt": "2026-11-14T22:45:11.798Z",
-      "intelligenceGeneratedAt": "2026-11-14T22:45:32.940Z",
-      "expiresAt": "2026-11-16T07:26:00.000Z",
+      "publishedAt": "2026-11-14T09:23:36.000Z",
+      "lastUpdated": "2026-11-14T09:23:36.000Z",
+      "sourceCheckedAt": "2026-11-15T02:27:25.949Z",
+      "lastVerifiedAt": "2026-11-15T02:27:25.949Z",
+      "intelligenceGeneratedAt": "2026-11-15T02:27:40.291Z",
+      "expiresAt": "2026-11-16T09:23:36.000Z",
       "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
+      "confidence": "Low",
+      "confidenceScore": 43,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
-      "upstreamId": "google-news-a91bbb30",
+      "upstreamId": "google-news-42588e95",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-14T22:45:11.798Z",
+      "discoveredAt": "2026-11-15T02:27:25.949Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
-      "relatedEventIds": [
-        "accident-developing-chhatrapati-sambhajinagar-woman-killed-over-20-injured-as-pune-nagpur-"
-      ],
-      "independentSourceCount": 2,
-      "corroboratedByIndependentSources": true
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
     },
     {
       "id": "accident-developing-pune-pcmc-to-allot-free-flats-to-kin-of-eight-workers-killed-in-moshi-",
@@ -401,9 +442,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-13T06:38:26.000Z",
       "lastUpdated": "2026-11-13T06:38:26.000Z",
-      "sourceCheckedAt": "2026-11-14T22:45:11.798Z",
-      "lastVerifiedAt": "2026-11-14T22:45:11.798Z",
-      "intelligenceGeneratedAt": "2026-11-14T22:45:32.940Z",
+      "sourceCheckedAt": "2026-11-15T02:27:25.949Z",
+      "lastVerifiedAt": "2026-11-15T02:27:25.949Z",
+      "intelligenceGeneratedAt": "2026-11-15T02:27:40.291Z",
       "expiresAt": "2026-11-15T06:38:26.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -416,7 +457,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "Pimpri-Chinchwad Municipal Corporation",
       "alertBasis": "",
-      "discoveredAt": "2026-11-14T22:45:11.798Z",
+      "discoveredAt": "2026-11-15T02:27:25.949Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -431,6 +472,15 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
+      {
+        "id": "accident-developing-one-killed-25-injured-as-private-bus-plunges-off-bridge-near-karmad-20",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
       {
         "id": "accident-developing-woman-killed-over-20-injured-as-pune-nagpur-luxury-bus-plunges-off-fly",
         "category": "accident",
@@ -459,7 +509,7 @@
         "impact": "The incident may create an immediate safety risk in the affected area."
       },
       {
-        "id": "accident-developing-1-killed-25-injured-as-pune-nagpur-bus-plunges-into-drain-near-chhatra",
+        "id": "accident-developing-chhatrapati-sambhajinagar-woman-killed-over-20-injured-as-pune-nagpur-",
         "category": "accident",
         "severity": "watch",
         "localities": [],
@@ -507,9 +557,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-12T19:10:00.000Z",
       "lastUpdated": "2026-11-12T19:10:00.000Z",
-      "sourceCheckedAt": "2026-11-14T22:45:11.798Z",
-      "lastVerifiedAt": "2026-11-14T22:45:11.798Z",
-      "intelligenceGeneratedAt": "2026-11-14T22:45:32.940Z",
+      "sourceCheckedAt": "2026-11-15T02:27:25.949Z",
+      "lastVerifiedAt": "2026-11-15T02:27:25.949Z",
+      "intelligenceGeneratedAt": "2026-11-15T02:27:40.291Z",
       "expiresAt": "2026-11-14T19:10:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -522,7 +572,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-14T22:45:11.798Z",
+      "discoveredAt": "2026-11-15T02:27:25.949Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -556,9 +606,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-12T23:38:00.000Z",
       "lastUpdated": "2026-11-12T23:38:00.000Z",
-      "sourceCheckedAt": "2026-11-14T22:45:11.798Z",
-      "lastVerifiedAt": "2026-11-14T22:45:11.798Z",
-      "intelligenceGeneratedAt": "2026-11-14T22:45:32.940Z",
+      "sourceCheckedAt": "2026-11-15T02:27:25.949Z",
+      "lastVerifiedAt": "2026-11-15T02:27:25.949Z",
+      "intelligenceGeneratedAt": "2026-11-15T02:27:40.291Z",
       "expiresAt": "2026-11-14T11:38:00.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -571,7 +621,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-14T22:45:11.798Z",
+      "discoveredAt": "2026-11-15T02:27:25.949Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -605,9 +655,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-12T12:08:41.000Z",
       "lastUpdated": "2026-11-12T12:08:41.000Z",
-      "sourceCheckedAt": "2026-11-14T22:45:11.798Z",
-      "lastVerifiedAt": "2026-11-14T22:45:11.798Z",
-      "intelligenceGeneratedAt": "2026-11-14T22:45:32.940Z",
+      "sourceCheckedAt": "2026-11-15T02:27:25.949Z",
+      "lastVerifiedAt": "2026-11-15T02:27:25.949Z",
+      "intelligenceGeneratedAt": "2026-11-15T02:27:40.291Z",
       "expiresAt": "2026-11-14T00:08:41.000Z",
       "lifecycle": "expired",
       "confidence": "Low",
@@ -620,7 +670,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "Pune Municipal Corporation",
       "alertBasis": "trusted_media_attributed_official",
-      "discoveredAt": "2026-11-14T22:45:11.798Z",
+      "discoveredAt": "2026-11-15T02:27:25.949Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -637,15 +687,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-11-14T22:45:11.798Z",
-      "lastSuccessfulAt": "2026-11-14T22:45:11.798Z",
+      "sourceCheckedAt": "2026-11-15T02:27:25.949Z",
+      "lastSuccessfulAt": "2026-11-15T02:27:25.949Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-11-14T22:45:33.004Z",
+      "generatedAt": "2026-11-15T02:27:40.928Z",
       "activeSeason": "winter",
       "priorityHazards": [
         "fog",
@@ -656,7 +706,7 @@
       "advice": "Monitor fog, low visibility, cold wave and air quality."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-11-14T22:45:33.004Z",
+      "generatedAt": "2026-11-15T02:27:40.928Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -737,7 +787,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-11-14T22:45:33.004Z",
+      "generatedAt": "2026-11-15T02:27:40.928Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -782,7 +832,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-11-14T22:45:33.052Z",
+        "generatedAt": "2026-11-15T02:27:40.991Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -902,7 +952,7 @@
               "recommendation": "Proceed with caution and allow extra travel time.",
               "reasons": [
                 "Developing: Ahilyanagar youth killed, 25 injured after Pune-Nagpur bus crashes through bridge railing, plunges 20ft i may cause delays or safety concerns.",
-                "Developing: 1 killed, 25 injured as Pune-Nagpur bus plunges into drain near Chhatrapati Sambhajinagar may cause delays or safety concerns."
+                "Developing: Chhatrapati Sambhajinagar: Woman Killed, Over 20 Injured As Pune-Nagpur Luxury Bus Plunges Off Flyover may cause delays or safety concerns."
               ],
               "penalties": [
                 {
@@ -912,10 +962,10 @@
                   "title": "Developing: Ahilyanagar youth killed, 25 injured after Pune-Nagpur bus crashes through bridge railing, plunges 20ft i"
                 },
                 {
-                  "eventId": "accident-developing-1-killed-25-injured-as-pune-nagpur-bus-plunges-into-drain-near-chhatra",
+                  "eventId": "accident-developing-chhatrapati-sambhajinagar-woman-killed-over-20-injured-as-pune-nagpur-",
                   "category": "accident",
                   "penalty": 20,
-                  "title": "Developing: 1 killed, 25 injured as Pune-Nagpur bus plunges into drain near Chhatrapati Sambhajinagar"
+                  "title": "Developing: Chhatrapati Sambhajinagar: Woman Killed, Over 20 Injured As Pune-Nagpur Luxury Bus Plunges Off Flyover"
                 }
               ]
             },
@@ -933,7 +983,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-11-14T22:45:33.052Z",
+        "generatedAt": "2026-11-15T02:27:40.991Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1026,7 +1076,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-11-14T22:45:33.052Z",
+        "generatedAt": "2026-11-15T02:27:40.991Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
