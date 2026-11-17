@@ -2,8 +2,8 @@
   "schemaVersion": "6.1.0",
   "mode": "live",
   "status": "stale",
-  "sourceCheckedAt": "2026-11-17T10:59:27.315Z",
-  "lastSuccessfulAt": "2026-11-17T10:59:27.315Z",
+  "sourceCheckedAt": "2026-11-17T19:45:13.701Z",
+  "lastSuccessfulAt": "2026-11-17T19:45:13.701Z",
   "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403",
   "optionalErrors": [
     "free_news_api: FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
@@ -13,8 +13,8 @@
       "id": "imd_nowcast",
       "name": "IMD Pune Nowcast",
       "status": "healthy",
-      "sourceCheckedAt": "2026-11-17T10:59:27.315Z",
-      "lastSuccessfulAt": "2026-11-17T10:59:27.315Z",
+      "sourceCheckedAt": "2026-11-17T19:45:13.701Z",
+      "lastSuccessfulAt": "2026-11-17T19:45:13.701Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -23,8 +23,8 @@
       "id": "ndma_sachet",
       "name": "NDMA SACHET Maharashtra CAP",
       "status": "healthy",
-      "sourceCheckedAt": "2026-11-17T10:59:27.315Z",
-      "lastSuccessfulAt": "2026-11-17T10:59:27.315Z",
+      "sourceCheckedAt": "2026-11-17T19:45:13.701Z",
+      "lastSuccessfulAt": "2026-11-17T19:45:13.701Z",
       "error": null,
       "etag": "W/\"9142-1794300858747\"",
       "itemsCollected": 0
@@ -33,7 +33,7 @@
       "id": "indian_express_pune",
       "name": "Indian Express Pune",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-11-17T10:59:27.315Z",
+      "sourceCheckedAt": "2026-11-17T19:45:13.701Z",
       "lastSuccessfulAt": "2026-11-17T02:22:22.756Z",
       "error": "Indian Express RSS request failed with HTTP 403"
     },
@@ -41,8 +41,8 @@
       "id": "hindustan_times_pune",
       "name": "Hindustan Times Pune",
       "status": "healthy",
-      "sourceCheckedAt": "2026-11-17T10:59:27.315Z",
-      "lastSuccessfulAt": "2026-11-17T10:59:27.315Z",
+      "sourceCheckedAt": "2026-11-17T19:45:13.701Z",
+      "lastSuccessfulAt": "2026-11-17T19:45:13.701Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -51,8 +51,8 @@
       "id": "pune_metro",
       "name": "Pune Metro Official Updates",
       "status": "healthy",
-      "sourceCheckedAt": "2026-11-17T10:59:27.315Z",
-      "lastSuccessfulAt": "2026-11-17T10:59:27.315Z",
+      "sourceCheckedAt": "2026-11-17T19:45:13.701Z",
+      "lastSuccessfulAt": "2026-11-17T19:45:13.701Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -61,7 +61,7 @@
       "id": "free_news_api",
       "name": "FreeNewsAPI trusted-media discovery",
       "status": "unavailable",
-      "sourceCheckedAt": "2026-11-17T10:59:27.315Z",
+      "sourceCheckedAt": "2026-11-17T19:45:13.701Z",
       "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
       "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}"
     },
@@ -69,8 +69,8 @@
       "id": "newsdata_io",
       "name": "NewsData.io trusted-media backup",
       "status": "healthy",
-      "sourceCheckedAt": "2026-11-17T10:59:27.315Z",
-      "lastSuccessfulAt": "2026-11-17T10:59:27.315Z",
+      "sourceCheckedAt": "2026-11-17T19:45:13.701Z",
+      "lastSuccessfulAt": "2026-11-17T19:45:13.701Z",
       "error": null,
       "etag": null,
       "itemsCollected": 0
@@ -79,11 +79,11 @@
       "id": "google_news_discovery",
       "name": "Google News trusted-media discovery",
       "status": "healthy",
-      "sourceCheckedAt": "2026-11-17T10:59:27.315Z",
-      "lastSuccessfulAt": "2026-11-17T10:59:27.315Z",
+      "sourceCheckedAt": "2026-11-17T19:45:13.701Z",
+      "lastSuccessfulAt": "2026-11-17T19:45:13.701Z",
       "error": null,
-      "itemsCollected": 3,
-      "itemsQualified": 3
+      "itemsCollected": 2,
+      "itemsQualified": 2
     }
   ],
   "items": [
@@ -101,10 +101,10 @@
       "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPMEtLenc1M1BSRzJIZGRLVjVOWFg3N193RnY0aXU2QUxmX2x0T1g1TmF1c3AxUlhoeG1remlvbnJCckhFamplZlVPaV84c2ZBRldEWXVuN09QTmNhNjc0eXY4elFVV09QLWszb3hUYUVGUUg2UVRfX2pxSDlNNGY1OURMVVRFV294Zm9mOHd5N3lGOXoyMEVtVlkxaWJVckpMRTJydjl3U0FBOUYxa2p2eWJpNHJwSnBxdmVCTlMweGFQRUJzbldjc0tkREdCUll6UmpsQkVBT25RSlVoTVlMZ3h1Mkk5R1o2dmdVRVJVWFRieTdRby1xMjJYYVFIRm4zVVBNQkg5SFZ5ckp1VDRvWFFVMjFlTUhDUXRXQW5kU2_SAaYCQVVfeXFMUGdybzl1ZDJGYkZGOTVZNUw1Ty1OaHRndnZSbWg5cW5YQzI1bUR6d1hHUHFkcHVOWDYxZDNudWJ0RkdhN2x6T0VsNlQzMl8tVDlLSmtlUFQzRmplMTdTNnlqNURwd2ZHNWNteC1WRDB1RkVNbjMyZDhJamstTmU0NnE2a2pQbkJyVWp1S2VZUF9QdW4tV2NCTE5rOXQtTTRnWl92bkxfR0g2b2gwR2hGQ3g4THdsZWlVQmp4S09TTWpkNDZubXVTejdZLVZ3akpXXzlBUFVSTm9zRGJSdHNLS1ByMnRaWmw4V0l4eUFTSFItak5RbEpPSXBqUnlFbzd6VGc2T0g0U29wdXExVVNCLTBrZVRLcUlHVFgtMHR4WjgyX212aEhR?oc=5",
       "sourceOrigin": "",
       "publishedAt": "2026-11-15T02:25:00.000Z",
-      "discoveredAt": "2026-11-17T10:59:27.315Z",
+      "discoveredAt": "2026-11-17T19:45:13.701Z",
       "lastUpdated": "2026-11-15T02:25:00.000Z",
-      "sourceCheckedAt": "2026-11-17T10:59:27.315Z",
-      "lastVerifiedAt": "2026-11-17T10:59:27.315Z",
+      "sourceCheckedAt": "2026-11-17T19:45:13.701Z",
+      "lastVerifiedAt": "2026-11-17T19:45:13.701Z",
       "expiresAt": "2026-11-17T02:25:00.000Z",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
@@ -128,10 +128,10 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRnJXU0xNSkpwMEFxUkpaQmJiUExhd0Nkam9fRGNQTlhOcTRHV2VoZ1ZYSUpVZ2l0NTFWaHpaeFpMN3M2cmhJd2VObk5pR3BMcjV0bjF0T3BYUlZTWEtmWm9wR2JHWUdwZmFWSlRMUGh0NGU2S2VlUmpZeW1weXR2YVBxaVVoZ2hXVzNCaUYxbS1hdlVxS2ZrTV8xYmVNY0VXWHcxWDgzb2VJV3BSQnBvUkhTVVVTTFVo?oc=5",
       "sourceOrigin": "",
       "publishedAt": "2026-11-17T08:41:48.000Z",
-      "discoveredAt": "2026-11-17T10:59:27.315Z",
+      "discoveredAt": "2026-11-17T19:45:13.701Z",
       "lastUpdated": "2026-11-17T08:41:48.000Z",
-      "sourceCheckedAt": "2026-11-17T10:59:27.315Z",
-      "lastVerifiedAt": "2026-11-17T10:59:27.315Z",
+      "sourceCheckedAt": "2026-11-17T19:45:13.701Z",
+      "lastVerifiedAt": "2026-11-17T19:45:13.701Z",
       "expiresAt": "2026-11-19T08:41:48.000Z",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
@@ -144,33 +144,6 @@
       "localities": [
         "Akurdi"
       ]
-    },
-    {
-      "eventKind": "incident",
-      "sourceId": "mid_day",
-      "collectionSourceId": "google_news_discovery",
-      "upstreamId": "google-news-55ab33d3",
-      "title": "Developing: Karnataka accident: Three of Pune family killed, 3 injured in car-lorry collision in Belagavi",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Mid-day",
-      "sourceTrust": "B",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcTJLVHV4NFpIM3dZQ3VRU3RfYnRPZmNjYVQyVDJGMGMxZjE4elBuclVyVDZDMjFnbmZ2UGxWNUZtMUJCT0RQdkVXWXNFZHN6bDFPV0Rka2tDTUhQaGZmR1VHUTBKdlhweTRQal9IeUJDSFZWYnA4THZJYmM2VDNzUzNEMnZ4WmN6RXplMUlhOVF3b1lscjcwd3dUS3JlVVE4Q0hjVGR2RmVsUDdneFdMVllaY0V1bXk4SVg0aXBzTWhGcTRiRFZVb1ZPN091eTJFdnFGa2M3SGd0b1VpUEFQNmJB?oc=5",
-      "sourceOrigin": "",
-      "publishedAt": "2026-11-15T11:44:00.000Z",
-      "discoveredAt": "2026-11-17T10:59:27.315Z",
-      "lastUpdated": "2026-11-15T11:44:00.000Z",
-      "sourceCheckedAt": "2026-11-17T10:59:27.315Z",
-      "lastVerifiedAt": "2026-11-17T10:59:27.315Z",
-      "expiresAt": "2026-11-17T11:44:00.000Z",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "geographicScope": "pune_district",
-      "affectedArea": "Pune District",
-      "talukas": [],
-      "localities": []
     }
   ]
 }
