@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-18T10:17:33.412Z",
+  "generatedAt": "2026-11-18T18:58:50.691Z",
   "routes": [],
   "risks": [
     {
@@ -13,22 +13,34 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "road-closure-developing-bhide-bridge-closed-from-nov-19-to-dec-31-for-metro-pedestrian-bri",
+      "id": "road-closure-developing-bhide-bridge-पुण्यातील-भिडे-पूल-वाहतुकीसाठी-बंद-१९-नोव्हेंबरपासून-",
       "category": "road_closure",
       "severity": "warning",
-      "localities": [
-        "Deccan Gymkhana"
-      ],
-      "talukas": [
-        "pune_city"
-      ],
-      "operationalZones": [
-        "Mutha River"
-      ],
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
       "impact": "Route may be blocked or diverted."
     },
     {
       "id": "fire-developing-fire-breaks-out-in-pune-s-timber-market-over-50-shops-damaged-2026-11-18t0",
+      "category": "fire",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "fire-developing-pune-shop-fire-news-पुण्यात-टिंबर-मार्केटला-भीषण-आग-आगीत-दुकानांचं-मोठं-नु",
+      "category": "fire",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "fire-developing-pune-fire-60-shops-gutted-in-massive-timber-market-blaze-150-firefighters-",
       "category": "fire",
       "severity": "warning",
       "localities": [],
@@ -42,28 +54,6 @@
       "severity": "watch",
       "localities": [],
       "talukas": [],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "fire-developing-pune-shop-fire-news-पुण्यात-टिंबर-मार्केटला-भीषण-आग-आगीत-दुकानांचं-मोठं-नु",
-      "category": "fire",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
-    },
-    {
-      "id": "accident-developing-pune-zepto-delivery-executive-killed-after-container-truck-hits-his-tw",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [
-        "Akurdi"
-      ],
-      "talukas": [
-        "pcmc"
-      ],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
     }
