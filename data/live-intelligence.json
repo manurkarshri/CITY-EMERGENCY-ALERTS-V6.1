@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-19T08:49:46.287Z",
+  "generatedAt": "2026-11-19T18:03:34.915Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-19T08:49:30.736Z",
-        "lastSuccessfulAt": "2026-11-19T08:49:30.736Z",
+        "sourceCheckedAt": "2026-11-19T18:03:10.538Z",
+        "lastSuccessfulAt": "2026-11-19T18:03:10.538Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-19T08:49:34.549Z",
-        "lastSuccessfulAt": "2026-11-19T08:49:34.549Z",
+        "sourceCheckedAt": "2026-11-19T18:03:23.190Z",
+        "lastSuccessfulAt": "2026-11-19T18:03:23.190Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-19T08:49:34.549Z",
-        "lastSuccessfulAt": "2026-11-19T01:03:37.994Z",
+        "sourceCheckedAt": "2026-11-19T18:03:23.190Z",
+        "lastSuccessfulAt": "2026-11-19T08:49:34.549Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-19T08:49:31.042Z",
-        "lastSuccessfulAt": "2026-11-19T08:49:31.042Z",
+        "sourceCheckedAt": "2026-11-19T18:03:10.777Z",
+        "lastSuccessfulAt": "2026-11-19T18:03:10.777Z",
         "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-19T08:49:31.042Z",
-        "lastSuccessfulAt": "2026-11-19T08:49:31.042Z",
+        "sourceCheckedAt": "2026-11-19T18:03:10.777Z",
+        "lastSuccessfulAt": "2026-11-19T18:03:10.777Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,8 +62,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-19T08:49:31.042Z",
-        "lastSuccessfulAt": "2026-11-19T08:49:31.042Z",
+        "sourceCheckedAt": "2026-11-19T18:03:10.777Z",
+        "lastSuccessfulAt": "2026-11-19T18:03:10.777Z",
         "error": null,
         "etag": "W/\"9142-1795000933308\"",
         "itemsCollected": 0,
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-11-19T08:49:31.042Z",
+        "sourceCheckedAt": "2026-11-19T18:03:10.777Z",
         "lastSuccessfulAt": "2026-11-17T02:22:22.756Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,19 +82,19 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-19T08:49:31.042Z",
-        "lastSuccessfulAt": "2026-11-19T08:49:31.042Z",
+        "sourceCheckedAt": "2026-11-19T18:03:10.777Z",
+        "lastSuccessfulAt": "2026-11-19T18:03:10.777Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 2,
+        "itemsCollected": 3,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-19T08:49:31.042Z",
-        "lastSuccessfulAt": "2026-11-19T08:49:31.042Z",
+        "sourceCheckedAt": "2026-11-19T18:03:10.777Z",
+        "lastSuccessfulAt": "2026-11-19T18:03:10.777Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -104,7 +104,7 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-11-19T08:49:31.042Z",
+        "sourceCheckedAt": "2026-11-19T18:03:10.777Z",
         "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
         "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}",
         "type": "incidents"
@@ -113,22 +113,22 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-19T08:49:31.042Z",
-        "lastSuccessfulAt": "2026-11-19T08:49:31.042Z",
+        "sourceCheckedAt": "2026-11-19T18:03:10.777Z",
+        "lastSuccessfulAt": "2026-11-19T18:03:10.777Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 0,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-19T08:49:31.042Z",
-        "lastSuccessfulAt": "2026-11-19T08:49:31.042Z",
+        "sourceCheckedAt": "2026-11-19T18:03:10.777Z",
+        "lastSuccessfulAt": "2026-11-19T18:03:10.777Z",
         "error": null,
-        "itemsCollected": 9,
-        "itemsQualified": 9,
+        "itemsCollected": 8,
+        "itemsQualified": 8,
         "type": "incidents"
       },
       {
@@ -136,8 +136,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-11-19T08:49:34.549Z",
-        "lastSuccessfulAt": "2026-11-19T08:49:34.549Z",
+        "sourceCheckedAt": "2026-11-19T18:03:23.190Z",
+        "lastSuccessfulAt": "2026-11-19T18:03:23.190Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -500,28 +500,28 @@
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
     "alertsAvailable": 0,
-    "incidentsAvailable": 9,
+    "incidentsAvailable": 8,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
   "developingSituations": [
     {
-      "id": "fire-developing-pmc-chief-promises-assistance-to-traders-hit-by-bhavani-peth-fire-2026-11-",
-      "title": "Developing: PMC chief promises assistance to traders hit by Bhavani Peth fire",
+      "id": "road-closure-developing-metro-work-prompts-traffic-diversion-at-katraj-chowk-2026-11-19t17",
+      "title": "Developing: Metro work prompts traffic diversion at Katraj Chowk",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
       "source": "Hindustan Times Pune",
       "trust": "B",
-      "updatedAt": "2026-11-19T02:26:40.000Z"
+      "updatedAt": "2026-11-19T17:00:10.000Z"
     },
     {
-      "id": "fire-developing-third-major-blaze-in-bhavani-peth-but-timber-market-still-awaits-relocatio",
-      "title": "Developing: Third major blaze in Bhavani Peth, but Timber Market still awaits relocation",
+      "id": "accident-developing-पुण्यातील-टिंबर-मार्केटमध्ये-१९७३-नंतर-सर्वात-मोठी-आग-३-वर्षांतच-दुसरी",
+      "title": "Developing: पुण्यातील टिंबर मार्केटमध्ये १९७३ नंतर सर्वात मोठी आग; ३ वर्षांतच दुसरी मोठी दुर्घटना, ५० ते ६० दुकाने, ६ घ...",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Hindustan Times Pune",
+      "source": "Lokmat Pune",
       "trust": "B",
-      "updatedAt": "2026-11-19T02:26:30.000Z"
+      "updatedAt": "2026-11-19T05:59:35.000Z"
     },
     {
       "id": "accident-developing-pune-months-after-fatal-accident-pmpml-buses-continue-to-ply-with-door",
@@ -551,22 +551,13 @@
       "updatedAt": "2026-11-18T01:51:50.000Z"
     },
     {
-      "id": "accident-developing-disturbing-video-pregnant-woman-injured-in-hit-and-run-accident-in-pun",
-      "title": "Developing: Disturbing Video: Pregnant woman injured in Hit-and-Run accident in Pune",
+      "id": "accident-developing-19-year-old-woman-killed-man-critically-injured-as-vehicle-hits-motorc",
+      "title": "Developing: 19-year-old woman killed, man critically injured as vehicle hits motorcycle on old Mumbai-Pune highway | Mumbai news",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Pune Pulse",
+      "source": "Hindustan Times Pune",
       "trust": "B",
-      "updatedAt": "2026-11-19T07:22:30.000Z"
-    },
-    {
-      "id": "accident-developing-hit-and-run-in-nagpur-after-pune-speeding-minor-crashes-car-into-crowd",
-      "title": "Developing: Hit-and-Run in Nagpur After Pune: Speeding Minor Crashes Car into Crowd, Injures Five",
-      "status": "developing",
-      "confirmation": "Awaiting official confirmation",
-      "source": "Pune Pulse",
-      "trust": "B",
-      "updatedAt": "2026-11-19T07:31:04.000Z"
+      "updatedAt": "2026-11-19T02:10:20.000Z"
     },
     {
       "id": "fire-developing-fire-breaks-out-in-dp-box-leading-to-oil-spillage-in-bhosari-2026-11-19t05",
@@ -578,13 +569,13 @@
       "updatedAt": "2026-11-19T05:46:33.000Z"
     },
     {
-      "id": "accident-developing-pune-woman-sanitation-worker-killed-as-speeding-car-driven-by-cop-rams",
-      "title": "Developing: Pune: Woman Sanitation Worker Killed as Speeding Car Driven By Cop Rams Into Autorickshaw; Accused Arrested",
+      "id": "fire-developing-pune-news-massive-blaze-guts-illegal-scrap-warehouses-in-chikhali-60-firef",
+      "title": "Developing: Pune News: Massive Blaze Guts Illegal Scrap Warehouses In Chikhali; 60 Firefighters Battle Fire For Over Two Hours",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Punekar News",
+      "source": "Pune Pulse",
       "trust": "B",
-      "updatedAt": "2026-11-18T09:08:56.000Z"
+      "updatedAt": "2026-11-19T03:47:37.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."

@@ -1,25 +1,29 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-19T08:49:46.123Z",
+  "generatedAt": "2026-11-19T18:03:34.761Z",
   "routes": [],
   "risks": [
     {
-      "id": "fire-developing-pmc-chief-promises-assistance-to-traders-hit-by-bhavani-peth-fire-2026-11-",
-      "category": "fire",
+      "id": "road-closure-developing-metro-work-prompts-traffic-diversion-at-katraj-chowk-2026-11-19t17",
+      "category": "road_closure",
       "severity": "warning",
-      "localities": [],
-      "talukas": [],
+      "localities": [
+        "Katraj"
+      ],
+      "talukas": [
+        "pune_city"
+      ],
       "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
+      "impact": "Route may be blocked or diverted."
     },
     {
-      "id": "fire-developing-third-major-blaze-in-bhavani-peth-but-timber-market-still-awaits-relocatio",
-      "category": "fire",
-      "severity": "warning",
+      "id": "accident-developing-पुण्यातील-टिंबर-मार्केटमध्ये-१९७३-नंतर-सर्वात-मोठी-आग-३-वर्षांतच-दुसरी",
+      "category": "accident",
+      "severity": "watch",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
+      "impact": "Traffic delays are likely near the incident location."
     },
     {
       "id": "accident-developing-pune-months-after-fatal-accident-pmpml-buses-continue-to-ply-with-door",
@@ -49,16 +53,7 @@
       "impact": "This event may affect local awareness or movement."
     },
     {
-      "id": "accident-developing-disturbing-video-pregnant-woman-injured-in-hit-and-run-accident-in-pun",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "accident-developing-hit-and-run-in-nagpur-after-pune-speeding-minor-crashes-car-into-crowd",
+      "id": "accident-developing-19-year-old-woman-killed-man-critically-injured-as-vehicle-hits-motorc",
       "category": "accident",
       "severity": "watch",
       "localities": [],
@@ -80,13 +75,17 @@
       "impact": "This event may affect local awareness or movement."
     },
     {
-      "id": "accident-developing-pune-woman-sanitation-worker-killed-as-speeding-car-driven-by-cop-rams",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
+      "id": "fire-developing-pune-news-massive-blaze-guts-illegal-scrap-warehouses-in-chikhali-60-firef",
+      "category": "fire",
+      "severity": "warning",
+      "localities": [
+        "Chikhali"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
       "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
+      "impact": "This event may affect local awareness or movement."
     }
   ]
 }
