@@ -1,20 +1,32 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-20T00:37:48.806Z",
+  "generatedAt": "2026-11-20T07:47:21.857Z",
   "routes": [],
   "risks": [
     {
-      "id": "road-closure-developing-metro-work-prompts-traffic-diversion-at-katraj-chowk-2026-11-19t17",
-      "category": "road_closure",
+      "id": "flood-developing-cwprs-to-complete-mula-mutha-flood-assessment-in-six-months-2026-11-20t02",
+      "category": "flood",
+      "severity": "warning",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [
+        "Mutha River",
+        "Mula-Mutha River"
+      ],
+      "impact": "This event may affect local awareness or movement."
+    },
+    {
+      "id": "food-safety-developing-fda-warns-of-firs-as-roadside-food-vendors-defy-closure-orders-2026",
+      "category": "food_safety",
       "severity": "warning",
       "localities": [
-        "Katraj"
+        "Camp"
       ],
       "talukas": [
         "pune_city"
       ],
       "operationalZones": [],
-      "impact": "Route may be blocked or diverted."
+      "impact": "Unsafe or contaminated food may affect people who consumed the reported product or visited the location."
     },
     {
       "id": "accident-developing-pune-months-after-fatal-accident-pmpml-buses-continue-to-ply-with-door",
@@ -24,24 +36,6 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "fire-developing-pune-fire-breaks-out-in-timber-market-over-50-shops-damaged-2026-11-18t03-",
-      "category": "fire",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
-    },
-    {
-      "id": "fire-developing-pune-shop-fire-news-पुण्यात-टिंबर-मार्केटला-भीषण-आग-आगीत-दुकानांचं-मोठं-नु",
-      "category": "fire",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
     },
     {
       "id": "accident-developing-19-year-old-woman-killed-man-critically-injured-as-vehicle-hits-motorc",

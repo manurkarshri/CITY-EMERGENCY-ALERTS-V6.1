@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-20T00:37:49.211Z",
+  "generatedAt": "2026-11-20T07:47:22.010Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-11-20T00:37:49.210Z",
+      "generatedAt": "2026-11-20T07:47:22.010Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -152,7 +152,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-11-20T00:37:49.211Z",
+      "generatedAt": "2026-11-20T07:47:22.010Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -263,7 +263,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-11-20T00:37:49.211Z",
+      "generatedAt": "2026-11-20T07:47:22.010Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
@@ -292,18 +292,27 @@
         "mapsQuery": "Swargate to Sinhagad Road Dhayari",
         "routeType": "known-corridor",
         "journeySuitability": {
-          "score": 100,
-          "label": "Excellent",
-          "recommendation": "Travel conditions look suitable.",
-          "reasons": [],
-          "penalties": []
+          "score": 75,
+          "label": "Good to Go",
+          "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+          "reasons": [
+            "Developing: CWPRS to complete Mula-Mutha flood assessment in six months may cause delays or safety concerns."
+          ],
+          "penalties": [
+            {
+              "eventId": "flood-developing-cwprs-to-complete-mula-mutha-flood-assessment-in-six-months-2026-11-20t02",
+              "category": "flood",
+              "penalty": 25,
+              "title": "Developing: CWPRS to complete Mula-Mutha flood assessment in six months"
+            }
+          ]
         },
-        "estimatedTimeMin": 35,
-        "estimatedDelayMin": 0,
+        "estimatedTimeMin": 43,
+        "estimatedDelayMin": 8,
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
         "rank": 1,
         "recommended": true,
-        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+        "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (75/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: CWPRS to complete Mula-Mutha flood assessment in six months may cause delays or safety concerns."
       },
       "routes": [
         {
@@ -334,18 +343,27 @@
           "mapsQuery": "Swargate to Sinhagad Road Dhayari",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 100,
-            "label": "Excellent",
-            "recommendation": "Travel conditions look suitable.",
-            "reasons": [],
-            "penalties": []
+            "score": 75,
+            "label": "Good to Go",
+            "recommendation": "Travel is generally suitable. Allow minor buffer time.",
+            "reasons": [
+              "Developing: CWPRS to complete Mula-Mutha flood assessment in six months may cause delays or safety concerns."
+            ],
+            "penalties": [
+              {
+                "eventId": "flood-developing-cwprs-to-complete-mula-mutha-flood-assessment-in-six-months-2026-11-20t02",
+                "category": "flood",
+                "penalty": 25,
+                "title": "Developing: CWPRS to complete Mula-Mutha flood assessment in six months"
+              }
+            ]
           },
-          "estimatedTimeMin": 35,
-          "estimatedDelayMin": 0,
+          "estimatedTimeMin": 43,
+          "estimatedDelayMin": 8,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Swargate%20to%20Sinhagad%20Road%20Dhayari",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Excellent (100/100). Estimated travel time is about 35 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Swargate to Sinhagad Road. Journey suitability is Good to Go (75/100). Estimated travel time is about 43 minutes including around 8 minutes delay. Main reason: Developing: CWPRS to complete Mula-Mutha flood assessment in six months may cause delays or safety concerns."
         }
       ]
     }
