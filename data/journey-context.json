@@ -1,32 +1,16 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-20T07:47:21.857Z",
+  "generatedAt": "2026-11-20T16:48:46.010Z",
   "routes": [],
   "risks": [
     {
-      "id": "flood-developing-cwprs-to-complete-mula-mutha-flood-assessment-in-six-months-2026-11-20t02",
-      "category": "flood",
-      "severity": "warning",
+      "id": "explosion-developing-पोटगीचे-साडेसहा-लाख-घेतले-अन्-पत्नीचा-घटस्फोटास-नकार-शेवटी-कोर्टानं-क",
+      "category": "explosion",
+      "severity": "emergency",
       "localities": [],
       "talukas": [],
-      "operationalZones": [
-        "Mutha River",
-        "Mula-Mutha River"
-      ],
-      "impact": "This event may affect local awareness or movement."
-    },
-    {
-      "id": "food-safety-developing-fda-warns-of-firs-as-roadside-food-vendors-defy-closure-orders-2026",
-      "category": "food_safety",
-      "severity": "warning",
-      "localities": [
-        "Camp"
-      ],
-      "talukas": [
-        "pune_city"
-      ],
       "operationalZones": [],
-      "impact": "Unsafe or contaminated food may affect people who consumed the reported product or visited the location."
+      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
     },
     {
       "id": "accident-developing-pune-months-after-fatal-accident-pmpml-buses-continue-to-ply-with-door",
@@ -45,19 +29,6 @@
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
-    },
-    {
-      "id": "fire-developing-pune-news-massive-blaze-guts-illegal-scrap-warehouses-in-chikhali-60-firef",
-      "category": "fire",
-      "severity": "warning",
-      "localities": [
-        "Chikhali"
-      ],
-      "talukas": [
-        "pcmc"
-      ],
-      "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
     }
   ]
 }
