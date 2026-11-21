@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-21T19:40:01.673Z",
-  "status": "stale",
+  "generatedAt": "2026-11-21T23:56:57.945Z",
+  "status": "current",
   "situation": {
     "snapshot": "2 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-11-21T19:40:01.732Z",
+      "generatedAt": "2026-11-21T23:56:57.983Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -146,20 +146,21 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-11-21T19:40:01.954Z",
+      "generatedAt": "2026-11-21T23:56:58.619Z",
       "riskLevel": "Normal",
       "impacts": [],
       "citizenSummary": "No major environmental disruption indicated from current data.",
       "seasonalContext": "winter"
     }
   },
-  "alerts": [
+  "alerts": [],
+  "incidents": [
     {
       "id": "food-safety-developing-pcmc-fda-lock-horns-over-ycm-hospital-drug-store-raid-2026-11-21t15",
-      "eventKind": "alert",
+      "eventKind": "incident",
       "sourceId": "indian_express_pune",
       "title": "Developing: PCMC, FDA lock horns over YCM Hospital drug store raid",
-      "summary": "A current trusted-media report relevant to Pune District. Indian Express Pune attributes this alert to Pimpri-Chinchwad Municipal Corporation. The original official feed was not available to the app at collection time.",
+      "summary": "PCMC, FDA lock horns over YCM Hospital drug store raid",
       "category": "food_safety",
       "severity": "warning",
       "source": "Indian Express Pune",
@@ -168,43 +169,47 @@
         {
           "name": "Indian Express Pune",
           "trust": "B",
+          "link": "https://indianexpress.com/article/cities/pune/pcmc-fda-clash-substandard-medicine-seizure-valuation-ycm-hospital-10973012/",
+          "origin": ""
+        },
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOend6RVFYeGJlWWRUSnJQblNQRnk3VzgzdU1qS1lxRzEyZU9BVXAwb3pWT1BwM2dsa1pwaXl5eTVYT1A2TGhhQnJPV2F4YVVKWG1uczdQQWktdnlWYm5TSy1mRFYtSzk5Zi1NamFhX1BmOG5obXJVTlRHcDJIcy1tcFdUYjRxLVYwRE41SHBRa0U3dFJKMnBla1ZfamdQOFhtdUttOWFPZElXUll2SFJmeFR5UlhMUkhHNHZkUzZIONIBxgFBVV95cUxQQV9mcnEtWk0yZzU3YTZobmJGeldrWGJqZUw5dE54US1pYXVic2stN0lXUVlkbHhORTB0SDNrRWgyZXNJaFpYSTRTU3JnT0RRUWtyZVpTcnUxMFlCRlV3STA3MmpTbHZ5bm02U1VSRk9fcVNvYWpvX1psTXJTSmpkTDNWRllDdnBFMDBISE5QbWE0anJmOVJmbVJiOHNlY3N1RFNndU9jU29UVmR0d2ZYZ0hCVEJOa3BMU3hxZ3NmNE1IT3lCWVE?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOend6RVFYeGJlWWRUSnJQblNQRnk3VzgzdU1qS1lxRzEyZU9BVXAwb3pWT1BwM2dsa1pwaXl5eTVYT1A2TGhhQnJPV2F4YVVKWG1uczdQQWktdnlWYm5TSy1mRFYtSzk5Zi1NamFhX1BmOG5obXJVTlRHcDJIcy1tcFdUYjRxLVYwRE41SHBRa0U3dFJKMnBla1ZfamdQOFhtdUttOWFPZElXUll2SFJmeFR5UlhMUkhHNHZkUzZIONIBxgFBVV95cUxQQV9mcnEtWk0yZzU3YTZobmJGeldrWGJqZUw5dE54US1pYXVic2stN0lXUVlkbHhORTB0SDNrRWgyZXNJaFpYSTRTU3JnT0RRUWtyZVpTcnUxMFlCRlV3STA3MmpTbHZ5bm02U1VSRk9fcVNvYWpvX1psTXJTSmpkTDNWRllDdnBFMDBISE5QbWE0anJmOVJmbVJiOHNlY3N1RFNndU9jU29UVmR0d2ZYZ0hCVEJOa3BMU3hxZ3NmNE1IT3lCWVE?oc=5",
+      "link": "https://indianexpress.com/article/cities/pune/pcmc-fda-clash-substandard-medicine-seizure-valuation-ycm-hospital-10973012/",
       "talukas": [],
       "localities": [],
       "operationalZones": [],
       "publishedAt": "2026-11-21T15:00:38.000Z",
       "lastUpdated": "2026-11-21T15:00:38.000Z",
-      "sourceCheckedAt": "2026-11-21T19:39:47.426Z",
-      "lastVerifiedAt": "2026-11-21T19:39:47.426Z",
-      "intelligenceGeneratedAt": "2026-11-21T19:40:01.673Z",
-      "expiresAt": "2026-11-24T15:00:38.000Z",
+      "sourceCheckedAt": "2026-11-21T23:56:27.588Z",
+      "lastVerifiedAt": "2026-11-21T23:56:27.588Z",
+      "intelligenceGeneratedAt": "2026-11-21T23:56:57.945Z",
+      "expiresAt": "2026-11-22T03:00:38.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "Unsafe or contaminated food may affect people who consumed the reported product or visited the location.",
       "recommendedAction": "Avoid the suspected item or outlet, follow recall or health guidance, and seek medical help if symptoms develop.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-8374021d",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "Pimpri-Chinchwad Municipal Corporation",
-      "alertBasis": "trusted_media_attributed_official",
-      "discoveredAt": "2026-11-21T19:39:47.426Z",
+      "affectedArea": "",
+      "upstreamId": "",
+      "collectionProvider": "",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "pune_district",
+      "geographicScope": "broader_area",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
-    }
-  ],
-  "incidents": [
+    },
     {
       "id": "fire-developing-pune-blaze-at-bhosari-industrial-cluster-damages-four-units-damages-reside",
       "eventKind": "incident",
@@ -235,7 +240,7 @@
       "lastUpdated": "2026-11-21T07:45:22.000Z",
       "sourceCheckedAt": "2026-11-21T19:39:47.426Z",
       "lastVerifiedAt": "2026-11-21T19:39:47.426Z",
-      "intelligenceGeneratedAt": "2026-11-21T19:40:01.673Z",
+      "intelligenceGeneratedAt": "2026-11-21T23:56:57.945Z",
       "expiresAt": "2026-11-23T07:45:22.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -285,121 +290,22 @@
       }
     ]
   },
-  "expiredEvents": [
-    {
-      "id": "accident-developing-pune-months-after-fatal-accident-pmpml-buses-continue-to-ply-with-door",
-      "eventKind": "incident",
-      "sourceId": "indian_express_pune",
-      "title": "Developing: Pune: Months after fatal accident, PMPML buses continue to ply with doors open",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Indian Express Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOV9vd3ZwLXo4M3Ywd1BMTzc0bTZzSDk2Vk94N1gtdG1KWFl5Y2NHdzVubGxhMzQyc1g2UG10Qk84SzZpV0dGc3E0aHVKYXE0bk5vUmVQR0xRejVkY2dkTjZyZzE4UV9TblVBS3NsZWsyaU9ZRDlQazFSaXRGLVYyRS1PMHI2d1lsR0U3Q2ZuSV9pdUdHVnBMMEtreDhxczRjQnfSAagBQVVfeXFMT2w1MHVVMlJzMDNwdFE2T3lkYzJoVkYxNkg4OVg0SFlwVEctSzhsMmxDckd5bUZDV2N6MUhFV3VSQXJMNlRnTEw3UEZDZG9yazNvdE1lXzdad1pFUlBraWZRR1VRVi1HYUFCLUhWZ3JNYmgyNV9YUFpfQTlnRGY1R0EwMVk4bU5YdngxNFB0UFNzOFpHZVFDRXFET2dUU3Y3UXhJcmZNdzVG?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOV9vd3ZwLXo4M3Ywd1BMTzc0bTZzSDk2Vk94N1gtdG1KWFl5Y2NHdzVubGxhMzQyc1g2UG10Qk84SzZpV0dGc3E0aHVKYXE0bk5vUmVQR0xRejVkY2dkTjZyZzE4UV9TblVBS3NsZWsyaU9ZRDlQazFSaXRGLVYyRS1PMHI2d1lsR0U3Q2ZuSV9pdUdHVnBMMEtreDhxczRjQnfSAagBQVVfeXFMT2w1MHVVMlJzMDNwdFE2T3lkYzJoVkYxNkg4OVg0SFlwVEctSzhsMmxDckd5bUZDV2N6MUhFV3VSQXJMNlRnTEw3UEZDZG9yazNvdE1lXzdad1pFUlBraWZRR1VRVi1HYUFCLUhWZ3JNYmgyNV9YUFpfQTlnRGY1R0EwMVk4bU5YdngxNFB0UFNzOFpHZVFDRXFET2dUU3Y3UXhJcmZNdzVG?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-11-19T00:10:57.000Z",
-      "lastUpdated": "2026-11-19T00:10:57.000Z",
-      "sourceCheckedAt": "2026-11-21T19:39:47.426Z",
-      "lastVerifiedAt": "2026-11-21T19:39:47.426Z",
-      "intelligenceGeneratedAt": "2026-11-21T19:40:01.673Z",
-      "expiresAt": "2026-11-21T00:10:57.000Z",
-      "lifecycle": "expired",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-19c9f8ed",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-11-21T19:39:47.426Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-19-year-old-woman-killed-man-critically-injured-as-vehicle-hits-motorc",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: 19-year-old woman killed, man critically injured as vehicle hits motorcycle on old Mumbai-Pune highway | Mumbai news",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYzI5NkN6SUc4VTBOMW9XVjBEd25aRHd0cUk3a0NjcWdWSTNqaHNLcWhUVTVZcW12TTdQXzF4aU5XTGNwcGcyenpsbWhZUlRlVXdncm10blBTZFJDNjA0eDd0aDBvLWhTa3N5MU04Vi1FTG1fVm9RYTJnekVxaGdvMEVHcFpzcDFpRllwYnB2M25fMHlNRnlneXFQWTg5eUFsQmNvS2NVQXQ0RTB2dHhKRzJKb0Nzdm1tTmlqVFYzSFpzemgzblNCVnZLcXJCcWEzY21JUWtBTllZLUEwaWNEcklHekhhTnlMamFRZ2kydGU1QWxnQjdhV3UxTHlFdGfSAYQCQVVfeXFMTWpBZ2o1QUxhc2FrWjZGaXZiNEJSR0dZU2xpQVRqUXY3bjc2dlJ0dW8zZFE0Q1k0T2FXYS03RW5EUnB6aC1zeUEtd2FWelRycG12M2Z0enpCdTZvc3RWRkJmOFhsVkx0MjVrV3ZNLW9US0NvWDA5S0N3UndudGsxa094LWViQ1lyOTVnY2cyaWl6Y1FZRmM1TGwtR1MyanU5QU92MWRMQzV0T0FxLWFwR1lxQ0M4ZFpYUUYtbUVVMjB4dWxDaXQyc2VfMi1mYVJhUjNBXzdyQnBUQjZWbzljVkt6TS1YRDNLRHFXY251N1lzb1c3VklTeVd2Y2tHVTBubFRoRmI?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYzI5NkN6SUc4VTBOMW9XVjBEd25aRHd0cUk3a0NjcWdWSTNqaHNLcWhUVTVZcW12TTdQXzF4aU5XTGNwcGcyenpsbWhZUlRlVXdncm10blBTZFJDNjA0eDd0aDBvLWhTa3N5MU04Vi1FTG1fVm9RYTJnekVxaGdvMEVHcFpzcDFpRllwYnB2M25fMHlNRnlneXFQWTg5eUFsQmNvS2NVQXQ0RTB2dHhKRzJKb0Nzdm1tTmlqVFYzSFpzemgzblNCVnZLcXJCcWEzY21JUWtBTllZLUEwaWNEcklHekhhTnlMamFRZ2kydGU1QWxnQjdhV3UxTHlFdGfSAYQCQVVfeXFMTWpBZ2o1QUxhc2FrWjZGaXZiNEJSR0dZU2xpQVRqUXY3bjc2dlJ0dW8zZFE0Q1k0T2FXYS03RW5EUnB6aC1zeUEtd2FWelRycG12M2Z0enpCdTZvc3RWRkJmOFhsVkx0MjVrV3ZNLW9US0NvWDA5S0N3UndudGsxa094LWViQ1lyOTVnY2cyaWl6Y1FZRmM1TGwtR1MyanU5QU92MWRMQzV0T0FxLWFwR1lxQ0M4ZFpYUUYtbUVVMjB4dWxDaXQyc2VfMi1mYVJhUjNBXzdyQnBUQjZWbzljVkt6TS1YRDNLRHFXY251N1lzb1c3VklTeVd2Y2tHVTBubFRoRmI?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-11-19T02:10:20.000Z",
-      "lastUpdated": "2026-11-19T02:10:20.000Z",
-      "sourceCheckedAt": "2026-11-21T19:39:47.426Z",
-      "lastVerifiedAt": "2026-11-21T19:39:47.426Z",
-      "intelligenceGeneratedAt": "2026-11-21T19:40:01.673Z",
-      "expiresAt": "2026-11-21T02:10:20.000Z",
-      "lifecycle": "expired",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-5f211738",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-11-21T19:39:47.426Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
+  "expiredEvents": [],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
-      "status": "stale",
-      "sourceCheckedAt": "2026-11-21T19:39:47.426Z",
-      "lastSuccessfulAt": "2026-11-21T19:39:47.426Z",
-      "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
+      "status": "healthy",
+      "sourceCheckedAt": "2026-11-21T23:56:27.588Z",
+      "lastSuccessfulAt": "2026-11-21T23:56:27.588Z",
+      "error": null
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-11-21T19:40:01.954Z",
+      "generatedAt": "2026-11-21T23:56:58.619Z",
       "activeSeason": "winter",
       "priorityHazards": [
         "fog",
@@ -410,7 +316,7 @@
       "advice": "Monitor fog, low visibility, cold wave and air quality."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-11-21T19:40:01.953Z",
+      "generatedAt": "2026-11-21T23:56:58.618Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -491,7 +397,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-11-21T19:40:01.954Z",
+      "generatedAt": "2026-11-21T23:56:58.619Z",
       "mode": "on-demand",
       "relevantDomains": [
         "emergencyServices"
@@ -536,7 +442,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-11-21T19:40:02.006Z",
+        "generatedAt": "2026-11-21T23:56:58.659Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-nh48",
           "label": "Kharadi to Hinjawadi via NH48",
@@ -680,7 +586,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-11-21T19:40:02.006Z",
+        "generatedAt": "2026-11-21T23:56:58.659Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -777,7 +683,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-11-21T19:40:02.007Z",
+        "generatedAt": "2026-11-21T23:56:58.660Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
