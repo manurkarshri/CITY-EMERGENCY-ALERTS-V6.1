@@ -1,47 +1,45 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-21T23:56:57.945Z",
+  "generatedAt": "2026-11-22T06:11:27.318Z",
   "sourceStatus": "healthy",
   "items": [
     {
-      "id": "food-safety-developing-pcmc-fda-lock-horns-over-ycm-hospital-drug-store-raid-2026-11-21t15",
+      "id": "fire-developing-fire-damages-material-worth-53-lakh-at-four-units-in-bhosari-2026-11-22t02",
       "eventKind": "incident",
-      "sourceId": "indian_express_pune",
-      "title": "Developing: PCMC, FDA lock horns over YCM Hospital drug store raid",
-      "summary": "PCMC, FDA lock horns over YCM Hospital drug store raid",
-      "category": "food_safety",
+      "sourceId": "hindustan_times_pune",
+      "title": "Developing: Fire damages material worth ₹53 lakh at four units in Bhosari",
+      "summary": "Nine fire tenders and 52 personnel from the PCMC fire brigade battled the blaze for nearly two hours",
+      "category": "fire",
       "severity": "warning",
-      "source": "Indian Express Pune",
+      "source": "Hindustan Times Pune",
       "sourceTrust": "B",
       "sources": [
         {
-          "name": "Indian Express Pune",
+          "name": "Hindustan Times Pune",
           "trust": "B",
-          "link": "https://indianexpress.com/article/cities/pune/pcmc-fda-clash-substandard-medicine-seizure-valuation-ycm-hospital-10973012/",
-          "origin": ""
-        },
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOend6RVFYeGJlWWRUSnJQblNQRnk3VzgzdU1qS1lxRzEyZU9BVXAwb3pWT1BwM2dsa1pwaXl5eTVYT1A2TGhhQnJPV2F4YVVKWG1uczdQQWktdnlWYm5TSy1mRFYtSzk5Zi1NamFhX1BmOG5obXJVTlRHcDJIcy1tcFdUYjRxLVYwRE41SHBRa0U3dFJKMnBla1ZfamdQOFhtdUttOWFPZElXUll2SFJmeFR5UlhMUkhHNHZkUzZIONIBxgFBVV95cUxQQV9mcnEtWk0yZzU3YTZobmJGeldrWGJqZUw5dE54US1pYXVic2stN0lXUVlkbHhORTB0SDNrRWgyZXNJaFpYSTRTU3JnT0RRUWtyZVpTcnUxMFlCRlV3STA3MmpTbHZ5bm02U1VSRk9fcVNvYWpvX1psTXJTSmpkTDNWRllDdnBFMDBISE5QbWE0anJmOVJmbVJiOHNlY3N1RFNndU9jU29UVmR0d2ZYZ0hCVEJOa3BMU3hxZ3NmNE1IT3lCWVE?oc=5",
+          "link": "https://www.hindustantimes.com/cities/pune-news/fire-damages-material-worth-53-lakh-at-four-units-in-bhosari-101795285429872.html",
           "origin": ""
         }
       ],
-      "link": "https://indianexpress.com/article/cities/pune/pcmc-fda-clash-substandard-medicine-seizure-valuation-ycm-hospital-10973012/",
-      "talukas": [],
-      "localities": [],
+      "link": "https://www.hindustantimes.com/cities/pune-news/fire-damages-material-worth-53-lakh-at-four-units-in-bhosari-101795285429872.html",
+      "talukas": [
+        "pcmc"
+      ],
+      "localities": [
+        "Bhosari"
+      ],
       "operationalZones": [],
-      "publishedAt": "2026-11-21T15:00:38.000Z",
-      "lastUpdated": "2026-11-21T15:00:38.000Z",
-      "sourceCheckedAt": "2026-11-21T23:56:27.588Z",
-      "lastVerifiedAt": "2026-11-21T23:56:27.588Z",
-      "intelligenceGeneratedAt": "2026-11-21T23:56:57.945Z",
-      "expiresAt": "2026-11-22T03:00:38.000Z",
+      "publishedAt": "2026-11-22T02:07:10.000Z",
+      "lastUpdated": "2026-11-22T02:07:10.000Z",
+      "sourceCheckedAt": "2026-11-22T06:11:12.834Z",
+      "lastVerifiedAt": "2026-11-22T06:11:12.834Z",
+      "intelligenceGeneratedAt": "2026-11-22T06:11:27.318Z",
+      "expiresAt": "2026-11-22T14:07:10.000Z",
       "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
-      "impact": "Unsafe or contaminated food may affect people who consumed the reported product or visited the location.",
-      "recommendedAction": "Avoid the suspected item or outlet, follow recall or health guidance, and seek medical help if symptoms develop.",
+      "confidence": "Medium",
+      "confidenceScore": 70,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
       "affectedArea": "",
       "upstreamId": "",
       "collectionProvider": "",
@@ -53,8 +51,10 @@
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "broader_area",
-      "relatedEventIds": [],
+      "geographicScope": "local",
+      "relatedEventIds": [
+        "fire-developing-pune-blaze-at-bhosari-industrial-cluster-damages-four-units-damages-reside"
+      ],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
     },
@@ -86,9 +86,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-21T07:45:22.000Z",
       "lastUpdated": "2026-11-21T07:45:22.000Z",
-      "sourceCheckedAt": "2026-11-21T19:39:47.426Z",
-      "lastVerifiedAt": "2026-11-21T19:39:47.426Z",
-      "intelligenceGeneratedAt": "2026-11-21T23:56:57.945Z",
+      "sourceCheckedAt": "2026-11-22T06:11:12.834Z",
+      "lastVerifiedAt": "2026-11-22T06:11:12.834Z",
+      "intelligenceGeneratedAt": "2026-11-22T06:11:27.318Z",
       "expiresAt": "2026-11-23T07:45:22.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -101,13 +101,15 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-21T19:39:47.426Z",
+      "discoveredAt": "2026-11-22T06:11:12.834Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "local",
-      "relatedEventIds": [],
+      "relatedEventIds": [
+        "fire-developing-fire-damages-material-worth-53-lakh-at-four-units-in-bhosari-2026-11-22t02"
+      ],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
     }

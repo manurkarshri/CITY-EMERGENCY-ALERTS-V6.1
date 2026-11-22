@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-21T23:56:58.694Z",
+  "generatedAt": "2026-11-22T06:11:28.047Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -15,18 +15,18 @@
         "id": "open_meteo",
         "name": "Open-Meteo",
         "type": "weather",
-        "status": "stale",
-        "sourceCheckedAt": "2026-11-21T23:56:27.442Z",
-        "lastSuccessfulAt": "2026-11-21T19:39:47.121Z",
-        "error": "Open-Meteo request failed with HTTP 429"
+        "status": "healthy",
+        "sourceCheckedAt": "2026-11-22T06:11:12.686Z",
+        "lastSuccessfulAt": "2026-11-22T06:11:12.686Z",
+        "error": null
       },
       {
         "id": "maharashtra_rtdas",
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-21T23:56:39.826Z",
-        "lastSuccessfulAt": "2026-11-21T23:56:39.826Z",
+        "sourceCheckedAt": "2026-11-22T06:11:15.759Z",
+        "lastSuccessfulAt": "2026-11-22T06:11:15.759Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-21T23:56:39.826Z",
-        "lastSuccessfulAt": "2026-11-21T19:39:50.077Z",
+        "sourceCheckedAt": "2026-11-22T06:11:15.759Z",
+        "lastSuccessfulAt": "2026-11-21T23:56:39.826Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-21T23:56:27.588Z",
-        "lastSuccessfulAt": "2026-11-21T23:56:27.588Z",
+        "sourceCheckedAt": "2026-11-22T06:11:12.834Z",
+        "lastSuccessfulAt": "2026-11-22T06:11:12.834Z",
         "error": null
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-21T23:56:27.588Z",
-        "lastSuccessfulAt": "2026-11-21T23:56:27.588Z",
+        "sourceCheckedAt": "2026-11-22T06:11:12.834Z",
+        "lastSuccessfulAt": "2026-11-22T06:11:12.834Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,8 +62,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-21T23:56:27.588Z",
-        "lastSuccessfulAt": "2026-11-21T23:56:27.588Z",
+        "sourceCheckedAt": "2026-11-22T06:11:12.834Z",
+        "lastSuccessfulAt": "2026-11-22T06:11:12.834Z",
         "error": null,
         "etag": "W/\"8929-1795258882648\"",
         "itemsCollected": 0,
@@ -73,8 +73,8 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-21T23:56:27.588Z",
-        "lastSuccessfulAt": "2026-11-21T23:56:27.588Z",
+        "sourceCheckedAt": "2026-11-22T06:11:12.834Z",
+        "lastSuccessfulAt": "2026-11-22T06:11:12.834Z",
         "error": null,
         "etag": null,
         "itemsCollected": 1,
@@ -84,19 +84,19 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-21T23:56:27.588Z",
-        "lastSuccessfulAt": "2026-11-21T23:56:27.588Z",
+        "sourceCheckedAt": "2026-11-22T06:11:12.834Z",
+        "lastSuccessfulAt": "2026-11-22T06:11:12.834Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 0,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-21T23:56:27.588Z",
-        "lastSuccessfulAt": "2026-11-21T23:56:27.588Z",
+        "sourceCheckedAt": "2026-11-22T06:11:12.834Z",
+        "lastSuccessfulAt": "2026-11-22T06:11:12.834Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -106,7 +106,7 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-11-21T23:56:27.588Z",
+        "sourceCheckedAt": "2026-11-22T06:11:12.834Z",
         "lastSuccessfulAt": "2026-08-03T07:47:27.367Z",
         "error": "FreeNewsAPI request failed with HTTP 500: {\"error\":\"Internal Server Error\"}",
         "type": "incidents"
@@ -115,8 +115,8 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-21T23:56:27.588Z",
-        "lastSuccessfulAt": "2026-11-21T23:56:27.588Z",
+        "sourceCheckedAt": "2026-11-22T06:11:12.834Z",
+        "lastSuccessfulAt": "2026-11-22T06:11:12.834Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -125,11 +125,11 @@
       {
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
-        "status": "stale",
-        "sourceCheckedAt": "2026-11-21T23:56:27.588Z",
-        "lastSuccessfulAt": "2026-11-21T19:39:47.426Z",
-        "error": "Google News RSS request failed with HTTP 503",
-        "itemsCollected": 0,
+        "status": "healthy",
+        "sourceCheckedAt": "2026-11-22T06:11:12.834Z",
+        "lastSuccessfulAt": "2026-11-22T06:11:12.834Z",
+        "error": null,
+        "itemsCollected": 2,
         "itemsQualified": 2,
         "type": "incidents"
       },
@@ -138,8 +138,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-11-21T23:56:39.826Z",
-        "lastSuccessfulAt": "2026-11-21T23:56:39.826Z",
+        "sourceCheckedAt": "2026-11-22T06:11:15.759Z",
+        "lastSuccessfulAt": "2026-11-22T06:11:15.759Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -508,13 +508,13 @@
   },
   "developingSituations": [
     {
-      "id": "food-safety-developing-pcmc-fda-lock-horns-over-ycm-hospital-drug-store-raid-2026-11-21t15",
-      "title": "Developing: PCMC, FDA lock horns over YCM Hospital drug store raid",
+      "id": "fire-developing-fire-damages-material-worth-53-lakh-at-four-units-in-bhosari-2026-11-22t02",
+      "title": "Developing: Fire damages material worth ₹53 lakh at four units in Bhosari",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Indian Express Pune",
+      "source": "Hindustan Times Pune",
       "trust": "B",
-      "updatedAt": "2026-11-21T15:00:38.000Z"
+      "updatedAt": "2026-11-22T02:07:10.000Z"
     },
     {
       "id": "fire-developing-pune-blaze-at-bhosari-industrial-cluster-damages-four-units-damages-reside",
