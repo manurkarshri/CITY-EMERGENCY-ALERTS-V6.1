@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-23T09:41:00.826Z",
+  "generatedAt": "2026-11-23T21:42:01.856Z",
   "routes": [],
   "risks": [
     {
@@ -13,20 +13,25 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "public-safety-developing-2-minors-detained-in-baramati-extortion-firing-case-cops-hunt-for",
-      "category": "public_safety",
-      "severity": "warning",
-      "localities": [
-        "Baramati"
-      ],
-      "talukas": [
-        "baramati"
-      ],
+      "id": "explosion-developing-pune-court-bomb-threat-शिवाजीनगर-जिल्हा-सत्र-न्यायालयाला-बॉम्बने-उडवण",
+      "category": "explosion",
+      "severity": "emergency",
+      "localities": [],
+      "talukas": [],
       "operationalZones": [],
-      "impact": "The incident may create an immediate safety risk in the affected area."
+      "impact": "There may be an immediate risk to life and a wider safety perimeter may be required."
     },
     {
-      "id": "accident-developing-three-killed-two-injured-in-car-truck-collision-on-pune-ahilyanagar-ro",
+      "id": "accident-developing-speeding-car-jumps-divider-skids-70-metres-before-crashing-into-parked",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-3-killed-as-car-jumps-divider-hits-truck-on-pune-ahilyanagar-highway-2",
       "category": "accident",
       "severity": "watch",
       "localities": [],
@@ -53,7 +58,7 @@
       "impact": "This event may affect local awareness or movement."
     },
     {
-      "id": "accident-developing-three-killed-as-speeding-car-crashes-into-divider-overturns-on-pune-ah",
+      "id": "accident-developing-pune-ahmednagar-highway-accident-three-young-men-killed-two-injured-as",
       "category": "accident",
       "severity": "watch",
       "localities": [],
@@ -64,13 +69,26 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "accident-developing-speeding-car-jumps-divider-skids-70-metres-before-crashing-into-parked",
+      "id": "accident-developing-maharashtra-three-killed-two-injured-in-car-truck-crash-on-pune-ahilya",
       "category": "accident",
       "severity": "watch",
       "localities": [],
       "talukas": [],
       "operationalZones": [],
       "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "fire-developing-pune-fire-breaks-out-in-lpg-cylinder-at-house-in-katraj-fire-brigade-bring",
+      "category": "fire",
+      "severity": "warning",
+      "localities": [
+        "Katraj"
+      ],
+      "talukas": [
+        "pune_city"
+      ],
+      "operationalZones": [],
+      "impact": "This event may affect local awareness or movement."
     }
   ]
 }
