@@ -1,8 +1,48 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-23T01:27:57.677Z",
+  "generatedAt": "2026-11-23T09:41:00.826Z",
   "routes": [],
   "risks": [
+    {
+      "id": "accident-developing-nine-members-of-a-family-killed-in-kota-vehicle-collision-while-return",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "public-safety-developing-2-minors-detained-in-baramati-extortion-firing-case-cops-hunt-for",
+      "category": "public_safety",
+      "severity": "warning",
+      "localities": [
+        "Baramati"
+      ],
+      "talukas": [
+        "baramati"
+      ],
+      "operationalZones": [],
+      "impact": "The incident may create an immediate safety risk in the affected area."
+    },
+    {
+      "id": "accident-developing-three-killed-two-injured-in-car-truck-collision-on-pune-ahilyanagar-ro",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "transport-disruption-developing-pune-patna-indigo-flight-diverted-to-lucknow-due-to-bad-we",
+      "category": "transport_disruption",
+      "severity": "advisory",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Public transport journeys may be cancelled or delayed."
+    },
     {
       "id": "fire-developing-maharashtra-fire-breaks-out-in-pune-building-s-parking-lot-35-residents-re",
       "category": "fire",
@@ -13,17 +53,24 @@
       "impact": "This event may affect local awareness or movement."
     },
     {
-      "id": "fire-developing-pune-blaze-at-bhosari-industrial-cluster-damages-four-units-damages-reside",
-      "category": "fire",
-      "severity": "warning",
-      "localities": [
-        "Bhosari"
+      "id": "accident-developing-three-killed-as-speeding-car-crashes-into-divider-overturns-on-pune-ah",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [
+        "Pune-Ahmednagar Highway"
       ],
-      "talukas": [
-        "pcmc"
-      ],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
+      "id": "accident-developing-speeding-car-jumps-divider-skids-70-metres-before-crashing-into-parked",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
       "operationalZones": [],
-      "impact": "This event may affect local awareness or movement."
+      "impact": "Traffic delays are likely near the incident location."
     }
   ]
 }
