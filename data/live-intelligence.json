@@ -1,7 +1,7 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-23T21:42:01.990Z",
-  "status": "partial",
+  "generatedAt": "2026-11-24T05:35:16.302Z",
+  "status": "current",
   "releaseMode": "production-user-testing",
   "policy": {
     "officialFirst": true,
@@ -15,18 +15,18 @@
         "id": "open_meteo",
         "name": "Open-Meteo",
         "type": "weather",
-        "status": "healthy",
-        "sourceCheckedAt": "2026-11-23T21:41:37.779Z",
+        "status": "stale",
+        "sourceCheckedAt": "2026-11-24T05:34:44.525Z",
         "lastSuccessfulAt": "2026-11-23T21:41:37.779Z",
-        "error": null
+        "error": "fetch failed"
       },
       {
         "id": "maharashtra_rtdas",
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-23T21:41:47.115Z",
-        "lastSuccessfulAt": "2026-11-23T21:41:47.115Z",
+        "sourceCheckedAt": "2026-11-24T05:35:04.287Z",
+        "lastSuccessfulAt": "2026-11-24T05:35:04.287Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,25 +34,25 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-23T21:41:47.115Z",
-        "lastSuccessfulAt": "2026-11-23T09:40:48.762Z",
+        "sourceCheckedAt": "2026-11-24T05:35:04.287Z",
+        "lastSuccessfulAt": "2026-11-23T21:41:47.115Z",
         "error": "fetch failed"
       },
       {
         "id": "event_feeds",
         "name": "Alert and incident sources",
         "type": "events",
-        "status": "stale",
-        "sourceCheckedAt": "2026-11-23T21:41:38.028Z",
-        "lastSuccessfulAt": "2026-11-23T21:41:38.028Z",
-        "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
+        "status": "healthy",
+        "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
+        "lastSuccessfulAt": "2026-11-24T05:34:55.089Z",
+        "error": null
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-23T21:41:38.028Z",
-        "lastSuccessfulAt": "2026-11-23T21:41:38.028Z",
+        "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
+        "lastSuccessfulAt": "2026-11-24T05:34:55.089Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,8 +62,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-23T21:41:38.028Z",
-        "lastSuccessfulAt": "2026-11-23T21:41:38.028Z",
+        "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
+        "lastSuccessfulAt": "2026-11-24T05:34:55.089Z",
         "error": null,
         "etag": "W/\"8929-1795258882648\"",
         "itemsCollected": 0,
@@ -72,29 +72,31 @@
       {
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
-        "status": "unavailable",
-        "sourceCheckedAt": "2026-11-23T21:41:38.028Z",
-        "lastSuccessfulAt": "2026-11-23T09:40:45.077Z",
-        "error": "Indian Express RSS request failed with HTTP 403",
+        "status": "healthy",
+        "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
+        "lastSuccessfulAt": "2026-11-24T05:34:55.089Z",
+        "error": null,
+        "etag": null,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-23T21:41:38.028Z",
-        "lastSuccessfulAt": "2026-11-23T21:41:38.028Z",
+        "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
+        "lastSuccessfulAt": "2026-11-24T05:34:55.089Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 2,
+        "itemsCollected": 3,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-23T21:41:38.028Z",
-        "lastSuccessfulAt": "2026-11-23T21:41:38.028Z",
+        "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
+        "lastSuccessfulAt": "2026-11-24T05:34:55.089Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -104,8 +106,8 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-23T21:41:38.028Z",
-        "lastSuccessfulAt": "2026-11-23T21:41:38.028Z",
+        "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
+        "lastSuccessfulAt": "2026-11-24T05:34:55.089Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -115,22 +117,22 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-23T21:41:38.028Z",
-        "lastSuccessfulAt": "2026-11-23T21:41:38.028Z",
+        "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
+        "lastSuccessfulAt": "2026-11-24T05:34:55.089Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 1,
+        "itemsCollected": 0,
         "type": "incidents"
       },
       {
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-23T21:41:38.028Z",
-        "lastSuccessfulAt": "2026-11-23T21:41:38.028Z",
+        "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
+        "lastSuccessfulAt": "2026-11-24T05:34:55.089Z",
         "error": null,
-        "itemsCollected": 11,
-        "itemsQualified": 11,
+        "itemsCollected": 10,
+        "itemsQualified": 10,
         "type": "incidents"
       },
       {
@@ -138,8 +140,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-11-23T21:41:47.115Z",
-        "lastSuccessfulAt": "2026-11-23T21:41:47.115Z",
+        "sourceCheckedAt": "2026-11-24T05:35:04.287Z",
+        "lastSuccessfulAt": "2026-11-24T05:35:04.287Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -501,29 +503,56 @@
   "liveReadiness": {
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
-    "alertsAvailable": 1,
-    "incidentsAvailable": 8,
+    "alertsAvailable": 0,
+    "incidentsAvailable": 9,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
   "developingSituations": [
     {
-      "id": "explosion-developing-pune-court-bomb-threat-शिवाजीनगर-जिल्हा-सत्र-न्यायालयाला-बॉम्बने-उडवण",
-      "title": "Developing: Pune Court Bomb Threat | शिवाजीनगर जिल्हा सत्र न्यायालयाला बॉम्बने उडवण्याची धमकी!",
+      "id": "accident-developing-3-killed-as-car-jumps-divider-hits-truck-on-pune-ahilyanagar-highway-2",
+      "title": "Developing: 3 killed as car jumps divider, hits truck on Pune-Ahilyanagar highway",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "News18marathi",
+      "source": "Indian Express Pune",
       "trust": "B",
-      "updatedAt": "2026-11-23T09:28:57.000Z"
+      "updatedAt": "2026-11-23T10:35:50.000Z"
     },
     {
-      "id": "accident-developing-nine-members-of-a-family-killed-in-kota-vehicle-collision-while-return",
-      "title": "Developing: Nine members of a family killed in Kota vehicle collision while returning from Khatu Shyam",
+      "id": "accident-developing-former-gokul-director-s-son-held-after-suspected-drink-driving-crash-k",
+      "title": "Developing: Former Gokul director’s son held after suspected drink-driving crash kills two",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
       "source": "Hindustan Times Pune",
       "trust": "B",
-      "updatedAt": "2026-11-23T02:09:00.000Z"
+      "updatedAt": "2026-11-24T02:02:00.000Z"
+    },
+    {
+      "id": "accident-developing-couple-killed-as-shivai-bus-hits-two-wheeler-on-jejuri-morgaon-road-20",
+      "title": "Developing: Couple killed as Shivai bus hits two-wheeler on Jejuri-Morgaon Road",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Hindustan Times Pune",
+      "trust": "B",
+      "updatedAt": "2026-11-24T02:01:30.000Z"
+    },
+    {
+      "id": "accident-developing-three-killed-as-car-crosses-divider-rams-stationary-truck-in-pune-s-wa",
+      "title": "Developing: Three killed as car crosses divider, rams stationary truck in Pune's Wagholi",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Hindustan Times Pune",
+      "trust": "B",
+      "updatedAt": "2026-11-24T02:01:00.000Z"
+    },
+    {
+      "id": "accident-developing-three-killed-two-injured-in-car-truck-collision-on-pune-ahilyanagar-ro",
+      "title": "Developing: Three killed, two injured in car-truck collision on Pune-Ahilyanagar road",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "ThePrint",
+      "trust": "B",
+      "updatedAt": "2026-11-23T07:45:28.000Z"
     },
     {
       "id": "accident-developing-speeding-car-jumps-divider-skids-70-metres-before-crashing-into-parked",
@@ -535,49 +564,22 @@
       "updatedAt": "2026-11-23T07:11:00.000Z"
     },
     {
-      "id": "accident-developing-3-killed-as-car-jumps-divider-hits-truck-on-pune-ahilyanagar-highway-2",
-      "title": "Developing: 3 killed as car jumps divider, hits truck on Pune-Ahilyanagar highway",
+      "id": "accident-developing-three-men-die-two-suffer-injuries-as-car-jumps-median-hits-truck-parke",
+      "title": "Developing: Three men die, two suffer injuries as car jumps median, hits truck parked along Pune-Ahilyanagar highway",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Indian Express Pune",
+      "source": "Times of India",
       "trust": "B",
-      "updatedAt": "2026-11-23T10:35:50.000Z"
+      "updatedAt": "2026-11-24T04:17:00.000Z"
     },
     {
-      "id": "transport-disruption-developing-pune-patna-indigo-flight-diverted-to-lucknow-due-to-bad-we",
-      "title": "Developing: Pune-Patna IndiGo flight diverted to Lucknow due to bad weather in Bihar",
+      "id": "accident-developing-three-killed-as-speeding-car-crashes-into-divider-overturns-on-pune-ah",
+      "title": "Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "Moneycontrol",
+      "source": "ANI",
       "trust": "B",
-      "updatedAt": "2026-11-23T03:18:53.000Z"
-    },
-    {
-      "id": "fire-developing-maharashtra-fire-breaks-out-in-pune-building-s-parking-lot-35-residents-re",
-      "title": "Developing: Maharashtra: Fire breaks out in Pune building's parking lot; 35 residents rescued",
-      "status": "developing",
-      "confirmation": "Awaiting official confirmation",
-      "source": "Deccan Herald",
-      "trust": "B",
-      "updatedAt": "2026-11-22T10:04:41.000Z"
-    },
-    {
-      "id": "accident-developing-pune-ahmednagar-highway-accident-three-young-men-killed-two-injured-as",
-      "title": "Developing: Pune-Ahmednagar Highway Accident: Three Young Men Killed, Two Injured As Speeding Car Crashes",
-      "status": "developing",
-      "confirmation": "Awaiting official confirmation",
-      "source": "NDTV",
-      "trust": "B",
-      "updatedAt": "2026-11-23T08:20:16.000Z"
-    },
-    {
-      "id": "accident-developing-maharashtra-three-killed-two-injured-in-car-truck-crash-on-pune-ahilya",
-      "title": "Developing: Maharashtra: Three killed, two injured in car-truck crash on Pune-Ahilyanagar road",
-      "status": "developing",
-      "confirmation": "Awaiting official confirmation",
-      "source": "Mid-day",
-      "trust": "B",
-      "updatedAt": "2026-11-23T08:32:00.000Z"
+      "updatedAt": "2026-11-23T08:16:00.000Z"
     },
     {
       "id": "fire-developing-pune-fire-breaks-out-in-lpg-cylinder-at-house-in-katraj-fire-brigade-bring",

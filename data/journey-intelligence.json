@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-23T21:42:01.962Z",
+  "generatedAt": "2026-11-24T05:35:16.272Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-11-23T21:42:01.962Z",
+      "generatedAt": "2026-11-24T05:35:16.272Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -123,13 +123,14 @@
           "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
-            "score": 40,
-            "label": "Consider Delaying",
-            "recommendation": "Consider delaying or checking alternate routes.",
+            "score": 20,
+            "label": "Avoid if Possible",
+            "recommendation": "Avoid this route if possible unless travel is essential.",
             "reasons": [
               "Developing: 3 killed as car jumps divider, hits truck on Pune-Ahilyanagar highway may cause delays or safety concerns.",
-              "Developing: Pune-Ahmednagar Highway Accident: Three Young Men Killed, Two Injured As Speeding Car Crashes may cause delays or safety concerns.",
-              "Developing: Maharashtra: Three killed, two injured in car-truck crash on Pune-Ahilyanagar road may cause delays or safety concerns."
+              "Developing: Three killed, two injured in car-truck collision on Pune-Ahilyanagar road may cause delays or safety concerns.",
+              "Developing: Three men die, two suffer injuries as car jumps median, hits truck parked along Pune-Ahilyanagar highway may cause delays or safety concerns.",
+              "Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway may cause delays or safety concerns."
             ],
             "penalties": [
               {
@@ -139,25 +140,31 @@
                 "title": "Developing: 3 killed as car jumps divider, hits truck on Pune-Ahilyanagar highway"
               },
               {
-                "eventId": "accident-developing-pune-ahmednagar-highway-accident-three-young-men-killed-two-injured-as",
+                "eventId": "accident-developing-three-killed-two-injured-in-car-truck-collision-on-pune-ahilyanagar-ro",
                 "category": "accident",
                 "penalty": 20,
-                "title": "Developing: Pune-Ahmednagar Highway Accident: Three Young Men Killed, Two Injured As Speeding Car Crashes"
+                "title": "Developing: Three killed, two injured in car-truck collision on Pune-Ahilyanagar road"
               },
               {
-                "eventId": "accident-developing-maharashtra-three-killed-two-injured-in-car-truck-crash-on-pune-ahilya",
+                "eventId": "accident-developing-three-men-die-two-suffer-injuries-as-car-jumps-median-hits-truck-parke",
                 "category": "accident",
                 "penalty": 20,
-                "title": "Developing: Maharashtra: Three killed, two injured in car-truck crash on Pune-Ahilyanagar road"
+                "title": "Developing: Three men die, two suffer injuries as car jumps median, hits truck parked along Pune-Ahilyanagar highway"
+              },
+              {
+                "eventId": "accident-developing-three-killed-as-speeding-car-crashes-into-divider-overturns-on-pune-ah",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway"
               }
             ]
           },
-          "estimatedTimeMin": 90,
-          "estimatedDelayMin": 25,
+          "estimatedTimeMin": 110,
+          "estimatedDelayMin": 45,
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (40/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: 3 killed as car jumps divider, hits truck on Pune-Ahilyanagar highway may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (20/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: 3 killed as car jumps divider, hits truck on Pune-Ahilyanagar highway may cause delays or safety concerns."
         }
       ]
     },
@@ -166,7 +173,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-11-23T21:42:01.962Z",
+      "generatedAt": "2026-11-24T05:35:16.272Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -259,7 +266,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-11-23T21:42:01.962Z",
+      "generatedAt": "2026-11-24T05:35:16.272Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
