@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-24T05:35:16.029Z",
+  "generatedAt": "2026-11-24T16:29:20.326Z",
   "status": "current",
   "situation": {
-    "snapshot": "1 important alert require attention.",
+    "snapshot": "7 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-11-24T05:35:16.069Z",
+      "generatedAt": "2026-11-24T16:29:20.370Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -13,17 +13,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-23T21:41:37.779Z",
-          "observedAt": "2026-11-24T03:00:00+05:30",
-          "temp": 21.7,
+          "sourceCheckedAt": "2026-11-24T16:28:53.304Z",
+          "observedAt": "2026-11-24T21:45:00+05:30",
+          "temp": 24.6,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 7.2,
-          "gust": 7.2,
-          "humidity": 72,
-          "visibility": 10,
+          "wind": 10.8,
+          "gust": 10.8,
+          "humidity": 45,
+          "visibility": 11.2,
           "weatherCode": 0,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
@@ -40,17 +40,17 @@
           "longitude": 73.76471,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-23T21:41:37.779Z",
-          "observedAt": "2026-11-24T03:00:00+05:30",
-          "temp": 21.4,
+          "sourceCheckedAt": "2026-11-24T16:28:53.304Z",
+          "observedAt": "2026-11-24T21:45:00+05:30",
+          "temp": 24.2,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 5.8,
-          "gust": 5.8,
-          "humidity": 74,
-          "visibility": 9.9,
+          "wind": 6.8,
+          "gust": 6.8,
+          "humidity": 47,
+          "visibility": 12.3,
           "weatherCode": 0,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
@@ -67,17 +67,17 @@
           "longitude": 73.86876,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-23T21:41:37.779Z",
-          "observedAt": "2026-11-24T03:00:00+05:30",
-          "temp": 21.7,
+          "sourceCheckedAt": "2026-11-24T16:28:53.304Z",
+          "observedAt": "2026-11-24T21:45:00+05:30",
+          "temp": 24.6,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 7.2,
-          "gust": 7.2,
-          "humidity": 72,
-          "visibility": 10,
+          "wind": 10.8,
+          "gust": 10.8,
+          "humidity": 45,
+          "visibility": 11.2,
           "weatherCode": 0,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
@@ -94,17 +94,17 @@
           "longitude": 73.51617,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-23T21:41:37.779Z",
-          "observedAt": "2026-11-24T03:00:00+05:30",
-          "temp": 19.6,
+          "sourceCheckedAt": "2026-11-24T16:28:53.304Z",
+          "observedAt": "2026-11-24T21:45:00+05:30",
+          "temp": 21.3,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 10.4,
-          "gust": 10.4,
-          "humidity": 85,
-          "visibility": 9.3,
+          "wind": 9,
+          "gust": 9,
+          "humidity": 69,
+          "visibility": 12,
           "weatherCode": 0,
           "rainRisk": "Minimal",
           "windRisk": "Minimal",
@@ -121,16 +121,16 @@
           "longitude": 73.451324,
           "source": "Open-Meteo",
           "sourceUrl": "https://open-meteo.com/",
-          "sourceCheckedAt": "2026-11-23T21:41:37.779Z",
-          "observedAt": "2026-11-24T03:00:00+05:30",
-          "temp": 20.4,
+          "sourceCheckedAt": "2026-11-24T16:28:53.304Z",
+          "observedAt": "2026-11-24T21:45:00+05:30",
+          "temp": 21.9,
           "currentRain": 0,
           "rain6h": 0,
           "rain24h": 0,
           "precipitationProbability": 0,
-          "wind": 18.7,
-          "gust": 18.7,
-          "humidity": 75,
+          "wind": 13.7,
+          "gust": 13.7,
+          "humidity": 63,
           "visibility": 10.2,
           "weatherCode": 0,
           "rainRisk": "Minimal",
@@ -146,66 +146,17 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-11-24T05:35:16.229Z",
+      "generatedAt": "2026-11-24T16:29:20.721Z",
       "riskLevel": "Normal",
       "impacts": [
-        "8 active transport-related event(s) may affect travel."
+        "7 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "8 active transport-related event(s) may affect travel.",
+      "citizenSummary": "7 active transport-related event(s) may affect travel.",
       "seasonalContext": "winter"
     }
   },
   "alerts": [],
   "incidents": [
-    {
-      "id": "accident-developing-3-killed-as-car-jumps-divider-hits-truck-on-pune-ahilyanagar-highway-2",
-      "eventKind": "incident",
-      "sourceId": "indian_express_pune",
-      "title": "Developing: 3 killed as car jumps divider, hits truck on Pune-Ahilyanagar highway",
-      "summary": "3 killed as car jumps divider, hits truck on Pune-Ahilyanagar highway",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Indian Express Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://indianexpress.com/article/cities/pune/pune-wagholi-car-rammed-parked-truck-pune-ahilyanagar-highway-killed-injured-10975002/",
-          "origin": ""
-        }
-      ],
-      "link": "https://indianexpress.com/article/cities/pune/pune-wagholi-car-rammed-parked-truck-pune-ahilyanagar-highway-killed-injured-10975002/",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-11-23T10:35:50.000Z",
-      "lastUpdated": "2026-11-23T10:35:50.000Z",
-      "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
-      "lastVerifiedAt": "2026-11-24T05:34:55.089Z",
-      "intelligenceGeneratedAt": "2026-11-24T05:35:16.029Z",
-      "expiresAt": "2026-11-24T10:35:50.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "",
-      "upstreamId": "",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "broader_area",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
     {
       "id": "accident-developing-former-gokul-director-s-son-held-after-suspected-drink-driving-crash-k",
       "eventKind": "incident",
@@ -230,13 +181,13 @@
       "operationalZones": [],
       "publishedAt": "2026-11-24T02:02:00.000Z",
       "lastUpdated": "2026-11-24T02:02:00.000Z",
-      "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
-      "lastVerifiedAt": "2026-11-24T05:34:55.089Z",
-      "intelligenceGeneratedAt": "2026-11-24T05:35:16.029Z",
+      "sourceCheckedAt": "2026-11-24T16:28:53.438Z",
+      "lastVerifiedAt": "2026-11-24T16:28:53.438Z",
+      "intelligenceGeneratedAt": "2026-11-24T16:29:20.326Z",
       "expiresAt": "2026-11-25T02:02:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "",
@@ -285,13 +236,13 @@
       "operationalZones": [],
       "publishedAt": "2026-11-24T02:01:30.000Z",
       "lastUpdated": "2026-11-24T02:01:30.000Z",
-      "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
-      "lastVerifiedAt": "2026-11-24T05:34:55.089Z",
-      "intelligenceGeneratedAt": "2026-11-24T05:35:16.029Z",
+      "sourceCheckedAt": "2026-11-24T16:28:53.438Z",
+      "lastVerifiedAt": "2026-11-24T16:28:53.438Z",
+      "intelligenceGeneratedAt": "2026-11-24T16:29:20.326Z",
       "expiresAt": "2026-11-25T02:01:30.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 70,
+      "confidenceScore": 63,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "",
@@ -326,6 +277,12 @@
           "trust": "B",
           "link": "https://www.hindustantimes.com/cities/pune-news/three-killed-as-car-crosses-divider-rams-stationary-truck-in-wagholi-101795457001338.html",
           "origin": ""
+        },
+        {
+          "name": "Hindustan Times Pune",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTFB1MGZyU2hHaE9ZX1ExSzl6cEZ1NU80bldWOFRiZ3RlVHI1RlFHN0JVUU5qRVVFOW5TbWxOd2JKYmlRTHB6Z2ZfeVNGVWJyenl6eGgzd3lFZGx1aVFoSnVzOWhnT1BySzFYYVgtMV92OU9lbnhLZzZUM0tpZzRFbTF4SzhReWtrc0lTTnpQNVJobDBJVE9iN2dtQkZaWU5RNXY1SVFpejFUdGJrMW43T3dnV3E2bHdYb2kzYWtkUm0tSUpNdW9uY2lWMUdsQVU2cXVj0gHYAUFVX3lxTFAtUmxrX3BqTEVhSjZHbzRyekRwTE0yd1RiVlgxZTdFRzdqa1ZITGRwN2Nsd2cxMEZMT3dCZGlLZlBzMXpGanJjQUR5SUtfbkl4WWYtOThjcVVuMlNKS1d4ZWFYaFB3Z2llNlkwTDZhRm5LRUlVMmRTTDNHajA4WVczZWZnYVN2WFR6amVDbm5Qclg1VUNpM0tFelpQR2ZaWkZDSjdQUHhtVmRBMmRhWE9hbGhJcENEM3MzS2kyRnF2SzVvUTRsVGlUdmJlcGY3ZlZPT190NTlEaQ?oc=5",
+          "origin": ""
         }
       ],
       "link": "https://www.hindustantimes.com/cities/pune-news/three-killed-as-car-crosses-divider-rams-stationary-truck-in-wagholi-101795457001338.html",
@@ -338,13 +295,13 @@
       "operationalZones": [],
       "publishedAt": "2026-11-24T02:01:00.000Z",
       "lastUpdated": "2026-11-24T02:01:00.000Z",
-      "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
-      "lastVerifiedAt": "2026-11-24T05:34:55.089Z",
-      "intelligenceGeneratedAt": "2026-11-24T05:35:16.029Z",
+      "sourceCheckedAt": "2026-11-24T16:28:53.438Z",
+      "lastVerifiedAt": "2026-11-24T16:28:53.438Z",
+      "intelligenceGeneratedAt": "2026-11-24T16:29:20.326Z",
       "expiresAt": "2026-11-25T02:01:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 70,
+      "confidenceScore": 63,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "",
@@ -385,24 +342,6 @@
           "trust": "B",
           "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS1J3czRhcEFhMjNWaDRjWmRDaHJZYkgwajY5aUhMSGpHRVc5czdGUXB4VG1KWDE4R2hodERkYVJWbjhmN1d1Q2JqaWVkMWpVTl9xVzdIX21UVlZHakpDVXpDRTNKZTlId21ZRkFYRDBBS3I3S2xWQmxRMnYzc3loSHk1d3VoWGFseldObjNnckExNTN1elFwLUJ6cE9INkpSUkx5RUM5N0FGcG92aG9hdGxMekJZRjI0aUVscTdwa0dOeG5OVHhJMC1LakTSAdMBQVVfeXFMTnFCa2g5SjNwcnRVNW11azQwSk4tdklmbzdtVHdXVXM3aXdjaUsyRlJrZUhWRjhHaGFNX3NLQlBEWFBqQ2hJWHpZd0xhUEtaTUx5aGlDYy1nZXVxYWJ4NFNEMnpTN3JsdFNZTFpoRzg2a2NpQW1EMVJMUnF3ZDgxZFhwTDV6V29UYUpHbU1fQXd3bjd6V3FpVkdJOVRUQVRlYXBTdG8zSFJiTUl0aHBYQVpfakRiUGp5NWx1NDFkOW9wcWprdWNIcDBWYUJqekpJd3VNTQ?oc=5",
           "origin": ""
-        },
-        {
-          "name": "Mid-day",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPV1E0V0puVHpWYXA1cUw0RThTUnBaRVlTV0l0dk1kN21XOHFJWjhSM0lWZ3lUcnFqMi1Qb3Jsd1hlWUYzd1dOYW9LbWpNSV82SEgyUno3SllTd2RBMjVRak45bEFCeFlzNWx1aDhRU3VTUTd1TUhrVkRSMXRiRlUxSmNZbmpXVVFRQkhzTDQ1N280c19sdnZ3eDl6M0NQRWlKYVRFUDN6OHhQUWxCWmVTSXd2YUR5XzNMUkNMa1BpcmlFazNjNjh2Tm16OUVqNFR3TFNuWmVKNEtxclJHTDJyMElwZFByTFN6SVFOYnpsbw?oc=5",
-          "origin": ""
-        },
-        {
-          "name": "Mid-day",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU2syVm1vVF9qWXRlcTgxd1QwYnMtUWlyd0M2b295VjlfQTY4V19PQnhUTF9zQ2t5RUxjbXFWa3E4ejR6UEc2NU16UWZ1MXZnM1M5UlZyNzgtUTBNaEJhQmEzeWNnNVE1TmlLVmxnUGpZR3JFQ1ZBbFpJZjJueDFGcm9Hd2R0d0tibHY0ODVCUlJQd3Rka3QyRzJtUlNuNlc1bzdfMmJDdW9kMXFoTk0tQ29XMW5EYWpPY3drT1ZlaDBhaTc0aHZ2akhxZ2xYTnBvMGRaaEpoSGliXzRTa2c?oc=5",
-          "origin": ""
-        },
-        {
-          "name": "Punekar News",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2wtZllUbXF0QnYyemoxWVV5cHJTUFlJOENzMGtLU0lpTUdlSEVqdGg5OThReEp3bzhSQ0lvVnd0dklub3gtdDFqeHBNU0NZV0VBOVdmZnk0b1hXZm1taDBzTnB0RXJUamJIdnRxTXdlbTdJLWREWE96NVdTVC13MjlRY0N3Wk5VMVNBNnN4TUtGNmdiVkY2SHhSaFZjelBxUktTczJEUFZLTU1aQVhJ?oc=5",
-          "origin": ""
         }
       ],
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcmZ3bW9JVVpDdXlqeFgyTkxlcU5ZNTZ5bnJPa1JPcExKc3dQWnFzODV6VDQ2VTFzMmFnQkxnV3VqV1ZsdzE5LXNyZDZUeU01Q1ZxNEQxTFJ4YVExdGlrRDctTmRqczB5R3UxTUNCMXg1LXRWRy1DOGR5R2FUWk1wMzdFM0YxSzkyWUhnS2VodzZ5dGdPTWg2cS1DQ0d1MERDbUJ4VWtHQXItZTjSAbABQVVfeXFMTW1LSVRPa0dfcEFWa0dodkp3amRzYnVncU1RRHZLU0pMYWhtNTIwXzJ2Ylkta0IzaWRTSVBMSE1JRlMyUHlxMFBZMS1vWjdZMW1pNU5OVXJDbTFPU2FaSWVhTzZPS2JjdEVDc1FyU3ppQm1oQlc0a1Y4U0dRZ2pUaGx2bkhILWUtMFEtdTljWGpKOHhyUmFsSGxyc05lSXZUTUQzcEVRczQzYndJNl9tR2Q?oc=5",
@@ -411,13 +350,13 @@
       "operationalZones": [],
       "publishedAt": "2026-11-23T07:45:28.000Z",
       "lastUpdated": "2026-11-23T07:45:28.000Z",
-      "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
-      "lastVerifiedAt": "2026-11-24T05:34:55.089Z",
-      "intelligenceGeneratedAt": "2026-11-24T05:35:16.029Z",
+      "sourceCheckedAt": "2026-11-24T16:28:53.438Z",
+      "lastVerifiedAt": "2026-11-24T16:28:53.438Z",
+      "intelligenceGeneratedAt": "2026-11-24T16:29:20.326Z",
       "expiresAt": "2026-11-25T07:45:28.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 75,
+      "confidenceScore": 55,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
@@ -426,18 +365,16 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-24T05:34:55.089Z",
+      "discoveredAt": "2026-11-24T16:28:53.438Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
       "relatedEventIds": [
-        "accident-developing-3-killed-as-car-jumps-divider-hits-truck-on-pune-ahilyanagar-highway-2",
-        "accident-developing-maharashtra-three-killed-two-injured-in-car-truck-crash-on-pune-ahilya",
-        "accident-developing-pune-three-youths-killed-two-seriously-injured-as-car-rams-into-truck-"
+        "accident-developing-3-killed-as-car-jumps-divider-hits-truck-on-pune-ahilyanagar-highway-2"
       ],
-      "independentSourceCount": 4,
+      "independentSourceCount": 2,
       "corroboratedByIndependentSources": true
     },
     {
@@ -464,13 +401,13 @@
       "operationalZones": [],
       "publishedAt": "2026-11-23T07:11:00.000Z",
       "lastUpdated": "2026-11-23T07:11:00.000Z",
-      "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
-      "lastVerifiedAt": "2026-11-24T05:34:55.089Z",
-      "intelligenceGeneratedAt": "2026-11-24T05:35:16.029Z",
+      "sourceCheckedAt": "2026-11-24T16:28:53.438Z",
+      "lastVerifiedAt": "2026-11-24T16:28:53.438Z",
+      "intelligenceGeneratedAt": "2026-11-24T16:29:20.326Z",
       "expiresAt": "2026-11-25T07:11:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 43,
+      "confidenceScore": 35,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
@@ -479,7 +416,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-24T05:34:55.089Z",
+      "discoveredAt": "2026-11-24T16:28:53.438Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -513,13 +450,13 @@
       "operationalZones": [],
       "publishedAt": "2026-11-24T04:17:00.000Z",
       "lastUpdated": "2026-11-24T04:17:00.000Z",
-      "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
-      "lastVerifiedAt": "2026-11-24T05:34:55.089Z",
-      "intelligenceGeneratedAt": "2026-11-24T05:35:16.029Z",
+      "sourceCheckedAt": "2026-11-24T16:28:53.438Z",
+      "lastVerifiedAt": "2026-11-24T16:28:53.438Z",
+      "intelligenceGeneratedAt": "2026-11-24T16:29:20.326Z",
       "expiresAt": "2026-11-26T04:17:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
-      "confidenceScore": 50,
+      "confidenceScore": 43,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
@@ -528,7 +465,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-24T05:34:55.089Z",
+      "discoveredAt": "2026-11-24T16:28:53.438Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -554,12 +491,6 @@
           "trust": "B",
           "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRkoxOXU0dUYzWUV3TzE1ZHdHSW81V1VRcFhTRHJXNjhoRW5vYW9oXzNQY2VtSTZsRnJXUURHYjI0Q3pCUW01MzVxdWU0blZtSWttRkl4bEctLUtSdS05ZlZFT3VyeTlvclpQNklVcW1UanFhWnlZN0dlSVNKdWxvYnNqazBQRHJYaE5ZSGIyOE1qRHpiYXVzWWZNQ3JrRGRwbWxQclgzNjRXcUVtOWZPaXdVTzEwa0FlM2hQTTBvNTlnamN6akFkNjg1NWl6ZDJjWHBGTTRRZmVhRGNOWFdDWjF4bnQ?oc=5",
           "origin": "ani"
-        },
-        {
-          "name": "NDTV",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaXBlZlB2YUlDdGxDTUNPWDM5bTk1bE9FaFJWWklZVTJEZ0N4emRoM3FzbTB6SVZ0OWt2eno4eUcwM3RPdzVfbWNSS0IzRzNSdWhCRVlsWUppb0J2d1c5VlpzODM0aEFJYzlhTzBqaE04X3Fpd3FCbTRwVkc3M2NONnFWYjl1eF9qc3F0eERVdE4zdXBvRjlNbFBSMU9SU043NjhQanpGNDhuQno0NGFQVVZxa0xjdE9KdjhBbHE0OTBpLUUySHdfVmFNUnRWUQ?oc=5",
-          "origin": ""
         }
       ],
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRkoxOXU0dUYzWUV3TzE1ZHdHSW81V1VRcFhTRHJXNjhoRW5vYW9oXzNQY2VtSTZsRnJXUURHYjI0Q3pCUW01MzVxdWU0blZtSWttRkl4bEctLUtSdS05ZlZFT3VyeTlvclpQNklVcW1UanFhWnlZN0dlSVNKdWxvYnNqazBQRHJYaE5ZSGIyOE1qRHpiYXVzWWZNQ3JrRGRwbWxQclgzNjRXcUVtOWZPaXdVTzEwa0FlM2hQTTBvNTlnamN6akFkNjg1NWl6ZDJjWHBGTTRRZmVhRGNOWFdDWjF4bnQ?oc=5",
@@ -570,13 +501,13 @@
       ],
       "publishedAt": "2026-11-23T08:16:00.000Z",
       "lastUpdated": "2026-11-23T08:16:00.000Z",
-      "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
-      "lastVerifiedAt": "2026-11-24T05:34:55.089Z",
-      "intelligenceGeneratedAt": "2026-11-24T05:35:16.029Z",
+      "sourceCheckedAt": "2026-11-24T16:28:53.438Z",
+      "lastVerifiedAt": "2026-11-24T16:28:53.438Z",
+      "intelligenceGeneratedAt": "2026-11-24T16:29:20.326Z",
       "expiresAt": "2026-11-25T08:16:00.000Z",
       "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
+      "confidence": "Low",
+      "confidenceScore": 35,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "Pune District",
@@ -585,67 +516,12 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-24T05:34:55.089Z",
+      "discoveredAt": "2026-11-24T16:28:53.438Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
-      "relatedEventIds": [
-        "accident-developing-pune-ahmednagar-highway-accident-three-young-men-killed-two-injured-as"
-      ],
-      "independentSourceCount": 2,
-      "corroboratedByIndependentSources": true
-    },
-    {
-      "id": "fire-developing-pune-fire-breaks-out-in-lpg-cylinder-at-house-in-katraj-fire-brigade-bring",
-      "eventKind": "incident",
-      "sourceId": "punekar_news",
-      "title": "Developing: Pune: Fire Breaks Out in LPG Cylinder at House in Katraj; Fire Brigade Brings Blaze Under Control",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "fire",
-      "severity": "warning",
-      "source": "Punekar News",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Punekar News",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbmZIeXBadk9pelVhWlhNUEtYWWRaNWhvc2d2UDBsTEFOeUhCT2FqUWUxTHlfbEFmdzAzNllRSk1HeGxHRktJeVdTNmc3ejg3WGQ2UjFRdDBwWG5NYmVVVnRlc1l6R0JJSGF0cHJTMmJHVzJHQi1OWF9IN2VRUi0ybnhJWXNMSjB0bGVibHJ5VWw4NVNKdjdqdXlGcFROQUJZQzcxeV9MQzVtdjZJcmhIanphLUdCZnpDVEV2eDJCSUI?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbmZIeXBadk9pelVhWlhNUEtYWWRaNWhvc2d2UDBsTEFOeUhCT2FqUWUxTHlfbEFmdzAzNllRSk1HeGxHRktJeVdTNmc3ejg3WGQ2UjFRdDBwWG5NYmVVVnRlc1l6R0JJSGF0cHJTMmJHVzJHQi1OWF9IN2VRUi0ybnhJWXNMSjB0bGVibHJ5VWw4NVNKdjdqdXlGcFROQUJZQzcxeV9MQzVtdjZJcmhIanphLUdCZnpDVEV2eDJCSUI?oc=5",
-      "talukas": [
-        "pune_city"
-      ],
-      "localities": [
-        "Katraj"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-11-23T17:30:23.000Z",
-      "lastUpdated": "2026-11-23T17:30:23.000Z",
-      "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
-      "lastVerifiedAt": "2026-11-24T05:34:55.089Z",
-      "intelligenceGeneratedAt": "2026-11-24T05:35:16.029Z",
-      "expiresAt": "2026-11-25T17:30:23.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Katraj",
-      "upstreamId": "google-news-8b6f3d42",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-11-24T05:34:55.089Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
@@ -653,15 +529,6 @@
   ],
   "journeyContext": {
     "activeRiskEvents": [
-      {
-        "id": "accident-developing-3-killed-as-car-jumps-divider-hits-truck-on-pune-ahilyanagar-highway-2",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      },
       {
         "id": "accident-developing-former-gokul-director-s-son-held-after-suspected-drink-driving-crash-k",
         "category": "accident",
@@ -736,38 +603,75 @@
           "Pune-Ahmednagar Highway"
         ],
         "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "fire-developing-pune-fire-breaks-out-in-lpg-cylinder-at-house-in-katraj-fire-brigade-bring",
-        "category": "fire",
-        "severity": "warning",
-        "localities": [
-          "Katraj"
-        ],
-        "talukas": [
-          "pune_city"
-        ],
-        "operationalZones": [],
-        "impact": "This event may affect local awareness or movement."
       }
     ]
   },
-  "expiredEvents": [],
+  "expiredEvents": [
+    {
+      "id": "fire-developing-maharashtra-fire-breaks-out-in-pune-building-s-parking-lot-35-residents-re",
+      "eventKind": "incident",
+      "sourceId": "deccan_herald",
+      "title": "Developing: Maharashtra: Fire breaks out in Pune building's parking lot; 35 residents rescued",
+      "summary": "A current trusted-media report relevant to Pune District.",
+      "category": "fire",
+      "severity": "warning",
+      "source": "Deccan Herald",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Deccan Herald",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPXzY1SDlqdjFlTktmbG5zTEFPa1AzbkE2b1JWYjFVZ0ZrVWV5elJPZkcxeF85cmFPR0l3dlltRmRrZVJJa1RTaVdEajhUcUxrRHFNNUFVTkQzMUlZSmNzNnVqQ3VxcGZsTDdLREJuTjdDdFU1S0o3Sm5GR3VsV21fMGVfZVlwUDNpajkyRW9KRmw5c05QTV9zZndMLXFmdmYtLTFQa29HVjhYYUFwY0IxaDQycWlkdUtzZGx3cG9Ha3hwQnRQMGcyNC15UGt3Z9IB2wFBVV95cUxPOTZHRkhyYWpPdEJ1ZkI2SWRsM1Z4c0lQRWdSbmdDYV9DVG1HYmRGUjZIUGxnbzNpaDJXcUl2bW9UMnpXcGpCejY2Mlk0Qi00RkVpbDlNV0d1R2JiYUJPajBlNHdaSk9rRnJkSEdManhKc1dFcG1oZ09TTDE0Ykw0SDVWYzY2MFdKRDRESVM4SHpXVzdFTzVNNnFrWDk1Y2NlLWdkeTY0TExialBza3pBd3pRRmRrd1VLbGlQQWxqLTVvWXRzZVMtQ1JJUnVfOF9uNE0zZWFQQU1sWnc?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPXzY1SDlqdjFlTktmbG5zTEFPa1AzbkE2b1JWYjFVZ0ZrVWV5elJPZkcxeF85cmFPR0l3dlltRmRrZVJJa1RTaVdEajhUcUxrRHFNNUFVTkQzMUlZSmNzNnVqQ3VxcGZsTDdLREJuTjdDdFU1S0o3Sm5GR3VsV21fMGVfZVlwUDNpajkyRW9KRmw5c05QTV9zZndMLXFmdmYtLTFQa29HVjhYYUFwY0IxaDQycWlkdUtzZGx3cG9Ha3hwQnRQMGcyNC15UGt3Z9IB2wFBVV95cUxPOTZHRkhyYWpPdEJ1ZkI2SWRsM1Z4c0lQRWdSbmdDYV9DVG1HYmRGUjZIUGxnbzNpaDJXcUl2bW9UMnpXcGpCejY2Mlk0Qi00RkVpbDlNV0d1R2JiYUJPajBlNHdaSk9rRnJkSEdManhKc1dFcG1oZ09TTDE0Ykw0SDVWYzY2MFdKRDRESVM4SHpXVzdFTzVNNnFrWDk1Y2NlLWdkeTY0TExialBza3pBd3pRRmRrd1VLbGlQQWxqLTVvWXRzZVMtQ1JJUnVfOF9uNE0zZWFQQU1sWnc?oc=5",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-11-22T10:04:41.000Z",
+      "lastUpdated": "2026-11-22T10:04:41.000Z",
+      "sourceCheckedAt": "2026-11-24T16:28:53.438Z",
+      "lastVerifiedAt": "2026-11-24T16:28:53.438Z",
+      "intelligenceGeneratedAt": "2026-11-24T16:29:20.326Z",
+      "expiresAt": "2026-11-24T10:04:41.000Z",
+      "lifecycle": "expired",
+      "confidence": "Low",
+      "confidenceScore": 35,
+      "impact": "This event may affect local awareness or movement.",
+      "recommendedAction": "Monitor updates and verify through official sources where needed.",
+      "affectedArea": "Pune District",
+      "upstreamId": "google-news-27c56aa3",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": "2026-11-24T16:28:53.438Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "pune_district",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    }
+  ],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "healthy",
-      "sourceCheckedAt": "2026-11-24T05:34:55.089Z",
-      "lastSuccessfulAt": "2026-11-24T05:34:55.089Z",
+      "sourceCheckedAt": "2026-11-24T16:28:53.438Z",
+      "lastSuccessfulAt": "2026-11-24T16:28:53.438Z",
       "error": null
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-11-24T05:35:16.229Z",
+      "generatedAt": "2026-11-24T16:29:20.720Z",
       "activeSeason": "winter",
       "priorityHazards": [
         "fog",
@@ -778,7 +682,7 @@
       "advice": "Monitor fog, low visibility, cold wave and air quality."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-11-24T05:35:16.229Z",
+      "generatedAt": "2026-11-24T16:29:20.720Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -859,11 +763,10 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-11-24T05:35:16.229Z",
+      "generatedAt": "2026-11-24T16:29:20.720Z",
       "mode": "on-demand",
       "relevantDomains": [
-        "highways",
-        "emergencyServices"
+        "highways"
       ],
       "infrastructure": {
         "highways": [
@@ -905,7 +808,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-11-24T05:35:16.272Z",
+        "generatedAt": "2026-11-24T16:29:20.762Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -1020,22 +923,15 @@
             "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
             "routeType": "known-corridor",
             "journeySuitability": {
-              "score": 20,
-              "label": "Avoid if Possible",
-              "recommendation": "Avoid this route if possible unless travel is essential.",
+              "score": 40,
+              "label": "Consider Delaying",
+              "recommendation": "Consider delaying or checking alternate routes.",
               "reasons": [
-                "Developing: 3 killed as car jumps divider, hits truck on Pune-Ahilyanagar highway may cause delays or safety concerns.",
                 "Developing: Three killed, two injured in car-truck collision on Pune-Ahilyanagar road may cause delays or safety concerns.",
                 "Developing: Three men die, two suffer injuries as car jumps median, hits truck parked along Pune-Ahilyanagar highway may cause delays or safety concerns.",
                 "Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway may cause delays or safety concerns."
               ],
               "penalties": [
-                {
-                  "eventId": "accident-developing-3-killed-as-car-jumps-divider-hits-truck-on-pune-ahilyanagar-highway-2",
-                  "category": "accident",
-                  "penalty": 20,
-                  "title": "Developing: 3 killed as car jumps divider, hits truck on Pune-Ahilyanagar highway"
-                },
                 {
                   "eventId": "accident-developing-three-killed-two-injured-in-car-truck-collision-on-pune-ahilyanagar-ro",
                   "category": "accident",
@@ -1056,12 +952,12 @@
                 }
               ]
             },
-            "estimatedTimeMin": 110,
-            "estimatedDelayMin": 45,
+            "estimatedTimeMin": 90,
+            "estimatedDelayMin": 25,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Avoid if Possible (20/100). Estimated travel time is about 110 minutes including around 45 minutes delay. Main reason: Developing: 3 killed as car jumps divider, hits truck on Pune-Ahilyanagar highway may cause delays or safety concerns."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (40/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: Three killed, two injured in car-truck collision on Pune-Ahilyanagar road may cause delays or safety concerns."
           }
         ]
       },
@@ -1070,7 +966,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-11-24T05:35:16.272Z",
+        "generatedAt": "2026-11-24T16:29:20.762Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1163,7 +1059,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-11-24T05:35:16.272Z",
+        "generatedAt": "2026-11-24T16:29:20.762Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
