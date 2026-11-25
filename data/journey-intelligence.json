@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-24T16:29:20.762Z",
+  "generatedAt": "2026-11-25T01:01:33.642Z",
   "status": "healthy",
   "journeys": [
     {
@@ -8,7 +8,7 @@
       "start": "Kharadi",
       "destination": "Hinjawadi",
       "departure": "now",
-      "generatedAt": "2026-11-24T16:29:20.762Z",
+      "generatedAt": "2026-11-25T01:01:33.641Z",
       "bestRoute": {
         "id": "kharadi-hinjawadi-pashan",
         "label": "Kharadi to Hinjawadi via Pashan",
@@ -127,11 +127,17 @@
             "label": "Consider Delaying",
             "recommendation": "Consider delaying or checking alternate routes.",
             "reasons": [
+              "Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway may cause delays or safety concerns.",
               "Developing: Three killed, two injured in car-truck collision on Pune-Ahilyanagar road may cause delays or safety concerns.",
-              "Developing: Three men die, two suffer injuries as car jumps median, hits truck parked along Pune-Ahilyanagar highway may cause delays or safety concerns.",
-              "Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway may cause delays or safety concerns."
+              "Developing: Three men die, two suffer injuries as car jumps median, hits truck parked along Pune-Ahilyanagar highway may cause delays or safety concerns."
             ],
             "penalties": [
+              {
+                "eventId": "accident-developing-three-killed-as-speeding-car-crashes-into-divider-overturns-on-pune-ah",
+                "category": "accident",
+                "penalty": 20,
+                "title": "Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway"
+              },
               {
                 "eventId": "accident-developing-three-killed-two-injured-in-car-truck-collision-on-pune-ahilyanagar-ro",
                 "category": "accident",
@@ -143,12 +149,6 @@
                 "category": "accident",
                 "penalty": 20,
                 "title": "Developing: Three men die, two suffer injuries as car jumps median, hits truck parked along Pune-Ahilyanagar highway"
-              },
-              {
-                "eventId": "accident-developing-three-killed-as-speeding-car-crashes-into-divider-overturns-on-pune-ah",
-                "category": "accident",
-                "penalty": 20,
-                "title": "Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway"
               }
             ]
           },
@@ -157,7 +157,7 @@
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 2,
           "recommended": false,
-          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (40/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: Three killed, two injured in car-truck collision on Pune-Ahilyanagar road may cause delays or safety concerns."
+          "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (40/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway may cause delays or safety concerns."
         }
       ]
     },
@@ -166,7 +166,7 @@
       "start": "Pune",
       "destination": "Lonavala",
       "departure": "now",
-      "generatedAt": "2026-11-24T16:29:20.762Z",
+      "generatedAt": "2026-11-25T01:01:33.641Z",
       "bestRoute": {
         "id": "pune-lonavala-expressway",
         "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -259,7 +259,7 @@
       "start": "Swargate",
       "destination": "Sinhagad Road",
       "departure": "now",
-      "generatedAt": "2026-11-24T16:29:20.762Z",
+      "generatedAt": "2026-11-25T01:01:33.642Z",
       "bestRoute": {
         "id": "swargate-sinhagad-road",
         "label": "Swargate to Sinhagad Road",
