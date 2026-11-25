@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-25T09:52:58.189Z",
+  "generatedAt": "2026-11-25T19:49:24.254Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -15,18 +15,18 @@
         "id": "open_meteo",
         "name": "Open-Meteo",
         "type": "weather",
-        "status": "stale",
-        "sourceCheckedAt": "2026-11-25T09:52:26.645Z",
-        "lastSuccessfulAt": "2026-11-24T16:28:53.304Z",
-        "error": "fetch failed"
+        "status": "healthy",
+        "sourceCheckedAt": "2026-11-25T19:49:07.838Z",
+        "lastSuccessfulAt": "2026-11-25T19:49:07.838Z",
+        "error": null
       },
       {
         "id": "maharashtra_rtdas",
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-25T09:52:40.286Z",
-        "lastSuccessfulAt": "2026-11-25T09:52:40.286Z",
+        "sourceCheckedAt": "2026-11-25T19:49:11.476Z",
+        "lastSuccessfulAt": "2026-11-25T19:49:11.476Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-25T09:52:40.286Z",
-        "lastSuccessfulAt": "2026-11-25T01:01:21.373Z",
+        "sourceCheckedAt": "2026-11-25T19:49:11.476Z",
+        "lastSuccessfulAt": "2026-11-25T09:52:40.286Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
-        "lastSuccessfulAt": "2026-11-25T09:52:37.219Z",
+        "sourceCheckedAt": "2026-11-25T19:49:08.188Z",
+        "lastSuccessfulAt": "2026-11-25T19:49:08.188Z",
         "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
-        "lastSuccessfulAt": "2026-11-25T09:52:37.219Z",
+        "sourceCheckedAt": "2026-11-25T19:49:08.188Z",
+        "lastSuccessfulAt": "2026-11-25T19:49:08.188Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,10 +62,10 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
-        "lastSuccessfulAt": "2026-11-25T09:52:37.219Z",
+        "sourceCheckedAt": "2026-11-25T19:49:08.188Z",
+        "lastSuccessfulAt": "2026-11-25T19:49:08.188Z",
         "error": null,
-        "etag": "W/\"8929-1795258882648\"",
+        "etag": "W/\"9014-1795626338885\"",
         "itemsCollected": 0,
         "type": "alerts"
       },
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
+        "sourceCheckedAt": "2026-11-25T19:49:08.188Z",
         "lastSuccessfulAt": "2026-11-24T16:28:53.438Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,8 +82,8 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
-        "lastSuccessfulAt": "2026-11-25T09:52:37.219Z",
+        "sourceCheckedAt": "2026-11-25T19:49:08.188Z",
+        "lastSuccessfulAt": "2026-11-25T19:49:08.188Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -93,8 +93,8 @@
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
-        "lastSuccessfulAt": "2026-11-25T09:52:37.219Z",
+        "sourceCheckedAt": "2026-11-25T19:49:08.188Z",
+        "lastSuccessfulAt": "2026-11-25T19:49:08.188Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -104,8 +104,8 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
-        "lastSuccessfulAt": "2026-11-25T09:52:37.219Z",
+        "sourceCheckedAt": "2026-11-25T19:49:08.188Z",
+        "lastSuccessfulAt": "2026-11-25T19:49:08.188Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -115,22 +115,22 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
-        "lastSuccessfulAt": "2026-11-25T09:52:37.219Z",
+        "sourceCheckedAt": "2026-11-25T19:49:08.188Z",
+        "lastSuccessfulAt": "2026-11-25T19:49:08.188Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 0,
+        "itemsCollected": 5,
         "type": "incidents"
       },
       {
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
-        "lastSuccessfulAt": "2026-11-25T09:52:37.219Z",
+        "sourceCheckedAt": "2026-11-25T19:49:08.188Z",
+        "lastSuccessfulAt": "2026-11-25T19:49:08.188Z",
         "error": null,
-        "itemsCollected": 3,
-        "itemsQualified": 3,
+        "itemsCollected": 8,
+        "itemsQualified": 8,
         "type": "incidents"
       },
       {
@@ -138,8 +138,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-11-25T09:52:40.286Z",
-        "lastSuccessfulAt": "2026-11-25T09:52:40.286Z",
+        "sourceCheckedAt": "2026-11-25T19:49:11.476Z",
+        "lastSuccessfulAt": "2026-11-25T19:49:11.476Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -501,20 +501,92 @@
   "liveReadiness": {
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
-    "alertsAvailable": 0,
-    "incidentsAvailable": 1,
+    "alertsAvailable": 1,
+    "incidentsAvailable": 8,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
   "developingSituations": [
     {
-      "id": "accident-developing-pune-couple-heading-home-from-farm-killed-as-msrtc-e-bus-hits-motorcyc",
-      "title": "Developing: Pune: Couple Heading Home From Farm Killed as MSRTC E-Bus Hits Motorcycle Near Jejuri",
+      "id": "public-safety-developing-pune-crime-news-पुण्यात-कोर्टाबाहेर-भरदिवसा-गोळीबार-पुणे-हादरलं-न",
+      "title": "Developing: Pune Crime News | पुण्यात कोर्टाबाहेर भरदिवसा गोळीबार! पुणे हादरलं, नेमकं काय घडलं?",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "News18marathi",
+      "trust": "B",
+      "updatedAt": "2026-11-25T07:46:27.000Z"
+    },
+    {
+      "id": "public-safety-developing-pune-crime-news-पुण्यातील-शिवाजीनगर-कोर्टासमोर-गोळीबार-बंदूक-टाकू",
+      "title": "Developing: Pune Crime News: पुण्यातील शिवाजीनगर कोर्टासमोर गोळीबार; बंदूक टाकून आरोपी फरार, नेमकं काय घडलं?",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "ABP News Pune",
+      "trust": "B",
+      "updatedAt": "2026-11-25T07:45:36.000Z"
+    },
+    {
+      "id": "public-safety-developing-pune-news-पुण्यात-थरार-पुण्यात-कोर्टाबाहेर-गोळीबाराची-घटना-कोयत्य",
+      "title": "Developing: Pune News : पुण्यात थरार, पुण्यात कोर्टाबाहेर गोळीबाराची घटना, कोयत्याने हल्ला",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "TV9 Marathi Pune",
+      "trust": "B",
+      "updatedAt": "2026-11-25T07:45:17.000Z"
+    },
+    {
+      "id": "public-safety-developing-pune-shivajinagar-court-firing-पुण्यात-शिवाजीनगर-न्यायालयाबाहेर-ग",
+      "title": "Developing: Pune Shivajinagar court Firing: पुण्यात शिवाजीनगर न्यायालयाबाहेर गोळीबार; कोयत्याने हल्ला, एकाचे दोन्ही हात छाटले",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "eSakal Pune",
+      "trust": "B",
+      "updatedAt": "2026-11-25T07:43:50.000Z"
+    },
+    {
+      "id": "accident-developing-video-3-dead-6-hurt-as-speeding-truck-runs-over-students-waiting-at-pu",
+      "title": "Developing: Video: 3 dead, 6 hurt as speeding truck runs over students waiting at Pune bus stop",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "India Today",
+      "trust": "B",
+      "updatedAt": "2026-11-25T13:49:23.000Z"
+    },
+    {
+      "id": "accident-developing-watch-speeding-truck-hits-car-ploughs-into-students-waiting-at-pune-bu",
+      "title": "Developing: Watch: Speeding truck hits car, ploughs into students waiting at Pune bus stop; 3 killed, 2 injured",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Times of India",
+      "trust": "B",
+      "updatedAt": "2026-11-25T13:52:00.000Z"
+    },
+    {
+      "id": "accident-developing-pune-tempo-rams-into-children-at-bus-stop-three-killed-and-2-criticall",
+      "title": "Developing: Pune tempo rams into children at bus stop, three killed and 2 critically injured",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Moneycontrol",
+      "trust": "B",
+      "updatedAt": "2026-11-25T17:21:27.000Z"
+    },
+    {
+      "id": "public-safety-developing-pune-panic-grips-shivajinagar-area-after-firing-outside-district-",
+      "title": "Developing: Pune: Panic Grips Shivajinagar Area After Firing Outside District Court",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "NDTV",
+      "trust": "B",
+      "updatedAt": "2026-11-25T08:08:36.000Z"
+    },
+    {
+      "id": "accident-developing-pune-three-trinity-college-students-dead-two-injured-after-tempo-hits-",
+      "title": "Developing: Pune: Three Trinity College Students Dead, Two Injured After Tempo Hits Bus Stop at Bopdev Ghat",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
       "source": "Punekar News",
       "trust": "B",
-      "updatedAt": "2026-11-24T07:21:14.000Z"
+      "updatedAt": "2026-11-25T14:19:20.000Z"
     }
   ],
   "citizenNote": "Production user testing release uses configured official/trusted source registry and generated intelligence. Some external feeds may require server-side collectors or API access."
