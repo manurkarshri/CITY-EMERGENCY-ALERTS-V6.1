@@ -1,9 +1,9 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-25T01:01:33.586Z",
+  "generatedAt": "2026-11-25T09:52:58.102Z",
   "weatherSource": {
     "status": "stale",
-    "sourceCheckedAt": "2026-11-25T01:01:07.467Z",
+    "sourceCheckedAt": "2026-11-25T09:52:26.645Z",
     "lastSuccessfulAt": "2026-11-24T16:28:53.304Z",
     "staleAfterMinutes": 60,
     "attribution": {
@@ -14,12 +14,12 @@
   },
   "riverSource": {
     "status": "current",
-    "sourceCheckedAt": "2026-11-25T01:01:21.373Z",
-    "lastSuccessfulAt": "2026-11-25T01:01:21.373Z",
+    "sourceCheckedAt": "2026-11-25T09:52:40.286Z",
+    "lastSuccessfulAt": "2026-11-25T09:52:40.286Z",
     "error": "Pravah: fetch failed"
   },
   "weatherIntelligence": {
-    "generatedAt": "2026-11-25T01:01:33.537Z",
+    "generatedAt": "2026-11-25T09:52:58.075Z",
     "regions": {
       "pune_city": {
         "label": "Pune City",
@@ -160,7 +160,7 @@
   },
   "riverIntelligence": [],
   "seasonalIntelligence": {
-    "generatedAt": "2026-11-25T01:01:33.586Z",
+    "generatedAt": "2026-11-25T09:52:58.102Z",
     "activeSeason": "winter",
     "priorityHazards": [
       "fog",
@@ -171,7 +171,7 @@
     "advice": "Monitor fog, low visibility, cold wave and air quality."
   },
   "geographicIntelligence": {
-    "generatedAt": "2026-11-25T01:01:33.585Z",
+    "generatedAt": "2026-11-25T09:52:58.101Z",
     "model": "administrative-ui-operational-backend",
     "operationalZones": {
       "river_corridors": [
@@ -252,7 +252,7 @@
     "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
   },
   "criticalInfrastructure": {
-    "generatedAt": "2026-11-25T01:01:33.586Z",
+    "generatedAt": "2026-11-25T09:52:58.102Z",
     "mode": "on-demand",
     "relevantDomains": [
       "highways"
@@ -290,13 +290,13 @@
     }
   },
   "environmentalImpact": {
-    "generatedAt": "2026-11-25T01:01:33.586Z",
+    "generatedAt": "2026-11-25T09:52:58.102Z",
     "riskLevel": "Normal",
     "impacts": [
-      "7 active transport-related event(s) may affect travel."
+      "1 active transport-related event(s) may affect travel."
     ],
-    "citizenSummary": "7 active transport-related event(s) may affect travel.",
+    "citizenSummary": "1 active transport-related event(s) may affect travel.",
     "seasonalContext": "winter"
   },
-  "story": "7 active transport-related event(s) may affect travel."
+  "story": "1 active transport-related event(s) may affect travel."
 }

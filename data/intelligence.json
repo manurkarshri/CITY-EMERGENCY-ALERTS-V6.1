@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-25T01:01:33.478Z",
+  "generatedAt": "2026-11-25T09:52:58.032Z",
   "status": "stale",
   "situation": {
-    "snapshot": "7 active transport-related event(s) may affect travel.",
+    "snapshot": "1 active transport-related event(s) may affect travel.",
     "weather": {
-      "generatedAt": "2026-11-25T01:01:33.537Z",
+      "generatedAt": "2026-11-25T09:52:58.075Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -146,282 +146,89 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-11-25T01:01:33.586Z",
+      "generatedAt": "2026-11-25T09:52:58.102Z",
       "riskLevel": "Normal",
       "impacts": [
-        "7 active transport-related event(s) may affect travel."
+        "1 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "7 active transport-related event(s) may affect travel.",
+      "citizenSummary": "1 active transport-related event(s) may affect travel.",
       "seasonalContext": "winter"
     }
   },
   "alerts": [],
   "incidents": [
     {
-      "id": "accident-developing-former-gokul-director-s-son-held-after-suspected-drink-driving-crash-k",
+      "id": "accident-developing-pune-couple-heading-home-from-farm-killed-as-msrtc-e-bus-hits-motorcyc",
       "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Former Gokul director’s son held after suspected drink-driving crash kills two",
-      "summary": "Two cousins were killed after a speeding car rammed into their two-wheeler from behind near Shivaji University in Kolhapur around midnight on Monday",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/former-gokul-director-s-son-held-after-suspected-drink-driving-crash-kills-two-101795457246758.html",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.hindustantimes.com/cities/pune-news/former-gokul-director-s-son-held-after-suspected-drink-driving-crash-kills-two-101795457246758.html",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-11-24T02:02:00.000Z",
-      "lastUpdated": "2026-11-24T02:02:00.000Z",
-      "sourceCheckedAt": "2026-11-25T01:01:18.056Z",
-      "lastVerifiedAt": "2026-11-25T01:01:18.056Z",
-      "intelligenceGeneratedAt": "2026-11-25T01:01:33.478Z",
-      "expiresAt": "2026-11-25T02:02:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "",
-      "upstreamId": "",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "broader_area",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-couple-killed-as-shivai-bus-hits-two-wheeler-on-jejuri-morgaon-road-20",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Couple killed as Shivai bus hits two-wheeler on Jejuri-Morgaon Road",
-      "summary": "The deceased have been identified as Mahendra Nazirkar, 35, and his wife Reshma Nazirkar, 32, residents of Khairvasti in Nazare-Kadepathar",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/couple-killed-as-shivai-bus-hits-two-wheeler-on-jejuri-morgaon-road-101795457181775.html",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.hindustantimes.com/cities/pune-news/couple-killed-as-shivai-bus-hits-two-wheeler-on-jejuri-morgaon-road-101795457181775.html",
-      "talukas": [
-        "baramati",
-        "purandar"
-      ],
-      "localities": [
-        "Morgaon",
-        "Jejuri"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-11-24T02:01:30.000Z",
-      "lastUpdated": "2026-11-24T02:01:30.000Z",
-      "sourceCheckedAt": "2026-11-25T01:01:18.056Z",
-      "lastVerifiedAt": "2026-11-25T01:01:18.056Z",
-      "intelligenceGeneratedAt": "2026-11-25T01:01:33.478Z",
-      "expiresAt": "2026-11-25T02:01:30.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "",
-      "upstreamId": "",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-three-killed-as-car-crosses-divider-rams-stationary-truck-in-pune-s-wa",
-      "eventKind": "incident",
-      "sourceId": "hindustan_times_pune",
-      "title": "Developing: Three killed as car crosses divider, rams stationary truck in Pune's Wagholi",
-      "summary": "Police identified the deceased as Omkar Suryawanshi (24), Shankar Dhole (22), and Mayur Auti (27), who was driving the car",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Hindustan Times Pune",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Hindustan Times Pune",
-          "trust": "B",
-          "link": "https://www.hindustantimes.com/cities/pune-news/three-killed-as-car-crosses-divider-rams-stationary-truck-in-wagholi-101795457001338.html",
-          "origin": ""
-        }
-      ],
-      "link": "https://www.hindustantimes.com/cities/pune-news/three-killed-as-car-crosses-divider-rams-stationary-truck-in-wagholi-101795457001338.html",
-      "talukas": [
-        "haveli"
-      ],
-      "localities": [
-        "Wagholi"
-      ],
-      "operationalZones": [],
-      "publishedAt": "2026-11-24T02:01:00.000Z",
-      "lastUpdated": "2026-11-24T02:01:00.000Z",
-      "sourceCheckedAt": "2026-11-25T01:01:18.056Z",
-      "lastVerifiedAt": "2026-11-25T01:01:18.056Z",
-      "intelligenceGeneratedAt": "2026-11-25T01:01:33.478Z",
-      "expiresAt": "2026-11-25T02:01:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Medium",
-      "confidenceScore": 63,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "",
-      "upstreamId": "",
-      "collectionProvider": "",
-      "discoveryOnly": false,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": null,
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "local",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-three-killed-as-speeding-car-crashes-into-divider-overturns-on-pune-ah",
-      "eventKind": "incident",
-      "sourceId": "ani",
-      "title": "Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway",
+      "sourceId": "punekar_news",
+      "title": "Developing: Pune: Couple Heading Home From Farm Killed as MSRTC E-Bus Hits Motorcycle Near Jejuri",
       "summary": "A current trusted-media report relevant to Pune District.",
       "category": "accident",
       "severity": "watch",
-      "source": "ANI",
+      "source": "Punekar News",
       "sourceTrust": "B",
       "sources": [
         {
-          "name": "ANI",
+          "name": "Punekar News",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRkoxOXU0dUYzWUV3TzE1ZHdHSW81V1VRcFhTRHJXNjhoRW5vYW9oXzNQY2VtSTZsRnJXUURHYjI0Q3pCUW01MzVxdWU0blZtSWttRkl4bEctLUtSdS05ZlZFT3VyeTlvclpQNklVcW1UanFhWnlZN0dlSVNKdWxvYnNqazBQRHJYaE5ZSGIyOE1qRHpiYXVzWWZNQ3JrRGRwbWxQclgzNjRXcUVtOWZPaXdVTzEwa0FlM2hQTTBvNTlnamN6akFkNjg1NWl6ZDJjWHBGTTRRZmVhRGNOWFdDWjF4bnQ?oc=5",
-          "origin": "ani"
-        },
-        {
-          "name": "Indian Express Pune",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS1J3czRhcEFhMjNWaDRjWmRDaHJZYkgwajY5aUhMSGpHRVc5czdGUXB4VG1KWDE4R2hodERkYVJWbjhmN1d1Q2JqaWVkMWpVTl9xVzdIX21UVlZHakpDVXpDRTNKZTlId21ZRkFYRDBBS3I3S2xWQmxRMnYzc3loSHk1d3VoWGFseldObjNnckExNTN1elFwLUJ6cE9INkpSUkx5RUM5N0FGcG92aG9hdGxMekJZRjI0aUVscTdwa0dOeG5OVHhJMC1LakTSAdMBQVVfeXFMTnFCa2g5SjNwcnRVNW11azQwSk4tdklmbzdtVHdXVXM3aXdjaUsyRlJrZUhWRjhHaGFNX3NLQlBEWFBqQ2hJWHpZd0xhUEtaTUx5aGlDYy1nZXVxYWJ4NFNEMnpTN3JsdFNZTFpoRzg2a2NpQW1EMVJMUnF3ZDgxZFhwTDV6V29UYUpHbU1fQXd3bjd6V3FpVkdJOVRUQVRlYXBTdG8zSFJiTUl0aHBYQVpfakRiUGp5NWx1NDFkOW9wcWprdWNIcDBWYUJqekpJd3VNTQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUEM4dmUwOEl1LTRObDJ1dXEzUkVzUFhITVB3Z0w3X1pXMHFPWDZ6dlYxQzNQbDFJMm9uVm52OGxfZzJwSFJqakNBQkp6NVVEQWNEZDdTYXQzbjZKYmQyRmg1OE9iUUNuUlVGa3lJb3pPVnpUeDF3V0JPRzRQYnNlb2xnQ0prVExicExFSFhtTXlUMldBV0hfa2EwWmJzNHVKSmpNOUxDa2QzV2RraUhNN2dn?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRkoxOXU0dUYzWUV3TzE1ZHdHSW81V1VRcFhTRHJXNjhoRW5vYW9oXzNQY2VtSTZsRnJXUURHYjI0Q3pCUW01MzVxdWU0blZtSWttRkl4bEctLUtSdS05ZlZFT3VyeTlvclpQNklVcW1UanFhWnlZN0dlSVNKdWxvYnNqazBQRHJYaE5ZSGIyOE1qRHpiYXVzWWZNQ3JrRGRwbWxQclgzNjRXcUVtOWZPaXdVTzEwa0FlM2hQTTBvNTlnamN6akFkNjg1NWl6ZDJjWHBGTTRRZmVhRGNOWFdDWjF4bnQ?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [
-        "Pune-Ahmednagar Highway"
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUEM4dmUwOEl1LTRObDJ1dXEzUkVzUFhITVB3Z0w3X1pXMHFPWDZ6dlYxQzNQbDFJMm9uVm52OGxfZzJwSFJqakNBQkp6NVVEQWNEZDdTYXQzbjZKYmQyRmg1OE9iUUNuUlVGa3lJb3pPVnpUeDF3V0JPRzRQYnNlb2xnQ0prVExicExFSFhtTXlUMldBV0hfa2EwWmJzNHVKSmpNOUxDa2QzV2RraUhNN2dn?oc=5",
+      "talukas": [
+        "purandar"
       ],
-      "publishedAt": "2026-11-23T08:16:00.000Z",
-      "lastUpdated": "2026-11-23T08:16:00.000Z",
-      "sourceCheckedAt": "2026-11-25T01:01:18.056Z",
-      "lastVerifiedAt": "2026-11-25T01:01:18.056Z",
-      "intelligenceGeneratedAt": "2026-11-25T01:01:33.478Z",
-      "expiresAt": "2026-11-25T08:16:00.000Z",
+      "localities": [
+        "Jejuri"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-11-24T07:21:14.000Z",
+      "lastUpdated": "2026-11-24T07:21:14.000Z",
+      "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
+      "lastVerifiedAt": "2026-11-25T09:52:37.219Z",
+      "intelligenceGeneratedAt": "2026-11-25T09:52:58.032Z",
+      "expiresAt": "2026-11-26T07:21:14.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
       "confidenceScore": 55,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-63ec5ea4",
+      "affectedArea": "Jejuri",
+      "upstreamId": "google-news-3363e897",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-25T01:01:18.056Z",
+      "discoveredAt": "2026-11-25T09:52:37.219Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [
-        "accident-developing-3-killed-as-car-jumps-divider-hits-truck-on-pune-ahilyanagar-highway-2"
-      ],
-      "independentSourceCount": 2,
-      "corroboratedByIndependentSources": true
-    },
-    {
-      "id": "accident-developing-three-killed-two-injured-in-car-truck-collision-on-pune-ahilyanagar-ro",
-      "eventKind": "incident",
-      "sourceId": "the_print",
-      "title": "Developing: Three killed, two injured in car-truck collision on Pune-Ahilyanagar road",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "ThePrint",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "ThePrint",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbUtJVE9rR19wQVZrR2h2SndqZHNidWdxTVFEdktTSkxhaG01MjBfMnZiWS1rQjNpZFNJUExITUlGUzJQeXEwUFkxLW9aN1kxbWk1Tk5VckNtMU9TYVpJZWFPNk9LYmN0RUNzUXJTemlCbWhCVzRrVjhTR1FnalRobHZuSEgtZS0wUS11OWNYako4eHJSYWxIbHJzTmVJdlRNRDNwRVFzNDNid0k2X21HZNIBsAFBVV95cUxNbUtJVE9rR19wQVZrR2h2SndqZHNidWdxTVFEdktTSkxhaG01MjBfMnZiWS1rQjNpZFNJUExITUlGUzJQeXEwUFkxLW9aN1kxbWk1Tk5VckNtMU9TYVpJZWFPNk9LYmN0RUNzUXJTemlCbWhCVzRrVjhTR1FnalRobHZuSEgtZS0wUS11OWNYako4eHJSYWxIbHJzTmVJdlRNRDNwRVFzNDNid0k2X21HZA?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbUtJVE9rR19wQVZrR2h2SndqZHNidWdxTVFEdktTSkxhaG01MjBfMnZiWS1rQjNpZFNJUExITUlGUzJQeXEwUFkxLW9aN1kxbWk1Tk5VckNtMU9TYVpJZWFPNk9LYmN0RUNzUXJTemlCbWhCVzRrVjhTR1FnalRobHZuSEgtZS0wUS11OWNYako4eHJSYWxIbHJzTmVJdlRNRDNwRVFzNDNid0k2X21HZNIBsAFBVV95cUxNbUtJVE9rR19wQVZrR2h2SndqZHNidWdxTVFEdktTSkxhaG01MjBfMnZiWS1rQjNpZFNJUExITUlGUzJQeXEwUFkxLW9aN1kxbWk1Tk5VckNtMU9TYVpJZWFPNk9LYmN0RUNzUXJTemlCbWhCVzRrVjhTR1FnalRobHZuSEgtZS0wUS11OWNYako4eHJSYWxIbHJzTmVJdlRNRDNwRVFzNDNid0k2X21HZA?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-11-23T07:45:28.000Z",
-      "lastUpdated": "2026-11-23T07:45:28.000Z",
-      "sourceCheckedAt": "2026-11-25T01:01:18.056Z",
-      "lastVerifiedAt": "2026-11-25T01:01:18.056Z",
-      "intelligenceGeneratedAt": "2026-11-25T01:01:33.478Z",
-      "expiresAt": "2026-11-25T07:45:28.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-43eae389",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-11-25T01:01:18.056Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
+      "geographicScope": "local",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
-    },
+    }
+  ],
+  "journeyContext": {
+    "activeRiskEvents": [
+      {
+        "id": "accident-developing-pune-couple-heading-home-from-farm-killed-as-msrtc-e-bus-hits-motorcyc",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [
+          "Jejuri"
+        ],
+        "talukas": [
+          "purandar"
+        ],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      }
+    ]
+  },
+  "expiredEvents": [
     {
       "id": "accident-developing-speeding-car-jumps-divider-skids-70-metres-before-crashing-into-parked",
       "eventKind": "incident",
@@ -446,11 +253,11 @@
       "operationalZones": [],
       "publishedAt": "2026-11-23T07:11:00.000Z",
       "lastUpdated": "2026-11-23T07:11:00.000Z",
-      "sourceCheckedAt": "2026-11-25T01:01:18.056Z",
-      "lastVerifiedAt": "2026-11-25T01:01:18.056Z",
-      "intelligenceGeneratedAt": "2026-11-25T01:01:33.478Z",
+      "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
+      "lastVerifiedAt": "2026-11-25T09:52:37.219Z",
+      "intelligenceGeneratedAt": "2026-11-25T09:52:58.032Z",
       "expiresAt": "2026-11-25T07:11:00.000Z",
-      "lifecycle": "developing",
+      "lifecycle": "expired",
       "confidence": "Low",
       "confidenceScore": 35,
       "impact": "Traffic delays are likely near the incident location.",
@@ -461,7 +268,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-25T01:01:18.056Z",
+      "discoveredAt": "2026-11-25T09:52:37.219Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -472,180 +279,54 @@
       "corroboratedByIndependentSources": false
     },
     {
-      "id": "accident-developing-three-men-die-two-suffer-injuries-as-car-jumps-median-hits-truck-parke",
+      "id": "accident-developing-pune-three-youths-killed-two-seriously-injured-as-car-rams-into-truck-",
       "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: Three men die, two suffer injuries as car jumps median, hits truck parked along Pune-Ahilyanagar highway",
+      "sourceId": "punekar_news",
+      "title": "Developing: Pune: Three Youths Killed, Two Seriously Injured As Car Rams Into Truck Near Wagholi",
       "summary": "A current trusted-media report relevant to Pune District.",
       "category": "accident",
       "severity": "watch",
-      "source": "Times of India",
+      "source": "Punekar News",
       "sourceTrust": "B",
       "sources": [
         {
-          "name": "Times of India",
+          "name": "Punekar News",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPdC1CSHFFdzYtak85TWhxa1BqNU5mbmRWbV9WUWhqcDZiQzNEMDdRZ1Vaekh2d2duZ084X2VZSmR3U0o4NXNhYzVpOFFicEtONVJlN0NFbU5SaEpzTnI5UWl1RTVJYjR0THlhRU5GZzVNeEpnVHFialNBWE1wdlFMcjRiMmVMSnEteTBfcU9XU3JjUUhRNEgwX0p2LUQwRVRfR3lJaVltNURNaGhjYlpNbzVTOWo0T2ZoUWZnWkxXaHJFMWUxWmQtX19SREFGZG1jWGgtZkU5aEFTZEljanM3ZVhqSjdQRC1GUHo4aVdMVFhlb0hZTEZLT245ZVpGSVhLRFdwQnZPQzZIVWRnMFhHMlVKdHNTQdIBmwJBVV95cUxNb0M4YmpNNUFXX1pmWDJPMEZYbXVVWUlNNVprNWI5bENXNUdmbDBpc3BRWlFta2ZIWFRDaUh6c0l6Wkh1ME5Ba2piSUM0R1pmQU1iN1gzM1M4Q243cTJwQUh2QnktZG9hdXA3UktXUndUc25oSDVjY0ZwVmpPcDZPb1NTQVU5MmVPV2NtMDVaZ0MtQ0NFZS1XQWtqbmtqbkRZY05LaDBmSWtualVrU1lna0Z3V1NUS3NvWHVnYXcwUzNrVjZSSGtaVWZEU3g0d0hWVmhlU001Nm5tdURIVDVQU3JLNjFOdUNxSGhGZVczMmdVckpmZDlZVzJOQ2IxZ05KdTVTZE5ZNWdwVkVkNWFmTnVXWlpfREtMZXgw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2wtZllUbXF0QnYyemoxWVV5cHJTUFlJOENzMGtLU0lpTUdlSEVqdGg5OThReEp3bzhSQ0lvVnd0dklub3gtdDFqeHBNU0NZV0VBOVdmZnk0b1hXZm1taDBzTnB0RXJUamJIdnRxTXdlbTdJLWREWE96NVdTVC13MjlRY0N3Wk5VMVNBNnN4TUtGNmdiVkY2SHhSaFZjelBxUktTczJEUFZLTU1aQVhJ?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPdC1CSHFFdzYtak85TWhxa1BqNU5mbmRWbV9WUWhqcDZiQzNEMDdRZ1Vaekh2d2duZ084X2VZSmR3U0o4NXNhYzVpOFFicEtONVJlN0NFbU5SaEpzTnI5UWl1RTVJYjR0THlhRU5GZzVNeEpnVHFialNBWE1wdlFMcjRiMmVMSnEteTBfcU9XU3JjUUhRNEgwX0p2LUQwRVRfR3lJaVltNURNaGhjYlpNbzVTOWo0T2ZoUWZnWkxXaHJFMWUxWmQtX19SREFGZG1jWGgtZkU5aEFTZEljanM3ZVhqSjdQRC1GUHo4aVdMVFhlb0hZTEZLT245ZVpGSVhLRFdwQnZPQzZIVWRnMFhHMlVKdHNTQdIBmwJBVV95cUxNb0M4YmpNNUFXX1pmWDJPMEZYbXVVWUlNNVprNWI5bENXNUdmbDBpc3BRWlFta2ZIWFRDaUh6c0l6Wkh1ME5Ba2piSUM0R1pmQU1iN1gzM1M4Q243cTJwQUh2QnktZG9hdXA3UktXUndUc25oSDVjY0ZwVmpPcDZPb1NTQVU5MmVPV2NtMDVaZ0MtQ0NFZS1XQWtqbmtqbkRZY05LaDBmSWtualVrU1lna0Z3V1NUS3NvWHVnYXcwUzNrVjZSSGtaVWZEU3g0d0hWVmhlU001Nm5tdURIVDVQU3JLNjFOdUNxSGhGZVczMmdVckpmZDlZVzJOQ2IxZ05KdTVTZE5ZNWdwVkVkNWFmTnVXWlpfREtMZXgw?oc=5",
-      "talukas": [],
-      "localities": [],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2wtZllUbXF0QnYyemoxWVV5cHJTUFlJOENzMGtLU0lpTUdlSEVqdGg5OThReEp3bzhSQ0lvVnd0dklub3gtdDFqeHBNU0NZV0VBOVdmZnk0b1hXZm1taDBzTnB0RXJUamJIdnRxTXdlbTdJLWREWE96NVdTVC13MjlRY0N3Wk5VMVNBNnN4TUtGNmdiVkY2SHhSaFZjelBxUktTczJEUFZLTU1aQVhJ?oc=5",
+      "talukas": [
+        "haveli"
+      ],
+      "localities": [
+        "Wagholi"
+      ],
       "operationalZones": [],
-      "publishedAt": "2026-11-24T04:17:00.000Z",
-      "lastUpdated": "2026-11-24T04:17:00.000Z",
-      "sourceCheckedAt": "2026-11-25T01:01:18.056Z",
-      "lastVerifiedAt": "2026-11-25T01:01:18.056Z",
-      "intelligenceGeneratedAt": "2026-11-25T01:01:33.478Z",
-      "expiresAt": "2026-11-26T04:17:00.000Z",
-      "lifecycle": "developing",
-      "confidence": "Low",
-      "confidenceScore": 43,
+      "publishedAt": "2026-11-23T09:06:54.000Z",
+      "lastUpdated": "2026-11-23T09:06:54.000Z",
+      "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
+      "lastVerifiedAt": "2026-11-25T09:52:37.219Z",
+      "intelligenceGeneratedAt": "2026-11-25T09:52:58.032Z",
+      "expiresAt": "2026-11-25T09:06:54.000Z",
+      "lifecycle": "expired",
+      "confidence": "Medium",
+      "confidenceScore": 55,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-6c6f512a",
+      "affectedArea": "Wagholi",
+      "upstreamId": "google-news-c93a2d2e",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-25T01:01:18.056Z",
+      "discoveredAt": "2026-11-25T09:52:37.219Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
-  "journeyContext": {
-    "activeRiskEvents": [
-      {
-        "id": "accident-developing-former-gokul-director-s-son-held-after-suspected-drink-driving-crash-k",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "accident-developing-couple-killed-as-shivai-bus-hits-two-wheeler-on-jejuri-morgaon-road-20",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [
-          "Morgaon",
-          "Jejuri"
-        ],
-        "talukas": [
-          "baramati",
-          "purandar"
-        ],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "accident-developing-three-killed-as-car-crosses-divider-rams-stationary-truck-in-pune-s-wa",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [
-          "Wagholi"
-        ],
-        "talukas": [
-          "haveli"
-        ],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "accident-developing-three-killed-as-speeding-car-crashes-into-divider-overturns-on-pune-ah",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [
-          "Pune-Ahmednagar Highway"
-        ],
-        "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "accident-developing-three-killed-two-injured-in-car-truck-collision-on-pune-ahilyanagar-ro",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "accident-developing-speeding-car-jumps-divider-skids-70-metres-before-crashing-into-parked",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      },
-      {
-        "id": "accident-developing-three-men-die-two-suffer-injuries-as-car-jumps-median-hits-truck-parke",
-        "category": "accident",
-        "severity": "watch",
-        "localities": [],
-        "talukas": [],
-        "operationalZones": [],
-        "impact": "Traffic delays are likely near the incident location."
-      }
-    ]
-  },
-  "expiredEvents": [
-    {
-      "id": "fire-developing-maharashtra-fire-breaks-out-in-pune-building-s-parking-lot-35-residents-re",
-      "eventKind": "incident",
-      "sourceId": "deccan_herald",
-      "title": "Developing: Maharashtra: Fire breaks out in Pune building's parking lot; 35 residents rescued",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "fire",
-      "severity": "warning",
-      "source": "Deccan Herald",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Deccan Herald",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPXzY1SDlqdjFlTktmbG5zTEFPa1AzbkE2b1JWYjFVZ0ZrVWV5elJPZkcxeF85cmFPR0l3dlltRmRrZVJJa1RTaVdEajhUcUxrRHFNNUFVTkQzMUlZSmNzNnVqQ3VxcGZsTDdLREJuTjdDdFU1S0o3Sm5GR3VsV21fMGVfZVlwUDNpajkyRW9KRmw5c05QTV9zZndMLXFmdmYtLTFQa29HVjhYYUFwY0IxaDQycWlkdUtzZGx3cG9Ha3hwQnRQMGcyNC15UGt3Z9IB2wFBVV95cUxPOTZHRkhyYWpPdEJ1ZkI2SWRsM1Z4c0lQRWdSbmdDYV9DVG1HYmRGUjZIUGxnbzNpaDJXcUl2bW9UMnpXcGpCejY2Mlk0Qi00RkVpbDlNV0d1R2JiYUJPajBlNHdaSk9rRnJkSEdManhKc1dFcG1oZ09TTDE0Ykw0SDVWYzY2MFdKRDRESVM4SHpXVzdFTzVNNnFrWDk1Y2NlLWdkeTY0TExialBza3pBd3pRRmRrd1VLbGlQQWxqLTVvWXRzZVMtQ1JJUnVfOF9uNE0zZWFQQU1sWnc?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPXzY1SDlqdjFlTktmbG5zTEFPa1AzbkE2b1JWYjFVZ0ZrVWV5elJPZkcxeF85cmFPR0l3dlltRmRrZVJJa1RTaVdEajhUcUxrRHFNNUFVTkQzMUlZSmNzNnVqQ3VxcGZsTDdLREJuTjdDdFU1S0o3Sm5GR3VsV21fMGVfZVlwUDNpajkyRW9KRmw5c05QTV9zZndMLXFmdmYtLTFQa29HVjhYYUFwY0IxaDQycWlkdUtzZGx3cG9Ha3hwQnRQMGcyNC15UGt3Z9IB2wFBVV95cUxPOTZHRkhyYWpPdEJ1ZkI2SWRsM1Z4c0lQRWdSbmdDYV9DVG1HYmRGUjZIUGxnbzNpaDJXcUl2bW9UMnpXcGpCejY2Mlk0Qi00RkVpbDlNV0d1R2JiYUJPajBlNHdaSk9rRnJkSEdManhKc1dFcG1oZ09TTDE0Ykw0SDVWYzY2MFdKRDRESVM4SHpXVzdFTzVNNnFrWDk1Y2NlLWdkeTY0TExialBza3pBd3pRRmRrd1VLbGlQQWxqLTVvWXRzZVMtQ1JJUnVfOF9uNE0zZWFQQU1sWnc?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-11-22T10:04:41.000Z",
-      "lastUpdated": "2026-11-22T10:04:41.000Z",
-      "sourceCheckedAt": "2026-11-25T01:01:18.056Z",
-      "lastVerifiedAt": "2026-11-25T01:01:18.056Z",
-      "intelligenceGeneratedAt": "2026-11-25T01:01:33.478Z",
-      "expiresAt": "2026-11-24T10:04:41.000Z",
-      "lifecycle": "expired",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "This event may affect local awareness or movement.",
-      "recommendedAction": "Monitor updates and verify through official sources where needed.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-27c56aa3",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-11-25T01:01:18.056Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
+      "geographicScope": "local",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
@@ -657,15 +338,15 @@
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-11-25T01:01:18.056Z",
-      "lastSuccessfulAt": "2026-11-25T01:01:18.056Z",
+      "sourceCheckedAt": "2026-11-25T09:52:37.219Z",
+      "lastSuccessfulAt": "2026-11-25T09:52:37.219Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-11-25T01:01:33.586Z",
+      "generatedAt": "2026-11-25T09:52:58.102Z",
       "activeSeason": "winter",
       "priorityHazards": [
         "fog",
@@ -676,7 +357,7 @@
       "advice": "Monitor fog, low visibility, cold wave and air quality."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-11-25T01:01:33.585Z",
+      "generatedAt": "2026-11-25T09:52:58.101Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -757,7 +438,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-11-25T01:01:33.586Z",
+      "generatedAt": "2026-11-25T09:52:58.102Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -802,33 +483,36 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-11-25T01:01:33.641Z",
+        "generatedAt": "2026-11-25T09:52:58.147Z",
         "bestRoute": {
-          "id": "kharadi-hinjawadi-pashan",
-          "label": "Kharadi to Hinjawadi via Pashan",
+          "id": "kharadi-hinjawadi-nh48",
+          "label": "Kharadi to Hinjawadi via NH48",
           "fromAliases": [
             "Kharadi",
-            "EON"
+            "EON",
+            "World Trade Center"
           ],
           "toAliases": [
             "Hinjawadi",
-            "Hinjewadi"
+            "Hinjewadi",
+            "Rajiv Gandhi Infotech Park"
           ],
           "via": [
             "Kharadi",
-            "Yerwada",
-            "Aundh",
-            "Pashan",
-            "Mahalunge",
+            "Viman Nagar",
+            "Shivajinagar",
+            "Baner",
+            "Wakad",
             "Hinjawadi"
           ],
           "operationalZones": [
-            "Pashan Road",
+            "Pune-Ahmednagar Highway",
+            "NH48",
             "IT Corridor"
           ],
-          "distanceKm": 36,
-          "baseTimeMin": 72,
-          "mapsQuery": "Kharadi to Hinjawadi via Pashan Mahalunge",
+          "distanceKm": 33,
+          "baseTimeMin": 65,
+          "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
           "routeType": "known-corridor",
           "journeySuitability": {
             "score": 100,
@@ -837,14 +521,58 @@
             "reasons": [],
             "penalties": []
           },
-          "estimatedTimeMin": 72,
+          "estimatedTimeMin": 65,
           "estimatedDelayMin": 0,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
           "rank": 1,
           "recommended": true,
-          "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
+          "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
         },
         "routes": [
+          {
+            "id": "kharadi-hinjawadi-nh48",
+            "label": "Kharadi to Hinjawadi via NH48",
+            "fromAliases": [
+              "Kharadi",
+              "EON",
+              "World Trade Center"
+            ],
+            "toAliases": [
+              "Hinjawadi",
+              "Hinjewadi",
+              "Rajiv Gandhi Infotech Park"
+            ],
+            "via": [
+              "Kharadi",
+              "Viman Nagar",
+              "Shivajinagar",
+              "Baner",
+              "Wakad",
+              "Hinjawadi"
+            ],
+            "operationalZones": [
+              "Pune-Ahmednagar Highway",
+              "NH48",
+              "IT Corridor"
+            ],
+            "distanceKm": 33,
+            "baseTimeMin": 65,
+            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
+            "routeType": "known-corridor",
+            "journeySuitability": {
+              "score": 100,
+              "label": "Excellent",
+              "recommendation": "Travel conditions look suitable.",
+              "reasons": [],
+              "penalties": []
+            },
+            "estimatedTimeMin": 65,
+            "estimatedDelayMin": 0,
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
+            "rank": 1,
+            "recommended": true,
+            "explanation": "Best route: Kharadi to Hinjawadi via NH48. Journey suitability is Excellent (100/100). Estimated travel time is about 65 minutes. No major route-specific disruption detected."
+          },
           {
             "id": "kharadi-hinjawadi-pashan",
             "label": "Kharadi to Hinjawadi via Pashan",
@@ -882,76 +610,9 @@
             "estimatedTimeMin": 72,
             "estimatedDelayMin": 0,
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Pashan%20Mahalunge",
-            "rank": 1,
-            "recommended": true,
-            "explanation": "Best route: Kharadi to Hinjawadi via Pashan. Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
-          },
-          {
-            "id": "kharadi-hinjawadi-nh48",
-            "label": "Kharadi to Hinjawadi via NH48",
-            "fromAliases": [
-              "Kharadi",
-              "EON",
-              "World Trade Center"
-            ],
-            "toAliases": [
-              "Hinjawadi",
-              "Hinjewadi",
-              "Rajiv Gandhi Infotech Park"
-            ],
-            "via": [
-              "Kharadi",
-              "Viman Nagar",
-              "Shivajinagar",
-              "Baner",
-              "Wakad",
-              "Hinjawadi"
-            ],
-            "operationalZones": [
-              "Pune-Ahmednagar Highway",
-              "NH48",
-              "IT Corridor"
-            ],
-            "distanceKm": 33,
-            "baseTimeMin": 65,
-            "mapsQuery": "Kharadi to Hinjawadi via Baner Wakad",
-            "routeType": "known-corridor",
-            "journeySuitability": {
-              "score": 40,
-              "label": "Consider Delaying",
-              "recommendation": "Consider delaying or checking alternate routes.",
-              "reasons": [
-                "Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway may cause delays or safety concerns.",
-                "Developing: Three killed, two injured in car-truck collision on Pune-Ahilyanagar road may cause delays or safety concerns.",
-                "Developing: Three men die, two suffer injuries as car jumps median, hits truck parked along Pune-Ahilyanagar highway may cause delays or safety concerns."
-              ],
-              "penalties": [
-                {
-                  "eventId": "accident-developing-three-killed-as-speeding-car-crashes-into-divider-overturns-on-pune-ah",
-                  "category": "accident",
-                  "penalty": 20,
-                  "title": "Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway"
-                },
-                {
-                  "eventId": "accident-developing-three-killed-two-injured-in-car-truck-collision-on-pune-ahilyanagar-ro",
-                  "category": "accident",
-                  "penalty": 20,
-                  "title": "Developing: Three killed, two injured in car-truck collision on Pune-Ahilyanagar road"
-                },
-                {
-                  "eventId": "accident-developing-three-men-die-two-suffer-injuries-as-car-jumps-median-hits-truck-parke",
-                  "category": "accident",
-                  "penalty": 20,
-                  "title": "Developing: Three men die, two suffer injuries as car jumps median, hits truck parked along Pune-Ahilyanagar highway"
-                }
-              ]
-            },
-            "estimatedTimeMin": 90,
-            "estimatedDelayMin": 25,
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Consider Delaying (40/100). Estimated travel time is about 90 minutes including around 25 minutes delay. Main reason: Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway may cause delays or safety concerns."
+            "explanation": "Kharadi to Hinjawadi via Pashan: Journey suitability is Excellent (100/100). Estimated travel time is about 72 minutes. No major route-specific disruption detected."
           }
         ]
       },
@@ -960,7 +621,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-11-25T01:01:33.641Z",
+        "generatedAt": "2026-11-25T09:52:58.147Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1053,7 +714,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-11-25T01:01:33.642Z",
+        "generatedAt": "2026-11-25T09:52:58.147Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
