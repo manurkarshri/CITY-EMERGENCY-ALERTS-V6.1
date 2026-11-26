@@ -1,50 +1,36 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-25T19:49:24.048Z",
+  "generatedAt": "2026-11-26T02:42:13.951Z",
   "routes": [],
   "risks": [
     {
-      "id": "public-safety-developing-pune-crime-news-पुण्यात-कोर्टाबाहेर-भरदिवसा-गोळीबार-पुणे-हादरलं-न",
-      "category": "public_safety",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "The incident may create an immediate safety risk in the affected area."
-    },
-    {
-      "id": "public-safety-developing-pune-crime-news-पुण्यातील-शिवाजीनगर-कोर्टासमोर-गोळीबार-बंदूक-टाकू",
-      "category": "public_safety",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "The incident may create an immediate safety risk in the affected area."
-    },
-    {
-      "id": "public-safety-developing-pune-news-पुण्यात-थरार-पुण्यात-कोर्टाबाहेर-गोळीबाराची-घटना-कोयत्य",
-      "category": "public_safety",
-      "severity": "warning",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "The incident may create an immediate safety risk in the affected area."
-    },
-    {
-      "id": "public-safety-developing-pune-shivajinagar-court-firing-पुण्यात-शिवाजीनगर-न्यायालयाबाहेर-ग",
-      "category": "public_safety",
-      "severity": "warning",
+      "id": "accident-developing-3-students-killed-two-injured-after-tempo-rams-into-bus-stop-at-bopdev",
+      "category": "accident",
+      "severity": "watch",
       "localities": [
-        "Shivajinagar"
+        "Kondhwa"
       ],
       "talukas": [
         "pune_city"
       ],
       "operationalZones": [],
-      "impact": "The incident may create an immediate safety risk in the affected area."
+      "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "accident-developing-video-3-dead-6-hurt-as-speeding-truck-runs-over-students-waiting-at-pu",
+      "id": "animal-hazard-developing-woman-killed-in-junnar-leopard-attack-as-forest-minister-reviews-",
+      "category": "animal_hazard",
+      "severity": "warning",
+      "localities": [
+        "Junnar"
+      ],
+      "talukas": [
+        "junnar"
+      ],
+      "operationalZones": [],
+      "impact": "A reported animal hazard may create a safety or rabies risk nearby."
+    },
+    {
+      "id": "accident-developing-watch-speeding-truck-hits-car-ploughs-into-students-waiting-at-pune-bu",
       "category": "accident",
       "severity": "watch",
       "localities": [],
@@ -53,7 +39,7 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "accident-developing-watch-speeding-truck-hits-car-ploughs-into-students-waiting-at-pune-bu",
+      "id": "accident-developing-video-3-dead-6-hurt-as-speeding-truck-runs-over-students-waiting-at-pu",
       "category": "accident",
       "severity": "watch",
       "localities": [],
@@ -82,15 +68,6 @@
       ],
       "operationalZones": [],
       "impact": "The incident may create an immediate safety risk in the affected area."
-    },
-    {
-      "id": "accident-developing-pune-three-trinity-college-students-dead-two-injured-after-tempo-hits-",
-      "category": "accident",
-      "severity": "watch",
-      "localities": [],
-      "talukas": [],
-      "operationalZones": [],
-      "impact": "Traffic delays are likely near the incident location."
     }
   ]
 }
