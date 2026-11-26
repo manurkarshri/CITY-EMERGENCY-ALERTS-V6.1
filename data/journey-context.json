@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-26T02:42:13.951Z",
+  "generatedAt": "2026-11-26T11:31:31.898Z",
   "routes": [],
   "risks": [
     {
@@ -30,6 +30,15 @@
       "impact": "A reported animal hazard may create a safety or rabies risk nearby."
     },
     {
+      "id": "accident-developing-three-engineering-students-killed-two-critical-as-tempo-ploughs-into-t",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [],
+      "talukas": [],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
+    },
+    {
       "id": "accident-developing-watch-speeding-truck-hits-car-ploughs-into-students-waiting-at-pune-bu",
       "category": "accident",
       "severity": "watch",
@@ -57,7 +66,7 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "public-safety-developing-pune-panic-grips-shivajinagar-area-after-firing-outside-district-",
+      "id": "public-safety-developing-pune-police-take-six-into-custody-in-shivajinagar-court-firing-ca",
       "category": "public_safety",
       "severity": "warning",
       "localities": [
@@ -68,6 +77,19 @@
       ],
       "operationalZones": [],
       "impact": "The incident may create an immediate safety risk in the affected area."
+    },
+    {
+      "id": "accident-developing-26-year-old-dies-four-friends-injured-as-car-rams-into-tree-in-chinchw",
+      "category": "accident",
+      "severity": "watch",
+      "localities": [
+        "Chinchwad"
+      ],
+      "talukas": [
+        "pcmc"
+      ],
+      "operationalZones": [],
+      "impact": "Traffic delays are likely near the incident location."
     }
   ]
 }

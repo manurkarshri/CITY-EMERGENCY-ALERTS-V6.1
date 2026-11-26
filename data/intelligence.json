@@ -1,11 +1,11 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-26T02:42:13.951Z",
+  "generatedAt": "2026-11-26T11:31:31.898Z",
   "status": "stale",
   "situation": {
     "snapshot": "2 important alerts require attention.",
     "weather": {
-      "generatedAt": "2026-11-26T02:42:14.012Z",
+      "generatedAt": "2026-11-26T11:31:31.945Z",
       "regions": {
         "pune_city": {
           "label": "Pune City",
@@ -146,16 +146,78 @@
     },
     "changes": [],
     "environmentalImpact": {
-      "generatedAt": "2026-11-26T02:42:14.050Z",
+      "generatedAt": "2026-11-26T11:31:31.995Z",
       "riskLevel": "Normal",
       "impacts": [
-        "4 active transport-related event(s) may affect travel."
+        "6 active transport-related event(s) may affect travel."
       ],
-      "citizenSummary": "4 active transport-related event(s) may affect travel.",
+      "citizenSummary": "6 active transport-related event(s) may affect travel.",
       "seasonalContext": "winter"
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "id": "public-safety-developing-pune-police-take-six-into-custody-in-shivajinagar-court-firing-ca",
+      "eventKind": "alert",
+      "sourceId": "ani",
+      "title": "Developing: Pune Police take six into custody in Shivajinagar Court firing case",
+      "summary": "A current trusted-media report relevant to Pune District. ANI attributes this alert to Pune Police. The original official feed was not available to the app at collection time.",
+      "category": "public_safety",
+      "severity": "warning",
+      "source": "ANI",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "ANI",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaTg0NTJ5Ul9KQ1c2d0pReno1WFdaSDNxYWNKZVVNVUVFb0N3Mmo3MmJKQjJCSWo1QmlJSWpVSlhNdE14U3F2ak5YQ0NxMlJndEdiYXdRMTZrUkJRMk0tNU9SLVY3b2cwelF4MElhVUt4ZTlUemFTUjh3bUp2LXlwUUN4emFFSVBhVHI2U05kRXNnRzRBY0xBVmFpQjQxakZnWGEzOGRpLVdCMDF3OFo1X0lVdm1Mejg4VWpraEsyNjZjZnZWS2Y5bFhnTQ?oc=5",
+          "origin": "ani"
+        },
+        {
+          "name": "NDTV",
+          "trust": "B",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRk5JVTdncHdtMlh0ZHhVS3FkOUZNU2JvWEFXR3laWFNpTjFhVUI5ejJpXzlRSUdZZ0FDeHViWVA4TFZfZnRmUDhwMi0taVoyZTlxNm1qeFd1SXJCb1FmVHpjZEp6NE9rWXpfM2pMSWhRZThUQ3ZZYnFwdm9QVTYzU0VHMkM1TWYwQ1J0WFg4VHZxWEVBNEg0d2NYRGN2c3JCWHEtZHZRNW0tM3lpdVNZdGFB?oc=5",
+          "origin": ""
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaTg0NTJ5Ul9KQ1c2d0pReno1WFdaSDNxYWNKZVVNVUVFb0N3Mmo3MmJKQjJCSWo1QmlJSWpVSlhNdE14U3F2ak5YQ0NxMlJndEdiYXdRMTZrUkJRMk0tNU9SLVY3b2cwelF4MElhVUt4ZTlUemFTUjh3bUp2LXlwUUN4emFFSVBhVHI2U05kRXNnRzRBY0xBVmFpQjQxakZnWGEzOGRpLVdCMDF3OFo1X0lVdm1Mejg4VWpraEsyNjZjZnZWS2Y5bFhnTQ?oc=5",
+      "talukas": [
+        "pune_city"
+      ],
+      "localities": [
+        "Shivajinagar"
+      ],
+      "operationalZones": [],
+      "publishedAt": "2026-11-26T03:44:00.000Z",
+      "lastUpdated": "2026-11-26T03:44:00.000Z",
+      "sourceCheckedAt": "2026-11-26T11:31:17.558Z",
+      "lastVerifiedAt": "2026-11-26T11:31:17.558Z",
+      "intelligenceGeneratedAt": "2026-11-26T11:31:31.898Z",
+      "expiresAt": "2026-11-27T15:44:00.000Z",
+      "lifecycle": "developing",
+      "confidence": "High",
+      "confidenceScore": 83,
+      "impact": "The incident may create an immediate safety risk in the affected area.",
+      "recommendedAction": "Avoid the area and follow police or emergency-service instructions.",
+      "affectedArea": "Shivajinagar",
+      "upstreamId": "google-news-58fc34de",
+      "collectionProvider": "Google News RSS",
+      "discoveryOnly": true,
+      "reportedAuthority": "Pune Police",
+      "alertBasis": "trusted_media_attributed_official",
+      "discoveredAt": "2026-11-26T11:31:17.558Z",
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "local",
+      "relatedEventIds": [
+        "public-safety-developing-pune-panic-grips-shivajinagar-area-after-firing-outside-district-"
+      ],
+      "independentSourceCount": 2,
+      "corroboratedByIndependentSources": true
+    }
+  ],
   "incidents": [
     {
       "id": "accident-developing-3-students-killed-two-injured-after-tempo-rams-into-bus-stop-at-bopdev",
@@ -185,13 +247,13 @@
       "operationalZones": [],
       "publishedAt": "2026-11-26T02:11:20.000Z",
       "lastUpdated": "2026-11-26T02:11:20.000Z",
-      "sourceCheckedAt": "2026-11-26T02:41:58.606Z",
-      "lastVerifiedAt": "2026-11-26T02:41:58.606Z",
-      "intelligenceGeneratedAt": "2026-11-26T02:42:13.951Z",
+      "sourceCheckedAt": "2026-11-26T11:31:17.558Z",
+      "lastVerifiedAt": "2026-11-26T11:31:17.558Z",
+      "intelligenceGeneratedAt": "2026-11-26T11:31:31.898Z",
       "expiresAt": "2026-11-27T02:11:20.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 70,
+      "confidenceScore": 63,
       "impact": "Traffic delays are likely near the incident location.",
       "recommendedAction": "Avoid the affected stretch if possible.",
       "affectedArea": "",
@@ -238,13 +300,13 @@
       "operationalZones": [],
       "publishedAt": "2026-11-26T02:09:00.000Z",
       "lastUpdated": "2026-11-26T02:09:00.000Z",
-      "sourceCheckedAt": "2026-11-26T02:41:58.606Z",
-      "lastVerifiedAt": "2026-11-26T02:41:58.606Z",
-      "intelligenceGeneratedAt": "2026-11-26T02:42:13.951Z",
+      "sourceCheckedAt": "2026-11-26T11:31:17.558Z",
+      "lastVerifiedAt": "2026-11-26T11:31:17.558Z",
+      "intelligenceGeneratedAt": "2026-11-26T11:31:31.898Z",
       "expiresAt": "2026-11-26T14:09:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
-      "confidenceScore": 70,
+      "confidenceScore": 63,
       "impact": "A reported animal hazard may create a safety or rabies risk nearby.",
       "recommendedAction": "Keep away, supervise children and pets, and contact emergency or animal-control authorities.",
       "affectedArea": "",
@@ -259,6 +321,55 @@
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "local",
+      "relatedEventIds": [],
+      "independentSourceCount": 1,
+      "corroboratedByIndependentSources": false
+    },
+    {
+      "id": "accident-developing-three-engineering-students-killed-two-critical-as-tempo-ploughs-into-t",
+      "eventKind": "incident",
+      "sourceId": "indian_express",
+      "title": "Developing: Three engineering students killed, two critical as tempo ploughs into them at bus stop in Pune",
+      "summary": "Three engineering students killed, two critical as tempo ploughs into them at bus stop in Pune",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Indian Express Pune",
+      "sourceTrust": "B",
+      "sources": [
+        {
+          "name": "Indian Express Pune",
+          "trust": "B",
+          "link": "https://indianexpress.com/article/cities/pune/three-engineering-students-killed-two-critical-as-tempo-ploughs-into-them-at-bus-stop-in-pune-10978769/",
+          "origin": ""
+        }
+      ],
+      "link": "https://indianexpress.com/article/cities/pune/three-engineering-students-killed-two-critical-as-tempo-ploughs-into-them-at-bus-stop-in-pune-10978769/",
+      "talukas": [],
+      "localities": [],
+      "operationalZones": [],
+      "publishedAt": "2026-11-25T21:57:37.000Z",
+      "lastUpdated": "2026-11-25T21:57:37.000Z",
+      "sourceCheckedAt": "2026-11-26T11:31:17.558Z",
+      "lastVerifiedAt": "2026-11-26T11:31:17.558Z",
+      "intelligenceGeneratedAt": "2026-11-26T11:31:31.898Z",
+      "expiresAt": "2026-11-27T21:57:37.000Z",
+      "lifecycle": "developing",
+      "confidence": "Low",
+      "confidenceScore": 43,
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "",
+      "upstreamId": "d8d5b4a3a423413588ecf37d203654a9",
+      "collectionProvider": "NewsData.io",
+      "discoveryOnly": false,
+      "reportedAuthority": "",
+      "alertBasis": "",
+      "discoveredAt": null,
+      "capMessageType": "",
+      "capReferences": "",
+      "coordinates": [],
+      "roadNumbers": [],
+      "geographicScope": "broader_area",
       "relatedEventIds": [],
       "independentSourceCount": 1,
       "corroboratedByIndependentSources": false
@@ -287,9 +398,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-25T13:52:00.000Z",
       "lastUpdated": "2026-11-25T13:52:00.000Z",
-      "sourceCheckedAt": "2026-11-26T02:41:58.606Z",
-      "lastVerifiedAt": "2026-11-26T02:41:58.606Z",
-      "intelligenceGeneratedAt": "2026-11-26T02:42:13.951Z",
+      "sourceCheckedAt": "2026-11-26T11:31:17.558Z",
+      "lastVerifiedAt": "2026-11-26T11:31:17.558Z",
+      "intelligenceGeneratedAt": "2026-11-26T11:31:31.898Z",
       "expiresAt": "2026-11-27T13:52:00.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -302,7 +413,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-26T02:41:58.606Z",
+      "discoveredAt": "2026-11-26T11:31:17.558Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -330,10 +441,10 @@
           "origin": ""
         },
         {
-          "name": "ANI",
+          "name": "NDTV",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxORUFPNUZvcXJzbkdKaDFIYm00aG90NEM0aGdXVXdwRzdCSW1aemxkWWZrbmF2aV9yRVYyTDVVSzJSUl9RWlk2eUZkakdZNmJvdHhEanFLUllXbXprb2gyazJQc0ZYMlZDelNYc1RfTE4yU0NDNEc1TnpfNEk0MEc2N08xQTY1TVhCZF8yTG9HbWNnNWRBLS03NmRsaVdfcmE3cFo2TkcteHVuUGt3SzIwTFlDNm9zUlp0Qm4tZ3RCdGVTRmIzWGNRREJNWDJ4TkNoRk5wVjVpbjFoMGR4YnpMQV9PXzA0MmIzQXdHTl9manNRbEU4SkYtVTBKc1ZBb2N2Ynd6UzNQcHk?oc=5",
-          "origin": "ani"
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTC13ZDBoam50LXROamhHVUQ3ZzFCbU01dU5zR3plRjl6UHBsZFZuRnFES3pkdmt6N19NTTZhN2JWVDZWTUxvOWdOdTUxQnVUM1pVRkt0bjdCR2tSV1BXaHBLOHdHYVdpNHFqSXhxSnZWZUdQeWFpcGUxcHRObk9mcktuSU9tMjBCajZKQWtSWGlZTi1XWTFILXJBOTRHeF9PTGdDQ1FtYTVoT1lZN2c?oc=5",
+          "origin": ""
         }
       ],
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYmFiMFd6VnN4aEZSYmpuTDNlY3FYYkptZEJiNUxsZm9IVndYQ3V4YWxnSkNlRldXMV9TakNnQnRoUk1RMWFieGxZZEhPQkM2UUhEdE0yaXdvR1pCVnFxR2JpZFBjcWdRdTRoVWVMbXBrYnJtcTFyd3BzeGZ5Tm0zR01kSDJpS0xKUXJUSFY4ZXh4dXM5TG01aTY0MWlsREM5dzAySXZKN2tnWWxLTlF6a3p3djlwejFrLVpNMndvLUs2OTU5SkNZNUxLRGttOWY1M2lYONIB2gFBVV95cUxQWHdBQUEyV2dzVXdmbWcwakRRLWk5WTU5Q0YxVENnaUszOG9zMTZlX1lpa0gxdGRqYUd0M19qMENuaGZxUUxRcnN2a3NLUjdBQkg4SEJoWTY0M3lVMzk0WG9TaTBPcm9BN0VZY1MwQUhTdmhYdUVtV055TjNtZ09neFhJTDdBNXVrTHNfQ05NUnBib2dTM2RCYm9NTHFKZHlkVy14RVc3SjRqR1NpSDZaejJLQ2dndW5fOTVMY0gzNkxtQ1R1SzNIX3ZnQnBaNmppSjNTUmNpd3AxZw?oc=5",
@@ -342,9 +453,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-25T13:49:23.000Z",
       "lastUpdated": "2026-11-25T13:49:23.000Z",
-      "sourceCheckedAt": "2026-11-26T02:41:58.606Z",
-      "lastVerifiedAt": "2026-11-26T02:41:58.606Z",
-      "intelligenceGeneratedAt": "2026-11-26T02:42:13.951Z",
+      "sourceCheckedAt": "2026-11-26T11:31:17.558Z",
+      "lastVerifiedAt": "2026-11-26T11:31:17.558Z",
+      "intelligenceGeneratedAt": "2026-11-26T11:31:31.898Z",
       "expiresAt": "2026-11-27T13:49:23.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
@@ -357,14 +468,14 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-26T02:41:58.606Z",
+      "discoveredAt": "2026-11-26T11:31:17.558Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
       "roadNumbers": [],
       "geographicScope": "pune_district",
       "relatedEventIds": [
-        "accident-developing-maharashtra-3-students-killed-2-injured-as-speeding-truck-rams-into-ca"
+        "accident-developing-video-pune-horror-speeding-truck-mows-down-students-waiting-at-bus-sto"
       ],
       "independentSourceCount": 2,
       "corroboratedByIndependentSources": true
@@ -393,9 +504,9 @@
       "operationalZones": [],
       "publishedAt": "2026-11-25T17:21:27.000Z",
       "lastUpdated": "2026-11-25T17:21:27.000Z",
-      "sourceCheckedAt": "2026-11-26T02:41:58.606Z",
-      "lastVerifiedAt": "2026-11-26T02:41:58.606Z",
-      "intelligenceGeneratedAt": "2026-11-26T02:42:13.951Z",
+      "sourceCheckedAt": "2026-11-26T11:31:17.558Z",
+      "lastVerifiedAt": "2026-11-26T11:31:17.558Z",
+      "intelligenceGeneratedAt": "2026-11-26T11:31:31.898Z",
       "expiresAt": "2026-11-27T17:21:27.000Z",
       "lifecycle": "developing",
       "confidence": "Low",
@@ -408,7 +519,7 @@
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-26T02:41:58.606Z",
+      "discoveredAt": "2026-11-26T11:31:17.558Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -419,49 +530,49 @@
       "corroboratedByIndependentSources": false
     },
     {
-      "id": "public-safety-developing-pune-panic-grips-shivajinagar-area-after-firing-outside-district-",
+      "id": "accident-developing-26-year-old-dies-four-friends-injured-as-car-rams-into-tree-in-chinchw",
       "eventKind": "incident",
-      "sourceId": "ndtv",
-      "title": "Developing: Pune: Panic Grips Shivajinagar Area After Firing Outside District Court",
+      "sourceId": "times_of_india",
+      "title": "Developing: 26-year-old dies, four friends injured as car rams into tree in Chinchwad",
       "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "public_safety",
-      "severity": "warning",
-      "source": "NDTV",
+      "category": "accident",
+      "severity": "watch",
+      "source": "Times of India",
       "sourceTrust": "B",
       "sources": [
         {
-          "name": "NDTV",
+          "name": "Times of India",
           "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRk5JVTdncHdtMlh0ZHhVS3FkOUZNU2JvWEFXR3laWFNpTjFhVUI5ejJpXzlRSUdZZ0FDeHViWVA4TFZfZnRmUDhwMi0taVoyZTlxNm1qeFd1SXJCb1FmVHpjZEp6NE9rWXpfM2pMSWhRZThUQ3ZZYnFwdm9QVTYzU0VHMkM1TWYwQ1J0WFg4VHZxWEVBNEg0d2NYRGN2c3JCWHEtZHZRNW0tM3lpdVNZdGFB?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWWtRV21JQVJkTXBjM2IwMG5sdG41cTAtYkMza3BqVzlUeFFHbUVYX2k3WVZaMFVyQW1YRkdKZVlRa0tPdFBoSmlUckFNbEJ4dVZaWEZvaF8wV0s2eXVoSGdFTi1jU2lIUzdKOFRyTFlzZVpSekxWUHF1Y2RRR2w3YTJtQTM1LVNNWVFNdk9FTmUtUkFjdjBFbTRMWWRqa2swd3RRWEthcURlaWZFNmp3SEFkNDB4QXh5amJ2bjcxS1RIZjJDN0FmV3Y3aG55Z0dfaThmRXJaLUlNblQ20gHiAUFVX3lxTFA0VTBES3Y2MUZHa2RrZFpnNVhvUU1hM0hJamJLcFZsMTNOUU5GTFB0VTFiUjZlM042OHVFTWxVOVNDUEtGSG5NUHN3Y1FDQWlvbFRhTHVsNTk2ZXVFbWpWeXdRRVkwVExsazF3TTFEV3BhVW1TZW00cnBIYUhRZVRuaDhaN2MtLXF3Zi1aN01WakpxS3ZjMDMyNXFZRnJIZ2ZvX1hUUGRwRHpHWWxBUVB0c1RnSW9rM3pUZlNlQm5lckNSbXZ2WER1WHRnVVhwZGQxTnItb09rY2Rzb21kOEdJSkE?oc=5",
           "origin": ""
         }
       ],
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRk5JVTdncHdtMlh0ZHhVS3FkOUZNU2JvWEFXR3laWFNpTjFhVUI5ejJpXzlRSUdZZ0FDeHViWVA4TFZfZnRmUDhwMi0taVoyZTlxNm1qeFd1SXJCb1FmVHpjZEp6NE9rWXpfM2pMSWhRZThUQ3ZZYnFwdm9QVTYzU0VHMkM1TWYwQ1J0WFg4VHZxWEVBNEg0d2NYRGN2c3JCWHEtZHZRNW0tM3lpdVNZdGFB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWWtRV21JQVJkTXBjM2IwMG5sdG41cTAtYkMza3BqVzlUeFFHbUVYX2k3WVZaMFVyQW1YRkdKZVlRa0tPdFBoSmlUckFNbEJ4dVZaWEZvaF8wV0s2eXVoSGdFTi1jU2lIUzdKOFRyTFlzZVpSekxWUHF1Y2RRR2w3YTJtQTM1LVNNWVFNdk9FTmUtUkFjdjBFbTRMWWRqa2swd3RRWEthcURlaWZFNmp3SEFkNDB4QXh5amJ2bjcxS1RIZjJDN0FmV3Y3aG55Z0dfaThmRXJaLUlNblQ20gHiAUFVX3lxTFA0VTBES3Y2MUZHa2RrZFpnNVhvUU1hM0hJamJLcFZsMTNOUU5GTFB0VTFiUjZlM042OHVFTWxVOVNDUEtGSG5NUHN3Y1FDQWlvbFRhTHVsNTk2ZXVFbWpWeXdRRVkwVExsazF3TTFEV3BhVW1TZW00cnBIYUhRZVRuaDhaN2MtLXF3Zi1aN01WakpxS3ZjMDMyNXFZRnJIZ2ZvX1hUUGRwRHpHWWxBUVB0c1RnSW9rM3pUZlNlQm5lckNSbXZ2WER1WHRnVVhwZGQxTnItb09rY2Rzb21kOEdJSkE?oc=5",
       "talukas": [
-        "pune_city"
+        "pcmc"
       ],
       "localities": [
-        "Shivajinagar"
+        "Chinchwad"
       ],
       "operationalZones": [],
-      "publishedAt": "2026-11-25T08:08:36.000Z",
-      "lastUpdated": "2026-11-25T08:08:36.000Z",
-      "sourceCheckedAt": "2026-11-26T02:41:58.606Z",
-      "lastVerifiedAt": "2026-11-26T02:41:58.606Z",
-      "intelligenceGeneratedAt": "2026-11-26T02:42:13.951Z",
-      "expiresAt": "2026-11-26T20:08:36.000Z",
+      "publishedAt": "2026-11-26T02:39:00.000Z",
+      "lastUpdated": "2026-11-26T02:39:00.000Z",
+      "sourceCheckedAt": "2026-11-26T11:31:17.558Z",
+      "lastVerifiedAt": "2026-11-26T11:31:17.558Z",
+      "intelligenceGeneratedAt": "2026-11-26T11:31:31.898Z",
+      "expiresAt": "2026-11-28T02:39:00.000Z",
       "lifecycle": "developing",
       "confidence": "Medium",
       "confidenceScore": 63,
-      "impact": "The incident may create an immediate safety risk in the affected area.",
-      "recommendedAction": "Avoid the area and follow police or emergency-service instructions.",
-      "affectedArea": "Shivajinagar",
-      "upstreamId": "google-news-7fc75438",
+      "impact": "Traffic delays are likely near the incident location.",
+      "recommendedAction": "Avoid the affected stretch if possible.",
+      "affectedArea": "Chinchwad",
+      "upstreamId": "google-news-85788447",
       "collectionProvider": "Google News RSS",
       "discoveryOnly": true,
       "reportedAuthority": "",
       "alertBasis": "",
-      "discoveredAt": "2026-11-26T02:41:58.606Z",
+      "discoveredAt": "2026-11-26T11:31:17.558Z",
       "capMessageType": "",
       "capReferences": "",
       "coordinates": [],
@@ -501,6 +612,15 @@
         "impact": "A reported animal hazard may create a safety or rabies risk nearby."
       },
       {
+        "id": "accident-developing-three-engineering-students-killed-two-critical-as-tempo-ploughs-into-t",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [],
+        "talukas": [],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
+      },
+      {
         "id": "accident-developing-watch-speeding-truck-hits-car-ploughs-into-students-waiting-at-pune-bu",
         "category": "accident",
         "severity": "watch",
@@ -528,7 +648,7 @@
         "impact": "Traffic delays are likely near the incident location."
       },
       {
-        "id": "public-safety-developing-pune-panic-grips-shivajinagar-area-after-firing-outside-district-",
+        "id": "public-safety-developing-pune-police-take-six-into-custody-in-shivajinagar-court-firing-ca",
         "category": "public_safety",
         "severity": "warning",
         "localities": [
@@ -539,175 +659,38 @@
         ],
         "operationalZones": [],
         "impact": "The incident may create an immediate safety risk in the affected area."
+      },
+      {
+        "id": "accident-developing-26-year-old-dies-four-friends-injured-as-car-rams-into-tree-in-chinchw",
+        "category": "accident",
+        "severity": "watch",
+        "localities": [
+          "Chinchwad"
+        ],
+        "talukas": [
+          "pcmc"
+        ],
+        "operationalZones": [],
+        "impact": "Traffic delays are likely near the incident location."
       }
     ]
   },
-  "expiredEvents": [
-    {
-      "id": "accident-developing-speeding-car-jumps-divider-skids-70-metres-before-crashing-into-parked",
-      "eventKind": "incident",
-      "sourceId": "times_of_india",
-      "title": "Developing: Speeding car jumps divider, skids 70 metres before crashing into parked truck in Pune; 3 killed",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "Times of India",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "Times of India",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOT2M2dVF6aW95WmNrLXNncnBnQS1pTmRnSHp4TDhmblN6cVkzZTNMdG5MRnM2YUdBVWZaLTU5WFRSSVQtelFXRE4yWWppTUo2Z0pya3pNUHdiWWNVNkF3SGUycFh6VGItUTIxTDA2R01ybTg2TmpQQXVNOWJQRU5tTXNvejdHajBhdUFyU1pIb1Mzdm9mLVRkVlpaUVJCU2ppd0VPNUZaRHZLSzVWT2lCOEZlVzZTZl9LYjRyUDYwTVY2LUd4eTBvRnpJWGZNTEp6WVZVU19IdUZBZ0hWaWdDSk9INzNHTjdmM3RRMTZUSjhnaGdLM05WatIB_gFBVV95cUxQbzlJdVlNbVpXczJQbno3dVM4Y29LQkVpVDJ5dlJjVDFMM0YyNENNejZhX0ZJNGc4QlQwVU1HLS15NUVDS0RUS3pOYTluSWRFRFlmczBJSjY1QzlKZTJXS0NNQkZzNFpmNWVjZmtGd2FJSjhNX3BMRDNiSjNxd09sWWVSY1hDNWNRNW9La21IYUpERHJhMDh0RVU3T0t1VzZYdGc5VVdoOTA0V3hPYW01UWNETHNHbWlJLXBqMkFiRmFKNUNLY3EzSFo0RGM0YTlHRXJzcWptRFp5bGZ0UWNGQlR4OGNwNC1nOGxta2s5NUxaNF9EWjVrWDl2cGZnUQ?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOT2M2dVF6aW95WmNrLXNncnBnQS1pTmRnSHp4TDhmblN6cVkzZTNMdG5MRnM2YUdBVWZaLTU5WFRSSVQtelFXRE4yWWppTUo2Z0pya3pNUHdiWWNVNkF3SGUycFh6VGItUTIxTDA2R01ybTg2TmpQQXVNOWJQRU5tTXNvejdHajBhdUFyU1pIb1Mzdm9mLVRkVlpaUVJCU2ppd0VPNUZaRHZLSzVWT2lCOEZlVzZTZl9LYjRyUDYwTVY2LUd4eTBvRnpJWGZNTEp6WVZVU19IdUZBZ0hWaWdDSk9INzNHTjdmM3RRMTZUSjhnaGdLM05WatIB_gFBVV95cUxQbzlJdVlNbVpXczJQbno3dVM4Y29LQkVpVDJ5dlJjVDFMM0YyNENNejZhX0ZJNGc4QlQwVU1HLS15NUVDS0RUS3pOYTluSWRFRFlmczBJSjY1QzlKZTJXS0NNQkZzNFpmNWVjZmtGd2FJSjhNX3BMRDNiSjNxd09sWWVSY1hDNWNRNW9La21IYUpERHJhMDh0RVU3T0t1VzZYdGc5VVdoOTA0V3hPYW01UWNETHNHbWlJLXBqMkFiRmFKNUNLY3EzSFo0RGM0YTlHRXJzcWptRFp5bGZ0UWNGQlR4OGNwNC1nOGxta2s5NUxaNF9EWjVrWDl2cGZnUQ?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-11-23T07:11:00.000Z",
-      "lastUpdated": "2026-11-23T07:11:00.000Z",
-      "sourceCheckedAt": "2026-11-26T02:41:58.606Z",
-      "lastVerifiedAt": "2026-11-26T02:41:58.606Z",
-      "intelligenceGeneratedAt": "2026-11-26T02:42:13.951Z",
-      "expiresAt": "2026-11-25T07:11:00.000Z",
-      "lifecycle": "expired",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-1ff7f0af",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-11-26T02:41:58.606Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-three-killed-two-injured-in-car-truck-collision-on-pune-ahilyanagar-ro",
-      "eventKind": "incident",
-      "sourceId": "the_print",
-      "title": "Developing: Three killed, two injured in car-truck collision on Pune-Ahilyanagar road",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "ThePrint",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "ThePrint",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbUtJVE9rR19wQVZrR2h2SndqZHNidWdxTVFEdktTSkxhaG01MjBfMnZiWS1rQjNpZFNJUExITUlGUzJQeXEwUFkxLW9aN1kxbWk1Tk5VckNtMU9TYVpJZWFPNk9LYmN0RUNzUXJTemlCbWhCVzRrVjhTR1FnalRobHZuSEgtZS0wUS11OWNYako4eHJSYWxIbHJzTmVJdlRNRDNwRVFzNDNid0k2X21HZNIBsAFBVV95cUxNbUtJVE9rR19wQVZrR2h2SndqZHNidWdxTVFEdktTSkxhaG01MjBfMnZiWS1rQjNpZFNJUExITUlGUzJQeXEwUFkxLW9aN1kxbWk1Tk5VckNtMU9TYVpJZWFPNk9LYmN0RUNzUXJTemlCbWhCVzRrVjhTR1FnalRobHZuSEgtZS0wUS11OWNYako4eHJSYWxIbHJzTmVJdlRNRDNwRVFzNDNid0k2X21HZA?oc=5",
-          "origin": ""
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbUtJVE9rR19wQVZrR2h2SndqZHNidWdxTVFEdktTSkxhaG01MjBfMnZiWS1rQjNpZFNJUExITUlGUzJQeXEwUFkxLW9aN1kxbWk1Tk5VckNtMU9TYVpJZWFPNk9LYmN0RUNzUXJTemlCbWhCVzRrVjhTR1FnalRobHZuSEgtZS0wUS11OWNYako4eHJSYWxIbHJzTmVJdlRNRDNwRVFzNDNid0k2X21HZNIBsAFBVV95cUxNbUtJVE9rR19wQVZrR2h2SndqZHNidWdxTVFEdktTSkxhaG01MjBfMnZiWS1rQjNpZFNJUExITUlGUzJQeXEwUFkxLW9aN1kxbWk1Tk5VckNtMU9TYVpJZWFPNk9LYmN0RUNzUXJTemlCbWhCVzRrVjhTR1FnalRobHZuSEgtZS0wUS11OWNYako4eHJSYWxIbHJzTmVJdlRNRDNwRVFzNDNid0k2X21HZA?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [],
-      "publishedAt": "2026-11-23T07:45:28.000Z",
-      "lastUpdated": "2026-11-23T07:45:28.000Z",
-      "sourceCheckedAt": "2026-11-26T02:41:58.606Z",
-      "lastVerifiedAt": "2026-11-26T02:41:58.606Z",
-      "intelligenceGeneratedAt": "2026-11-26T02:42:13.951Z",
-      "expiresAt": "2026-11-25T07:45:28.000Z",
-      "lifecycle": "expired",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-43eae389",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-11-26T02:41:58.606Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    },
-    {
-      "id": "accident-developing-three-killed-as-speeding-car-crashes-into-divider-overturns-on-pune-ah",
-      "eventKind": "incident",
-      "sourceId": "ani",
-      "title": "Developing: Three killed as speeding car crashes into divider, overturns on Pune-Ahmednagar Highway",
-      "summary": "A current trusted-media report relevant to Pune District.",
-      "category": "accident",
-      "severity": "watch",
-      "source": "ANI",
-      "sourceTrust": "B",
-      "sources": [
-        {
-          "name": "ANI",
-          "trust": "B",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRkoxOXU0dUYzWUV3TzE1ZHdHSW81V1VRcFhTRHJXNjhoRW5vYW9oXzNQY2VtSTZsRnJXUURHYjI0Q3pCUW01MzVxdWU0blZtSWttRkl4bEctLUtSdS05ZlZFT3VyeTlvclpQNklVcW1UanFhWnlZN0dlSVNKdWxvYnNqazBQRHJYaE5ZSGIyOE1qRHpiYXVzWWZNQ3JrRGRwbWxQclgzNjRXcUVtOWZPaXdVTzEwa0FlM2hQTTBvNTlnamN6akFkNjg1NWl6ZDJjWHBGTTRRZmVhRGNOWFdDWjF4bnQ?oc=5",
-          "origin": "ani"
-        }
-      ],
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRkoxOXU0dUYzWUV3TzE1ZHdHSW81V1VRcFhTRHJXNjhoRW5vYW9oXzNQY2VtSTZsRnJXUURHYjI0Q3pCUW01MzVxdWU0blZtSWttRkl4bEctLUtSdS05ZlZFT3VyeTlvclpQNklVcW1UanFhWnlZN0dlSVNKdWxvYnNqazBQRHJYaE5ZSGIyOE1qRHpiYXVzWWZNQ3JrRGRwbWxQclgzNjRXcUVtOWZPaXdVTzEwa0FlM2hQTTBvNTlnamN6akFkNjg1NWl6ZDJjWHBGTTRRZmVhRGNOWFdDWjF4bnQ?oc=5",
-      "talukas": [],
-      "localities": [],
-      "operationalZones": [
-        "Pune-Ahmednagar Highway"
-      ],
-      "publishedAt": "2026-11-23T08:16:00.000Z",
-      "lastUpdated": "2026-11-23T08:16:00.000Z",
-      "sourceCheckedAt": "2026-11-26T02:41:58.606Z",
-      "lastVerifiedAt": "2026-11-26T02:41:58.606Z",
-      "intelligenceGeneratedAt": "2026-11-26T02:42:13.951Z",
-      "expiresAt": "2026-11-25T08:16:00.000Z",
-      "lifecycle": "expired",
-      "confidence": "Low",
-      "confidenceScore": 35,
-      "impact": "Traffic delays are likely near the incident location.",
-      "recommendedAction": "Avoid the affected stretch if possible.",
-      "affectedArea": "Pune District",
-      "upstreamId": "google-news-63ec5ea4",
-      "collectionProvider": "Google News RSS",
-      "discoveryOnly": true,
-      "reportedAuthority": "",
-      "alertBasis": "",
-      "discoveredAt": "2026-11-26T02:41:58.606Z",
-      "capMessageType": "",
-      "capReferences": "",
-      "coordinates": [],
-      "roadNumbers": [],
-      "geographicScope": "pune_district",
-      "relatedEventIds": [],
-      "independentSourceCount": 1,
-      "corroboratedByIndependentSources": false
-    }
-  ],
+  "expiredEvents": [],
   "sourceHealth": {
     "events": {
       "id": "event_feeds",
       "name": "Alert and incident sources",
       "type": "events",
       "status": "stale",
-      "sourceCheckedAt": "2026-11-26T02:41:58.606Z",
-      "lastSuccessfulAt": "2026-11-26T02:41:58.606Z",
+      "sourceCheckedAt": "2026-11-26T11:31:17.558Z",
+      "lastSuccessfulAt": "2026-11-26T11:31:17.558Z",
       "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
     }
   },
   "environmentalContext": {
     "riverIntelligence": [],
     "seasonalIntelligence": {
-      "generatedAt": "2026-11-26T02:42:14.050Z",
+      "generatedAt": "2026-11-26T11:31:31.995Z",
       "activeSeason": "winter",
       "priorityHazards": [
         "fog",
@@ -718,7 +701,7 @@
       "advice": "Monitor fog, low visibility, cold wave and air quality."
     },
     "geographicIntelligence": {
-      "generatedAt": "2026-11-26T02:42:14.049Z",
+      "generatedAt": "2026-11-26T11:31:31.995Z",
       "model": "administrative-ui-operational-backend",
       "operationalZones": {
         "river_corridors": [
@@ -799,7 +782,7 @@
       "note": "UI remains Region → Taluka → Locality. Operational geography is used only by intelligence engines."
     },
     "criticalInfrastructure": {
-      "generatedAt": "2026-11-26T02:42:14.050Z",
+      "generatedAt": "2026-11-26T11:31:31.995Z",
       "mode": "on-demand",
       "relevantDomains": [
         "highways"
@@ -844,7 +827,7 @@
         "start": "Kharadi",
         "destination": "Hinjawadi",
         "departure": "now",
-        "generatedAt": "2026-11-26T02:42:14.108Z",
+        "generatedAt": "2026-11-26T11:31:32.042Z",
         "bestRoute": {
           "id": "kharadi-hinjawadi-pashan",
           "label": "Kharadi to Hinjawadi via Pashan",
@@ -963,14 +946,14 @@
               "label": "Good to Go",
               "recommendation": "Travel is generally suitable. Allow minor buffer time.",
               "reasons": [
-                "Developing: Pune: Panic Grips Shivajinagar Area After Firing Outside District Court may cause delays or safety concerns."
+                "Developing: Pune Police take six into custody in Shivajinagar Court firing case may cause delays or safety concerns."
               ],
               "penalties": [
                 {
-                  "eventId": "public-safety-developing-pune-panic-grips-shivajinagar-area-after-firing-outside-district-",
+                  "eventId": "public-safety-developing-pune-police-take-six-into-custody-in-shivajinagar-court-firing-ca",
                   "category": "public_safety",
                   "penalty": 20,
-                  "title": "Developing: Pune: Panic Grips Shivajinagar Area After Firing Outside District Court"
+                  "title": "Developing: Pune Police take six into custody in Shivajinagar Court firing case"
                 }
               ]
             },
@@ -979,7 +962,7 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kharadi%20to%20Hinjawadi%20via%20Baner%20Wakad",
             "rank": 2,
             "recommended": false,
-            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Good to Go (80/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Developing: Pune: Panic Grips Shivajinagar Area After Firing Outside District Court may cause delays or safety concerns."
+            "explanation": "Kharadi to Hinjawadi via NH48: Journey suitability is Good to Go (80/100). Estimated travel time is about 73 minutes including around 8 minutes delay. Main reason: Developing: Pune Police take six into custody in Shivajinagar Court firing case may cause delays or safety concerns."
           }
         ]
       },
@@ -988,7 +971,7 @@
         "start": "Pune",
         "destination": "Lonavala",
         "departure": "now",
-        "generatedAt": "2026-11-26T02:42:14.109Z",
+        "generatedAt": "2026-11-26T11:31:32.042Z",
         "bestRoute": {
           "id": "pune-lonavala-expressway",
           "label": "Pune to Lonavala via Mumbai-Pune Expressway",
@@ -1081,7 +1064,7 @@
         "start": "Swargate",
         "destination": "Sinhagad Road",
         "departure": "now",
-        "generatedAt": "2026-11-26T02:42:14.109Z",
+        "generatedAt": "2026-11-26T11:31:32.042Z",
         "bestRoute": {
           "id": "swargate-sinhagad-road",
           "label": "Swargate to Sinhagad Road",
