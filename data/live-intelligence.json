@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-27T03:17:12.236Z",
+  "generatedAt": "2026-11-27T12:58:53.191Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-27T03:16:57.180Z",
-        "lastSuccessfulAt": "2026-11-27T03:16:57.180Z",
+        "sourceCheckedAt": "2026-11-27T12:58:33.108Z",
+        "lastSuccessfulAt": "2026-11-27T12:58:33.108Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-27T03:17:00.442Z",
-        "lastSuccessfulAt": "2026-11-27T03:17:00.442Z",
+        "sourceCheckedAt": "2026-11-27T12:58:36.646Z",
+        "lastSuccessfulAt": "2026-11-27T12:58:36.646Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-27T03:17:00.442Z",
-        "lastSuccessfulAt": "2026-11-26T20:33:15.547Z",
+        "sourceCheckedAt": "2026-11-27T12:58:36.646Z",
+        "lastSuccessfulAt": "2026-11-27T03:17:00.442Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
-        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
+        "sourceCheckedAt": "2026-11-27T12:58:33.511Z",
+        "lastSuccessfulAt": "2026-11-27T12:58:33.511Z",
         "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
-        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
+        "sourceCheckedAt": "2026-11-27T12:58:33.511Z",
+        "lastSuccessfulAt": "2026-11-27T12:58:33.511Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,10 +62,10 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
-        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
+        "sourceCheckedAt": "2026-11-27T12:58:33.511Z",
+        "lastSuccessfulAt": "2026-11-27T12:58:33.511Z",
         "error": null,
-        "etag": "W/\"9014-1795626338885\"",
+        "etag": "W/\"8902-1795783948839\"",
         "itemsCollected": 0,
         "type": "alerts"
       },
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
+        "sourceCheckedAt": "2026-11-27T12:58:33.511Z",
         "lastSuccessfulAt": "2026-11-24T16:28:53.438Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,8 +82,8 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
-        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
+        "sourceCheckedAt": "2026-11-27T12:58:33.511Z",
+        "lastSuccessfulAt": "2026-11-27T12:58:33.511Z",
         "error": null,
         "etag": null,
         "itemsCollected": 1,
@@ -93,8 +93,8 @@
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
-        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
+        "sourceCheckedAt": "2026-11-27T12:58:33.511Z",
+        "lastSuccessfulAt": "2026-11-27T12:58:33.511Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -104,8 +104,8 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
-        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
+        "sourceCheckedAt": "2026-11-27T12:58:33.511Z",
+        "lastSuccessfulAt": "2026-11-27T12:58:33.511Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -115,8 +115,8 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
-        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
+        "sourceCheckedAt": "2026-11-27T12:58:33.511Z",
+        "lastSuccessfulAt": "2026-11-27T12:58:33.511Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -126,8 +126,8 @@
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
-        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
+        "sourceCheckedAt": "2026-11-27T12:58:33.511Z",
+        "lastSuccessfulAt": "2026-11-27T12:58:33.511Z",
         "error": null,
         "itemsCollected": 11,
         "itemsQualified": 11,
@@ -138,8 +138,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-11-27T03:17:00.442Z",
-        "lastSuccessfulAt": "2026-11-27T03:17:00.442Z",
+        "sourceCheckedAt": "2026-11-27T12:58:36.646Z",
+        "lastSuccessfulAt": "2026-11-27T12:58:36.646Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -501,12 +501,21 @@
   "liveReadiness": {
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
-    "alertsAvailable": 0,
-    "incidentsAvailable": 8,
+    "alertsAvailable": 1,
+    "incidentsAvailable": 9,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
   "developingSituations": [
+    {
+      "id": "public-safety-developing-pune-police-take-six-into-custody-in-shivajinagar-court-firing-ca",
+      "title": "Developing: Pune Police take six into custody in Shivajinagar Court firing case",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "ANI",
+      "trust": "B",
+      "updatedAt": "2026-11-26T03:44:00.000Z"
+    },
     {
       "id": "accident-developing-fatal-bopdev-ghat-accident-puts-roadside-bus-stop-safety-under-scanner",
       "title": "Developing: Fatal Bopdev Ghat accident puts roadside bus stop safety under scanner",
@@ -562,13 +571,22 @@
       "updatedAt": "2026-11-26T01:54:58.000Z"
     },
     {
-      "id": "accident-developing-pune-accident-news-राजगुरुनगरजवळ-एसटी-बसच्या-धडकेत-22-वर्षीय-एमपीएससी-",
-      "title": "Developing: Pune Accident News | राजगुरुनगरजवळ एसटी बसच्या धडकेत 22 वर्षीय एमपीएससी विद्यार्थिनीचा मृत्यू",
+      "id": "animal-hazard-developing-woman-killed-in-junnar-leopard-attack-as-forest-minister-reviews-",
+      "title": "Developing: Woman killed in Junnar leopard attack as Forest Minister reviews human-leopard conflict | Hindustan Times",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
-      "source": "News18 Lokmat",
+      "source": "Hindustan Times Pune",
       "trust": "B",
-      "updatedAt": "2026-11-26T03:32:13.000Z"
+      "updatedAt": "2026-11-26T02:09:00.000Z"
+    },
+    {
+      "id": "accident-developing-pune-three-trinity-college-students-dead-two-injured-after-tempo-hits-",
+      "title": "Developing: Pune: Three Trinity College Students Dead, Two Injured After Tempo Hits Bus Stop at Bopdev Ghat",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Punekar News",
+      "trust": "B",
+      "updatedAt": "2026-11-25T14:19:20.000Z"
     },
     {
       "id": "accident-developing-26-year-old-dies-four-friends-injured-as-car-rams-into-tree-in-chinchw",

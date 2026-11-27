@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.0.0",
-  "generatedAt": "2026-11-27T03:17:12.037Z",
+  "generatedAt": "2026-11-27T12:58:52.740Z",
   "routes": [],
   "risks": [
     {
@@ -40,6 +40,19 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
+      "id": "public-safety-developing-pune-police-take-six-into-custody-in-shivajinagar-court-firing-ca",
+      "category": "public_safety",
+      "severity": "warning",
+      "localities": [
+        "Shivajinagar"
+      ],
+      "talukas": [
+        "pune_city"
+      ],
+      "operationalZones": [],
+      "impact": "The incident may create an immediate safety risk in the affected area."
+    },
+    {
       "id": "accident-developing-pune-tempo-rams-into-children-at-bus-stop-three-killed-and-2-criticall",
       "category": "accident",
       "severity": "watch",
@@ -58,7 +71,20 @@
       "impact": "Traffic delays are likely near the incident location."
     },
     {
-      "id": "accident-developing-pune-accident-news-राजगुरुनगरजवळ-एसटी-बसच्या-धडकेत-22-वर्षीय-एमपीएससी-",
+      "id": "animal-hazard-developing-woman-killed-in-junnar-leopard-attack-as-forest-minister-reviews-",
+      "category": "animal_hazard",
+      "severity": "warning",
+      "localities": [
+        "Junnar"
+      ],
+      "talukas": [
+        "junnar"
+      ],
+      "operationalZones": [],
+      "impact": "A reported animal hazard may create a safety or rabies risk nearby."
+    },
+    {
+      "id": "accident-developing-pune-three-trinity-college-students-dead-two-injured-after-tempo-hits-",
       "category": "accident",
       "severity": "watch",
       "localities": [],
