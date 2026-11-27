@@ -1,6 +1,6 @@
 {
   "schemaVersion": "6.1.0",
-  "generatedAt": "2026-11-26T20:33:27.308Z",
+  "generatedAt": "2026-11-27T03:17:12.236Z",
   "status": "partial",
   "releaseMode": "production-user-testing",
   "policy": {
@@ -16,8 +16,8 @@
         "name": "Open-Meteo",
         "type": "weather",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-26T20:33:12.132Z",
-        "lastSuccessfulAt": "2026-11-26T20:33:12.132Z",
+        "sourceCheckedAt": "2026-11-27T03:16:57.180Z",
+        "lastSuccessfulAt": "2026-11-27T03:16:57.180Z",
         "error": null
       },
       {
@@ -25,8 +25,8 @@
         "name": "Maharashtra WRD River & Dam RTDAS",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-26T20:33:15.547Z",
-        "lastSuccessfulAt": "2026-11-26T20:33:15.547Z",
+        "sourceCheckedAt": "2026-11-27T03:17:00.442Z",
+        "lastSuccessfulAt": "2026-11-27T03:17:00.442Z",
         "error": "RTDAS responded, but all configured readings are older than the freshness limit."
       },
       {
@@ -34,8 +34,8 @@
         "name": "Maharashtra WRD Pravah Daily Storage",
         "type": "river",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-26T20:33:15.547Z",
-        "lastSuccessfulAt": "2026-11-26T11:31:20.826Z",
+        "sourceCheckedAt": "2026-11-27T03:17:00.442Z",
+        "lastSuccessfulAt": "2026-11-26T20:33:15.547Z",
         "error": "fetch failed"
       },
       {
@@ -43,16 +43,16 @@
         "name": "Alert and incident sources",
         "type": "events",
         "status": "stale",
-        "sourceCheckedAt": "2026-11-26T20:33:12.365Z",
-        "lastSuccessfulAt": "2026-11-26T20:33:12.365Z",
+        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
+        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
         "error": "indian_express_pune: Indian Express RSS request failed with HTTP 403"
       },
       {
         "id": "imd_nowcast",
         "name": "IMD Pune Nowcast",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-26T20:33:12.365Z",
-        "lastSuccessfulAt": "2026-11-26T20:33:12.365Z",
+        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
+        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -62,8 +62,8 @@
         "id": "ndma_sachet",
         "name": "NDMA SACHET Maharashtra CAP",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-26T20:33:12.365Z",
-        "lastSuccessfulAt": "2026-11-26T20:33:12.365Z",
+        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
+        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
         "error": null,
         "etag": "W/\"9014-1795626338885\"",
         "itemsCollected": 0,
@@ -73,7 +73,7 @@
         "id": "indian_express_pune",
         "name": "Indian Express Pune",
         "status": "unavailable",
-        "sourceCheckedAt": "2026-11-26T20:33:12.365Z",
+        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
         "lastSuccessfulAt": "2026-11-24T16:28:53.438Z",
         "error": "Indian Express RSS request failed with HTTP 403",
         "type": "incidents"
@@ -82,19 +82,19 @@
         "id": "hindustan_times_pune",
         "name": "Hindustan Times Pune",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-26T20:33:12.365Z",
-        "lastSuccessfulAt": "2026-11-26T20:33:12.365Z",
+        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
+        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
         "error": null,
         "etag": null,
-        "itemsCollected": 2,
+        "itemsCollected": 1,
         "type": "incidents"
       },
       {
         "id": "pune_metro",
         "name": "Pune Metro Official Updates",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-26T20:33:12.365Z",
-        "lastSuccessfulAt": "2026-11-26T20:33:12.365Z",
+        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
+        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -104,8 +104,8 @@
         "id": "free_news_api",
         "name": "FreeNewsAPI trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-26T20:33:12.365Z",
-        "lastSuccessfulAt": "2026-11-26T20:33:12.365Z",
+        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
+        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -115,8 +115,8 @@
         "id": "newsdata_io",
         "name": "NewsData.io trusted-media backup",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-26T20:33:12.365Z",
-        "lastSuccessfulAt": "2026-11-26T20:33:12.365Z",
+        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
+        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
         "error": null,
         "etag": null,
         "itemsCollected": 0,
@@ -126,11 +126,11 @@
         "id": "google_news_discovery",
         "name": "Google News trusted-media discovery",
         "status": "healthy",
-        "sourceCheckedAt": "2026-11-26T20:33:12.365Z",
-        "lastSuccessfulAt": "2026-11-26T20:33:12.365Z",
+        "sourceCheckedAt": "2026-11-27T03:16:57.367Z",
+        "lastSuccessfulAt": "2026-11-27T03:16:57.367Z",
         "error": null,
-        "itemsCollected": 8,
-        "itemsQualified": 8,
+        "itemsCollected": 11,
+        "itemsQualified": 11,
         "type": "incidents"
       },
       {
@@ -138,8 +138,8 @@
         "name": "Official River & Dam Intelligence",
         "type": "river",
         "status": "current",
-        "sourceCheckedAt": "2026-11-26T20:33:15.547Z",
-        "lastSuccessfulAt": "2026-11-26T20:33:15.547Z",
+        "sourceCheckedAt": "2026-11-27T03:17:00.442Z",
+        "lastSuccessfulAt": "2026-11-27T03:17:00.442Z",
         "error": "Pravah: fetch failed"
       }
     ],
@@ -501,38 +501,29 @@
   "liveReadiness": {
     "officialSourcesConfigured": 7,
     "trustedMediaSourcesConfigured": 28,
-    "alertsAvailable": 1,
-    "incidentsAvailable": 5,
+    "alertsAvailable": 0,
+    "incidentsAvailable": 8,
     "weatherRegionsAvailable": 5,
     "journeyAssessmentsAvailable": 3
   },
   "developingSituations": [
     {
-      "id": "public-safety-developing-pune-police-take-six-into-custody-in-shivajinagar-court-firing-ca",
-      "title": "Developing: Pune Police take six into custody in Shivajinagar Court firing case",
-      "status": "developing",
-      "confirmation": "Awaiting official confirmation",
-      "source": "ANI",
-      "trust": "B",
-      "updatedAt": "2026-11-26T03:44:00.000Z"
-    },
-    {
-      "id": "accident-developing-3-students-killed-two-injured-after-tempo-rams-into-bus-stop-at-bopdev",
-      "title": "Developing: 3 students killed, two injured after tempo rams into bus stop at Bopdev Ghat",
+      "id": "accident-developing-fatal-bopdev-ghat-accident-puts-roadside-bus-stop-safety-under-scanner",
+      "title": "Developing: Fatal Bopdev Ghat accident puts roadside bus stop safety under scanner",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
       "source": "Hindustan Times Pune",
       "trust": "B",
-      "updatedAt": "2026-11-26T02:11:20.000Z"
+      "updatedAt": "2026-11-27T02:01:30.000Z"
     },
     {
-      "id": "accident-developing-watch-speeding-truck-hits-car-ploughs-into-students-waiting-at-pune-bu",
-      "title": "Developing: Watch: Speeding truck hits car, ploughs into students waiting at Pune bus stop; 3 killed, 2 injured",
+      "id": "accident-developing-3-students-dead-decade-of-warnings-tragedy-at-pune-bus-stop-sparks-ang",
+      "title": "Developing: 3 students dead, decade of warnings: Tragedy at Pune bus stop sparks anger over unsafe road",
       "status": "developing",
       "confirmation": "Awaiting official confirmation",
       "source": "Times of India",
       "trust": "B",
-      "updatedAt": "2026-11-25T13:52:00.000Z"
+      "updatedAt": "2026-11-27T01:35:00.000Z"
     },
     {
       "id": "accident-developing-video-3-dead-6-hurt-as-speeding-truck-runs-over-students-waiting-at-pu",
@@ -544,6 +535,15 @@
       "updatedAt": "2026-11-25T13:49:23.000Z"
     },
     {
+      "id": "accident-developing-watch-speeding-truck-hits-car-ploughs-into-students-waiting-at-pune-bu",
+      "title": "Developing: Watch: Speeding truck hits car, ploughs into students waiting at Pune bus stop; 3 killed, 2 injured",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "Times of India",
+      "trust": "B",
+      "updatedAt": "2026-11-25T13:52:00.000Z"
+    },
+    {
       "id": "accident-developing-pune-tempo-rams-into-children-at-bus-stop-three-killed-and-2-criticall",
       "title": "Developing: Pune tempo rams into children at bus stop, three killed and 2 critically injured",
       "status": "developing",
@@ -551,6 +551,24 @@
       "source": "Moneycontrol",
       "trust": "B",
       "updatedAt": "2026-11-25T17:21:27.000Z"
+    },
+    {
+      "id": "accident-developing-pune-accident-news-बोपदेव-घाटात-भीषण-अपघात-स्टॉपवरील-विद्यार्थ्यांना-ट",
+      "title": "Developing: Pune Accident News | बोपदेव घाटात भीषण अपघात, स्टॉपवरील विद्यार्थ्यांना टेम्पोची धडक",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "News18 Lokmat",
+      "trust": "B",
+      "updatedAt": "2026-11-26T01:54:58.000Z"
+    },
+    {
+      "id": "accident-developing-pune-accident-news-राजगुरुनगरजवळ-एसटी-बसच्या-धडकेत-22-वर्षीय-एमपीएससी-",
+      "title": "Developing: Pune Accident News | राजगुरुनगरजवळ एसटी बसच्या धडकेत 22 वर्षीय एमपीएससी विद्यार्थिनीचा मृत्यू",
+      "status": "developing",
+      "confirmation": "Awaiting official confirmation",
+      "source": "News18 Lokmat",
+      "trust": "B",
+      "updatedAt": "2026-11-26T03:32:13.000Z"
     },
     {
       "id": "accident-developing-26-year-old-dies-four-friends-injured-as-car-rams-into-tree-in-chinchw",
